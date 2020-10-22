@@ -1,11 +1,11 @@
 {
-  "name": "bc-services-prototype",
+  "name": "bc-gng-prototype",
   "version": "1.0.0",
-  "description": "Prototype BC Services A-Z page design",
+  "description": "Prototype Gov Next Gen site",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ty2k/bc-services-prototype.git"
+    "url": "https://github.com/ty2k/bc-gng-prototype.git"
   },
   "scripts": {
     "build": "cd react-app && npm i && npm run build && cd ..",
@@ -17,7 +17,7 @@
   "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
   "license": "",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   },
   "dependencies": {
     "express": "^4.17.1"
