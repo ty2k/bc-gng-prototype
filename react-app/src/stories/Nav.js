@@ -14,11 +14,11 @@ const NavStyled = styled.nav`
   max-height: 52px;
   width: 100%;
 
-  .nav--dark {
+  &.nav--dark {
     background-color: #888888;
   }
 
-  .nav--hidden {
+  &.nav--hidden {
     display: none;
   }
 
