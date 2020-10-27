@@ -8,10 +8,10 @@
     "url": "https://github.com/ty2k/bc-gng-prototype.git"
   },
   "scripts": {
-    "build": "cd react-app && npm i && npm run build && cd ..",
+    "build": "cd react-app && npm i && npm run build",
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && npm run test"
   },
   "keywords": [],
   "author": "Tyler Krys <Tyler.Krys@gov.bc.ca>",
