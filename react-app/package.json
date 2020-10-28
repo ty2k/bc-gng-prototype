@@ -13,7 +13,8 @@
     "react-dom": "^17.0.1",
     "react-highlight-words": "^0.16.0",
     "react-responsive": "^8.1.0",
-    "react-scripts": "3.4.4"
+    "react-scripts": "4.0.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -38,11 +39,21 @@
     "build-storybook": "build-storybook -s public"
   },
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=14.0.0",
     "npm": ">=6.0.0"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.js"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
   },
   "browserslist": [
     "> 1.5%",

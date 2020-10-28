@@ -13,11 +13,11 @@ export default {
 const Template = (args) => <Service {...args} />;
 
 export const InternalLink = Template.bind({});
-ExternalLink.args = {
-  external: true
+InternalLink.args = {
+  external: false,
 };
 
 export const ExternalLink = Template.bind({});
-InternalLink.args = {
-  external: false
+ExternalLink.args = {
+  external: true,
 };
