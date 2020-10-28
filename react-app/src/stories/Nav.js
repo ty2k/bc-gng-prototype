@@ -14,10 +14,6 @@ const NavStyled = styled.nav`
   max-height: 52px;
   width: 100%;
 
-  &.nav--dark {
-    background-color: #888888;
-  }
-
   &.nav--hidden {
     display: none;
   }
@@ -28,10 +24,6 @@ const NavStyled = styled.nav`
     margin: 0;
     max-height: 52px;
     padding: 0;
-  }
-
-  .nav--dark ul {
-    border-bottom-color: #888888;
   }
 
   ul li {
@@ -77,10 +69,6 @@ const NavStyled = styled.nav`
     }
   }
 
-  .nav--dark ul li {
-    color: white;
-  }
-
   ul li:focus {
     border-bottom-color: black;
     outline: 0;
@@ -90,20 +78,14 @@ const NavStyled = styled.nav`
     color: #313132;
   }
 
-  .nav--dark ul li a {
-    color: white;
-  }
-
   form.search {
     display: block;
     margin: 20px;
   }
 `;
 
-export const Nav = ({ dark, hidden, links }) => (
-  <NavStyled
-    className={`${dark ? "nav--dark" : ""} ${hidden ? "nav--hidden" : ""}`}
-  >
+export const Nav = ({ hidden, links }) => (
+  <NavStyled className={hidden ? "nav--hidden" : null}>
     <MediaQuery maxWidth={991}>
       <SearchBar />
       <div className="nav-container--buttons">
@@ -122,13 +104,11 @@ export const Nav = ({ dark, hidden, links }) => (
 );
 
 Nav.propTypes = {
-  dark: PropTypes.bool,
   hidden: PropTypes.bool,
   links: PropTypes.array,
 };
 
 Nav.defaultProps = {
-  dark: false,
   hidden: false,
   links: [
     "Programs & Services",
