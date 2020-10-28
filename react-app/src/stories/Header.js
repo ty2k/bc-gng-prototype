@@ -6,7 +6,8 @@ import styled from "styled-components";
 import { SearchBar } from "./SearchBar";
 import { Nav } from "./Nav";
 import UserPanel from "./UserPanel";
-import { ReactComponent as Logo } from "./assets/BCID_V_rgb_pos.svg";
+import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
+import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 
 const HeaderStyled = styled.header`
@@ -25,7 +26,16 @@ const HeaderStyled = styled.header`
     align-items: center;
   }
 
-  div.wrapper > div > svg#logo {
+  div.wrapper > div > svg {
+    display: inline-block;
+    vertical-align: top;
+  }
+  div.wrapper > div > svg.hlogo {
+    display: inline-block;
+    height: 80px;
+    vertical-align: top;
+  }
+  div.wrapper > div > svg.vlogo {
     display: inline-block;
     height: 80px;
     width: 84px;
@@ -70,7 +80,7 @@ const HeaderStyled = styled.header`
   }
 `;
 
-function Header({ title, userSession }) {
+function Header({ title, govSite, userSession }) {
   const [navHidden, setNavHidden] = useState(true);
 
   function toggleMenu(event) {
@@ -81,7 +91,12 @@ function Header({ title, userSession }) {
     <HeaderStyled>
       <div className="wrapper">
         <div>
-          <Logo id="logo" />
+          {/* External sites use vertical logo to allow for text titles */}
+          {govSite ? (
+            <HLogo id="logo" className="hlogo" />
+          ) : (
+            <VLogo id="logo" className="vlogo" />
+          )}
           <span className="span--title">
             {title ? title : `Government of British Columbia`}
           </span>
@@ -111,10 +126,12 @@ function Header({ title, userSession }) {
 
 Header.propTypes = {
   title: PropTypes.string,
+  govSite: PropTypes.bool.isRequired,
   navHidden: PropTypes.bool.isRequired,
 };
 
 Header.defaultProps = {
+  govSite: true,
   navHidden: true,
 };
 
