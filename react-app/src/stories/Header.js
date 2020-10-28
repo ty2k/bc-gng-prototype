@@ -18,7 +18,6 @@ const HeaderStyled = styled.header`
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     height: 80px;
     justify-content: space-between;
-    padding: 0 10px;
   }
 
   div.wrapper > div {
@@ -48,6 +47,13 @@ const HeaderStyled = styled.header`
     line-height: 1;
     margin: 6px 0 6px 10px;
     display: inline-block;
+  }
+  div.wrapper > div > span.span--title::before {
+    content: "";
+    height: 41px;
+    width: 0px;
+    border-left: 1px solid #707070;
+    padding-left: 20px;
   }
 
   div.wrapper > div > button {
