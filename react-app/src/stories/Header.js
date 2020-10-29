@@ -45,15 +45,14 @@ const HeaderStyled = styled.header`
     font-weight: 900;
     font-size: 21px;
     line-height: 1;
-    margin: 6px 0 6px 10px;
+    margin: 6px 0 6px 20px;
     display: inline-block;
   }
-  div.wrapper > div > span.span--title::before {
+  div.wrapper > div > span.span--title-pipe {
     content: "";
     height: 41px;
     width: 0px;
     border-left: 1px solid #707070;
-    padding-left: 20px;
   }
 
   div.wrapper > div > button {
@@ -97,15 +96,19 @@ function Header({ title, govSite, userSession }) {
     <HeaderStyled>
       <div className="wrapper">
         <div>
-          {/* External sites use vertical logo to allow for text titles */}
+          {/* Satellite sites use vertical logo to allow for text titles */}
           {govSite ? (
             <HLogo id="logo" className="hlogo" />
           ) : (
             <VLogo id="logo" className="vlogo" />
           )}
-          <span className="span--title">
-            {title ? title : `Government of British Columbia`}
-          </span>
+          {/* Satellite sites have a vertical pipe before text title */}
+          {title ? (
+            <>
+              <span className="span--title-pipe"></span>
+              <span className="span--title">{title}</span>
+            </>
+          ) : null}
         </div>
         <div>
           <MediaQuery minWidth={992}>
