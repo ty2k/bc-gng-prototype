@@ -6,7 +6,6 @@ import "./page.css";
 
 export const Page = ({
   title,
-  govSite,
   userSession,
   onLogin,
   onLogout,
@@ -15,7 +14,6 @@ export const Page = ({
   <article>
     <Header
       title={title}
-      govSite={govSite}
       userSession={userSession}
       onLogin={onLogin}
       onLogout={onLogout}
@@ -91,7 +89,7 @@ export const Page = ({
 );
 
 Page.propTypes = {
-  govSite: PropTypes.bool.isRequired,
+  title: PropTypes.string,
   userSession: PropTypes.bool.isRequired,
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
@@ -99,7 +97,6 @@ Page.propTypes = {
 };
 
 Page.defaultProps = {
-  govSite: true,
   userSession: false,
   onLogin: () => {},
   onLogout: () => {},

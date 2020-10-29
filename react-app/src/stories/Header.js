@@ -85,7 +85,7 @@ const HeaderStyled = styled.header`
   }
 `;
 
-function Header({ title, govSite, userSession }) {
+function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(true);
 
   function toggleMenu(event) {
@@ -96,19 +96,16 @@ function Header({ title, govSite, userSession }) {
     <HeaderStyled>
       <div className="wrapper">
         <div>
-          {/* Satellite sites use vertical logo to allow for text titles */}
-          {govSite ? (
-            <HLogo id="logo" className="hlogo" />
-          ) : (
-            <VLogo id="logo" className="vlogo" />
-          )}
-          {/* Satellite sites have a vertical pipe before text title */}
+          {/* Satellite sites use vertical logo and decorative pipe with text title*/}
           {title ? (
             <>
+              <VLogo id="logo" className="vlogo" />
               <span className="span--title-pipe"></span>
               <span className="span--title">{title}</span>
             </>
-          ) : null}
+          ) : (
+            <HLogo id="logo" className="hlogo" />
+          )}
         </div>
         <div>
           <MediaQuery minWidth={992}>
@@ -135,12 +132,10 @@ function Header({ title, govSite, userSession }) {
 
 Header.propTypes = {
   title: PropTypes.string,
-  govSite: PropTypes.bool.isRequired,
   navHidden: PropTypes.bool.isRequired,
 };
 
 Header.defaultProps = {
-  govSite: true,
   navHidden: true,
 };
 
