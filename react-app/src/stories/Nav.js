@@ -8,32 +8,40 @@ import { SearchBar } from "./SearchBar";
 
 const NavStyled = styled.nav`
   background-color: white;
+  display: inline-block;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-  font-size: 16px;
-  height: 54px;
-  max-height: 52px;
-  width: 100%;
+  font-size: 18px;
 
   &.nav--hidden {
     display: none;
   }
 
   ul {
-    border-bottom: 2px solid #d1d1d1;
-    height: 52px;
+    display: inline-block;
+    height: 100%;
     margin: 0;
-    max-height: 52px;
     padding: 0;
   }
 
   ul li {
-    border-bottom: 4px solid transparent;
     display: inline-block;
     color: #313132;
-    height: 50px;
-    line-height: 50px;
-    margin: 0;
-    padding: 0 30px;
+    height: 40x;
+    margin: 0 15px;
+  }
+  ul li.nav--current-page {
+    border-bottom: 10px solid #ffffff;
+    border-top: 10px solid #fcba19;
+  }
+
+  ul li a {
+    color: #313132;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  ul li.nav--current-page a {
+    font-weight: 700;
   }
 
   @media (max-width: 991px) {
@@ -69,15 +77,6 @@ const NavStyled = styled.nav`
     }
   }
 
-  ul li:focus {
-    border-bottom-color: black;
-    outline: 0;
-  }
-
-  ul li a {
-    color: #313132;
-  }
-
   form.search {
     display: block;
     margin: 20px;
@@ -86,6 +85,13 @@ const NavStyled = styled.nav`
 
 export const Nav = ({ hidden, links }) => (
   <NavStyled className={hidden ? "nav--hidden" : null}>
+    <ul>
+      {links.map(({ text, href, current }, index) => (
+        <li key={index} className={current ? "nav--current-page" : null}>
+          <a href={href}>{text}</a>
+        </li>
+      ))}
+    </ul>
     <MediaQuery maxWidth={991}>
       <SearchBar />
       <div className="nav-container--buttons">
@@ -93,13 +99,6 @@ export const Nav = ({ hidden, links }) => (
         <Button primary size="medium" label="Register" />
       </div>
     </MediaQuery>
-    <ul>
-      {links.map((link) => (
-        <li key={link}>
-          <a href="/#">{link}</a>
-        </li>
-      ))}
-    </ul>
   </NavStyled>
 );
 
@@ -111,11 +110,35 @@ Nav.propTypes = {
 Nav.defaultProps = {
   hidden: false,
   links: [
-    "Programs & Services",
-    "Topics",
-    "News",
-    "Public Engagements",
-    "Jobs & MyHR",
-    "Get Help",
+    {
+      text: "Services",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Topics",
+      href: "/#",
+      current: true,
+    },
+    {
+      text: "News",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Public Engagements",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Jobs & HR",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Contact Us",
+      href: "/#",
+      current: false,
+    },
   ],
 };

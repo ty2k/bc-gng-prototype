@@ -13,7 +13,7 @@ import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 const HeaderStyled = styled.header`
   div.wrapper {
     align-items: center;
-    border-bottom: 2px solid #d1d1d1;
+    box-shadow: 0px 3px 6px #d6d6d6;
     display: flex;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     height: 80px;
@@ -107,7 +107,8 @@ function Header({ title, userSession }) {
             <HLogo id="logo" className="hlogo" />
           )}
         </div>
-        <div>
+        <Nav />
+        {/* <div>
           <MediaQuery minWidth={992}>
             <SearchBar />
             <UserPanel userSession={userSession} />
@@ -118,14 +119,14 @@ function Header({ title, userSession }) {
               <span>Menu</span>
             </a>
           </MediaQuery>
-        </div>
+        </div> */}
       </div>
-      <MediaQuery maxWidth={991}>
+      {/* <MediaQuery maxWidth={991}>
         <Nav hidden={navHidden} />
       </MediaQuery>
       <MediaQuery minWidth={992}>
         <Nav />
-      </MediaQuery>
+      </MediaQuery> */}
     </HeaderStyled>
   );
 }
