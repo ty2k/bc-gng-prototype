@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
@@ -15,6 +15,11 @@ const NavStyled = styled.nav`
   height: 80px;
 
   &.nav--hidden {
+    display: none;
+  }
+
+  &.nav--mini {
+    background-color: red;
     display: none;
   }
 
@@ -35,7 +40,7 @@ const NavStyled = styled.nav`
     margin: 0 25px 0 15px;
   }
   ul li.nav--current-page {
-    border-bottom: 10px solid #ffffff;
+    border-bottom: 10px solid transparent;
     border-top: 10px solid #fcba19;
   }
 
@@ -104,31 +109,33 @@ const NavStyled = styled.nav`
   }
 `;
 
-export const Nav = ({ hidden, links }) => (
-  <NavStyled className={hidden ? "nav--hidden" : null}>
-    <ul>
-      {links.map(({ text, href, current }, index) => (
-        <li key={index} className={current ? "nav--current-page" : null}>
-          <a href={href}>{text}</a>
-        </li>
-      ))}
-    </ul>
-    {/* SearchBar with input field hidden initially */}
-    <SearchBar />
-    {/* Login/Register */}
-    <UserPanel />
-    {/* Language selector */}
-    <div className="div--language-select">
-      <a href="/#">English</a>
-    </div>
-    <MediaQuery maxWidth={991}>
-      <div className="nav-container--buttons">
-        <Button size="medium" label="Login" />
-        <Button primary size="medium" label="Register" />
+function Nav({ hidden, links }) {
+  return (
+    <NavStyled className={hidden ? "nav--hidden" : null}>
+      <ul>
+        {links.map(({ text, href, current }, index) => (
+          <li key={index} className={current ? "nav--current-page" : null}>
+            <a href={href}>{text}</a>
+          </li>
+        ))}
+      </ul>
+      {/* SearchBar with input field hidden initially */}
+      <SearchBar />
+      {/* Login/Register */}
+      <UserPanel />
+      {/* Language selector */}
+      <div className="div--language-select">
+        <a href="/#">English</a>
       </div>
-    </MediaQuery>
-  </NavStyled>
-);
+      <MediaQuery maxWidth={991}>
+        <div className="nav-container--buttons">
+          <Button size="medium" label="Login" />
+          <Button primary size="medium" label="Register" />
+        </div>
+      </MediaQuery>
+    </NavStyled>
+  );
+}
 
 Nav.propTypes = {
   hidden: PropTypes.bool,
@@ -170,3 +177,5 @@ Nav.defaultProps = {
     },
   ],
 };
+
+export default Nav;

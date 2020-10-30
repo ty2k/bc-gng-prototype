@@ -1,79 +1,75 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
-import { SearchBar } from "./SearchBar";
-import { Nav } from "./Nav";
+import Nav from "./Nav";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 
 const HeaderStyled = styled.header`
+  background-color: white;
+  box-shadow: 0px 3px 6px #d6d6d6;
+  position: sticky;
+  top: 0;
+
+  /* Header width is full page when not scrolled in desktop */
+  &.header--mini {
+    width: min-content;
+  }
+
   div.wrapper {
     align-items: center;
-    box-shadow: 0px 3px 6px #d6d6d6;
     display: flex;
-    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     height: 80px;
     justify-content: space-between;
   }
 
-  div.wrapper > div {
+  div.wrapper > div.div--title {
+    background-color: white;
     display: flex;
     align-items: center;
   }
 
-  div.wrapper > div > svg {
-    display: inline-block;
-    vertical-align: top;
-  }
-  div.wrapper > div > svg.hlogo {
+  div.wrapper > div.div--title > svg.logo {
     display: inline-block;
     height: 80px;
     vertical-align: top;
   }
-  div.wrapper > div > svg.vlogo {
-    display: inline-block;
-    height: 80px;
+  div.wrapper > div.div--title > svg.vlogo {
     width: 84px;
-    vertical-align: top;
   }
 
-  div.wrapper > div > span.span--title {
+  div.wrapper > div.div--title > span.span--title {
     font-weight: 900;
     font-size: 21px;
     line-height: 1;
     margin: 6px 0 6px 20px;
     display: inline-block;
   }
-  div.wrapper > div > span.span--title-pipe {
+  div.wrapper > div.div--title > span.span--title-pipe {
     content: "";
     height: 41px;
     width: 0px;
     border-left: 1px solid #707070;
   }
 
-  div.wrapper > div > button {
-    margin-left: 11px;
+  div.wrapper > div.div--menu-icon {
+    background-color: #f2f2f2;
+    height: 80px;
+    margin-left: 20px;
   }
-  div.wrapper > div > button:first-of-type {
-    margin-left: 32px;
-  }
-  div.wrapper > div > button:last-of-type {
-    margin-right: 11px;
-  }
-
-  div.wrapper > div > a#menu-icon {
+  div.wrapper > div.div--menu-icon > a#menu-icon {
     text-decoration: none;
   }
-  div.wrapper > div > a#menu-icon span {
+  div.wrapper > div.div--menu-icon > a#menu-icon span {
     color: #313132;
     display: block;
     font-size: 15px;
     text-align: center;
   }
-  div.wrapper > div > a#menu-icon svg {
+  div.wrapper > div.div--menu-icon > a#menu-icon svg {
     box-sizing: border-box;
     color: #313132;
     display: block;
@@ -86,27 +82,42 @@ const HeaderStyled = styled.header`
 
 function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(true);
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
+  }, []);
 
   function toggleMenu(event) {
     setNavHidden(!navHidden);
   }
 
   return (
-    <HeaderStyled>
+    <HeaderStyled className={scroll ? "header--mini" : null}>
       <div className="wrapper">
-        <div>
+        <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title*/}
           {title ? (
             <>
-              <VLogo id="logo" className="vlogo" />
+              <VLogo id="logo" className="logo vlogo" />
               <span className="span--title-pipe"></span>
               <span className="span--title">{title}</span>
             </>
           ) : (
-            <HLogo id="logo" className="hlogo" />
+            <HLogo id="logo" className="logo hlogo" />
           )}
         </div>
-        <Nav />
+        <Nav hidden={scroll} />
+        {scroll ? (
+          <div className="div--menu-icon">
+            <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">
+              <HamburgerIcon />
+              <span>Menu</span>
+            </a>
+          </div>
+        ) : null}
         {/* <div>
           <MediaQuery minWidth={992}>
             <SearchBar />
