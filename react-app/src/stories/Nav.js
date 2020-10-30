@@ -5,12 +5,14 @@ import styled from "styled-components";
 
 import { Button } from "./Button";
 import { SearchBar } from "./SearchBar";
+import UserPanel from "./UserPanel";
 
 const NavStyled = styled.nav`
   background-color: white;
-  display: inline-block;
+  display: flex;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
+  height: 80px;
 
   &.nav--hidden {
     display: none;
@@ -98,6 +100,7 @@ export const Nav = ({ hidden, links }) => (
     {/* SearchBar with input field hidden initially */}
     <SearchBar />
     {/* Login/Register */}
+    <UserPanel />
     {/* Language selector */}
     <MediaQuery maxWidth={991}>
       <div className="nav-container--buttons">
@@ -119,12 +122,12 @@ Nav.defaultProps = {
     {
       text: "Services",
       href: "/#",
-      current: false,
+      current: true,
     },
     {
       text: "Topics",
       href: "/#",
-      current: true,
+      current: false,
     },
     {
       text: "News",

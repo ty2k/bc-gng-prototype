@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 import { SearchBar } from "./SearchBar";
 import { Nav } from "./Nav";
-import UserPanel from "./UserPanel";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
