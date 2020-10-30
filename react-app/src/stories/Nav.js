@@ -86,6 +86,22 @@ const NavStyled = styled.nav`
     display: block;
     margin: 20px;
   }
+
+  div.div--language-select {
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    display: flex;
+    padding-right: 30px;
+  }
+  div.div--language-select > a {
+    color: #313132;
+    text-decoration: none;
+  }
+  div.div--language-select > a::after {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIHN0eWxlPSItbXMtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxwYXRoIGQ9Ik0yNTYgMjk0LjFMMzgzIDE2N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjMgMjQuNiAwIDM0TDI3MyAzNDVjLTkuMSA5LjEtMjMuNyA5LjMtMzMuMS43TDk1IDIwMS4xYy00LjctNC43LTctMTAuOS03LTE3czIuMy0xMi4zIDctMTdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsMTI3LjEgMTI3eiIgZmlsbD0iY3VycmVudGNvbG9yIi8+PC9zdmc+Cg==");
+    padding-left: 5px;
+  }
 `;
 
 export const Nav = ({ hidden, links }) => (
@@ -102,6 +118,9 @@ export const Nav = ({ hidden, links }) => (
     {/* Login/Register */}
     <UserPanel />
     {/* Language selector */}
+    <div className="div--language-select">
+      <a href="/#">English</a>
+    </div>
     <MediaQuery maxWidth={991}>
       <div className="nav-container--buttons">
         <Button size="medium" label="Login" />
