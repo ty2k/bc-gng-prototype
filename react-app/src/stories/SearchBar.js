@@ -1,22 +1,28 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const SearchForm = styled.form`
-  border: 1px solid #707070;
+  align-self: center;
+  background-color: #f2f2f2;
   border-radius: 0px;
   box-sizing: border-box;
   display: inline-block;
-  height: 44px;
+  height: 80px;
 
   input[type="search"] {
     border: 0;
     display: inline-block;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 16px;
-    height: 42px;
+    height: 44px;
     padding: 5px;
     vertical-align: middle;
     width: calc(100% - 44px);
+  }
+
+  &.form--input-hidden > input[type="search"] {
+    display: none;
   }
 
   button.button--search {
@@ -28,17 +34,31 @@ const SearchForm = styled.form`
     background-position: center;
     border: 0;
     display: inline-block;
-    height: 42px;
-    margin: 0;
+    height: 44px;
+    margin: 18px;
     padding: 0;
     vertical-align: middle;
     width: 44px;
   }
 `;
 
-export const SearchBar = () => (
-  <SearchForm className="search">
+export const SearchBar = ({ inputHidden }) => (
+  <SearchForm className={inputHidden ? "form--input-hidden" : null}>
     <input type="search" aria-label="Search" />
-    <button className="button--search" type="submit" />
+    <button
+      className="button--search"
+      type="submit"
+      onClick={(e) => {
+        e.preventDefault();
+      }}
+    />
   </SearchForm>
 );
+
+SearchBar.propTypes = {
+  inputHidden: PropTypes.bool,
+};
+
+SearchBar.defaultProps = {
+  inputHidden: true,
+};

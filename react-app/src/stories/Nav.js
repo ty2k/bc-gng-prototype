@@ -29,6 +29,9 @@ const NavStyled = styled.nav`
     height: 40x;
     margin: 0 15px;
   }
+  ul li:last-child {
+    margin: 0 25px 0 15px;
+  }
   ul li.nav--current-page {
     border-bottom: 10px solid #ffffff;
     border-top: 10px solid #fcba19;
@@ -92,8 +95,11 @@ export const Nav = ({ hidden, links }) => (
         </li>
       ))}
     </ul>
+    {/* SearchBar with input field hidden initially */}
+    <SearchBar />
+    {/* Login/Register */}
+    {/* Language selector */}
     <MediaQuery maxWidth={991}>
-      <SearchBar />
       <div className="nav-container--buttons">
         <Button size="medium" label="Login" />
         <Button primary size="medium" label="Register" />
