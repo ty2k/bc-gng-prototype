@@ -71,10 +71,10 @@ const HeaderStyled = styled.header`
   }
   div.wrapper > div.div--menu-icon > a#menu-icon svg {
     box-sizing: border-box;
-    color: #313132;
+    color: #888888;
     display: block;
     height: 44px;
-    margin: 0 10px;
+    margin: 18px 0;
     padding: 0 10px;
     width: 44px;
   }
@@ -114,7 +114,6 @@ function Header({ title, userSession }) {
           <div className="div--menu-icon">
             <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">
               <HamburgerIcon />
-              <span>Menu</span>
             </a>
           </div>
         ) : null}
