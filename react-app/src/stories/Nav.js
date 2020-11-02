@@ -129,8 +129,13 @@ function Nav({ hidden, links }) {
       </div>
       <MediaQuery maxWidth={991}>
         <div className="nav-container--buttons">
-          <Button size="medium" label="Login" />
-          <Button primary size="medium" label="Register" />
+          <Button size="medium" label="Login" aria-label="Login" />
+          <Button
+            primary
+            size="medium"
+            label="Register"
+            aria-label="Register"
+          />
         </div>
       </MediaQuery>
     </NavStyled>

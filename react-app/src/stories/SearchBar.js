@@ -46,6 +46,7 @@ export const SearchBar = ({ inputHidden }) => (
   <SearchForm className={inputHidden ? "form--input-hidden" : null}>
     <input type="search" aria-label="Search" />
     <button
+      aria-label="Search"
       className="button--search"
       type="submit"
       onClick={(e) => {
