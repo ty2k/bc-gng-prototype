@@ -89,6 +89,7 @@ export const Page = ({
 );
 
 Page.propTypes = {
+  title: PropTypes.string,
   userSession: PropTypes.bool.isRequired,
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,

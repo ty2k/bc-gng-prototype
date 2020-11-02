@@ -1,47 +1,57 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import { Button } from "./Button";
 import { SearchBar } from "./SearchBar";
+import UserPanel from "./UserPanel";
 
 const NavStyled = styled.nav`
   background-color: white;
+  display: flex;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-  font-size: 16px;
-  height: 54px;
-  max-height: 52px;
-  width: 100%;
-
-  &.nav--dark {
-    background-color: #888888;
-  }
+  font-size: 18px;
+  height: 80px;
 
   &.nav--hidden {
     display: none;
   }
 
+  &.nav--mini {
+    background-color: red;
+    display: none;
+  }
+
   ul {
-    border-bottom: 2px solid #d1d1d1;
-    height: 52px;
+    display: inline-block;
+    height: 100%;
     margin: 0;
-    max-height: 52px;
     padding: 0;
   }
 
-  .nav--dark ul {
-    border-bottom-color: #888888;
-  }
-
   ul li {
-    border-bottom: 4px solid transparent;
     display: inline-block;
     color: #313132;
-    height: 50px;
-    line-height: 50px;
-    margin: 0;
-    padding: 0 30px;
+    height: 40x;
+    margin: 0 15px;
+  }
+  ul li:last-child {
+    margin: 0 25px 0 15px;
+  }
+  ul li.nav--current-page {
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #fcba19;
+  }
+
+  ul li a {
+    color: #313132;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  ul li.nav--current-page a {
+    font-weight: 700;
   }
 
   @media (max-width: 991px) {
@@ -77,65 +87,95 @@ const NavStyled = styled.nav`
     }
   }
 
-  .nav--dark ul li {
-    color: white;
-  }
-
-  ul li:focus {
-    border-bottom-color: black;
-    outline: 0;
-  }
-
-  ul li a {
-    color: #313132;
-  }
-
-  .nav--dark ul li a {
-    color: white;
-  }
-
   form.search {
     display: block;
     margin: 20px;
   }
+
+  div.div--language-select {
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    display: flex;
+    padding-right: 30px;
+  }
+  div.div--language-select > a {
+    color: #313132;
+    text-decoration: none;
+  }
+  div.div--language-select > a::after {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIHN0eWxlPSItbXMtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxwYXRoIGQ9Ik0yNTYgMjk0LjFMMzgzIDE2N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjMgMjQuNiAwIDM0TDI3MyAzNDVjLTkuMSA5LjEtMjMuNyA5LjMtMzMuMS43TDk1IDIwMS4xYy00LjctNC43LTctMTAuOS03LTE3czIuMy0xMi4zIDctMTdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsMTI3LjEgMTI3eiIgZmlsbD0iY3VycmVudGNvbG9yIi8+PC9zdmc+Cg==");
+    padding-left: 5px;
+  }
 `;
 
-export const Nav = ({ dark, hidden, links }) => (
-  <NavStyled
-    className={`${dark ? "nav--dark" : ""} ${hidden ? "nav--hidden" : ""}`}
-  >
-    <MediaQuery maxWidth={991}>
+function Nav({ hidden, links }) {
+  return (
+    <NavStyled className={hidden ? "nav--hidden" : null}>
+      <ul>
+        {links.map(({ text, href, current }, index) => (
+          <li key={index} className={current ? "nav--current-page" : null}>
+            <a href={href}>{text}</a>
+          </li>
+        ))}
+      </ul>
+      {/* SearchBar with input field hidden initially */}
       <SearchBar />
-      <div className="nav-container--buttons">
-        <Button size="medium" label="Login" />
-        <Button primary size="medium" label="Register" />
+      {/* Login/Register */}
+      <UserPanel />
+      {/* Language selector */}
+      <div className="div--language-select">
+        <a href="/#">English</a>
       </div>
-    </MediaQuery>
-    <ul>
-      {links.map((link) => (
-        <li key={link}>
-          <a href="/#">{link}</a>
-        </li>
-      ))}
-    </ul>
-  </NavStyled>
-);
+      <MediaQuery maxWidth={991}>
+        <div className="nav-container--buttons">
+          <Button size="medium" label="Login" />
+          <Button primary size="medium" label="Register" />
+        </div>
+      </MediaQuery>
+    </NavStyled>
+  );
+}
 
 Nav.propTypes = {
-  dark: PropTypes.bool,
   hidden: PropTypes.bool,
   links: PropTypes.array,
 };
 
 Nav.defaultProps = {
-  dark: false,
   hidden: false,
   links: [
-    "Programs & Services",
-    "Topics",
-    "News",
-    "Public Engagements",
-    "Jobs & MyHR",
-    "Get Help",
+    {
+      text: "Services",
+      href: "/#",
+      current: true,
+    },
+    {
+      text: "Topics",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "News",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Public Engagements",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Jobs & HR",
+      href: "/#",
+      current: false,
+    },
+    {
+      text: "Contact Us",
+      href: "/#",
+      current: false,
+    },
   ],
 };
+
+export default Nav;
