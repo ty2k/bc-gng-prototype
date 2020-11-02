@@ -60,16 +60,23 @@ const HeaderStyled = styled.header`
     height: 80px;
     margin-left: 20px;
   }
-  div.wrapper > div.div--menu-icon > a#menu-icon {
+  div.wrapper > div.div--menu-icon > button#menu-icon {
+    appearance: none;
+    border: 0;
+    padding: 0;
     text-decoration: none;
   }
-  div.wrapper > div.div--menu-icon > a#menu-icon span {
+  div.wrapper > div.div--menu-icon > button#menu-icon:focus {
+    outline: 4px solid #3b99fc;
+    outline-offset: 1px;
+  }
+  div.wrapper > div.div--menu-icon > button#menu-icon span {
     color: #313132;
     display: block;
     font-size: 15px;
     text-align: center;
   }
-  div.wrapper > div.div--menu-icon > a#menu-icon svg {
+  div.wrapper > div.div--menu-icon > button#menu-icon svg {
     box-sizing: border-box;
     color: #888888;
     display: block;
@@ -81,27 +88,29 @@ const HeaderStyled = styled.header`
 `;
 
 function Header({ title, userSession }) {
-  const [navHidden, setNavHidden] = useState(true);
+  const [navHidden, setNavHidden] = useState(false);
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 50);
+      setScroll(window.scrollY > window.innerHeight / 2);
+      setNavHidden(window.scrollY > window.innerHeight / 2);
     });
   }, []);
 
   function toggleMenu(event) {
+    console.log(event);
     setNavHidden(!navHidden);
   }
 
   return (
-    <HeaderStyled className={scroll ? "header--mini" : null}>
+    <HeaderStyled className={scroll && navHidden ? "header--mini" : null}>
       <div className="wrapper">
         <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title*/}
           {title ? (
             <>
-              <VLogo id="logo" className="logo vlogo" />
+              <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
               <span className="span--title-pipe"></span>
               <span className="span--title">{title}</span>
             </>
@@ -109,12 +118,16 @@ function Header({ title, userSession }) {
             <HLogo id="logo" className="logo hlogo" />
           )}
         </div>
-        <Nav hidden={scroll} />
-        {scroll ? (
+        <Nav hidden={navHidden} />
+        {scroll && navHidden ? (
           <div className="div--menu-icon">
-            <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">
+            <button
+              aria-label="Open the menu"
+              id="menu-icon"
+              onClick={(event) => toggleMenu(event)}
+            >
               <HamburgerIcon />
-            </a>
+            </button>
           </div>
         ) : null}
         {/* <div>
@@ -146,7 +159,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  navHidden: true,
+  navHidden: false,
 };
 
 export default Header;
