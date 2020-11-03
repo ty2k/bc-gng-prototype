@@ -4,6 +4,7 @@ import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import Nav from "./Nav";
+import Alert from "./Alert";
 import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
@@ -11,7 +12,6 @@ import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 
 const HeaderStyled = styled.header`
   background-color: white;
-  box-shadow: 0px 3px 6px #d6d6d6;
   position: sticky;
   top: 0;
 
@@ -23,6 +23,7 @@ const HeaderStyled = styled.header`
 
   div.wrapper {
     align-items: center;
+    box-shadow: 0px 3px 6px #d6d6d6;
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -121,7 +122,7 @@ const HeaderStyled = styled.header`
   }
 `;
 
-function Header({ title, userSession }) {
+function Header({ title, userSession, alertMessages }) {
   const [navHidden, setNavHidden] = useState(false);
 
   const MINIMUM_SCROLL = window.innerHeight / 2;
@@ -179,33 +180,30 @@ function Header({ title, userSession }) {
             </button>
           </div>
         ) : null}
-        {/* <div>
-          <MediaQuery minWidth={992}>
-            <SearchBar />
-            <UserPanel userSession={userSession} />
-          </MediaQuery>
-          <MediaQuery maxWidth={991}>
-            <a href="/#" onClick={(event) => toggleMenu(event)} id="menu-icon">
-              <HamburgerIcon />
-              <span>Menu</span>
-            </a>
-          </MediaQuery>
-        </div> */}
       </div>
-      {/* <MediaQuery maxWidth={991}>
-        <Nav hidden={navHidden} />
-      </MediaQuery>
-      <MediaQuery minWidth={992}>
-        <Nav />
-      </MediaQuery> */}
+      {alertMessages.map((alertMessage) => {
+        return <Alert navHidden message={alertMessage.message} />;
+      })}
     </HeaderStyled>
   );
 }
 
 Header.propTypes = {
+  alertMessages: PropTypes.arrayOf(
+    PropTypes.shape({
+      message: PropTypes.string.isRequired,
+    })
+  ),
   title: PropTypes.string,
 };
 
-Header.defaultProps = {};
+Header.defaultProps = {
+  alertMessages: [
+    {
+      message:
+        "B.C. has declared a state of emergency. Learn about COVID-19 health issues. | B.C.’s response to COVID-19.",
+    },
+  ],
+};
 
 export default Header;
