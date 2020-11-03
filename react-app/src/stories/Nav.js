@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
@@ -15,11 +15,6 @@ const NavStyled = styled.nav`
   height: 80px;
 
   &.nav--hidden {
-    display: none;
-  }
-
-  &.nav--mini {
-    background-color: red;
     display: none;
   }
 
@@ -129,8 +124,13 @@ function Nav({ hidden, links }) {
       </div>
       <MediaQuery maxWidth={991}>
         <div className="nav-container--buttons">
-          <Button size="medium" label="Login" />
-          <Button primary size="medium" label="Register" />
+          <Button size="medium" label="Login" aria-label="Login" />
+          <Button
+            primary
+            size="medium"
+            label="Register"
+            aria-label="Register"
+          />
         </div>
       </MediaQuery>
     </NavStyled>

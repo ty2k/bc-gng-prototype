@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import Nav from "./Nav";
+import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
@@ -16,6 +17,7 @@ const HeaderStyled = styled.header`
 
   /* Header width is full page when not scrolled in desktop */
   &.header--mini {
+    max-width: 284px;
     width: min-content;
   }
 
@@ -25,11 +27,24 @@ const HeaderStyled = styled.header`
     height: 80px;
     justify-content: space-between;
   }
+  &.header--mini {
+    div.wrapper {
+      align-items: stretch;
+      height: auto;
+    }
+  }
 
   div.wrapper > div.div--title {
     background-color: white;
     display: flex;
     align-items: center;
+  }
+  &.header--mini {
+    div.wrapper > div.div--title {
+      flex-direction: column;
+      max-width: 240px;
+      text-align: center;
+    }
   }
 
   div.wrapper > div.div--title > svg.logo {
@@ -40,13 +55,25 @@ const HeaderStyled = styled.header`
   div.wrapper > div.div--title > svg.vlogo {
     width: 84px;
   }
+  &.header--mini {
+    div.wrapper > div.div--title > svg.logo {
+      padding: 0 20px;
+    }
+  }
 
   div.wrapper > div.div--title > span.span--title {
     font-weight: 900;
     font-size: 21px;
     line-height: 1;
-    margin: 6px 0 6px 20px;
+    margin: 6px 20px;
     display: inline-block;
+  }
+  &.header--mini {
+    div.wrapper > div.div--title > span.span--title {
+      margin: 6px 20px 12px 20px;
+      max-width: 228px;
+      width: 228px;
+    }
   }
   div.wrapper > div.div--title > span.span--title-pipe {
     content: "";
@@ -54,14 +81,21 @@ const HeaderStyled = styled.header`
     width: 0px;
     border-left: 1px solid #707070;
   }
+  &.header--mini {
+    div.wrapper > div.div--title > span.span--title-pipe {
+      display: none;
+    }
+  }
 
   div.wrapper > div.div--menu-icon {
     background-color: #f2f2f2;
-    height: 80px;
-    margin-left: 20px;
+    display: flex;
+    height: auto;
+    /* margin-left: 20px; */
   }
   div.wrapper > div.div--menu-icon > button#menu-icon {
     appearance: none;
+    background: none;
     border: 0;
     padding: 0;
     text-decoration: none;
@@ -89,42 +123,57 @@ const HeaderStyled = styled.header`
 
 function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(false);
-  const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > window.innerHeight / 2);
-      setNavHidden(window.scrollY > window.innerHeight / 2);
-    });
-  }, []);
+  const MINIMUM_SCROLL = window.innerHeight / 2;
+
+  useDocumentScrollThrottled((callbackData) => {
+    const { previousScrollTop, currentScrollTop } = callbackData;
+    const isScrolledDown = previousScrollTop < currentScrollTop;
+    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
+
+    setNavHidden(isScrolledDown && isMinimumScrolled);
+  });
 
   function toggleMenu(event) {
-    console.log(event);
-    setNavHidden(!navHidden);
+    setNavHidden(() => {
+      return false;
+    });
   }
 
   return (
-    <HeaderStyled className={scroll && navHidden ? "header--mini" : null}>
+    <HeaderStyled className={navHidden ? "header--mini" : null}>
       <div className="wrapper">
         <div className="div--title">
-          {/* Satellite sites use vertical logo and decorative pipe with text title*/}
+          {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
           {title ? (
             <>
-              <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
-              <span className="span--title-pipe"></span>
-              <span className="span--title">{title}</span>
+              {navHidden ? (
+                <>
+                  <HLogo id="logo" className="logo hlogo" />
+                  <span className="span--title-pipe"></span>
+                  <span className="span--title">{title}</span>
+                </>
+              ) : (
+                <>
+                  <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
+                  <span className="span--title-pipe"></span>
+                  <span className="span--title">{title}</span>
+                </>
+              )}
             </>
           ) : (
             <HLogo id="logo" className="logo hlogo" />
           )}
         </div>
         <Nav hidden={navHidden} />
-        {scroll && navHidden ? (
+        {navHidden ? (
           <div className="div--menu-icon">
             <button
               aria-label="Open the menu"
               id="menu-icon"
-              onClick={(event) => toggleMenu(event)}
+              onClick={(e) => {
+                toggleMenu(e);
+              }}
             >
               <HamburgerIcon />
             </button>
@@ -155,11 +204,8 @@ function Header({ title, userSession }) {
 
 Header.propTypes = {
   title: PropTypes.string,
-  navHidden: PropTypes.bool.isRequired,
 };
 
-Header.defaultProps = {
-  navHidden: false,
-};
+Header.defaultProps = {};
 
 export default Header;

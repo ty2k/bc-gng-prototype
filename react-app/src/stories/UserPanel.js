@@ -11,7 +11,7 @@ const UserPanelStyled = styled.div`
   a.a--login-register {
     color: #313132;
     font-size: 16px;
-    padding-right: 30px;
+    margin-right: 30px;
     text-decoration: none;
   }
   a.a--login-register::before {
