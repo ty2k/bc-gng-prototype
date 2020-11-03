@@ -16,6 +16,7 @@ const HeaderStyled = styled.header`
 
   /* Header width is full page when not scrolled in desktop */
   &.header--mini {
+    max-width: 284px;
     width: min-content;
   }
 
@@ -25,11 +26,24 @@ const HeaderStyled = styled.header`
     height: 80px;
     justify-content: space-between;
   }
+  &.header--mini {
+    div.wrapper {
+      align-items: stretch;
+      height: auto;
+    }
+  }
 
   div.wrapper > div.div--title {
     background-color: white;
     display: flex;
     align-items: center;
+  }
+  &.header--mini {
+    div.wrapper > div.div--title {
+      flex-direction: column;
+      max-width: 240px;
+      text-align: center;
+    }
   }
 
   div.wrapper > div.div--title > svg.logo {
@@ -40,13 +54,24 @@ const HeaderStyled = styled.header`
   div.wrapper > div.div--title > svg.vlogo {
     width: 84px;
   }
+  &.header--mini {
+    div.wrapper > div.div--title > svg.logo {
+      padding: 0 20px;
+    }
+  }
 
   div.wrapper > div.div--title > span.span--title {
     font-weight: 900;
     font-size: 21px;
     line-height: 1;
-    margin: 6px 0 6px 20px;
+    margin: 6px 20px;
     display: inline-block;
+  }
+  &.header--mini {
+    div.wrapper > div.div--title > span.span--title {
+      max-width: 228px;
+      width: 228px;
+    }
   }
   div.wrapper > div.div--title > span.span--title-pipe {
     content: "";
@@ -54,14 +79,21 @@ const HeaderStyled = styled.header`
     width: 0px;
     border-left: 1px solid #707070;
   }
+  &.header--mini {
+    div.wrapper > div.div--title > span.span--title-pipe {
+      display: none;
+    }
+  }
 
   div.wrapper > div.div--menu-icon {
     background-color: #f2f2f2;
-    height: 80px;
-    margin-left: 20px;
+    display: flex;
+    height: auto;
+    /* margin-left: 20px; */
   }
   div.wrapper > div.div--menu-icon > button#menu-icon {
     appearance: none;
+    background: none;
     border: 0;
     padding: 0;
     text-decoration: none;
@@ -107,7 +139,7 @@ function Header({ title, userSession }) {
     <HeaderStyled className={scroll && navHidden ? "header--mini" : null}>
       <div className="wrapper">
         <div className="div--title">
-          {/* Satellite sites use vertical logo and decorative pipe with text title*/}
+          {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
           {title ? (
             <>
               <VLogo id="logo" className="logo vlogo" aria-hidden="true" />

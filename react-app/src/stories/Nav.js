@@ -18,11 +18,6 @@ const NavStyled = styled.nav`
     display: none;
   }
 
-  &.nav--mini {
-    background-color: red;
-    display: none;
-  }
-
   ul {
     display: inline-block;
     height: 100%;
