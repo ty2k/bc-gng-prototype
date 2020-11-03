@@ -142,9 +142,19 @@ function Header({ title, userSession }) {
           {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
           {title ? (
             <>
-              <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
-              <span className="span--title-pipe"></span>
-              <span className="span--title">{title}</span>
+              {navHidden ? (
+                <>
+                  <HLogo id="logo" className="logo hlogo" />
+                  <span className="span--title-pipe"></span>
+                  <span className="span--title">{title}</span>
+                </>
+              ) : (
+                <>
+                  <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
+                  <span className="span--title-pipe"></span>
+                  <span className="span--title">{title}</span>
+                </>
+              )}
             </>
           ) : (
             <HLogo id="logo" className="logo hlogo" />
