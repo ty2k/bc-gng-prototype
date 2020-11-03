@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
@@ -10,7 +10,7 @@ const StyledAlert = styled.div`
   color: white;
   display: block;
   font-size: 18px;
-  min-height: 44px;
+  height: 44px;
   width: 100%;
 
   &.hidden {
@@ -26,7 +26,7 @@ const StyledAlert = styled.div`
 
   p.p--alert {
     display: inline-block;
-    margin: 10px 0;
+    margin: 0;
     vertical-align: middle;
   }
 
@@ -48,11 +48,19 @@ const StyledAlert = styled.div`
 `;
 
 function Alert({ alertListIndex, alertHidden, navHidden, message }) {
+  const [shouldHideAlert, setShouldHideAlert] = useState(false);
+
+  function toggleAlert(event) {
+    setShouldHideAlert(() => {
+      return true;
+    });
+  }
+
   return (
     <StyledAlert
       role="alert"
       aria-controls={`button-close-alert-${alertListIndex}`}
-      className={alertHidden ? "hidden" : null}
+      className={navHidden || alertHidden || shouldHideAlert ? "hidden" : null}
     >
       <InfoIcon className="svg--info" />
       <p className="p--alert">{message}</p>
@@ -60,6 +68,9 @@ function Alert({ alertListIndex, alertHidden, navHidden, message }) {
         aria-label="Close alert message"
         className="button--close-alert"
         id={`button-close-alert-${alertListIndex}`}
+        onClick={(e) => {
+          toggleAlert(e);
+        }}
       >
         <CloseIcon className="svg--close" />
       </button>

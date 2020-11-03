@@ -9,6 +9,7 @@ import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
+import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circle.svg";
 
 const HeaderStyled = styled.header`
   background-color: white;
@@ -17,6 +18,7 @@ const HeaderStyled = styled.header`
 
   /* Header width is full page when not scrolled in desktop */
   &.header--mini {
+    min-height: 125px; // Must be larger than Header + Alert for collapse
     max-width: 284px;
     width: min-content;
   }
@@ -88,42 +90,49 @@ const HeaderStyled = styled.header`
     }
   }
 
-  div.wrapper > div.div--menu-icon {
-    background-color: #f2f2f2;
+  div.wrapper > div.div--header-mini-icons {
     display: flex;
+    flex-direction: column;
     height: auto;
-    /* margin-left: 20px; */
   }
-  div.wrapper > div.div--menu-icon > button#menu-icon {
+  div.wrapper > div.div--header-mini-icons > button {
     appearance: none;
     background: none;
     border: 0;
     padding: 0;
     text-decoration: none;
+    width: 44px;
   }
-  div.wrapper > div.div--menu-icon > button#menu-icon:focus {
+  div.wrapper > div.div--header-mini-icons > button:focus {
     outline: 4px solid #3b99fc;
     outline-offset: 1px;
   }
-  div.wrapper > div.div--menu-icon > button#menu-icon span {
-    color: #313132;
-    display: block;
-    font-size: 15px;
-    text-align: center;
-  }
-  div.wrapper > div.div--menu-icon > button#menu-icon svg {
+  div.wrapper > div.div--header-mini-icons > button svg {
     box-sizing: border-box;
-    color: #888888;
-    display: block;
     height: 44px;
-    margin: 18px 0;
-    padding: 0 10px;
+    padding: 7px;
     width: 44px;
+  }
+  div.wrapper > div.div--header-mini-icons > button#menu-icon {
+    background-color: #f2f2f2;
+    color: #888888;
+    height: 100%;
+  }
+  div.wrapper > div.div--header-mini-icons > button#menu-icon svg {
+    padding: 9px;
+  }
+  div.wrapper > div.div--header-mini-icons > button#info-icon {
+    background-color: #5f9cd8;
+    color: white;
+  }
+  div.wrapper > div.div--header-mini-icons > button#info-icon svg {
+    padding: 7px;
   }
 `;
 
 function Header({ title, userSession, alertMessages }) {
   const [navHidden, setNavHidden] = useState(false);
+  const [alertHidden, setAlertHidden] = useState(false);
 
   const MINIMUM_SCROLL = window.innerHeight / 2;
 
@@ -135,8 +144,17 @@ function Header({ title, userSession, alertMessages }) {
     setNavHidden(isScrolledDown && isMinimumScrolled);
   });
 
-  function toggleMenu(event) {
+  function toggleNav(event) {
     setNavHidden(() => {
+      return false;
+    });
+  }
+
+  function toggleAlert(event) {
+    setNavHidden(() => {
+      return false;
+    });
+    setAlertHidden(() => {
       return false;
     });
   }
@@ -168,21 +186,39 @@ function Header({ title, userSession, alertMessages }) {
         </div>
         <Nav hidden={navHidden} />
         {navHidden ? (
-          <div className="div--menu-icon">
+          <div className="div--header-mini-icons">
             <button
               aria-label="Open the menu"
               id="menu-icon"
               onClick={(e) => {
-                toggleMenu(e);
+                toggleNav(e);
               }}
             >
               <HamburgerIcon />
             </button>
+            {alertMessages.length > 0 ? (
+              <button
+                aria-label="Open the menu"
+                id="info-icon"
+                onClick={(e) => {
+                  toggleAlert(e);
+                }}
+              >
+                <InfoIcon />
+              </button>
+            ) : null}
           </div>
         ) : null}
       </div>
-      {alertMessages.map((alertMessage) => {
-        return <Alert navHidden message={alertMessage.message} />;
+      {alertMessages.map((alertMessage, index) => {
+        return (
+          <Alert
+            alertHidden={alertHidden}
+            key={`alert-${index}`}
+            message={alertMessage.message}
+            navHidden={navHidden}
+          />
+        );
       })}
     </HeaderStyled>
   );
