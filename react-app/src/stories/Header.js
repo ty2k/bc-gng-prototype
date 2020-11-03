@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import Nav from "./Nav";
+import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
@@ -69,6 +70,7 @@ const HeaderStyled = styled.header`
   }
   &.header--mini {
     div.wrapper > div.div--title > span.span--title {
+      margin: 6px 20px 12px 20px;
       max-width: 228px;
       width: 228px;
     }
@@ -121,22 +123,25 @@ const HeaderStyled = styled.header`
 
 function Header({ title, userSession }) {
   const [navHidden, setNavHidden] = useState(false);
-  const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > window.innerHeight / 2);
-      setNavHidden(window.scrollY > window.innerHeight / 2);
-    });
-  }, []);
+  const MINIMUM_SCROLL = window.innerHeight / 2;
+
+  useDocumentScrollThrottled((callbackData) => {
+    const { previousScrollTop, currentScrollTop } = callbackData;
+    const isScrolledDown = previousScrollTop < currentScrollTop;
+    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
+
+    setNavHidden(isScrolledDown && isMinimumScrolled);
+  });
 
   function toggleMenu(event) {
-    console.log(event);
-    setNavHidden(!navHidden);
+    setNavHidden(() => {
+      return false;
+    });
   }
 
   return (
-    <HeaderStyled className={scroll && navHidden ? "header--mini" : null}>
+    <HeaderStyled className={navHidden ? "header--mini" : null}>
       <div className="wrapper">
         <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
@@ -161,12 +166,14 @@ function Header({ title, userSession }) {
           )}
         </div>
         <Nav hidden={navHidden} />
-        {scroll && navHidden ? (
+        {navHidden ? (
           <div className="div--menu-icon">
             <button
               aria-label="Open the menu"
               id="menu-icon"
-              onClick={(event) => toggleMenu(event)}
+              onClick={(e) => {
+                toggleMenu(e);
+              }}
             >
               <HamburgerIcon />
             </button>
@@ -197,11 +204,8 @@ function Header({ title, userSession }) {
 
 Header.propTypes = {
   title: PropTypes.string,
-  navHidden: PropTypes.bool.isRequired,
 };
 
-Header.defaultProps = {
-  navHidden: false,
-};
+Header.defaultProps = {};
 
 export default Header;
