@@ -7,6 +7,7 @@ const UserPanelStyled = styled.div`
   background-color: #f2f2f2;
   display: flex;
   height: 80px;
+  min-width: fit-content;
 
   a.a--login-register {
     color: #313132;

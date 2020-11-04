@@ -25,7 +25,7 @@ const StyledAlert = styled.div`
   }
 
   p.p--alert {
-    display: inline-block;
+    display: inline;
     margin: 0;
     vertical-align: middle;
   }

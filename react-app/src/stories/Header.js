@@ -28,6 +28,7 @@ const HeaderStyled = styled.header`
     display: flex;
     height: 80px;
     justify-content: space-between;
+    overflow: hidden;
   }
   &.header--mini {
     div.wrapper {
@@ -55,7 +56,7 @@ const HeaderStyled = styled.header`
     vertical-align: top;
   }
   div.wrapper > div.div--title > svg.vlogo {
-    width: 84px;
+    min-width: 85px;
   }
   &.header--mini {
     div.wrapper > div.div--title > svg.logo {
