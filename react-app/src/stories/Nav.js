@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
-import { Button } from "./Button";
 import SearchButton from "./SearchButton";
 import UserPanel from "./UserPanel";
+import LanguagePicker from "./LanguagePicker";
 
 const NavStyled = styled.nav`
   background-color: white;
@@ -124,9 +124,7 @@ function Nav({ hidden, links, toggleSearch }) {
         {/* Login/Register */}
         <UserPanel />
         {/* Language selector */}
-        <div className="div--language-select">
-          <a href="/#">English</a>
-        </div>
+        <LanguagePicker />
       </MediaQuery>
       {/* <MediaQuery maxWidth={991}>
         <div className="nav-container--buttons">
