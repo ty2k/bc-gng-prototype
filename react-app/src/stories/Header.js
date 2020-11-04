@@ -19,8 +19,7 @@ const HeaderStyled = styled.header`
   /* Header width is full page when not scrolled in desktop */
   &.header--mini {
     min-height: 125px; // Must be larger than Header + Alert for collapse
-    max-width: 284px;
-    width: min-content;
+    max-width: min-content;
   }
 
   div.wrapper {
@@ -38,14 +37,14 @@ const HeaderStyled = styled.header`
   }
 
   div.wrapper > div.div--title {
+    align-items: center;
     background-color: white;
     display: flex;
-    align-items: center;
   }
   &.header--mini {
     div.wrapper > div.div--title {
       flex-direction: column;
-      max-width: 240px;
+      max-width: 250px;
       text-align: center;
     }
   }
@@ -124,6 +123,7 @@ const HeaderStyled = styled.header`
   div.wrapper > div.div--header-mini-icons > button#info-icon {
     background-color: #5f9cd8;
     color: white;
+    max-height: 44px;
   }
   div.wrapper > div.div--header-mini-icons > button#info-icon svg {
     padding: 7px;
@@ -150,12 +150,18 @@ function Header({ title, userSession, alertMessages }) {
     });
   }
 
-  function toggleAlert(event) {
+  function showAlert(event) {
     setNavHidden(() => {
       return false;
     });
     setAlertHidden(() => {
       return false;
+    });
+  }
+
+  function hideAlert() {
+    setAlertHidden(() => {
+      return true;
     });
   }
 
@@ -188,7 +194,7 @@ function Header({ title, userSession, alertMessages }) {
         {navHidden ? (
           <div className="div--header-mini-icons">
             <button
-              aria-label="Open the menu"
+              aria-label="Open the navigation menu"
               id="menu-icon"
               onClick={(e) => {
                 toggleNav(e);
@@ -196,12 +202,12 @@ function Header({ title, userSession, alertMessages }) {
             >
               <HamburgerIcon />
             </button>
-            {alertMessages.length > 0 ? (
+            {alertMessages && alertMessages.length > 0 ? (
               <button
-                aria-label="Open the menu"
+                aria-label="Open the navigation menu and show alert"
                 id="info-icon"
                 onClick={(e) => {
-                  toggleAlert(e);
+                  showAlert(e);
                 }}
               >
                 <InfoIcon />
@@ -210,16 +216,19 @@ function Header({ title, userSession, alertMessages }) {
           </div>
         ) : null}
       </div>
-      {alertMessages.map((alertMessage, index) => {
-        return (
-          <Alert
-            alertHidden={alertHidden}
-            key={`alert-${index}`}
-            message={alertMessage.message}
-            navHidden={navHidden}
-          />
-        );
-      })}
+      {alertMessages &&
+        alertMessages.length > 0 &&
+        alertMessages.map((alertMessage, index) => {
+          return (
+            <Alert
+              alertHidden={alertHidden}
+              key={`alert-${index}`}
+              message={alertMessage.message}
+              navHidden={navHidden}
+              onButtonClick={hideAlert}
+            />
+          );
+        })}
     </HeaderStyled>
   );
 }
