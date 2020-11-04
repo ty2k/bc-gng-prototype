@@ -2,26 +2,38 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const SearchForm = styled.form`
+import { ReactComponent as SearchIcon } from "./assets/search-solid.svg";
+
+const SearchForm = styled.div`
   align-self: center;
-  background-color: #f2f2f2;
+  background-color: white;
+  border-bottom: 2px solid #003366;
   box-sizing: border-box;
-  display: inline-block;
+  display: block;
   height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+
+  form {
+    box-sizing: border-box;
+    display: inline-block;
+    max-height: 80px;
+    max-width: 952px;
+    width: fit-content;
+  }
 
   input[type="search"] {
+    background: none;
     border: 0;
     display: inline-block;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-    font-size: 16px;
-    height: 44px;
+    font-size: 24px;
+    height: 80px;
     padding: 5px;
     vertical-align: middle;
-    width: calc(100% - 44px);
-  }
-
-  &.form--input-hidden > input[type="search"] {
-    display: none;
+    max-width: 872px;
+    width: 872px;
   }
 
   button.button--search {
@@ -34,27 +46,30 @@ const SearchForm = styled.form`
     background-position: center;
     border: 0;
     display: inline-block;
-    height: 44px;
-    margin: 18px;
+    height: 80px;
     padding: 0;
     vertical-align: middle;
-    width: 44px;
+    width: 80px;
   }
 `;
 
-export const SearchBar = ({ inputHidden }) => (
-  <SearchForm className={inputHidden ? "form--input-hidden" : null}>
-    <input type="search" aria-label="Search" />
-    <button
-      aria-label="Search"
-      className="button--search"
-      type="submit"
-      onClick={(e) => {
-        e.preventDefault();
-      }}
-    />
-  </SearchForm>
-);
+function SearchBar() {
+  return (
+    <SearchForm>
+      <form>
+        <input type="search" aria-label="Search" />
+        <button
+          aria-label="Search"
+          className="button--search"
+          type="submit"
+          onClick={(e) => {
+            e.preventDefault();
+          }}
+        />
+      </form>
+    </SearchForm>
+  );
+}
 
 SearchBar.propTypes = {
   inputHidden: PropTypes.bool,
@@ -63,3 +78,5 @@ SearchBar.propTypes = {
 SearchBar.defaultProps = {
   inputHidden: true,
 };
+
+export default SearchBar;

@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import Nav from "./Nav";
 import Alert from "./Alert";
+import SearchBar from "./SearchBar";
 import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
@@ -134,6 +135,7 @@ const HeaderStyled = styled.header`
 function Header({ title, userSession, alertMessages }) {
   const [navHidden, setNavHidden] = useState(false);
   const [alertHidden, setAlertHidden] = useState(false);
+  const [searchHidden, setSearchHidden] = useState(true);
 
   const MINIMUM_SCROLL = window.innerHeight / 2;
 
@@ -166,6 +168,12 @@ function Header({ title, userSession, alertMessages }) {
     });
   }
 
+  function toggleSearch() {
+    setSearchHidden(() => {
+      return !searchHidden;
+    });
+  }
+
   return (
     <HeaderStyled className={navHidden ? "header--mini" : null}>
       <div className="wrapper">
@@ -191,7 +199,7 @@ function Header({ title, userSession, alertMessages }) {
             <HLogo id="logo" className="logo hlogo" />
           )}
         </div>
-        <Nav hidden={navHidden} />
+        <Nav hidden={navHidden} toggleSearch={toggleSearch} />
         {navHidden ? (
           <div className="div--header-mini-icons">
             <button
@@ -217,6 +225,7 @@ function Header({ title, userSession, alertMessages }) {
           </div>
         ) : null}
       </div>
+      {searchHidden ? null : <SearchBar />}
       {alertMessages &&
         alertMessages.length > 0 &&
         alertMessages.map((alertMessage, index) => {

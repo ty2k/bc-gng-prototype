@@ -4,7 +4,7 @@ import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import { Button } from "./Button";
-import { SearchBar } from "./SearchBar";
+import SearchButton from "./SearchButton";
 import UserPanel from "./UserPanel";
 
 const NavStyled = styled.nav`
@@ -106,7 +106,7 @@ const NavStyled = styled.nav`
   }
 `;
 
-function Nav({ hidden, links }) {
+function Nav({ hidden, links, toggleSearch }) {
   return (
     <NavStyled className={hidden ? "nav--hidden" : null}>
       <MediaQuery minWidth={715}>
@@ -120,7 +120,7 @@ function Nav({ hidden, links }) {
       </MediaQuery>
       <MediaQuery minWidth={980}>
         {/* SearchBar with input field hidden initially */}
-        <SearchBar />
+        <SearchButton onButtonClick={toggleSearch} />
         {/* Login/Register */}
         <UserPanel />
         {/* Language selector */}
@@ -146,6 +146,7 @@ function Nav({ hidden, links }) {
 Nav.propTypes = {
   hidden: PropTypes.bool,
   links: PropTypes.array,
+  toggleSearch: PropTypes.func,
 };
 
 Nav.defaultProps = {
