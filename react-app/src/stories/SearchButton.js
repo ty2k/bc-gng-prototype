@@ -1,43 +1,54 @@
 import React from "react";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import { ReactComponent as SearchIcon } from "./assets/search-solid.svg";
 
 const SearchButtonStyled = styled.div`
-  align-self: center;
+  /* align-self: center; */
   background: none;
-  background-color: #f2f2f2;
   box-sizing: border-box;
   display: inline-block;
-  height: 80px;
+  height: 76px;
   width: 80px;
 
   button.button--search {
-    appearance: button;
-    -moz-appearance: button;
-    -webkit-appearance: button;
     background: none;
     border: 0;
     display: inline-block;
     height: 44px;
-    margin: 18px;
+    margin: 16px 20px;
     padding: 0;
-    vertical-align: middle;
     width: 44px;
   }
+
   button.button--search svg {
-    color: #313132;
-    margin: 11px;
+    color: #888888;
+    margin: 2px;
+  }
+
+  // SearchButton in Nav menu is a special case
+  &.div--search-button-nav {
+    background-color: #f2f2f2;
+    height: 80px;
+    width: 70px;
+
+    button.button--search {
+      margin: 18px 19px 18px 13px;
+    }
+
+    button.button--search svg {
+      color: #313132;
+      margin: 11px;
+    }
   }
 `;
 
-function SearchButton({ onButtonClick }) {
-  console.log(onButtonClick);
+function SearchButton({ navButton, onButtonClick }) {
   return (
-    <SearchButtonStyled>
+    <SearchButtonStyled className={navButton ? "div--search-button-nav" : null}>
       <button
-        aria-label="Open search menu"
+        aria-label={navButton ? "Open search menu" : "Search"}
         className="button--search"
         onClick={onButtonClick}
       >
@@ -47,12 +58,18 @@ function SearchButton({ onButtonClick }) {
   );
 }
 
-// SearchBar.propTypes = {
-//   inputHidden: PropTypes.bool,
-// };
+SearchButton.propTypes = {
+  navButton: PropTypes.bool.isRequired,
+  onButtonClick: PropTypes.func.isRequired,
+};
 
-// SearchBar.defaultProps = {
-//   inputHidden: false,
-// };
+SearchButton.defaultProps = {
+  navButton: false,
+  onButtonClick: {
+    function(event) {
+      event.preventDefault();
+    },
+  },
+};
 
 export default SearchButton;

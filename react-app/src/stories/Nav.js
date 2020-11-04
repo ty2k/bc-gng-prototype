@@ -119,8 +119,8 @@ function Nav({ hidden, links, toggleSearch }) {
         </ul>
       </MediaQuery>
       <MediaQuery minWidth={980}>
-        {/* SearchBar with input field hidden initially */}
-        <SearchButton onButtonClick={toggleSearch} />
+        {/* Search button that adds search bar below header */}
+        <SearchButton navButton={true} onButtonClick={toggleSearch} />
         {/* Login/Register */}
         <UserPanel />
         {/* Language selector */}

@@ -20,6 +20,7 @@ const LanguagePickerStyled = styled.div`
     display: flex;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     height: 44px;
+    padding: 0;
   }
   button.button--select-lang span {
     display: inline-block;
