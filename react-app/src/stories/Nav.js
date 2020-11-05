@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
-import { Button } from "./Button";
-import { SearchBar } from "./SearchBar";
+import SearchButton from "./SearchButton";
 import UserPanel from "./UserPanel";
+import LanguagePicker from "./LanguagePicker";
 
 const NavStyled = styled.nav`
   background-color: white;
@@ -13,6 +13,7 @@ const NavStyled = styled.nav`
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   height: 80px;
+  min-width: fit-content;
 
   &.nav--hidden {
     display: none;
@@ -90,8 +91,9 @@ const NavStyled = styled.nav`
   div.div--language-select {
     align-items: center;
     background-color: #f2f2f2;
-    font-size: 16px;
     display: flex;
+    font-size: 16px;
+    min-width: fit-content;
     padding-right: 30px;
   }
   div.div--language-select > a {
@@ -104,25 +106,27 @@ const NavStyled = styled.nav`
   }
 `;
 
-function Nav({ hidden, links }) {
+function Nav({ hidden, links, toggleSearch }) {
   return (
     <NavStyled className={hidden ? "nav--hidden" : null}>
-      <ul>
-        {links.map(({ text, href, current }, index) => (
-          <li key={index} className={current ? "nav--current-page" : null}>
-            <a href={href}>{text}</a>
-          </li>
-        ))}
-      </ul>
-      {/* SearchBar with input field hidden initially */}
-      <SearchBar />
-      {/* Login/Register */}
-      <UserPanel />
-      {/* Language selector */}
-      <div className="div--language-select">
-        <a href="/#">English</a>
-      </div>
-      <MediaQuery maxWidth={991}>
+      <MediaQuery minWidth={715}>
+        <ul>
+          {links.map(({ text, href, current }, index) => (
+            <li key={index} className={current ? "nav--current-page" : null}>
+              <a href={href}>{text}</a>
+            </li>
+          ))}
+        </ul>
+      </MediaQuery>
+      <MediaQuery minWidth={980}>
+        {/* Search button that adds search bar below header */}
+        <SearchButton navButton={true} onButtonClick={toggleSearch} />
+        {/* Login/Register */}
+        <UserPanel />
+        {/* Language selector */}
+        <LanguagePicker />
+      </MediaQuery>
+      {/* <MediaQuery maxWidth={991}>
         <div className="nav-container--buttons">
           <Button size="medium" label="Login" aria-label="Login" />
           <Button
@@ -132,7 +136,7 @@ function Nav({ hidden, links }) {
             aria-label="Register"
           />
         </div>
-      </MediaQuery>
+      </MediaQuery> */}
     </NavStyled>
   );
 }
@@ -140,6 +144,7 @@ function Nav({ hidden, links }) {
 Nav.propTypes = {
   hidden: PropTypes.bool,
   links: PropTypes.array,
+  toggleSearch: PropTypes.func,
 };
 
 Nav.defaultProps = {
