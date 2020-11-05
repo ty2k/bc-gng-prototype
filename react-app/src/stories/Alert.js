@@ -14,8 +14,27 @@ const StyledAlert = styled.div`
   min-height: 44px;
   width: 100%;
 
-  &.hidden {
+  &.nav-and-alert-hidden {
     display: none;
+  }
+
+  &.alert-hidden {
+    display: block;
+    float: right;
+    height: 69px;
+    margin-right: 36px;
+    text-align: center;
+    width: 62px;
+
+    svg.svg--info {
+      padding: 23px 13px 10px 13px;
+    }
+    p.p--alert {
+      display: none;
+    }
+    button.button--close-alert {
+      display: none;
+    }
   }
 
   svg.svg--info {
@@ -43,7 +62,6 @@ const StyledAlert = styled.div`
     svg.svg--close {
       color: white;
       height: 40px;
-      vertical-align: middle;
       width: 40px;
     }
   }
@@ -56,11 +74,19 @@ function Alert({
   message,
   onButtonClick,
 }) {
+  const alertClasses = [];
+
+  if (navHidden) {
+    alertClasses.push("nav-and-alert-hidden");
+  } else if (!navHidden && alertHidden) {
+    alertClasses.push("alert-hidden");
+  }
+
   return (
     <StyledAlert
       role="alert"
       aria-controls={`button-close-alert-${alertListIndex}`}
-      className={navHidden || alertHidden ? "hidden" : null}
+      className={alertClasses.join(" ")}
     >
       <InfoIcon className="svg--info" />
       <p className="p--alert">{message}</p>
