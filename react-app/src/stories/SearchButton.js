@@ -65,10 +65,8 @@ SearchButton.propTypes = {
 
 SearchButton.defaultProps = {
   navButton: false,
-  onButtonClick: {
-    function(event) {
-      event.preventDefault();
-    },
+  onButtonClick: function (event) {
+    event.preventDefault();
   },
 };
 
