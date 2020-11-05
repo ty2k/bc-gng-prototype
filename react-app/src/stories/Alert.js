@@ -49,6 +49,7 @@ const StyledAlert = styled.div`
     margin: 0;
     padding: 10px 0;
     vertical-align: middle;
+    width: 100%;
   }
 
   button.button--close-alert {
@@ -67,13 +68,7 @@ const StyledAlert = styled.div`
   }
 `;
 
-function Alert({
-  alertListIndex,
-  alertHidden,
-  navHidden,
-  message,
-  onButtonClick,
-}) {
+function Alert({ alertHidden, index, message, navHidden, onButtonClick }) {
   const alertClasses = [];
 
   if (navHidden) {
@@ -85,7 +80,7 @@ function Alert({
   return (
     <StyledAlert
       role="alert"
-      aria-controls={`button-close-alert-${alertListIndex}`}
+      aria-controls={`button-close-alert-${index}`}
       className={alertClasses.join(" ")}
     >
       <InfoIcon className="svg--info" />
@@ -93,7 +88,7 @@ function Alert({
       <button
         aria-label="Close alert message"
         className="button--close-alert"
-        id={`button-close-alert-${alertListIndex}`}
+        id={`button-close-alert-${index}`}
         onClick={onButtonClick}
       >
         <CloseIcon className="svg--close" />

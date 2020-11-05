@@ -234,6 +234,7 @@ function Header({ title, userSession, alertMessages }) {
             <Alert
               alertHidden={alertHidden}
               key={`alert-${index}`}
+              index={index}
               message={alertMessage.message}
               navHidden={navHidden}
               onButtonClick={hideAlert}
