@@ -21,13 +21,16 @@ const StyledAlert = styled.div`
   &.alert-hidden {
     display: block;
     float: right;
-    height: 69px;
+    /* height: 69px; */ // If this is taller than the alert, the header collapse-on-scroll feature will break
+    height: 43px;
     margin-right: 36px;
     text-align: center;
-    width: 62px;
+    /* width: 62px; */
+    width: 44px;
 
     svg.svg--info {
-      padding: 23px 13px 10px 13px;
+      /* padding: 23px 13px 10px 13px; */
+      padding: 0;
     }
     p.p--alert {
       display: none;
@@ -52,23 +55,41 @@ const StyledAlert = styled.div`
     width: 100%;
   }
 
-  button.button--close-alert {
+  button {
     border: none;
     background: none;
     min-height: 44px;
-    margin-left: 10px;
     padding: 0;
     min-width: 44px;
 
-    svg.svg--close {
+    svg {
       color: white;
+    }
+  }
+
+  button.button--close-alert {
+    margin-left: 10px;
+
+    svg.svg--close {
       height: 40px;
       width: 40px;
     }
   }
+
+  button.button--show-alert {
+    height: 100%;
+    width: 100%;
+  }
 `;
 
-function Alert({ alertHidden, index, message, navHidden, onButtonClick }) {
+function Alert({
+  alertHidden,
+  index,
+  message,
+  navHidden,
+  onCloseButtonClick,
+  onOpenButtonClick,
+}) {
   const alertClasses = [];
 
   if (navHidden) {
@@ -83,13 +104,24 @@ function Alert({ alertHidden, index, message, navHidden, onButtonClick }) {
       aria-controls={`button-close-alert-${index}`}
       className={alertClasses.join(" ")}
     >
-      <InfoIcon className="svg--info" />
+      {!navHidden && alertHidden ? (
+        <button
+          aria-label="Show alert message"
+          className="button--show-alert"
+          id={`button-close-alert-${index}`}
+          onClick={onOpenButtonClick}
+        >
+          <InfoIcon className="svg--info" />
+        </button>
+      ) : (
+        <InfoIcon className="svg--info" />
+      )}
       <p className="p--alert">{message}</p>
       <button
         aria-label="Close alert message"
         className="button--close-alert"
         id={`button-close-alert-${index}`}
-        onClick={onButtonClick}
+        onClick={onCloseButtonClick}
       >
         <CloseIcon className="svg--close" />
       </button>

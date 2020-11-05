@@ -154,7 +154,7 @@ function Header({ title, userSession, alertMessages }) {
     });
   }
 
-  function showAlert(event) {
+  function showAlertAndNav() {
     setNavHidden(() => {
       return false;
     });
@@ -206,9 +206,7 @@ function Header({ title, userSession, alertMessages }) {
             <button
               aria-label="Open the navigation menu"
               id="menu-icon"
-              onClick={(e) => {
-                toggleNav(e);
-              }}
+              onClick={toggleNav}
             >
               <HamburgerIcon />
             </button>
@@ -216,9 +214,7 @@ function Header({ title, userSession, alertMessages }) {
               <button
                 aria-label="Open the navigation menu and show alert"
                 id="info-icon"
-                onClick={(e) => {
-                  showAlert(e);
-                }}
+                onClick={showAlertAndNav}
               >
                 <InfoIcon />
               </button>
@@ -237,7 +233,8 @@ function Header({ title, userSession, alertMessages }) {
               index={index}
               message={alertMessage.message}
               navHidden={navHidden}
-              onButtonClick={hideAlert}
+              onCloseButtonClick={hideAlert}
+              onOpenButtonClick={showAlertAndNav}
             />
           );
         })}
