@@ -39,6 +39,11 @@ const StyledAlert = styled.div`
       display: none;
     }
   }
+  @media (max-width: 374px) {
+    &.alert-hidden {
+      margin-right: 0;
+    }
+  }
 
   svg.svg--info {
     min-height: 30px;

@@ -71,6 +71,16 @@ const NavStyled = styled.nav`
     font-size: 16px;
     padding-top: 8px;
   }
+  @media (max-width: 374px) {
+    button.button--menu-button {
+      justify-content: center;
+      padding: 0;
+      width: 44px;
+    }
+    button.button--menu-button > span {
+      display: none;
+    }
+  }
 
   @media (max-width: 991px) {
     height: auto;
@@ -107,7 +117,7 @@ function Nav({ hidden, links, toggleSearch }) {
         <UserPanel />
         <LanguagePicker />
       </MediaQuery>
-      <MediaQuery maxWidth={1529}>
+      <MediaQuery maxWidth={1537}>
         <button
           className="button--menu-button"
           onClick={(e) => {
