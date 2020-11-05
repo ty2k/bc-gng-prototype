@@ -13,7 +13,7 @@ import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circle.svg";
 
 const HeaderStyled = styled.header`
-  background-color: white;
+  background: none;
   position: sticky;
   top: 0;
 
@@ -25,6 +25,7 @@ const HeaderStyled = styled.header`
 
   div.wrapper {
     align-items: center;
+    background-color: white;
     box-shadow: 0px 3px 6px #d6d6d6;
     display: flex;
     height: 80px;
@@ -72,6 +73,12 @@ const HeaderStyled = styled.header`
     margin: 6px 20px;
     min-width: 205px;
     display: inline-block;
+  }
+  @media (max-width: 575px) {
+    div.wrapper > div.div--title > span.span--title {
+      margin: 6px;
+      min-width: unset;
+    }
   }
   &.header--mini {
     div.wrapper > div.div--title > span.span--title {
@@ -154,7 +161,7 @@ function Header({ title, userSession, alertMessages }) {
     });
   }
 
-  function showAlert(event) {
+  function showAlertAndNav() {
     setNavHidden(() => {
       return false;
     });
@@ -191,7 +198,9 @@ function Header({ title, userSession, alertMessages }) {
               ) : (
                 <>
                   <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
-                  <span className="span--title-pipe"></span>
+                  <MediaQuery minWidth={575}>
+                    <span className="span--title-pipe"></span>
+                  </MediaQuery>
                   <span className="span--title">{title}</span>
                 </>
               )}
@@ -206,9 +215,7 @@ function Header({ title, userSession, alertMessages }) {
             <button
               aria-label="Open the navigation menu"
               id="menu-icon"
-              onClick={(e) => {
-                toggleNav(e);
-              }}
+              onClick={toggleNav}
             >
               <HamburgerIcon />
             </button>
@@ -216,9 +223,7 @@ function Header({ title, userSession, alertMessages }) {
               <button
                 aria-label="Open the navigation menu and show alert"
                 id="info-icon"
-                onClick={(e) => {
-                  showAlert(e);
-                }}
+                onClick={showAlertAndNav}
               >
                 <InfoIcon />
               </button>
@@ -234,9 +239,11 @@ function Header({ title, userSession, alertMessages }) {
             <Alert
               alertHidden={alertHidden}
               key={`alert-${index}`}
+              index={index}
               message={alertMessage.message}
               navHidden={navHidden}
-              onButtonClick={hideAlert}
+              onCloseButtonClick={hideAlert}
+              onOpenButtonClick={showAlertAndNav}
             />
           );
         })}

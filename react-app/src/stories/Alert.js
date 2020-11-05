@@ -6,67 +6,127 @@ import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circl
 import { ReactComponent as CloseIcon } from "./assets/ionic-md-close.svg";
 
 const StyledAlert = styled.div`
+  align-items: stretch;
   background-color: #5f9cd8;
   color: white;
-  display: block;
+  display: flex;
   font-size: 18px;
-  height: 44px;
+  min-height: 44px;
   width: 100%;
 
-  &.hidden {
+  &.nav-and-alert-hidden {
     display: none;
   }
 
+  &.alert-hidden {
+    display: block;
+    float: right;
+    /* height: 69px; */ // If this is taller than the alert, the header collapse-on-scroll feature will break
+    height: 43px;
+    margin-right: 36px;
+    text-align: center;
+    /* width: 62px; */
+    width: 44px;
+
+    svg.svg--info {
+      /* padding: 23px 13px 10px 13px; */
+      padding: 0;
+    }
+    p.p--alert {
+      display: none;
+    }
+    button.button--close-alert {
+      display: none;
+    }
+  }
+  @media (max-width: 374px) {
+    &.alert-hidden {
+      margin-right: 0;
+    }
+  }
+
   svg.svg--info {
-    height: 30px;
+    min-height: 30px;
+    min-width: 30px;
     padding: 7px 20px 7px 14px;
     vertical-align: middle;
-    width: 30px;
   }
 
   p.p--alert {
-    display: inline;
+    display: inline-block;
     margin: 0;
+    padding: 10px 0;
     vertical-align: middle;
+    width: 100%;
+  }
+
+  button {
+    border: none;
+    background: none;
+    min-height: 44px;
+    padding: 0;
+    min-width: 44px;
+
+    svg {
+      color: white;
+    }
   }
 
   button.button--close-alert {
-    border: none;
-    background: none;
-    height: 44px;
     margin-left: 10px;
-    padding: 0;
-    width: 44px;
 
     svg.svg--close {
-      color: white;
       height: 40px;
-      vertical-align: middle;
       width: 40px;
     }
+  }
+
+  button.button--show-alert {
+    height: 100%;
+    width: 100%;
   }
 `;
 
 function Alert({
-  alertListIndex,
   alertHidden,
-  navHidden,
+  index,
   message,
-  onButtonClick,
+  navHidden,
+  onCloseButtonClick,
+  onOpenButtonClick,
 }) {
+  const alertClasses = [];
+
+  if (navHidden) {
+    alertClasses.push("nav-and-alert-hidden");
+  } else if (!navHidden && alertHidden) {
+    alertClasses.push("alert-hidden");
+  }
+
   return (
     <StyledAlert
       role="alert"
-      aria-controls={`button-close-alert-${alertListIndex}`}
-      className={navHidden || alertHidden ? "hidden" : null}
+      aria-controls={`button-close-alert-${index}`}
+      className={alertClasses.join(" ")}
     >
-      <InfoIcon className="svg--info" />
+      {!navHidden && alertHidden ? (
+        <button
+          aria-label="Show alert message"
+          className="button--show-alert"
+          id={`button-close-alert-${index}`}
+          onClick={onOpenButtonClick}
+        >
+          <InfoIcon className="svg--info" />
+        </button>
+      ) : (
+        <InfoIcon className="svg--info" />
+      )}
       <p className="p--alert">{message}</p>
       <button
         aria-label="Close alert message"
         className="button--close-alert"
-        id={`button-close-alert-${alertListIndex}`}
-        onClick={onButtonClick}
+        id={`button-close-alert-${index}`}
+        onClick={onCloseButtonClick}
       >
         <CloseIcon className="svg--close" />
       </button>
