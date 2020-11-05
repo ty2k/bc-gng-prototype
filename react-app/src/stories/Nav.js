@@ -6,6 +6,7 @@ import styled from "styled-components";
 import SearchButton from "./SearchButton";
 import UserPanel from "./UserPanel";
 import LanguagePicker from "./LanguagePicker";
+import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 
 const NavStyled = styled.nav`
   background-color: white;
@@ -50,6 +51,27 @@ const NavStyled = styled.nav`
     font-weight: 700;
   }
 
+  button.button--menu-button {
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 0;
+    box-sizing: border-box;
+    color: #888888;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 20px 14px 8px 14px;
+    text-align: center;
+    width: 80px;
+  }
+  button.button--menu-button > svg {
+    height: 24px;
+  }
+  button.button--menu-button > span {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
   @media (max-width: 991px) {
     height: auto;
     max-height: 100%;
@@ -65,51 +87,13 @@ const NavStyled = styled.nav`
       line-height: 44px;
       padding: 0 20px;
     }
-
-    div.nav-container--buttons {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 0 0 10px 0;
-      padding: 0 20px;
-    }
-
-    div.nav-container--buttons button {
-      width: 100%;
-    }
-
-    div.nav-container--buttons button + button {
-      margin-left: 20px;
-    }
-  }
-
-  form.search {
-    display: block;
-    margin: 20px;
-  }
-
-  div.div--language-select {
-    align-items: center;
-    background-color: #f2f2f2;
-    display: flex;
-    font-size: 16px;
-    min-width: fit-content;
-    padding-right: 30px;
-  }
-  div.div--language-select > a {
-    color: #313132;
-    text-decoration: none;
-  }
-  div.div--language-select > a::after {
-    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIHN0eWxlPSItbXMtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxwYXRoIGQ9Ik0yNTYgMjk0LjFMMzgzIDE2N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjMgMjQuNiAwIDM0TDI3MyAzNDVjLTkuMSA5LjEtMjMuNyA5LjMtMzMuMS43TDk1IDIwMS4xYy00LjctNC43LTctMTAuOS03LTE3czIuMy0xMi4zIDctMTdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsMTI3LjEgMTI3eiIgZmlsbD0iY3VycmVudGNvbG9yIi8+PC9zdmc+Cg==");
-    padding-left: 5px;
   }
 `;
 
 function Nav({ hidden, links, toggleSearch }) {
   return (
     <NavStyled className={hidden ? "nav--hidden" : null}>
-      <MediaQuery minWidth={715}>
+      <MediaQuery minWidth={1272}>
         <ul>
           {links.map(({ text, href, current }, index) => (
             <li key={index} className={current ? "nav--current-page" : null}>
@@ -118,25 +102,22 @@ function Nav({ hidden, links, toggleSearch }) {
           ))}
         </ul>
       </MediaQuery>
-      <MediaQuery minWidth={980}>
-        {/* Search button that adds search bar below header */}
+      <MediaQuery minWidth={1538}>
         <SearchButton navButton={true} onButtonClick={toggleSearch} />
-        {/* Login/Register */}
         <UserPanel />
-        {/* Language selector */}
         <LanguagePicker />
       </MediaQuery>
-      {/* <MediaQuery maxWidth={991}>
-        <div className="nav-container--buttons">
-          <Button size="medium" label="Login" aria-label="Login" />
-          <Button
-            primary
-            size="medium"
-            label="Register"
-            aria-label="Register"
-          />
-        </div>
-      </MediaQuery> */}
+      <MediaQuery maxWidth={1529}>
+        <button
+          className="button--menu-button"
+          onClick={(e) => {
+            e.preventDefault();
+          }}
+        >
+          <HamburgerIcon />
+          <span>Menu</span>
+        </button>
+      </MediaQuery>
     </NavStyled>
   );
 }

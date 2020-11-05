@@ -70,6 +70,7 @@ const HeaderStyled = styled.header`
     font-size: 21px;
     line-height: 1;
     margin: 6px 20px;
+    min-width: 205px;
     display: inline-block;
   }
   &.header--mini {
