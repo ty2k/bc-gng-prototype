@@ -6,11 +6,12 @@ import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circl
 import { ReactComponent as CloseIcon } from "./assets/ionic-md-close.svg";
 
 const StyledAlert = styled.div`
+  align-items: stretch;
   background-color: #5f9cd8;
   color: white;
-  display: block;
+  display: flex;
   font-size: 18px;
-  height: 44px;
+  min-height: 44px;
   width: 100%;
 
   &.hidden {
@@ -18,25 +19,26 @@ const StyledAlert = styled.div`
   }
 
   svg.svg--info {
-    height: 30px;
+    min-height: 30px;
+    min-width: 30px;
     padding: 7px 20px 7px 14px;
     vertical-align: middle;
-    width: 30px;
   }
 
   p.p--alert {
-    display: inline;
+    display: inline-block;
     margin: 0;
+    padding: 10px 0;
     vertical-align: middle;
   }
 
   button.button--close-alert {
     border: none;
     background: none;
-    height: 44px;
+    min-height: 44px;
     margin-left: 10px;
     padding: 0;
-    width: 44px;
+    min-width: 44px;
 
     svg.svg--close {
       color: white;
