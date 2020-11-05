@@ -6,6 +6,7 @@ import styled from "styled-components";
 import SearchButton from "./SearchButton";
 import UserPanel from "./UserPanel";
 import LanguagePicker from "./LanguagePicker";
+import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
 
 const NavStyled = styled.nav`
   background-color: white;
@@ -50,6 +51,27 @@ const NavStyled = styled.nav`
     font-weight: 700;
   }
 
+  button.button--menu-button {
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 0;
+    box-sizing: border-box;
+    color: #888888;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    padding: 20px 14px 8px 14px;
+    text-align: center;
+    width: 80px;
+  }
+  button.button--menu-button > svg {
+    height: 24px;
+  }
+  button.button--menu-button > span {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
   @media (max-width: 991px) {
     height: auto;
     max-height: 100%;
@@ -71,7 +93,7 @@ const NavStyled = styled.nav`
 function Nav({ hidden, links, toggleSearch }) {
   return (
     <NavStyled className={hidden ? "nav--hidden" : null}>
-      <MediaQuery minWidth={715}>
+      <MediaQuery minWidth={1272}>
         <ul>
           {links.map(({ text, href, current }, index) => (
             <li key={index} className={current ? "nav--current-page" : null}>
@@ -80,10 +102,21 @@ function Nav({ hidden, links, toggleSearch }) {
           ))}
         </ul>
       </MediaQuery>
-      <MediaQuery minWidth={980}>
+      <MediaQuery minWidth={1538}>
         <SearchButton navButton={true} onButtonClick={toggleSearch} />
         <UserPanel />
         <LanguagePicker />
+      </MediaQuery>
+      <MediaQuery maxWidth={1529}>
+        <button
+          className="button--menu-button"
+          onClick={(e) => {
+            e.preventDefault();
+          }}
+        >
+          <HamburgerIcon />
+          <span>Menu</span>
+        </button>
       </MediaQuery>
     </NavStyled>
   );
