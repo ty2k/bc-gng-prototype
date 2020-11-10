@@ -28,25 +28,33 @@ const StyledBreadcrumb = styled.li`
     background-color: #fcba19;
   }
 
-  a {
+  a,
+  span {
     color: #313132;
     text-decoration: none;
   }
 `;
 
-const Breadcrumb = ({ position, href, label }) => {
+const Breadcrumb = ({ position, href, label, last }) => {
   return (
     <StyledBreadcrumb key={position}>
-      <a href={href}>{label}</a>
+      {last ? <span>{label}</span> : <a href={href}>{label}</a>}
     </StyledBreadcrumb>
   );
 };
 
 function Breadcrumbs({ breadcrumbs }) {
+  const last = breadcrumbs.length - 1;
+
   return (
     <StyledBreadcrumbs>
       {breadcrumbs.map(({ href, label }, index) => (
-        <Breadcrumb position={index} href={href} label={label} />
+        <Breadcrumb
+          position={index}
+          href={href}
+          label={label}
+          last={index === last}
+        />
       ))}
     </StyledBreadcrumbs>
   );
