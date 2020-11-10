@@ -3,8 +3,9 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const StyledBreadcrumbs = styled.ol`
-  display: block;
-  margin: 0 auto;
+  align-items: stretch;
+  display: flex;
+  margin: 30px auto 0 auto;
   padding: 0;
 
   @media (min-width: 576px) {
@@ -19,7 +20,18 @@ const StyledBreadcrumbs = styled.ol`
 `;
 
 const StyledBreadcrumb = styled.li`
+  box-sizing: border-box;
   display: inline-block;
+  max-width: 224px;
+
+  &:last-child {
+    background-color: #fcba19;
+  }
+
+  a {
+    color: #313132;
+    text-decoration: none;
+  }
 `;
 
 const Breadcrumb = ({ position, href, label }) => {
