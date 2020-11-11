@@ -5,7 +5,9 @@ import styled from "styled-components";
 const StyledBreadcrumbs = styled.ol`
   align-items: stretch;
   display: flex;
+  list-style: none;
   margin: 30px auto 0 auto;
+  overflow: none;
   padding: 0;
 
   @media (min-width: 576px) {
@@ -20,12 +22,42 @@ const StyledBreadcrumbs = styled.ol`
 `;
 
 const StyledBreadcrumb = styled.li`
+  align-items: center;
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  float: left;
+  height: 48px;
   max-width: 224px;
+  padding: 0 18px 0 30px;
 
+  &:first-child {
+    padding-left: 0;
+  }
   &:last-child {
     background-color: #fcba19;
+    position: relative;
+  }
+  &:last-child::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #fcba19;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+  }
+  &:last-child::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid white;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
   }
 
   a,
