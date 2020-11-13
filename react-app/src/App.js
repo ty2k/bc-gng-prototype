@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { AuthContext } from "./context/auth";
 
-import Header from "./stories/Header";
-import Breadcrumbs from "./stories/Breadcrumbs";
-import Main from "./Main";
+import Services from "./pages/Services";
 
-function App() {
+function App(props) {
+  const [authTokens, setAuthTokens] = useState();
+
+  const setTokens = (data) => {
+    localStorage.setItem("tokens", JSON.stringify(data));
+    setAuthTokens(data);
+  };
+
   return (
-    <div className="App">
-      <Header title="A Ridiculously Long Title for Edge Cases" />
-      <Breadcrumbs />
-      <Main title="Programs &amp; Services" />
-    </div>
+    <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
+      <Router>
+        <Services />
+      </Router>
+    </AuthContext.Provider>
   );
 }
 
