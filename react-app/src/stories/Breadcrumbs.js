@@ -27,10 +27,17 @@ const StyledBreadcrumb = styled.li`
   display: flex;
   float: left;
   height: 48px;
-  max-width: 275px;
+  max-width: 320px;
   overflow: hidden;
   /* padding: 0 18px 0 30px; */
 
+  span.span--breadcrumb-tail {
+    margin-left: 20px;
+  }
+  span.span--breadcrumb-body {
+    min-width: 200px;
+    width: min-content;
+  }
   span.span--breadcrumb-separator-tail {
     background-color: transparent;
     border-left: 10px solid transparent;
@@ -42,7 +49,6 @@ const StyledBreadcrumb = styled.li`
     border-left: 10px solid #fcba19;
     border-top: 24px solid transparent;
     border-bottom: 24px solid transparent;
-    margin-right: 30px;
   }
 
   a,
@@ -73,7 +79,7 @@ const StyledBreadcrumb = styled.li`
       background-color: #fcba19;
       display: flex;
       height: 48px;
-      padding: 0 5px;
+      padding: 0 20px;
     }
     span.span--breadcrumb-arrow {
       border-left: 10px solid #fcba19;
@@ -83,7 +89,7 @@ const StyledBreadcrumb = styled.li`
   }
 `;
 
-const Breadcrumb = ({ position, href, label, last }) => {
+const Breadcrumb = ({ position, href, label, last, needsSeparator }) => {
   return (
     <StyledBreadcrumb key={position}>
       {position !== 0 && <span class="span--breadcrumb-tail"></span>}
@@ -97,7 +103,7 @@ const Breadcrumb = ({ position, href, label, last }) => {
         )}
       </span>
       <span class="span--breadcrumb-arrow" />
-      {!last && (
+      {needsSeparator && (
         <>
           <span class="span--breadcrumb-separator-tail" />
           <span class="span--breadcrumb-separator-arrow" />
@@ -109,6 +115,11 @@ const Breadcrumb = ({ position, href, label, last }) => {
 
 function Breadcrumbs({ breadcrumbs }) {
   const last = breadcrumbs.length - 1;
+  const needsSeparator = [];
+
+  if (breadcrumbs.length > 2) {
+    needsSeparator.push(0);
+  }
 
   return (
     <StyledBreadcrumbs>
@@ -118,6 +129,7 @@ function Breadcrumbs({ breadcrumbs }) {
           href={href}
           label={label}
           last={index === last}
+          needsSeparator={needsSeparator.indexOf(index) !== -1}
         />
       ))}
     </StyledBreadcrumbs>
