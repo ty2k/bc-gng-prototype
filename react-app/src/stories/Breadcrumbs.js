@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
+import { ReactComponent as BreadcrumbTail } from "./assets/breadcrumb-tail.svg";
+import { ReactComponent as BreadcrumbHead } from "./assets/breadcrumb-head.svg";
+import { ReactComponent as BreadcrumbDivider } from "./assets/breadcrumb-divider.svg";
+
 const StyledBreadcrumbs = styled.ol`
   align-items: stretch;
   display: flex;
@@ -27,28 +31,18 @@ const StyledBreadcrumb = styled.li`
   display: flex;
   float: left;
   height: 48px;
-  max-width: 320px;
+  margin-left: 20px;
+  max-width: 317px;
   overflow: hidden;
-  /* padding: 0 18px 0 30px; */
 
-  span.span--breadcrumb-tail {
-    margin-left: 20px;
+  svg.svg--breadcrumb-divider {
+    overflow: visible;
+    padding-left: 10px;
   }
+
   span.span--breadcrumb-body {
-    min-width: 200px;
+    min-width: 220px;
     width: min-content;
-  }
-  span.span--breadcrumb-separator-tail {
-    background-color: transparent;
-    border-left: 10px solid transparent;
-    border-top: 24px solid #fcba19;
-    border-bottom: 24px solid #fcba19;
-    margin-left: 5px;
-  }
-  span.span--breadcrumb-separator-arrow {
-    border-left: 10px solid #fcba19;
-    border-top: 24px solid transparent;
-    border-bottom: 24px solid transparent;
   }
 
   a,
@@ -58,10 +52,10 @@ const StyledBreadcrumb = styled.li`
   }
 
   &:first-child {
-    padding-left: 0;
+    margin-left: 0;
 
     span.span--breadcrumb-body {
-      max-width: 194px;
+      max-width: 280px;
     }
   }
 
@@ -70,10 +64,14 @@ const StyledBreadcrumb = styled.li`
 
     span.span--breadcrumb-tail {
       background-color: transparent;
-      border-left: 10px solid transparent;
-      border-top: 24px solid #fcba19;
-      border-bottom: 24px solid #fcba19;
+      color: #fcba19;
+      height: 48px;
+
+      svg {
+        height: 48px;
+      }
     }
+
     span.span--breadcrumb-body {
       align-items: center;
       background-color: #fcba19;
@@ -81,18 +79,27 @@ const StyledBreadcrumb = styled.li`
       height: 48px;
       padding: 0 20px;
     }
-    span.span--breadcrumb-arrow {
-      border-left: 10px solid #fcba19;
-      border-top: 24px solid transparent;
-      border-bottom: 24px solid transparent;
+
+    span.span--breadcrumb-head {
+      background-color: transparent;
+      color: #fcba19;
+      height: 48px;
+
+      svg {
+        height: 48px;
+      }
     }
   }
 `;
 
-const Breadcrumb = ({ position, href, label, last, needsSeparator }) => {
+const Breadcrumb = ({ position, href, label, last, needsDivider }) => {
   return (
     <StyledBreadcrumb key={position}>
-      {position !== 0 && <span class="span--breadcrumb-tail"></span>}
+      {last && (
+        <span class="span--breadcrumb-tail">
+          <BreadcrumbTail />
+        </span>
+      )}
       <span className="span--breadcrumb-body">
         {last ? (
           <span className="span--breadcrumb-label">{label}</span>
@@ -102,12 +109,13 @@ const Breadcrumb = ({ position, href, label, last, needsSeparator }) => {
           </a>
         )}
       </span>
-      <span class="span--breadcrumb-arrow" />
-      {needsSeparator && (
-        <>
-          <span class="span--breadcrumb-separator-tail" />
-          <span class="span--breadcrumb-separator-arrow" />
-        </>
+      {last && (
+        <span class="span--breadcrumb-head">
+          <BreadcrumbHead />
+        </span>
+      )}
+      {needsDivider && (
+        <BreadcrumbDivider className="svg--breadcrumb-divider" />
       )}
     </StyledBreadcrumb>
   );
@@ -115,10 +123,10 @@ const Breadcrumb = ({ position, href, label, last, needsSeparator }) => {
 
 function Breadcrumbs({ breadcrumbs }) {
   const last = breadcrumbs.length - 1;
-  const needsSeparator = [];
+  const needsDivider = [];
 
   if (breadcrumbs.length > 2) {
-    needsSeparator.push(0);
+    needsDivider.push(0);
   }
 
   return (
@@ -129,7 +137,7 @@ function Breadcrumbs({ breadcrumbs }) {
           href={href}
           label={label}
           last={index === last}
-          needsSeparator={needsSeparator.indexOf(index) !== -1}
+          needsDivider={needsDivider.indexOf(index) !== -1}
         />
       ))}
     </StyledBreadcrumbs>
