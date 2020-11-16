@@ -1,6 +1,6 @@
 import React from "react";
 
-import UserPanel from "./UserPanel";
+import UserPanel from "../components/UserPanel";
 
 export default {
   title: "Services Page Prototype/UserPanel",

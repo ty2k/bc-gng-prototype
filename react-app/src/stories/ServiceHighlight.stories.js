@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ServiceHighlight } from "./ServiceHighlight";
+import { ServiceHighlight } from "../components/ServiceHighlight";
 
 export default {
   title: "Services Page Prototype/ServiceHighlight",

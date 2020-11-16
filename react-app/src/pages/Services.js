@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from "../stories/Header";
-import Breadcrumbs from "../stories/Breadcrumbs";
+import Header from "../components/Header";
+import Breadcrumbs from "../components/Breadcrumbs";
 import Main from "../Main";
 
 function Services(props) {

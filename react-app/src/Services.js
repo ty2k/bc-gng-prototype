@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./Services.scss";
 
-import { Service } from "./stories/Service";
-import { ServiceHighlight } from "./stories/ServiceHighlight";
+import { Service } from "./components/Service";
+import { ServiceHighlight } from "./components/ServiceHighlight";
 
 function Services() {
   const [services, setServices] = useState({});
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState("");
 
   async function fetchData() {
-    const res = await fetch('/api/services');
+    const res = await fetch("/api/services");
     res
       .json()
       .then((res) => setServices(res.services))
