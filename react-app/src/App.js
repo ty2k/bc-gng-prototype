@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { AuthContext } from "./context/auth";
 
+import "./App.scss";
+
 import Services from "./pages/Services";
 
 function App(props) {
