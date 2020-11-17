@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
-import Header from "../components/Header";
-import Breadcrumbs from "../components/Breadcrumbs";
 import { Service } from "../components/Service";
 import { ServiceHighlight } from "../components/ServiceHighlight";
 
@@ -180,7 +178,7 @@ function Services() {
 
 Services.propTypes = {
   title: propTypes.string,
-  breadcrumbns: propTypes.array,
+  breadcrumbs: propTypes.array,
 };
 
 Services.defaultProps = {};
