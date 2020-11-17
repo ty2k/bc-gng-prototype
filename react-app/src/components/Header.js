@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
@@ -52,16 +53,16 @@ const HeaderStyled = styled.header`
     }
   }
 
-  div.wrapper > div.div--title > svg.logo {
+  div.wrapper > div.div--title > a > svg.logo {
     display: inline-block;
     height: 80px;
     vertical-align: top;
   }
-  div.wrapper > div.div--title > svg.vlogo {
+  div.wrapper > div.div--title > a > svg.vlogo {
     min-width: 85px;
   }
   &.header--mini {
-    div.wrapper > div.div--title > svg.logo {
+    div.wrapper > div.div--title > a > svg.logo {
       padding: 0 20px;
     }
   }
@@ -191,13 +192,21 @@ function Header({ title, userSession, alertMessages }) {
             <>
               {navHidden ? (
                 <>
-                  <HLogo id="logo" className="logo hlogo" />
+                  <Link to="/">
+                    <HLogo id="logo" className="logo hlogo" />
+                  </Link>
                   <span className="span--title-pipe"></span>
                   <span className="span--title">{title}</span>
                 </>
               ) : (
                 <>
-                  <VLogo id="logo" className="logo vlogo" aria-hidden="true" />
+                  <Link to="/">
+                    <VLogo
+                      id="logo"
+                      className="logo vlogo"
+                      aria-hidden="true"
+                    />
+                  </Link>
                   <MediaQuery minWidth={575}>
                     <span className="span--title-pipe"></span>
                   </MediaQuery>
@@ -206,7 +215,9 @@ function Header({ title, userSession, alertMessages }) {
               )}
             </>
           ) : (
-            <HLogo id="logo" className="logo hlogo" />
+            <Link to="/">
+              <HLogo id="logo" className="logo hlogo" />
+            </Link>
           )}
         </div>
         <Nav hidden={navHidden} toggleSearch={toggleSearch} />
