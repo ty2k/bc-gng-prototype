@@ -1,6 +1,15 @@
 /* Normalize.css - uses browserslist from package.json for compilation targets */
 @import-normalize;
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
