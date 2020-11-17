@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Nav } from "./Nav";
+import Nav from "../components/Nav";
 
 export default {
   title: "Services Page Prototype/Nav",
