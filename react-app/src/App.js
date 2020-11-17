@@ -4,6 +4,7 @@ import { AuthContext } from "./context/auth";
 
 import "./App.scss";
 
+import Page from "./components/Page";
 import Services from "./pages/Services";
 
 function App(props) {
@@ -17,7 +18,7 @@ function App(props) {
   return (
     <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
       <Router>
-        <Services />
+        <Page title={""} breadcrumbs={[]} content={<Services />} />
       </Router>
     </AuthContext.Provider>
   );

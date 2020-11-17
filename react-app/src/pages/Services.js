@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import propTypes from "prop-types";
 import styled from "styled-components";
 
 import Header from "../components/Header";
@@ -168,17 +169,20 @@ function ServicesContent() {
   );
 }
 
-function Services(props) {
+function Services() {
   return (
-    <div className="App">
-      <Header title="A Ridiculously Long Title for Edge Cases" />
-      <Breadcrumbs />
-      <main>
-        <h1>Programs &amp; Services</h1>
-        <ServicesContent />
-      </main>
-    </div>
+    <main>
+      <h1>Programs &amp; Services</h1>
+      <ServicesContent />
+    </main>
   );
 }
+
+Services.propTypes = {
+  title: propTypes.string,
+  breadcrumbns: propTypes.array,
+};
+
+Services.defaultProps = {};
 
 export default Services;
