@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
@@ -21,33 +22,37 @@ const NavStyled = styled.nav`
   }
 
   ul {
-    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     height: 100%;
     margin: 0;
     padding: 0;
   }
 
   ul li {
-    display: inline-block;
     color: #313132;
-    height: 40x;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
     margin: 0 15px;
   }
   ul li:last-child {
     margin: 0 25px 0 15px;
   }
-  ul li.nav--current-page {
-    border-bottom: 10px solid transparent;
-    border-top: 10px solid #fcba19;
-  }
 
   ul li a {
     color: #313132;
-    height: 60px;
-    line-height: 60px;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
     text-decoration: none;
   }
-  ul li.nav--current-page a {
+  ul li a.a--current-page {
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid #fcba19;
+    height: 60px;
+    line-height: 60px;
     font-weight: 700;
   }
 
@@ -105,9 +110,11 @@ function Nav({ hidden, links, toggleSearch }) {
     <NavStyled className={hidden ? "nav--hidden" : null}>
       <MediaQuery minWidth={1272}>
         <ul>
-          {links.map(({ text, href, current }, index) => (
-            <li key={index} className={current ? "nav--current-page" : null}>
-              <a href={href}>{text}</a>
+          {links.map(({ text, href }, index) => (
+            <li key={index}>
+              <NavLink to={href} activeClassName="a--current-page">
+                {text}
+              </NavLink>
             </li>
           ))}
         </ul>
@@ -143,33 +150,27 @@ Nav.defaultProps = {
   links: [
     {
       text: "Services",
-      href: "/#",
-      current: true,
+      href: "/services",
     },
     {
       text: "Topics",
-      href: "/#",
-      current: false,
+      href: "/topics",
     },
     {
       text: "News",
-      href: "/#",
-      current: false,
+      href: "/news",
     },
     {
       text: "Public Engagements",
-      href: "/#",
-      current: false,
+      href: "/public-engagements",
     },
     {
       text: "Jobs & HR",
-      href: "/#",
-      current: false,
+      href: "/jobs-hr",
     },
     {
       text: "Contact Us",
-      href: "/#",
-      current: false,
+      href: "/contact",
     },
   ],
 };
