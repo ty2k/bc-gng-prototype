@@ -19,7 +19,7 @@ function Page({ title = "", breadcrumbs = [], content }) {
 Page.propTypes = {
   title: PropTypes.string,
   breadcrumbs: PropTypes.array,
-  content: PropTypes.func,
+  content: PropTypes.object,
 };
 
 Page.defaultProps = {};
