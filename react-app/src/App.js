@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
+import PrivateRoute from "./PrivateRoute";
 import { AuthContext } from "./context/auth";
 
 import "./App.scss";
 
 import Page from "./components/Page";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
 import Services from "./pages/Services";
 import Topics from "./pages/Topics";
 import News from "./pages/News";
@@ -27,27 +29,30 @@ function App(props) {
         <Route exact path="/">
           <Page title={""} breadcrumbs={[]} content={<Home />} />
         </Route>
-        <Route path="/services">
+        <Route path="/login">
+          <Page title={""} breadcrumbs={[]} content={<Login />} />
+        </Route>
+        <PrivateRoute path="/services">
           <Page title={""} breadcrumbs={[]} content={<Services />} />
-        </Route>
-        <Route path="/topics">
+        </PrivateRoute>
+        <PrivateRoute path="/topics">
           <Page title={""} breadcrumbs={[]} content={<Topics />} />
-        </Route>
-        <Route path="/news">
+        </PrivateRoute>
+        <PrivateRoute path="/news">
           <Page title={""} breadcrumbs={[]} content={<News />} />
-        </Route>
-        <Route path="/public-engagements">
+        </PrivateRoute>
+        <PrivateRoute path="/public-engagements">
           <Page title={""} breadcrumbs={[]} content={<PublicEngagements />} />
-        </Route>
-        <Route path="/jobs-hr">
+        </PrivateRoute>
+        <PrivateRoute path="/jobs-hr">
           <Page title={""} breadcrumbs={[]} content={<JobsHR />} />
-        </Route>
-        <Route path="/contact">
+        </PrivateRoute>
+        <PrivateRoute path="/contact">
           <Page title={""} breadcrumbs={[]} content={<Contact />} />
-        </Route>
-        <Route>
+        </PrivateRoute>
+        <PrivateRoute>
           <Page title={""} breadcrumbs={[]} content={<Home />} />
-        </Route>
+        </PrivateRoute>
       </Switch>
     </AuthContext.Provider>
   );
