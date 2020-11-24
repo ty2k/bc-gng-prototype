@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import propTypes from "prop-types";
 import { Redirect } from "react-router-dom";
 
-import { userService } from "../_services/user.service";
+import { userService } from "../../_services/user.service";
 
 function Login(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
