@@ -3,10 +3,10 @@ import { Route, Redirect } from "react-router-dom";
 
 import Page from "./components/Page";
 
-function PrivateRoute({ content, ...rest }) {
+function PrivateRoute({ title, breadcrumbs, content, ...rest }) {
   return localStorage.getItem("user") ? (
     <Route {...rest}>
-      {<Page title={""} breadcrumbs={[]} content={content} />}
+      <Page title={title} breadcrumbs={breadcrumbs} content={content} />
     </Route>
   ) : (
     <Redirect to={{ pathname: "/login", state: { referer: "/" } }} />
