@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Services from "./pages/Services";
 import Topics from "./pages/Topics";
+import HousingAndTenancy from "./pages/Topics/Housing-and-Tenancy";
 import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
@@ -31,6 +32,13 @@ function App() {
         title={""}
         breadcrumbs={[]}
         content={<Services />}
+      />
+      <PrivateRoute
+        exact
+        path="/topics/housing-and-tenancy"
+        title={""}
+        breadcrumbs={[{ href: "/topics", label: "Topics" }]}
+        content={<HousingAndTenancy />}
       />
       <PrivateRoute
         path="/topics"
