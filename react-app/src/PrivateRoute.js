@@ -1,15 +1,16 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
-import { useAuth } from "./context/auth";
+
+import Page from "./components/Page";
 
 function PrivateRoute({ content, ...rest }) {
-  const { authTokens } = useAuth();
-
-  if (authTokens) {
-    return <Route {...rest}>{content}</Route>;
-  } else {
-    return <Redirect to={{ pathname: "/login" }} />;
-  }
+  return localStorage.getItem("user") ? (
+    <Route {...rest}>
+      {<Page title={""} breadcrumbs={[]} content={content} />}
+    </Route>
+  ) : (
+    <Redirect to={{ pathname: "/login", state: { referer: "/" } }} />
+  );
 }
 
 export default PrivateRoute;

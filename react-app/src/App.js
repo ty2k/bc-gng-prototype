@@ -5,7 +5,6 @@ import { AuthContext } from "./context/auth";
 
 import "./App.scss";
 
-import Page from "./components/Page";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Services from "./pages/Services";
@@ -15,7 +14,7 @@ import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
 import Contact from "./pages/Contact";
 
-function App(props) {
+function App() {
   const [authTokens, setAuthTokens] = useState();
 
   const setTokens = (data) => {
@@ -26,33 +25,53 @@ function App(props) {
   return (
     <AuthContext.Provider value={{ authTokens, setAuthTokens: setTokens }}>
       <Switch>
-        <Route exact path="/">
-          <Page title={""} breadcrumbs={[]} content={<Home />} />
-        </Route>
         <Route path="/login">
-          <Page title={""} breadcrumbs={[]} content={<Login />} />
+          <Login />
         </Route>
-        <PrivateRoute path="/services">
-          <Page title={""} breadcrumbs={[]} content={<Services />} />
-        </PrivateRoute>
-        <PrivateRoute path="/topics">
-          <Page title={""} breadcrumbs={[]} content={<Topics />} />
-        </PrivateRoute>
-        <PrivateRoute path="/news">
-          <Page title={""} breadcrumbs={[]} content={<News />} />
-        </PrivateRoute>
-        <PrivateRoute path="/public-engagements">
-          <Page title={""} breadcrumbs={[]} content={<PublicEngagements />} />
-        </PrivateRoute>
-        <PrivateRoute path="/jobs-hr">
-          <Page title={""} breadcrumbs={[]} content={<JobsHR />} />
-        </PrivateRoute>
-        <PrivateRoute path="/contact">
-          <Page title={""} breadcrumbs={[]} content={<Contact />} />
-        </PrivateRoute>
-        <PrivateRoute>
-          <Page title={""} breadcrumbs={[]} content={<Home />} />
-        </PrivateRoute>
+        <PrivateRoute
+          exact
+          path="/"
+          title={""}
+          breadcrumbs={[]}
+          content={<Home />}
+        />
+        <PrivateRoute
+          path="/services"
+          title={""}
+          breadcrumbs={[]}
+          content={<Services />}
+        />
+        <PrivateRoute
+          path="/topics"
+          title={""}
+          breadcrumbs={[]}
+          content={<Topics />}
+        />
+        <PrivateRoute
+          path="/news"
+          title={""}
+          breadcrumbs={[]}
+          content={<News />}
+        />
+        <PrivateRoute
+          path="/public-engagements"
+          title={""}
+          breadcrumbs={[]}
+          content={<PublicEngagements />}
+        />
+        <PrivateRoute
+          path="/jobs-hr"
+          title={""}
+          breadcrumbs={[]}
+          content={<JobsHR />}
+        />
+        <PrivateRoute
+          path="/contact"
+          title={""}
+          breadcrumbs={[]}
+          content={<Contact />}
+        />
+        <PrivateRoute title={""} breadcrumbs={[]} content={<Home />} />
       </Switch>
     </AuthContext.Provider>
   );
