@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
-const path = require('path');
 const app = express();
+const path = require('path');
 const bodyParser = require('body-parser');
 const servicesData = require('./services.json');
 const PORT = process.env.PORT || 8080;
@@ -19,12 +19,12 @@ app.get('/api/services', function(req, res) {
   res.json(servicesData);
 });
 
-app.post('/login', function(req, res) {
+app.post('/api/login', function(req, res) {
   if (req.body &&
       req.body.username === GUEST_USERNAME &&
       req.body.password === GUEST_PASSWORD) {
     console.log("Authenticated");
-    res.sendStatus(200);
+    res.json({ "username": req.body.username });
   } else {
     console.log("Rejected");
     res.sendStatus(401);
