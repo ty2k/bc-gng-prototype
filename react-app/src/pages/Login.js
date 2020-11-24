@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
 import { Redirect } from "react-router-dom";
-import { useAuth } from "../context/auth";
-import axios from "axios";
+
+import { userService } from "../_services/user.service";
 
 function Login(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -10,7 +10,6 @@ function Login(props) {
   const [isError, setIsError] = useState(false);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  const { setAuthTokens } = useAuth();
   const referer =
     props.location && props.location.state && props.location.state.referer
       ? props.location.state.referer
@@ -20,30 +19,15 @@ function Login(props) {
     event.preventDefault();
     setIsSubmitting(true);
 
-    const data = new FormData();
-    data.username = userName;
-    data.password = password;
-
-    axios
-      .post("/login", JSON.stringify(data), {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      })
-      .then((result) => {
-        if (result.status === 200) {
-          setAuthTokens(result.data);
-          setLoggedIn(true);
-        } else {
-          setIsError(true);
-          setIsSubmitting(false);
-        }
-      })
-      .catch((e) => {
+    userService.login(userName, password).then(
+      (user) => {
+        setLoggedIn(true);
+      },
+      (error) => {
         setIsError(true);
         setIsSubmitting(false);
-      });
+      }
+    );
   }
 
   if (isLoggedIn) {
