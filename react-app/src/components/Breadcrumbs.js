@@ -96,7 +96,7 @@ const Breadcrumb = ({ position, href, label, last, needsDivider }) => {
   return (
     <StyledBreadcrumb key={position}>
       {last && (
-        <span class="span--breadcrumb-tail">
+        <span className="span--breadcrumb-tail">
           <BreadcrumbTail />
         </span>
       )}
@@ -110,7 +110,7 @@ const Breadcrumb = ({ position, href, label, last, needsDivider }) => {
         )}
       </span>
       {last && (
-        <span class="span--breadcrumb-head">
+        <span className="span--breadcrumb-head">
           <BreadcrumbHead />
         </span>
       )}
@@ -133,6 +133,7 @@ function Breadcrumbs({ breadcrumbs }) {
     <StyledBreadcrumbs>
       {breadcrumbs.map(({ href, label }, index) => (
         <Breadcrumb
+          key={`breadcrumb-${index}`}
           position={index}
           href={href}
           label={label}

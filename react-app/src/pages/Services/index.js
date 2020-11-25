@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
-import { Service } from "../components/Service";
-import { ServiceHighlight } from "../components/ServiceHighlight";
+import { Service } from "../../components/Service";
+import { ServiceHighlight } from "../../components/ServiceHighlight";
 
 const ServicesContentStyled = styled.div`
   div.div--search {
