@@ -6,12 +6,12 @@ import styled from "styled-components";
 
 import Nav from "./Nav";
 import Alert from "./Alert";
-import SearchBar from "./SearchBar";
-import useDocumentScrollThrottled from "../useDocumentScrollThrottled";
-import { ReactComponent as HLogo } from "./assets/BCID_H_rgb_pos.svg";
-import { ReactComponent as VLogo } from "./assets/BCID_V_rgb_pos.svg";
-import { ReactComponent as HamburgerIcon } from "./assets/bars-solid.svg";
-import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circle.svg";
+import SearchBar from "./Nav/SearchBar";
+import useDocumentScrollThrottled from "../../useDocumentScrollThrottled";
+import { ReactComponent as HLogo } from "../assets/BCID_H_rgb_pos.svg";
+import { ReactComponent as VLogo } from "../assets/BCID_V_rgb_pos.svg";
+import { ReactComponent as HamburgerIcon } from "../assets/bars-solid.svg";
+import { ReactComponent as InfoIcon } from "../assets/ionic-ios-information-circle.svg";
 
 const HeaderStyled = styled.header`
   background: none;
