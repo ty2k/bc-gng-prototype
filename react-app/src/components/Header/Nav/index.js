@@ -153,8 +153,8 @@ Nav.defaultProps = {
       href: "/services",
     },
     {
-      text: "Topics",
-      href: "/topics",
+      text: "Themes",
+      href: "/themes",
     },
     {
       text: "News",

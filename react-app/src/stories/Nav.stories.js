@@ -13,7 +13,7 @@ export const Default = Template.bind({});
 Default.args = {
   links: [
     "Services",
-    "Topics",
+    "Themes",
     "News",
     "Public Engagements",
     "Jobs & MyHR",

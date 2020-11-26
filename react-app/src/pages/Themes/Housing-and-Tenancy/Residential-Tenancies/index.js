@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
-import Navigation from "../../../Navigation";
+import Navigation from "../../../../components/Navigation";
 import data from "./data";
 
 function ResidentialTenancies() {

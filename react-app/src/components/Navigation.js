@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import SearchBar from "../../components/SearchBar";
+import SearchBar from "./SearchBar";
 
 const Section = styled.div`
   margin: 30px 0 50px 0;
