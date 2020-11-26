@@ -1,23 +1,36 @@
 main {
   margin: 0 auto;
   width: 100%;
+
+  a {
+    color: #1a5a96;
+  }
+  a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+
+  h1 {
+    margin: 20px 15px;
+  }
 }
-main h1 {
-  margin: 20px 15px;
-}
+
 @media (min-width: 576px) {
   main {
     max-width: 576px;
   }
 }
+
 @media (min-width: 768px) {
   main {
     max-width: 728px;
-  }
-  main h1 {
-    margin: 36px 0 20px 0;
+
+    h1 {
+      margin: 36px 0 20px 0;
+    }
   }
 }
+
 @media (min-width: 992px) {
   main {
     max-width: 952px;
