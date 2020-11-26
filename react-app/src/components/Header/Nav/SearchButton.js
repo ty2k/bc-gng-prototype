@@ -2,10 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { ReactComponent as SearchIcon } from "./assets/search-solid.svg";
+import { ReactComponent as SearchIcon } from "../../assets/search-solid.svg";
 
 const SearchButtonStyled = styled.div`
-  /* align-self: center; */
   background: none;
   box-sizing: border-box;
   display: inline-block;

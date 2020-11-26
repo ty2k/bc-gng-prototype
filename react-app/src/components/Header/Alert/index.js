@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { ReactComponent as InfoIcon } from "./assets/ionic-ios-information-circle.svg";
-import { ReactComponent as CloseIcon } from "./assets/ionic-md-close.svg";
+import { ReactComponent as InfoIcon } from "../../assets/ionic-ios-information-circle.svg";
+import { ReactComponent as CloseIcon } from "../../assets/ionic-md-close.svg";
 
 const StyledAlert = styled.div`
   align-items: stretch;

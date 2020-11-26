@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { ReactComponent as UserIcon } from "./assets/ionic-md-person.svg";
+import { ReactComponent as UserIcon } from "../../assets/ionic-md-person.svg";
 
 const UserPanelStyled = styled.div`
   align-items: center;

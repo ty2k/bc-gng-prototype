@@ -2,13 +2,15 @@ import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { ReactComponent as SearchIcon } from "./assets/search-solid.svg";
+import SearchButton from "./SearchButton";
 
 const SearchForm = styled.div`
   background-color: white;
-  border: 1px solid #d6d6d6;
+  border-bottom: 2px solid #003366;
+  border-top: 2px solid #d6d6d6;
   box-sizing: border-box;
   display: flex;
+  height: 80px;
   justify-content: center;
   overflow: hidden;
   text-align: center;
@@ -18,8 +20,9 @@ const SearchForm = styled.div`
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    max-height: 76px;
+    max-width: 952px;
+    width: fit-content;
   }
 
   input[type="search"] {
@@ -27,25 +30,12 @@ const SearchForm = styled.div`
     border: 0;
     display: inline-block;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
+    height: 76px;
     padding: 10px;
     vertical-align: middle;
+    max-width: 872px;
     width: 872px;
-  }
-`;
-
-const SearchButton = styled.button`
-  background: none;
-  border: none;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 44px;
-  overflow: hidden;
-  padding: 10px;
-  width: 44px;
-
-  svg {
-    color: #888888;
   }
 `;
 
@@ -60,9 +50,7 @@ function SearchBar({ placeHolder }) {
     <SearchForm>
       <form>
         <input type="search" placeholder={placeHolder} ref={searchInput} />
-        <SearchButton>
-          <SearchIcon />
-        </SearchButton>
+        <SearchButton />
       </form>
     </SearchForm>
   );

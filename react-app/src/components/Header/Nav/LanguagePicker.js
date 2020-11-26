@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-import { ReactComponent as ArrowDownIcon } from "./assets/ios-arrow-down.svg";
+import { ReactComponent as ArrowDownIcon } from "../../assets/ios-arrow-down.svg";
 
 const LanguagePickerStyled = styled.div`
   align-items: center;
