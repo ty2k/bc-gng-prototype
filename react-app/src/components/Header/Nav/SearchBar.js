@@ -6,8 +6,8 @@ import SearchButton from "./SearchButton";
 
 const SearchForm = styled.div`
   background-color: white;
-  border-top: 2px solid #d6d6d6;
   border-bottom: 2px solid #003366;
+  border-top: 2px solid #d6d6d6;
   box-sizing: border-box;
   display: flex;
   height: 80px;
@@ -39,7 +39,7 @@ const SearchForm = styled.div`
   }
 `;
 
-function SearchBar() {
+function SearchBar({ placeHolder }) {
   const searchInput = useRef(null);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ function SearchBar() {
   return (
     <SearchForm>
       <form>
-        <input type="search" placeholder="Search gov.bc.ca" ref={searchInput} />
+        <input type="search" placeholder={placeHolder} ref={searchInput} />
         <SearchButton />
       </form>
     </SearchForm>
@@ -57,11 +57,12 @@ function SearchBar() {
 }
 
 SearchBar.propTypes = {
-  inputHidden: PropTypes.bool,
+  placeHolder: PropTypes.string,
 };
 
 SearchBar.defaultProps = {
-  inputHidden: true,
+  header: false,
+  placeHolder: "Search gov.bc.ca",
 };
 
 export default SearchBar;

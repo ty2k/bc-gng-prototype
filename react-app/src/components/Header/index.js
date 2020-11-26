@@ -242,7 +242,9 @@ function Header({ title, userSession, alertMessages }) {
           </div>
         ) : null}
       </div>
-      {searchHidden ? null : <SearchBar />}
+      {!searchHidden && (
+        <SearchBar header={true} placeholder={"Search gov.bc.ca"} />
+      )}
       {alertMessages &&
         alertMessages.length > 0 &&
         alertMessages.map((alertMessage, index) => {
