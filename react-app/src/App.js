@@ -7,9 +7,9 @@ import "./App.scss";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Services from "./pages/Services";
-import Topics from "./pages/Topics";
-import HousingAndTenancy from "./pages/Topics/Housing-and-Tenancy";
-import ResidentialTenancies from "./pages/Topics/Housing-and-Tenancy/Residential-Tenancies";
+import Themes from "./pages/Themes";
+import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
+import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
 import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
@@ -36,26 +36,26 @@ function App() {
       />
       <PrivateRoute
         exact
-        path="/topics/housing-and-tenancy/residential-tenancies"
+        path="/themes/housing-and-tenancy/residential-tenancies"
         title={""}
         breadcrumbs={[
-          { href: "/topics", label: "Topics" },
-          { href: "/topics/housing-and-tenancy", label: "Housing & Tenancy" },
+          { href: "/themes", label: "Themes" },
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
         ]}
         content={<ResidentialTenancies />}
       />
       <PrivateRoute
         exact
-        path="/topics/housing-and-tenancy"
+        path="/themes/housing-and-tenancy"
         title={""}
-        breadcrumbs={[{ href: "/topics", label: "Topics" }]}
+        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
         content={<HousingAndTenancy />}
       />
       <PrivateRoute
-        path="/topics"
+        path="/themes"
         title={""}
         breadcrumbs={[]}
-        content={<Topics />}
+        content={<Themes />}
       />
       <PrivateRoute
         path="/news"

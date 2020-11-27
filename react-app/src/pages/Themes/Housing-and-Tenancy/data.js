@@ -7,11 +7,11 @@ const sections = [
         description: "Info and services for tenants and landlords.",
         links: [
           {
-            href: "/topics/housing-and-tenancy/residential-tenancies",
+            href: "/themes/housing-and-tenancy/residential-tenancies",
             label: "Tips for landlords & renters",
           },
           {
-            href: "/topics/housing-and-tenancy/residential-tenancies",
+            href: "/themes/housing-and-tenancy/residential-tenancies",
             label: "Tenancy Agreements",
           },
         ],

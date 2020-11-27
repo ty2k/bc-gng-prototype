@@ -1,6 +1,6 @@
 import React from "react";
 
-import Nav from "../components/Nav";
+import Nav from "../components/Header/Nav";
 
 export default {
   title: "Services Page Prototype/Nav",
@@ -13,7 +13,7 @@ export const Default = Template.bind({});
 Default.args = {
   links: [
     "Services",
-    "Topics",
+    "Themes",
     "News",
     "Public Engagements",
     "Jobs & MyHR",
