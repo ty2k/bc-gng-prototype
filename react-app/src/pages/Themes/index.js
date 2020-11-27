@@ -2,10 +2,9 @@ import React from "react";
 import propTypes from "prop-types";
 
 import Navigation from "../../components/Navigation";
+import data from "./data";
 
 function Themes() {
-  const data = [];
-
   return (
     <main>
       <h1>Themes</h1>

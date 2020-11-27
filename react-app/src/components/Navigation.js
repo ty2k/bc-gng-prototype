@@ -3,6 +3,7 @@ import propTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+import { imageService } from "../_services/image.service";
 import SearchBar from "./SearchBar";
 
 const Section = styled.div`
@@ -33,7 +34,17 @@ const Card = styled.div`
   padding: 10px;
 
   h3 {
+    display: inline-block;
     margin-top: 0px;
+  }
+
+  img.img--card-icon {
+    color: #313132;
+    display: inline-block;
+    margin-right: 7px;
+    max-height: 20px;
+    max-width: 20px;
+    vertical-align: top;
   }
 
   ul {
@@ -46,40 +57,57 @@ const Card = styled.div`
   }
 `;
 
+function Icon({ id }) {
+  const icon = imageService.get(id);
+
+  if (icon && typeof icon === "string") {
+    return <img className="img--card-icon" src={icon} alt="" />;
+  } else {
+    return null;
+  }
+}
+
 function Navigation({ searchLabel, sections }) {
   return (
     <>
       <SearchBar placeHolder={searchLabel} />
-      {sections.map((section, index) => {
-        return (
-          <>
-            {section.title && <h2>{section.title}</h2>}
-            <Section key={`section-div-${index}`}>
-              {section.cards.map((card, cardIndex) => {
-                return (
-                  <Card key={`section-${index}-card-${cardIndex}`}>
-                    <h3>{card.title}</h3>
-                    <p>{card.description}</p>
-                    {card.links && card.links.length > 0 && (
-                      <ul>
-                        {card.links.map((link, linkIndex) => {
-                          return (
-                            <li
-                              key={`section-${index}-card-${cardIndex}-li-${linkIndex}`}
-                            >
-                              <Link to={link.href}>{link.label}</Link>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    )}
-                  </Card>
-                );
-              })}
-            </Section>
-          </>
-        );
-      })}
+      {sections &&
+        sections.length > 0 &&
+        sections.map((section, index) => {
+          return (
+            <div key={`navigation-div-${index}`}>
+              {section.title && (
+                <h2 key={`section-h1-${index}`}>{section.title}</h2>
+              )}
+              <Section key={`section-div-${index}`}>
+                {section.cards &&
+                  section.cards.length > 0 &&
+                  section.cards.map((card, cardIndex) => {
+                    return (
+                      <Card key={`section-${index}-card-${cardIndex}`}>
+                        {card.icon && <Icon id={card.icon} />}
+                        {card.title && <h3>{card.title}</h3>}
+                        {card.description && <p>{card.description}</p>}
+                        {card.links && card.links.length > 0 && (
+                          <ul>
+                            {card.links.map((link, linkIndex) => {
+                              return (
+                                <li
+                                  key={`section-${index}-card-${cardIndex}-li-${linkIndex}`}
+                                >
+                                  <Link to={link.href}>{link.label}</Link>
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        )}
+                      </Card>
+                    );
+                  })}
+              </Section>
+            </div>
+          );
+        })}
     </>
   );
 }
@@ -88,6 +116,7 @@ Navigation.propTypes = {
   searchLabel: propTypes.string,
   sections: propTypes.arrayOf(
     propTypes.shape({
+      icon: propTypes.string,
       title: propTypes.string,
       cards: propTypes.arrayOf(
         propTypes.shape({
