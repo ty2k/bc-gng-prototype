@@ -33,18 +33,25 @@ const Card = styled.div`
   border: 1px solid #d1d1d1;
   padding: 10px;
 
-  h3 {
-    display: inline-block;
-    margin-top: 0px;
-  }
+  div.card--icon-title {
+    display: flex;
+    margin-bottom: 20px;
 
-  img.img--card-icon {
-    color: #313132;
-    display: inline-block;
-    margin-right: 7px;
-    max-height: 20px;
-    max-width: 20px;
-    vertical-align: top;
+    h3 {
+      display: inline-block;
+      margin: 0;
+    }
+
+    svg {
+      color: #313132;
+      display: inline-block;
+      margin-right: 7px;
+      max-height: 25px;
+      max-width: 25px;
+      min-height: 20px;
+      min-width: 20px;
+      vertical-align: top;
+    }
   }
 
   ul {
@@ -58,10 +65,10 @@ const Card = styled.div`
 `;
 
 function Icon({ id }) {
-  const icon = imageService.get(id);
+  const Icon = imageService.getSvg(id);
 
-  if (icon && typeof icon === "string") {
-    return <img className="img--card-icon" src={icon} alt="" />;
+  if (Icon) {
+    return <Icon />;
   } else {
     return null;
   }
@@ -85,8 +92,10 @@ function Navigation({ searchLabel, sections }) {
                   section.cards.map((card, cardIndex) => {
                     return (
                       <Card key={`section-${index}-card-${cardIndex}`}>
-                        {card.icon && <Icon id={card.icon} />}
-                        {card.title && <h3>{card.title}</h3>}
+                        <div className="card--icon-title">
+                          {card.icon && <Icon id={card.icon} />}
+                          {card.title && <h3>{card.title}</h3>}
+                        </div>
                         {card.description && <p>{card.description}</p>}
                         {card.links && card.links.length > 0 && (
                           <ul>
