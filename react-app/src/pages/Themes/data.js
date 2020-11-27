@@ -40,6 +40,7 @@ const sections = [
       },
       {
         title: "Taxes & Tax Credits",
+        icon: "dollar-sign-solid.svg",
         links: [
           {
             href: "",
@@ -57,6 +58,7 @@ const sections = [
       },
       {
         title: "Employment, Business & Economic Development",
+        icon: "material-work.svg",
         links: [
           {
             href: "",
@@ -74,6 +76,7 @@ const sections = [
       },
       {
         title: "Family and Social Supports",
+        icon: "hands-solid.svg",
         links: [
           {
             href: "",
@@ -91,6 +94,7 @@ const sections = [
       },
       {
         title: "Public Safety & Emergency Services",
+        icon: "ambulance-solid.svg",
         links: [
           {
             href: "",
@@ -108,6 +112,7 @@ const sections = [
       },
       {
         title: "Education and Training",
+        icon: "book-open-solid.svg",
         links: [
           {
             href: "",
@@ -121,6 +126,7 @@ const sections = [
       },
       {
         title: "Housing & Tenancy",
+        icon: "home-solid.svg",
         links: [
           {
             href: "/themes/housing-and-tenancy",
@@ -138,6 +144,7 @@ const sections = [
       },
       {
         title: "Driving and Transporation",
+        icon: "car-alt-solid.svg",
         links: [
           {
             href: "",
@@ -155,6 +162,7 @@ const sections = [
       },
       {
         title: "Law, Crime & Justice",
+        icon: "map-icons-lawyer.svg",
         links: [
           {
             href: "",
@@ -172,6 +180,7 @@ const sections = [
       },
       {
         title: "Farming, Natural Resources & Industry",
+        icon: "industry-solid.svg",
         links: [
           {
             href: "",
@@ -189,6 +198,7 @@ const sections = [
       },
       {
         title: "Environmental Protection & Sustainability",
+        icon: "leaf-solid.svg",
         links: [
           {
             href: "",
@@ -206,6 +216,7 @@ const sections = [
       },
       {
         title: "Birth, Adoption, Death, Marriage and Identity",
+        icon: "hand-holding-heart-solid.svg",
         links: [
           {
             href: "",
@@ -223,6 +234,7 @@ const sections = [
       },
       {
         title: "Sports, Recreation, Arts & Culture",
+        icon: "ios-football.svg",
         links: [
           {
             href: "",
@@ -240,6 +252,7 @@ const sections = [
       },
       {
         title: "Data",
+        icon: "passport-solid.svg",
         links: [
           {
             href: "",
@@ -257,6 +270,7 @@ const sections = [
       },
       {
         title: "Moving to B.C. & Tourism",
+        icon: "plane-solid.svg",
         links: [
           {
             href: "",
