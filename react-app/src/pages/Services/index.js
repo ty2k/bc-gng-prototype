@@ -132,7 +132,7 @@ function ServicesContent() {
             )
             .map(({ name, url, external, image }, index) => (
               <ServiceHighlight
-                key={index && ` - ` && name}
+                key={`service-highlight-${index}`}
                 name={name}
                 icon={image}
                 url={url}
@@ -155,7 +155,7 @@ function ServicesContent() {
           )
           .map(({ name, description, url, external }, index) => (
             <Service
-              key={index}
+              key={`service-${index}`}
               name={name}
               description={description}
               url={url}
