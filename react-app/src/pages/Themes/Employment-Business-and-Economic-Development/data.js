@@ -44,11 +44,13 @@ const sections = [
           "Read the Employment Standards or get help with disagreements with WorkSafeBC decisions.",
         links: [
           {
-            href: "",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
             label: "Extend a temporary layoff variance",
           },
           {
-            href: "",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
             label: "File a complaint with WorkSafeBC",
           },
         ],

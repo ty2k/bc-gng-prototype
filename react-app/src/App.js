@@ -10,11 +10,12 @@ import Services from "./pages/Services";
 import Themes from "./pages/Themes";
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
+import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
+import EmploymentStandardsAndWorkplaceSafety from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety";
 import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
 import Contact from "./pages/Contact";
-import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
 
 function App() {
   return (
@@ -47,17 +48,30 @@ function App() {
       />
       <PrivateRoute
         exact
-        path="/themes/employment-business-and-economic-development"
-        title={""}
-        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
-        content={<EmploymentBusinessAndEconomicDevelopment />}
-      />
-      <PrivateRoute
-        exact
         path="/themes/housing-and-tenancy"
         title={""}
         breadcrumbs={[{ href: "/themes", label: "Themes" }]}
         content={<HousingAndTenancy />}
+      />
+      <PrivateRoute
+        exact
+        path="/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety"
+        title={""}
+        breadcrumbs={[
+          { href: "/themes", label: "Themes" },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+        ]}
+        content={<EmploymentStandardsAndWorkplaceSafety />}
+      />
+      <PrivateRoute
+        exact
+        path="/themes/employment-business-and-economic-development"
+        title={""}
+        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
+        content={<EmploymentBusinessAndEconomicDevelopment />}
       />
       <PrivateRoute
         path="/themes"
