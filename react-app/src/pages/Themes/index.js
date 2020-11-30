@@ -8,7 +8,7 @@ function Themes() {
   return (
     <main>
       <h1>Themes</h1>
-      <Navigation searchLabel={"Search Themes"} sections={data} />
+      <Navigation search={{ label: "Search Themes" }} sections={data} />
     </main>
   );
 }
