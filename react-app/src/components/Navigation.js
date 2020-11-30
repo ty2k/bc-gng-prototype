@@ -74,10 +74,10 @@ function Icon({ id }) {
   }
 }
 
-function Navigation({ searchLabel, sections }) {
+function Navigation({ search, sections }) {
   return (
     <>
-      <SearchBar placeHolder={searchLabel} />
+      {search && <SearchBar placeHolder={search.label || "Search"} />}
       {sections &&
         sections.length > 0 &&
         sections.map((section, index) => {
@@ -122,7 +122,9 @@ function Navigation({ searchLabel, sections }) {
 }
 
 Navigation.propTypes = {
-  searchLabel: propTypes.string,
+  search: propTypes.shape({
+    label: propTypes.string,
+  }),
   sections: propTypes.arrayOf(
     propTypes.shape({
       icon: propTypes.string,
@@ -143,8 +145,6 @@ Navigation.propTypes = {
   ),
 };
 
-Navigation.defaultProps = {
-  searchLabel: "Search",
-};
+Navigation.defaultProps = {};
 
 export default Navigation;

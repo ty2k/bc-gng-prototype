@@ -9,7 +9,7 @@ function EmploymentBusinessAndEconomicDevelopment() {
     <main>
       <h1>Employment, Business &amp; Economic Development</h1>
       <Navigation
-        searchLabel={"Employment, Business & Economic Development"}
+        search={{ label: "Employment, Business & Economic Development" }}
         sections={data}
       />
     </main>

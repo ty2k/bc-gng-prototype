@@ -8,7 +8,10 @@ function HousingAndTenancy() {
   return (
     <main>
       <h1>Housing &amp; Tenancy</h1>
-      <Navigation searchLabel={"Search Housing & Tenancy"} sections={data} />
+      <Navigation
+        search={{ label: "Search Housing & Tenancy" }}
+        sections={data}
+      />
     </main>
   );
 }

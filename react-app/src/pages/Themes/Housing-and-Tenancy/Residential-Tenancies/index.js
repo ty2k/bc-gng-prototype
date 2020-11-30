@@ -9,7 +9,7 @@ function ResidentialTenancies() {
     <main>
       <h1>Residential Tenancies</h1>
       <Navigation
-        searchLabel={"Search Residential Tenancies"}
+        search={{ label: "Search Residential Tenancies" }}
         sections={data}
       />
     </main>
