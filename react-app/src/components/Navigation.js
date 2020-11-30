@@ -31,7 +31,7 @@ const Section = styled.div`
 
 const Card = styled.div`
   border: 1px solid #d1d1d1;
-  padding: 10px;
+  padding: 16px;
 
   div.card--icon-title {
     display: flex;
