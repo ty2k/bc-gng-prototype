@@ -1,4 +1,4 @@
-import { ReactComponent as ambulanceSolid } from "../components/assets/ambulance-solid.svg";
+import { ReactComponent as ambulance } from "../components/assets/ambulance.svg";
 import { ReactComponent as barsSolid } from "../components/assets/bars-solid.svg";
 import { ReactComponent as bcHorizontal } from "../components/assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as bcVertical } from "../components/assets/BCID_V_rgb_pos.svg";
@@ -34,7 +34,7 @@ import { ReactComponent as planeSolid } from "../components/assets/plane-solid.s
 import { ReactComponent as searchSolid } from "../components/assets/search-solid.svg";
 
 const svgIcons = {
-  "ambulance-solid.svg": ambulanceSolid,
+  "ambulance.svg": ambulance,
   "bars-solid.svg": barsSolid,
   "BCID_H_rgb_pos.svg": bcHorizontal,
   "BCID_V_rgb_pos.svg": bcVertical,

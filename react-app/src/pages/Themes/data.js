@@ -94,7 +94,7 @@ const sections = [
       },
       {
         title: "Public Safety & Emergency Services",
-        icon: "ambulance-solid.svg",
+        icon: "ambulance.svg",
         links: [
           {
             href: "",
