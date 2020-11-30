@@ -61,15 +61,15 @@ const sections = [
         icon: "material-work.svg",
         links: [
           {
-            href: "",
+            href: "/themes/employment-business-and-economic-development/",
             label: "Financial Supports for COVID-19",
           },
           {
-            href: "",
+            href: "/themes/employment-business-and-economic-development/",
             label: "Economic Development",
           },
           {
-            href: "",
+            href: "/themes/employment-business-and-economic-development/",
             label: "Funding & Grants Changes for Societies",
           },
         ],
@@ -94,7 +94,7 @@ const sections = [
       },
       {
         title: "Public Safety & Emergency Services",
-        icon: "ambulance-solid.svg",
+        icon: "ambulance.svg",
         links: [
           {
             href: "",

@@ -14,6 +14,7 @@ import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
 import Contact from "./pages/Contact";
+import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
 
 function App() {
   return (
@@ -43,6 +44,13 @@ function App() {
           { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
         ]}
         content={<ResidentialTenancies />}
+      />
+      <PrivateRoute
+        exact
+        path="/themes/employment-business-and-economic-development"
+        title={""}
+        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
+        content={<EmploymentBusinessAndEconomicDevelopment />}
       />
       <PrivateRoute
         exact

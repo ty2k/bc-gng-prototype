@@ -110,11 +110,15 @@ function Nav({ hidden, links, toggleSearch }) {
     <NavStyled className={hidden ? "nav--hidden" : null}>
       <MediaQuery minWidth={1272}>
         <ul>
-          {links.map(({ text, href }, index) => (
+          {links.map(({ text, href, external }, index) => (
             <li key={index}>
-              <NavLink to={href} activeClassName="a--current-page">
-                {text}
-              </NavLink>
+              {external ? (
+                <a href={href}>{text}</a>
+              ) : (
+                <NavLink to={href} activeClassName="a--current-page">
+                  {text}
+                </NavLink>
+              )}
             </li>
           ))}
         </ul>
@@ -158,19 +162,28 @@ Nav.defaultProps = {
     },
     {
       text: "News",
-      href: "/news",
+      href: "https://news.gov.bc.ca/", // Use production pages until we have content on prototype pages
+      // href: "/news",
+      external: true,
     },
     {
       text: "Public Engagements",
-      href: "/public-engagements",
+      href: "https://engage.gov.bc.ca/govtogetherbc/", // Use production pages until we have content on prototype pages
+      // href: "/public-engagements",
+      external: true,
     },
     {
       text: "Jobs & HR",
-      href: "/jobs-hr",
+      href: "https://www2.gov.bc.ca/gov/content/careers-myhr", // Use production pages until we have content on prototype pages
+      // href: "/jobs-hr",
+      external: true,
     },
     {
       text: "Contact Us",
-      href: "/contact",
+      href:
+        "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services", // Use production pages until we have content on prototype pages
+      // href: "/contact",
+      external: true,
     },
   ],
 };

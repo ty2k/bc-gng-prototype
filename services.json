@@ -84,7 +84,7 @@
             "description": "Description for BC Emergency Workers Benefit",
             "external": false,
             "highlight": true,
-            "image": "icon41"
+            "image": "noun-project-coins-with-hand.svg"
         },
         {
             "name": "BC Geographical Names Search",
@@ -422,7 +422,7 @@
             "description": "Buy a recreational freshwater fishing licence",
             "external": false,
             "highlight": true,
-            "image": "icon38"
+            "image": "noun-project-fishing.svg"
         },
         {
             "name": "Food safety training",
@@ -526,7 +526,7 @@
             "description": "Order a high school transcript or graduation certificate",
             "external": false,
             "highlight": true,
-            "image": "icon40"
+            "image": "noun-project-certificate.svg"
         },
         {
             "name": "Home adaptations for independence",
@@ -552,7 +552,7 @@
             "description": "Apply to hunt in British Columbia",
             "external": false,
             "highlight": true,
-            "image": "icon39"
+            "image": "noun-project-antlers.svg"
         },
         {
             "name": "ICBC vehicles and regstration",
@@ -668,7 +668,7 @@
             "description": "Enrol in the Medical Services Plan to get health insurance in B.C.",
             "external": false,
             "highlight": true,
-            "image": "icon37"
+            "image": "noun-project-medical-cross.svg"
         },
         {
             "name": "Mental health and substance use supports",
@@ -934,7 +934,7 @@
             "description": "Declare your residency status and how your property is being used",
             "external": false,
             "highlight": true,
-            "image": "icon36"
+            "image": "noun-project-apartment.svg"
         },
         {
             "name": "StudentAid BC",
