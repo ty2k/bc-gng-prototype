@@ -4,6 +4,11 @@ const sections = [
       {
         title: "Employment Standards",
         description: "Find the Employment Standards or seek help or advice",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+          external: false,
+        },
       },
       {
         title: "Personal Injury & Workplace Safety",
