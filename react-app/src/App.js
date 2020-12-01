@@ -12,6 +12,7 @@ import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
 import EmploymentStandardsAndWorkplaceSafety from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety";
+import EmploymentStandards from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards";
 import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
@@ -52,6 +53,23 @@ function App() {
         title={""}
         breadcrumbs={[{ href: "/themes", label: "Themes" }]}
         content={<HousingAndTenancy />}
+      />
+      <PrivateRoute
+        exact
+        path="/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
+        title={""}
+        breadcrumbs={[
+          { href: "/themes", label: "Themes" },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment Standards & Workplace Safety",
+          },
+        ]}
+        content={<EmploymentStandards />}
       />
       <PrivateRoute
         exact
