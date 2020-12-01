@@ -42,7 +42,6 @@ function App() {
         path="/themes/housing-and-tenancy/residential-tenancies"
         title={""}
         breadcrumbs={[
-          { href: "/themes", label: "Themes" },
           { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
         ]}
         content={<ResidentialTenancies />}
@@ -51,7 +50,7 @@ function App() {
         exact
         path="/themes/housing-and-tenancy"
         title={""}
-        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
+        breadcrumbs={[]}
         content={<HousingAndTenancy />}
       />
       <PrivateRoute
@@ -59,7 +58,6 @@ function App() {
         path="/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
         title={""}
         breadcrumbs={[
-          { href: "/themes", label: "Themes" },
           {
             href: "/themes/employment-business-and-economic-development",
             label: "Employment, Business & Economic Development",
@@ -76,7 +74,6 @@ function App() {
         path="/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety"
         title={""}
         breadcrumbs={[
-          { href: "/themes", label: "Themes" },
           {
             href: "/themes/employment-business-and-economic-development",
             label: "Employment, Business & Economic Development",
@@ -88,7 +85,7 @@ function App() {
         exact
         path="/themes/employment-business-and-economic-development"
         title={""}
-        breadcrumbs={[{ href: "/themes", label: "Themes" }]}
+        breadcrumbs={[]}
         content={<EmploymentBusinessAndEconomicDevelopment />}
       />
       <PrivateRoute
