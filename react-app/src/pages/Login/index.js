@@ -3,6 +3,9 @@ import propTypes from "prop-types";
 import { Redirect } from "react-router-dom";
 
 import { userService } from "../../_services/user.service";
+import { Button } from "../../components/Button";
+import { TextInput } from "../../components/TextInput";
+import { AlertBanner } from "../../components/AlertBanner";
 
 function Login(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -44,7 +47,8 @@ function Login(props) {
           postLogin(e);
         }}
       >
-        <input
+        <TextInput
+          label="Username"
           name="username"
           type="text"
           value={userName}
@@ -54,7 +58,8 @@ function Login(props) {
           placeholder="Username"
           autoComplete="username"
         />
-        <input
+        <TextInput
+          label="Password"
           name="password"
           type="password"
           value={password}
@@ -64,11 +69,15 @@ function Login(props) {
           placeholder="Password"
           autoComplete="current-password"
         />
-        <button type="submit" disabled={isSubmitting}>
+        <Button type="submit" disabled={isSubmitting} primary={true}>
           Login
-        </button>
+        </Button>
       </form>
-      {isError && !isSubmitting && <div>Incorrect username or password</div>}
+      {isError && !isSubmitting && (
+        <AlertBanner bannerType="error">
+          Incorrect username or password.
+        </AlertBanner>
+      )}
     </main>
   );
 }

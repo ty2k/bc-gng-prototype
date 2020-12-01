@@ -14,6 +14,7 @@ import { ReactComponent as handsSolid } from "../components/assets/hands-solid.s
 import { ReactComponent as heartSolid } from "../components/assets/heart-solid.svg";
 import { ReactComponent as homeSolid } from "../components/assets/home-solid.svg";
 import { ReactComponent as industrySolid } from "../components/assets/industry-solid.svg";
+import { ReactComponent as infoCircleSolid } from "../components/assets/info-circle-solid.svg";
 import { ReactComponent as ionicIosInfoCircle } from "../components/assets/ionic-ios-information-circle.svg";
 import { ReactComponent as ionicMdClose } from "../components/assets/ionic-md-close.svg";
 import { ReactComponent as ionicMdPerson } from "../components/assets/ionic-md-person.svg";
@@ -50,6 +51,7 @@ const svgIcons = {
   "heart-solid.svg": heartSolid,
   "home-solid.svg": homeSolid,
   "industry-solid.svg": industrySolid,
+  "info-circle-solid.svg": infoCircleSolid,
   "ionic-ios-information-circle.svg": ionicIosInfoCircle,
   "ionic-md-close.svg": ionicMdClose,
   "ionic-md-person.svg": ionicMdPerson,

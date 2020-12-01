@@ -1,0 +1,67 @@
+import React from "react";
+import propTypes from "prop-types";
+import styled from "styled-components";
+
+import { imageService } from "../_services/image.service";
+
+const StyledAlertBanner = styled.div`
+  align-items: flex-start;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0;
+  padding: 15px;
+
+  &.div--alert-banner-error {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a12622;
+
+    a {
+      color: #843534;
+    }
+  }
+
+  svg {
+    height: 20px;
+    margin-right: 10px;
+    min-height: 20px;
+    min-width: 20px;
+    width: 20px;
+  }
+`;
+
+function Icon({ id }) {
+  const Icon = imageService.getSvg(id);
+
+  if (Icon) {
+    return <Icon />;
+  } else {
+    return null;
+  }
+}
+
+export const AlertBanner = ({ bannerType, children }) => {
+  let bannerClass = "";
+  let iconId = "";
+
+  if (bannerType === "error") {
+    bannerClass = "div--alert-banner-error";
+    iconId = "info-circle-solid.svg";
+  }
+
+  return (
+    <StyledAlertBanner className={bannerClass}>
+      <Icon id={iconId} />
+      {children}
+    </StyledAlertBanner>
+  );
+};
+
+AlertBanner.propTypes = {
+  bannerType: propTypes.string,
+};
+
+AlertBanner.defaultProps = {};
