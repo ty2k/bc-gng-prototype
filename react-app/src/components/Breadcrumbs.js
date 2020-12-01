@@ -74,6 +74,14 @@ const StyledBreadcrumb = styled.li`
 
     span.span--breadcrumb-body {
       align-items: center;
+      background-color: transparent;
+      display: flex;
+      height: 48px;
+      padding: 0 20px 0 0;
+    }
+
+    span.span--breadcrumb-body-last {
+      align-items: center;
       background-color: #fcba19;
       display: flex;
       height: 48px;
@@ -100,14 +108,14 @@ const Breadcrumb = ({ position, href, label, last, needsDivider }) => {
           <BreadcrumbTail />
         </span>
       )}
-      <span className="span--breadcrumb-body">
-        {last ? (
-          <span className="span--breadcrumb-label">{label}</span>
-        ) : (
-          <a className="a--breadcrumb-body" href={href}>
-            {label}
-          </a>
-        )}
+      <span
+        className={
+          last ? "span--breadcrumb-body-last" : "span--breadcrumb-body"
+        }
+      >
+        <a className="a--breadcrumb-body" href={href}>
+          {label}
+        </a>
       </span>
       {last && (
         <span className="span--breadcrumb-head">
@@ -125,7 +133,7 @@ function Breadcrumbs({ breadcrumbs }) {
   const last = breadcrumbs.length - 1;
   const needsDivider = [];
 
-  if (breadcrumbs.length > 2) {
+  if (breadcrumbs.length === 1 || breadcrumbs.length > 2) {
     needsDivider.push(0);
   }
 
@@ -137,7 +145,7 @@ function Breadcrumbs({ breadcrumbs }) {
           position={index}
           href={href}
           label={label}
-          last={index === last}
+          last={index !== 0 && index === last}
           needsDivider={needsDivider.indexOf(index) !== -1}
         />
       ))}
