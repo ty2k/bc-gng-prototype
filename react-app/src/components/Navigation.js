@@ -62,6 +62,11 @@ const Card = styled.div`
       margin: 10px 0;
     }
   }
+
+  svg {
+    height: 1em;
+    padding-left: 5px;
+  }
 `;
 
 function Icon({ id }) {
@@ -104,7 +109,16 @@ function Navigation({ search, sections }) {
                                 <li
                                   key={`section-${index}-card-${cardIndex}-li-${linkIndex}`}
                                 >
-                                  <Link to={link.href}>{link.label}</Link>
+                                  {link.external ? (
+                                    <>
+                                      <a href={link}>{link.label}</a>
+                                      <Icon
+                                        id={"external-link-alt-solid.svg"}
+                                      />
+                                    </>
+                                  ) : (
+                                    <Link to={link.href}>{link.label}</Link>
+                                  )}
                                 </li>
                               );
                             })}
