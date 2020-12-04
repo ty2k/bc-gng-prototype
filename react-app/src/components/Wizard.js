@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-import Button from "./Button";
+import { Button } from "./Button";
 
 const StyledWizard = styled.div`
   background-color: #f2f2f2;
