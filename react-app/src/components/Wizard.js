@@ -64,7 +64,7 @@ export function Wizard({ title, tree, first, steps }) {
 
       // If no next step is explicitly set, use the state data
       // to see what the radio button option has set for the next step.
-    } else if (step.options && step.options.length > 0) {
+    } else if (step?.options?.length > 0) {
       step.options.forEach((option) => {
         if (option["id"] === data[currentStep]) {
           setStepsShown((steps) => [option["next_step"], ...steps]);
@@ -85,10 +85,8 @@ export function Wizard({ title, tree, first, steps }) {
     <StyledWizard>
       <h2>{title}</h2>
       <div className="div--wizard-quiz">
-        {step && step.text && <p>{step.text}</p>}
-        {step &&
-          step.options &&
-          step.options.length > 0 &&
+        {step?.text && <p>{step.text}</p>}
+        {step?.options?.length > 0 &&
           step.options.map((option, index) => {
             return (
               <div className="div--wizard-input" key={`wizard-input-${index}`}>
@@ -105,7 +103,7 @@ export function Wizard({ title, tree, first, steps }) {
               </div>
             );
           })}
-        {step && step.controls && step.controls.back && (
+        {step?.controls?.back && (
           <Button
             label={step.controls.back.label}
             primary={step.controls.back.primary}
@@ -116,7 +114,7 @@ export function Wizard({ title, tree, first, steps }) {
             {step.controls.back.label}
           </Button>
         )}
-        {step && step.controls && step.controls.forward && (
+        {step?.controls?.forward && (
           <Button
             disabled={
               data[stepsShown[0]] || step.controls.forward.step ? false : true
@@ -130,7 +128,7 @@ export function Wizard({ title, tree, first, steps }) {
             {step.controls.forward.label}
           </Button>
         )}
-        {step && step.controls && step.controls.restart && (
+        {step?.controls?.restart && (
           <Button
             label={step.controls.restart.label}
             primary={step.controls.restart.primary}
