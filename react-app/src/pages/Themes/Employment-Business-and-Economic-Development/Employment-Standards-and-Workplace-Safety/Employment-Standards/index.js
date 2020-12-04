@@ -2,13 +2,13 @@ import React from "react";
 import propTypes from "prop-types";
 
 import Navigation from "../../../../../components/Navigation";
-import data from "./data";
+import { sections, wizard } from "./data";
 
 function EmploymentStandards() {
   return (
     <main>
       <h1>Employment Standards</h1>
-      <Navigation sections={data} />
+      <Navigation sections={sections} wizard={wizard} />
     </main>
   );
 }

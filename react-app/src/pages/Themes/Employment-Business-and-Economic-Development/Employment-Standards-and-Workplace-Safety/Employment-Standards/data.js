@@ -189,4 +189,110 @@ const sections = [
   },
 ];
 
-module.exports = sections;
+const wizard = {
+  title: "Do Employment Standards apply to you?",
+  tree: {
+    intro: ["start"],
+    start: ["workplace_safety", "employment_standards"],
+    workplace_safety: ["start", "worksafe_bc"],
+    employment_standards: ["start"],
+    worksafe_bc: ["start"],
+  },
+  first: "intro",
+  steps: {
+    intro: {
+      text:
+        "Not every work issue, workplace or type is related to Employment Standards. We can help direct you to the right place with this quick questionnaire.",
+      controls: {
+        forward: {
+          label: "Start the questionnaire",
+          step: "start",
+          primary: true,
+        },
+      },
+    },
+    start: {
+      text: "Please tell us how you would describe your work situation.",
+      options: [
+        {
+          label: "I am an employee",
+          id: "employee",
+          next_step: "workplace_safety",
+        },
+        {
+          label: "I am an employer",
+          id: "employer",
+          next_step: "employment_standards",
+        },
+        {
+          label: "I am an independent contractor",
+          id: "contractor",
+          next_step: "workplace_safety",
+        },
+      ],
+      controls: {
+        back: {
+          label: "Back",
+          step: "intro",
+        },
+        forward: {
+          label: "Next",
+          primary: true,
+        },
+      },
+    },
+    workplace_safety: {
+      text: "Is your question or concern about workplace safety?",
+      options: [
+        {
+          label: "Yes",
+          id: "yes",
+          next_step: "worksafe_bc",
+        },
+        {
+          label: "No",
+          id: "no",
+          next_step: "worksafe_bc",
+        },
+      ],
+      controls: {
+        back: {
+          label: "Back",
+          next_step: "start",
+        },
+        forward: {
+          label: "Next",
+          primary: true,
+        },
+      },
+    },
+    employment_standards: {
+      text:
+        "Yes, as an employer, Employment Standards apply. Navigate along to learn more about Employment Standards or seek advice.",
+      controls: {
+        back: {
+          label: "Back",
+        },
+        restart: {
+          label: "Restart",
+          primary: true,
+        },
+      },
+    },
+    worksafe_bc: {
+      text:
+        "WorkSafeBC is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents. You can: - Visit WorkSafeBC to learn about workplace health and safety in B.C., to report an incident or to seek resolution - Contact the Workers’ Advisers Office if you disagree with a WorkSafeBC decision",
+      controls: {
+        back: {
+          label: "Back",
+        },
+        restart: {
+          label: "Restart",
+          primary: true,
+        },
+      },
+    },
+  },
+};
+
+export { sections, wizard };
