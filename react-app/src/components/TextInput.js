@@ -22,7 +22,7 @@ const StyledTextInput = styled.input`
 export const TextInput = ({ label, name, primary, children, ...props }) => {
   return (
     <>
-      <StyledLabel for={name}>{label}</StyledLabel>
+      <StyledLabel htmlFor={name}>{label}</StyledLabel>
       <StyledTextInput
         className={primary ? "button--primary" : "button--secondary"}
         name={name}

@@ -9,12 +9,17 @@ const StyledButton = styled.button`
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   text-align: center;
   text-decoration: none;
 
   &:active {
     opacity: 1;
+  }
+
+  &:disabled,
+  &[disabled] {
+    cursor: not-allowed;
   }
 
   &:focus {
@@ -28,23 +33,47 @@ const StyledButton = styled.button`
     color: white;
     padding: 12px 32px;
 
+    &:disabled,
+    &[disabled] {
+      opacity: 0.3;
+    }
+
     &:hover {
       opacity: 0.8;
       text-decoration: underline;
+
+      &:disabled,
+      &[disabled] {
+        opacity: 0.3;
+        text-decoration: none;
+      }
     }
   }
 
   &.button--secondary {
     background-color: white;
     border: 2px solid #003366;
-    padding: 10px 30px;
     color: #003366;
+    padding: 10px 30px;
+
+    &:disabled,
+    &[disabled] {
+      opacity: 0.3;
+    }
 
     &:hover {
-      opacity: 0.8;
-      text-decoration: underline;
       background-color: #003366;
       color: #ffffff;
+      opacity: 0.8;
+      text-decoration: underline;
+
+      &:disabled,
+      &[disabled] {
+        background-color: white;
+        color: #003366;
+        opacity: 0.3;
+        text-decoration: none;
+      }
     }
   }
 `;
@@ -52,11 +81,12 @@ const StyledButton = styled.button`
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, children, ...props }) => {
+export const Button = ({ primary, disabled, children, ...props }) => {
   return (
     <StyledButton
       type="button"
       className={primary ? "button--primary" : "button--secondary"}
+      disabled={disabled}
       {...props}
     >
       {children}
@@ -66,13 +96,17 @@ export const Button = ({ primary, children, ...props }) => {
 
 Button.propTypes = {
   /**
+   * Is the button disabled?
+   */
+  disabled: PropTypes.bool,
+  /**
    * Is this the principal call to action on the page?
    */
   primary: PropTypes.bool,
   /**
    * Button contents
    */
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   /**
    * Optional click handler
    */
@@ -80,6 +114,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
+  disabled: false,
   primary: false,
   onClick: undefined,
 };
