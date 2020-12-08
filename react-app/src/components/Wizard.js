@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+import { textService } from "../_services/text.service";
 import { Button } from "./Button";
 
 const StyledWizard = styled.div`
   background-color: #f2f2f2;
   padding: 18px 26px;
+
+  div.div--wizard-container {
+    padding: 0 30px;
+  }
 
   button {
     margin-right: 16px;
@@ -24,10 +29,9 @@ const StyledWizard = styled.div`
     font-weight: bold;
   }
 
-  div.div--wizard-container {
+  div.div--wizard-questionnaire {
     align-items: center;
     display: flex;
-    padding: 0 30px;
   }
 
   div.div--wizard-question {
@@ -58,7 +62,6 @@ const StyledWizard = styled.div`
 
   div.div--wizard-controls {
     display: block;
-    padding: 0 30px;
   }
 `;
 
@@ -125,80 +128,95 @@ export function Wizard({ title, tree, first, steps }) {
     }
   }
 
+  function sanitize(explanation) {
+    console.log(explanation);
+    return { __html: textService.sanitize(explanation) };
+  }
+
   return (
     <StyledWizard>
-      <h2>{title}</h2>
-      {step?.text && <p className="p--intro-text">{step.text}</p>}
-      {step?.question_text && (
-        <p className="p--question-text">{step.question_text}</p>
-      )}
+      {title && <h2>{title}</h2>}
       <div className="div--wizard-container">
-        <div className="div--wizard-question">
-          {step?.options?.length > 0 &&
-            step.options.map((option, index) => {
-              return (
-                <div
-                  className="div--wizard-input"
-                  key={`wizard-input-${index}`}
-                >
-                  <input
-                    type="radio"
-                    id={`wizard-input-${option.id}`}
-                    name={stepsShown[0]}
-                    value={option.id}
-                    checked={data?.[stepsShown[0]] === option.id}
-                    onChange={(e) => {
-                      onDataChange(stepsShown[0], e.target.value, option);
-                    }}
-                  />
-                  <label htmlFor={`wizard-input-${option.id}`}>
-                    {option.label}
-                  </label>
-                </div>
-              );
-            })}
+        {step?.text && (
+          <p
+            className="p--intro-text"
+            dangerouslySetInnerHTML={sanitize(step.text)}
+          />
+        )}
+        {step?.question_text && (
+          <p className="p--question-text">{step.question_text}</p>
+        )}
+        <div className="div--wizard-questionnaire">
+          <div className="div--wizard-question">
+            {step?.options?.length > 0 &&
+              step.options.map((option, index) => {
+                return (
+                  <div
+                    className="div--wizard-input"
+                    key={`wizard-input-${index}`}
+                  >
+                    <input
+                      type="radio"
+                      id={`wizard-input-${option.id}`}
+                      name={stepsShown[0]}
+                      value={option.id}
+                      checked={data?.[stepsShown[0]] === option.id}
+                      onChange={(e) => {
+                        onDataChange(stepsShown[0], e.target.value, option);
+                      }}
+                    />
+                    <label htmlFor={`wizard-input-${option.id}`}>
+                      {option.label}
+                    </label>
+                  </div>
+                );
+              })}
+          </div>
+          {explanation && (
+            <div
+              className="div--wizard-explanation"
+              dangerouslySetInnerHTML={sanitize(explanation)}
+            />
+          )}
         </div>
-        {explanation && (
-          <div className="div--wizard-explanation">{explanation}</div>
-        )}
-      </div>
-      <div className="div--wizard-controls">
-        {step?.controls?.back && (
-          <Button
-            label={step.controls.back.label}
-            primary={step.controls.back.primary}
-            onClick={() => {
-              handleStep(stepsShown[0], step.controls.back.step, true);
-            }}
-          >
-            {step.controls.back.label}
-          </Button>
-        )}
-        {step?.controls?.forward && (
-          <Button
-            disabled={
-              data[stepsShown[0]] || step.controls.forward.step ? false : true
-            }
-            label={step.controls.forward.label}
-            primary={step.controls.forward.primary}
-            onClick={() => {
-              handleStep(stepsShown[0], step.controls.forward.step);
-            }}
-          >
-            {step.controls.forward.label}
-          </Button>
-        )}
-        {step?.controls?.restart && (
-          <Button
-            label={step.controls.restart.label}
-            primary={step.controls.restart.primary}
-            onClick={() => {
-              handleStep(stepsShown[0], step.controls.restart.step);
-            }}
-          >
-            {step.controls.restart.label}
-          </Button>
-        )}
+        <div className="div--wizard-controls">
+          {step?.controls?.back && (
+            <Button
+              label={step.controls.back.label}
+              primary={step.controls.back.primary}
+              onClick={() => {
+                handleStep(stepsShown[0], step.controls.back.step, true);
+              }}
+            >
+              {step.controls.back.label}
+            </Button>
+          )}
+          {step?.controls?.forward && (
+            <Button
+              disabled={
+                data[stepsShown[0]] || step.controls.forward.step ? false : true
+              }
+              label={step.controls.forward.label}
+              primary={step.controls.forward.primary}
+              onClick={() => {
+                handleStep(stepsShown[0], step.controls.forward.step);
+              }}
+            >
+              {step.controls.forward.label}
+            </Button>
+          )}
+          {step?.controls?.restart && (
+            <Button
+              label={step.controls.restart.label}
+              primary={step.controls.restart.primary}
+              onClick={() => {
+                handleStep(stepsShown[0], step.controls.restart.step);
+              }}
+            >
+              {step.controls.restart.label}
+            </Button>
+          )}
+        </div>
       </div>
     </StyledWizard>
   );

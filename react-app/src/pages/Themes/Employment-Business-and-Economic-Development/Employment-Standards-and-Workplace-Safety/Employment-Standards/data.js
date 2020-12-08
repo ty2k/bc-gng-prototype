@@ -288,7 +288,7 @@ const wizard = {
     },
     worksafe_bc: {
       text:
-        "WorkSafeBC is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents. You can: - Visit WorkSafeBC to learn about workplace health and safety in B.C., to report an incident or to seek resolution - Contact the Workers’ Advisers Office if you disagree with a WorkSafeBC decision",
+        '<p><a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents.</p>\r\n<p><strong>You can:</strong></p>\r\n<p>- Visit <a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> to learn about workplace health and safety in B.C., to report an incident or to seek resolution</p>\r\n<p>- Contact the <a href="https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/personal-injury-and-workplace-safety">Workers\u2019 Advisers Office</a> if you disagree with a WorkSafeBC decision</p>',
       controls: {
         back: {
           label: "Back",
