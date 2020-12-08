@@ -35,6 +35,7 @@ const StyledCard = styled.div`
   padding: 16px;
 
   div.card--icon-title {
+    align-items: center;
     display: flex;
     margin-bottom: 20px;
 
