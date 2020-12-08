@@ -212,22 +212,29 @@ const wizard = {
       },
     },
     start: {
-      text: "Please tell us how you would describe your work situation.",
+      question_text:
+        "Please tell us how you would describe your work situation.",
       options: [
         {
           label: "I am an employee",
           id: "employee",
           next_step: "workplace_safety",
+          text:
+            "An employee is someone who receives money (or is owed money) for work performed. This includes someone who an employer allows to perform work that would normally be done by an employee.",
         },
         {
           label: "I am an employer",
           id: "employer",
           next_step: "employment_standards",
+          text:
+            "An employer is someone who hires employees and is responsible for their employment. They have control over employees or provide instruction and/or direction to staff.",
         },
         {
           label: "I am an independent contractor",
           id: "contractor",
           next_step: "workplace_safety",
+          text:
+            "An independent contractor is considered to be self-employed. Contractors are responsible for upholding workplace standards for their business.",
         },
       ],
       controls: {
@@ -242,7 +249,7 @@ const wizard = {
       },
     },
     workplace_safety: {
-      text: "Is your question or concern about workplace safety?",
+      question_text: "Is your question or concern about workplace safety?",
       options: [
         {
           label: "Yes",
@@ -281,7 +288,7 @@ const wizard = {
     },
     worksafe_bc: {
       text:
-        "WorkSafeBC is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents. You can: - Visit WorkSafeBC to learn about workplace health and safety in B.C., to report an incident or to seek resolution - Contact the Workers’ Advisers Office if you disagree with a WorkSafeBC decision",
+        '<p><a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents.</p>\r\n<p><strong>You can:</strong></p>\r\n<p>- Visit <a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> to learn about workplace health and safety in B.C., to report an incident or to seek resolution</p>\r\n<p>- Contact the <a href="https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/personal-injury-and-workplace-safety">Workers\u2019 Advisers Office</a> if you disagree with a WorkSafeBC decision</p>',
       controls: {
         back: {
           label: "Back",

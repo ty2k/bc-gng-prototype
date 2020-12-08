@@ -5,6 +5,8 @@
   "dependencies": {
     "@bcgov/bc-sans": "^1.0.1",
     "core-js": "^3.8.0",
+    "dompurify": "^2.2.3",
+    "jsdom": "^16.4.0",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
