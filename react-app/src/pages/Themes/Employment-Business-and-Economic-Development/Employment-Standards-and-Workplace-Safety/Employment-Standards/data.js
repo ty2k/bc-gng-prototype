@@ -212,22 +212,29 @@ const wizard = {
       },
     },
     start: {
-      text: "Please tell us how you would describe your work situation.",
+      question_text:
+        "Please tell us how you would describe your work situation.",
       options: [
         {
           label: "I am an employee",
           id: "employee",
           next_step: "workplace_safety",
+          text:
+            "An employee is someone who receives money (or is owed money) for work performed. This includes someone who an employer allows to perform work that would normally be done by an employee.",
         },
         {
           label: "I am an employer",
           id: "employer",
           next_step: "employment_standards",
+          text:
+            "An employer is someone who hires employees and is responsible for their employment. They have control over employees or provide instruction and/or direction to staff.",
         },
         {
           label: "I am an independent contractor",
           id: "contractor",
           next_step: "workplace_safety",
+          text:
+            "An independent contractor is considered to be self-employed. Contractors are responsible for upholding workplace standards for their business.",
         },
       ],
       controls: {
@@ -242,7 +249,7 @@ const wizard = {
       },
     },
     workplace_safety: {
-      text: "Is your question or concern about workplace safety?",
+      question_text: "Is your question or concern about workplace safety?",
       options: [
         {
           label: "Yes",
