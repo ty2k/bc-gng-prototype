@@ -141,7 +141,7 @@ const HeaderStyled = styled.header`
   }
 `;
 
-function Header({ title, userSession, alertMessages }) {
+function Header({ satellite, title, alertMessages }) {
   const [navHidden, setNavHidden] = useState(false);
   const [alertHidden, setAlertHidden] = useState(false);
   const [searchHidden, setSearchHidden] = useState(true);
@@ -188,7 +188,7 @@ function Header({ title, userSession, alertMessages }) {
       <div className="wrapper">
         <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
-          {title ? (
+          {satellite ? (
             <>
               {navHidden ? (
                 <>
@@ -271,6 +271,7 @@ Header.propTypes = {
     })
   ),
   title: PropTypes.string,
+  satellite: PropTypes.bool,
 };
 
 Header.defaultProps = {
@@ -280,6 +281,7 @@ Header.defaultProps = {
         "B.C. has declared a state of emergency. Learn about COVID-19 health issues. | B.C.’s response to COVID-19.",
     },
   ],
+  satellite: false,
 };
 
 export default Header;
