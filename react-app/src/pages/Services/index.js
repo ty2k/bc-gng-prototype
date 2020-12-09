@@ -168,12 +168,7 @@ function ServicesContent() {
 }
 
 function Services() {
-  return (
-    <main>
-      <h1>Programs &amp; Services</h1>
-      <ServicesContent />
-    </main>
-  );
+  return <ServicesContent />;
 }
 
 Services.propTypes = {

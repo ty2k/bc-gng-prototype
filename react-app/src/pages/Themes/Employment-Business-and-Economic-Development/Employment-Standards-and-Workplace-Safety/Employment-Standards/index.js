@@ -5,12 +5,7 @@ import Navigation from "../../../../../components/Navigation";
 import { sections, wizard } from "./data";
 
 function EmploymentStandards() {
-  return (
-    <main>
-      <h1>Employment Standards</h1>
-      <Navigation sections={sections} wizard={wizard} />
-    </main>
-  );
+  return <Navigation sections={sections} wizard={wizard} />;
 }
 
 EmploymentStandards.propTypes = {

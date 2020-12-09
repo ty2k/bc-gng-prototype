@@ -6,13 +6,10 @@ import data from "./data";
 
 function ResidentialTenancies() {
   return (
-    <main>
-      <h1>Residential Tenancies</h1>
-      <Navigation
-        search={{ label: "Search Residential Tenancies" }}
-        sections={data}
-      />
-    </main>
+    <Navigation
+      search={{ label: "Search Residential Tenancies" }}
+      sections={data}
+    />
   );
 }
 
