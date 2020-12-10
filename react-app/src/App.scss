@@ -4,6 +4,7 @@ main {
 
   a {
     color: #1a5a96;
+    text-decoration: underline;
   }
   a:hover {
     text-decoration: none;
@@ -22,6 +23,14 @@ main {
 
   h1 {
     margin: 20px 15px;
+  }
+
+  p,
+  span,
+  a,
+  li,
+  ol {
+    font-size: 18px;
   }
 }
 

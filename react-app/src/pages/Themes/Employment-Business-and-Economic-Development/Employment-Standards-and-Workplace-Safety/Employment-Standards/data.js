@@ -6,23 +6,28 @@ const sections = [
         title: "Hiring Employees",
         links: [
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
             label: "Domesic workers",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
             label: "Farm Workers",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
             label: "Siviculture Workers",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
             label: "Temporary Foreign Workers",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
             label: "Young People",
           },
         ],

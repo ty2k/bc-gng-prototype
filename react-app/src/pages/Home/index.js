@@ -2,11 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 
 function Home() {
-  return (
-    <main>
-      <h1>Homepage</h1>
-    </main>
-  );
+  return <p>Province of British Columbia</p>;
 }
 
 Home.propTypes = {

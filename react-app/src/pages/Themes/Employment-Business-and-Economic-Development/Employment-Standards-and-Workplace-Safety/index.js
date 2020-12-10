@@ -5,12 +5,7 @@ import Navigation from "../../../../components/Navigation";
 import data from "./data";
 
 function EmploymentStandardsAndWorkplaceSafety() {
-  return (
-    <main>
-      <h1>Employment Standards &amp; Workplace Safety</h1>
-      <Navigation sections={data} />
-    </main>
-  );
+  return <Navigation sections={data} />;
 }
 
 EmploymentStandardsAndWorkplaceSafety.propTypes = {

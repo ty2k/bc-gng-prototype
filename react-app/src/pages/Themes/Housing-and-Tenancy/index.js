@@ -6,13 +6,10 @@ import data from "./data";
 
 function HousingAndTenancy() {
   return (
-    <main>
-      <h1>Housing &amp; Tenancy</h1>
-      <Navigation
-        search={{ label: "Search Housing & Tenancy" }}
-        sections={data}
-      />
-    </main>
+    <Navigation
+      search={{ label: "Search Housing & Tenancy" }}
+      sections={data}
+    />
   );
 }
 

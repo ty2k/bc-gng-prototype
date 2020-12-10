@@ -37,7 +37,7 @@ const StyledBreadcrumb = styled.li`
 
   svg.svg--breadcrumb-divider {
     overflow: visible;
-    padding-left: 10px;
+    margin-left: 20px;
   }
 
   span.span--breadcrumb-body {

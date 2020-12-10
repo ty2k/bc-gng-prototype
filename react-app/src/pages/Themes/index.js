@@ -5,12 +5,7 @@ import Navigation from "../../components/Navigation";
 import data from "./data";
 
 function Themes() {
-  return (
-    <main>
-      <h1>Themes</h1>
-      <Navigation search={{ label: "Search Themes" }} sections={data} />
-    </main>
-  );
+  return <Navigation search={{ label: "Search Themes" }} sections={data} />;
 }
 
 Themes.propTypes = {

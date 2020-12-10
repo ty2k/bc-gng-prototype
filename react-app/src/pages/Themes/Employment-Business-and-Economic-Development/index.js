@@ -6,13 +6,10 @@ import data from "./data";
 
 function EmploymentBusinessAndEconomicDevelopment() {
   return (
-    <main>
-      <h1>Employment, Business &amp; Economic Development</h1>
-      <Navigation
-        search={{ label: "Employment, Business & Economic Development" }}
-        sections={data}
-      />
-    </main>
+    <Navigation
+      search={{ label: "Employment, Business & Economic Development" }}
+      sections={data}
+    />
   );
 }
 
