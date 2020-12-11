@@ -11,7 +11,6 @@ const StyledDiv = styled.div`
 `;
 
 function Callout({ children }) {
-  console.log(children);
   return (
     <StyledDiv>
       {children.map((child, index) => {

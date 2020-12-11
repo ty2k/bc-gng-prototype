@@ -6,7 +6,13 @@ const content = [
   {
     type: "p",
     className: "p--last-updated",
-    children: "Last Updated: December 12, 2020",
+    children: [
+      {
+        type: "text",
+        style: "normal",
+        children: "Last Updated: December 12, 2020",
+      },
+    ],
   },
   {
     type: "br",
@@ -42,62 +48,175 @@ const content = [
   },
   {
     type: "p",
-    children: "<strong>Meet all Minimum Standards</strong>",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children: "Meet all Minimum Standards",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "Employers must provide employment agreements that meet all minimum standards including minimum wage, minimum hours of work, vacation time and pay, statutory holidays and ending employment.",
+    children: [
+      {
+        type: "text",
+        children:
+          "Employers must provide employment agreements that meet all minimum standards including ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "minimum wage",
+      },
+      {
+        type: "text",
+        children: ", ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "minimum hours of work",
+      },
+      {
+        type: "text",
+        children: ", ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "vacation time and pay",
+      },
+      {
+        type: "text",
+        children: ", ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "statutory holidays",
+      },
+      {
+        type: "text",
+        children: " and ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "ending employment",
+      },
+      {
+        type: "text",
+        children: ".",
+      },
+    ],
   },
   {
     type: "callout",
     children: [
       {
         type: "p",
-        children:
-          "Employers and employees cannot agree to working arrangements that are for less than the minimum standards",
+        children: [
+          {
+            type: "text",
+            children:
+              "Employers and employees cannot agree to working arrangements that are for less than the minimum standards",
+          },
+        ],
       },
     ],
   },
   {
     type: "p",
-    children: "<strong>Explain workplace standards</strong>",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children: "Explain workplace standards",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "Employers need to clearly communicate to employees what their rights are for working in B.C. They should do so by posting and sharing the information in these documents:",
+    children: [
+      {
+        type: "text",
+        children:
+          "Employers need to clearly communicate to employees what their rights are for working in B.C. They should do so by posting and sharing the information in these documents:",
+      },
+    ],
   },
   {
     type: "p",
-    children: "- <a>Working in B.C. - poster format (PDF)",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Working in B.C. - poster format (PDF)",
+      },
+    ],
   },
   {
     type: "p",
-    children: "- <a>Working in B.C. - information sheet format (PDF)",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Working in B.C. - information sheet format (PDF)",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "Employers should also communicate the specific terms and conditions of employment in writing. A job description is not required, but it can help new employees know what is expected of them.",
+    children: [
+      {
+        type: "text",
+        children:
+          "Employers should also communicate the specific terms and conditions of employment in writing. A job description is not required, but it can help new employees know what is expected of them.",
+      },
+    ],
   },
   {
     type: "br",
   },
   {
     type: "p",
-    children:
-      "<strong>Give Accurate Information about wages & employment conditions</strong>",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children:
+          "Give Accurate Information about wages & employment conditions",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "Employers are not allowed to misrepresent an employment offer to convince potential employees to work for them.",
+    children: [
+      {
+        type: "text",
+        children:
+          "Employers are not allowed to misrepresent an employment offer to convince potential employees to work for them.",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "They also cannot pay an employee less than the wage agreed upon, even if the employee isn’t performing as well as expected. In these situations, employers may choose to end employment.",
+    children: [
+      {
+        type: "text",
+        children:
+          "They also cannot pay an employee less than the wage agreed upon, even if the employee isn’t performing as well as expected. In these situations, employers may choose to end employment.",
+      },
+    ],
   },
   {
     type: "br",
@@ -108,29 +227,88 @@ const content = [
   },
   {
     type: "p",
-    children: "- <a>Section 6 Informing employees of their rights</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Section 6 Informing employees of their rights",
+      },
+    ],
   },
   {
     type: "p",
-    children: "- <a>Section 8 No False Representations</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Section 8 No False Representations",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "- <a>Section 10 No charge for hiring or providing information</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Section 10 No charge for hiring or providing information",
+      },
+    ],
   },
   {
     type: "p",
-    children: "- <a>Section 11 No fees to other persons</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Section 11 No fees to other persons",
+      },
+    ],
   },
   {
     type: "p",
-    children:
-      "- <a>Section 14 Written employment contract required for domestics</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children:
+          "Section 14 Written employment contract required for domestics",
+      },
+    ],
   },
   {
     type: "p",
-    children: "- <a>Section 15 Register of employees working in residences</a>",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "",
+        children: "Section 15 Register of employees working in residences",
+      },
+    ],
   },
   {
     type: "br",
@@ -141,8 +319,13 @@ const content = [
   },
   {
     type: "p",
-    children:
-      "Try to resolve disputes informally. If this isn’t possible, you can submit a complaint to resolve a problem at work.",
+    children: [
+      {
+        type: "text",
+        children:
+          "Try to resolve disputes informally. If this isn’t possible, you can submit a complaint to resolve a problem at work.",
+      },
+    ],
   },
   {
     type: "button",
@@ -159,7 +342,12 @@ const content = [
   },
   {
     type: "p",
-    children: "Contact us via phone, email, or in person",
+    children: [
+      {
+        type: "text",
+        children: "Contact us via phone, email, or in person",
+      },
+    ],
   },
   {
     type: "button",
