@@ -2,10 +2,16 @@ import React from "react";
 import propTypes from "prop-types";
 
 import Content from "../../../../../../components/Content";
-import { content } from "./data";
+import TabbedPageNav from "../../../../../../components/TabbedPageNav";
+import { content, navigation } from "./data";
 
 function HiringEmployees() {
-  return <Content content={content} />;
+  return (
+    <>
+      <TabbedPageNav navArray={navigation} />
+      <Content content={content} />
+    </>
+  );
 }
 
 HiringEmployees.propTypes = {};

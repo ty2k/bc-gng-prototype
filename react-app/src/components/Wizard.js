@@ -129,7 +129,6 @@ export function Wizard({ title, tree, first, steps }) {
   }
 
   function sanitize(explanation) {
-    console.log(explanation);
     return { __html: textService.sanitize(explanation) };
   }
 
