@@ -44,6 +44,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "what-employers-must-do",
     children: "What Employers Must Do",
   },
   {
@@ -223,6 +224,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "references-from-the-employment-standards-act-and-regulation",
     children: "References from the Employment Standards Act & Regulation",
   },
   {
@@ -315,6 +317,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "submit-a-complaint",
     children: "Submit a Complaint",
   },
   {
@@ -338,6 +341,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "contact-the-employment-standards-branch",
     children: "Contact the Employment Standards Branch",
   },
   {
