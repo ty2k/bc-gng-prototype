@@ -388,7 +388,7 @@ const navigation = [
   {
     label: "Requirements to Hiring Temporary Foreign Workers",
     href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/requirements-to-hiring-temporary-foreign-workers",
+      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
   },
   {
     label: "Hiring Young People",
