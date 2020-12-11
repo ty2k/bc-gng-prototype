@@ -28,10 +28,8 @@ function OnThisPage({ title, children }) {
       <ol>
         {children.map((child, index) => {
           return (
-            <li>
-              <Link to={`#${child.id}`} key={`on-this-page-link-${index}`}>
-                {child.label}
-              </Link>
+            <li key={`on-this-page-list-item-${index}`}>
+              <Link to={`#${child.id}`}>{child.label}</Link>
             </li>
           );
         })}
