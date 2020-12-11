@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
@@ -113,9 +114,9 @@ const Breadcrumb = ({ position, href, label, last, needsDivider }) => {
           last ? "span--breadcrumb-body-last" : "span--breadcrumb-body"
         }
       >
-        <a className="a--breadcrumb-body" href={href}>
+        <Link className="a--breadcrumb-body" to={href}>
           {label}
-        </a>
+        </Link>
       </span>
       {last && (
         <span className="span--breadcrumb-head">
@@ -135,6 +136,12 @@ function Breadcrumbs({ breadcrumbs }) {
 
   if (breadcrumbs.length === 1 || breadcrumbs.length > 2) {
     needsDivider.push(0);
+  }
+  if (breadcrumbs.length === 4) {
+    needsDivider.push(1);
+  }
+  if (breadcrumbs.length === 5) {
+    needsDivider.push(2);
   }
 
   return (

@@ -44,6 +44,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "what-employers-must-do",
     children: "What Employers Must Do",
   },
   {
@@ -223,6 +224,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "references-from-the-employment-standards-act-and-regulation",
     children: "References from the Employment Standards Act & Regulation",
   },
   {
@@ -315,6 +317,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "submit-a-complaint",
     children: "Submit a Complaint",
   },
   {
@@ -338,6 +341,7 @@ const content = [
   },
   {
     type: "h2",
+    id: "contact-the-employment-standards-branch",
     children: "Contact the Employment Standards Branch",
   },
   {
@@ -384,7 +388,7 @@ const navigation = [
   {
     label: "Requirements to Hiring Temporary Foreign Workers",
     href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/requirements-to-hiring-temporary-foreign-workers",
+      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
   },
   {
     label: "Hiring Young People",

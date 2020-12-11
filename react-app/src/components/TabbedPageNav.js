@@ -24,7 +24,8 @@ const StyledGrid = styled.div`
 `;
 
 const StyledNavTab = styled.div`
-  display: block;
+  align-items: center;
+  display: flex;
 
   a {
     align-items: center;
@@ -55,7 +56,7 @@ const StyledNavTab = styled.div`
 
     span.span--navtab-label {
       display: inline-block;
-      padding-left: 20px;
+      padding-left: 16px;
     }
   }
 `;
@@ -63,7 +64,7 @@ const StyledNavTab = styled.div`
 function NavTab({ label, href }) {
   return (
     <StyledNavTab>
-      <NavLink to={href} activeClassName="a--navtab-current-page">
+      <NavLink exact to={href} activeClassName="a--navtab-current-page">
         <span className="span--navtab-chevron" />
         <span className="span--navtab-label">{label}</span>
       </NavLink>
