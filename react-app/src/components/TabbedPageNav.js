@@ -64,7 +64,7 @@ const StyledNavTab = styled.div`
 function NavTab({ label, href }) {
   return (
     <StyledNavTab>
-      <NavLink to={href} activeClassName="a--navtab-current-page">
+      <NavLink exact to={href} activeClassName="a--navtab-current-page">
         <span className="span--navtab-chevron" />
         <span className="span--navtab-label">{label}</span>
       </NavLink>
