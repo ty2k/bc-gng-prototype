@@ -131,4 +131,4 @@ const sections = [
   },
 ];
 
-module.exports = sections;
+export { sections };

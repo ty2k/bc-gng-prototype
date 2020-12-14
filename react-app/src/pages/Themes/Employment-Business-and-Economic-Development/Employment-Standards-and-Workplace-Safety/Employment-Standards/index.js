@@ -1,5 +1,4 @@
 import React from "react";
-import propTypes from "prop-types";
 
 import Content from "../../../../../components/Content";
 import Navigation from "../../../../../components/Navigation";
@@ -13,12 +12,5 @@ function EmploymentStandards() {
     </>
   );
 }
-
-EmploymentStandards.propTypes = {
-  title: propTypes.string,
-  breadcrumbs: propTypes.array,
-};
-
-EmploymentStandards.defaultProps = {};
 
 export default EmploymentStandards;
