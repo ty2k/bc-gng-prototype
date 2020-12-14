@@ -68,6 +68,8 @@ function buildHtmlElement(
       );
     case "br":
       return <br key={`${type}-${index}`} />;
+    case "hr":
+      return <hr />;
     case "h1":
       return (
         <h1

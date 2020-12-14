@@ -11,6 +11,10 @@ const StyledContent = styled.div`
     margin-bottom: 4px;
   }
 
+  hr {
+    border-top: 1px solid #707070;
+  }
+
   p.p--last-updated {
     color: #888888;
     font-size: 16px;
