@@ -113,6 +113,9 @@ const content = [
     ],
   },
   {
+    type: "br",
+  },
+  {
     type: "callout",
     children: [
       {
@@ -126,6 +129,9 @@ const content = [
         ],
       },
     ],
+  },
+  {
+    type: "br",
   },
   {
     type: "p",
