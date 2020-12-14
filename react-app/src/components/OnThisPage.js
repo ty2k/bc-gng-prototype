@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
@@ -29,7 +28,7 @@ function OnThisPage({ title, children }) {
         {children.map((child, index) => {
           return (
             <li key={`on-this-page-list-item-${index}`}>
-              <Link to={`#${child.id}`}>{child.label}</Link>
+              <a href={`#${child.id}`}>{child.label}</a>
             </li>
           );
         })}
