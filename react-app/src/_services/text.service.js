@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Button } from "../components/Button";
 import Callout from "../components/Callout";
+import NumberedPageNav from "../components/NumberedPageNav";
 import OnThisPage from "../components/OnThisPage";
 
 function sanitize(input) {
@@ -147,6 +148,13 @@ function buildHtmlElement(
         <Callout key={`${type}-${index}-${childIndex ? childIndex : null}`}>
           {children}
         </Callout>
+      );
+    case "numbered-page-nav":
+      return (
+        <NumberedPageNav
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          children={children}
+        />
       );
     case "on-this-page":
       return (
