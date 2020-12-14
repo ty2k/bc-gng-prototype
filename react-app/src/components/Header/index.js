@@ -7,6 +7,7 @@ import styled from "styled-components";
 import Nav from "./Nav";
 import Alert from "./Alert";
 import SearchBar from "./Nav/SearchBar";
+import SlideOutMenu from "./Nav/SlideOutMenu";
 import useDocumentScrollThrottled from "../../useDocumentScrollThrottled";
 import { ReactComponent as HLogo } from "../assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "../assets/BCID_V_rgb_pos.svg";
@@ -17,6 +18,7 @@ const HeaderStyled = styled.header`
   background: none;
   position: sticky;
   top: 0;
+  z-index: 1;
 
   /* Header width is full page when not scrolled in desktop */
   &.header--mini {
@@ -127,6 +129,7 @@ const HeaderStyled = styled.header`
     background-color: #f2f2f2;
     color: #888888;
     height: 100%;
+    min-height: 44px;
   }
   div.wrapper > div.div--header-mini-icons > button#menu-icon svg {
     padding: 9px;
@@ -141,10 +144,11 @@ const HeaderStyled = styled.header`
   }
 `;
 
-function Header({ satellite, title, alertMessages }) {
+function Header({ alertMessages, navLinks, satellite, title }) {
   const [navHidden, setNavHidden] = useState(false);
   const [alertHidden, setAlertHidden] = useState(false);
   const [searchHidden, setSearchHidden] = useState(true);
+  const [slideOutMenuHidden, setSlideOutMenuHidden] = useState(true);
 
   const MINIMUM_SCROLL = window.innerHeight / 2;
 
@@ -153,10 +157,12 @@ function Header({ satellite, title, alertMessages }) {
     const isScrolledDown = previousScrollTop < currentScrollTop;
     const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
 
-    setNavHidden(isScrolledDown && isMinimumScrolled);
+    setNavHidden(() => {
+      return isScrolledDown && isMinimumScrolled;
+    });
   });
 
-  function toggleNav(event) {
+  function toggleNav() {
     setNavHidden(() => {
       return false;
     });
@@ -183,8 +189,14 @@ function Header({ satellite, title, alertMessages }) {
     });
   }
 
+  function toggleSlideOutMenu() {
+    setSlideOutMenuHidden(() => {
+      return !slideOutMenuHidden;
+    });
+  }
+
   return (
-    <HeaderStyled className={navHidden ? "header--mini" : null}>
+    <HeaderStyled className={navHidden && slideOutMenuHidden && "header--mini"}>
       <div className="wrapper">
         <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
@@ -220,8 +232,13 @@ function Header({ satellite, title, alertMessages }) {
             </Link>
           )}
         </div>
-        <Nav hidden={navHidden} toggleSearch={toggleSearch} />
-        {navHidden ? (
+        <Nav
+          hidden={navHidden && slideOutMenuHidden}
+          navLinks={navLinks}
+          toggleSearch={toggleSearch}
+          toggleSlideOutMenu={toggleSlideOutMenu}
+        />
+        {navHidden && slideOutMenuHidden && (
           <div className="div--header-mini-icons">
             <button
               aria-label="Open the navigation menu"
@@ -230,7 +247,7 @@ function Header({ satellite, title, alertMessages }) {
             >
               <HamburgerIcon />
             </button>
-            {alertMessages && alertMessages.length > 0 ? (
+            {alertMessages?.length > 0 && (
               <button
                 aria-label="Open the navigation menu and show alert"
                 id="info-icon"
@@ -238,47 +255,117 @@ function Header({ satellite, title, alertMessages }) {
               >
                 <InfoIcon />
               </button>
-            ) : null}
+            )}
           </div>
-        ) : null}
+        )}
       </div>
       {!searchHidden && (
         <SearchBar header={true} placeholder={"Search gov.bc.ca"} />
       )}
-      {alertMessages &&
-        alertMessages.length > 0 &&
+      {slideOutMenuHidden &&
+        alertMessages?.length > 0 &&
         alertMessages.map((alertMessage, index) => {
           return (
             <Alert
               alertHidden={alertHidden}
               key={`alert-${index}`}
               index={index}
-              message={alertMessage.message}
+              messageArr={alertMessage.message}
               navHidden={navHidden}
               onCloseButtonClick={hideAlert}
               onOpenButtonClick={showAlertAndNav}
             />
           );
         })}
+      {!slideOutMenuHidden && (
+        <SlideOutMenu
+          alertMessages={alertMessages}
+          navLinks={navLinks}
+          toggleSlideOutMenu={toggleSlideOutMenu}
+        />
+      )}
     </HeaderStyled>
   );
 }
 
 Header.propTypes = {
-  alertMessages: PropTypes.arrayOf(
+  alertMessages: PropTypes.arrayOf(PropTypes.object),
+  navLinks: PropTypes.arrayOf(
     PropTypes.shape({
-      message: PropTypes.string.isRequired,
+      text: PropTypes.string,
+      href: PropTypes.string,
+      exteral: PropTypes.bool,
     })
   ),
-  title: PropTypes.string,
   satellite: PropTypes.bool,
+  title: PropTypes.string,
 };
 
 Header.defaultProps = {
   alertMessages: [
     {
-      message:
-        "B.C. has declared a state of emergency. Learn about COVID-19 health issues. | B.C.’s response to COVID-19.",
+      message: [
+        {
+          type: "p",
+          children: [
+            {
+              type: "text",
+              children: "B.C. has declared a state of emergency. ",
+            },
+            {
+              type: "a-external",
+              href:
+                "https://www2.gov.bc.ca/gov/content/safety/emergency-preparedness-response-recovery/covid-19-provincial-support",
+              children: "Our response to COVID-19",
+            },
+            {
+              type: "text",
+              children: " | ",
+            },
+            {
+              type: "a-external",
+              href:
+                "https://www2.gov.bc.ca/gov/content/safety/emergency-preparedness-response-recovery/covid-19-provincial-support/restrictions",
+              children: "Province-wide restrictions",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+  navLinks: [
+    {
+      text: "Services",
+      href: "/services",
+    },
+    {
+      text: "Themes",
+      href: "/themes",
+    },
+    {
+      text: "News",
+      href: "https://news.gov.bc.ca/", // Use production pages until we have content on prototype pages
+      // href: "/news",
+      external: true,
+    },
+    {
+      text: "Public Engagements",
+      href: "https://engage.gov.bc.ca/govtogetherbc/", // Use production pages until we have content on prototype pages
+      // href: "/public-engagements",
+      external: true,
+    },
+    {
+      text: "Jobs & HR",
+      href: "https://www2.gov.bc.ca/gov/content/careers-myhr", // Use production pages until we have content on prototype pages
+      // href: "/jobs-hr",
+      external: true,
+    },
+    {
+      text: "Contact Us",
+      href:
+        "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services", // Use production pages until we have content on prototype pages
+      // href: "/contact",
+      external: true,
     },
   ],
   satellite: false,

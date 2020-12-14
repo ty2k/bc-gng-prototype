@@ -153,12 +153,7 @@ function Nav({ hidden, navLinks, toggleSearch, toggleSlideOutMenu }) {
         <LanguagePicker />
       </MediaQuery>
       <MediaQuery maxWidth={1537}>
-        <button
-          className="button--menu-button"
-          onClick={(e) => {
-            e.preventDefault();
-          }}
-        >
+        <button className="button--menu-button" onClick={toggleSlideOutMenu}>
           <HamburgerIcon />
           <span>Menu</span>
         </button>
@@ -171,6 +166,7 @@ Nav.propTypes = {
   hidden: PropTypes.bool,
   navLinks: PropTypes.array,
   toggleSearch: PropTypes.func,
+  toggleSlideOutMenu: PropTypes.func,
 };
 
 Nav.defaultProps = {

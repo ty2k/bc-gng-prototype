@@ -16,6 +16,12 @@ body {
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100vh;
 }
 
 code {
