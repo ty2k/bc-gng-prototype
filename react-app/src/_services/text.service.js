@@ -5,6 +5,7 @@ import { Button } from "../components/Button";
 import Callout from "../components/Callout";
 import NumberedPageNav from "../components/NumberedPageNav";
 import OnThisPage from "../components/OnThisPage";
+import Wizard from "../components/Wizard";
 
 function sanitize(input) {
   return DOMPurify.sanitize(input);
@@ -21,13 +22,15 @@ function sanitize(input) {
  *                           or an array for composed elements
  *                           like `p`, `span`, or React components
  *   - @param {string} title - title for React components
+ *   - @param {string} first - ID of the first step in stepped component
+ *   - @param {object} steps - JSON representation of steps in stepped component
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
  */
 function buildHtmlElement(
-  { type, id, style, className, children, title, href, primary },
+  { type, id, style, className, children, title, first, steps, href, primary },
   index = null,
   childIndex = null
 ) {
@@ -171,6 +174,8 @@ function buildHtmlElement(
           title={title}
         />
       );
+    case "wizard":
+      return <Wizard first={first} steps={steps} title={title} />;
     default:
       return null;
   }

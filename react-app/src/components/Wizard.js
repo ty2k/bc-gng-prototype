@@ -91,7 +91,7 @@ const StyledWizard = styled.div`
   }
 `;
 
-export function Wizard({ title, tree, first, steps }) {
+function Wizard({ title, first, steps }) {
   const [stepsShown, setStepsShown] = useState([first]);
   const [data, setData] = useState({});
   const [explanation, setExplanation] = useState("");
@@ -246,3 +246,5 @@ export function Wizard({ title, tree, first, steps }) {
     </StyledWizard>
   );
 }
+
+export default Wizard;
