@@ -7,11 +7,17 @@ This package is a prototype re-design of the [Services page](https://www2.gov.bc
 - `./react-app/` holds a React app based on [bc-react-prototype-env](https://github.com/ty2k/bc-react-prototype-env)
 
 ## Installation
-`npm i` to install the Express server dependencies
+1. `npm i` to install the Express server dependencies.
+2. Create an environment variable file (`.env`) in the root folder following the example in `.env.example`.
+3. Set a `GUEST_USERNAME` and `GUEST_PASSWORD` environment variable in `.env`:
+```
+GUEST_USERNAME=user
+GUEST_PASSWORD=pass
+```
 
 ## Build
-`npm run build` within the parent directory creates a production build of the React application after installing front-end dependencies
+`npm run build` within the parent directory creates a production build of the React application after installing front-end dependencies.
 
 ## Run
-`npm run dev` to start the Express server with Nodemon for logging
-`npm run start` to start the Express server
+`npm run dev` to start the Express server with Nodemon for logging.
+`npm run start` to start the Express server.
