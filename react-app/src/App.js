@@ -8,6 +8,11 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Services from "./pages/Services";
 import Themes from "./pages/Themes";
+import News from "./pages/News";
+import PublicEngagements from "./pages/PublicEngagements";
+import JobsHR from "./pages/JobsHR";
+import Contact from "./pages/Contact";
+
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
@@ -16,10 +21,7 @@ import EmploymentStandards from "./pages/Themes/Employment-Business-and-Economic
 import HiringEmployees from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees";
 import HiringDomesticWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Domestic-Workers";
 import HiringTemporaryForeignWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers";
-import News from "./pages/News";
-import PublicEngagements from "./pages/PublicEngagements";
-import JobsHR from "./pages/JobsHR";
-import Contact from "./pages/Contact";
+import ApplyForRecruitersLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License";
 
 function App() {
   return (
@@ -86,6 +88,43 @@ function App() {
           "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
         }
         parentTitle={"Employment Standards"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license"
+        }
+        title={"Apply for a Recuiter’s License"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            label: "Hiring Employees",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
+            label: "Hiring Temporary Foreign Workers",
+          },
+        ]}
+        content={<ApplyForRecruitersLicense />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers"
+        }
+        parentTitle={"Hiring Temporary Foreign Workers"}
       />
       <PrivateRoute
         exact

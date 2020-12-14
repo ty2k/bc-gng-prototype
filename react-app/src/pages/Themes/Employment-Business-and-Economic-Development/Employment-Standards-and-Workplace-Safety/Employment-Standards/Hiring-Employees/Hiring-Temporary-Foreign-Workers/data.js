@@ -73,7 +73,7 @@ const navigation = [
   {
     label: "Apply for a temporary foreign worker recruiter’s license",
     href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-recruiters-license",
+      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
   },
   {
     label: "Search for a registered employer or a licensed recruiter",
