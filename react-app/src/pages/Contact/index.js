@@ -2,11 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 
 function Contact() {
-  return (
-    <main>
-      <h1>Contact Us</h1>
-    </main>
-  );
+  return <p>Contact us page</p>;
 }
 
 Contact.propTypes = {

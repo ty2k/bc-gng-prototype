@@ -40,12 +40,15 @@ const SearchButton = styled.button`
   box-sizing: border-box;
   display: inline-block;
   height: 44px;
+  min-width: 44px;
   overflow: hidden;
   padding: 10px;
   width: 44px;
 
   svg {
     color: #888888;
+    height: 24px;
+    width: 24px;
   }
 `;
 

@@ -45,15 +45,33 @@ const NavStyled = styled.nav`
     color: #313132;
     display: inline-block;
     height: 80px;
-    line-height: 80px;
     text-decoration: none;
+
+    div.header-navlink-top {
+      height: 8px;
+    }
+    div.header-navlink-arrow {
+      height: 7px;
+    }
+    div.header-navlink-text {
+      height: 50px;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
   }
+
   ul li a.a--current-page {
-    border-bottom: 10px solid transparent;
-    border-top: 10px solid #fcba19;
-    height: 60px;
-    line-height: 60px;
     font-weight: 700;
+
+    div.header-navlink-top {
+      background-color: #fcba19;
+    }
+
+    div.header-navlink-arrow {
+      background-color: #fcba19;
+      background-size: cover;
+      clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    }
   }
 
   button.button--menu-button {
@@ -105,18 +123,24 @@ const NavStyled = styled.nav`
   }
 `;
 
-function Nav({ hidden, links, toggleSearch }) {
+function Nav({ hidden, navLinks, toggleSearch, toggleSlideOutMenu }) {
   return (
     <NavStyled className={hidden ? "nav--hidden" : null}>
       <MediaQuery minWidth={1272}>
         <ul>
-          {links.map(({ text, href, external }, index) => (
+          {navLinks.map(({ external, href, text }, index) => (
             <li key={index}>
               {external ? (
-                <a href={href}>{text}</a>
+                <a href={href}>
+                  <div className="header-navlink-top"></div>
+                  <div className="header-navlink-arrow"></div>
+                  <div className="header-navlink-text">{text}</div>
+                </a>
               ) : (
                 <NavLink to={href} activeClassName="a--current-page">
-                  {text}
+                  <div className="header-navlink-top"></div>
+                  <div className="header-navlink-arrow"></div>
+                  <div className="header-navlink-text">{text}</div>
                 </NavLink>
               )}
             </li>
@@ -129,12 +153,7 @@ function Nav({ hidden, links, toggleSearch }) {
         <LanguagePicker />
       </MediaQuery>
       <MediaQuery maxWidth={1537}>
-        <button
-          className="button--menu-button"
-          onClick={(e) => {
-            e.preventDefault();
-          }}
-        >
+        <button className="button--menu-button" onClick={toggleSlideOutMenu}>
           <HamburgerIcon />
           <span>Menu</span>
         </button>
@@ -145,13 +164,14 @@ function Nav({ hidden, links, toggleSearch }) {
 
 Nav.propTypes = {
   hidden: PropTypes.bool,
-  links: PropTypes.array,
+  navLinks: PropTypes.array,
   toggleSearch: PropTypes.func,
+  toggleSlideOutMenu: PropTypes.func,
 };
 
 Nav.defaultProps = {
   hidden: false,
-  links: [
+  navLinks: [
     {
       text: "Services",
       href: "/services",

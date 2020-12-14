@@ -2,11 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 
 function News() {
-  return (
-    <main>
-      <h1>News</h1>
-    </main>
-  );
+  return <p>News page</p>;
 }
 
 News.propTypes = {
