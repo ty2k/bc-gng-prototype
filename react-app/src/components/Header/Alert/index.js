@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
+import { textService } from "../../../_services/text.service";
+
 import { ReactComponent as InfoIcon } from "../../assets/ionic-ios-information-circle.svg";
 import { ReactComponent as CloseIcon } from "../../assets/ionic-md-close.svg";
 
@@ -32,7 +34,7 @@ const StyledAlert = styled.div`
       /* padding: 23px 13px 10px 13px; */
       padding: 0;
     }
-    p.p--alert {
+    div.div--alert {
       display: none;
     }
     button.button--close-alert {
@@ -46,18 +48,26 @@ const StyledAlert = styled.div`
   }
 
   svg.svg--info {
-    min-height: 30px;
-    min-width: 30px;
-    padding: 7px 20px 7px 14px;
+    height: 30px;
+    margin: 7px;
+    width: 30px;
     vertical-align: middle;
   }
 
-  p.p--alert {
+  div.div--alert {
     display: inline-block;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 16px 10px 0;
     vertical-align: middle;
     width: 100%;
+
+    p {
+      margin: 0;
+
+      a {
+        color: white;
+      }
+    }
   }
 
   button {
@@ -89,8 +99,9 @@ const StyledAlert = styled.div`
 
 function Alert({
   alertHidden,
+  closeable,
   index,
-  message,
+  messageArr,
   navHidden,
   onCloseButtonClick,
   onOpenButtonClick,
@@ -121,27 +132,36 @@ function Alert({
       ) : (
         <InfoIcon className="svg--info" />
       )}
-      <p className="p--alert">{message}</p>
-      <button
-        aria-label="Close alert message"
-        className="button--close-alert"
-        id={`button-close-alert-${index}`}
-        onClick={onCloseButtonClick}
-      >
-        <CloseIcon className="svg--close" />
-      </button>
+      <div className="div--alert">
+        {messageArr?.length > 0 &&
+          messageArr.map((message) => {
+            return textService.buildHtmlElement(message);
+          })}
+      </div>
+      {closeable && (
+        <button
+          aria-label="Close alert message"
+          className="button--close-alert"
+          id={`button-close-alert-${index}`}
+          onClick={onCloseButtonClick}
+        >
+          <CloseIcon className="svg--close" />
+        </button>
+      )}
     </StyledAlert>
   );
 }
 
 Alert.propTypes = {
   alertHidden: PropTypes.bool.isRequired,
-  message: PropTypes.string.isRequired,
+  closeable: PropTypes.bool.isRequired,
+  messageArr: PropTypes.array.isRequired,
   navHidden: PropTypes.bool.isRequired,
 };
 
 Alert.defaultProps = {
   alertHidden: false,
+  closeable: true,
   navHidden: false,
 };
 
