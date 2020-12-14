@@ -10,6 +10,10 @@ const StyledWizard = styled.div`
 
   div.div--wizard-container {
     padding: 0 30px;
+
+    @media (max-width: 991px) {
+      padding: 0;
+    }
   }
 
   button {
@@ -32,32 +36,54 @@ const StyledWizard = styled.div`
   div.div--wizard-questionnaire {
     align-items: center;
     display: flex;
+
+    @media (max-width: 991px) {
+      display: block;
+    }
   }
 
   div.div--wizard-question {
-    display: inline-block;
     flex-grow: 1;
+
+    @media (max-width: 991px) {
+      display: block;
+    }
 
     div.div--wizard-input {
       align-items: center;
-      display: flex;
       height: 44px;
       padding-left: 100px;
 
       label {
         padding-left: 20px;
       }
+
+      @media (max-width: 991px) {
+        padding: 0;
+
+        label {
+          padding-left: 5px;
+        }
+      }
     }
   }
 
   div.div--wizard-explanation {
-    display: inline-block;
     flex-grow: 1;
+
+    @media (max-width: 991px) {
+      display: block;
+      padding: 10px;
+    }
   }
 
   div.div--wizard-question + div.div--wizard-explanation {
     max-width: 450px;
     padding: 0 50px;
+
+    @media (max-width: 991px) {
+      padding: 10px 0;
+    }
   }
 
   div.div--wizard-controls {
