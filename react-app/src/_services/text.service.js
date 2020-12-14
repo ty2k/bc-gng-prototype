@@ -14,6 +14,7 @@ function sanitize(input) {
  * Given a chunk of JSON, build an HTML object
  * @param {object} - JSON chunk
  *   - @param {string} type - type of HTML element or React component
+ *   - @param {string} id - element ID, for #hash links
  *   - @param {string} style - visual style for text elements (`strong`, `em`)
  *   - @param {string} className - HTML class
  *   - @param {*} children - a string for primitive elements,
@@ -26,7 +27,7 @@ function sanitize(input) {
  * @param {number} childIndex - nested array index for React keys if applicable
  */
 function buildHtmlElement(
-  { type, style, className, children, title, href, primary },
+  { type, id, style, className, children, title, href, primary },
   index = null,
   childIndex = null
 ) {
@@ -75,6 +76,7 @@ function buildHtmlElement(
       return (
         <h1
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
@@ -83,6 +85,7 @@ function buildHtmlElement(
       return (
         <h2
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
@@ -91,6 +94,7 @@ function buildHtmlElement(
       return (
         <h3
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
@@ -99,6 +103,7 @@ function buildHtmlElement(
       return (
         <h4
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
@@ -107,6 +112,7 @@ function buildHtmlElement(
       return (
         <h5
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
@@ -115,6 +121,7 @@ function buildHtmlElement(
       return (
         <h6
           key={`${type}-${index}`}
+          id={id}
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
