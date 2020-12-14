@@ -194,117 +194,113 @@ const sections = [
   },
 ];
 
-const wizard = {
-  title: "Do Employment Standards apply to you?",
-  tree: {
-    intro: ["start"],
-    start: ["workplace_safety", "employment_standards"],
-    workplace_safety: ["start", "worksafe_bc"],
-    employment_standards: ["start"],
-    worksafe_bc: ["start"],
-  },
-  first: "intro",
-  steps: {
-    intro: {
-      text:
-        "Not every work issue, workplace or type is related to Employment Standards. We can help direct you to the right place with this quick questionnaire.",
-      controls: {
-        forward: {
-          label: "Start the questionnaire",
-          step: "start",
-          primary: true,
+const content = [
+  {
+    type: "wizard",
+    title: "Do Employment Standards apply to you?",
+    first: "intro",
+    steps: {
+      intro: {
+        text:
+          "Not every work issue, workplace or type is related to Employment Standards. We can help direct you to the right place with this quick questionnaire.",
+        controls: {
+          forward: {
+            label: "Start the questionnaire",
+            step: "start",
+            primary: true,
+          },
         },
       },
-    },
-    start: {
-      question_text:
-        "Please tell us how you would describe your work situation.",
-      options: [
-        {
-          label: "I am an employee",
-          id: "employee",
-          next_step: "workplace_safety",
-          text:
-            "An employee is someone who receives money (or is owed money) for work performed. This includes someone who an employer allows to perform work that would normally be done by an employee.",
-        },
-        {
-          label: "I am an employer",
-          id: "employer",
-          next_step: "employment_standards",
-          text:
-            "An employer is someone who hires employees and is responsible for their employment. They have control over employees or provide instruction and/or direction to staff.",
-        },
-        {
-          label: "I am an independent contractor",
-          id: "contractor",
-          next_step: "workplace_safety",
-          text:
-            "An independent contractor is considered to be self-employed. Contractors are responsible for upholding workplace standards for their business.",
-        },
-      ],
-      controls: {
-        back: {
-          label: "Back",
-          step: "intro",
-        },
-        forward: {
-          label: "Next",
-          primary: true,
-        },
-      },
-    },
-    workplace_safety: {
-      question_text: "Is your question or concern about workplace safety?",
-      options: [
-        {
-          label: "Yes",
-          id: "yes",
-          next_step: "worksafe_bc",
-        },
-        {
-          label: "No",
-          id: "no",
-          next_step: "worksafe_bc",
-        },
-      ],
-      controls: {
-        back: {
-          label: "Back",
-          next_step: "start",
-        },
-        forward: {
-          label: "Next",
-          primary: true,
+      start: {
+        question_text:
+          "Please tell us how you would describe your work situation.",
+        options: [
+          {
+            label: "I am an employee",
+            id: "employee",
+            next_step: "workplace_safety",
+            text:
+              "An employee is someone who receives money (or is owed money) for work performed. This includes someone who an employer allows to perform work that would normally be done by an employee.",
+          },
+          {
+            label: "I am an employer",
+            id: "employer",
+            next_step: "employment_standards",
+            text:
+              "An employer is someone who hires employees and is responsible for their employment. They have control over employees or provide instruction and/or direction to staff.",
+          },
+          {
+            label: "I am an independent contractor",
+            id: "contractor",
+            next_step: "workplace_safety",
+            text:
+              "An independent contractor is considered to be self-employed. Contractors are responsible for upholding workplace standards for their business.",
+          },
+        ],
+        controls: {
+          back: {
+            label: "Back",
+            step: "intro",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
         },
       },
-    },
-    employment_standards: {
-      text:
-        "Yes, as an employer, Employment Standards apply. Navigate along to learn more about Employment Standards or seek advice.",
-      controls: {
-        back: {
-          label: "Back",
-        },
-        restart: {
-          label: "Restart",
-          primary: true,
+      workplace_safety: {
+        question_text: "Is your question or concern about workplace safety?",
+        options: [
+          {
+            label: "Yes",
+            id: "yes",
+            next_step: "worksafe_bc",
+          },
+          {
+            label: "No",
+            id: "no",
+            next_step: "worksafe_bc",
+          },
+        ],
+        controls: {
+          back: {
+            label: "Back",
+            next_step: "start",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
         },
       },
-    },
-    worksafe_bc: {
-      text:
-        '<p><a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents.</p>\r\n<p><strong>You can:</strong></p>\r\n<p>- Visit <a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> to learn about workplace health and safety in B.C., to report an incident or to seek resolution</p>\r\n<p>- Contact the <a href="https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/personal-injury-and-workplace-safety">Workers\u2019 Advisers Office</a> if you disagree with a WorkSafeBC decision</p>',
-      controls: {
-        back: {
-          label: "Back",
+      employment_standards: {
+        text:
+          "Yes, as an employer, Employment Standards apply. Navigate along to learn more about Employment Standards or seek advice.",
+        controls: {
+          back: {
+            label: "Back",
+          },
+          restart: {
+            label: "Restart",
+            primary: true,
+          },
         },
-        restart: {
-          label: "Restart",
-          primary: true,
+      },
+      worksafe_bc: {
+        text:
+          '<p><a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> is the organization primarily responsible for addressing issues concerning workplace health and safety. This includes injuries, illness, or other health and safety incidents.</p>\r\n<p><strong>You can:</strong></p>\r\n<p>- Visit <a href="https://www.worksafebc.com/" class="a--external">WorkSafeBC</a> to learn about workplace health and safety in B.C., to report an incident or to seek resolution</p>\r\n<p>- Contact the <a href="https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/personal-injury-and-workplace-safety">Workers\u2019 Advisers Office</a> if you disagree with a WorkSafeBC decision</p>',
+        controls: {
+          back: {
+            label: "Back",
+          },
+          restart: {
+            label: "Restart",
+            primary: true,
+          },
         },
       },
     },
   },
-};
+];
 
-export { sections, wizard };
+export { sections, content };

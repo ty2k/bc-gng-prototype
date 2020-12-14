@@ -120,24 +120,24 @@ const content = [
       },
     ],
   },
+  {
+    type: "wizard",
+    title: "Is a Recruiter's License for you?",
+    first: "intro",
+    steps: {
+      intro: {
+        text:
+          "In some cases, a recruiter’s license is not necessary for you. Go through this simple questionnaire to see whether or not a recruiter’s license is for you.",
+        controls: {
+          forward: {
+            label: "Start the questionnaire",
+            step: "",
+            primary: true,
+          },
+        },
+      },
+    },
+  },
 ];
-
-// const wizard = {
-//   title: "Is a Recruiter's License for you?",
-//   first: "intro",
-//   steps: {
-//     intro: {
-//       text:
-//         "In some cases, a recruiter’s license is not necessary for you. Go through this simple questionnaire to see whether or not a recruiter’s license is for you.",
-//       controls: {
-//         forward: {
-//           label: "Start the questionnaire",
-//           step: "",
-//           primary: true,
-//         },
-//       },
-//     },
-//   },
-// };
 
 export { content };
