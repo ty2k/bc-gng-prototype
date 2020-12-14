@@ -24,6 +24,7 @@ import { ReactComponent as ionicMdClose } from "../components/assets/ionic-md-cl
 import { ReactComponent as ionicMdPerson } from "../components/assets/ionic-md-person.svg";
 import { ReactComponent as iosArrowDown } from "../components/assets/ios-arrow-down.svg";
 import { ReactComponent as iosFootball } from "../components/assets/ios-football.svg";
+import { ReactComponent as languageSolid } from "../components/assets/language-solid.svg";
 import { ReactComponent as leafSolid } from "../components/assets/leaf-solid.svg";
 import { ReactComponent as localGovernment } from "../components/assets/local-government.svg";
 import { ReactComponent as mapIconsLawyer } from "../components/assets/map-icons-lawyer.svg";
@@ -65,6 +66,7 @@ const svgIcons = {
   "ionic-md-person.svg": ionicMdPerson,
   "ios-arrow-down.svg": iosArrowDown,
   "ios-football.svg": iosFootball,
+  "language-solid.svg": languageSolid,
   "leaf-solid.svg": leafSolid,
   "local-government.svg": localGovernment,
   "map-icons-lawyer.svg": mapIconsLawyer,
