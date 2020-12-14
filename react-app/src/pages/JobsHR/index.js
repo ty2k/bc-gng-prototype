@@ -2,11 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 
 function JobsHR() {
-  return (
-    <main>
-      <h1>Jobs &amp; HR</h1>
-    </main>
-  );
+  return <p>Jobs &amp; HR page</p>;
 }
 
 JobsHR.propTypes = {
