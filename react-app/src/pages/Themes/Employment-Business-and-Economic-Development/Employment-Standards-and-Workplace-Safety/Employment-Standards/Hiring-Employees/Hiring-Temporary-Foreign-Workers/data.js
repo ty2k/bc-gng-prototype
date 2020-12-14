@@ -1,5 +1,8 @@
 const content = [
   {
+    type: "br",
+  },
+  {
     type: "p",
     className: "p--last-updated",
     children: [

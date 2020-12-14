@@ -1,18 +1,10 @@
 import React from "react";
-import propTypes from "prop-types";
 
 import Navigation from "../../components/Navigation";
-import data from "./data";
+import { sections } from "./data";
 
 function Themes() {
-  return <Navigation search={{ label: "Search Themes" }} sections={data} />;
+  return <Navigation search={{ label: "Search Themes" }} sections={sections} />;
 }
-
-Themes.propTypes = {
-  title: propTypes.string,
-  breadcrumbs: propTypes.array,
-};
-
-Themes.defaultProps = {};
 
 export default Themes;

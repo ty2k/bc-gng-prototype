@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 import { imageService } from "../_services/image.service";
 import SearchBar from "./SearchBar";
-import { Wizard } from "./Wizard";
 
 const Section = styled.div`
   margin: 30px 0 50px 0;
@@ -157,10 +156,9 @@ function Card({ icon, title, description, links, cardLink }) {
   }
 }
 
-function Navigation({ search, sections, wizard }) {
+function Navigation({ search, sections }) {
   return (
     <>
-      {wizard && <Wizard {...wizard} />}
       {search && <SearchBar placeHolder={search.label || "Search"} />}
       {sections &&
         sections.length > 0 &&

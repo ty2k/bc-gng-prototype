@@ -1,23 +1,15 @@
 import React from "react";
-import propTypes from "prop-types";
 
 import Navigation from "../../../components/Navigation";
-import data from "./data";
+import { sections } from "./data";
 
 function EmploymentBusinessAndEconomicDevelopment() {
   return (
     <Navigation
       search={{ label: "Employment, Business & Economic Development" }}
-      sections={data}
+      sections={sections}
     />
   );
 }
-
-EmploymentBusinessAndEconomicDevelopment.propTypes = {
-  title: propTypes.string,
-  breadcrumbs: propTypes.array,
-};
-
-EmploymentBusinessAndEconomicDevelopment.defaultProps = {};
 
 export default EmploymentBusinessAndEconomicDevelopment;

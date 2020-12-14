@@ -1,5 +1,4 @@
 import React from "react";
-import propTypes from "prop-types";
 
 import Content from "../../../../../../components/Content";
 import TabbedPageNav from "../../../../../../components/TabbedPageNav";
@@ -13,9 +12,5 @@ function HiringEmployees() {
     </>
   );
 }
-
-HiringEmployees.propTypes = {};
-
-HiringEmployees.defaultProps = {};
 
 export default HiringEmployees;
