@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import MediaQuery from "react-responsive";
+import MediaQuery, { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 
 import Nav from "./Nav";
@@ -13,6 +13,7 @@ import { ReactComponent as HLogo } from "../assets/BCID_H_rgb_pos.svg";
 import { ReactComponent as VLogo } from "../assets/BCID_V_rgb_pos.svg";
 import { ReactComponent as HamburgerIcon } from "../assets/bars-solid.svg";
 import { ReactComponent as InfoIcon } from "../assets/ionic-ios-information-circle.svg";
+import { ReactComponent as BackToTopIcon } from "../assets/back-to-top.svg";
 
 const HeaderStyled = styled.header`
   background: none;
@@ -20,7 +21,7 @@ const HeaderStyled = styled.header`
   top: 0;
   z-index: 1;
 
-  /* Header width is full page when not scrolled in desktop */
+  /* The left-collapsed header on desktop sizes at least 1271px wide */
   &.header--mini {
     min-height: 125px; // Must be larger than Header + Alert for collapse
     max-width: min-content;
@@ -142,6 +143,20 @@ const HeaderStyled = styled.header`
   div.wrapper > div.div--header-mini-icons > button#info-icon svg {
     padding: 7px;
   }
+
+  a#a--back-to-top {
+    height: 44px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 44px;
+
+    svg {
+      height: 44px;
+      opacity: 0.5;
+      width: 44px;
+    }
+  }
 `;
 
 function Header({ alertMessages, navLinks, satellite, title }) {
@@ -149,7 +164,9 @@ function Header({ alertMessages, navLinks, satellite, title }) {
   const [alertHidden, setAlertHidden] = useState(false);
   const [searchHidden, setSearchHidden] = useState(true);
   const [slideOutMenuHidden, setSlideOutMenuHidden] = useState(true);
+  const [backToTopShown, setBackToTopShown] = useState(false);
 
+  const isCollapsible = useMediaQuery({ query: `(min-width: 1271px)` });
   const MINIMUM_SCROLL = window.innerHeight / 2;
 
   useDocumentScrollThrottled((callbackData) => {
@@ -159,6 +176,10 @@ function Header({ alertMessages, navLinks, satellite, title }) {
 
     setNavHidden(() => {
       return isScrolledDown && isMinimumScrolled;
+    });
+
+    setBackToTopShown(() => {
+      return isMinimumScrolled;
     });
   });
 
@@ -196,7 +217,11 @@ function Header({ alertMessages, navLinks, satellite, title }) {
   }
 
   return (
-    <HeaderStyled className={navHidden && slideOutMenuHidden && "header--mini"}>
+    <HeaderStyled
+      className={
+        navHidden && slideOutMenuHidden && isCollapsible && "header--mini"
+      }
+    >
       <div className="wrapper">
         <div className="div--title">
           {/* Satellite sites use vertical logo and decorative pipe with text title in desktop mode */}
@@ -233,12 +258,12 @@ function Header({ alertMessages, navLinks, satellite, title }) {
           )}
         </div>
         <Nav
-          hidden={navHidden && slideOutMenuHidden}
+          hidden={navHidden && slideOutMenuHidden && isCollapsible}
           navLinks={navLinks}
           toggleSearch={toggleSearch}
           toggleSlideOutMenu={toggleSlideOutMenu}
         />
-        {navHidden && slideOutMenuHidden && (
+        {navHidden && slideOutMenuHidden && isCollapsible && (
           <div className="div--header-mini-icons">
             <button
               aria-label="Open the navigation menu"
@@ -283,6 +308,19 @@ function Header({ alertMessages, navLinks, satellite, title }) {
           navLinks={navLinks}
           toggleSlideOutMenu={toggleSlideOutMenu}
         />
+      )}
+      {backToTopShown && slideOutMenuHidden && (
+        <MediaQuery maxWidth={1271}>
+          <a
+            id="a--back-to-top"
+            aria-label="Back to top"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            <BackToTopIcon />
+          </a>
+        </MediaQuery>
       )}
     </HeaderStyled>
   );
