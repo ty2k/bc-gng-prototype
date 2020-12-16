@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 import { Button } from "../components/Button";
 import Callout from "../components/Callout";
-import NumberedPageNav from "../components/NumberedPageNav";
+import {
+  SteppedGuide,
+  BackForwardButtonPair,
+} from "../components/SteppedGuide";
 import OnThisPage from "../components/OnThisPage";
 import Wizard from "../components/Wizard";
 
@@ -19,18 +22,33 @@ function sanitize(input) {
  *   - @param {string} style - visual style for text elements (`strong`, `em`)
  *   - @param {string} className - HTML class
  *   - @param {*} children - a string for primitive elements,
- *                           or an array for composed elements
+ *                           or an array or for composed elements
  *                           like `p`, `span`, or React components
+ *   - @param {object} args - arbitrary arguments for React components
  *   - @param {string} title - title for React components
  *   - @param {string} first - ID of the first step in stepped component
  *   - @param {object} steps - JSON representation of steps in stepped component
+ *   - @param {object} callToAction - primary action in a stepper component
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
  */
 function buildHtmlElement(
-  { type, id, style, className, children, title, first, steps, href, primary },
+  {
+    type,
+    id,
+    style,
+    className,
+    children,
+    args,
+    title,
+    first,
+    steps,
+    callToAction,
+    href,
+    primary,
+  },
   index = null,
   childIndex = null
 ) {
@@ -145,6 +163,16 @@ function buildHtmlElement(
           })}
         </span>
       );
+    case "back-forward-button-pair":
+      return (
+        <BackForwardButtonPair
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          backHref={args.backHref}
+          backLabel={args.backLabel}
+          forwardHref={args.forwardHref}
+          forwardLabel={args.forwardLabel}
+        />
+      );
     case "button":
       return (
         <div key={`${type}-${index}-${childIndex ? childIndex : null}`}>
@@ -159,11 +187,12 @@ function buildHtmlElement(
           {children}
         </Callout>
       );
-    case "numbered-page-nav":
+    case "stepped-guide":
       return (
-        <NumberedPageNav
+        <SteppedGuide
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
+          callToAction={callToAction}
         />
       );
     case "on-this-page":
@@ -175,7 +204,14 @@ function buildHtmlElement(
         />
       );
     case "wizard":
-      return <Wizard first={first} steps={steps} title={title} />;
+      return (
+        <Wizard
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          first={first}
+          steps={steps}
+          title={title}
+        />
+      );
     default:
       return null;
   }

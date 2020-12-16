@@ -2,12 +2,32 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
+import { Button, ButtonLink } from "./Button";
+import { ReactComponent as LeftArrowIcon } from "../components/assets/ionic-ios-arrow-back.svg";
+import { ReactComponent as RightArrowIcon } from "../components/assets/ionic-ios-arrow-forward.svg";
+
+const StyledGuide = styled.div`
+  border-bottom: 1px solid #707070;
+  padding-bottom: 29px;
+`;
+
 const StyledGrid = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin: 20px 0;
-  max-height: 210px;
+
+  @media (min-width: 576px) {
+    max-width: 576px;
+  }
+  @media (min-width: 768px) {
+    max-width: 768px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 0;
+  }
+  @media (min-width: 992px) {
+    max-width: 970px;
+  }
 `;
 
 const StyledNavTab = styled.div`
@@ -60,21 +80,74 @@ function NavTab({ label, href, number }) {
   );
 }
 
-function NumberedPageNav({ children }) {
+function SteppedGuide({ children, callToAction }) {
   return (
-    <StyledGrid>
-      {children.map(({ label, href }, index) => {
-        return (
-          <NavTab
-            key={`tabbed-page-nav-${index}`}
-            label={label}
-            href={href}
-            number={index + 1}
-          />
-        );
-      })}
-    </StyledGrid>
+    <StyledGuide>
+      <StyledGrid>
+        {children.map(({ label, href }, index) => {
+          return (
+            <NavTab
+              key={`tabbed-page-nav-${index}`}
+              label={label}
+              href={href}
+              number={index + 1}
+            />
+          );
+        })}
+      </StyledGrid>
+      {callToAction && <Button primary>{callToAction.label}</Button>}
+    </StyledGuide>
   );
 }
 
-export default NumberedPageNav;
+const StyledLinkButtonPair = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+
+    &:last-child {
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    svg {
+      height: 35px;
+    }
+
+    svg + span,
+    span + svg {
+      margin-left: 5px;
+    }
+    }
+  }
+`;
+
+function BackForwardButtonPair({
+  backLabel,
+  backHref,
+  forwardLabel,
+  forwardHref,
+}) {
+  return (
+    <StyledLinkButtonPair>
+      {backHref && backLabel && (
+        <ButtonLink href={backHref} primary={false}>
+          <LeftArrowIcon />
+          <span>{backLabel}</span>
+        </ButtonLink>
+      )}
+      {forwardHref && forwardLabel && (
+        <ButtonLink href={forwardHref} primary={true}>
+          <span>{forwardLabel}</span>
+          <RightArrowIcon />
+        </ButtonLink>
+      )}
+    </StyledLinkButtonPair>
+  );
+}
+
+export { SteppedGuide, BackForwardButtonPair };
