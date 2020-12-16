@@ -120,7 +120,7 @@ function Alert({
       aria-controls={`button-close-alert-${index}`}
       className={alertClasses.join(" ")}
     >
-      {!navHidden && alertHidden ? (
+      {navHidden || (!navHidden && alertHidden) ? (
         <button
           aria-label="Show alert message"
           className="button--show-alert"
