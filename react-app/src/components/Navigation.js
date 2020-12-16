@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import { imageService } from "../_services/image.service";
+import { textService } from "../_services/text.service";
 import SearchBar from "./SearchBar";
 
 const Section = styled.div`
@@ -100,6 +101,24 @@ function CardRouterLink({ href, children }) {
   return <StyledCardRouterLink to={href}>{children}</StyledCardRouterLink>;
 }
 function Card({ icon, title, description, links, cardLink }) {
+  // TODO: Standardize data so only arrays are used
+  function getDescMarkup(description) {
+    switch (typeof description) {
+      case "object":
+        if (Array.isArray(description)) {
+          return description.map((element) => {
+            return textService.buildHtmlElement(element);
+          });
+        } else {
+          return null;
+        }
+      case "string":
+        return <p>{description}</p>;
+      default:
+        return null;
+    }
+  }
+
   if (cardLink && cardLink.external === true) {
     return (
       <CardAnchorLink href={cardLink.href}>
@@ -109,7 +128,7 @@ function Card({ icon, title, description, links, cardLink }) {
             {title && <h3>{title}</h3>}
             <Icon id="external-link-alt-solid.svg" />
           </div>
-          {description && <p>{description}</p>}
+          {description && getDescMarkup(description)}
         </StyledCard>
       </CardAnchorLink>
     );
@@ -121,7 +140,7 @@ function Card({ icon, title, description, links, cardLink }) {
             {icon && <Icon id={icon} />}
             {title && <h3>{title}</h3>}
           </div>
-          {description && <p>{description}</p>}
+          {description && getDescMarkup(description)}
         </StyledCard>
       </CardRouterLink>
     );
@@ -132,7 +151,7 @@ function Card({ icon, title, description, links, cardLink }) {
           {icon && <Icon id={icon} />}
           {title && <h3>{title}</h3>}
         </div>
-        {description && <p>{description}</p>}
+        {description && getDescMarkup(description)}
         {links && links.length > 0 && (
           <ul>
             {links.map((link, index) => {
@@ -192,7 +211,7 @@ Icon.propTypes = {
 };
 Card.propTypes = {
   title: propTypes.string,
-  description: propTypes.string,
+  description: propTypes.any,
   links: propTypes.arrayOf(
     propTypes.shape({
       href: propTypes.string,
