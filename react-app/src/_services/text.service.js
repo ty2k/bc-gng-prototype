@@ -1,12 +1,14 @@
 import DOMPurify from "dompurify";
 import { Link } from "react-router-dom";
 
-import { Button } from "../components/Button";
+import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
+import FullWidthBlock from "../components/FullWidthBlock";
 import {
   SteppedGuide,
   BackForwardButtonPair,
 } from "../components/SteppedGuide";
+import Navigation from "../components/Navigation";
 import OnThisPage from "../components/OnThisPage";
 import Wizard from "../components/Wizard";
 
@@ -181,18 +183,33 @@ function buildHtmlElement(
           </Button>
         </div>
       );
+    case "button-link":
+      return (
+        <div key={`${type}-${index}-${childIndex ? childIndex : null}`}>
+          <ButtonLink key={`${type}-${index}`} primary={primary}>
+            {sanitize(children)}
+          </ButtonLink>
+        </div>
+      );
     case "callout":
       return (
         <Callout key={`${type}-${index}-${childIndex ? childIndex : null}`}>
           {children}
         </Callout>
       );
-    case "stepped-guide":
+    case "full-width-block":
       return (
-        <SteppedGuide
+        <FullWidthBlock
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
-          children={children}
-          callToAction={callToAction}
+        >
+          {children}
+        </FullWidthBlock>
+      );
+    case "navigation":
+      return (
+        <Navigation
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          sections={children}
         />
       );
     case "on-this-page":
@@ -201,6 +218,14 @@ function buildHtmlElement(
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
           title={title}
+        />
+      );
+    case "stepped-guide":
+      return (
+        <SteppedGuide
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          children={children}
+          callToAction={callToAction}
         />
       );
     case "wizard":
