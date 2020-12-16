@@ -129,6 +129,43 @@ function App() {
       <PrivateRoute
         exact
         path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/how-to-apply"
+        }
+        title={"Apply for a Recuiter’s License"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            label: "Hiring Employees",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
+            label: "Hiring Temporary Foreign Workers",
+          },
+        ]}
+        content={<ApplyForRecruitersLicense />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers"
+        }
+        parentTitle={"Hiring Temporary Foreign Workers"}
+      />
+      <PrivateRoute
+        exact
+        path={
           "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers"
         }
         title={"Hiring Temporary Foreign Workers"}

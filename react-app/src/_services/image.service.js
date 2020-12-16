@@ -22,7 +22,10 @@ import { ReactComponent as infoCircleSolid } from "../components/assets/info-cir
 import { ReactComponent as ionicIosInfoCircle } from "../components/assets/ionic-ios-information-circle.svg";
 import { ReactComponent as ionicMdClose } from "../components/assets/ionic-md-close.svg";
 import { ReactComponent as ionicMdPerson } from "../components/assets/ionic-md-person.svg";
-import { ReactComponent as iosArrowDown } from "../components/assets/ios-arrow-down.svg";
+import { ReactComponent as ionicIosArrowBack } from "../components/assets/ionic-ios-arrow-back.svg";
+import { ReactComponent as ionicIosArrowDown } from "../components/assets/ionic-ios-arrow-down.svg";
+import { ReactComponent as ionicIosArrowForward } from "../components/assets/ionic-ios-arrow-forward.svg";
+import { ReactComponent as ionicIosArrowUp } from "../components/assets/ionic-ios-arrow-up.svg";
 import { ReactComponent as iosFootball } from "../components/assets/ios-football.svg";
 import { ReactComponent as languageSolid } from "../components/assets/language-solid.svg";
 import { ReactComponent as leafSolid } from "../components/assets/leaf-solid.svg";
@@ -64,7 +67,10 @@ const svgIcons = {
   "ionic-ios-information-circle.svg": ionicIosInfoCircle,
   "ionic-md-close.svg": ionicMdClose,
   "ionic-md-person.svg": ionicMdPerson,
-  "ios-arrow-down.svg": iosArrowDown,
+  "ionic-ios-arrow-back.svg": ionicIosArrowBack,
+  "ionic-ios-arrow-down.svg": ionicIosArrowDown,
+  "ionic-ios-arrow-forward.svg": ionicIosArrowForward,
+  "ionic-ios-arrow-up.svg": ionicIosArrowUp,
   "ios-football.svg": iosFootball,
   "language-solid.svg": languageSolid,
   "leaf-solid.svg": leafSolid,

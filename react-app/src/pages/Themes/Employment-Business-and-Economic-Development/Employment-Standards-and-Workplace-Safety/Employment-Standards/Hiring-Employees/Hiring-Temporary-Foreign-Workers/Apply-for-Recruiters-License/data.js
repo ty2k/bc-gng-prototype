@@ -11,51 +11,43 @@ const content = [
     ],
   },
   {
-    type: "numbered-page-nav",
+    type: "stepped-guide",
+    callToAction: {
+      label: "Apply Online",
+      href: "",
+    },
     children: [
       {
         label: "Overview",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
       },
       {
         label: "How to Apply",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-temporary-foreign-worker-recruiters-license",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/how-to-apply",
       },
       {
         label: "Pay the Security Bond",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/search-for-registered-employer-or-licensed-recruiter",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/pay-the-security-bond",
       },
       {
         label: "Register to Hire Foreign Workers",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/register-to-hire-foreign-workers",
       },
       {
         label: "Once You Get Your License",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/once-you-get-your-license",
       },
       {
         label: "Renewing Your License",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/once-you-get-your-license/renewing-your-license",
       },
     ],
-  },
-  {
-    type: "button",
-    children: "Apply Online",
-    onClick: null,
-    primary: true,
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "hr",
   },
   {
     type: "p",
@@ -84,41 +76,7 @@ const content = [
     ],
   },
   {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "The ",
-      },
-      {
-        type: "a-internal",
-        href: "",
-        children: "federal Temporary Foreign Worker (TFW)",
-      },
-      {
-        type: "text",
-        children:
-          " Program allows people from other countries to be hired for positions when there are no Canadian workers available.",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "In B.C., recruiters and employers are regulated under the ",
-      },
-      {
-        type: "a-internal",
-        href: "",
-        children: "Temporary Foreign Worker Protection Act",
-      },
-      {
-        type: "text",
-        children: " to protect against unfair practices.",
-      },
-    ],
+    type: "br",
   },
   {
     type: "wizard",
@@ -137,6 +95,22 @@ const content = [
         },
       },
     },
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "back-forward-button-pair",
+    args: {
+      backHref: "",
+      backLabel: "",
+      forwardHref:
+        "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/how-to-apply",
+      forwardLabel: "How to Apply",
+    },
+  },
+  {
+    type: "br",
   },
 ];
 

@@ -1,15 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
+  content: ${(props) => `${props.primary}`};
+  background-color: ${(props) => (props.primary ? "#003366" : "white")};
   border-radius: 4px;
+  border: 2px solid;
+  border-color: #003366;
+  color: ${(props) => (props.primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  /* letter-spacing: 1px; */
+  min-height: 44px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
 
@@ -20,6 +27,7 @@ const StyledButton = styled.button`
   &:disabled,
   &[disabled] {
     cursor: not-allowed;
+    opacity: 0.3;
   }
 
   &:focus {
@@ -27,53 +35,18 @@ const StyledButton = styled.button`
     outline-offset: 1px;
   }
 
-  &.button--primary {
+  &:hover {
     background-color: #003366;
-    border: none;
     color: white;
-    padding: 12px 32px;
+    opacity: 0.8;
+    text-decoration: underline;
 
     &:disabled,
     &[disabled] {
+      background-color: ${(props) => (props.primary ? "#003366" : "white")};
+      color: ${(props) => (props.primary ? "white" : "#003366")};
       opacity: 0.3;
-    }
-
-    &:hover {
-      opacity: 0.8;
-      text-decoration: underline;
-
-      &:disabled,
-      &[disabled] {
-        opacity: 0.3;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &.button--secondary {
-    background-color: white;
-    border: 2px solid #003366;
-    color: #003366;
-    padding: 10px 30px;
-
-    &:disabled,
-    &[disabled] {
-      opacity: 0.3;
-    }
-
-    &:hover {
-      background-color: #003366;
-      color: #ffffff;
-      opacity: 0.8;
-      text-decoration: underline;
-
-      &:disabled,
-      &[disabled] {
-        background-color: white;
-        color: #003366;
-        opacity: 0.3;
-        text-decoration: none;
-      }
+      text-decoration: none;
     }
   }
 `;
@@ -81,20 +54,30 @@ const StyledButton = styled.button`
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, disabled, children, ...props }) => {
+function Button({ children, className, disabled, ...props }) {
   return (
     <StyledButton
       type="button"
-      className={primary ? "button--primary" : "button--secondary"}
+      className={className}
       disabled={disabled}
       {...props}
+      // Don't explicitly list `primary` prop here, as styled-components will
+      // only read it off of the `props` object.
     >
       {children}
     </StyledButton>
   );
-};
+}
 
 Button.propTypes = {
+  /**
+   * The children of the button element
+   */
+  children: PropTypes.any,
+  /**
+   * className must be passed explicitly to be able to extend styles.
+   */
+  className: PropTypes.string,
   /**
    * Is the button disabled?
    */
@@ -103,10 +86,6 @@ Button.propTypes = {
    * Is this the principal call to action on the page?
    */
   primary: PropTypes.bool,
-  /**
-   * Button contents
-   */
-  label: PropTypes.string,
   /**
    * Optional click handler
    */
@@ -118,3 +97,71 @@ Button.defaultProps = {
   primary: false,
   onClick: undefined,
 };
+
+const StyledLink = styled.a`
+  content: ${(props) => `${props.primary}`};
+  background-color: ${(props) => (props.primary ? "#003366" : "white")};
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: #003366;
+  color: ${(props) => (props.primary ? "white" : "#003366")};
+  cursor: pointer;
+  display: inline-block;
+  font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 44px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #003366;
+    color: white;
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+`;
+
+const StyledRouterLink = styled(Link)`
+  content: ${(props) => `${props.primary}`};
+  background-color: ${(props) => (props.primary ? "#003366" : "white")};
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: #003366;
+  color: ${(props) => (props.primary ? "white" : "#003366")};
+  cursor: pointer;
+  display: inline-block;
+  font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 44px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #003366;
+    color: white;
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+`;
+
+function ButtonLink({ children, className, external, href, ...props }) {
+  return (
+    <>
+      {external ? (
+        <StyledLink href={href} {...props}>
+          {children}
+        </StyledLink>
+      ) : (
+        <StyledRouterLink to={href} {...props}>
+          {children}
+        </StyledRouterLink>
+      )}
+    </>
+  );
+}
+
+export { Button, ButtonLink };
