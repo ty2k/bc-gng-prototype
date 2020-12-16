@@ -112,6 +112,78 @@ const content = [
   {
     type: "br",
   },
+  {
+    type: "h2",
+    children: "Related Links",
+  },
+  {
+    type: "navigation",
+    children: [
+      {
+        cards: [
+          {
+            title: "Complete a Paper Application",
+            description: "Learn how to complete a paper application",
+          },
+          {
+            title: "Service BC",
+            description: [
+              {
+                type: "p",
+                children: [
+                  {
+                    type: "text",
+                    children: "Want an in-person experience?",
+                  },
+                ],
+              },
+              {
+                type: "p",
+                children: [
+                  {
+                    type: "text",
+                    children: "Find your nearest Service BC location",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            title: "Forms",
+            description: "Find all tenancy forms",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "full-width-block",
+    children: [
+      {
+        type: "h2",
+        children: "Contact the Residential Tenancy Branch",
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "Contact us via phone, email, or in person",
+          },
+        ],
+      },
+      {
+        type: "button-link",
+        children: "Contact the Branch",
+        external: "false",
+        href: "",
+        primary: true,
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
 ];
 
 export { content };
