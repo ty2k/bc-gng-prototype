@@ -32,6 +32,7 @@ import { ReactComponent as languageSolid } from "../components/assets/language-s
 import { ReactComponent as leafSolid } from "../components/assets/leaf-solid.svg";
 import { ReactComponent as localGovernment } from "../components/assets/local-government.svg";
 import { ReactComponent as mapIconsLawyer } from "../components/assets/map-icons-lawyer.svg";
+import { ReactComponent as materialAccessTime } from "../components/assets/material-access-time.svg";
 import { ReactComponent as materialWork } from "../components/assets/material-work.svg";
 import { ReactComponent as nounAntlers } from "../components/assets/noun-project-antlers.svg";
 import { ReactComponent as nounApartment } from "../components/assets/noun-project-apartment.svg";
@@ -78,6 +79,7 @@ const svgIcons = {
   "leaf-solid.svg": leafSolid,
   "local-government.svg": localGovernment,
   "map-icons-lawyer.svg": mapIconsLawyer,
+  "material-access-time.svg": materialAccessTime,
   "material-work.svg": materialWork,
   "noun-project-antlers.svg": nounAntlers,
   "noun-project-apartment.svg": nounApartment,
