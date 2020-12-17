@@ -23,6 +23,7 @@ import HiringDomesticWorkers from "./pages/Themes/Employment-Business-and-Econom
 import HiringTemporaryForeignWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers";
 import ApplyForRecruitersLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License";
 import HowToApply from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/How-to-Apply";
+import OnceYouGetYourLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/Once-You-Get-Your-License";
 
 function App() {
   return (
@@ -159,6 +160,43 @@ function App() {
           },
         ]}
         content={<HowToApply />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers"
+        }
+        parentTitle={"Hiring Temporary Foreign Workers"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/once-you-get-your-license"
+        }
+        title={"Apply for a Recuiter’s License"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            label: "Hiring Employees",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
+            label: "Hiring Temporary Foreign Workers",
+          },
+        ]}
+        content={<OnceYouGetYourLicense />}
         parentHref={
           "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers"
         }
