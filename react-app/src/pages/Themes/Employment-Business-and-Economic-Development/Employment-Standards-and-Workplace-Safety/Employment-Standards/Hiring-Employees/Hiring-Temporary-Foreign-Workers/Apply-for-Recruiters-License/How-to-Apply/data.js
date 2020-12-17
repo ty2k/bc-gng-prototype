@@ -50,63 +50,127 @@ const content = [
     ],
   },
   {
+    type: "h2",
+    id: "how-to-apply",
+    children: "How to Apply",
+  },
+  {
     type: "p",
     children: [
       {
+        type: "svg",
+        id: "material-access-time.svg",
+        args: {
+          display: "inline-block",
+          height: "30px",
+          margin: "0 14px 0 0",
+          width: "30px",
+          "vertical-align": "text-bottom",
+        },
+      },
+      {
         type: "text",
-        children:
-          "Recruiters help employers in B.C. find foreign workers. Individual recruiters must be licensed in B.C., even if their business or main operations are located outside of the province. Businesses or organizations that offer recruitment services do not get licensed – only individuals are licensed.",
+        style: "strong",
+        children: "The online application takes about 15 minutes",
       },
     ],
   },
   {
-    type: "callout",
+    type: "br",
+  },
+  {
+    type: "p",
     children: [
       {
-        type: "p",
+        type: "text",
+        style: "strong",
+        children:
+          "Recruiters need to complete an online application form using the following information:",
+      },
+    ],
+  },
+  {
+    type: "ul",
+    children: [
+      {
+        type: "li",
         children: [
           {
             type: "text",
-            style: "strong",
+            children: "An email address",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
+            children: "Your name and contact information",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
             children:
-              "Recruiters who operate without a licence could be fined up to $10,000.",
+              "Information about the business that you operate under, including address and contact information",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
+            children:
+              "A list of partners, agents or affiliates that you work with, including any outside of B.C. or Canada",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
+            children:
+              "Information about your membership with a law society or the Immigration Consultants of Canada Regulatory Council (ICCRC) (if applicable)",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
+            children:
+              "Information about your recruiter licences in other provinces (if any)",
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "text",
+            children:
+              "Information about whether you, or the business you’re operating under, has been licensed as an employment agency in B.C.",
           },
         ],
       },
     ],
   },
   {
-    type: "br",
-  },
-  {
-    type: "wizard",
-    title: "Is a Recruiter's License for you?",
-    first: "intro",
-    steps: {
-      intro: {
-        text:
-          "In some cases, a recruiter’s license is not necessary for you. Go through this simple questionnaire to see whether or not a recruiter’s license is for you.",
-        controls: {
-          forward: {
-            label: "Start the questionnaire",
-            step: "",
-            primary: true,
-          },
-        },
-      },
-    },
-  },
-  {
-    type: "br",
-  },
-  {
     type: "back-forward-button-pair",
     args: {
-      backHref: "",
-      backLabel: "",
+      backHref:
+        "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/",
+      backLabel: "Overview",
       forwardHref:
-        "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/how-to-apply",
-      forwardLabel: "How to Apply",
+        "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/pay-the-security-bond",
+      forwardLabel: "Pay the Security Bond",
     },
   },
   {
