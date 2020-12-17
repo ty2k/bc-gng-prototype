@@ -122,7 +122,6 @@ const StyledLinkButtonPair = styled.div`
     span + svg {
       margin-left: 5px;
     }
-    }
   }
 `;
 

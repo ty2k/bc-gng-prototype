@@ -1,6 +1,8 @@
 import DOMPurify from "dompurify";
 import { Link } from "react-router-dom";
 
+import { imageService } from "./image.service";
+
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
 import FullWidthBlock from "../components/FullWidthBlock";
@@ -140,6 +142,14 @@ function buildHtmlElement(
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
       );
+    case "li":
+      return (
+        <li key={`${type}-${index}`} className={className}>
+          {children.map((child, childIndex) => {
+            return buildHtmlElement(child, index, childIndex);
+          })}
+        </li>
+      );
     case "h6":
       return (
         <h6
@@ -148,6 +158,14 @@ function buildHtmlElement(
           className={className}
           dangerouslySetInnerHTML={{ __html: sanitize(children) }}
         />
+      );
+    case "ol":
+      return (
+        <ol key={`${type}-${index}`} className={className}>
+          {children.map((child, childIndex) => {
+            return buildHtmlElement(child, index, childIndex);
+          })}
+        </ol>
       );
     case "p":
       return (
@@ -164,6 +182,14 @@ function buildHtmlElement(
             return buildHtmlElement(child, index, childIndex);
           })}
         </span>
+      );
+    case "ul":
+      return (
+        <ul key={`${type}-${index}`} className={className}>
+          {children.map((child, childIndex) => {
+            return buildHtmlElement(child, index, childIndex);
+          })}
+        </ul>
       );
     case "back-forward-button-pair":
       return (
@@ -228,6 +254,12 @@ function buildHtmlElement(
           callToAction={callToAction}
         />
       );
+    case "svg":
+      const Icon = imageService.getSvg(id);
+      if (Icon) {
+        return <Icon style={{ ...args }} />;
+      }
+      return null;
     case "wizard":
       return (
         <Wizard
