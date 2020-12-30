@@ -8,7 +8,7 @@ const sections = [
           {
             href:
               "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
-            label: "Domesic workers",
+            label: "Domestic workers",
           },
           {
             href:
@@ -133,15 +133,18 @@ const sections = [
         title: "Forms & Resources",
         links: [
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Guide to the Employment Standards Act and Regulation",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Education Seminars",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Due diligence searches",
           },
         ],
@@ -189,6 +192,11 @@ const sections = [
       {
         title: "Apply for a temporary foreign worker recruiter’s license",
         description: "Follow the steps to apply for a recruiter’s license",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
+          external: false,
+        },
       },
     ],
   },

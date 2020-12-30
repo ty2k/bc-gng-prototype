@@ -5,32 +5,22 @@ const content = [
       {
         label: "Overview",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
-      },
-      {
-        label: "Hiring Domestic Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-domestic-workers",
-      },
-      {
-        label: "Hiring Farm Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-farm-workers",
-      },
-      {
-        label: "Hiring Silviculture Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-silviculture-workers",
-      },
-      {
-        label: "Requirements to Hiring Temporary Foreign Workers",
-        href:
           "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
       },
       {
-        label: "Hiring Young People",
+        label: "Apply for a temporary foreign worker recruiter’s license",
         href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-young-people",
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
+      },
+      {
+        label: "Search for a registered employer or a licensed recruiter",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/search-for-registered-employer-or-licensed-recruiter",
+      },
+      {
+        label: "Register to Hire Foreign Workers",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
       },
     ],
   },
@@ -102,27 +92,4 @@ const content = [
   },
 ];
 
-const navigation = [
-  {
-    label: "Overview",
-    href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
-  },
-  {
-    label: "Apply for a temporary foreign worker recruiter’s license",
-    href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
-  },
-  {
-    label: "Search for a registered employer or a licensed recruiter",
-    href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/search-for-registered-employer-or-licensed-recruiter",
-  },
-  {
-    label: "Register to Hire Foreign Workers",
-    href:
-      "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
-  },
-];
-
-export { content, navigation };
+export { content };

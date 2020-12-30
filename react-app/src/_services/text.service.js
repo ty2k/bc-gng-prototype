@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
 
+import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
 import FullWidthBlock from "../components/FullWidthBlock";
@@ -12,6 +13,7 @@ import {
 } from "../components/SteppedGuide";
 import Navigation from "../components/Navigation";
 import OnThisPage from "../components/OnThisPage";
+import SearchBar from "../components/SearchBar";
 import TabbedContent from "../components/TabbedContent";
 import TabbedPageNav from "../components/TabbedPageNav";
 import Wizard from "../components/Wizard";
@@ -35,6 +37,7 @@ function sanitize(input) {
  *   - @param {string} first - ID of the first step in stepped component
  *   - @param {object} steps - JSON representation of steps in stepped component
  *   - @param {object} callToAction - primary action in a stepper component
+ *   - @param {string} placeHolder - placeHolder text for text inputs
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
  * @param {number} index - array index for React keys if applicable
@@ -52,6 +55,7 @@ function buildHtmlElement(
     first,
     steps,
     callToAction,
+    placeHolder,
     href,
     primary,
   },
@@ -203,6 +207,12 @@ function buildHtmlElement(
           forwardLabel={args.forwardLabel}
         />
       );
+    case "back-to-top":
+      return (
+        <BackToTopButton
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+        />
+      );
     case "button":
       return (
         <div key={`${type}-${index}-${childIndex ? childIndex : null}`}>
@@ -246,6 +256,13 @@ function buildHtmlElement(
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
           title={title}
+        />
+      );
+    case "search-bar":
+      return (
+        <SearchBar
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          placeHolder={placeHolder || ""}
         />
       );
     case "stepped-guide":
