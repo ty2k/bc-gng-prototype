@@ -1,5 +1,40 @@
 const content = [
   {
+    type: "tabbed-page-nav",
+    children: [
+      {
+        label: "Overview",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+      },
+      {
+        label: "Hiring Domestic Workers",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-domestic-workers",
+      },
+      {
+        label: "Hiring Farm Workers",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-farm-workers",
+      },
+      {
+        label: "Hiring Silviculture Workers",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-silviculture-workers",
+      },
+      {
+        label: "Requirements to Hiring Temporary Foreign Workers",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
+      },
+      {
+        label: "Hiring Young People",
+        href:
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-young-people",
+      },
+    ],
+  },
+  {
     type: "br",
   },
   {

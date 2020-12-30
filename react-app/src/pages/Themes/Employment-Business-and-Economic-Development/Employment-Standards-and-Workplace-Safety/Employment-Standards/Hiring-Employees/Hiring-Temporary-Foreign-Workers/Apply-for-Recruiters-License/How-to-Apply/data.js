@@ -96,8 +96,13 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children: "An email address",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "An email address",
+              },
+            ],
           },
         ],
       },
@@ -105,8 +110,13 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children: "Your name and contact information",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Your name and contact information",
+              },
+            ],
           },
         ],
       },
@@ -114,9 +124,14 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "Information about the business that you operate under, including address and contact information",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Information about the business that you operate under, including address and contact information",
+              },
+            ],
           },
         ],
       },
@@ -124,9 +139,14 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "A list of partners, agents or affiliates that you work with, including any outside of B.C. or Canada",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "A list of partners, agents or affiliates that you work with, including any outside of B.C. or Canada",
+              },
+            ],
           },
         ],
       },
@@ -134,9 +154,14 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "Information about your membership with a law society or the Immigration Consultants of Canada Regulatory Council (ICCRC) (if applicable)",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Information about your membership with a law society or the Immigration Consultants of Canada Regulatory Council (ICCRC) (if applicable)",
+              },
+            ],
           },
         ],
       },
@@ -144,9 +169,14 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "Information about your recruiter licences in other provinces (if any)",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Information about your recruiter licences in other provinces (if any)",
+              },
+            ],
           },
         ],
       },
@@ -154,9 +184,14 @@ const content = [
         type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "Information about whether you, or the business you’re operating under, has been licensed as an employment agency in B.C.",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Information about whether you, or the business you’re operating under, has been licensed as an employment agency in B.C.",
+              },
+            ],
           },
         ],
       },
