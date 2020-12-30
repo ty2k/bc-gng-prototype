@@ -353,6 +353,9 @@ const content = [
     type: "br",
   },
   {
+    type: "br",
+  },
+  {
     type: "back-forward-button-pair",
     args: {
       backHref: "/",
