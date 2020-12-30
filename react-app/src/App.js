@@ -18,6 +18,9 @@ import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
 import EmploymentStandardsAndWorkplaceSafety from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety";
 import EmploymentStandards from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards";
+import FormsAndResources from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Forms-and-Resources";
+import GuideToTheEmploymentStandardsAct from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Forms-and-Resources/Guide-to-the-Employment-Standards-Act";
+import EmploymentStandardsAppendices from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Forms-and-Resources/Guide-to-the-Employment-Standards-Act/Appendices";
 import HiringEmployees from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees";
 import HiringDomesticWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Domestic-Workers";
 import HiringTemporaryForeignWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers";
@@ -323,6 +326,100 @@ function App() {
           },
         ]}
         content={<HiringEmployees />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
+        }
+        parentTitle={"Employment Standards"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources/guide-to-the-employment-standards-act/appendices"
+        }
+        title={"Guide to the Employment Standards Act and Regulations"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+            label: "Forms and Resources",
+          },
+        ]}
+        content={<EmploymentStandardsAppendices />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources"
+        }
+        parentTitle={"Forms and Resources"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources/guide-to-the-employment-standards-act"
+        }
+        title={"Guide to the Employment Standards Act and Regulations"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+            label: "Forms and Resources",
+          },
+        ]}
+        content={<GuideToTheEmploymentStandardsAct />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources"
+        }
+        parentTitle={"Forms and Resources"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources"
+        }
+        title={"Forms and Resources"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+        ]}
+        content={<FormsAndResources />}
         parentHref={
           "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
         }

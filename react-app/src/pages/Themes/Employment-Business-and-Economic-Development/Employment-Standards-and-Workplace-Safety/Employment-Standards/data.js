@@ -133,15 +133,18 @@ const sections = [
         title: "Forms & Resources",
         links: [
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Guide to the Employment Standards Act and Regulation",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Education Seminars",
           },
           {
-            href: "/",
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
             label: "Due diligence searches",
           },
         ],
