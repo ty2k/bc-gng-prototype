@@ -13,6 +13,7 @@ import {
 import Navigation from "../components/Navigation";
 import OnThisPage from "../components/OnThisPage";
 import TabbedContent from "../components/TabbedContent";
+import TabbedPageNav from "../components/TabbedPageNav";
 import Wizard from "../components/Wizard";
 
 function sanitize(input) {
@@ -264,6 +265,13 @@ function buildHtmlElement(
     case "tabbed-content":
       return (
         <TabbedContent
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          children={children}
+        />
+      );
+    case "tabbed-page-nav":
+      return (
+        <TabbedPageNav
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
         />

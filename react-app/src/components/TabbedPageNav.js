@@ -72,10 +72,10 @@ function NavTab({ label, href }) {
   );
 }
 
-function TabbedPageNav({ navArray }) {
+function TabbedPageNav({ children }) {
   return (
     <StyledGrid>
-      {navArray.map(({ label, href }, index) => {
+      {children.map(({ label, href }, index) => {
         return (
           <NavTab key={`tabbed-page-nav-${index}`} label={label} href={href} />
         );
