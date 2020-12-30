@@ -32,17 +32,18 @@ const StyledBreadcrumb = styled.li`
   display: flex;
   float: left;
   height: 48px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   max-width: 317px;
   overflow: hidden;
 
   svg.svg--breadcrumb-divider {
     overflow: visible;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   span.span--breadcrumb-body {
     min-width: 220px;
+    padding: 0 10px;
     width: min-content;
   }
 
