@@ -21,6 +21,7 @@ import EmploymentStandards from "./pages/Themes/Employment-Business-and-Economic
 import HiringEmployees from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees";
 import HiringDomesticWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Domestic-Workers";
 import HiringTemporaryForeignWorkers from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers";
+import HiringYoungPeople from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Young-People";
 import ApplyForRecruitersLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License";
 import HowToApply from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/How-to-Apply";
 import OnceYouGetYourLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/Once-You-Get-Your-License";
@@ -87,9 +88,41 @@ function App() {
         ]}
         content={<HiringDomesticWorkers />}
         parentHref={
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards"
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/"
         }
         parentTitle={"Employment Standards"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-young-people"
+        }
+        title={"Hiring Young People"}
+        breadcrumbs={[
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment, Business & Economic Development",
+          },
+          {
+            href: "/themes/employment-business-and-economic-development",
+            label: "Employment Standards & Workplace Safety",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards",
+            label: "Employment Standards",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            label: "Hiring Employees",
+          },
+        ]}
+        content={<HiringYoungPeople />}
+        parentHref={
+          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees"
+        }
+        parentTitle={"Hiring Employees"}
       />
       <PrivateRoute
         exact

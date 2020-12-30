@@ -104,12 +104,12 @@ function Page({
   return (
     <>
       <SkipToMainContentLink />
+      <span id="main-content-anchor"></span>
       <Header title={title} />
       {breadcrumbs && breadcrumbs.length > 0 && (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
       )}
       <main>
-        <a id="main-content-anchor"></a>
         <PageTitle
           title={title}
           parentHref={parentHref}

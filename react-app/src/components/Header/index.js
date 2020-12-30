@@ -144,8 +144,11 @@ const HeaderStyled = styled.header`
     padding: 7px;
   }
 
-  a#a--back-to-top {
+  button#button--back-to-top {
+    background: none;
+    border: none;
     height: 44px;
+    padding: 0;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -311,15 +314,15 @@ function Header({ alertMessages, navLinks, satellite, title }) {
       )}
       {backToTopShown && slideOutMenuHidden && (
         <MediaQuery maxWidth={1271}>
-          <a
-            id="a--back-to-top"
+          <button
+            id="button--back-to-top"
             aria-label="Back to top"
             onClick={() => {
               window.scrollTo(0, 0);
             }}
           >
             <BackToTopIcon />
-          </a>
+          </button>
         </MediaQuery>
       )}
     </HeaderStyled>

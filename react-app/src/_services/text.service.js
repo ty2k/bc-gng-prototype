@@ -12,6 +12,7 @@ import {
 } from "../components/SteppedGuide";
 import Navigation from "../components/Navigation";
 import OnThisPage from "../components/OnThisPage";
+import TabbedContent from "../components/TabbedContent";
 import Wizard from "../components/Wizard";
 
 function sanitize(input) {
@@ -94,9 +95,9 @@ function buildHtmlElement(
         </Link>
       );
     case "br":
-      return <br key={`${type}-${index}`} />;
+      return <br key={`${type}-${index}-${childIndex ? childIndex : null}`} />;
     case "hr":
-      return <hr />;
+      return <hr key={`${type}-${index}-${childIndex ? childIndex : null}`} />;
     case "h1":
       return (
         <h1
@@ -260,6 +261,13 @@ function buildHtmlElement(
         return <Icon style={{ ...args }} />;
       }
       return null;
+    case "tabbed-content":
+      return (
+        <TabbedContent
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          children={children}
+        />
+      );
     case "wizard":
       return (
         <Wizard
