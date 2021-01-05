@@ -12,6 +12,17 @@ const TabGroup = styled.div`
     display: inline-block;
     flex-grow: 1;
   }
+
+  @media (max-width: 575px) {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    border-top: 1px solid #707070;
+    display: block;
+
+    span.span--fill-space {
+      display: none;
+    }
+  }
 `;
 
 const Tab = styled.div`
@@ -32,6 +43,28 @@ const Tab = styled.div`
     font-size: 18px;
     font-weight: 700;
     padding: 10px 20px;
+  }
+
+  @media (max-width: 575px) {
+    display: block;
+    border-left: none;
+
+    &:nth-last-child(2) {
+      border-right: none;
+    }
+
+    &.div--tab-active {
+      border-top: none;
+
+      button {
+        color: #1a5a96;
+        text-decoration: underline;
+      }
+    }
+
+    button {
+      width: 100%;
+    }
   }
 `;
 
