@@ -283,6 +283,9 @@ const content = [
     ],
   },
   {
+    type: "back-to-top",
+  },
+  {
     type: "br",
   },
 ];
