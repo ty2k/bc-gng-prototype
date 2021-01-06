@@ -1,6 +1,8 @@
 const sections = [
   {
+    id: "themes",
     title: "",
+    seeMoreLabel: "See More Themes",
     cards: [
       {
         title: "Health",
