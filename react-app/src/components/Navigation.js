@@ -3,6 +3,7 @@ import propTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Highlighter from "react-highlight-words";
 
 import { imageService } from "../_services/image.service";
 import { textService } from "../_services/text.service";
@@ -74,6 +75,10 @@ const StyledCard = styled.div`
     height: 1em;
     padding-left: 5px;
   }
+
+  .text--highlighted {
+    background-color: #fcba19;
+  }
 `;
 
 const StyledCardAnchorLink = styled.a`
@@ -126,7 +131,15 @@ function CardAnchorLink({ href, children }) {
 function CardRouterLink({ href, children }) {
   return <StyledCardRouterLink to={href}>{children}</StyledCardRouterLink>;
 }
-function Card({ icon, title, description, links, cardLink, hidden }) {
+function Card({
+  icon,
+  title,
+  description,
+  links,
+  cardLink,
+  hidden,
+  highlightText,
+}) {
   // TODO: Standardize data so only arrays are used
   function getDescMarkup(description) {
     switch (typeof description) {
@@ -151,7 +164,16 @@ function Card({ icon, title, description, links, cardLink, hidden }) {
         <StyledCard className={hidden && "card--hidden"}>
           <div className="card--icon-title">
             {icon && <Icon id={icon} />}
-            {title && <h3>{title}</h3>}
+            {title && (
+              <h3>
+                <Highlighter
+                  highlightClassName="text--highlighted"
+                  searchWords={[highlightText]}
+                  autoEscape={true}
+                  textToHighlight={title}
+                />
+              </h3>
+            )}
             <Icon id="external-link-alt-solid.svg" />
           </div>
           {description && getDescMarkup(description)}
@@ -164,7 +186,16 @@ function Card({ icon, title, description, links, cardLink, hidden }) {
         <StyledCard className={hidden && "card--hidden"}>
           <div className="card--icon-title">
             {icon && <Icon id={icon} />}
-            {title && <h3>{title}</h3>}
+            {title && (
+              <h3>
+                <Highlighter
+                  highlightClassName="text--highlighted"
+                  searchWords={[highlightText]}
+                  autoEscape={true}
+                  textToHighlight={title}
+                />
+              </h3>
+            )}
           </div>
           {description && getDescMarkup(description)}
         </StyledCard>
@@ -175,7 +206,16 @@ function Card({ icon, title, description, links, cardLink, hidden }) {
       <StyledCard className={hidden && "card--hidden"}>
         <div className="card--icon-title">
           {icon && <Icon id={icon} />}
-          {title && <h3>{title}</h3>}
+          {title && (
+            <h3>
+              <Highlighter
+                highlightClassName="text--highlighted"
+                searchWords={[highlightText]}
+                autoEscape={true}
+                textToHighlight={title}
+              />
+            </h3>
+          )}
         </div>
         {description && getDescMarkup(description)}
         {links && links.length > 0 && (
@@ -212,6 +252,7 @@ function SeeMoreButton({ children, onClick }) {
 
 function Navigation({ search, sections }) {
   const [mobileAllShown, setMobileAllShown] = useState({});
+  const [filterValue, setFilterValue] = useState("");
 
   function handleSeeMore(sectionId) {
     setMobileAllShown((mobileAllShown) => ({
@@ -220,9 +261,18 @@ function Navigation({ search, sections }) {
     }));
   }
 
+  function handleSearchInput(input) {
+    setFilterValue(input);
+  }
+
   return (
     <>
-      {search && <SearchBar placeHolder={search.label || "Search"} />}
+      {search && (
+        <SearchBar
+          parentCallback={handleSearchInput}
+          placeHolder={search.label || "Search"}
+        />
+      )}
       {sections &&
         sections.length > 0 &&
         sections.map((section, index) => {
@@ -236,14 +286,21 @@ function Navigation({ search, sections }) {
               <MediaQuery minWidth={576}>
                 <Section key={`section-div-${index}`}>
                   {section?.cards?.length > 0 &&
-                    section.cards.map((card, cardIndex) => {
-                      return (
-                        <Card
-                          key={`section-${index}-card-${cardIndex}`}
-                          {...card}
-                        />
-                      );
-                    })}
+                    section.cards
+                      .filter((card) =>
+                        card.title
+                          ?.toLowerCase()
+                          .includes(filterValue.toLowerCase())
+                      )
+                      .map((card, cardIndex) => {
+                        return (
+                          <Card
+                            key={`section-${index}-card-${cardIndex}`}
+                            highlightText={filterValue.toLowerCase()}
+                            {...card}
+                          />
+                        );
+                      })}
                 </Section>
               </MediaQuery>
 
@@ -256,6 +313,7 @@ function Navigation({ search, sections }) {
                         <Card
                           key={`section-${index}-card-${cardIndex}`}
                           hidden={!mobileAllShown[section.id] && cardIndex >= 3}
+                          highlightText={filterValue.toLowerCase()}
                           {...card}
                         />
                       );

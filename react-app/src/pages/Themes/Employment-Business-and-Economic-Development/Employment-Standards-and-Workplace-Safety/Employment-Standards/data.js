@@ -1,3 +1,5 @@
+const search = { label: "Search Employment Standards" };
+
 const sections = [
   {
     id: "how-can-we-help-you",
@@ -315,4 +317,4 @@ const content = [
   },
 ];
 
-export { sections, content };
+export { search, sections, content };
