@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import propTypes from "prop-types";
+import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -33,6 +34,10 @@ const Section = styled.div`
 const StyledCard = styled.div`
   border: 1px solid #d1d1d1;
   padding: 16px;
+
+  &.card--hidden {
+    display: none;
+  }
 
   div.card--icon-title {
     align-items: center;
@@ -83,6 +88,27 @@ const StyledCardRouterLink = styled(Link)`
   text-decoration: inherit;
 `;
 
+const StyledSeeMoreButton = styled.button`
+  background: none;
+  border: 0;
+  display: block;
+  margin: 0;
+  min-height: 44px;
+  padding: 0;
+  width: 100%;
+
+  p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 18px 0 8px 0;
+  }
+
+  svg {
+    max-height: 20px;
+    max-width: 50px;
+  }
+`;
+
 function Icon({ id }) {
   const Icon = imageService.getSvg(id);
 
@@ -100,7 +126,7 @@ function CardAnchorLink({ href, children }) {
 function CardRouterLink({ href, children }) {
   return <StyledCardRouterLink to={href}>{children}</StyledCardRouterLink>;
 }
-function Card({ icon, title, description, links, cardLink }) {
+function Card({ icon, title, description, links, cardLink, hidden }) {
   // TODO: Standardize data so only arrays are used
   function getDescMarkup(description) {
     switch (typeof description) {
@@ -122,7 +148,7 @@ function Card({ icon, title, description, links, cardLink }) {
   if (cardLink && cardLink.external === true) {
     return (
       <CardAnchorLink href={cardLink.href}>
-        <StyledCard>
+        <StyledCard className={hidden && "card--hidden"}>
           <div className="card--icon-title">
             {icon && <Icon id={icon} />}
             {title && <h3>{title}</h3>}
@@ -135,7 +161,7 @@ function Card({ icon, title, description, links, cardLink }) {
   } else if (cardLink && cardLink.external === false) {
     return (
       <CardRouterLink href={cardLink.href}>
-        <StyledCard>
+        <StyledCard className={hidden && "card--hidden"}>
           <div className="card--icon-title">
             {icon && <Icon id={icon} />}
             {title && <h3>{title}</h3>}
@@ -146,7 +172,7 @@ function Card({ icon, title, description, links, cardLink }) {
     );
   } else {
     return (
-      <StyledCard>
+      <StyledCard className={hidden && "card--hidden"}>
         <div className="card--icon-title">
           {icon && <Icon id={icon} />}
           {title && <h3>{title}</h3>}
@@ -175,7 +201,25 @@ function Card({ icon, title, description, links, cardLink }) {
   }
 }
 
+function SeeMoreButton({ children, onClick }) {
+  return (
+    <StyledSeeMoreButton onClick={onClick} type="button">
+      <p>{children}</p>
+      <Icon id={"chevron-down-gold.svg"} />
+    </StyledSeeMoreButton>
+  );
+}
+
 function Navigation({ search, sections }) {
+  const [mobileAllShown, setMobileAllShown] = useState({});
+
+  function handleSeeMore(sectionId) {
+    setMobileAllShown((mobileAllShown) => ({
+      ...mobileAllShown,
+      [sectionId]: true,
+    }));
+  }
+
   return (
     <>
       {search && <SearchBar placeHolder={search.label || "Search"} />}
@@ -187,18 +231,46 @@ function Navigation({ search, sections }) {
               {section.title && (
                 <h2 key={`section-h1-${index}`}>{section.title}</h2>
               )}
-              <Section key={`section-div-${index}`}>
-                {section.cards &&
-                  section.cards.length > 0 &&
-                  section.cards.map((card, cardIndex) => {
-                    return (
-                      <Card
-                        key={`section-${index}-card-${cardIndex}`}
-                        {...card}
-                      />
-                    );
-                  })}
-              </Section>
+
+              {/* Non-mobile, show all cards */}
+              <MediaQuery minWidth={576}>
+                <Section key={`section-div-${index}`}>
+                  {section?.cards?.length > 0 &&
+                    section.cards.map((card, cardIndex) => {
+                      return (
+                        <Card
+                          key={`section-${index}-card-${cardIndex}`}
+                          {...card}
+                        />
+                      );
+                    })}
+                </Section>
+              </MediaQuery>
+
+              {/* Mobile, show max of three cards and a see more button initially */}
+              <MediaQuery maxWidth={575}>
+                <Section key={`section-div-${index}`}>
+                  {section?.cards?.length > 0 &&
+                    section.cards.map((card, cardIndex) => {
+                      return (
+                        <Card
+                          key={`section-${index}-card-${cardIndex}`}
+                          hidden={!mobileAllShown[section.id] && cardIndex >= 3}
+                          {...card}
+                        />
+                      );
+                    })}
+                  {!mobileAllShown[section.id] && section?.cards?.length > 3 && (
+                    <SeeMoreButton
+                      onClick={() => {
+                        handleSeeMore(section.id);
+                      }}
+                    >
+                      {section?.seeMoreLabel || "See More"}
+                    </SeeMoreButton>
+                  )}
+                </Section>
+              </MediaQuery>
             </div>
           );
         })}
@@ -222,9 +294,12 @@ Card.propTypes = {
     href: propTypes.string,
     external: propTypes.bool,
   }),
+  hidden: propTypes.bool,
 };
 
-Card.defaultProps = {};
+Card.defaultProps = {
+  hidden: false,
+};
 
 Navigation.propTypes = {
   search: propTypes.shape({
