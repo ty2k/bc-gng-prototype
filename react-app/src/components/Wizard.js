@@ -6,6 +6,7 @@ import { Button } from "./Button";
 
 const StyledWizard = styled.div`
   background-color: #f2f2f2;
+  margin-bottom: 20px;
   padding: 18px 26px;
 
   div.div--wizard-container {
