@@ -1,6 +1,8 @@
 const sections = [
   {
+    id: "how-can-we-help-you",
     title: "How can we help you?",
+    seeMoreLabel: "See More Topics",
     cards: [
       {
         title: "Hiring Employees",
@@ -174,7 +176,9 @@ const sections = [
     ],
   },
   {
+    id: "our-services",
     title: "Our Services",
+    seeMoreLabel: "See More Services",
     cards: [
       {
         title: "Make a Complaint",
