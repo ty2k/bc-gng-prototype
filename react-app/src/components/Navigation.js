@@ -212,6 +212,7 @@ function SeeMoreButton({ children, onClick }) {
 
 function Navigation({ search, sections }) {
   const [mobileAllShown, setMobileAllShown] = useState({});
+  const [filterValue, setFilterValue] = useState("");
 
   function handleSeeMore(sectionId) {
     setMobileAllShown((mobileAllShown) => ({
@@ -220,9 +221,18 @@ function Navigation({ search, sections }) {
     }));
   }
 
+  function handleSearchInput(input) {
+    setFilterValue(input);
+  }
+
   return (
     <>
-      {search && <SearchBar placeHolder={search.label || "Search"} />}
+      {search && (
+        <SearchBar
+          parentCallback={handleSearchInput}
+          placeHolder={search.label || "Search"}
+        />
+      )}
       {sections &&
         sections.length > 0 &&
         sections.map((section, index) => {
