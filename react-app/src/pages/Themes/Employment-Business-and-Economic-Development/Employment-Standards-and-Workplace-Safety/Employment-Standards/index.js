@@ -2,13 +2,13 @@ import React from "react";
 
 import Content from "../../../../../components/Content";
 import Navigation from "../../../../../components/Navigation";
-import { sections, content } from "./data";
+import { content, search, sections } from "./data";
 
 function EmploymentStandards() {
   return (
     <>
       <Content content={content} />
-      <Navigation sections={sections} />
+      <Navigation sections={sections} search={search} />
     </>
   );
 }
