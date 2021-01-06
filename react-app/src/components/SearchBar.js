@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
@@ -52,17 +52,23 @@ const SearchButton = styled.button`
   }
 `;
 
-function SearchBar({ placeHolder }) {
-  const searchInput = useRef(null);
+function SearchBar({ parentCallback, placeHolder }) {
+  const [inputValue, setInputValue] = useState("");
 
-  useEffect(() => {
-    searchInput.current.focus();
-  }, []);
+  function onChangeHandler(event) {
+    setInputValue(event.target.value);
+    parentCallback(event.target.value);
+  }
 
   return (
     <SearchForm>
       <form>
-        <input type="search" placeholder={placeHolder} ref={searchInput} />
+        <input
+          type="search"
+          onChange={onChangeHandler}
+          value={inputValue}
+          placeholder={placeHolder}
+        />
         <SearchButton>
           <SearchIcon />
         </SearchButton>
