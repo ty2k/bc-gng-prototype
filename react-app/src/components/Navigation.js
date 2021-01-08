@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Highlighter from "react-highlight-words";
 
-import { imageService } from "../_services/image.service";
 import { textService } from "../_services/text.service";
+import Icon from "./Icon";
 import SearchBar from "./SearchBar";
 
 const Section = styled.div`
@@ -113,16 +113,6 @@ const StyledSeeMoreButton = styled.button`
     max-width: 50px;
   }
 `;
-
-function Icon({ id }) {
-  const Icon = imageService.getSvg(id);
-
-  if (Icon) {
-    return <Icon />;
-  } else {
-    return null;
-  }
-}
 
 function CardAnchorLink({ href, children }) {
   return <StyledCardAnchorLink href={href}>{children}</StyledCardAnchorLink>;

@@ -2,7 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
-import { imageService } from "../_services/image.service";
+import Icon from "./Icon";
 
 const StyledAlertBanner = styled.div`
   align-items: flex-start;
@@ -32,16 +32,6 @@ const StyledAlertBanner = styled.div`
     width: 20px;
   }
 `;
-
-function Icon({ id }) {
-  const Icon = imageService.getSvg(id);
-
-  if (Icon) {
-    return <Icon />;
-  } else {
-    return null;
-  }
-}
 
 export const AlertBanner = ({ bannerType, children }) => {
   let bannerClass = "";
