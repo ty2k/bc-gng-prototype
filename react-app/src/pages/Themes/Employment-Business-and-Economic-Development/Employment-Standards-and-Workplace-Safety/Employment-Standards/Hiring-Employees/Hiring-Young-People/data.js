@@ -15,6 +15,26 @@ const content = [
           },
         },
       },
+      start: {
+        text: "How old is the child?",
+        options: [
+          {
+            label: "Under 12 years",
+            id: "under-12-years",
+            next_step: "end",
+          },
+          {
+            label: "12-14 years",
+            id: "12-to-14-years",
+            next_step: "end",
+          },
+          {
+            label: "15 years or older",
+            id: "15-years-or-older",
+            next_step: "end",
+          },
+        ],
+      },
     },
   },
   {

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Highlighter from "react-highlight-words";
 import styled from "styled-components";
 
-import { imageService } from "../_services/image.service";
+import Icon from "./Icon";
 
 const ServiceHighlightDiv = styled.div`
   display: flex;
@@ -27,16 +27,6 @@ const ServiceHighlightDiv = styled.div`
     padding-left: 5px;
   }
 `;
-
-function Icon({ id }) {
-  const Icon = imageService.getSvg(id);
-
-  if (Icon) {
-    return <Icon />;
-  } else {
-    return null;
-  }
-}
 
 export const ServiceHighlight = ({ name, icon, url, external, searchTerm }) => {
   return (
