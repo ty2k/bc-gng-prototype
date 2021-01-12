@@ -6,6 +6,11 @@ const sections = [
         title: "Online Dispute Resolution Applications",
         description:
           "Apply or find information how to prepare for a dispute resolution application.",
+        cardLink: {
+          href:
+            "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+          external: false,
+        },
       },
       {
         title: "Forms",

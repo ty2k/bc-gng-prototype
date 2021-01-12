@@ -13,8 +13,12 @@ import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
 import Contact from "./pages/Contact";
 
+// Residential Tenancy Branch pages
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
+import DisputeResolutionApplications from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications";
+
+// Employment Standards Branch pages
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
 import EmploymentStandardsAndWorkplaceSafety from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety";
 import EmploymentStandards from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards";
@@ -49,6 +53,25 @@ function App() {
         breadcrumbs={[]}
         content={<Services />}
       />
+
+      {/* Residential Tenancy Branch pages */}
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        title={"Dispute Resolution Applications"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+        ]}
+        content={<DisputeResolutionApplications />}
+        parentHref={"/themes/housing-and-tenancy/residential-tenancies"}
+        parentTitle={"Residential Tenancies"}
+      />
       <PrivateRoute
         exact
         path={"/themes/housing-and-tenancy/residential-tenancies"}
@@ -69,6 +92,8 @@ function App() {
         parentHref={"/themes"}
         parentTitle={"Themes"}
       />
+
+      {/* Employment Standards Branch pages */}
       <PrivateRoute
         exact
         path={
