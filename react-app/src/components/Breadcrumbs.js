@@ -45,10 +45,6 @@ const StyledBreadcrumb = styled.li`
     min-width: 220px;
     padding: 0 10px;
     width: min-content;
-
-    &:first-child {
-      padding: 0 10px 0 0;
-    }
   }
 
   a,
@@ -62,6 +58,7 @@ const StyledBreadcrumb = styled.li`
 
     span.span--breadcrumb-body {
       max-width: 280px;
+      padding: 0 10px 0 0;
     }
   }
 

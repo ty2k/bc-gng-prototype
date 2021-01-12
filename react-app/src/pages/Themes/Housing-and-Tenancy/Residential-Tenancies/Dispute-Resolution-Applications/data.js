@@ -5,6 +5,11 @@ const sections = [
       {
         title: "Apply for a Dispute Resolution Application",
         description: "Resolve disputes related to a tenancy.",
+        cardLink: {
+          href:
+            "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application",
+          external: false,
+        },
       },
       {
         title: "Apply for a Tenant Direct Request",
