@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
-  content: ${(props) => `${props.primary}`};
   background-color: ${(props) => (props.primary ? "#003366" : "white")};
   border-radius: 4px;
   border: 2px solid;
@@ -99,12 +98,11 @@ Button.defaultProps = {
 };
 
 const StyledLink = styled.a`
-  content: ${(props) => `${props.primary}`};
-  background-color: ${(props) => (props.primary ? "#003366" : "white")};
+  background-color: ${(props) => (props.$primary ? "#003366" : "white")};
   border-radius: 4px;
   border: 2px solid;
   border-color: #003366;
-  color: ${(props) => (props.primary ? "white" : "#003366")};
+  color: ${(props) => (props.$primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
@@ -124,12 +122,11 @@ const StyledLink = styled.a`
 `;
 
 const StyledRouterLink = styled(Link)`
-  content: ${(props) => `${props.primary}`};
-  background-color: ${(props) => (props.primary ? "#003366" : "white")};
+  background-color: ${(props) => (props.$primary ? "#003366" : "white")};
   border-radius: 4px;
   border: 2px solid;
   border-color: #003366;
-  color: ${(props) => (props.primary ? "white" : "#003366")};
+  color: ${(props) => (props.$primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
@@ -148,20 +145,35 @@ const StyledRouterLink = styled(Link)`
   }
 `;
 
-function ButtonLink({ children, className, external, href, ...props }) {
+function ButtonLink({
+  children,
+  className,
+  external,
+  href,
+  primary = true,
+  ...props
+}) {
   return (
     <>
       {external ? (
-        <StyledLink href={href} {...props}>
+        <StyledLink href={href} $primary={primary} {...props}>
           {children}
         </StyledLink>
       ) : (
-        <StyledRouterLink to={href} {...props}>
+        <StyledRouterLink to={href} $primary={primary} {...props}>
           {children}
         </StyledRouterLink>
       )}
     </>
   );
 }
+
+ButtonLink.propTypes = {
+  children: PropTypes.any,
+  className: PropTypes.string,
+  external: PropTypes.bool,
+  href: PropTypes.string,
+  primary: PropTypes.bool,
+};
 
 export { Button, ButtonLink };

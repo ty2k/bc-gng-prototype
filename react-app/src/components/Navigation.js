@@ -135,8 +135,8 @@ function Card({
     switch (typeof description) {
       case "object":
         if (Array.isArray(description)) {
-          return description.map((element) => {
-            return textService.buildHtmlElement(element);
+          return description.map((element, index) => {
+            return textService.buildHtmlElement(element, index);
           });
         } else {
           return null;
@@ -360,7 +360,7 @@ Navigation.propTypes = {
       cards: propTypes.arrayOf(
         propTypes.shape({
           title: propTypes.string,
-          description: propTypes.string,
+          description: propTypes.any,
           links: propTypes.arrayOf(
             propTypes.shape({
               href: propTypes.string,
