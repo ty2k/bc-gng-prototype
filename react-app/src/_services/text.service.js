@@ -13,6 +13,7 @@ import {
 } from "../components/SteppedGuide";
 import Navigation from "../components/Navigation";
 import OnThisPage from "../components/OnThisPage";
+import RadioButtonGroup from "../components/RadioButtonContent";
 import SearchBar from "../components/SearchBar";
 import TabbedContent from "../components/TabbedContent";
 import TabbedPageNav from "../components/TabbedPageNav";
@@ -263,6 +264,15 @@ function buildHtmlElement(
         <SearchBar
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           placeHolder={placeHolder || ""}
+        />
+      );
+    case "radio-button-group":
+      return (
+        <RadioButtonGroup
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          children={children}
+          id={id}
+          title={title}
         />
       );
     case "stepped-guide":
