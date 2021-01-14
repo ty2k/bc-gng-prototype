@@ -224,7 +224,7 @@ function buildHtmlElement(
     case "button-link":
       return (
         <div key={`${type}-${index}-${childIndex ? childIndex : null}`}>
-          <ButtonLink key={`${type}-${index}`} primary={primary}>
+          <ButtonLink key={`${type}-${index}`} href={href} primary={primary}>
             {sanitize(children)}
           </ButtonLink>
         </div>
