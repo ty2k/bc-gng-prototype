@@ -185,7 +185,7 @@ function buildHtmlElement(
       );
     case "span":
       return (
-        <span key={`${type}-${index}`} className={className}>
+        <span key={`${type}-${index}`} className={className} id={id}>
           {children.map((child, childIndex) => {
             return buildHtmlElement(child, index, childIndex);
           })}
