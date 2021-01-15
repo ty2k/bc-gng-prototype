@@ -68,7 +68,7 @@ function RadioButtonContent({ children, id: groupId, title }) {
                   name={groupId}
                   onChange={() => handleRadioVisibility(index)}
                 />
-                <label for={id}>{label}</label>
+                <label htmlFor={id}>{label}</label>
               </RadioButtonOption>
             );
           })}
