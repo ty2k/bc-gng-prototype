@@ -33,7 +33,7 @@ const AccordionHeader = styled.div`
 
     svg {
       display: inline-block;
-      margin: 0 18px;
+      margin: 4px 18px;
       width: 36px;
     }
   }
@@ -41,6 +41,7 @@ const AccordionHeader = styled.div`
 
 const AccordionBody = styled.div`
   background-color: white;
+  font-size: 18px;
 
   &.closed {
     display: none;
@@ -48,12 +49,13 @@ const AccordionBody = styled.div`
 
   &.open {
     display: block;
+    margin: 26px 52px;
   }
 `;
 
-function Accordion({ expanded = false, id, title, body }) {
+function Accordion({ expanded = false, id, title, children }) {
   const hashLocation = window.location.href.split("#")[1];
-  const directlyLinked = hashLocation === id;
+  const directlyLinked = Boolean(hashLocation && id && hashLocation === id);
 
   // The accordion should initially render as opened if explicitly set with
   // `expanded`, or if it has been directly linked to with a hash parameter.
@@ -76,8 +78,8 @@ function Accordion({ expanded = false, id, title, body }) {
         </button>
       </AccordionHeader>
       <AccordionBody className={open ? "open" : "closed"}>
-        {body &&
-          body.map((element) => {
+        {children &&
+          children.map((element) => {
             return textService.buildHtmlElement(element);
           })}
       </AccordionBody>
