@@ -6,7 +6,7 @@ import { textService } from "../_services/text.service";
 const StyledDiv = styled.div`
   border-left: 6px solid #fcba19;
   margin: 20px 0;
-  padding: 0 0 0 16px;
+  padding: 0 0 0 18px;
 `;
 
 function Callout({ children }) {

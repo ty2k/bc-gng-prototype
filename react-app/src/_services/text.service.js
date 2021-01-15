@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
 
+import Accordion from "../components/Accordion";
 import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
@@ -197,6 +198,17 @@ function buildHtmlElement(
             return buildHtmlElement(child, index, childIndex);
           })}
         </ul>
+      );
+    case "accordion":
+      return (
+        <Accordion
+          key={`${type}-${index}`}
+          className={className}
+          id={id}
+          title={title}
+        >
+          {children}
+        </Accordion>
       );
     case "back-forward-button-pair":
       return (

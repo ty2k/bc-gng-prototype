@@ -7,11 +7,13 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.scss";
 import "@bcgov/bc-sans/css/BCSans.css";
 import App from "./App";
+import ScrollToTop from "./components/ScrollToTop";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>,
