@@ -54,8 +54,8 @@ const AccordionBody = styled.div`
 `;
 
 function Accordion({ expanded = false, id, title, children }) {
-  const hashLocation = window.location.href.split("#")[1];
-  const directlyLinked = Boolean(hashLocation && id && hashLocation === id);
+  const hashFragment = window.location.href.split("#")[1];
+  const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
 
   // The accordion should initially render as opened if explicitly set with
   // `expanded`, or if it has been directly linked to with a hash parameter.

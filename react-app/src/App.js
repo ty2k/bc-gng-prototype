@@ -19,6 +19,7 @@ import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential
 import DisputeResolutionApplications from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications";
 import OnlineDisputeResolutionApplication from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application";
 import BeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/Before-You-Apply";
+import HowToPay from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Pay";
 
 // Employment Standards Branch pages
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
@@ -57,6 +58,30 @@ function App() {
       />
 
       {/* Residential Tenancy Branch pages */}
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-pay"
+        }
+        title={"Online Dispute Resolution Application"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<HowToPay />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
       <PrivateRoute
         exact
         path={
