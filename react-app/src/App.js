@@ -23,6 +23,7 @@ import ODRAHowToPay from "./pages/Themes/Housing-and-Tenancy/Residential-Tenanci
 import TenantDirectRequest from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request";
 import TDRBeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Before-You-Apply";
 import TDRHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/How-to-Apply";
+import TDRApplicationFee from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Application-Fee";
 
 // Employment Standards Branch pages
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
@@ -61,6 +62,30 @@ function App() {
       />
 
       {/* Residential Tenancy Branch pages */}
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/application-fee"
+        }
+        title={"Tenant's Direct Request"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<TDRApplicationFee />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
       <PrivateRoute
         exact
         path={
