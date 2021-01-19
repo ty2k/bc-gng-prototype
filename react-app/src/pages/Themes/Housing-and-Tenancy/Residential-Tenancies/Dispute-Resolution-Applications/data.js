@@ -15,6 +15,11 @@ const sections = [
         title: "Apply for a Tenant Direct Request",
         description:
           "Apply for a Monetary Order for return of a security deposit and/or a pet damage deposit.",
+        cardLink: {
+          href:
+            "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request",
+          external: false,
+        },
       },
       {
         title: "Apply for a Landlord Direct Request",

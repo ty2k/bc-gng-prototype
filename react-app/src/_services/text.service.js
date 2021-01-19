@@ -42,6 +42,7 @@ function sanitize(input) {
  *   - @param {string} placeHolder - placeHolder text for text inputs
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
+ *   - @param {Boolean} external - Boolean for indicating external links
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
  */
@@ -60,6 +61,7 @@ function buildHtmlElement(
     placeHolder,
     href,
     primary,
+    external,
   },
   index = null,
   childIndex = null
@@ -237,7 +239,12 @@ function buildHtmlElement(
     case "button-link":
       return (
         <div key={`${type}-${index}-${childIndex ? childIndex : null}`}>
-          <ButtonLink key={`${type}-${index}`} href={href} primary={primary}>
+          <ButtonLink
+            key={`${type}-${index}`}
+            href={href}
+            primary={primary}
+            external={external}
+          >
             {sanitize(children)}
           </ButtonLink>
         </div>
