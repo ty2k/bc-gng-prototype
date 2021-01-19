@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@bcgov/bc-sans": "^1.0.1",
-    "core-js": "^3.8.2",
+    "core-js": "^3.8.3",
     "dompurify": "^2.2.6",
     "jsdom": "^16.4.0",
     "node-sass": "^4.14.1",
@@ -28,7 +28,7 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
-    "husky": "^4.3.7",
+    "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "react-is": "^17.0.1"

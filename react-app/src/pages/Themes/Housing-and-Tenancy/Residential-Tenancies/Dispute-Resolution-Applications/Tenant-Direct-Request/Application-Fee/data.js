@@ -55,20 +55,20 @@ const content = [
     title: "On this Page",
     children: [
       {
-        id: "know-your-issues",
-        label: "Know Your Issues",
+        id: "application-fee",
+        label: "Application Fee",
       },
       {
-        id: "check-your-deadlines-and-calculations",
-        label: "Check Your Deadlines and Calculations",
+        id: "pay-online",
+        label: "Pay Online",
       },
       {
-        id: "register-for-a-basic-bceid",
-        label: "Register for a Basic BCeID",
+        id: "pay-in-person",
+        label: "Pay in Person",
       },
       {
-        id: "gather-required-documents",
-        label: "Gather Required Documents",
+        id: "fee-waiver-for-tenants-with-low-income",
+        label: "Fee Waiver for Tenants with Low Income",
       },
       {
         id: "related-links",
@@ -85,8 +85,8 @@ const content = [
   },
   {
     type: "h2",
-    id: "know-your-issues",
-    children: "Know Your Issues",
+    id: "application-fee",
+    children: "Application Fee",
   },
   {
     type: "p",
@@ -94,7 +94,21 @@ const content = [
       {
         type: "text",
         children:
-          "In order to apply for a Direct Request, the tenant must first make sure that the landlord has not already applied to keep part or all of their deposit(s). If the landlord had applied for dispute resolution to retain part or all of the deposit(s) – the tenant may file a cross-application for dispute resolution.",
+          "The filing fee for an Application for Dispute Resolution is $100. Be ready to pay!",
+      },
+    ],
+  },
+  {
+    type: "h2",
+    id: "pay-online",
+    children: "Pay Online",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "You may pay the filing fee online by:",
       },
     ],
   },
@@ -103,8 +117,7 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "Additionally, a tenant may not seek the return of deposit(s) or the portion of the deposits where:",
+        children: "- Credit card (Visa, Mastercard or American Express)",
       },
     ],
   },
@@ -113,8 +126,7 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "There is an outstanding order from the director allowing the landlord to retain the deposit(s) or a portion of the deposits; or",
+        children: "- Visa Debit",
       },
     ],
   },
@@ -123,18 +135,7 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "The tenant has agreed in writing to let the landlord keep the deposit(s) or a portion of the deposit(s).",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "For example, if the tenant provided a $500 security deposit to the landlord and agreed in writing to allow the landlord to retain $100 dollars, then the tenant is only eligible to seek the return of the remaining $400 amount. The tenant may not make a claim for the $100 dollars that they had previously agreed to let the landlord keep.",
+        children: "- MasterCard Debit",
       },
     ],
   },
@@ -143,8 +144,8 @@ const content = [
   },
   {
     type: "h2",
-    id: "check-your-deadlines-and-calculations",
-    children: "Check Your Deadlines and Calculations",
+    id: "pay-in-person",
+    children: "Pay in Person",
   },
   {
     type: "p",
@@ -152,16 +153,63 @@ const content = [
       {
         type: "text",
         children:
-          "Different types of disputes can have different application deadlines. Make sure you meet important deadlines and that your calculations are correct. Use the calculators to help you figure out timelines to file for dispute or how much the rent can be increase… and more!",
+          "You may pay the filing fee in person at a Service BC Office or Residential Tenancy Branch Office by:",
       },
     ],
   },
   {
-    type: "button-link",
-    children: "Try the Online Calculators",
-    external: "false",
-    href: "/",
-    primary: true,
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- Cash",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- Debit",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- Credit card (Visa, Mastercard or American Express)",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- Visa Debit",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- MasterCard Debit",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- Certified cheque payable to the Minister of Finance",
+      },
+    ],
   },
   {
     type: "p",
@@ -169,22 +217,17 @@ const content = [
       {
         type: "text",
         children:
-          "If it’s close to the deadline for applying, it’s best to submit your application and complete payment online or submit your application in person to a Service BC Office or the Burnaby Residential Tenancy Branch Office.",
+          "- Residential Tenancy Branch Office only: Money order payable to the Minister of Finance",
       },
     ],
   },
   {
-    type: "callout",
+    type: "p",
     children: [
       {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children:
-              "Your application is not considered to be made until you have submitted your application and paid the filing fee or submitted documents for a fee waiver.",
-          },
-        ],
+        type: "text",
+        children:
+          "Make sure to bring your file number and your Dispute Access Code.",
       },
     ],
   },
@@ -193,8 +236,8 @@ const content = [
   },
   {
     type: "h2",
-    id: "register-for-a-basic-bceid",
-    children: "Register for a Basic BCeID",
+    id: "fee-waiver-for-tenants-with-low-income",
+    children: "Fee Waiver for Tenants with Low Income",
   },
   {
     type: "p",
@@ -202,16 +245,19 @@ const content = [
       {
         type: "text",
         children:
-          "You will need a Basic BCeID account to access the Online Application for Dispute Resolution. A Basic BCeID account provides secure access to online government services.",
+          "If you are a tenant with a low income or have extraordinary expenses that would make paying the filing fee a hardship, you may qualify for a fee waiver. You can apply for a fee waiver online at the time of submission or in person at any Service BC Office or the Residential Tenancy Branch Office in Burnaby.",
       },
     ],
   },
   {
-    type: "button-link",
-    children: "Register for a Basic BCeID",
-    external: "true",
-    href: "https://www.bceid.ca/register/",
-    primary: true,
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "You must submit proof of income when applying for a fee waiver",
+      },
+    ],
   },
   {
     type: "p",
@@ -221,13 +267,9 @@ const content = [
         children: "- ",
       },
       {
-        type: "a-external",
-        href: "https://www.bceid.ca/aboutbceid/privacy_policy.aspx",
-        children: "BCeID Privacy Policy",
-      },
-      {
-        type: "text",
-        children: " (external link)",
+        type: "a-internal",
+        href: "/",
+        children: "Application to Waive Filing Fee (PDF)",
       },
     ],
   },
@@ -235,9 +277,8 @@ const content = [
     type: "br",
   },
   {
-    type: "h2",
-    id: "gather-required-documents",
-    children: "Gather Required Documents",
+    type: "h3",
+    children: "Request to Waive Filing Fee due to Extraordinary Expenses",
   },
   {
     type: "p",
@@ -245,45 +286,17 @@ const content = [
       {
         type: "text",
         children:
-          "The tenant must submit the following documents with their application when applying in-person or when using the online application (applications without these documents will be scheduled for a regular hearing):",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- A copy of the completed Tenant’s Direct Request Worksheet (",
+          "If you are requesting a fee waiver because you have had extraordinary expenses that would make paying the filing fee a hardship, you must complete a paper ",
       },
       {
         type: "a-internal",
         href: "/",
-        children: "form RTB-40",
-      },
-      {
-        type: "text",
-        children: ")",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- A copy of the forwarding address given to the landlord (",
-      },
-      {
-        type: "a-internal",
-        href: "/",
-        children: "form RTB-47",
+        children: "Application to Waive Filing Fee (PDF)",
       },
       {
         type: "text",
         children:
-          " is recommended, but not required) or a copy of the condition inspection report with the forwarding address provided",
+          " and submit it in person to any Service BC Office or the Residential Tenancy Branch Office in Burnaby.",
       },
     ],
   },
@@ -293,16 +306,16 @@ const content = [
       {
         type: "text",
         children:
-          "- A copy of the completed Proof of Service of Forwarding Address (",
+          "You must provide proof of eligible hardship expenses such as:",
       },
-      {
-        type: "a-internal",
-        href: "/",
-        children: "form RTB-41",
-      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
       {
         type: "text",
-        children: ")",
+        children: "- extraordinary medical expenses",
       },
     ],
   },
@@ -312,7 +325,16 @@ const content = [
       {
         type: "text",
         children:
-          "- A copy of the signed tenancy agreement (including the addendum if there is one)",
+          "- transportation costs for medically necessary procedures not available in your community",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- funeral expenses",
       },
     ],
   },
@@ -322,7 +344,7 @@ const content = [
       {
         type: "text",
         children:
-          "- If a pet damage deposit was accepted after the tenancy began, a receipt for the pet damage deposit",
+          "- costs associated with an emergency such as a fire, flood, earthquake, landslide or avalanche",
       },
     ],
   },
@@ -331,12 +353,9 @@ const content = [
     children: [
       {
         type: "text",
-        children: "- Any other documents that support the application",
+        children: "Learn more about fee waivers",
       },
     ],
-  },
-  {
-    type: "br",
   },
   {
     type: "br",
@@ -345,11 +364,11 @@ const content = [
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request",
-      backLabel: "Overview",
-      forwardHref:
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/how-to-apply",
-      forwardLabel: "How to Apply",
+      backLabel: "How to Apply",
+      forwardHref:
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/whats-next",
+      forwardLabel: "What's Next",
     },
   },
   {
@@ -364,8 +383,6 @@ const content = [
     type: "navigation",
     children: [
       {
-        // TODO: Navigation should be able to take id's to link to
-        // title: "Related Links",
         cards: [
           {
             title: "Follow the Rules",

@@ -51,12 +51,81 @@ const content = [
     type: "br",
   },
   {
+    type: "on-this-page",
+    title: "On this Page",
+    children: [
+      {
+        id: "apply-online",
+        label: "Apply Online",
+      },
+      {
+        id: "complete-a-paper-application",
+        label: "Complete a Paper Application",
+      },
+      {
+        id: "related-links",
+        label: "Related Links",
+      },
+      {
+        id: "contact-the-rtb",
+        label: "Contact the Residential Tenancy Branch",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "apply-online",
+    children: "Apply Online",
+  },
+  {
     type: "p",
     children: [
       {
         type: "text",
         children:
-          "When a tenancy ends and the landlord receives the tenant’s forwarding address in writing, the landlord has fifteen days to either return the outstanding deposit(s) or make an application to retain part or all of the deposit(s).",
+          "Do you have everything ready to apply online? Let’s get started.",
+      },
+    ],
+  },
+  {
+    type: "callout",
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "Before starting an application, please make sure your internet browser is up to date.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "button-link",
+    children: "Apply Online",
+    external: "false",
+    href: "/",
+    primary: true,
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "complete-a-paper-application",
+    children: "Complete a Paper Application",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Not able to apply online? No problem.",
       },
     ],
   },
@@ -66,22 +135,25 @@ const content = [
       {
         type: "text",
         children:
-          "If the landlord does nothing, tenants have an alternative option to get a Monetary Order. This is called a Direct Request.",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- ",
+          "While applying online is the fastest, easiest way to apply, you may complete a paper application and submit it in person at any ",
       },
       {
         type: "a-internal",
         href: "/",
-        children:
-          "Learn more about a Tenant’s Direct Request for Return of a Security Deposit and/or Pet Damage Deposit.",
+        children: "Service BC Office",
+      },
+      {
+        type: "text",
+        children: " or the ",
+      },
+      {
+        type: "a-internal",
+        href: "/",
+        children: "Residential Tenancy Branch Office in Burnaby",
+      },
+      {
+        type: "text",
+        children: ".",
       },
     ],
   },
@@ -90,18 +162,12 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "A tenant can use a Direct Request to claim the return of their security deposit and pet deposit (if applicable) and the payment of the filing fee.",
+        children: "- Learn ",
       },
-    ],
-  },
-  {
-    type: "p",
-    children: [
       {
-        type: "text",
-        children:
-          "In this type of proceeding, an adjudicator considers a tenant’s application for the return of their deposit(s). The proceeding is based only on the tenant’s written evidence – verbal testimony from any party is not included.",
+        type: "a-internal",
+        href: "/",
+        children: "how to complete a paper application",
       },
     ],
   },
@@ -111,21 +177,26 @@ const content = [
   {
     type: "back-forward-button-pair",
     args: {
-      backHref: "",
-      backLabel: "",
-      forwardHref:
+      backHref:
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/before-you-apply",
-      forwardLabel: "Before You Apply",
+      backLabel: "Before You Apply",
+      forwardHref:
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/application-fee",
+      forwardLabel: "Application Fee",
     },
   },
   {
     type: "br",
   },
   {
+    type: "h2",
+    id: "related-links",
+    children: "Related Links",
+  },
+  {
     type: "navigation",
     children: [
       {
-        title: "Related Links",
         cards: [
           {
             title: "Follow the Rules",

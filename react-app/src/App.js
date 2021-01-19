@@ -22,6 +22,9 @@ import ODRABeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-T
 import ODRAHowToPay from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Pay";
 import TenantDirectRequest from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request";
 import TDRBeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Before-You-Apply";
+import TDRHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/How-to-Apply";
+import TDRApplicationFee from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Application-Fee";
+import TDRWhatsNext from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Whats-Next";
 
 // Employment Standards Branch pages
 import EmploymentBusinessAndEconomicDevelopment from "./pages/Themes/Employment-Business-and-Economic-Development";
@@ -60,6 +63,78 @@ function App() {
       />
 
       {/* Residential Tenancy Branch pages */}
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/whats-next"
+        }
+        title={"Tenant's Direct Request"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<TDRWhatsNext />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/application-fee"
+        }
+        title={"Tenant's Direct Request"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<TDRApplicationFee />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/how-to-apply"
+        }
+        title={"Tenant's Direct Request"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<TDRHowToApply />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
       <PrivateRoute
         exact
         path={

@@ -55,20 +55,20 @@ const content = [
     title: "On this Page",
     children: [
       {
-        id: "know-your-issues",
-        label: "Know Your Issues",
+        id: "after-youve-applied",
+        label: "After You've Applied",
       },
       {
-        id: "check-your-deadlines-and-calculations",
-        label: "Check Your Deadlines and Calculations",
+        id: "possible-outcomes",
+        label: "Possible Outcomes",
       },
       {
-        id: "register-for-a-basic-bceid",
-        label: "Register for a Basic BCeID",
+        id: "when-the-landlord-disagrees",
+        label: "When the Landlord Disagrees",
       },
       {
-        id: "gather-required-documents",
-        label: "Gather Required Documents",
+        id: "how-to-view-my-application-status",
+        label: "How to View My Application Status",
       },
       {
         id: "related-links",
@@ -85,8 +85,12 @@ const content = [
   },
   {
     type: "h2",
-    id: "know-your-issues",
-    children: "Know Your Issues",
+    id: "after-youve-applied",
+    children: "After You've Applied",
+  },
+  {
+    type: "h3",
+    children: "Email Notification",
   },
   {
     type: "p",
@@ -94,7 +98,7 @@ const content = [
       {
         type: "text",
         children:
-          "In order to apply for a Direct Request, the tenant must first make sure that the landlord has not already applied to keep part or all of their deposit(s). If the landlord had applied for dispute resolution to retain part or all of the deposit(s) – the tenant may file a cross-application for dispute resolution.",
+          "The filing fee for an Application for Dispute Resolution is $100. Be ready to pay!",
       },
     ],
   },
@@ -103,8 +107,7 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "Additionally, a tenant may not seek the return of deposit(s) or the portion of the deposits where:",
+        children: "If you don’t see these reminders:",
       },
     ],
   },
@@ -113,121 +116,109 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "There is an outstanding order from the director allowing the landlord to retain the deposit(s) or a portion of the deposits; or",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "The tenant has agreed in writing to let the landlord keep the deposit(s) or a portion of the deposit(s).",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "For example, if the tenant provided a $500 security deposit to the landlord and agreed in writing to allow the landlord to retain $100 dollars, then the tenant is only eligible to seek the return of the remaining $400 amount. The tenant may not make a claim for the $100 dollars that they had previously agreed to let the landlord keep.",
-      },
-    ],
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "h2",
-    id: "check-your-deadlines-and-calculations",
-    children: "Check Your Deadlines and Calculations",
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "Different types of disputes can have different application deadlines. Make sure you meet important deadlines and that your calculations are correct. Use the calculators to help you figure out timelines to file for dispute or how much the rent can be increase… and more!",
-      },
-    ],
-  },
-  {
-    type: "button-link",
-    children: "Try the Online Calculators",
-    external: "false",
-    href: "/",
-    primary: true,
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "If it’s close to the deadline for applying, it’s best to submit your application and complete payment online or submit your application in person to a Service BC Office or the Burnaby Residential Tenancy Branch Office.",
-      },
-    ],
-  },
-  {
-    type: "callout",
-    children: [
-      {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children:
-              "Your application is not considered to be made until you have submitted your application and paid the filing fee or submitted documents for a fee waiver.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "h2",
-    id: "register-for-a-basic-bceid",
-    children: "Register for a Basic BCeID",
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "You will need a Basic BCeID account to access the Online Application for Dispute Resolution. A Basic BCeID account provides secure access to online government services.",
-      },
-    ],
-  },
-  {
-    type: "button-link",
-    children: "Register for a Basic BCeID",
-    external: "true",
-    href: "https://www.bceid.ca/register/",
-    primary: true,
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- ",
+        children: "- add ",
       },
       {
         type: "a-external",
-        href: "https://www.bceid.ca/aboutbceid/privacy_policy.aspx",
-        children: "BCeID Privacy Policy",
+        href: "mailto:donotreply@tenancydispute.gov.bc.ca",
+        children: "donotreply@tenancydispute.gov.bc.ca",
       },
       {
         type: "text",
-        children: " (external link)",
+        children: " to your contacts or safe senders",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- check your junk mail folder",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h3",
+    children: "Application Review & Proceedings Package",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "The Residential Tenancy Branch reviews the application and, where appropriate, prepares a proceeding package the same day. The package includes information for the landlord as well as a proof of service form for the tenant to submit to the Residential Tenancy Branch once they have served the package to the landlord. The tenant must provide copies of all supporting evidence in the package for the landlord.",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children: "The tenant must:",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Pick up the package or print it when it is ready. Serve the package to the landlord within three days, including the Notice of Dispute Resolution Proceeding which includes the Tenant Application for Direct Request for Return of the Security and/or Pet Damage Deposit and all supporting evidence.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "An adjudicator considers the application and documentation and makes a decision. The adjudicator’s decision is final and binding.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Complete the Proof of Service of Notice of Direct Request Proceeding Form (provided by the Residential Tenancy Branch with the package) as evidence of how and when they served the package to the landlord",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Submit the Proof of Service to the Residential Tenancy Branch in person to any ",
+      },
+      {
+        type: "a-internal",
+        href: "/",
+        children: "Service BC Office",
+      },
+      {
+        type: "text",
+        children: " or the ",
+      },
+      {
+        type: "a-internal",
+        href: "/",
+        children: "Residential Tenancy Branch Office in Burnaby",
       },
     ],
   },
@@ -236,16 +227,15 @@ const content = [
   },
   {
     type: "h2",
-    id: "gather-required-documents",
-    children: "Gather Required Documents",
+    id: "possible-outcomes",
+    children: "Possible Outcomes",
   },
   {
     type: "p",
     children: [
       {
         type: "text",
-        children:
-          "The tenant must submit the following documents with their application when applying in-person or when using the online application (applications without these documents will be scheduled for a regular hearing):",
+        children: "The adjudicator may:",
       },
     ],
   },
@@ -255,88 +245,100 @@ const content = [
       {
         type: "text",
         children:
-          "- A copy of the completed Tenant’s Direct Request Worksheet (",
+          "- Grant a monetary order to the tenant for the return of the deposit(s).",
       },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "- Schedule a participatory hearing to provide both parties with an opportunity to present evidence.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "- Dismiss the application with or without an opportunity to reapply for dispute resolution.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "The decision and order(s) (if applicable) are mailed to the tenant. If requested, the material can also be faxed. Only the decision is mailed to the landlord.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "The tenant must serve the monetary order, if one is granted, to the landlord. If the order is served and the landlord does not pay the money owing, the tenant may enforce the order through the court system. ",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children:
+          "An order cannot be enforced until the review period has passed.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
       {
         type: "a-internal",
         href: "/",
-        children: "form RTB-40",
-      },
-      {
-        type: "text",
-        children: ")",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- A copy of the forwarding address given to the landlord (",
-      },
-      {
-        type: "a-internal",
-        href: "/",
-        children: "form RTB-47",
-      },
-      {
-        type: "text",
-        children:
-          " is recommended, but not required) or a copy of the condition inspection report with the forwarding address provided",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- A copy of the completed Proof of Service of Forwarding Address (",
-      },
-      {
-        type: "a-internal",
-        href: "/",
-        children: "form RTB-41",
-      },
-      {
-        type: "text",
-        children: ")",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- A copy of the signed tenancy agreement (including the addendum if there is one)",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- If a pet damage deposit was accepted after the tenancy began, a receipt for the pet damage deposit",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- Any other documents that support the application",
+        children: "Read more about serving and enforcing orders",
       },
     ],
   },
   {
     type: "br",
+  },
+  {
+    type: "h2",
+    id: "when-the-landlord-disagrees",
+    children: "When the Landlord Disagrees",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "If there is evidence that the tenant obtained a monetary order by submitting false information, a landlord can apply to have a decision reviewed. The application must be made within fifteen days of receiving the order.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Learn more about applying for a review",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "how-to-view-my-application-status",
+    children: "How to View My Application Status",
   },
   {
     type: "br",
@@ -345,11 +347,10 @@ const content = [
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request",
-      backLabel: "Overview",
-      forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/how-to-apply",
-      forwardLabel: "How to Apply",
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/application-fee",
+      backLabel: "Application Fee",
+      forwardHref: "",
+      forwardLabel: "",
     },
   },
   {
@@ -364,8 +365,6 @@ const content = [
     type: "navigation",
     children: [
       {
-        // TODO: Navigation should be able to take id's to link to
-        // title: "Related Links",
         cards: [
           {
             title: "Follow the Rules",
