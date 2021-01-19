@@ -350,11 +350,11 @@ const content = [
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/",
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request",
       backLabel: "Overview",
       forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
-      forwardLabel: "Before You Apply",
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/how-to-apply",
+      forwardLabel: "How to Apply",
     },
   },
   {

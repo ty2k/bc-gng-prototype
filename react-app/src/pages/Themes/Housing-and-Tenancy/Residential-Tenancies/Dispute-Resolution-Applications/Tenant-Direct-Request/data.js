@@ -119,7 +119,7 @@ const content = [
       backHref: "",
       backLabel: "",
       forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/tenant-direct-request/before-you-apply",
       forwardLabel: "Before You Apply",
     },
   },
