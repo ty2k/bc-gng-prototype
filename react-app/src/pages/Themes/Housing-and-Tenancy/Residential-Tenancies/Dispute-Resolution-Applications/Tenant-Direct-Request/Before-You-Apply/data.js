@@ -1,5 +1,3 @@
-import HowToPay from "../../Online-Dispute-Resolution-Application/How-to-Pay";
-
 const content = [
   {
     type: "p",
