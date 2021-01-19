@@ -51,11 +51,6 @@ const content = [
     type: "br",
   },
   {
-    type: "h2",
-    id: "overview",
-    children: "Overview",
-  },
-  {
     type: "p",
     children: [
       {

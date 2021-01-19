@@ -51,11 +51,6 @@ const content = [
     type: "br",
   },
   {
-    type: "h2",
-    id: "before-you-apply",
-    children: "Before You Apply",
-  },
-  {
     type: "on-this-page",
     title: "On this Page",
     children: [
