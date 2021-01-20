@@ -443,7 +443,7 @@ const content = [
       {
         type: "button-link",
         children: "Contact the Branch",
-        external: "false",
+        external: false,
         href: "/",
         primary: true,
       },
