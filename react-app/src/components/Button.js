@@ -108,6 +108,7 @@ const StyledLink = styled.a`
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
+  margin: 18px 0;
   min-height: 44px;
   padding: 10px 30px;
   text-align: center;
@@ -132,6 +133,7 @@ const StyledRouterLink = styled(Link)`
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
+  margin: 18px 0;
   min-height: 44px;
   padding: 10px 30px;
   text-align: center;
