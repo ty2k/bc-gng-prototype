@@ -50,7 +50,12 @@ const sections = [
       {
         title: "During a Tenancy",
         description:
-          "Learn your rights and responsibilities during a tenancy, including information on rent increases, repairs, and",
+          "Learn your rights and responsibilities during a tenancy, including information on rent increases, repairs and maintenance.",
+        cardLink: {
+          href:
+            "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy",
+          external: false,
+        },
       },
       {
         title: "Ending a Tenancy",

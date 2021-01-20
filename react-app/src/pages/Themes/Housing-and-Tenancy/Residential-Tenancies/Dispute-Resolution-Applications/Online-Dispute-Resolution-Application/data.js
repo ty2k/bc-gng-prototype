@@ -248,7 +248,7 @@ const content = [
           {
             type: "button-link",
             children: "Dispute Access Site",
-            external: "false",
+            external: false,
             href: "/",
             primary: true,
           },
@@ -336,7 +336,7 @@ const content = [
       {
         type: "button-link",
         children: "Contact the Branch",
-        external: "false",
+        external: false,
         href: "/",
         primary: true,
       },

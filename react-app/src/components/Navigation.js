@@ -83,13 +83,13 @@ const StyledCard = styled.div`
 
 const StyledCardAnchorLink = styled.a`
   color: inherit;
-  display: flex;
+  display: inherit;
   text-decoration: inherit;
 `;
 
 const StyledCardRouterLink = styled(Link)`
   color: inherit;
-  display: flex;
+  display: inherit;
   text-decoration: inherit;
 `;
 

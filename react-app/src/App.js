@@ -16,6 +16,9 @@ import Contact from "./pages/Contact";
 // Residential Tenancy Branch pages
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
+import DuringATenancy from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy";
+import RentIncreases from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy/Rent-Increases";
+import StandardRentIncreases from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy/Rent-Increases/Standard-Rent-Increases";
 import DisputeResolutionApplications from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications";
 import OnlineDisputeResolutionApplication from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application";
 import ODRABeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/Before-You-Apply";
@@ -269,6 +272,71 @@ function App() {
           },
         ]}
         content={<DisputeResolutionApplications />}
+        parentHref={"/themes/housing-and-tenancy/residential-tenancies"}
+        parentTitle={"Residential Tenancies"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases/standard-rent-increases"
+        }
+        title={"Rent Increases"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy",
+            label: "During a Tenancy",
+          },
+        ]}
+        content={<StandardRentIncreases />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy"
+        }
+        parentTitle={"During a Tenancy"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases"
+        }
+        title={"Rent Increases"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy",
+            label: "During a Tenancy",
+          },
+        ]}
+        content={<RentIncreases />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy"
+        }
+        parentTitle={"During a Tenancy"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy"
+        }
+        title={"During a Tenancy"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+        ]}
+        content={<DuringATenancy />}
         parentHref={"/themes/housing-and-tenancy/residential-tenancies"}
         parentTitle={"Residential Tenancies"}
       />

@@ -159,7 +159,7 @@ const content = [
   {
     type: "button-link",
     children: "Try the Online Calculators",
-    external: "false",
+    external: false,
     href: "/",
     primary: true,
   },
@@ -209,7 +209,7 @@ const content = [
   {
     type: "button-link",
     children: "Register for a Basic BCeID",
-    external: "true",
+    external: true,
     href: "https://www.bceid.ca/register/",
     primary: true,
   },
@@ -426,7 +426,7 @@ const content = [
       {
         type: "button-link",
         children: "Contact the Branch",
-        external: "false",
+        external: false,
         href: "/",
         primary: true,
       },

@@ -251,7 +251,10 @@ function buildHtmlElement(
       );
     case "callout":
       return (
-        <Callout key={`${type}-${index}-${childIndex ? childIndex : null}`}>
+        <Callout
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          className={className}
+        >
           {children}
         </Callout>
       );

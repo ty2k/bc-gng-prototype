@@ -108,7 +108,7 @@ const content = [
   {
     type: "button-link",
     children: "Apply Online",
-    external: "false",
+    external: false,
     href: "/",
     primary: true,
   },
@@ -257,7 +257,7 @@ const content = [
       {
         type: "button-link",
         children: "Contact the Branch",
-        external: "false",
+        external: false,
         href: "/",
         primary: true,
       },
