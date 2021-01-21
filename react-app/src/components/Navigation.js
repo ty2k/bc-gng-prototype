@@ -215,7 +215,7 @@ function Card({
                 <li key={`li-${index}`}>
                   {link.external ? (
                     <>
-                      <a href={link}>{link.label}</a>
+                      <a href={link.href}>{link.label}</a>
                       <Icon id={"external-link-alt-solid.svg"} />
                     </>
                   ) : (
