@@ -38,7 +38,8 @@ function sanitize(input) {
  *   - @param {string} title - title for React components
  *   - @param {string} first - ID of the first step in stepped component
  *   - @param {object} steps - JSON representation of steps in stepped component
- *   - @param {object} callToAction - primary action in a stepper component
+ *   - @param {object} callToAction - primary action in a stepped component
+ *   - @param {object} defaultContent - show before selection in radio component
  *   - @param {string} placeHolder - placeHolder text for text inputs
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
@@ -58,6 +59,7 @@ function buildHtmlElement(
     first,
     steps,
     callToAction,
+    defaultContent,
     placeHolder,
     href,
     primary,
@@ -293,6 +295,7 @@ function buildHtmlElement(
         <RadioButtonGroup
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
+          defaultContent={defaultContent}
           id={id}
           title={title}
         />

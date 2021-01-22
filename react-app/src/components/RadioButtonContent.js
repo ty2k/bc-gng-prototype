@@ -38,7 +38,7 @@ const Body = styled.div`
   }
 `;
 
-function RadioButtonContent({ children, id: groupId, title }) {
+function RadioButtonContent({ children, defaultContent, id: groupId, title }) {
   const [visibleRadioIndex, setVisibleRadioIndex] = useState(-1);
 
   function handleRadioVisibility(radioIndex) {
@@ -74,6 +74,24 @@ function RadioButtonContent({ children, id: groupId, title }) {
           })}
       </RadioButtonGroup>
       <Body>
+        {/* If there is a default content group, show it when there are no
+        radio buttons selected. */}
+
+        {defaultContent && (
+          <div
+            className={
+              visibleRadioIndex === -1
+                ? "div--radio-body-active"
+                : "div--radio-body-inactive"
+            }
+          >
+            {defaultContent?.length > 0 &&
+              defaultContent?.map((element, index) => {
+                return textService.buildHtmlElement(element, index);
+              })}
+          </div>
+        )}
+
         {/* Since we want the radio option's body info to be on the DOM
         for indexing by search engines, render all tab content and hide
         with CSS as needed. */}
