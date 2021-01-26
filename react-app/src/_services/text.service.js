@@ -181,7 +181,7 @@ function buildHtmlElement(
       );
     case "p":
       return (
-        <p key={`${type}-${index}`} className={className}>
+        <p key={`${type}-${index}-${childIndex}`} className={className}>
           {children.map((child, childIndex) => {
             return buildHtmlElement(child, index, childIndex);
           })}
