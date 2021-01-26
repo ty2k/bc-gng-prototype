@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
 
-import Accordion from "../components/Accordion";
+import { Accordion, MoreInfo } from "../components/Accordion";
 import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
@@ -18,6 +18,7 @@ import RadioButtonGroup from "../components/RadioButtonContent";
 import SearchBar from "../components/SearchBar";
 import TabbedContent from "../components/TabbedContent";
 import TabbedPageNav from "../components/TabbedPageNav";
+import Table from "../components/Table";
 import Wizard from "../components/Wizard";
 
 function sanitize(input) {
@@ -34,6 +35,7 @@ function sanitize(input) {
  *   - @param {*} children - a string for primitive elements,
  *                           or an array or for composed elements
  *                           like `p`, `span`, or React components
+ *   - @param {object} data - JSON object data for React components
  *   - @param {object} args - arbitrary arguments for React components
  *   - @param {string} title - title for React components
  *   - @param {string} first - ID of the first step in stepped component
@@ -54,6 +56,7 @@ function buildHtmlElement(
     style,
     className,
     children,
+    data,
     args,
     title,
     first,
@@ -181,7 +184,7 @@ function buildHtmlElement(
       );
     case "p":
       return (
-        <p key={`${type}-${index}`} className={className}>
+        <p key={`${type}-${index}-${childIndex}`} className={className}>
           {children.map((child, childIndex) => {
             return buildHtmlElement(child, index, childIndex);
           })}
@@ -268,6 +271,12 @@ function buildHtmlElement(
           {children}
         </FullWidthBlock>
       );
+    case "more-info":
+      return (
+        <MoreInfo key={`${type}-${index}-${childIndex ? childIndex : null}`}>
+          {children}
+        </MoreInfo>
+      );
     case "navigation":
       return (
         <Navigation
@@ -326,6 +335,14 @@ function buildHtmlElement(
         <TabbedPageNav
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
+        />
+      );
+    case "table":
+      return (
+        <Table
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          data={data}
+          id={id}
         />
       );
     case "wizard":

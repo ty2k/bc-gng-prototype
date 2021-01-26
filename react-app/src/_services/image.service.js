@@ -44,6 +44,8 @@ import { ReactComponent as nounMedicalCross } from "../components/assets/noun-pr
 import { ReactComponent as passportSolid } from "../components/assets/passport-solid.svg";
 import { ReactComponent as planeSolid } from "../components/assets/plane-solid.svg";
 import { ReactComponent as searchSolid } from "../components/assets/search-solid.svg";
+import { ReactComponent as sortDownSolid } from "../components/assets/sort-down-solid.svg";
+import { ReactComponent as sortUpSolid } from "../components/assets/sort-up-solid.svg";
 
 const svgIcons = {
   "ambulance.svg": ambulance,
@@ -92,6 +94,8 @@ const svgIcons = {
   "passport-solid.svg": passportSolid,
   "plane-solid.svg": planeSolid,
   "search-solid.svg": searchSolid,
+  "sort-down-solid.svg": sortDownSolid,
+  "sort-up-solid.svg": sortUpSolid,
 };
 
 function getSvg(id) {

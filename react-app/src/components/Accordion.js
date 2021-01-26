@@ -53,6 +53,7 @@ const AccordionBody = styled.div`
   }
 `;
 
+// Full page-width accordion component which can be linked to on-page
 function Accordion({ expanded = false, id, title, children }) {
   const hashFragment = window.location.href.split("#")[1];
   const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
@@ -87,4 +88,83 @@ function Accordion({ expanded = false, id, title, children }) {
   );
 }
 
-export default Accordion;
+const StyledMoreInfo = styled.div`
+  display: block;
+  margin: 0 0 13px 0;
+`;
+
+const MoreInfoHeader = styled.div`
+  display: block;
+  margin: 10px 0;
+
+  button.button--more-info {
+    background: none;
+    border: 0;
+    display: block;
+    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 44px;
+    margin: 0 0 8px 0;
+    padding: 0;
+
+    span {
+      color: #1a5a96;
+      text-decoration: underline;
+    }
+
+    svg {
+      color: #1a5a96;
+      margin-left: 7px;
+      width: 14px;
+    }
+  }
+`;
+
+const MoreInfoBody = styled.div`
+  p {
+    margin: 0 0;
+  }
+
+  &.closed {
+    display: none;
+  }
+
+  &.open {
+    display: block;
+    margin: 0 0 23px 0;
+  }
+`;
+
+// Minimal accordion-style component for use within Table cells
+function MoreInfo({ id, children }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <StyledMoreInfo id={id}>
+      <MoreInfoHeader>
+        <button
+          className={"button--more-info"}
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          <span>More info</span>
+          {open ? (
+            <Icon id={"sort-up-solid.svg"} />
+          ) : (
+            <Icon id={"sort-down-solid.svg"} />
+          )}
+        </button>
+      </MoreInfoHeader>
+      <MoreInfoBody className={open ? "open" : "closed"}>
+        {children &&
+          children.map((element) => {
+            return textService.buildHtmlElement(element);
+          })}
+      </MoreInfoBody>
+    </StyledMoreInfo>
+  );
+}
+
+export { Accordion, MoreInfo };
