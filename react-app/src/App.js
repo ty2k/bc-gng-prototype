@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 // Residential Tenancy Branch pages
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
 import ResidentialTenancies from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies";
+import Forms from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Forms";
 import DuringATenancy from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy";
 import RentIncreases from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy/Rent-Increases";
 import StandardRentIncreases from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/During-a-Tenancy/Rent-Increases/Standard-Rent-Increases";
@@ -363,6 +364,21 @@ function App() {
         ]}
         content={<DuringATenancy />}
         parentHref={"/themes/housing-and-tenancy/residential-tenancies"}
+        parentTitle={"Residential Tenancies"}
+      />
+      <PrivateRoute
+        exact
+        path={"/themes/housing-and-tenancy/residential-tenancies/forms"}
+        title={"Forms"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+        ]}
+        content={<Forms />}
+        parentHref={"/themes/housing-and-tenancy/residential-tenancies/"}
         parentTitle={"Residential Tenancies"}
       />
       <PrivateRoute

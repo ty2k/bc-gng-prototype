@@ -16,6 +16,10 @@ const sections = [
         title: "Forms",
         description:
           "The forms page has new forms to make applying for dispute resolution easier.",
+        cardLink: {
+          href: "/themes/housing-and-tenancy/residential-tenancies/forms",
+          external: false,
+        },
       },
       {
         title: "Resources and Calculators",
