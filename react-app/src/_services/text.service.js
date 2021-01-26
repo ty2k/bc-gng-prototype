@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
 
-import Accordion from "../components/Accordion";
+import { Accordion, MoreInfo } from "../components/Accordion";
 import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
@@ -267,6 +267,12 @@ function buildHtmlElement(
         >
           {children}
         </FullWidthBlock>
+      );
+    case "more-info":
+      return (
+        <MoreInfo key={`${type}-${index}-${childIndex ? childIndex : null}`}>
+          {children}
+        </MoreInfo>
       );
     case "navigation":
       return (
