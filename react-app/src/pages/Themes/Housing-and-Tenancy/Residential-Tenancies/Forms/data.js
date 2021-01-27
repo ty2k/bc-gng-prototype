@@ -7,6 +7,52 @@ const content = [
         id: "form-number",
         direction: "ascending",
       },
+      filter: {
+        initial: {
+          "sort-forms-for": "all",
+          "view-forms-by": "list",
+        },
+        children: [
+          {
+            id: "sort-forms-for",
+            data: {
+              legend: "Sort Forms for",
+              name: "sort-forms-for",
+              children: [
+                {
+                  id: "all",
+                  label: "All",
+                },
+                {
+                  id: "landlords",
+                  label: "Landlords",
+                },
+                {
+                  id: "tenants",
+                  label: "Tenants",
+                },
+              ],
+            },
+          },
+          {
+            id: "view-forms-by",
+            data: {
+              legend: "View Forms by",
+              name: "view-forms-by",
+              children: [
+                {
+                  id: "type",
+                  label: "Type",
+                },
+                {
+                  id: "list",
+                  label: "List",
+                },
+              ],
+            },
+          },
+        ],
+      },
       thead: {
         cols: [
           {
@@ -113,7 +159,7 @@ const content = [
                 },
                 {
                   type: "more-info",
-                  id: "more-info-form-rtb-1",
+                  id: "more-info-form-rtb-1c",
                   label: "More",
                   children: [
                     {
@@ -174,7 +220,7 @@ const content = [
                 },
                 {
                   type: "more-info",
-                  id: "more-info-form-rtb-1",
+                  id: "more-info-form-rtb-2",
                   label: "More",
                   children: [
                     {
@@ -235,7 +281,7 @@ const content = [
                 },
                 {
                   type: "more-info",
-                  id: "more-info-form-rtb-1",
+                  id: "more-info-form-rtb-5",
                   label: "More",
                   children: [
                     {
@@ -296,7 +342,7 @@ const content = [
                 },
                 {
                   type: "more-info",
-                  id: "more-info-form-rtb-1",
+                  id: "more-info-form-rtb-6",
                   label: "More",
                   children: [
                     {
