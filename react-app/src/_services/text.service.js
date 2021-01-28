@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { imageService } from "./image.service";
 
 import { Accordion, MoreInfo } from "../components/Accordion";
+import BackButton from "../components/BackButton";
 import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
@@ -216,6 +217,15 @@ function buildHtmlElement(
         >
           {children}
         </Accordion>
+      );
+    case "back-button":
+      return (
+        <BackButton
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          children={children}
+          id={id}
+          primary={primary}
+        />
       );
     case "back-forward-button-pair":
       return (

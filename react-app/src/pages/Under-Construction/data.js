@@ -8,6 +8,12 @@ const content = [
       },
     ],
   },
+  {
+    type: "back-button",
+    id: "back-button-under-construction",
+    primary: true,
+    children: "Go Back",
+  },
 ];
 
 export { content };
