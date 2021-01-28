@@ -20,15 +20,15 @@ const content = [
       },
       {
         label: "Employment Standards Regulations",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Definitions",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Keyword Index",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Appendices",
@@ -70,7 +70,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "- Appendix 3 Oil and Gas Well Drilling and Servicing Occupations – Hourly Rate of Pay",
       },
@@ -81,7 +81,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "- Appendix 4 Oil and Gas Well Drilling and Servicing Occupations – Salary and Bonus Compensation System",
       },
@@ -123,9 +123,9 @@ const content = [
     ],
   },
   {
-    type: "button",
+    type: "button-link",
     children: "Contact the Branch",
-    onClick: null,
+    href: "/under-construction",
     primary: true,
   },
   {

@@ -40,15 +40,15 @@ const sections = [
         title: "Hours of Work & Overtime",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Overtime Pay",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Averaging Agreements",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Variances",
           },
         ],
@@ -57,11 +57,11 @@ const sections = [
         title: "Statutory Holidays",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Quality for statutory holiday pay",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Calculate statuary holiday pay",
           },
         ],
@@ -70,19 +70,19 @@ const sections = [
         title: "Taking Time Off",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Annual Vacation",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Leaves of absence",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Unexpected time off",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Handling absences & other disruptions",
           },
         ],
@@ -91,15 +91,15 @@ const sections = [
         title: "Quit, Fired or Laid Off",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Quitting or Getting Fired",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Temporary Layoffs",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Extend a COVID-19 temporary layoff",
           },
         ],
@@ -108,27 +108,27 @@ const sections = [
         title: "Getting Paid for Work",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Minimum wage",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Minimum wage daily pay",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Deductions",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Keeping records",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Tips and gratuities",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Uniforms & Special clothing",
           },
         ],
@@ -162,15 +162,15 @@ const sections = [
         title: "Licensing",
         links: [
           {
-            href: "/",
+            href: "/under-construction",
             label: "Employment agencies",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Talent agencies",
           },
           {
-            href: "/",
+            href: "/under-construction",
             label: "Farm labour contractors",
           },
         ],

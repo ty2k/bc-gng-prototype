@@ -14,13 +14,11 @@ const content = [
       },
       {
         label: "Hiring Farm Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-farm-workers",
+        href: "/under-construction",
       },
       {
         label: "Hiring Silviculture Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-silviculture-workers",
+        href: "/under-construction",
       },
       {
         label: "Requirements to Hiring Temporary Foreign Workers",
@@ -103,9 +101,9 @@ const content = [
     type: "br",
   },
   {
-    type: "button",
+    type: "button-link",
     children: "Register a Domestic Worker",
-    onClick: null,
+    href: "/under-construction",
     primary: true,
   },
   {
@@ -215,9 +213,9 @@ const content = [
     ],
   },
   {
-    type: "button",
+    type: "button-link",
     children: "Contact the Branch",
-    onClick: null,
+    href: "/under-construction",
     primary: true,
   },
   {

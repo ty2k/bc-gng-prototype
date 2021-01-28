@@ -14,13 +14,11 @@ const content = [
       },
       {
         label: "Search for a registered employer or a licensed recruiter",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/search-for-registered-employer-or-licensed-recruiter",
+        href: "/under-construction",
       },
       {
         label: "Register to Hire Foreign Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/register-to-hire-foreign-workers",
+        href: "/under-construction",
       },
     ],
   },
@@ -62,7 +60,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "federal Temporary Foreign Worker (TFW)",
       },
       {
@@ -81,7 +79,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Temporary Foreign Worker Protection Act",
       },
       {

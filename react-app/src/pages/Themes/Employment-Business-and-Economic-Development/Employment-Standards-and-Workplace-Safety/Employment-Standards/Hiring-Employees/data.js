@@ -14,13 +14,11 @@ const content = [
       },
       {
         label: "Hiring Farm Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-farm-workers",
+        href: "/under-construction",
       },
       {
         label: "Hiring Silviculture Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-silviculture-workers",
+        href: "/under-construction",
       },
       {
         label: "Requirements to Hiring Temporary Foreign Workers",
@@ -102,7 +100,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "minimum wage",
       },
       {
@@ -111,7 +109,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "minimum hours of work",
       },
       {
@@ -120,7 +118,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "vacation time and pay",
       },
       {
@@ -129,7 +127,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "statutory holidays",
       },
       {
@@ -138,7 +136,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "ending employment",
       },
       {
@@ -197,7 +195,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Working in B.C. - poster format (PDF)",
       },
     ],
@@ -211,7 +209,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Working in B.C. - information sheet format (PDF)",
       },
     ],
@@ -277,7 +275,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 6 Informing employees of their rights",
       },
     ],
@@ -291,7 +289,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 8 No False Representations",
       },
     ],
@@ -305,7 +303,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 10 No charge for hiring or providing information",
       },
     ],
@@ -319,7 +317,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 11 No fees to other persons",
       },
     ],
@@ -333,7 +331,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "Section 14 Written employment contract required for domestics",
       },
@@ -348,7 +346,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 15 Register of employees working in residences",
       },
     ],
@@ -372,9 +370,9 @@ const content = [
     ],
   },
   {
-    type: "button",
+    type: "button-link",
     children: "Make a Complaint",
-    onClick: null,
+    href: "/under-construction",
     primary: true,
   },
   {
@@ -395,9 +393,9 @@ const content = [
     ],
   },
   {
-    type: "button",
+    type: "button-link",
     children: "Contact the Branch",
-    onClick: null,
+    href: "/under-construction",
     primary: true,
   },
   {
