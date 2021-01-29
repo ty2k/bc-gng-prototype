@@ -201,7 +201,7 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
               </li>
             );
           })}
-          <li className="li--slide-out-menu-user-action">
+          {/* <li className="li--slide-out-menu-user-action">
             <PersonIcon />
             Login
           </li>
@@ -209,7 +209,7 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
           <li className="li--slide-out-menu-user-action li--slide-out-menu-language">
             <LanguageIcon />
             English
-          </li>
+          </li> */}
         </ul>
         {alertMessages?.length > 0 &&
           alertMessages.map((alertMessage, index) => {
