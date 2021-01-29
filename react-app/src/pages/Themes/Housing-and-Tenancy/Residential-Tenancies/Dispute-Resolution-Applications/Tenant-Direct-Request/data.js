@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -79,7 +79,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children:
           "Learn more about a Tenant’s Direct Request for Return of a Security Deposit and/or Pet Damage Deposit.",
       },
@@ -187,7 +187,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

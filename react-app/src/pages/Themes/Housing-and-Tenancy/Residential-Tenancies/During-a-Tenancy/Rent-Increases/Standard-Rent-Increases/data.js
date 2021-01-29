@@ -25,13 +25,11 @@ const content = [
       },
       {
         label: "Proportional Amount Rent Increase",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases/proportional-amount-rent-increase",
+        href: "/under-construction",
       },
       {
         label: "Additional Rent Increase",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases/additional-rent-increase",
+        href: "/under-construction",
       },
     ],
   },
@@ -134,7 +132,7 @@ const content = [
     type: "button-link",
     children: "Rent Increase Calculator",
     external: false,
-    href: "/",
+    href: "/under-construction",
     primary: true,
   },
   {
@@ -194,8 +192,7 @@ const content = [
       backHref:
         "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases",
       backLabel: "Rent Increases Overview",
-      forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/during-a-tenancy/rent-increases/proportional-amount-rent-increase",
+      forwardHref: "/under-construction",
       forwardLabel: "Proportional Amount Rent Increase",
     },
   },
@@ -255,7 +252,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

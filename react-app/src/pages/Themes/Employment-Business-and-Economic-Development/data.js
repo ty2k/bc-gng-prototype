@@ -7,15 +7,15 @@ const sections = [
           "Access different tools to help find a job or work-related advice.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "WorkBC Job Board",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Current B.C. Government Job Postings",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Know your rights in the workplace",
           },
         ],
@@ -25,15 +25,15 @@ const sections = [
         description: "Growing or starting a business? We can help.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "COVID-19 supports for business",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Liquor regulation licensing",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "BC Companies",
           },
         ],
@@ -60,11 +60,11 @@ const sections = [
         description: "Find information you need about managing employees.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "COVID-19 supports for business",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Liquor regulation licensing BC Companies",
           },
         ],
@@ -75,15 +75,15 @@ const sections = [
           "Find funding, tools, resources, advice & services to help build your community.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "WorkBC Job Board",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Current B.C. Government Job Postings",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Know your rights in the workplace",
           },
         ],
@@ -94,15 +94,15 @@ const sections = [
           "Find ways to promote British Columbia in trade and business.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Extend a temporary layoff variance",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "File a complaint with WorkSafeBC",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "List of Statutory Holidays",
           },
         ],
@@ -113,15 +113,15 @@ const sections = [
           "Find programs to help your business gain access to capital.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Extend a temporary layoff variance",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "File a complaint with WorkSafeBC",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "List of Statutory Holidays",
           },
         ],

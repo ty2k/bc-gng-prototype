@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -109,7 +109,7 @@ const content = [
     type: "button-link",
     children: "Apply Online",
     external: false,
-    href: "/",
+    href: "/under-construction",
     primary: true,
   },
   {
@@ -139,7 +139,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Service BC Office",
       },
       {
@@ -148,7 +148,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Residential Tenancy Branch Office in Burnaby",
       },
       {
@@ -166,7 +166,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "how to complete a paper application",
       },
     ],
@@ -258,7 +258,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

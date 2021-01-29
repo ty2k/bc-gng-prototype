@@ -22,11 +22,11 @@ const sections = [
           "Find out information about strata housing, the role of a strata council, budgets and bylaws.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -36,11 +36,11 @@ const sections = [
         description: "Find all information you need about owning a home.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -50,15 +50,15 @@ const sections = [
         description: "Find housing options for seniors and older adults in BC.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -69,11 +69,11 @@ const sections = [
           "Learn more about affordable housing, social housing, the role of government and BC Housing.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -84,11 +84,11 @@ const sections = [
           "Find affordable housing tools and resources available to local governments.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -99,15 +99,15 @@ const sections = [
           "Find resources you may need when building or renovating your home.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],
@@ -118,11 +118,11 @@ const sections = [
           "Learn about Real Estate in B.C.: buying and selling property, real estate consultations, and regulations.",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Quick links to popular pages",
           },
         ],

@@ -95,7 +95,11 @@ function SteppedGuide({ children, callToAction }) {
           );
         })}
       </StyledGrid>
-      {callToAction && <Button primary>{callToAction.label}</Button>}
+      {callToAction && (
+        <ButtonLink href={callToAction.href} primary>
+          {callToAction.label}
+        </ButtonLink>
+      )}
     </StyledGuide>
   );
 }

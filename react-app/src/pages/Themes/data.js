@@ -9,15 +9,15 @@ const sections = [
         icon: "heart-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "MSP",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "PharmaCase for B.C. Residents",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Health Forms",
           },
         ],
@@ -27,15 +27,15 @@ const sections = [
         icon: "local-government.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Indigenous Peoples’ Relationship",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "BC Bid",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "BC Auction",
           },
         ],
@@ -45,15 +45,15 @@ const sections = [
         icon: "dollar-sign-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Provincial Sales Tax",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Speculation and Vacancy Tax",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Property Transfer Tax",
           },
         ],
@@ -81,15 +81,15 @@ const sections = [
         icon: "hands-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "MCFD Supports & Response to COVID-19",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Helpline for Children",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Poverty Reduction Strategy",
           },
         ],
@@ -99,15 +99,15 @@ const sections = [
         icon: "ambulance.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Current Wildfire Activity",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Criminal Record Checks",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Cannabis",
           },
         ],
@@ -117,11 +117,11 @@ const sections = [
         icon: "book-open-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Transcripts and Certificates",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Blueprint Builder",
           },
         ],
@@ -149,15 +149,15 @@ const sections = [
         icon: "car-alt-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Save Lives. Respect the Cone Zone",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Intersection Safety Cameras",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Commercial Transportation",
           },
         ],
@@ -167,15 +167,15 @@ const sections = [
         icon: "map-icons-lawyer.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Pay eTickets on PayBC",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Intersection Safety Cameras",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Daily Court Lists",
           },
         ],
@@ -185,15 +185,15 @@ const sections = [
         icon: "industry-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "BC Building Code",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Site C Information & Updates",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Start a Farm",
           },
         ],
@@ -203,15 +203,15 @@ const sections = [
         icon: "leaf-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "BC Parks",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "B.C. Spill Response",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Clean BC",
           },
         ],
@@ -221,15 +221,15 @@ const sections = [
         icon: "hand-holding-heart-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Birth Registration & Birth Certificates",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "How to Get Married In BC",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Legal Changes of Name",
           },
         ],
@@ -239,15 +239,15 @@ const sections = [
         icon: "ios-football.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Book Your Camping Reservation",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Arts and Culture Funding",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Sport Participation",
           },
         ],
@@ -257,15 +257,15 @@ const sections = [
         icon: "passport-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Data Innovation Program",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Integrated Land & Resource Registry",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Highlight on Technology",
           },
         ],
@@ -275,15 +275,15 @@ const sections = [
         icon: "plane-solid.svg",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Get a B.C. Services Card",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Moving to British Columbia",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Travelling in B.C.",
           },
         ],

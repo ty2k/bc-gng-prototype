@@ -385,26 +385,30 @@ Header.defaultProps = {
     },
     {
       text: "News",
-      href: "https://news.gov.bc.ca/", // Use production pages until we have content on prototype pages
+      href: "/under-construction",
+      // href: "https://news.gov.bc.ca/",
       // href: "/news",
       external: true,
     },
     {
       text: "Public Engagements",
-      href: "https://engage.gov.bc.ca/govtogetherbc/", // Use production pages until we have content on prototype pages
+      href: "/under-construction",
+      // href: "https://engage.gov.bc.ca/govtogetherbc/",
       // href: "/public-engagements",
       external: true,
     },
     {
       text: "Jobs & HR",
-      href: "https://www2.gov.bc.ca/gov/content/careers-myhr", // Use production pages until we have content on prototype pages
+      href: "/under-construction",
+      // href: "https://www2.gov.bc.ca/gov/content/careers-myhr",
       // href: "/jobs-hr",
       external: true,
     },
     {
       text: "Contact Us",
-      href:
-        "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services", // Use production pages until we have content on prototype pages
+      href: "/under-construction",
+      // href:
+      //   "https://www2.gov.bc.ca/gov/content/home/get-help-with-government-services",
       // href: "/contact",
       external: true,
     },

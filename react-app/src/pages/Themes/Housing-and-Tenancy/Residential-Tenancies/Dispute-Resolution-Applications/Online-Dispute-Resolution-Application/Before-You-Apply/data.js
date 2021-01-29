@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply Online",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -37,13 +37,11 @@ const content = [
       },
       {
         label: "How to Apply",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
+        href: "/under-construction",
       },
       {
         label: "After You Apply",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/after-you-apply",
+        href: "/under-construction",
       },
     ],
   },
@@ -80,7 +78,7 @@ const content = [
           },
           {
             type: "a-internal",
-            href: "/",
+            href: "/under-construction",
             children: "Residential Tenancy Branch",
           },
           {
@@ -248,8 +246,8 @@ const content = [
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/",
       backLabel: "Overview",
       forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
-      forwardLabel: "Before You Apply",
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-pay",
+      forwardLabel: "How to Pay",
     },
   },
   {
@@ -333,7 +331,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

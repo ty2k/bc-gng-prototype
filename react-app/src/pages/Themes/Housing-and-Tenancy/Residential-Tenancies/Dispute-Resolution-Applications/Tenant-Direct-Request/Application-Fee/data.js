@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -268,7 +268,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Application to Waive Filing Fee (PDF)",
       },
     ],
@@ -290,7 +290,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Application to Waive Filing Fee (PDF)",
       },
       {
@@ -444,7 +444,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

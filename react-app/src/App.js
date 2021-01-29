@@ -12,6 +12,7 @@ import News from "./pages/News";
 import PublicEngagements from "./pages/PublicEngagements";
 import JobsHR from "./pages/JobsHR";
 import Contact from "./pages/Contact";
+import UnderConstruction from "./pages/Under-Construction";
 
 // Residential Tenancy Branch pages
 import HousingAndTenancy from "./pages/Themes/Housing-and-Tenancy";
@@ -835,6 +836,12 @@ function App() {
         title={"Contact Us"}
         breadcrumbs={[]}
         content={<Contact />}
+      />
+      <PrivateRoute
+        path={"/under-construction"}
+        title={"Under Construction"}
+        breadcrumbs={[]}
+        content={<UnderConstruction />}
       />
       <PrivateRoute title={""} breadcrumbs={[]} content={<Home />} />
     </Switch>

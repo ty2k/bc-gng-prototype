@@ -34,19 +34,19 @@ const sections = [
         title: "View or Modify an Existing Application",
         links: [
           {
-            href: "",
+            href: "/under-construction",
             label: "Amend or Update an Application",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Make a Cross Application",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Join Applications",
           },
           {
-            href: "",
+            href: "/under-construction",
             label: "Withdraw an Application",
           },
         ],

@@ -20,15 +20,15 @@ const content = [
       },
       {
         label: "Employment Standards Regulations",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Definitions",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Keyword Index",
-        href: "",
+        href: "/under-construction",
       },
       {
         label: "Appendices",
@@ -122,7 +122,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 1 Definitions",
       },
     ],
@@ -132,7 +132,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 2 Purposes of this Act",
       },
     ],
@@ -142,7 +142,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 3 Scope of this Act",
       },
     ],
@@ -152,7 +152,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 4 Requirements of this Act cannot be waived",
       },
     ],
@@ -162,7 +162,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 5 Promoting awareness of employment standards",
       },
     ],
@@ -172,7 +172,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 6 Informing employees of their rights",
       },
     ],
@@ -182,7 +182,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 7 Repealed (B.C. Reg. 431/03)",
       },
     ],
@@ -206,7 +206,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 8 No False Representations ",
       },
     ],
@@ -216,7 +216,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 9 Hiring children",
       },
     ],
@@ -226,7 +226,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 10 No charge for hiring or providing information",
       },
     ],
@@ -236,7 +236,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 11 No fees to other persons",
       },
     ],
@@ -246,7 +246,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 12 Employment and talent agencies must be licensed",
       },
     ],
@@ -256,7 +256,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 13 Farm labour contractors must be licensed",
       },
     ],
@@ -266,7 +266,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "Section 14 Written employment contract required for domestics",
       },
@@ -277,7 +277,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "Section 15 Register of employees working in residences",
       },
     ],

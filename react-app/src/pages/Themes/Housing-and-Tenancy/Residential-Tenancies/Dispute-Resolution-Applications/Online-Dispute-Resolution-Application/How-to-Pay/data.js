@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply Online",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -37,13 +37,11 @@ const content = [
       },
       {
         label: "How to Apply",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
+        href: "/under-construction",
       },
       {
         label: "After You Apply",
-        href:
-          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/after-you-apply",
+        href: "/under-construction",
       },
     ],
   },
@@ -280,7 +278,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Application to Waive Filing Fee (PDF)",
       },
     ],
@@ -368,8 +366,7 @@ const content = [
       backHref:
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
       backLabel: "Before You Apply",
-      forwardHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
+      forwardHref: "/under-construction",
       forwardLabel: "How to Apply",
     },
   },
@@ -454,7 +451,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

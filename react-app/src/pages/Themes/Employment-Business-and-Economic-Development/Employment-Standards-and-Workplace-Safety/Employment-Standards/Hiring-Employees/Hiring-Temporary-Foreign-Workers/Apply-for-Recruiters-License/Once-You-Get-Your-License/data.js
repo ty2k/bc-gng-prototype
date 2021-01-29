@@ -14,7 +14,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply Online",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -29,13 +29,11 @@ const content = [
       },
       {
         label: "Pay the Security Bond",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/pay-the-security-bond",
+        href: "/under-construction",
       },
       {
         label: "Register to Hire Foreign Workers",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/register-to-hire-foreign-workers",
+        href: "/under-construction",
       },
       {
         label: "Once You Get Your License",
@@ -44,8 +42,7 @@ const content = [
       },
       {
         label: "Renewing Your License",
-        href:
-          "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license/once-you-get-your-license/renewing-your-license",
+        href: "/under-construction",
       },
     ],
   },
@@ -101,7 +98,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "See the list of licensed TFW recruiters",
       },
     ],
@@ -134,7 +131,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "Obligations for Partners, Affiliates and Agents of Recruiters Licensed in B.C. (PDF, 498 KB)",
       },
@@ -358,9 +355,9 @@ const content = [
   {
     type: "back-forward-button-pair",
     args: {
-      backHref: "/",
+      backHref: "/under-construction",
       backLabel: "The Review Process",
-      forwardHref: "/",
+      forwardHref: "/under-construction",
       forwardLabel: "Apply Online",
     },
   },
