@@ -81,7 +81,7 @@ const content = [
           },
           {
             type: "a-internal",
-            href: "/",
+            href: "/under-construction",
             children: "Dispute resolution",
           },
           {
@@ -191,7 +191,7 @@ const content = [
                       },
                       {
                         type: "a-internal",
-                        href: "/",
+                        href: "/under-construction",
                         children: "See the process required for landlords",
                       },
                     ],
@@ -249,7 +249,7 @@ const content = [
           },
           {
             type: "a-internal",
-            href: "/",
+            href: "/under-construction",
             children: "Apply for permission to change the locks",
           },
         ],
@@ -311,7 +311,7 @@ const content = [
           },
           {
             type: "a-internal",
-            href: "/",
+            href: "/under-construction",
             children: "can apply for dispute resolution",
           },
           {
@@ -449,7 +449,7 @@ const content = [
               },
               {
                 type: "a-internal",
-                href: "/",
+                href: "/under-construction",
                 children: "Apply for permission to change the locks",
               },
             ],
@@ -501,7 +501,7 @@ const content = [
               },
               {
                 type: "a-internal",
-                href: "/",
+                href: "/under-construction",
                 children: "can apply for dispute resolution",
               },
               {
@@ -572,7 +572,7 @@ const content = [
               },
               {
                 type: "a-internal",
-                href: "/",
+                href: "/under-construction",
                 children: "See the process required for landlords",
               },
             ],
@@ -673,7 +673,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

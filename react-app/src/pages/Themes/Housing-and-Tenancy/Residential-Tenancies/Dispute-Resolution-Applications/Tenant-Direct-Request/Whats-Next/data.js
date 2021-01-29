@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -208,7 +208,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Service BC Office",
       },
       {
@@ -217,7 +217,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Residential Tenancy Branch Office in Burnaby",
       },
     ],
@@ -300,7 +300,7 @@ const content = [
     children: [
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "Read more about serving and enforcing orders",
       },
     ],
@@ -426,7 +426,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],

@@ -17,7 +17,7 @@ const content = [
     type: "stepped-guide",
     callToAction: {
       label: "Apply",
-      href: "",
+      href: "/under-construction",
     },
     children: [
       {
@@ -160,7 +160,7 @@ const content = [
     type: "button-link",
     children: "Try the Online Calculators",
     external: false,
-    href: "/",
+    href: "/under-construction",
     primary: true,
   },
   {
@@ -259,7 +259,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "form RTB-40",
       },
       {
@@ -277,7 +277,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "form RTB-47",
       },
       {
@@ -297,7 +297,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/",
+        href: "/under-construction",
         children: "form RTB-41",
       },
       {
@@ -427,7 +427,7 @@ const content = [
         type: "button-link",
         children: "Contact the Branch",
         external: false,
-        href: "/",
+        href: "/under-construction",
         primary: true,
       },
     ],
