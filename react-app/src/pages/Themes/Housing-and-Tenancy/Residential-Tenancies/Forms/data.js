@@ -80,6 +80,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for Internet Explorer",
@@ -123,6 +124,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-1",
                     },
@@ -142,6 +144,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for other browsers",
@@ -185,6 +188,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-1C",
                     },
@@ -246,6 +250,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-2",
                     },
@@ -265,6 +270,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "Manufactured Home Site Tenancy Agreement",
                     },
@@ -307,6 +313,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-5",
                     },
@@ -326,6 +333,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "Request for Correction",
                     },
@@ -368,6 +376,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-6",
                     },
@@ -387,6 +396,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Notice of Rent Increase - Residential Rental Units",
@@ -444,6 +454,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-7",
                     },
@@ -463,6 +474,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "Mutual Agreement to End a Tenancy",
                     },
@@ -505,6 +517,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-8",
                     },
@@ -524,6 +537,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Notice of Rent Increase - Residential Rental Units",
@@ -581,6 +595,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-7",
                     },
@@ -600,6 +615,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "Proof of Service Notice of Expedited Hearing",
                     },
@@ -642,6 +658,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-9",
                     },
@@ -661,6 +678,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement",
@@ -704,6 +722,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-10",
                     },
@@ -723,6 +742,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version)",
@@ -822,6 +842,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-11A",
                     },
@@ -841,6 +862,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Landlord Application for Dispute Resolution - Current Tenancy",
@@ -884,6 +906,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-12L-CT",
                     },
@@ -903,6 +926,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Landlord Application for Dispute Resolution - Past Tenancy",
@@ -946,6 +970,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-12L-PT",
                     },
@@ -965,6 +990,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Tenant Application for Dispute Resolution - Current Tenancy",
@@ -1008,6 +1034,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-12T-CT",
                     },
@@ -1027,6 +1054,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children:
                         "Tenant Application for Dispute Resolution - Past Tenancy",
@@ -1070,6 +1098,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "RTB-12T-PT",
                     },
