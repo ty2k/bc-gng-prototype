@@ -80,7 +80,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for Internet Explorer",
                     },
@@ -123,7 +123,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "RTB-1",
                     },
                   ],
@@ -142,7 +142,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for other browsers",
                     },
@@ -185,7 +185,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "RTB-1C",
                     },
                   ],
@@ -204,7 +204,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "Application for Review Consideration",
                     },
                   ],
@@ -246,7 +246,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "RTB-2",
                     },
                   ],
@@ -265,7 +265,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "Manufactured Home Site Tenancy Agreement",
                     },
                   ],
@@ -307,7 +307,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "RTB-5",
                     },
                   ],
@@ -326,7 +326,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "Request for Correction",
                     },
                   ],
@@ -368,7 +368,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "RTB-6",
                     },
                   ],
