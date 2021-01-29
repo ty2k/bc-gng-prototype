@@ -57,7 +57,10 @@ function SearchBar({ parentCallback, placeHolder }) {
 
   function onChangeHandler(event) {
     setInputValue(event.target.value);
-    parentCallback(event.target.value);
+
+    if (parentCallback) {
+      parentCallback(event.target.value);
+    }
   }
 
   return (
