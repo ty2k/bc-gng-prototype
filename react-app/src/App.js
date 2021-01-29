@@ -400,7 +400,7 @@ function App() {
         breadcrumbs={[]}
         content={<HousingAndTenancy />}
         parentHref={"/themes"}
-        parentTitle={"Themes"}
+        parentTitle={"Topics"}
       />
 
       {/* Employment Standards Branch pages */}
@@ -805,11 +805,11 @@ function App() {
         breadcrumbs={[]}
         content={<EmploymentBusinessAndEconomicDevelopment />}
         parentHref={"/themes"}
-        parentTitle={"Themes"}
+        parentTitle={"Topics"}
       />
       <PrivateRoute
         path={"/themes"}
-        title={"Themes"}
+        title={"Topics"}
         breadcrumbs={[]}
         content={<Themes />}
       />

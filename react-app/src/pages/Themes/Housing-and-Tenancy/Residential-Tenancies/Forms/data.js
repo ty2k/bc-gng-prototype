@@ -80,7 +80,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for Internet Explorer",
                     },
@@ -123,7 +124,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "RTB-1",
                     },
                   ],
@@ -142,7 +144,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children:
                         "Residential Tenancy Agreement for other browsers",
                     },
@@ -185,7 +188,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "RTB-1C",
                     },
                   ],
@@ -204,7 +208,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      href: "/under-construction",
                       children: "Application for Review Consideration",
                     },
                   ],
@@ -246,7 +250,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "RTB-2",
                     },
                   ],
@@ -265,7 +270,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "Manufactured Home Site Tenancy Agreement",
                     },
                   ],
@@ -307,7 +313,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "RTB-5",
                     },
                   ],
@@ -326,7 +333,8 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "Request for Correction",
                     },
                   ],
@@ -368,8 +376,731 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
-                      href: "/",
+                      style: "strong",
+                      href: "/under-construction",
                       children: "RTB-6",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Notice of Rent Increase - Residential Rental Units",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 1.7 MB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-7",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Landlords must use this form to notify tenants of rent increases.",
+                        },
+                      ],
+                    },
+                    {
+                      type: "br",
+                    },
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          style: "strong",
+                          children:
+                            "***Due to the State of Emergency the rent increase will not come into effect until July 10, 2021.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-7",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "Mutual Agreement to End a Tenancy",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Apr-19) (PDF, 539 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-8",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Use this form when both parties agree to end a tenancy.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-8",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Notice of Rent Increase - Residential Rental Units",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 1.7 MB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-7",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Landlords must use this form to notify tenants of rent increases.",
+                        },
+                      ],
+                    },
+                    {
+                      type: "br",
+                    },
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          style: "strong",
+                          children:
+                            "***Due to the State of Emergency the rent increase will not come into effect until July 10, 2021.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-7",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "Proof of Service Notice of Expedited Hearing",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: May-19) (PDF, 586 B)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-9",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "This document is used to prove service of the Expedited Hearing Proceeding Package.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-9",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Sept-14) (PDF)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-10",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Manufactured home owners can use this form to request the park owner’s consent to assign your site tenancy agreement to the purchaser of your manufactured home.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-10",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version)",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(PDF, 282 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-11A",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Manufactured home park landlords must use this form to notify tenants of rent increases above the standard amount.",
+                        },
+                      ],
+                    },
+                    {
+                      type: "ul",
+                      children: [
+                        {
+                          type: "li",
+                          children: [
+                            {
+                              type: "text",
+                              children:
+                                "Check the bottom of page one of form RTB-11A to be sure that you have the correct version (if an older version shows, clear your browser cache)",
+                            },
+                          ],
+                        },
+                        {
+                          type: "li",
+                          children: [
+                            {
+                              type: "text",
+                              children:
+                                "Please note that RTB-11A is only compatible with Internet Explorer and Google Chrome browsers.",
+                            },
+                          ],
+                        },
+                        {
+                          type: "li",
+                          children: [
+                            {
+                              type: "text",
+                              children:
+                                "The form will not work with FireFox or Microsoft Edge.*",
+                            },
+                          ],
+                        },
+                        {
+                          type: "li",
+                          children: [
+                            {
+                              type: "text",
+                              children:
+                                "Please ensure you have an updated version of either Internet Explorer or Google Chrome downloaded in order to properly view and use the form.",
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          style: "strong",
+                          children:
+                            "***Due to the State of Emergency the rent increase will not come into effect until July 10, 2021.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-11A",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Landlord Application for Dispute Resolution - Current Tenancy",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 978 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-12l-ct",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Landlords with tenants who are currently living in the unit can use this form to apply for dispute resolution in order to resolve a residential tenancy dispute.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-12L-CT",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Landlord Application for Dispute Resolution - Past Tenancy",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 976 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-12l-pt",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Landlords with tenants who are no longer living in the unit can use this form to apply for dispute resolution in order to resolve a residential tenancy dispute.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-12L-PT",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Tenant Application for Dispute Resolution - Current Tenancy",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 1250 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-12t-ct",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Tenants who are currently living in the unit where the dispute took place can use this form to apply for dispute resolution in order to resolve a residential tenancy dispute.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-12T-CT",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              align: "left",
+              children: [
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children:
+                        "Tenant Application for Dispute Resolution - Past Tenancy",
+                    },
+                  ],
+                },
+                {
+                  type: "p",
+                  children: [
+                    {
+                      type: "text",
+                      children: "(Last Updated: Jan-21) (PDF, 1250 KB)",
+                    },
+                  ],
+                },
+                {
+                  type: "more-info",
+                  id: "more-info-form-rtb-12t-pt",
+                  label: "More",
+                  children: [
+                    {
+                      type: "p",
+                      children: [
+                        {
+                          type: "text",
+                          children:
+                            "Tenants who no longer live in the unit where the dispute started can use this form to apply for dispute resolution in order to resolve a residential tenancy dispute.",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              align: "center",
+              children: [
+                {
+                  type: "p",
+                  style: "strong",
+                  children: [
+                    {
+                      type: "a-internal",
+                      style: "strong",
+                      href: "/under-construction",
+                      children: "RTB-12T-PT",
                     },
                   ],
                 },
@@ -379,6 +1110,9 @@ const content = [
         },
       ],
     },
+  },
+  {
+    type: "br",
   },
 ];
 

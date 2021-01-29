@@ -97,7 +97,9 @@ function buildHtmlElement(
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           href={href}
         >
-          {sanitize(children)}
+          {style && style === "strong" && <strong>{sanitize(children)}</strong>}
+          {style && style === "em" && <em>{sanitize(children)}</em>}
+          {(style && style === "normal") || (!style && sanitize(children))}
         </a>
       );
     case "a-internal":
@@ -106,7 +108,9 @@ function buildHtmlElement(
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           to={href}
         >
-          {sanitize(children)}
+          {style && style === "strong" && <strong>{sanitize(children)}</strong>}
+          {style && style === "em" && <em>{sanitize(children)}</em>}
+          {(style && style === "normal") || (!style && sanitize(children))}
         </Link>
       );
     case "br":

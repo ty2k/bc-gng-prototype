@@ -49,6 +49,7 @@ const StyledTable = styled.table`
 const StyledFilters = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 `;
 
@@ -168,6 +169,10 @@ const StyledRadioFilterGroup = styled.form`
   display: inline-block;
   margin: 0 0 40px 0;
 
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+
   fieldset {
     border: none;
     margin: 0;
@@ -192,7 +197,14 @@ const StyledRadioFilterGroup = styled.form`
         border-radius: 10px;
         display: inline-block;
         text-align: center;
-        min-width: 130px;
+
+        @media (min-width: 576px) {
+          min-width: 130px;
+        }
+
+        @media (max-width: 575px) {
+          width: 100%;
+        }
 
         input[type="radio"] {
           display: none;

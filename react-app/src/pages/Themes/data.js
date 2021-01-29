@@ -2,7 +2,7 @@ const sections = [
   {
     id: "themes",
     title: "",
-    seeMoreLabel: "See More Themes",
+    seeMoreLabel: "See More Topics",
     cards: [
       {
         title: "Health",

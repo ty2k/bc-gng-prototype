@@ -380,7 +380,7 @@ Header.defaultProps = {
       href: "/services",
     },
     {
-      text: "Themes",
+      text: "Topics",
       href: "/themes",
     },
     {

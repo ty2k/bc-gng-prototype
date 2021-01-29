@@ -154,6 +154,7 @@ const SearchButton = styled.button`
 function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
   const inputRef = useRef(null);
 
+  // When SlideOutMenu opens, transfer focus to the SearchBar input
   useEffect(() => {
     inputRef.current.focus();
   }, []);
@@ -183,11 +184,14 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
             return (
               <li key={`slide-out-menu-li-${index}`}>
                 {external ? (
-                  <a href={href}>{text}</a>
+                  <a href={href} onClick={toggleSlideOutMenu}>
+                    {text}
+                  </a>
                 ) : (
                   <NavLink
                     to={href}
                     activeClassName="slide-out-menu-li-navlink"
+                    onClick={toggleSlideOutMenu}
                   >
                     <div className="slide-out-menu-li-navlink-arrow-body"></div>
                     <div className="slide-out-menu-li-navlink-arrow-head"></div>
@@ -197,7 +201,7 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
               </li>
             );
           })}
-          <li className="li--slide-out-menu-user-action">
+          {/* <li className="li--slide-out-menu-user-action">
             <PersonIcon />
             Login
           </li>
@@ -205,7 +209,7 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
           <li className="li--slide-out-menu-user-action li--slide-out-menu-language">
             <LanguageIcon />
             English
-          </li>
+          </li> */}
         </ul>
         {alertMessages?.length > 0 &&
           alertMessages.map((alertMessage, index) => {
