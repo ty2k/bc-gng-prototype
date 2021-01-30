@@ -50,6 +50,17 @@ const StyledCard = styled.div`
       margin: 0;
     }
 
+    a {
+      h3 {
+        color: #313132;
+
+        &:hover {
+          color: blue;
+          text-decoration: underline;
+        }
+      }
+    }
+
     svg {
       color: #313132;
       display: inline-block;
@@ -81,18 +92,6 @@ const StyledCard = styled.div`
   }
 `;
 
-const StyledCardAnchorLink = styled.a`
-  color: inherit;
-  display: inherit;
-  text-decoration: inherit;
-`;
-
-const StyledCardRouterLink = styled(Link)`
-  color: inherit;
-  display: inherit;
-  text-decoration: inherit;
-`;
-
 const StyledSeeMoreButton = styled.button`
   background: none;
   border: 0;
@@ -114,13 +113,6 @@ const StyledSeeMoreButton = styled.button`
   }
 `;
 
-function CardAnchorLink({ href, children }) {
-  return <StyledCardAnchorLink href={href}>{children}</StyledCardAnchorLink>;
-}
-
-function CardRouterLink({ href, children }) {
-  return <StyledCardRouterLink to={href}>{children}</StyledCardRouterLink>;
-}
 function Card({
   icon,
   title,
@@ -148,87 +140,58 @@ function Card({
     }
   }
 
-  if (cardLink && cardLink.external === true) {
+  function getTitle(title) {
     return (
-      <CardAnchorLink href={cardLink.href}>
-        <StyledCard className={hidden && "card--hidden"}>
-          <div className="card--icon-title">
-            {icon && <Icon id={icon} />}
-            {title && (
-              <h3>
-                <Highlighter
-                  highlightClassName="text--highlighted"
-                  searchWords={[highlightText]}
-                  autoEscape={true}
-                  textToHighlight={title}
-                />
-              </h3>
-            )}
-            <Icon id="external-link-alt-solid.svg" />
-          </div>
-          {description && getDescMarkup(description)}
-        </StyledCard>
-      </CardAnchorLink>
-    );
-  } else if (cardLink && cardLink.external === false) {
-    return (
-      <CardRouterLink href={cardLink.href}>
-        <StyledCard className={hidden && "card--hidden"}>
-          <div className="card--icon-title">
-            {icon && <Icon id={icon} />}
-            {title && (
-              <h3>
-                <Highlighter
-                  highlightClassName="text--highlighted"
-                  searchWords={[highlightText]}
-                  autoEscape={true}
-                  textToHighlight={title}
-                />
-              </h3>
-            )}
-          </div>
-          {description && getDescMarkup(description)}
-        </StyledCard>
-      </CardRouterLink>
-    );
-  } else {
-    return (
-      <StyledCard className={hidden && "card--hidden"}>
-        <div className="card--icon-title">
-          {icon && <Icon id={icon} />}
-          {title && (
-            <h3>
-              <Highlighter
-                highlightClassName="text--highlighted"
-                searchWords={[highlightText]}
-                autoEscape={true}
-                textToHighlight={title}
-              />
-            </h3>
-          )}
-        </div>
-        {description && getDescMarkup(description)}
-        {links && links.length > 0 && (
-          <ul>
-            {links.map((link, index) => {
-              return (
-                <li key={`li-${index}`}>
-                  {link.external ? (
-                    <>
-                      <a href={link.href}>{link.label}</a>
-                      <Icon id={"external-link-alt-solid.svg"} />
-                    </>
-                  ) : (
-                    <Link to={link.href}>{link.label}</Link>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </StyledCard>
+      <h3>
+        <Highlighter
+          highlightClassName="text--highlighted"
+          searchWords={[highlightText]}
+          autoEscape={true}
+          textToHighlight={title}
+        />
+      </h3>
     );
   }
+
+  return (
+    <StyledCard className={hidden && "card--hidden"}>
+      <div className="card--icon-title">
+        {icon && <Icon id={icon} />}
+        {title &&
+          (cardLink ? (
+            cardLink.external ? (
+              <a href={cardLink.href}>
+                {title && getTitle(title)}
+                <Icon id="external-link-alt-solid.svg" />
+              </a>
+            ) : (
+              <Link to={cardLink.href}>{title && getTitle(title)}</Link>
+            )
+          ) : (
+            getTitle(title)
+          ))}
+      </div>
+      {description && getDescMarkup(description)}
+      {links?.length > 0 && (
+        <ul>
+          {links.map((link, index) => {
+            return (
+              <li key={`li-${index}`}>
+                {link.external ? (
+                  <>
+                    <a href={link.href}>{link.label}</a>
+                    <Icon id={"external-link-alt-solid.svg"} />
+                  </>
+                ) : (
+                  <Link to={link.href}>{link.label}</Link>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </StyledCard>
+  );
 }
 
 function SeeMoreButton({ children, onClick }) {
