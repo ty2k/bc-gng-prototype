@@ -8,30 +8,33 @@ const sections = [
     cards: [
       {
         title: "Hiring Employees",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/",
+          external: false,
+        },
         links: [
           {
             href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-domestic-workers",
             label: "Domestic workers",
           },
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            href: "/under-construction",
             label: "Farm Workers",
           },
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+            href: "/under-construction",
             label: "Siviculture Workers",
           },
           {
             href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
             label: "Temporary Foreign Workers",
           },
           {
             href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees",
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-young-people",
             label: "Young People",
           },
         ],
@@ -135,28 +138,41 @@ const sections = [
       },
       {
         title: "Forms & Resources",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+          external: false,
+        },
         links: [
           {
             href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources/guide-to-the-employment-standards-act",
             label: "Guide to the Employment Standards Act and Regulation",
           },
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+            href: "/under-construction",
             label: "Education Seminars",
           },
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources",
+            href: "/under-construction",
             label: "Due diligence searches",
           },
         ],
       },
       {
         title: "Specific Industries",
-        description:
-          "Find guidance, standards and regulations based on the industry and type of worker",
+        description: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Find guidance, standards and regulations based on the industry and type of worker",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Licensing",
@@ -184,20 +200,60 @@ const sections = [
     cards: [
       {
         title: "Make a Complaint",
-        description: "Submit a complaint to resolve a problem at work",
+        description: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Submit a complaint to resolve a problem at work",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Ask a Question",
-        description:
-          "Ask a question or get help with an issue you’re having at work.",
+        description: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Ask a question or get help with an issue you’re having at work.",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Register a Domestic Worker",
-        description: "Follow the steps in registering a domestic worker",
+        description: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Follow the steps in registering a domestic worker",
+              },
+            ],
+          },
+        ],
       },
       {
         title: "Apply for a temporary foreign worker recruiter’s license",
-        description: "Follow the steps to apply for a recruiter’s license",
+        description: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Follow the steps to apply for a recruiter’s license",
+              },
+            ],
+          },
+        ],
         cardLink: {
           href:
             "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
