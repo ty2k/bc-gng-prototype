@@ -61,17 +61,21 @@ const sections = [
       {
         title: "Employment, Business & Economic Development",
         icon: "material-work.svg",
+        cardLink: {
+          href: "/themes/employment-business-and-economic-development/",
+          external: false,
+        },
         links: [
           {
-            href: "/themes/employment-business-and-economic-development/",
+            href: "/under-construction",
             label: "Financial Supports for COVID-19",
           },
           {
-            href: "/themes/employment-business-and-economic-development/",
+            href: "/under-construction",
             label: "Economic Development",
           },
           {
-            href: "/themes/employment-business-and-economic-development/",
+            href: "/under-construction",
             label: "Funding & Grants Changes for Societies",
           },
         ],
@@ -129,17 +133,21 @@ const sections = [
       {
         title: "Housing & Tenancy",
         icon: "home-solid.svg",
+        cardLink: {
+          href: "/themes/housing-and-tenancy",
+          external: false,
+        },
         links: [
           {
-            href: "/themes/housing-and-tenancy",
+            href: "/themes/housing-and-tenancy/residential-tenancies",
             label: "Renting a Home",
           },
           {
-            href: "/themes/housing-and-tenancy",
+            href: "/under-construction",
             label: "Living in a Strata",
           },
           {
-            href: "/themes/housing-and-tenancy",
+            href: "/under-construction",
             label: "Home Owner Grant",
           },
         ],
