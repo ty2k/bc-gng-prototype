@@ -85,6 +85,26 @@ function Table({ data, id }) {
     }
   }
 
+  // Check if the given table row should be displayed based on filterConfig
+  function checkFilter(row) {
+    const keys = Object.keys(filterConfig);
+    let pass = [];
+
+    for (const key in keys) {
+      if (row.filter && keys[key] in row.filter) {
+        if (row.filter[keys[key]].indexOf(filterConfig[keys[key]]) !== -1) {
+          pass.push(true);
+        } else {
+          pass.push(false);
+        }
+      } else {
+        pass.push(false);
+      }
+    }
+
+    return pass.indexOf(false) === -1;
+  }
+
   return (
     <>
       <StyledFilters>
@@ -134,30 +154,34 @@ function Table({ data, id }) {
         <tbody>
           {data?.tbody?.length > 0 &&
             data.tbody.map((row, rowIndex) => {
-              return (
-                <tr key={`table-${id}-tbody-row-${rowIndex}`}>
-                  {row?.cols?.length > 0 &&
-                    row.cols.map((col, colIndex) => {
-                      return (
-                        <td
-                          key={`table-${id}-tbody-row-${rowIndex}-col-${colIndex}`}
-                          style={{
-                            textAlign: `${col.align}`,
-                          }}
-                        >
-                          {col?.children?.length > 0 &&
-                            col.children.map((elem, elemIndex) => {
-                              return textService.buildHtmlElement(
-                                elem,
-                                rowIndex,
-                                elemIndex
-                              );
-                            })}
-                        </td>
-                      );
-                    })}
-                </tr>
-              );
+              if (checkFilter(row)) {
+                return (
+                  <tr key={`table-${id}-tbody-row-${rowIndex}`}>
+                    {row?.cols?.length > 0 &&
+                      row.cols.map((col, colIndex) => {
+                        return (
+                          <td
+                            key={`table-${id}-tbody-row-${rowIndex}-col-${colIndex}`}
+                            colSpan={col?.colspan || 1}
+                            style={{
+                              textAlign: `${col.align}`,
+                            }}
+                          >
+                            {col?.children?.length > 0 &&
+                              col.children.map((elem, elemIndex) => {
+                                return textService.buildHtmlElement(
+                                  elem,
+                                  rowIndex,
+                                  elemIndex
+                                );
+                              })}
+                          </td>
+                        );
+                      })}
+                  </tr>
+                );
+              }
+              return null;
             })}
         </tbody>
       </StyledTable>

@@ -71,6 +71,10 @@ const content = [
       },
       tbody: [
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -135,6 +139,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -199,6 +207,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -208,6 +220,7 @@ const content = [
                   children: [
                     {
                       type: "a-internal",
+                      style: "strong",
                       href: "/under-construction",
                       children: "Application for Review Consideration",
                     },
@@ -261,6 +274,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -324,6 +341,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -387,6 +408,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -465,6 +490,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -528,84 +557,10 @@ const content = [
           ],
         },
         {
-          cols: [
-            {
-              align: "left",
-              children: [
-                {
-                  type: "p",
-                  children: [
-                    {
-                      type: "a-internal",
-                      style: "strong",
-                      href: "/under-construction",
-                      children:
-                        "Notice of Rent Increase - Residential Rental Units",
-                    },
-                  ],
-                },
-                {
-                  type: "p",
-                  children: [
-                    {
-                      type: "text",
-                      children: "(Last Updated: Jan-21) (PDF, 1.7 MB)",
-                    },
-                  ],
-                },
-                {
-                  type: "more-info",
-                  id: "more-info-form-rtb-7",
-                  label: "More",
-                  children: [
-                    {
-                      type: "p",
-                      children: [
-                        {
-                          type: "text",
-                          children:
-                            "Landlords must use this form to notify tenants of rent increases.",
-                        },
-                      ],
-                    },
-                    {
-                      type: "br",
-                    },
-                    {
-                      type: "p",
-                      children: [
-                        {
-                          type: "text",
-                          style: "strong",
-                          children:
-                            "***Due to the State of Emergency the rent increase will not come into effect until July 10, 2021.",
-                        },
-                      ],
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              align: "center",
-              children: [
-                {
-                  type: "p",
-                  style: "strong",
-                  children: [
-                    {
-                      type: "a-internal",
-                      style: "strong",
-                      href: "/under-construction",
-                      children: "RTB-7",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-        {
+          filter: {
+            "sort-forms-for": ["all", "landlords", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -669,6 +624,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -733,6 +692,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -853,6 +816,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -917,6 +884,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "landlords"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -981,6 +952,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
@@ -1045,6 +1020,10 @@ const content = [
           ],
         },
         {
+          filter: {
+            "sort-forms-for": ["all", "tenants"],
+            "view-forms-by": ["list"],
+          },
           cols: [
             {
               align: "left",
