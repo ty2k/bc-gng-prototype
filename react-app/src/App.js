@@ -57,7 +57,7 @@ function App() {
       <PrivateRoute
         exact
         path="/"
-        title={"Homepage"}
+        title={""}
         breadcrumbs={[]}
         content={<Home />}
       />
