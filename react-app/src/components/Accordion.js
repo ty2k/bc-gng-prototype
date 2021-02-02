@@ -29,11 +29,13 @@ const AccordionHeader = styled.div`
       font-size: 20px;
       font-weight: 700;
       margin: 0 12px;
+      text-align: left;
     }
 
     svg {
       display: inline-block;
       margin: 4px 18px;
+      min-width: 36px;
       width: 36px;
     }
   }
@@ -80,8 +82,8 @@ function Accordion({ expanded = false, id, title, children }) {
       </AccordionHeader>
       <AccordionBody className={open ? "open" : "closed"}>
         {children &&
-          children.map((element) => {
-            return textService.buildHtmlElement(element);
+          children.map((element, index) => {
+            return textService.buildHtmlElement(element, index);
           })}
       </AccordionBody>
     </StyledAccordion>
@@ -159,8 +161,8 @@ function MoreInfo({ id, children }) {
       </MoreInfoHeader>
       <MoreInfoBody className={open ? "open" : "closed"}>
         {children &&
-          children.map((element) => {
-            return textService.buildHtmlElement(element);
+          children.map((element, index) => {
+            return textService.buildHtmlElement(element, index);
           })}
       </MoreInfoBody>
     </StyledMoreInfo>
