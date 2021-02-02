@@ -53,13 +53,23 @@ const StyledFilters = styled.div`
   justify-content: space-between;
 `;
 
-function Table({ data, id }) {
+function TableGroup({ context = {}, data, id }) {
   const [sortConfig, setSortConfig] = useState(data?.sortConfig || {});
-  const [filterConfig, setFilterConfig] = useState(data?.filter?.initial || {});
+  const [filterConfig, setFilterConfig] = useState(
+    data?.filter?.initial || context?.filterConfig || {}
+  );
+  const [viewConfig, setViewConfig] = useState(
+    data?.view?.initial || context?.viewConfig || {}
+  );
 
-  // Callback to provide to RadioFilterGroup components to set state in Table
+  // Set the filterConfig state
   function handleFilter(id, value) {
     setFilterConfig({ ...filterConfig, [id]: value });
+  }
+
+  // Set the viewConfig state
+  function handleView(id, value) {
+    setViewConfig({ ...viewConfig, [id]: value });
   }
 
   // Sort ascending to start, switch to descending, and so on
@@ -105,23 +115,28 @@ function Table({ data, id }) {
     return pass.indexOf(false) === -1;
   }
 
-  return (
-    <>
-      <StyledFilters>
-        {data?.filter?.children?.length > 0 &&
-          data.filter.children.map((child, index) => {
-            return (
-              <RadioFilterGroup
-                key={`table-filter-group-${id}-${index}`}
-                parentCallback={handleFilter}
-                data={child.data}
-                id={child.id}
-                initial={data.filter.initial[child.id]}
-              />
-            );
-          })}
-      </StyledFilters>
+  // Check if the given table row should be displayed based on viewConfig
+  function checkView(table) {
+    const keys = Object.keys(viewConfig);
+    let pass = [];
 
+    for (const key in keys) {
+      if (table.view && keys[key] in table.view) {
+        if (table.view[keys[key]].indexOf(viewConfig[keys[key]]) !== -1) {
+          pass.push(true);
+        } else {
+          pass.push(false);
+        }
+      } else {
+        pass.push(false);
+      }
+    }
+
+    return pass.indexOf(false) === -1;
+  }
+
+  function getTable(id, data) {
+    return (
       <StyledTable id={id}>
         {/* Column headings are buttons that can be used to sort the table */}
         <thead>
@@ -168,11 +183,11 @@ function Table({ data, id }) {
                             }}
                           >
                             {col?.children?.length > 0 &&
-                              col.children.map((elem, elemIndex) => {
+                              col.children.map((cellElem, cellElemIndex) => {
                                 return textService.buildHtmlElement(
-                                  elem,
+                                  cellElem,
                                   rowIndex,
-                                  elemIndex
+                                  cellElemIndex
                                 );
                               })}
                           </td>
@@ -185,6 +200,59 @@ function Table({ data, id }) {
             })}
         </tbody>
       </StyledTable>
+    );
+  }
+
+  return (
+    <>
+      <StyledFilters>
+        {data?.filter?.children?.length > 0 &&
+          data.filter.children.map((child, index) => {
+            return (
+              <RadioFilterGroup
+                key={`table-filter-group-${id}-${index}`}
+                parentCallback={handleFilter}
+                data={child.data}
+                id={child.id}
+                initial={data.filter.initial[child.id]}
+              />
+            );
+          })}
+        {data?.view?.children?.length > 0 &&
+          data.view.children.map((child, index) => {
+            return (
+              <RadioFilterGroup
+                key={`table-view-group-${id}-${index}`}
+                parentCallback={handleView}
+                data={child.data}
+                id={child.id}
+                initial={data.view.initial[child.id]}
+              />
+            );
+          })}
+      </StyledFilters>
+
+      {data?.children?.length > 0 &&
+        data.children.map((childTable, tableIndex) => {
+          return (
+            <div key={`table-${id}-child-${tableIndex}`}>
+              {checkView(childTable) &&
+                childTable?.body?.length > 0 &&
+                childTable.body.map((elem) => {
+                  // Tables can be nested inside of Accordions
+                  if (elem?.type !== "table") {
+                    return (
+                      <Accordion id={elem.id} title={elem.title}>
+                        {getTable(elem.id, elem?.childTable?.data)}
+                      </Accordion>
+                    );
+                  } else {
+                    return getTable(elem.id, elem.data);
+                  }
+                })}
+            </div>
+          );
+        })}
     </>
   );
 }
@@ -295,4 +363,86 @@ function RadioFilterGroup({ id, data, initial, parentCallback }) {
   );
 }
 
-export default Table;
+const StyledAccordion = styled.div`
+  display: block;
+  margin-bottom: 5px;
+`;
+
+const AccordionHeader = styled.div`
+  background-color: #d1d1d1;
+  display: block;
+
+  button {
+    align-items: center;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    min-height: 44px;
+    padding: 0;
+    width: 100%;
+
+    h3 {
+      color: #313132;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 12px;
+      text-align: left;
+    }
+
+    svg {
+      display: inline-block;
+      margin: 4px 18px;
+      min-width: 36px;
+      width: 36px;
+    }
+  }
+`;
+
+const AccordionBody = styled.div`
+  background-color: white;
+  font-size: 18px;
+
+  &.closed {
+    display: none;
+  }
+
+  &.open {
+    display: block;
+  }
+`;
+
+// Full page-width accordion component which can be linked to on-page
+function Accordion({ expanded = false, id, title, children }) {
+  const hashFragment = window.location.href.split("#")[1];
+  const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
+
+  // The accordion should initially render as opened if explicitly set with
+  // `expanded`, or if it has been directly linked to with a hash parameter.
+  const [open, setOpen] = useState(expanded || directlyLinked);
+
+  function toggleOpen() {
+    setOpen(!open);
+  }
+
+  return (
+    <StyledAccordion id={id}>
+      <AccordionHeader>
+        <button onClick={toggleOpen}>
+          <h3>{title}</h3>
+          {open ? (
+            <Icon id={"ionic-ios-arrow-up.svg"} />
+          ) : (
+            <Icon id={"ionic-ios-arrow-down.svg"} />
+          )}
+        </button>
+      </AccordionHeader>
+      <AccordionBody className={open ? "open" : "closed"}>
+        {children}
+      </AccordionBody>
+    </StyledAccordion>
+  );
+}
+
+export default TableGroup;

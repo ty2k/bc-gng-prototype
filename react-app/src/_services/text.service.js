@@ -19,7 +19,7 @@ import RadioButtonGroup from "../components/RadioButtonContent";
 import SearchBar from "../components/SearchBar";
 import TabbedContent from "../components/TabbedContent";
 import TabbedPageNav from "../components/TabbedPageNav";
-import Table from "../components/Table";
+import TableGroup from "../components/TableGroup";
 import Wizard from "../components/Wizard";
 
 function sanitize(input) {
@@ -214,7 +214,7 @@ function buildHtmlElement(
     case "accordion":
       return (
         <Accordion
-          key={`${type}-${index}`}
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
           className={className}
           id={id}
           title={title}
@@ -351,9 +351,9 @@ function buildHtmlElement(
           children={children}
         />
       );
-    case "table":
+    case "table-group":
       return (
-        <Table
+        <TableGroup
           key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
           data={data}
           id={id}
