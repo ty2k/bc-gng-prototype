@@ -4,14 +4,18 @@ const sections = [
     cards: [
       {
         title: "Residential Tenancies",
+        cardLink: {
+          href: "/themes/housing-and-tenancy/residential-tenancies",
+          external: false,
+        },
         description: "Info and services for tenants and landlords.",
         links: [
           {
-            href: "/themes/housing-and-tenancy/residential-tenancies",
+            href: "/under-construction",
             label: "Tips for landlords & renters",
           },
           {
-            href: "/themes/housing-and-tenancy/residential-tenancies",
+            href: "/themes/housing-and-tenancy/residential-tenancies/forms",
             label: "Tenancy Agreements",
           },
         ],
