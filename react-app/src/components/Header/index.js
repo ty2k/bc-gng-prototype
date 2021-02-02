@@ -232,7 +232,7 @@ function Header({ alertMessages, navLinks, satellite, title }) {
             <>
               {navHidden ? (
                 <>
-                  <Link to="/">
+                  <Link to="/" title="Home">
                     <HLogo id="logo" className="logo hlogo" />
                   </Link>
                   <span className="span--title-pipe"></span>
@@ -240,7 +240,7 @@ function Header({ alertMessages, navLinks, satellite, title }) {
                 </>
               ) : (
                 <>
-                  <Link to="/">
+                  <Link to="/" title="Home">
                     <VLogo
                       id="logo"
                       className="logo vlogo"
@@ -255,7 +255,7 @@ function Header({ alertMessages, navLinks, satellite, title }) {
               )}
             </>
           ) : (
-            <Link to="/">
+            <Link to="/" title="Home">
               <HLogo id="logo" className="logo hlogo" />
             </Link>
           )}

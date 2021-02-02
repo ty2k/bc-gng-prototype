@@ -17,12 +17,14 @@ import { ReactComponent as dollarSignSolid } from "../components/assets/dollar-s
 import { ReactComponent as externalLinkAltSolid } from "../components/assets/external-link-alt-solid.svg";
 import { ReactComponent as handHoldingHeartSolid } from "../components/assets/hand-holding-heart-solid.svg";
 import { ReactComponent as handsSolid } from "../components/assets/hands-solid.svg";
+import { ReactComponent as handsUp } from "../components/assets/hands-up.svg";
 import { ReactComponent as heartSolid } from "../components/assets/heart-solid.svg";
 import { ReactComponent as homeSolid } from "../components/assets/home-solid.svg";
 import { ReactComponent as industrySolid } from "../components/assets/industry-solid.svg";
 import { ReactComponent as infoCircleSolid } from "../components/assets/info-circle-solid.svg";
 import { ReactComponent as ionicIosInfoCircle } from "../components/assets/ionic-ios-information-circle.svg";
 import { ReactComponent as ionicMdClose } from "../components/assets/ionic-md-close.svg";
+import { ReactComponent as ionicMdMegaphone } from "../components/assets/ionic-md-megaphone.svg";
 import { ReactComponent as ionicMdPerson } from "../components/assets/ionic-md-person.svg";
 import { ReactComponent as ionicIosArrowBack } from "../components/assets/ionic-ios-arrow-back.svg";
 import { ReactComponent as ionicIosArrowDown } from "../components/assets/ionic-ios-arrow-down.svg";
@@ -35,6 +37,7 @@ import { ReactComponent as localGovernment } from "../components/assets/local-go
 import { ReactComponent as mapIconsLawyer } from "../components/assets/map-icons-lawyer.svg";
 import { ReactComponent as materialAccessTime } from "../components/assets/material-access-time.svg";
 import { ReactComponent as materialWork } from "../components/assets/material-work.svg";
+import { ReactComponent as newspaperSolid } from "../components/assets/newspaper-solid.svg";
 import { ReactComponent as nounAntlers } from "../components/assets/noun-project-antlers.svg";
 import { ReactComponent as nounApartment } from "../components/assets/noun-project-apartment.svg";
 import { ReactComponent as nounCertificate } from "../components/assets/noun-project-certificate.svg";
@@ -67,12 +70,14 @@ const svgIcons = {
   "external-link-alt-solid.svg": externalLinkAltSolid,
   "hand-holding-heart-solid.svg": handHoldingHeartSolid,
   "hands-solid.svg": handsSolid,
+  "hands-up.svg": handsUp,
   "heart-solid.svg": heartSolid,
   "home-solid.svg": homeSolid,
   "industry-solid.svg": industrySolid,
   "info-circle-solid.svg": infoCircleSolid,
   "ionic-ios-information-circle.svg": ionicIosInfoCircle,
   "ionic-md-close.svg": ionicMdClose,
+  "ionic-md-megaphone.svg": ionicMdMegaphone,
   "ionic-md-person.svg": ionicMdPerson,
   "ionic-ios-arrow-back.svg": ionicIosArrowBack,
   "ionic-ios-arrow-down.svg": ionicIosArrowDown,
@@ -85,6 +90,7 @@ const svgIcons = {
   "map-icons-lawyer.svg": mapIconsLawyer,
   "material-access-time.svg": materialAccessTime,
   "material-work.svg": materialWork,
+  "newspaper-solid.svg": newspaperSolid,
   "noun-project-antlers.svg": nounAntlers,
   "noun-project-apartment.svg": nounApartment,
   "noun-project-certificate.svg": nounCertificate,
