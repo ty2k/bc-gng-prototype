@@ -6,6 +6,7 @@ import "./App.scss";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Logout from "./pages/Logout";
 import Services from "./pages/Services";
 import Themes from "./pages/Themes";
 import News from "./pages/News";
@@ -26,6 +27,7 @@ import DisputeResolutionApplications from "./pages/Themes/Housing-and-Tenancy/Re
 import OnlineDisputeResolutionApplication from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application";
 import ODRABeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/Before-You-Apply";
 import ODRAHowToPay from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Pay";
+import ODRAHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Apply";
 import TenantDirectRequest from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request";
 import TDRBeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Before-You-Apply";
 import TDRHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/How-to-Apply";
@@ -53,6 +55,9 @@ function App() {
     <Switch>
       <Route path="/login">
         <Login />
+      </Route>
+      <Route path="/logout">
+        <Logout />
       </Route>
       <PrivateRoute
         exact
@@ -184,6 +189,30 @@ function App() {
           },
         ]}
         content={<TenantDirectRequest />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply"
+        }
+        title={"Online Dispute Resolution Application"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<ODRAHowToApply />}
         parentHref={
           "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
         }

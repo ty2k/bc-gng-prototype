@@ -109,7 +109,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children: "consent from a parent or guardian (PDF, 30 KB)",
       },
       {
@@ -138,7 +138,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "Children in the Recorded Entertainment Industry - Part 7.1 Division 2",
       },
@@ -153,7 +153,7 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "",
+        href: "/under-construction",
         children:
           "Children in the Live Entertainment Industry - Part 7.1 Division 3",
       },

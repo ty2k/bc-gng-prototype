@@ -37,7 +37,8 @@ const content = [
       },
       {
         label: "How to Apply",
-        href: "/under-construction",
+        href:
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
       },
       {
         label: "After You Apply",

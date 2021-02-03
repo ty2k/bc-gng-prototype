@@ -8,6 +8,7 @@ import { ReactComponent as breadcrumbDivider } from "../components/assets/breadc
 import { ReactComponent as breadcrumbHead } from "../components/assets/breadcrumb-head.svg";
 import { ReactComponent as breadcrumbTail } from "../components/assets/breadcrumb-tail.svg";
 import { ReactComponent as carAltSolid } from "../components/assets/car-alt-solid.svg";
+import { ReactComponent as checkCircleSolid } from "../components/assets/check-circle-solid.svg";
 import { ReactComponent as chevronDownGold } from "../components/assets/chevron-down-gold.svg";
 import { ReactComponent as chevronDownSolid } from "../components/assets/chevron-down-solid.svg";
 import { ReactComponent as chevronLeftSolid } from "../components/assets/chevron-left-solid.svg";
@@ -61,6 +62,7 @@ const svgIcons = {
   "breadcrumb-head.svg": breadcrumbHead,
   "breadcrumb-tail.svg": breadcrumbTail,
   "car-alt-solid.svg": carAltSolid,
+  "check-circle-solid.svg": checkCircleSolid,
   "chevron-down-gold.svg": chevronDownGold,
   "chevron-down-solid.svg": chevronDownSolid,
   "chevron-left-solid.svg": chevronLeftSolid,
