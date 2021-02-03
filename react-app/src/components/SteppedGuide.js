@@ -43,6 +43,10 @@ const StyledNavTab = styled.div`
     min-height: 44px;
     text-decoration: none;
 
+    &:hover {
+      text-decoration: underline;
+    }
+
     // FontAwesome chevron-right-solid to indicate a page that can be opened
     span.span--navtab-chevron {
       content: "";
