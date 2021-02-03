@@ -68,6 +68,14 @@ const content = [
         id: "fee-waiver-for-tenants-with-low-income",
         label: "Fee Waiver for Tenants with Low Income",
       },
+      {
+        id: "related-services",
+        label: "Related Services",
+      },
+      {
+        id: "contact-the-rtb",
+        label: "Contact the Residential Tenancy Branch",
+      },
     ],
   },
   {
@@ -366,7 +374,8 @@ const content = [
       backHref:
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
       backLabel: "Before You Apply",
-      forwardHref: "/under-construction",
+      forwardHref:
+        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
       forwardLabel: "How to Apply",
     },
   },
@@ -374,10 +383,15 @@ const content = [
     type: "br",
   },
   {
+    type: "h2",
+    id: "related-services",
+    children: "Related Services",
+  },
+  {
     type: "navigation",
     children: [
       {
-        title: "Related Services",
+        title: "",
         cards: [
           {
             title: "Complete a Paper Application",
