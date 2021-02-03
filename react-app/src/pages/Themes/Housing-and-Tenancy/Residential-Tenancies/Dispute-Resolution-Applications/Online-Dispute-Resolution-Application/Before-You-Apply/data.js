@@ -55,8 +55,14 @@ const content = [
   },
   {
     type: "accordion",
-    id: "1-check-your-deadlines-and-calculations",
-    title: "1. Check Your Deadlines and Calculations",
+    id: "1-register-for-a-basic-bceid",
+    title: "1. Register for a Basic BCeID",
+    children: [],
+  },
+  {
+    type: "accordion",
+    id: "2-check-your-deadlines-and-calculations",
+    title: "2. Check Your Deadlines and Calculations",
     children: [
       {
         type: "p",
@@ -74,12 +80,12 @@ const content = [
           {
             type: "text",
             children:
-              "These calculators may be used for tenancies that fall under the Residential Tenancy Act. If your tenancy falls under the Manufactured Home Park Tenancy Act or if you are unsure which law governs your tenancy, please contact the ",
+              "These calculators may be used for tenancies that fall under the Residential Tenancy Act. If your tenancy falls under the Manufactured Home Park Tenancy Act or if you are unsure which law governs your tenancy, please ",
           },
           {
             type: "a-internal",
             href: "/under-construction",
-            children: "Residential Tenancy Branch",
+            children: "contact the Residential Tenancy Branch",
           },
           {
             type: "text",
@@ -214,26 +220,26 @@ const content = [
   },
   {
     type: "accordion",
-    id: "2-collect-the-right-evidence",
-    title: "2. Collect the Right Evidence",
+    id: "3-collect-the-right-evidence",
+    title: "3. Collect the Right Evidence",
     children: [],
   },
   {
     type: "accordion",
-    id: "3-digitize-your-evidence",
-    title: "3. Digitize Your Evidence",
+    id: "4-digitize-your-evidence",
+    title: "4. Digitize Your Evidence",
     children: [],
   },
   {
     type: "accordion",
-    id: "4-upload-evidence-in-the-right-format",
-    title: "4. Upload Evidence in the Right Format",
+    id: "5-upload-evidence-in-the-right-format",
+    title: "5. Upload Evidence in the Right Format",
     children: [],
   },
   {
     type: "accordion",
-    id: "5-submit-your-evidence",
-    title: "5. Submit Your Evidence",
+    id: "6-submit-your-evidence",
+    title: "6. Submit Your Evidence",
     children: [],
   },
   {
