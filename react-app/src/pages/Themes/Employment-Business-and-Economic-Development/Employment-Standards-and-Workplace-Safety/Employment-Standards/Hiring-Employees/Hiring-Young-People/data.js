@@ -160,7 +160,7 @@ const content = [
                       },
                       {
                         type: "a-internal",
-                        href: "",
+                        href: "/under-construction",
                         children: "employment standards for regular employees",
                       },
                     ],
@@ -179,7 +179,7 @@ const content = [
                       },
                       {
                         type: "a-internal",
-                        href: "",
+                        href: "/under-construction",
                         children: "WorkSafeBC requirements for young workers",
                       },
                       {
@@ -202,7 +202,7 @@ const content = [
                       },
                       {
                         type: "a-internal",
-                        href: "",
+                        href: "/under-construction",
                         children: "federal payroll deductions",
                       },
                       {
@@ -240,7 +240,7 @@ const content = [
               },
               {
                 type: "a-internal",
-                href: "",
+                href: "/under-construction",
                 children:
                   "need written consent from a parent or guardian (PDF, 20 KB)",
               },
