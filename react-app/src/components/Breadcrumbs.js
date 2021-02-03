@@ -166,21 +166,6 @@ Breadcrumbs.propTypes = {
   breadcrumbs: PropTypes.array.isRequired,
 };
 
-Breadcrumbs.defaultProps = {
-  breadcrumbs: [
-    {
-      href: "/",
-      label: "Employment, Business & Economic Development",
-    },
-    {
-      href: "/",
-      label: "Employment Standards & Workplace Safety",
-    },
-    {
-      href: "/",
-      label: "Employment Standards",
-    },
-  ],
-};
+Breadcrumbs.defaultProps = {};
 
 export default Breadcrumbs;
