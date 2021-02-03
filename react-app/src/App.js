@@ -6,6 +6,7 @@ import "./App.scss";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Logout from "./pages/Logout";
 import Services from "./pages/Services";
 import Themes from "./pages/Themes";
 import News from "./pages/News";
@@ -54,6 +55,9 @@ function App() {
     <Switch>
       <Route path="/login">
         <Login />
+      </Route>
+      <Route path="/logout">
+        <Logout />
       </Route>
       <PrivateRoute
         exact
