@@ -5,8 +5,15 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const servicesData = require('./services.json');
 const PORT = process.env.PORT || 8080;
-const GUEST_USERNAME = process.env.GUEST_USERNAME;
-const GUEST_PASSWORD = process.env.GUEST_PASSWORD;
+const USER_PASS_PAIRS = process.env.USER_PASS_PAIRS;
+
+// Split USER_PASS_PAIRS env var into valid credentials
+const credsArr = USER_PASS_PAIRS.split(',');
+const credsObj = {};
+credsArr.forEach((userPassStr) => {
+  const userPassArr = userPassStr.split('|');
+  credsObj[userPassArr[0]] = userPassArr[1];
+})
 
 // Use React's build directory as static mount point
 app.use(express.static(path.join(__dirname, 'react-app', 'build')));
@@ -21,8 +28,8 @@ app.get('/api/services', function(req, res) {
 
 app.post('/api/login', function(req, res) {
   if (req.body &&
-      req.body.username === GUEST_USERNAME &&
-      req.body.password === GUEST_PASSWORD) {
+      req.body.username in credsObj &&
+      req.body.password === credsObj[req.body.username]) {
     console.log("Authenticated");
     res.json({ "username": req.body.username });
   } else {

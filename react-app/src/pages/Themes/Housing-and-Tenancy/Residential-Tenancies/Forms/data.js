@@ -95,7 +95,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Residential Tenancy Agreement for Internet Explorer",
                         children: [
                           {
                             type: "p",
@@ -139,7 +142,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-1",
                         children: [
                           {
                             type: "p",
@@ -164,7 +169,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Residential Tenancy Agreement for other browsers",
                         children: [
                           {
                             type: "p",
@@ -208,7 +216,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-1C",
                         children: [
                           {
                             type: "p",
@@ -233,7 +243,9 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort: "Application for Review Consideration",
                         children: [
                           {
                             type: "p",
@@ -277,7 +289,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-2",
                         children: [
                           {
                             type: "p",
@@ -302,7 +316,9 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort: "Manufactured Home Site Tenancy Agreement",
                         children: [
                           {
                             type: "p",
@@ -346,7 +362,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-5",
                         children: [
                           {
                             type: "p",
@@ -371,7 +389,9 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort: "Request for Correction",
                         children: [
                           {
                             type: "p",
@@ -414,7 +434,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-6",
                         children: [
                           {
                             type: "p",
@@ -439,7 +461,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Notice of Rent Increase - Residential Rental Units",
                         children: [
                           {
                             type: "p",
@@ -497,7 +522,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-7",
                         children: [
                           {
                             type: "p",
@@ -522,7 +549,9 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort: "Mutual Agreement to End a Tenancy",
                         children: [
                           {
                             type: "p",
@@ -565,7 +594,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-8",
                         children: [
                           {
                             type: "p",
@@ -590,7 +621,9 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort: "Proof of Service Notice of Expedited Hearing",
                         children: [
                           {
                             type: "p",
@@ -633,7 +666,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-9",
                         children: [
                           {
                             type: "p",
@@ -658,7 +693,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement",
                         children: [
                           {
                             type: "p",
@@ -701,7 +739,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-10",
                         children: [
                           {
                             type: "p",
@@ -726,7 +766,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version)",
                         children: [
                           {
                             type: "p",
@@ -825,7 +868,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-11A",
                         children: [
                           {
                             type: "p",
@@ -850,7 +895,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Landlord Application for Dispute Resolution - Current Tenancy",
                         children: [
                           {
                             type: "p",
@@ -894,7 +942,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-12L-CT",
                         children: [
                           {
                             type: "p",
@@ -919,7 +969,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Landlord Application for Dispute Resolution - Past Tenancy",
                         children: [
                           {
                             type: "p",
@@ -963,7 +1016,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-12L-PT",
                         children: [
                           {
                             type: "p",
@@ -988,7 +1043,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Tenant Application for Dispute Resolution - Current Tenancy",
                         children: [
                           {
                             type: "p",
@@ -1032,7 +1090,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-12T-CT",
                         children: [
                           {
                             type: "p",
@@ -1057,7 +1117,10 @@ const content = [
                     },
                     cols: [
                       {
+                        colId: "form",
                         align: "left",
+                        sort:
+                          "Tenant Application for Dispute Resolution - Past Tenancy",
                         children: [
                           {
                             type: "p",
@@ -1101,7 +1164,9 @@ const content = [
                         ],
                       },
                       {
+                        colId: "form-number",
                         align: "center",
+                        sort: "RTB-12T-PT",
                         children: [
                           {
                             type: "p",

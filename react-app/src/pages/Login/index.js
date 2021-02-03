@@ -56,7 +56,7 @@ function Login(props) {
             setUserName(e.target.value);
           }}
           placeholder="Username"
-          autoComplete="username"
+          autoComplete="off"
         />
         <TextInput
           label="Password"
@@ -67,7 +67,7 @@ function Login(props) {
             setPassword(e.target.value);
           }}
           placeholder="Password"
-          autoComplete="current-password"
+          autoComplete="off"
         />
         <Button type="submit" disabled={isSubmitting} primary={true}>
           Login

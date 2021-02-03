@@ -23,6 +23,7 @@ const StyledTable = styled.table`
       button {
         background: none;
         border: 0;
+        color: #313132;
         font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
         font-size: 20px;
         font-weight: 700;
@@ -73,7 +74,7 @@ function TableGroup({ context = {}, data, id }) {
   }
 
   // Sort ascending to start, switch to descending, and so on
-  function handleSort(id) {
+  function handleSortButton(id) {
     let direction = "ascending";
 
     if (sortConfig.id === id && sortConfig.direction === "ascending") {
@@ -154,7 +155,8 @@ function TableGroup({ context = {}, data, id }) {
                     <button
                       className={sortConfig.id === col.id ? "sorted" : null}
                       type="button"
-                      onClick={() => handleSort(col.id)}
+                      disabled
+                      onClick={() => handleSortButton(col.id)}
                     >
                       {col.label}
                       {sortConfig.id === col.id && getSortIcon()}
