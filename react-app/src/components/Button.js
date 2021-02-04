@@ -19,6 +19,11 @@ const StyledButton = styled.button`
   text-align: center;
   text-decoration: none;
 
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   &:active {
     opacity: 1;
   }
@@ -114,6 +119,11 @@ const StyledLink = styled.a`
   text-align: center;
   text-decoration: none;
 
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   &:hover {
     background-color: #003366;
     color: white;
@@ -138,6 +148,11 @@ const StyledRouterLink = styled(Link)`
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
+
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
   &:hover {
     background-color: #003366;

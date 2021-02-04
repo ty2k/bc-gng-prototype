@@ -28,7 +28,7 @@ const AccordionHeader = styled.div`
       display: inline-block;
       font-size: 20px;
       font-weight: 700;
-      margin: 0 12px;
+      margin: 12px;
       text-align: left;
     }
 
@@ -52,6 +52,10 @@ const AccordionBody = styled.div`
   &.open {
     display: block;
     margin: 26px 52px;
+
+    @media (max-width: 575px) {
+      margin: 10px;
+    }
   }
 `;
 

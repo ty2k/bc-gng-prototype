@@ -159,6 +159,11 @@ const HeaderStyled = styled.header`
       opacity: 0.5;
       width: 44px;
     }
+
+    @media (max-width: 575px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 `;
 

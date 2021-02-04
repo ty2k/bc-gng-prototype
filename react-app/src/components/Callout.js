@@ -20,6 +20,11 @@ const StyledDiv = styled.div`
   &.warning {
     border-color: #fcba19;
   }
+
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 `;
 
 function Callout({ children, className }) {

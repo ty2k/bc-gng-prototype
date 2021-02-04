@@ -18,6 +18,26 @@ const StyledContent = styled.div`
     color: #888888;
     font-size: 16px;
     margin: 4px 0 20px 0;
+
+    @media (max-width: 575px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 `;
 

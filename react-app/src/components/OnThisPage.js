@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   h2 {
     font-size: 20px;
     font-weight: 400;
