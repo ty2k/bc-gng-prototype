@@ -28,6 +28,7 @@ import OnlineDisputeResolutionApplication from "./pages/Themes/Housing-and-Tenan
 import ODRABeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/Before-You-Apply";
 import ODRAHowToPay from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Pay";
 import ODRAHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/How-to-Apply";
+import ODRAAfterYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Online-Dispute-Resolution-Application/After-You-Apply";
 import TenantDirectRequest from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request";
 import TDRBeforeYouApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/Before-You-Apply";
 import TDRHowToApply from "./pages/Themes/Housing-and-Tenancy/Residential-Tenancies/Dispute-Resolution-Applications/Tenant-Direct-Request/How-to-Apply";
@@ -189,6 +190,30 @@ function App() {
           },
         ]}
         content={<TenantDirectRequest />}
+        parentHref={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
+        }
+        parentTitle={"Dispute Resolution Applications"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/after-you-apply"
+        }
+        title={"Online Dispute Resolution Application"}
+        breadcrumbs={[
+          { href: "/themes/housing-and-tenancy", label: "Housing & Tenancy" },
+          {
+            href: "/themes/housing-and-tenancy/residential-tenancies",
+            label: "Residential Tenancies",
+          },
+          {
+            href:
+              "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications",
+            label: "Dispute Resolution Applications",
+          },
+        ]}
+        content={<ODRAAfterYouApply />}
         parentHref={
           "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications"
         }

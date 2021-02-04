@@ -55,20 +55,16 @@ const content = [
     title: "On this Page",
     children: [
       {
-        id: "filing-fee",
-        label: "Filing Fee",
+        id: "whats-my-application-status",
+        label: "What's my application status?",
       },
       {
-        id: "pay-online",
-        label: "Pay Online",
+        id: "what-does-my-dispute-status-mean",
+        label: "What does my dispute status mean?",
       },
       {
-        id: "pay-in-person",
-        label: "Pay in Person",
-      },
-      {
-        id: "fee-waiver-for-tenants-with-low-income",
-        label: "Fee Waiver for Tenants with Low Income",
+        id: "email-notifications",
+        label: "Email notifications",
       },
       {
         id: "related-services",
@@ -84,34 +80,63 @@ const content = [
     type: "br",
   },
   {
-    type: "radio-button-group",
-    id: "filing-fee",
-    title: "I'm applying for an",
-    children: [
-      {
-        id: "application-for-dispute-resolution",
-        label: "Application for Dispute Resolution",
-      },
-      {
-        id: "application-for-review-consideration",
-        label: "Application for Review Considersation",
-      },
-      {
-        id: "application-for-an-additional-rent-increase",
-        label:
-          "Application for an Additional Rent Increase (above the regular limit)",
-      },
-    ],
-  },
-  {
-    type: "br",
+    type: "h2",
+    id: "whats-my-application-status",
+    children: "What's my application status?",
   },
   {
     type: "p",
     children: [
       {
         type: "text",
-        children: "The filing fee for a Dispute Resolution Application is $100",
+        children:
+          "Want to know the status of your application? Check any time on the Dispute Access Site. All you need is your Dispute Access Code and your name.",
+      },
+    ],
+  },
+  {
+    type: "callout",
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "Your Dispute Access Code is provided to you when you submit your application or if you are the respondent, in the Notice of Dispute Resolution Proceeding served to you by the other party.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "button-link",
+    children: "Visit Dispute Access Site",
+    external: false,
+    href: "/under-construction",
+    primary: true,
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "a-internal",
+        href: "/under-construction",
+        children: "View existing applications",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "If you submitted an online application before September 23, 2017, you can contact the Residential Tenancy Branch for questions, changes or to receive a copy of your application.",
       },
     ],
   },
@@ -120,15 +145,27 @@ const content = [
   },
   {
     type: "h2",
-    id: "pay-online",
-    children: "Pay Online",
+    id: "what-does-my-dispute-status-mean",
+    children: "What does my dispute status mean?",
   },
+  // TODO: Simple table goes here
   {
     type: "p",
     children: [
       {
         type: "text",
-        children: "You may pay the filing fee online by:",
+        style: "strong",
+        children: "Application Status",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children: "What does it mean?",
       },
     ],
   },
@@ -137,7 +174,16 @@ const content = [
     children: [
       {
         type: "text",
-        children: "- Credit card (Visa, Mastercard or American Express)",
+        children: "Abandoned applicant inaction",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "The applicant did not make a required update to their application",
       },
     ],
   },
@@ -146,7 +192,16 @@ const content = [
     children: [
       {
         type: "text",
-        children: "- Visa Debit",
+        children: "Abandoned no payment",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "The application has been abandoned because the application fee was not paid",
       },
     ],
   },
@@ -155,7 +210,87 @@ const content = [
     children: [
       {
         type: "text",
-        children: "- MasterCard Debit",
+        children: "Assessing Application",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "The application has been received and is being assessed by the Residential Tenancy Branch",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Cancelled",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "Dispute has been cancelled by the Residential Tenancy Branch",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Clarification pending",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "A clarification to a decision or order is being made by an arbitrator or adjudicator",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Closed",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children:
+          "No further action on the file is required. The file is closed",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Closed for submissions",
+      },
+      {
+        type: "text",
+        children: " .......... ",
+      },
+      {
+        type: "text",
+        children: "Evidence submissions are no longer accepted from any party",
       },
     ],
   },
@@ -164,8 +299,8 @@ const content = [
   },
   {
     type: "h2",
-    id: "pay-in-person",
-    children: "Pay In Person",
+    id: "email-notifications",
+    children: "Email Notifications",
   },
   {
     type: "p",
@@ -173,7 +308,7 @@ const content = [
       {
         type: "text",
         children:
-          "You may pay the filing fee in person at a Service BC Office or Residential Tenancy Branch Office by:",
+          "You will receive email notifications with status updates and reminders about your application.",
       },
     ],
   },
@@ -182,100 +317,7 @@ const content = [
     children: [
       {
         type: "text",
-        children: "- Cash",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- Debit",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- Credit card (Visa, Mastercard or American Express)",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- Visa Debit",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- MasterCard Debit",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- Certified cheque payable to the Minister of Finance",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- Residential Tenancy Branch Office only: Money order payable to the Minister of Finance",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "Make sure to bring your file number and your Dispute Access Code.",
-      },
-    ],
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "h2",
-    id: "fee-waiver-for-tenants-with-low-income",
-    children: "Fee Waiver for Tenants with Low Income",
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "If you are a tenant with a low income or have extraordinary expenses that would make paying the filing fee a hardship, you may qualify for a fee waiver. You can apply for a fee waiver online at the time of submission or in person at any Service BC Office or the Residential Tenancy Branch Office in Burnaby.",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "You must submit proof of income when applying for a fee waiver",
+        children: "If you don’t see these reminders:",
       },
     ],
   },
@@ -288,25 +330,12 @@ const content = [
       },
       {
         type: "a-internal",
-        href: "/under-construction",
-        children: "Application to Waive Filing Fee (PDF)",
+        href: "mailto:donotreply@tenancydispute.gov.bc.ca",
+        children: "donotreply@tenancydispute.gov.bc.ca",
       },
-    ],
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "h3",
-    children: "Request to Waive Filing Fee due to Extraordinary Expenses",
-  },
-  {
-    type: "p",
-    children: [
       {
         type: "text",
-        children:
-          "If you are requesting a fee waiver because you have had extraordinary expenses that would make paying the filing fee a hardship, you must complete a paper Application to Waive Filing Fee (PDF) and submit it in person to any Service BC Office or the Residential Tenancy Branch Office in Burnaby.",
+        children: " to your contacts or safe senders",
       },
     ],
   },
@@ -315,55 +344,7 @@ const content = [
     children: [
       {
         type: "text",
-        children:
-          "You must provide proof of eligible hardship expenses such as:",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- extraordinary medical expenses",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- transportation costs for medically necessary procedures not available in your community",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "- funeral expenses",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children:
-          "- costs associated with an emergency such as a fire, flood, earthquake, landslide or avalanche",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Learn more about fee waivers",
+        children: "- check your junk mail folder",
       },
     ],
   },
@@ -374,11 +355,10 @@ const content = [
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/before-you-apply",
-      backLabel: "Before You Apply",
-      forwardHref:
         "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/how-to-apply",
-      forwardLabel: "How to Apply",
+      backLabel: "How to Apply",
+      forwardHref: "",
+      forwardLabel: "",
     },
   },
   {

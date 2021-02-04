@@ -42,7 +42,8 @@ const content = [
       },
       {
         label: "After You Apply",
-        href: "/under-construction",
+        href:
+          "/themes/housing-and-tenancy/residential-tenancies/dispute-resolution-applications/online-dispute-resolution-application/after-you-apply",
       },
     ],
   },
