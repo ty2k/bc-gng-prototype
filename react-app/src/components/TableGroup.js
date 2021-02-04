@@ -136,6 +136,36 @@ function TableGroup({ context = {}, data, id }) {
     return pass.indexOf(false) === -1;
   }
 
+  // Check sortConfig and compare to rows, return rows for display
+  function sortRows(inputRows) {
+    const rows = [...inputRows];
+
+    return rows.sort(function (a, b) {
+      for (let x = 0; x < a.cols.length; x++) {
+        if (a.cols[x].colId === sortConfig.id) {
+          for (let y = 0; y < b.cols.length; y++) {
+            if (b.cols[y].colId === sortConfig.id) {
+              if (a.cols[x].sort > b.cols[y].sort) {
+                if (sortConfig.direction === "ascending") {
+                  return 1;
+                } else if (sortConfig.direction === "descending") {
+                  return -1;
+                }
+              } else if (a.cols[x].sort < b.cols[y].sort) {
+                if (sortConfig.direction === "ascending") {
+                  return -1;
+                } else if (sortConfig.direction === "descending") {
+                  return 1;
+                }
+              }
+              return 0;
+            }
+          }
+        }
+      }
+    });
+  }
+
   function getTable(id, data) {
     return (
       <StyledTable id={id}>
@@ -155,7 +185,6 @@ function TableGroup({ context = {}, data, id }) {
                     <button
                       className={sortConfig.id === col.id ? "sorted" : null}
                       type="button"
-                      disabled
                       onClick={() => handleSortButton(col.id)}
                     >
                       {col.label}
@@ -170,7 +199,7 @@ function TableGroup({ context = {}, data, id }) {
         {/* Table body is an array of rows that can be sorted by heading */}
         <tbody>
           {data?.tbody?.length > 0 &&
-            data.tbody.map((row, rowIndex) => {
+            sortRows(data.tbody).map((row, rowIndex) => {
               if (checkFilter(row)) {
                 return (
                   <tr key={`table-${id}-tbody-row-${rowIndex}`}>

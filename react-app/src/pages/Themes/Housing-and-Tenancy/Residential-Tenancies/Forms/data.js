@@ -144,7 +144,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-1",
+                        sort: 0,
                         children: [
                           {
                             type: "p",
@@ -218,7 +218,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-1C",
+                        sort: 1,
                         children: [
                           {
                             type: "p",
@@ -291,7 +291,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-2",
+                        sort: 2,
                         children: [
                           {
                             type: "p",
@@ -364,7 +364,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-5",
+                        sort: 3,
                         children: [
                           {
                             type: "p",
@@ -436,7 +436,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-6",
+                        sort: 4,
                         children: [
                           {
                             type: "p",
@@ -524,7 +524,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-7",
+                        sort: 5,
                         children: [
                           {
                             type: "p",
@@ -596,7 +596,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-8",
+                        sort: 6,
                         children: [
                           {
                             type: "p",
@@ -668,7 +668,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-9",
+                        sort: 7,
                         children: [
                           {
                             type: "p",
@@ -741,7 +741,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-10",
+                        sort: 8,
                         children: [
                           {
                             type: "p",
@@ -870,7 +870,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-11A",
+                        sort: 9,
                         children: [
                           {
                             type: "p",
@@ -944,7 +944,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-12L-CT",
+                        sort: 10,
                         children: [
                           {
                             type: "p",
@@ -1018,7 +1018,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-12L-PT",
+                        sort: 11,
                         children: [
                           {
                             type: "p",
@@ -1092,7 +1092,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-12T-CT",
+                        sort: 12,
                         children: [
                           {
                             type: "p",
@@ -1166,7 +1166,7 @@ const content = [
                       {
                         colId: "form-number",
                         align: "center",
-                        sort: "RTB-12T-PT",
+                        sort: 13,
                         children: [
                           {
                             type: "p",
@@ -1239,7 +1239,9 @@ const content = [
                       },
                       cols: [
                         {
+                          colId: "form",
                           align: "left",
+                          sort: "Proof of Service Notice of Expedited Hearing",
                           children: [
                             {
                               type: "p",
@@ -1283,7 +1285,9 @@ const content = [
                           ],
                         },
                         {
+                          colId: "form-number",
                           align: "center",
+                          sort: 0,
                           children: [
                             {
                               type: "p",
@@ -1308,7 +1312,10 @@ const content = [
                       },
                       cols: [
                         {
+                          colId: "form",
                           align: "left",
+                          sort:
+                            "Landlord Application for Dispute Resolution - Current Tenancy",
                           children: [
                             {
                               type: "p",
@@ -1352,7 +1359,9 @@ const content = [
                           ],
                         },
                         {
+                          colId: "form-number",
                           align: "center",
+                          sort: 1,
                           children: [
                             {
                               type: "p",
@@ -1377,7 +1386,10 @@ const content = [
                       },
                       cols: [
                         {
+                          colId: "form",
                           align: "left",
+                          sort:
+                            "Landlord Application for Dispute Resolution - Past Tenancy",
                           children: [
                             {
                               type: "p",
@@ -1421,7 +1433,9 @@ const content = [
                           ],
                         },
                         {
+                          colId: "form-number",
                           align: "center",
+                          sort: 2,
                           children: [
                             {
                               type: "p",
@@ -1446,7 +1460,10 @@ const content = [
                       },
                       cols: [
                         {
+                          colId: "form",
                           align: "left",
+                          sort:
+                            "Tenant Application for Dispute Resolution - Current Tenancy",
                           children: [
                             {
                               type: "p",
@@ -1490,7 +1507,9 @@ const content = [
                           ],
                         },
                         {
+                          colId: "form-number",
                           align: "center",
+                          sort: 3,
                           children: [
                             {
                               type: "p",
@@ -1515,7 +1534,10 @@ const content = [
                       },
                       cols: [
                         {
+                          colId: "form",
                           align: "left",
+                          sort:
+                            "Tenant Application for Dispute Resolution - Past Tenancy",
                           children: [
                             {
                               type: "p",
@@ -1559,7 +1581,9 @@ const content = [
                           ],
                         },
                         {
+                          colId: "form-number",
                           align: "center",
+                          sort: 4,
                           children: [
                             {
                               type: "p",
