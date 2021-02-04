@@ -15,16 +15,20 @@ const RadioButtonOption = styled.div`
   display: flex;
   justify-content: left;
   padding-left: 100px;
+  margin: 10px;
 
   @media (max-width: 575px) {
     display: block;
     padding-left: 10px;
   }
 
+  input {
+    float: left;
+  }
+
   label {
-    display: inline-block;
-    line-height: 44px;
-    padding-left: 20px;
+    display: block;
+    padding-left: 25px;
   }
 `;
 
