@@ -8,6 +8,11 @@ const RadioButtonGroup = styled.fieldset`
   display: block;
   margin: 0;
   padding: 0;
+
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 `;
 
 const RadioButtonOption = styled.div`
