@@ -2,13 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-import { Button, ButtonLink } from "./Button";
+import { ButtonLink } from "./Button";
 import { ReactComponent as LeftArrowIcon } from "../components/assets/ionic-ios-arrow-back.svg";
 import { ReactComponent as RightArrowIcon } from "../components/assets/ionic-ios-arrow-forward.svg";
 
 const StyledGuide = styled.div`
   border-bottom: 1px solid #707070;
   padding-bottom: 29px;
+
+  @media (max-width: 575px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 `;
 
 const StyledGrid = styled.div`
@@ -112,14 +117,28 @@ const StyledLinkButtonPair = styled.div`
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   a {
     align-items: center;
     display: flex;
     padding: 10px 20px;
 
+    @media (max-width: 575px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
     &:last-child {
       margin-left: auto;
       margin-right: 0;
+
+      @media (max-width: 575px) {
+        margin-right: 10px;
+      }
     }
 
     svg {
