@@ -148,151 +148,224 @@ const content = [
     id: "what-does-my-dispute-status-mean",
     children: "What does my dispute status mean?",
   },
-  // TODO: Simple table goes here
   {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        style: "strong",
-        children: "Application Status",
-      },
-      {
-        type: "text",
-        style: "strong",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        style: "strong",
-        children: "What does it mean?",
-      },
-    ],
+    type: "br",
   },
   {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Abandoned applicant inaction",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "The applicant did not make a required update to their application",
-      },
-    ],
+    type: "table-basic",
+    id: "rtb-odra-application-status",
+    data: {
+      thead: [
+        {
+          id: "application-status",
+          label: "Application Status",
+          colspan: 1,
+          align: "left",
+          width: "22",
+        },
+        {
+          id: "what-does-it-mean",
+          label: "What does it mean?",
+          colspan: 1,
+          align: "left",
+          width: "78",
+        },
+      ],
+      tbody: [
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Abandoned applicant inaction",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "The applicant did not make a required update to their application",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Abandoned no payment",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "The application has been abandoned because the application fee was not paid",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Assessing Application",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "The application has been received and is being assessed by the Residential Tenancy Branch",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Cancelled",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "Dispute has been cancelled by the Residential Tenancy Branch",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Clarification pending",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "A clarification to a decision or order is being made by an arbitrator or adjudicator",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Closed",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "No further action on the file is required. The file is closed",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "application-status",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "Closed for submissions",
+                },
+              ],
+            },
+            {
+              id: "what-does-it-mean",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "Evidence submissions are no longer accepted from any party",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   },
   {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Abandoned no payment",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "The application has been abandoned because the application fee was not paid",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Assessing Application",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "The application has been received and is being assessed by the Residential Tenancy Branch",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Cancelled",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "Dispute has been cancelled by the Residential Tenancy Branch",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Clarification pending",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "A clarification to a decision or order is being made by an arbitrator or adjudicator",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Closed",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children:
-          "No further action on the file is required. The file is closed",
-      },
-    ],
-  },
-  {
-    type: "p",
-    children: [
-      {
-        type: "text",
-        children: "Closed for submissions",
-      },
-      {
-        type: "text",
-        children: " .......... ",
-      },
-      {
-        type: "text",
-        children: "Evidence submissions are no longer accepted from any party",
-      },
-    ],
+    type: "br",
   },
   {
     type: "br",
