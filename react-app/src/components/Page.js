@@ -75,6 +75,11 @@ const StyledPageTitle = styled.div`
   display: block;
   margin: 20px 0;
 
+  @media (max-width: 575px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   a {
     display: inline;
     margin-right: 5px;
