@@ -136,7 +136,7 @@ const HeaderStyled = styled.header`
     padding: 9px;
   }
   div.wrapper > div.div--header-mini-icons > button#info-icon {
-    background-color: #5f9cd8;
+    background-color: #2d73b9; // #5f9cd8 does not pass WCAG
     color: white;
     max-height: 44px;
   }
