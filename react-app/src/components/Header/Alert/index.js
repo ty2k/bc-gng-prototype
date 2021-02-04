@@ -9,7 +9,7 @@ import { ReactComponent as CloseIcon } from "../../assets/ionic-md-close.svg";
 
 const StyledAlert = styled.div`
   align-items: stretch;
-  background-color: #5f9cd8;
+  background-color: #2d73b9; // #5f9cd8 does not pass WCAG
   color: white;
   display: flex;
   font-size: 18px;

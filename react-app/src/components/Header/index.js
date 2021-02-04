@@ -136,7 +136,7 @@ const HeaderStyled = styled.header`
     padding: 9px;
   }
   div.wrapper > div.div--header-mini-icons > button#info-icon {
-    background-color: #5f9cd8;
+    background-color: #2d73b9; // #5f9cd8 does not pass WCAG
     color: white;
     max-height: 44px;
   }
@@ -354,9 +354,8 @@ Header.defaultProps = {
               children: "B.C. has declared a state of emergency. ",
             },
             {
-              type: "a-external",
-              href:
-                "https://www2.gov.bc.ca/gov/content/safety/emergency-preparedness-response-recovery/covid-19-provincial-support",
+              type: "a-internal",
+              href: "/under-construction",
               children: "Our response to COVID-19",
             },
             {
@@ -364,10 +363,9 @@ Header.defaultProps = {
               children: " | ",
             },
             {
-              type: "a-external",
-              href:
-                "https://www2.gov.bc.ca/gov/content/safety/emergency-preparedness-response-recovery/covid-19-provincial-support/restrictions",
-              children: "Province-wide restrictions",
+              type: "a-internal",
+              href: "/logout",
+              children: "Logout",
             },
           ],
         },
