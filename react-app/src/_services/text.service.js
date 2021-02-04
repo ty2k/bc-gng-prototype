@@ -19,6 +19,7 @@ import RadioButtonGroup from "../components/RadioButtonContent";
 import SearchBar from "../components/SearchBar";
 import TabbedContent from "../components/TabbedContent";
 import TabbedPageNav from "../components/TabbedPageNav";
+import TableBasic from "../components/TableBasic";
 import TableGroup from "../components/TableGroup";
 import Wizard from "../components/Wizard";
 
@@ -349,6 +350,14 @@ function buildHtmlElement(
         <TabbedPageNav
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           children={children}
+        />
+      );
+    case "table-basic":
+      return (
+        <TableBasic
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          data={data}
+          id={id}
         />
       );
     case "table-group":
