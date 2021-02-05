@@ -59,7 +59,60 @@ const content = [
     type: "accordion",
     id: "1-register-for-a-basic-bceid",
     title: "1. Register for a Basic BCeID",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "You will need a Basic BCeID account to access the Online Application for Dispute Resolution. A Basic BCeID account provides secure access to online government services.",
+          },
+        ],
+      },
+      {
+        type: "button-link",
+        children: "Register for a Basic BCeID",
+        href: "/under-construction",
+        primary: true,
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-external",
+            href: "/under-construction",
+            children: "BCeID Privacy Policy",
+          },
+          {
+            type: "text",
+            children: " (external link)",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-external",
+            href: "/under-construction",
+            children: "More about BCeID",
+          },
+          {
+            type: "text",
+            children: " (external link)",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "accordion",
