@@ -8,6 +8,7 @@ import BackButton from "../components/BackButton";
 import BackToTopButton from "../components/BackToTopButton";
 import { Button, ButtonLink } from "../components/Button";
 import Callout from "../components/Callout";
+import CheckboxContent from "../components/CheckboxContent";
 import FullWidthBlock from "../components/FullWidthBlock";
 import {
   SteppedGuide,
@@ -277,6 +278,16 @@ function buildHtmlElement(
         >
           {children}
         </Callout>
+      );
+    case "checkbox-content":
+      return (
+        <CheckboxContent
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          children={children}
+          defaultContent={defaultContent}
+          id={id}
+          title={title}
+        />
       );
     case "full-width-block":
       return (
