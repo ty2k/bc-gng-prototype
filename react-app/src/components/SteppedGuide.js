@@ -115,9 +115,18 @@ function SteppedGuide({ children, callToAction }) {
 
 const StyledLinkButtonPair = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 
+  &.back-only {
+    flex-direction: row;
+  }
+  &.forward-only {
+    flex-direction: row-reverse;
+  }
+
   @media (max-width: 575px) {
+    display: block;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -125,20 +134,13 @@ const StyledLinkButtonPair = styled.div`
   a {
     align-items: center;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding: 10px 20px;
 
     @media (max-width: 575px) {
       margin-left: 10px;
       margin-right: 10px;
-    }
-
-    &:last-child {
-      margin-left: auto;
-      margin-right: 0;
-
-      @media (max-width: 575px) {
-        margin-right: 10px;
-      }
     }
 
     svg {
@@ -158,8 +160,17 @@ function BackForwardButtonPair({
   forwardLabel,
   forwardHref,
 }) {
+  function getFlexDirection() {
+    const back = Boolean(backLabel && backHref);
+    const forward = Boolean(forwardLabel && forwardHref);
+
+    if (back && !forward) return "back-only";
+    if (!back && forward) return "forward-only";
+    return null;
+  }
+
   return (
-    <StyledLinkButtonPair>
+    <StyledLinkButtonPair className={getFlexDirection()}>
       {backHref && backLabel && (
         <ButtonLink href={backHref} primary={false}>
           <LeftArrowIcon />
