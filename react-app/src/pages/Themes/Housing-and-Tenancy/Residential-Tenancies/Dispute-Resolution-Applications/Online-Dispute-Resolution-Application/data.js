@@ -102,6 +102,15 @@ const content = [
             children: [
               {
                 type: "text",
+                children: "- Dispute an additional rent increase",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
                 children:
                   "- Have a landlord make repairs to the rental unit or property",
               },
