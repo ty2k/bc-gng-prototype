@@ -14,80 +14,75 @@ const content = [
     type: "br",
   },
   {
+    type: "h2",
+    id: "overview",
+    children: "Overview",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Possession in residential tenancies refers to the right of a landlord or a tenant to use and enjoy the property.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "A tenancy agreement protects the rights and responsibilities of landlords and tenants – if either party doesn’t respect the rights of the other, they may lose some of their rights. ",
+      },
+      {
+        type: "a-internal",
+        href: "/under-construction",
+        children: "Dispute resolution",
+      },
+      {
+        type: "text",
+        children:
+          " may be required if either party doesn’t meet their responsibilities or negatively affects the rights of the other.",
+      },
+    ],
+  },
+  {
     type: "br",
   },
   {
-    type: "radio-button-group",
+    type: "checkbox-content",
     id: "dispute-resolution",
     title: "I'm a...",
     defaultContent: [
       {
-        type: "p",
+        type: "on-this-page",
+        title: "On this Page",
         children: [
           {
-            type: "on-this-page",
-            title: "On this Page",
-            children: [
-              {
-                id: "default-overview",
-                label: "Overview",
-              },
-              {
-                id: "default-your-rights",
-                label: "Your Rights",
-              },
-              {
-                id: "default-locks",
-                label: "Locks",
-              },
-              {
-                id: "default-enforcing-possession",
-                label: "Enforcing Possession",
-              },
-              {
-                id: "related-links",
-                label: "Related Links",
-              },
-              {
-                id: "contact-the-rtb",
-                label: "Contact the Residential Tenancy Branch",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "h2",
-        id: "default-overview",
-        children: "Overview",
-      },
-      {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children:
-              "Possession in residential tenancies refers to the right of a landlord or a tenant to use and enjoy the property.",
-          },
-        ],
-      },
-      {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children:
-              "A tenancy agreement protects the rights and responsibilities of landlords and tenants – if either party doesn’t respect the rights of the other, they may lose some of their rights. ",
+            id: "overview",
+            label: "Overview",
           },
           {
-            type: "a-internal",
-            href: "/under-construction",
-            children: "Dispute resolution",
+            id: "default-your-rights",
+            label: "Your Rights",
           },
           {
-            type: "text",
-            children:
-              " may be required if either party doesn’t meet their responsibilities or negatively affects the rights of the other.",
+            id: "default-locks",
+            label: "Locks",
+          },
+          {
+            id: "default-enforcing-possession",
+            label: "Enforcing Possession",
+          },
+          {
+            id: "related-links",
+            label: "Related Links",
+          },
+          {
+            id: "contact-the-rtb",
+            label: "Contact the Residential Tenancy Branch",
           },
         ],
       },
@@ -328,33 +323,32 @@ const content = [
         label: "Tenant",
         body: [
           {
-            type: "p",
+            type: "on-this-page",
+            title: "On this Page",
             children: [
               {
-                type: "on-this-page",
-                title: "On this Page",
-                children: [
-                  {
-                    id: "tenant-rights",
-                    label: "Tenant Rights",
-                  },
-                  {
-                    id: "tenant-locks",
-                    label: "Locks",
-                  },
-                  {
-                    id: "tenant-enforcing-possession",
-                    label: "Enforcing Possession",
-                  },
-                  {
-                    id: "related-links",
-                    label: "Related Links",
-                  },
-                  {
-                    id: "contact-the-rtb",
-                    label: "Contact the Residential Tenancy Branch",
-                  },
-                ],
+                id: "overview",
+                label: "Overview",
+              },
+              {
+                id: "tenant-rights",
+                label: "Tenant Rights",
+              },
+              {
+                id: "tenant-locks",
+                label: "Locks",
+              },
+              {
+                id: "tenant-enforcing-possession",
+                label: "Enforcing Possession",
+              },
+              {
+                id: "related-links",
+                label: "Related Links",
+              },
+              {
+                id: "contact-the-rtb",
+                label: "Contact the Residential Tenancy Branch",
               },
             ],
           },
@@ -518,33 +512,32 @@ const content = [
         label: "Landlord",
         body: [
           {
-            type: "p",
+            type: "on-this-page",
+            title: "On this Page",
             children: [
               {
-                type: "on-this-page",
-                title: "On this Page",
-                children: [
-                  {
-                    id: "landlord-rights",
-                    label: "Landlord Rights",
-                  },
-                  {
-                    id: "landlord-locks",
-                    label: "Locks",
-                  },
-                  {
-                    id: "landlord-enforcing-possession",
-                    label: "Enforcing Possession",
-                  },
-                  {
-                    id: "related-links",
-                    label: "Related Links",
-                  },
-                  {
-                    id: "contact-the-rtb",
-                    label: "Contact the Residential Tenancy Branch",
-                  },
-                ],
+                id: "overview",
+                label: "Overview",
+              },
+              {
+                id: "landlord-rights",
+                label: "Landlord Rights",
+              },
+              {
+                id: "landlord-locks",
+                label: "Locks",
+              },
+              {
+                id: "landlord-enforcing-possession",
+                label: "Enforcing Possession",
+              },
+              {
+                id: "related-links",
+                label: "Related Links",
+              },
+              {
+                id: "contact-the-rtb",
+                label: "Contact the Residential Tenancy Branch",
               },
             ],
           },
