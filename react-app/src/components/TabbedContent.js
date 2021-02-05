@@ -28,6 +28,7 @@ const TabGroup = styled.div`
 const Tab = styled.div`
   display: inline-block;
   border-left: 1px solid #707070;
+  border-top: 1px solid transparent;
 
   &:nth-last-child(2) {
     border-right: 1px solid #707070;
