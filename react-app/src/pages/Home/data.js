@@ -1,3 +1,90 @@
+const personalization = {
+  id: "homepage-personalization",
+  intro: "I'm...",
+  verticals: [
+    {
+      id: "employment",
+      title: "Employment",
+      href: "/under-construction",
+      children: [
+        {
+          label: "Looking for a job",
+          href: "/under-construction",
+        },
+        {
+          label: "Hiring for a job",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "education",
+      title: "Education",
+      href: "/under-construction",
+      children: [
+        {
+          label: "Going back to school",
+          href: "/under-construction",
+        },
+        {
+          label: "Going to secondary school",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "home",
+      title: "Home",
+      href: "/under-construction",
+      children: [
+        {
+          label: "A new homeowner",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to buy a new home",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking for a new home",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to rent my home",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to buy a new home",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "family",
+      title: "Family",
+      href: "/under-construction",
+      children: [
+        {
+          label: "Getting married",
+          href: "/under-construction",
+        },
+        {
+          label: "Starting a family",
+          href: "/under-construction",
+        },
+        {
+          label: "Recently separated",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to foster a youth",
+          href: "/under-construction",
+        },
+      ],
+    },
+  ],
+};
+
 const highlights = [
   {
     title: "Work in BC",
@@ -316,4 +403,4 @@ const topics = [
   },
 ];
 
-export { highlights, topics };
+export { personalization, highlights, topics };
