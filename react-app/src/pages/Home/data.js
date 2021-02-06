@@ -1,4 +1,4 @@
-const highlightTopics = [
+const highlights = [
   {
     title: "Work in BC",
     icon: "material-work.svg",
@@ -316,4 +316,4 @@ const topics = [
   },
 ];
 
-export { highlightTopics, topics };
+export { highlights, topics };
