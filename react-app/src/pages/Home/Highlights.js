@@ -8,7 +8,7 @@ const HighlightsGrid = styled.div`
   column-gap: 24px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 30px 0 50px 0;
+  padding: 50px 0;
   row-gap: 24px;
 
   @media (min-width: 576px) {
