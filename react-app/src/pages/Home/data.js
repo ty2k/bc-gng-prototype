@@ -53,10 +53,6 @@ const personalization = {
           label: "Looking to rent my home",
           href: "/under-construction",
         },
-        {
-          label: "Looking to buy a new home",
-          href: "/under-construction",
-        },
       ],
     },
     {
