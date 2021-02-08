@@ -7,10 +7,6 @@ import Icon from "../../components/Icon";
 
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
-  height: 380px;
-  left: 0;
-  position: absolute;
-  top: 180px;
   width: 100%;
 
   div.div--interior {
@@ -68,7 +64,7 @@ const PersonalizationBlock = styled.div`
       font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
       font-size: 18px;
       padding: 0;
-      width: 172px;
+      width: 200px;
     }
   }
 `;
@@ -76,8 +72,8 @@ const PersonalizationBlock = styled.div`
 const Column = styled.div`
   display: block;
   text-align: left;
-  min-width: 200px;
-  max-width: 230px;
+  max-width: 200px;
+  min-width: 180px;
 
   &.personalization-search-column {
     text-align: center;
@@ -98,7 +94,7 @@ const Column = styled.div`
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
     padding: 0;
-    width: 172px;
+    width: 150px;
   }
 
   a {
@@ -191,9 +187,9 @@ function Personalization({ personalization }) {
                   </Column>
                 );
               })}
-            <Column>
+            {/* <Column>
               <Icon id={"homepage-right-arrow.svg"} />
-            </Column>
+            </Column> */}
           </div>
         </MediaQuery>
 
@@ -238,7 +234,7 @@ function Personalization({ personalization }) {
           </div>
         </MediaQuery>
       </PersonalizationBlock>
-      <Spacer />
+      {/* <Spacer /> */}
     </>
   );
 }
