@@ -10,30 +10,81 @@ const content = [
         controls: {
           forward: {
             label: "Start the questionnaire",
-            step: "start",
+            step: "age",
             primary: true,
           },
         },
       },
-      start: {
-        text: "How old is the child?",
+      age: {
+        question_text: "How old is the child?",
         options: [
+          {
+            label: "Under 6 years old",
+            id: "under-6-years-old",
+            next_step: "entertainmentIndustry",
+          },
           {
             label: "Under 12 years",
             id: "under-12-years",
-            next_step: "end",
+            next_step: "entertainmentIndustry",
           },
           {
             label: "12-14 years",
             id: "12-to-14-years",
-            next_step: "end",
+            next_step: "entertainmentIndustry",
           },
           {
             label: "15 years or older",
             id: "15-years-or-older",
+            next_step: "entertainmentIndustry",
+          },
+        ],
+        controls: {
+          back: {
+            label: "Back",
+            step: "intro",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
+        },
+      },
+      entertainmentIndustry: {
+        question_text:
+          "Is the young person working in the entertainment industry?",
+        options: [
+          {
+            label: "Yes",
+            id: "yes",
+            next_step: "end",
+          },
+          {
+            label: "No",
+            id: "no",
             next_step: "end",
           },
         ],
+        controls: {
+          back: {
+            label: "Back",
+            step: "age",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
+        },
+      },
+      end: {
+        text:
+          "The information below has been curated to match your selections.",
+        controls: {
+          restart: {
+            label: "Restart",
+            primary: true,
+          },
+        },
       },
     },
   },
