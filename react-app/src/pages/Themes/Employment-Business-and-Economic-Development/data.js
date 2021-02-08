@@ -40,17 +40,20 @@ const sections = [
       },
       {
         title: "Employment Standards & Workplace Safety",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+          external: false,
+        },
         description:
           "Read the Employment Standards or get help with disagreements with WorkSafeBC decisions.",
         links: [
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+            href: "/under-construction",
             label: "Extend a temporary layoff variance",
           },
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety",
+            href: "/under-construction",
             label: "File a complaint with WorkSafeBC",
           },
         ],
