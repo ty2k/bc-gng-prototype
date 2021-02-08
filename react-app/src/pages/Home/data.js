@@ -5,7 +5,7 @@ const personalization = {
     {
       id: "employment",
       title: "Employment",
-      href: "/under-construction",
+      href: "/themes/employment-business-and-economic-development",
       children: [
         {
           label: "Looking for a job",
@@ -35,7 +35,7 @@ const personalization = {
     {
       id: "home",
       title: "Home",
-      href: "/under-construction",
+      href: "/themes/housing-and-tenancy",
       children: [
         {
           label: "A new homeowner",
