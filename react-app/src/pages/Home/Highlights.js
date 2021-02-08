@@ -61,10 +61,10 @@ function Highlights({ highlights }) {
       {highlights?.map(({ icon, title, href }, index) => {
         return (
           <HighlightCard key={`highlight-${index}`}>
-            <Link to={href}>
+            <a href={href}>
               {icon && <Icon id={icon} />}
               {title && <h3>{title}</h3>}
-            </Link>
+            </a>
           </HighlightCard>
         );
       })}

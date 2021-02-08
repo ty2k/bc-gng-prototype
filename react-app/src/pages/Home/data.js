@@ -85,22 +85,22 @@ const highlights = [
   {
     title: "Work in BC",
     icon: "material-work.svg",
-    href: "/under-construction",
+    href: "/#work-in-bc",
   },
   {
     title: "What's Happening",
     icon: "ionic-md-megaphone.svg",
-    href: "/under-construction",
+    href: "/#whats-happening",
   },
   {
     title: "In the News",
     icon: "newspaper-solid.svg",
-    href: "/under-construction",
+    href: "/#in-the-news",
   },
   {
     title: "Get Involved",
     icon: "hands-up.svg",
-    href: "/under-construction",
+    href: "/#get-involved",
   },
 ];
 

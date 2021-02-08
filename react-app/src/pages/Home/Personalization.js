@@ -1,16 +1,14 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
+import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
 
 import Icon from "../../components/Icon";
+import constructionMessage from "../Under-Construction/message";
 
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
-  height: 380px;
-  left: 0;
-  position: absolute;
-  top: 180px;
   width: 100%;
 
   div.div--interior {
@@ -68,7 +66,7 @@ const PersonalizationBlock = styled.div`
       font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
       font-size: 18px;
       padding: 0;
-      width: 172px;
+      width: 200px;
     }
   }
 `;
@@ -76,8 +74,8 @@ const PersonalizationBlock = styled.div`
 const Column = styled.div`
   display: block;
   text-align: left;
-  min-width: 200px;
-  max-width: 230px;
+  max-width: 200px;
+  min-width: 180px;
 
   &.personalization-search-column {
     text-align: center;
@@ -98,7 +96,7 @@ const Column = styled.div`
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
     padding: 0;
-    width: 172px;
+    width: 150px;
   }
 
   a {
@@ -159,11 +157,13 @@ function Personalization({ personalization }) {
             <Column className={"personalization-search-column"}>
               {intro && <h2 className={"h2--intro-text"}>{intro}</h2>}
               <label for="personalization-input">looking for</label>
+              <ReactTooltip />
               <input
                 type="text"
                 className="input--personalization"
                 id="personalization-input"
                 name="personalization-input"
+                data-tip={constructionMessage}
               />
             </Column>
             {verticals?.length > 0 &&
@@ -191,9 +191,9 @@ function Personalization({ personalization }) {
                   </Column>
                 );
               })}
-            <Column>
+            {/* <Column>
               <Icon id={"homepage-right-arrow.svg"} />
-            </Column>
+            </Column> */}
           </div>
         </MediaQuery>
 
@@ -238,7 +238,7 @@ function Personalization({ personalization }) {
           </div>
         </MediaQuery>
       </PersonalizationBlock>
-      <Spacer />
+      {/* <Spacer /> */}
     </>
   );
 }

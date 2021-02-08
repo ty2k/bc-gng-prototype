@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
 
+import constructionMessage from "../../../pages/Under-Construction/message";
 import SearchButton from "./SearchButton";
 
 const SearchForm = styled.div`
@@ -49,8 +51,14 @@ function SearchBar({ placeHolder }) {
   return (
     <SearchForm>
       <form>
-        <input type="search" placeholder={placeHolder} ref={searchInput} />
-        <SearchButton />
+        <ReactTooltip />
+        <input
+          type="search"
+          placeholder={placeHolder}
+          ref={searchInput}
+          data-tip={constructionMessage}
+        />
+        <SearchButton data-tip={constructionMessage} />
       </form>
     </SearchForm>
   );

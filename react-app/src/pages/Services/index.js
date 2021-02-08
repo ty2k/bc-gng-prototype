@@ -114,6 +114,7 @@ function ServicesContent() {
               name="search"
               onChange={onChangeHandler}
               value={inputValue}
+              autoComplete={"off"}
             />
           </label>
           <button disabled></button>
