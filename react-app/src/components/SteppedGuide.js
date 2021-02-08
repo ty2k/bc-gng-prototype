@@ -64,6 +64,13 @@ const StyledNavTab = styled.div`
     }
 
     &.a--navtab-current-page {
+      color: #1a5a96;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+
       // FontAwesome chevron-down-solid to indicate an open page
       span.span--navtab-chevron {
         content: "";
