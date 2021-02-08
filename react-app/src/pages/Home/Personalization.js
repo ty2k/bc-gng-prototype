@@ -1,9 +1,11 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
+import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
 
 import Icon from "../../components/Icon";
+import constructionMessage from "../Under-Construction/message";
 
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
@@ -155,11 +157,13 @@ function Personalization({ personalization }) {
             <Column className={"personalization-search-column"}>
               {intro && <h2 className={"h2--intro-text"}>{intro}</h2>}
               <label for="personalization-input">looking for</label>
+              <ReactTooltip />
               <input
                 type="text"
                 className="input--personalization"
                 id="personalization-input"
                 name="personalization-input"
+                data-tip={constructionMessage}
               />
             </Column>
             {verticals?.length > 0 &&
