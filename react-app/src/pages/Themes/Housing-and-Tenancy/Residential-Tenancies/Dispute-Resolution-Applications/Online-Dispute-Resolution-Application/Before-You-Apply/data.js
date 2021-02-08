@@ -59,7 +59,60 @@ const content = [
     type: "accordion",
     id: "1-register-for-a-basic-bceid",
     title: "1. Register for a Basic BCeID",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "You will need a Basic BCeID account to access the Online Application for Dispute Resolution. A Basic BCeID account provides secure access to online government services.",
+          },
+        ],
+      },
+      {
+        type: "button-link",
+        children: "Register for a Basic BCeID",
+        href: "/under-construction",
+        primary: true,
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-external",
+            href: "/under-construction",
+            children: "BCeID Privacy Policy",
+          },
+          {
+            type: "text",
+            children: " (external link)",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-external",
+            href: "/under-construction",
+            children: "More about BCeID",
+          },
+          {
+            type: "text",
+            children: " (external link)",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "accordion",
@@ -224,25 +277,177 @@ const content = [
     type: "accordion",
     id: "3-collect-the-right-evidence",
     title: "3. Collect the Right Evidence",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "Not sure what evidence you need to support your claim? Use the Online Application for Dispute Resolution—the Online Application will suggest important evidence to support your claim.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "preparing evidence",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Check out ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "restrictions on evidence size and format",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "accordion",
     id: "4-digitize-your-evidence",
     title: "4. Digitize Your Evidence",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "The best way to submit evidence to the Residential Tenancy Branch is online.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Save your evidence on your computer or mobile device",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Clearly name each file so it’s easy to identify",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "preparing evidence",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "accordion",
     id: "5-upload-evidence-in-the-right-format",
     title: "5. Upload Evidence in the Right Format",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "You can submit digital evidence to the Residential Tenancy Branch in the most commonly used formats, but there are restrictions on the format, size and amount of evidence you may submit.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Check out ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "restrictions on evidence size and format",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "accordion",
     id: "6-submit-your-evidence",
     title: "6. Submit Your Evidence",
-    children: [],
+    children: [
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "You can upload evidence by submitting it directly into your Online Application for Dispute Resolution.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "Don’t have all of your digital evidence ready but still want to apply? When you submit an application, you will receive a unique Dispute Access Code. This code will allow you to upload evidence after you have submitted your application.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children:
+              "Don’t forget, you must also provide copies of your evidence to the other party—either on paper or digitally.",
+          },
+        ],
+      },
+      {
+        type: "p",
+        children: [
+          {
+            type: "text",
+            children: "- Learn more about ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "requirements for digital evidence",
+          },
+        ],
+      },
+    ],
   },
   {
     type: "br",

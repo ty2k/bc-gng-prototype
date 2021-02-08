@@ -30,12 +30,12 @@ const sections = [
           {
             href:
               "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers",
-            label: "Temporary Foreign Workers",
+            label: "Hiring Temporary Foreign Workers",
           },
           {
             href:
               "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-young-people",
-            label: "Young People",
+            label: "Hiring Young People",
           },
         ],
       },
@@ -145,17 +145,17 @@ const sections = [
         },
         links: [
           {
-            href:
-              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources/guide-to-the-employment-standards-act",
-            label: "Guide to the Employment Standards Act and Regulation",
-          },
-          {
             href: "/under-construction",
             label: "Education Seminars",
           },
           {
             href: "/under-construction",
             label: "Due diligence searches",
+          },
+          {
+            href:
+              "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/forms-and-resources/guide-to-the-employment-standards-act",
+            label: "Guide to the Employment Standards Act and Regulation",
           },
         ],
       },

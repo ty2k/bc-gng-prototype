@@ -275,7 +275,16 @@ const content = [
           {
             type: "text",
             children:
-              "2. The landlord can give written notice requiring the tenant to change the locks back within a specific, but reasonable, period of time. In some cases, the tenant may just need to give the landlord keys to the new locks – this only works if the lock isn’t keyed to a master key. If the tenant doesn’t do so, the landlord can apply for dispute resolution.",
+              "2. The landlord can give written notice requiring the tenant to change the locks back within a specific, but reasonable, period of time. In some cases, the tenant may just need to give the landlord keys to the new locks – this only works if the lock isn’t keyed to a master key. If the tenant doesn’t do so, the landlord ",
+          },
+          {
+            type: "a-internal",
+            href: "/under-construction",
+            children: "can apply for dispute resolution",
+          },
+          {
+            type: "text",
+            children: ".",
           },
         ],
       },
@@ -474,7 +483,16 @@ const content = [
               {
                 type: "text",
                 children:
-                  "2. The landlord can give written notice requiring the tenant to change the locks back within a specific, but reasonable, period of time. In some cases, the tenant may just need to give the landlord keys to the new locks – this only works if the lock isn’t keyed to a master key. If the tenant doesn’t do so, the landlord can apply for dispute resolution.",
+                  "2. The landlord can give written notice requiring the tenant to change the locks back within a specific, but reasonable, period of time. In some cases, the tenant may just need to give the landlord keys to the new locks – this only works if the lock isn’t keyed to a master key. If the tenant doesn’t do so, the landlord ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "can apply for dispute resolution",
+              },
+              {
+                type: "text",
+                children: ".",
               },
             ],
           },

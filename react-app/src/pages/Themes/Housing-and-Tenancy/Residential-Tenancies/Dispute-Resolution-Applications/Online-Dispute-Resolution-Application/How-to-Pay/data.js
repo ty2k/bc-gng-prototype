@@ -265,7 +265,64 @@ const content = [
       {
         type: "text",
         children:
-          "If you are a tenant with a low income or have extraordinary expenses that would make paying the filing fee a hardship, you may qualify for a fee waiver. You can apply for a fee waiver online at the time of submission or in person at any Service BC Office or the Residential Tenancy Branch Office in Burnaby.",
+          "Applicants with very low income or who have extraordinary expenses that would make paying the filing fee a hardship can also apply to have the fee waived.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children: "Low Income Tenants",
+      },
+      {
+        type: "text",
+        children:
+          ": can apply for a fee waiver through the Online Application for Dispute Resolution or by submitting a paper Application to Waive Filing Fee (RTB-17)",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children: "Extraordinary Expenses",
+      },
+      {
+        type: "text",
+        children:
+          ": landlords or tenants who have incurred extraordinary expenses within the past eight weeks that would make paying the filing fee a hardship, may submit a paper Application to Waive Filing Fee (RTB-17) for extraordinary expenses",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "- ",
+      },
+      {
+        type: "text",
+        style: "strong",
+        children: "Low Income Landlords",
+      },
+      {
+        type: "text",
+        children:
+          ": can submit a paper Application to Waive Filing Fee (RTB-17)",
       },
     ],
   },
@@ -275,7 +332,7 @@ const content = [
       {
         type: "text",
         children:
-          "You must submit proof of income when applying for a fee waiver",
+          "If you are a landlord using the Online Application for Dispute Resolution, select that you will make your payment at our Burnaby Office or a Service BC Office and submit your fee waiver in person",
       },
     ],
   },
@@ -290,6 +347,16 @@ const content = [
         type: "a-internal",
         href: "/under-construction",
         children: "Application to Waive Filing Fee (PDF)",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Note: Some applications must be submitted within a certain amount of time, like claims against the security deposit or to cancel a Notice to End Tenancy. You must submit proof of income for a fee waiver before the application deadline expires.",
       },
     ],
   },
@@ -362,7 +429,8 @@ const content = [
     type: "p",
     children: [
       {
-        type: "text",
+        type: "a-internal",
+        href: "/under-construction",
         children: "Learn more about fee waivers",
       },
     ],

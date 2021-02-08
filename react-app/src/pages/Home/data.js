@@ -1,4 +1,87 @@
-const highlightTopics = [
+const personalization = {
+  id: "homepage-personalization",
+  intro: "I'm...",
+  verticals: [
+    {
+      id: "employment",
+      title: "Employment",
+      href: "/themes/employment-business-and-economic-development",
+      children: [
+        {
+          label: "Looking for a job",
+          href: "/under-construction",
+        },
+        {
+          label: "Hiring for a job",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "education",
+      title: "Education",
+      href: "/under-construction",
+      children: [
+        {
+          label: "Going back to school",
+          href: "/under-construction",
+        },
+        {
+          label: "Going to secondary school",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "home",
+      title: "Home",
+      href: "/themes/housing-and-tenancy",
+      children: [
+        {
+          label: "A new homeowner",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to buy a new home",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking for a new home",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to rent my home",
+          href: "/under-construction",
+        },
+      ],
+    },
+    {
+      id: "family",
+      title: "Family",
+      href: "/under-construction",
+      children: [
+        {
+          label: "Getting married",
+          href: "/under-construction",
+        },
+        {
+          label: "Starting a family",
+          href: "/under-construction",
+        },
+        {
+          label: "Recently separated",
+          href: "/under-construction",
+        },
+        {
+          label: "Looking to foster a youth",
+          href: "/under-construction",
+        },
+      ],
+    },
+  ],
+};
+
+const highlights = [
   {
     title: "Work in BC",
     icon: "material-work.svg",
@@ -316,4 +399,4 @@ const topics = [
   },
 ];
 
-export { highlightTopics, topics };
+export { personalization, highlights, topics };

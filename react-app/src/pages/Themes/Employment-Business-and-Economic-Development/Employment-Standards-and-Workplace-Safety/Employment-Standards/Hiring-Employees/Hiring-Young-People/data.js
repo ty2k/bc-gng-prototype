@@ -10,30 +10,81 @@ const content = [
         controls: {
           forward: {
             label: "Start the questionnaire",
-            step: "start",
+            step: "age",
             primary: true,
           },
         },
       },
-      start: {
-        text: "How old is the child?",
+      age: {
+        question_text: "How old is the child?",
         options: [
+          {
+            label: "Under 6 years old",
+            id: "under-6-years-old",
+            next_step: "entertainmentIndustry",
+          },
           {
             label: "Under 12 years",
             id: "under-12-years",
-            next_step: "end",
+            next_step: "entertainmentIndustry",
           },
           {
             label: "12-14 years",
             id: "12-to-14-years",
-            next_step: "end",
+            next_step: "entertainmentIndustry",
           },
           {
             label: "15 years or older",
             id: "15-years-or-older",
+            next_step: "entertainmentIndustry",
+          },
+        ],
+        controls: {
+          back: {
+            label: "Back",
+            step: "intro",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
+        },
+      },
+      entertainmentIndustry: {
+        question_text:
+          "Is the young person working in the entertainment industry?",
+        options: [
+          {
+            label: "Yes",
+            id: "yes",
+            next_step: "end",
+          },
+          {
+            label: "No",
+            id: "no",
             next_step: "end",
           },
         ],
+        controls: {
+          back: {
+            label: "Back",
+            step: "age",
+          },
+          forward: {
+            label: "Next",
+            primary: true,
+          },
+        },
+      },
+      end: {
+        text:
+          "The information below has been curated to match your selections.",
+        controls: {
+          restart: {
+            label: "Restart",
+            primary: true,
+          },
+        },
       },
     },
   },
@@ -268,8 +319,7 @@ const content = [
             children: [
               {
                 type: "text",
-                children:
-                  "Work Hours Children who are 12 to 14 years old cannot:",
+                children: "Children who are 12 to 14 years old cannot:",
               },
             ],
           },
@@ -465,7 +515,47 @@ const content = [
       },
       {
         label: "Rules Hiring under 12 years old",
-        // body: "Rules Hiring under 12 years old body text",
+        body: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Employers need to complete an ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children:
+                  "Application of Employer for Child’s Permit of Employment (PDF, 32.2KB)",
+              },
+              {
+                type: "text",
+                children:
+                  ". The child’s parent or guardian and school authority also complete sections of the application form.",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Send the application and a copy of the child’s birth certificate to the ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Victoria Employment Standards Branch office",
+              },
+              {
+                type: "text",
+                children: ".",
+              },
+            ],
+          },
+        ],
       },
     ],
   },

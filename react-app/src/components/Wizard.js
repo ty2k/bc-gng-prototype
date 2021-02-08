@@ -170,7 +170,10 @@ function Wizard({ title, first, steps }) {
           />
         )}
         {step?.question_text && (
-          <p className="p--question-text">{step.question_text}</p>
+          <p
+            className="p--question-text"
+            dangerouslySetInnerHTML={sanitize(step.question_text)}
+          />
         )}
         <div className="div--wizard-questionnaire">
           <div className="div--wizard-question">
