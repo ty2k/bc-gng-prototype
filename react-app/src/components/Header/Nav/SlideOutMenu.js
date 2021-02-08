@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
 
+import constructionMessage from "../../../pages/Under-Construction/message";
 import Alert from "../Alert";
 
 import { ReactComponent as PersonIcon } from "../../assets/ionic-md-person.svg";
@@ -165,10 +167,12 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
       <Menu tabIndex="0">
         <SearchBar>
           <form>
+            <ReactTooltip />
             <input
               type="search"
               placeholder={"Search gov.bc.ca"}
               ref={inputRef}
+              data-tip={constructionMessage}
             />
             <SearchButton
               onClick={(e) => {
