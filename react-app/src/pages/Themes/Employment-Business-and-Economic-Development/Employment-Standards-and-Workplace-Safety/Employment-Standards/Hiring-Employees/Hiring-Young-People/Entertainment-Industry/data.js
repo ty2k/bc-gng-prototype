@@ -132,21 +132,25 @@ const content = [
         id: "dont-leave-your-child-unsupervised",
         label: "Don’t leave your child unsupervised",
       },
-      {
-        id: "the-role-of-parents-or-guardians",
-        label: "The Role of parents or guardians",
-      },
+      // {
+      //   id: "the-role-of-parents-or-guardians",
+      //   label: "The Role of parents or guardians",
+      // },
       {
         id: "hours-of-work",
+        // {
+        //   id: "children-under-three-years-old",
+        //   label: "Children under three years old",
+        // },
+        // {
+        //   id: "working-with-a-talent-agency",
+        //   label: "Working with a talent agency",
+        // },
         label: "Hours of Work",
       },
       {
-        id: "children-under-three-years-old",
-        label: "Children under three years old",
-      },
-      {
-        id: "working-with-a-talent-agency",
-        label: "Working with a talent agency",
+        id: "contact-the-employment-standards-branch",
+        label: "Contact the Employment Standards Branch",
       },
     ],
   },
@@ -241,8 +245,18 @@ const content = [
       },
       {
         type: "text",
+        children: ", employers need to complete an ",
+      },
+      {
+        type: "a-internal",
+        href: "/under-construction",
         children:
-          ", employers need to complete an Application of Employer for Child’s Permit of Employment (PDF, 32.2KB). The child’s parent or guardian and school authority also complete sections of the application form. Send the application and a copy of the child’s birth certificate to the Victoria Employment Standards Branch office.",
+          "Application of Employer for Child’s Permit of Employment (PDF, 32.2KB)",
+      },
+      {
+        type: "text",
+        children:
+          ". The child’s parent or guardian and school authority also complete sections of the application form. Send the application and a copy of the child’s birth certificate to the Victoria Employment Standards Branch office.",
       },
     ],
   },
@@ -332,6 +346,260 @@ const content = [
           "- Five children per adult for children aged 12 to 15 years old",
       },
     ],
+  },
+  {
+    type: "h2",
+    id: "hours-of-work",
+    children: "Hours of Work",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Work hours include time spent doing hair, makeup, wardrobe or fittings. Split shifts are not allowed. Children cannot work more than five days per week.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children: "Work begins at call time",
+      },
+      {
+        type: "text",
+        children:
+          ". The workday starts at the child’s call time or when they’re required to start work. The earliest work can start is 5 am.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        style: "strong",
+        children: "Work ends at wrap time",
+      },
+      {
+        type: "text",
+        children:
+          ". The end of the workday is when the young person is no longer wearing makeup or a costume. It may include travel time or time spent waiting for transportation. The latest a child can work is 10 pm if the next day is a school day or 12:30 am if the next day is not a school day. If school is not in session a child can work until 2 a.m.",
+      },
+    ],
+  },
+  {
+    type: "table-basic",
+    id: "esb-hiring-young-people-hours",
+    data: {
+      thead: [
+        {
+          id: "age",
+          label: "Age",
+          colspan: 1,
+          align: "left",
+          width: "20",
+        },
+        {
+          id: "maximum-hours-of-work",
+          label: "Maximum hours of work",
+          colspan: 1,
+          align: "left",
+          width: "30",
+        },
+        {
+          id: "time-before-camera",
+          label: "Time before camera",
+          colspan: 1,
+          align: "left",
+          width: "50",
+        },
+      ],
+      tbody: [
+        {
+          cols: [
+            {
+              id: "age",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "15 days to less than three years",
+                },
+              ],
+            },
+            {
+              id: "maximum-hours-of-work",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "8 hours per day",
+                },
+              ],
+            },
+            {
+              id: "time-before-camera",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "A minimum break of 20 minutes for every 15 consecutive minutes",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "age",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "3 to 5 years old",
+                },
+              ],
+            },
+            {
+              id: "maximum-hours-of-work",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "8 hours per day",
+                },
+              ],
+            },
+            {
+              id: "time-before-camera",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "A minimum break of 15 minutes for every 30 consecutive minutes",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "age",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "6-11 years old",
+                },
+              ],
+            },
+            {
+              id: "maximum-hours-of-work",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "8 hours per day",
+                },
+              ],
+            },
+            {
+              id: "time-before-camera",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "A minimum break of 10 minutes for every 45 consecutive minutes",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          cols: [
+            {
+              id: "age",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "12-14 years old",
+                },
+              ],
+            },
+            {
+              id: "maximum-hours-of-work",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children: "10 hours per day",
+                },
+              ],
+            },
+            {
+              id: "time-before-camera",
+              colspan: 1,
+              align: "left",
+              children: [
+                {
+                  type: "text",
+                  children:
+                    "A minimum break of 10 minutes for every 60 consecutive minutes",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "contact-the-employment-standards-branch",
+    children: "Contact the Employment Standards Branch",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Contact us via phone, email, or in person",
+      },
+    ],
+  },
+  {
+    type: "button",
+    children: "Contact the Branch",
+    onClick: null,
+    primary: true,
+  },
+  {
+    type: "br",
   },
   {
     type: "br",

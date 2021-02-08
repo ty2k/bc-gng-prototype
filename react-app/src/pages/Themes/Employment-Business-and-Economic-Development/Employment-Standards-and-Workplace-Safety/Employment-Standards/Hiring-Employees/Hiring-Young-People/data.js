@@ -319,8 +319,7 @@ const content = [
             children: [
               {
                 type: "text",
-                children:
-                  "Work Hours Children who are 12 to 14 years old cannot:",
+                children: "Children who are 12 to 14 years old cannot:",
               },
             ],
           },
@@ -516,7 +515,47 @@ const content = [
       },
       {
         label: "Rules Hiring under 12 years old",
-        // body: "Rules Hiring under 12 years old body text",
+        body: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Employers need to complete an ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children:
+                  "Application of Employer for Child’s Permit of Employment (PDF, 32.2KB)",
+              },
+              {
+                type: "text",
+                children:
+                  ". The child’s parent or guardian and school authority also complete sections of the application form.",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Send the application and a copy of the child’s birth certificate to the ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Victoria Employment Standards Branch office",
+              },
+              {
+                type: "text",
+                children: ".",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
