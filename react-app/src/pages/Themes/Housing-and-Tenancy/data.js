@@ -22,6 +22,10 @@ const sections = [
       },
       {
         title: "Strata Housing",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         description:
           "Find out information about strata housing, the role of a strata council, budgets and bylaws.",
         links: [
@@ -38,6 +42,10 @@ const sections = [
       {
         title: "Owning a Home",
         description: "Find all information you need about owning a home.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -52,6 +60,10 @@ const sections = [
       {
         title: "Seniors Housing",
         description: "Find housing options for seniors and older adults in BC.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -71,6 +83,10 @@ const sections = [
         title: "Affordable Housing",
         description:
           "Learn more about affordable housing, social housing, the role of government and BC Housing.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -86,6 +102,10 @@ const sections = [
         title: "Local Governments & Housing",
         description:
           "Find affordable housing tools and resources available to local governments.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -101,6 +121,10 @@ const sections = [
         title: "Building or Renovating",
         description:
           "Find resources you may need when building or renovating your home.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -120,6 +144,10 @@ const sections = [
         title: "Real Estate in B.C.",
         description:
           "Learn about Real Estate in B.C.: buying and selling property, real estate consultations, and regulations.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
