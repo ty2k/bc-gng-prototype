@@ -5,6 +5,10 @@ const sections = [
         title: "Job Seekers & Employees",
         description:
           "Access different tools to help find a job or work-related advice.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -23,6 +27,10 @@ const sections = [
       {
         title: "Business",
         description: "Growing or starting a business? We can help.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -61,6 +69,10 @@ const sections = [
       {
         title: "Employers",
         description: "Find information you need about managing employees.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -76,6 +88,10 @@ const sections = [
         title: "Economic Development",
         description:
           "Find funding, tools, resources, advice & services to help build your community.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -95,6 +111,10 @@ const sections = [
         title: "International Investment & Trade",
         description:
           "Find ways to promote British Columbia in trade and business.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -114,6 +134,10 @@ const sections = [
         title: "Investment Capital",
         description:
           "Find programs to help your business gain access to capital.",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
