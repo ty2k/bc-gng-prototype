@@ -12,21 +12,45 @@ const sections = [
       },
       {
         title: "Education and Seminars",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Due Diligence Searches",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Forms",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Facts",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Solutions Explorer",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Working in B.C. Posters",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
     ],
   },
