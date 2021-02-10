@@ -465,6 +465,10 @@ const content = [
         cards: [
           {
             title: "Complete a Paper Application",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -479,6 +483,10 @@ const content = [
           },
           {
             title: "Apply for a Tenant Direct Request",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -494,6 +502,10 @@ const content = [
           },
           {
             title: "Apply for a Landlord Direct Request",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",

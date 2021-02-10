@@ -289,10 +289,18 @@ const content = [
         cards: [
           {
             title: "Complete a Paper Application",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: "Learn how to complete a paper application",
           },
           {
             title: "Service BC",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -316,6 +324,10 @@ const content = [
           },
           {
             title: "Forms",
+            cardLink: {
+              href: "/themes/housing-and-tenancy/residential-tenancies/forms",
+              external: false,
+            },
             description: "Find all tenancy forms",
           },
         ],

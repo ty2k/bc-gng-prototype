@@ -159,6 +159,10 @@ const content = [
             cards: [
               {
                 title: "Disputing a Notice to End Tenancy",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -174,6 +178,10 @@ const content = [
               },
               {
                 title: "Disputing a Notice to End Tenancy",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -188,6 +196,10 @@ const content = [
               },
               {
                 title: "When a tenant should receive their deposit(s)",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -203,6 +215,10 @@ const content = [
               },
               {
                 title: "When and how much the rent can be increased",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -218,6 +234,10 @@ const content = [
               },
               {
                 title: "When a landlord can file for an order of possession",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -234,6 +254,10 @@ const content = [
               {
                 title:
                   "When a landlord must return a deposit(s) or apply to keep it",
+                cardLink: {
+                  href: "/under-construction",
+                  external: false,
+                },
                 description: [
                   {
                     type: "p",
@@ -474,6 +498,10 @@ const content = [
         cards: [
           {
             title: "Complete a Paper Application",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -488,6 +516,10 @@ const content = [
           },
           {
             title: "Apply for a Tenant Direct Request",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -503,6 +535,10 @@ const content = [
           },
           {
             title: "Apply for a Landlord Direct Request",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
