@@ -108,6 +108,10 @@ const topics = [
   {
     title: "Health",
     icon: "heart-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -126,6 +130,10 @@ const topics = [
   {
     title: "Family and Social Supports",
     icon: "hands-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -144,6 +152,10 @@ const topics = [
   {
     title: "Taxes & Tax Credits",
     icon: "dollar-sign-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -184,6 +196,10 @@ const topics = [
   {
     title: "Our Governments & Relations",
     icon: "local-government.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -202,6 +218,10 @@ const topics = [
   {
     title: "Public Safety & Emergency Services",
     icon: "ambulance.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -220,6 +240,10 @@ const topics = [
   {
     title: "Education and Training",
     icon: "book-open-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -256,6 +280,10 @@ const topics = [
   {
     title: "Driving and Transporation",
     icon: "car-alt-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -274,6 +302,10 @@ const topics = [
   {
     title: "Law, Crime & Justice",
     icon: "map-icons-lawyer.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -292,6 +324,10 @@ const topics = [
   {
     title: "Farming, Natural Resources & Industry",
     icon: "industry-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -310,6 +346,10 @@ const topics = [
   {
     title: "Environmental Protection & Sustainability",
     icon: "leaf-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -328,6 +368,10 @@ const topics = [
   {
     title: "Birth, Adoption, Death, Marriage and Identity",
     icon: "hand-holding-heart-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -346,6 +390,10 @@ const topics = [
   {
     title: "Sports, Recreation, Arts & Culture",
     icon: "ios-football.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -364,6 +412,10 @@ const topics = [
   {
     title: "Data",
     icon: "passport-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",
@@ -382,6 +434,10 @@ const topics = [
   {
     title: "Moving to B.C. & Tourism",
     icon: "plane-solid.svg",
+    cardLink: {
+      href: "/under-construction",
+      external: false,
+    },
     links: [
       {
         href: "/under-construction",

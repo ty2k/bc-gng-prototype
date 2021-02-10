@@ -282,6 +282,10 @@ const content = [
         cards: [
           {
             title: "Register to Hire Temporary Foreign Workers",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -297,6 +301,10 @@ const content = [
           },
           {
             title: "Search for an Employer or Recruiter",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -311,6 +319,10 @@ const content = [
           },
           {
             title: "Guide to the Employment Standards Act and Regulation",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",

@@ -369,11 +369,19 @@ const content = [
         cards: [
           {
             title: "Follow the Rules",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description:
               "Dispute resolution is a formal process – it’s a lot like going to court. Both the landlord and the tenant need to know and follow the Residential Tenancy Branch Rules of Procedure (PDF).",
           },
           {
             title: "Service BC",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description: [
               {
                 type: "p",
@@ -397,6 +405,10 @@ const content = [
           },
           {
             title: "Forms",
+            cardLink: {
+              href: "/themes/housing-and-tenancy/residential-tenancies/forms",
+              external: false,
+            },
             description: "Find all tenancy forms",
           },
         ],

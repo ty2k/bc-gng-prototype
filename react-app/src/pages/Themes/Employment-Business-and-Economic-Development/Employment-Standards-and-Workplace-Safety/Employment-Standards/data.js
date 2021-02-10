@@ -41,6 +41,10 @@ const sections = [
       },
       {
         title: "Hours of Work & Overtime",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -58,6 +62,10 @@ const sections = [
       },
       {
         title: "Statutory Holidays",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -71,6 +79,10 @@ const sections = [
       },
       {
         title: "Taking Time Off",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -92,6 +104,10 @@ const sections = [
       },
       {
         title: "Quit, Fired or Laid Off",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -109,6 +125,10 @@ const sections = [
       },
       {
         title: "Getting Paid for Work",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -161,6 +181,10 @@ const sections = [
       },
       {
         title: "Specific Industries",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         description: [
           {
             type: "p",
@@ -176,6 +200,10 @@ const sections = [
       },
       {
         title: "Licensing",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         links: [
           {
             href: "/under-construction",
@@ -200,6 +228,10 @@ const sections = [
     cards: [
       {
         title: "Make a Complaint",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         description: [
           {
             type: "p",
@@ -214,6 +246,10 @@ const sections = [
       },
       {
         title: "Ask a Question",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         description: [
           {
             type: "p",
@@ -229,6 +265,10 @@ const sections = [
       },
       {
         title: "Register a Domestic Worker",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
         description: [
           {
             type: "p",
@@ -243,6 +283,11 @@ const sections = [
       },
       {
         title: "Apply for a temporary foreign worker recruiter’s license",
+        cardLink: {
+          href:
+            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
+          external: false,
+        },
         description: [
           {
             type: "p",
@@ -254,11 +299,6 @@ const sections = [
             ],
           },
         ],
-        cardLink: {
-          href:
-            "/themes/employment-business-and-economic-development/employment-standards-and-workplace-safety/employment-standards/hiring-employees/hiring-temporary-foreign-workers/apply-for-a-recruiters-license",
-          external: false,
-        },
       },
     ],
   },
