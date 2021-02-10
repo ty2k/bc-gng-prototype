@@ -211,16 +211,28 @@ const content = [
         cards: [
           {
             title: "Paying Rent",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description:
               "Find out what needs to happen in situations where tenants must be notified. For example, when a landlord wants to enter a rental unit, end a tenancy, discontinue services or schedule a showing.",
           },
           {
             title: "Changes to the Agreement",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description:
               "Find out what needs to happen in situations where tenants must be notified. For example, when a landlord wants to enter a rental unit, end a tenancy, discontinue services or schedule a showing.",
           },
           {
             title: "Repairs and Maintenance",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
             description:
               "Find out what needs to happen in situations where tenants must be notified. For example, when a landlord wants to enter a rental unit, end a tenancy, discontinue services or schedule a showing.",
           },

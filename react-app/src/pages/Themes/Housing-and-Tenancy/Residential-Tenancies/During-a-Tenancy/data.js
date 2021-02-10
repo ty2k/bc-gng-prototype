@@ -4,6 +4,10 @@ const sections = [
     cards: [
       {
         title: "Paying Rent",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Rent Increases",
@@ -15,9 +19,17 @@ const sections = [
       },
       {
         title: "Repairs & Maintenance",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Landlord's Access",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Possession of the Unit",
@@ -29,27 +41,59 @@ const sections = [
       },
       {
         title: "Quiet Enjoyment",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Changes to the Agreement",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Pets",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Sublet & Assignment",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Selling a Tenanted Property",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Serving Notices During Tenancy",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Get it in Writing",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
       {
         title: "Cannabis",
+        cardLink: {
+          href: "/under-construction",
+          external: false,
+        },
       },
     ],
   },
