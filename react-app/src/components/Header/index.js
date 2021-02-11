@@ -287,7 +287,7 @@ function Header({ alertMessages, navLinks, satellite, title }) {
           </div>
         )}
       </div>
-      {!searchHidden && (
+      {!navHidden && !searchHidden && (
         <SearchBar header={true} placeholder={"Search gov.bc.ca"} />
       )}
       {slideOutMenuHidden &&
