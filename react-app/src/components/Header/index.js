@@ -169,8 +169,13 @@ function Header({ alertMessages, navLinks, satellite, title }) {
   const [slideOutMenuHidden, setSlideOutMenuHidden] = useState(true);
   const [backToTopShown, setBackToTopShown] = useState(false);
 
+  // Window sizes less than this breakpoint get a full-width Header at all times
   const isCollapsible = useMediaQuery({ query: `(min-width: 1271px)` });
-  const MINIMUM_SCROLL = window.innerHeight / 2;
+
+  // Round window.innerHeight to prevent a sub-pixel value being returned.
+  // Sub-pixel values (ex: 820.5) will cause flashing between collapsed and
+  // full-width states.
+  const MINIMUM_SCROLL = Math.round(window.innerHeight / 2);
 
   useDocumentScrollThrottled((callbackData) => {
     const { previousScrollTop, currentScrollTop } = callbackData;
