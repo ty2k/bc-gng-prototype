@@ -9,19 +9,17 @@ import Breadcrumbs from "./Breadcrumbs";
 import { ReactComponent as ArrowLeft } from "./assets/arrow-left-solid.svg";
 
 const StyledPage = styled.div`
-  div#offset {
-    @media (max-width: 420px) {
-      margin-bottom: 190px;
-    }
-    @media (min-width: 421px) {
-      margin-bottom: 170px;
-    }
-    @media (min-width: 576px) {
-      margin-bottom: 150px;
-    }
-    @media (min-width: 768px) {
-      margin-bottom: 140px;
-    }
+  @media (max-width: 420px) {
+    margin-top: 190px;
+  }
+  @media (min-width: 421px) {
+    margin-top: 170px;
+  }
+  @media (min-width: 576px) {
+    margin-top: 150px;
+  }
+  @media (min-width: 768px) {
+    margin-top: 140px;
   }
 `;
 
@@ -128,10 +126,6 @@ function Page({
       <SkipToMainContentLink />
       <span id="main-content-anchor"></span>
       <Header title={title} />
-
-      {/* Used to offset the Header (position: fixed) height */}
-      <div id="offset" />
-
       {breadcrumbs && breadcrumbs.length > 0 && (
         <Breadcrumbs breadcrumbs={breadcrumbs} />
       )}
