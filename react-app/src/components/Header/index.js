@@ -178,7 +178,9 @@ function Header({ alertMessages, navLinks, satellite, title }) {
   const MINIMUM_SCROLL = Math.round(window.innerHeight / 2);
 
   useDocumentScrollThrottled((callbackData) => {
-    const { previousScrollTop, currentScrollTop } = callbackData;
+    let { previousScrollTop, currentScrollTop } = callbackData;
+    previousScrollTop = Math.round(previousScrollTop);
+    currentScrollTop = Math.round(currentScrollTop);
     const isScrolledDown = previousScrollTop < currentScrollTop;
     const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
 
