@@ -47,11 +47,8 @@ const NavStyled = styled.nav`
     height: 80px;
     text-decoration: none;
 
-    div.header-navlink-top {
-      height: 8px;
-    }
     div.header-navlink-arrow {
-      height: 7px;
+      height: 15px;
     }
     div.header-navlink-text {
       height: 50px;
@@ -70,7 +67,7 @@ const NavStyled = styled.nav`
     div.header-navlink-arrow {
       background-color: #fcba19;
       background-size: cover;
-      clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+      clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
     }
   }
 
@@ -132,13 +129,11 @@ function Nav({ hidden, navLinks, toggleSearch, toggleSlideOutMenu }) {
             <li key={index}>
               {external ? (
                 <a href={href}>
-                  <div className="header-navlink-top"></div>
                   <div className="header-navlink-arrow"></div>
                   <div className="header-navlink-text">{text}</div>
                 </a>
               ) : (
                 <NavLink to={href} activeClassName="a--current-page">
-                  <div className="header-navlink-top"></div>
                   <div className="header-navlink-arrow"></div>
                   <div className="header-navlink-text">{text}</div>
                 </NavLink>

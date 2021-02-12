@@ -17,8 +17,9 @@ import { ReactComponent as BackToTopIcon } from "../assets/back-to-top.svg";
 
 const HeaderStyled = styled.header`
   background: none;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1;
 
   /* The left-collapsed header on desktop sizes at least 1271px wide */

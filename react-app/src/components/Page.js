@@ -8,6 +8,21 @@ import Breadcrumbs from "./Breadcrumbs";
 
 import { ReactComponent as ArrowLeft } from "./assets/arrow-left-solid.svg";
 
+const StyledPage = styled.div`
+  @media (max-width: 420px) {
+    margin-top: 190px;
+  }
+  @media (min-width: 421px) {
+    margin-top: 170px;
+  }
+  @media (min-width: 576px) {
+    margin-top: 150px;
+  }
+  @media (min-width: 768px) {
+    margin-top: 140px;
+  }
+`;
+
 const StyledSkipLink = styled.a`
   color: white;
   display: hidden;
@@ -107,7 +122,7 @@ function Page({
   parentTitle = "",
 }) {
   return (
-    <>
+    <StyledPage>
       <SkipToMainContentLink />
       <span id="main-content-anchor"></span>
       <Header title={title} />
@@ -122,7 +137,7 @@ function Page({
         />
         {content}
       </main>
-    </>
+    </StyledPage>
   );
 }
 

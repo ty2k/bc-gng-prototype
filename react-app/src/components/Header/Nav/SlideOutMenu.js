@@ -14,6 +14,7 @@ const Cover = styled.div`
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   position: fixed;
+  top: 80px;
   width: 100%;
 `;
 
@@ -62,16 +63,10 @@ const Menu = styled.div`
           font-weight: 700;
           padding: 0;
 
-          div.slide-out-menu-li-navlink-arrow-body {
-            background-color: #fcba16;
-            display: inline-block;
-            height: 44px;
-            width: 4px;
-          }
           div.slide-out-menu-li-navlink-arrow-head {
             background-color: #fcba16;
             background-size: cover;
-            clip-path: polygon(0% 0%, 0% 100%, 50% 50%);
+            clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 100% 50%, 50% 0%);
             display: inline-block;
             height: 44px;
             width: 10px;
@@ -79,7 +74,7 @@ const Menu = styled.div`
 
           div.slide-out-menu-li-navlink-text {
             display: inline-block;
-            padding-left: 2px;
+            padding-left: 6px;
           }
         }
       }
@@ -197,7 +192,6 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
                     activeClassName="slide-out-menu-li-navlink"
                     onClick={toggleSlideOutMenu}
                   >
-                    <div className="slide-out-menu-li-navlink-arrow-body"></div>
                     <div className="slide-out-menu-li-navlink-arrow-head"></div>
                     <div className="slide-out-menu-li-navlink-text">{text}</div>
                   </NavLink>
