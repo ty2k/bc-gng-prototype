@@ -14,6 +14,7 @@ const Cover = styled.div`
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   position: fixed;
+  top: 80px;
   width: 100%;
 `;
 
