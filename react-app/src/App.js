@@ -51,6 +51,9 @@ import ApplyForRecruitersLicense from "./pages/Themes/Employment-Business-and-Ec
 import HowToApply from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/How-to-Apply";
 import OnceYouGetYourLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/Once-You-Get-Your-License";
 
+// Education pages
+import OrderYourStudentTranscripts from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts";
+
 function App() {
   return (
     <Switch>
@@ -861,6 +864,33 @@ function App() {
         parentHref={"/themes"}
         parentTitle={"Topics"}
       />
+
+      {/* Education pages */}
+      <PrivateRoute
+        exact
+        path={
+          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts"
+        }
+        title={"Order Your Student Transcript"}
+        breadcrumbs={[
+          {
+            href: "/under-construction",
+            label: "Education & Training",
+          },
+          {
+            href: "/under-construction",
+            label: "Kindergarten to Grade 12",
+          },
+          {
+            href: "/under-construction",
+            label: "Transcripts and Certificates",
+          },
+        ]}
+        content={<OrderYourStudentTranscripts />}
+        parentHref={"/under-construction"}
+        parentTitle={"Transcripts and Certificates"}
+      />
+
       <PrivateRoute
         path={"/themes"}
         title={"Topics"}
