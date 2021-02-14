@@ -55,6 +55,7 @@ import OnceYouGetYourLicense from "./pages/Themes/Employment-Business-and-Econom
 import OrderYourStudentTranscripts from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts";
 import Eligibility from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Eligibility";
 import BeforeYouStart from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Before-You-Start";
+import Costs from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Costs";
 
 function App() {
   return (
@@ -937,6 +938,30 @@ function App() {
           },
         ]}
         content={<BeforeYouStart />}
+        parentHref={"/under-construction"}
+        parentTitle={"Transcripts and Certificates"}
+      />
+      <PrivateRoute
+        exact
+        path={
+          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs"
+        }
+        title={"Order Your Student Transcript"}
+        breadcrumbs={[
+          {
+            href: "/under-construction",
+            label: "Education & Training",
+          },
+          {
+            href: "/under-construction",
+            label: "Kindergarten to Grade 12",
+          },
+          {
+            href: "/under-construction",
+            label: "Transcripts and Certificates",
+          },
+        ]}
+        content={<Costs />}
         parentHref={"/under-construction"}
         parentTitle={"Transcripts and Certificates"}
       />
