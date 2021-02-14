@@ -427,7 +427,7 @@ const content = [
         "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
       backLabel: "Costs",
       forwardHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-your-order",
+        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
       forwardLabel: "After You Order",
     },
   },
