@@ -7,7 +7,7 @@
     "core-js": "^3.8.3",
     "dompurify": "^2.2.6",
     "jsdom": "^16.4.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
     "react-dom": "^17.0.1",
