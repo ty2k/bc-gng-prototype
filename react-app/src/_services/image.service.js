@@ -14,7 +14,9 @@ import { ReactComponent as chevronDownSolid } from "../components/assets/chevron
 import { ReactComponent as chevronLeftSolid } from "../components/assets/chevron-left-solid.svg";
 import { ReactComponent as chevronRightSolid } from "../components/assets/chevron-right-solid.svg";
 import { ReactComponent as chevronUpSolid } from "../components/assets/chevron-up-solid.svg";
+import { ReactComponent as commentDotsSolid } from "../components/assets/comment-dots-solid.svg";
 import { ReactComponent as dollarSignSolid } from "../components/assets/dollar-sign-solid.svg";
+import { ReactComponent as envelopeSolid } from "../components/assets/envelope-solid.svg";
 import { ReactComponent as externalLinkAltSolid } from "../components/assets/external-link-alt-solid.svg";
 import { ReactComponent as handHoldingHeartSolid } from "../components/assets/hand-holding-heart-solid.svg";
 import { ReactComponent as handsSolid } from "../components/assets/hands-solid.svg";
@@ -47,6 +49,7 @@ import { ReactComponent as nounCoins } from "../components/assets/noun-project-c
 import { ReactComponent as nounFishing } from "../components/assets/noun-project-fishing.svg";
 import { ReactComponent as nounMedicalCross } from "../components/assets/noun-project-medical-cross.svg";
 import { ReactComponent as passportSolid } from "../components/assets/passport-solid.svg";
+import { ReactComponent as phoneSolid } from "../components/assets/phone-solid.svg";
 import { ReactComponent as planeSolid } from "../components/assets/plane-solid.svg";
 import { ReactComponent as searchSolid } from "../components/assets/search-solid.svg";
 import { ReactComponent as sortDownSolid } from "../components/assets/sort-down-solid.svg";
@@ -69,7 +72,9 @@ const svgIcons = {
   "chevron-left-solid.svg": chevronLeftSolid,
   "chevron-right-solid.svg": chevronRightSolid,
   "chevron-up-solid.svg": chevronUpSolid,
+  "comment-dots-solid.svg": commentDotsSolid,
   "dollar-sign-solid.svg": dollarSignSolid,
+  "envelope-solid.svg": envelopeSolid,
   "external-link-alt-solid.svg": externalLinkAltSolid,
   "hand-holding-heart-solid.svg": handHoldingHeartSolid,
   "hands-solid.svg": handsSolid,
@@ -102,6 +107,7 @@ const svgIcons = {
   "noun-project-fishing.svg": nounFishing,
   "noun-project-medical-cross.svg": nounMedicalCross,
   "passport-solid.svg": passportSolid,
+  "phone-solid.svg": phoneSolid,
   "plane-solid.svg": planeSolid,
   "search-solid.svg": searchSolid,
   "sort-down-solid.svg": sortDownSolid,
