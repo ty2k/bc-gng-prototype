@@ -241,7 +241,7 @@ const topics = [
     title: "Education and Training",
     icon: "book-open-solid.svg",
     cardLink: {
-      href: "/under-construction",
+      href: "/themes/education-and-training",
       external: false,
     },
     links: [
