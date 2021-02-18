@@ -1,2 +1,0 @@
-cd react-app
-npx --no-install lint-staged
