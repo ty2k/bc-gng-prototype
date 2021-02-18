@@ -52,12 +52,13 @@ import HowToApply from "./pages/Themes/Employment-Business-and-Economic-Developm
 import OnceYouGetYourLicense from "./pages/Themes/Employment-Business-and-Economic-Development/Employment-Standards-and-Workplace-Safety/Employment-Standards/Hiring-Employees/Hiring-Temporary-Foreign-Workers/Apply-for-Recruiters-License/Once-You-Get-Your-License";
 
 // Education pages
-import OrderYourStudentTranscripts from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts";
-import Eligibility from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Eligibility";
-import BeforeYouStart from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Before-You-Start";
-import Costs from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Costs";
-import HowToOrder from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/How-to-Order";
-import AfterYouOrder from "./pages/Themes/Education/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/After-You-Order";
+import EducationAndTraining from "./pages/Themes/Education-and-Training";
+import OrderYourStudentTranscripts from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts";
+import Eligibility from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Eligibility";
+import BeforeYouStart from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Before-You-Start";
+import Costs from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/Costs";
+import HowToOrder from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/How-to-Order";
+import AfterYouOrder from "./pages/Themes/Education-and-Training/K-12/Transcripts-and-Certifications/Order-Your-Student-Transcripts/After-You-Order";
 
 function App() {
   return (
@@ -874,12 +875,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -898,12 +899,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -922,12 +923,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -946,12 +947,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/costs"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -970,12 +971,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -994,12 +995,12 @@ function App() {
       <PrivateRoute
         exact
         path={
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order"
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order"
         }
         title={"Order Your Student Transcript"}
         breadcrumbs={[
           {
-            href: "/under-construction",
+            href: "/themes/education-and-training",
             label: "Education & Training",
           },
           {
@@ -1014,6 +1015,15 @@ function App() {
         content={<AfterYouOrder />}
         parentHref={"/under-construction"}
         parentTitle={"Transcripts and Certificates"}
+      />
+      <PrivateRoute
+        exact
+        path={"/themes/education-and-training"}
+        title={"Education and Training"}
+        breadcrumbs={[]}
+        content={<EducationAndTraining />}
+        parentHref={"/themes"}
+        parentTitle={"Topics"}
       />
 
       <PrivateRoute

@@ -1,0 +1,3 @@
+const content = [];
+
+export { content };

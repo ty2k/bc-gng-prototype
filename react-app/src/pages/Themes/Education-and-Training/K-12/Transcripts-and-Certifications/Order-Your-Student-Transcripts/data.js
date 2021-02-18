@@ -9,32 +9,32 @@ const content = [
       {
         label: "Overview",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts",
       },
       {
         label: "Eligibility",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
       },
       {
         label: "Before You Start",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
       },
       {
         label: "Costs",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
       },
       {
         label: "How to Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
       },
       {
         label: "After You Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
       },
     ],
   },
@@ -43,43 +43,17 @@ const content = [
   },
   {
     type: "h2",
-    id: "before-you-start",
-    children: "Before You Start",
+    id: "overview",
+    children: "Overview",
   },
   {
-    type: "callout",
-    className: "info",
+    type: "p",
     children: [
       {
-        type: "p",
-        children: [
-          {
-            type: "svg",
-            id: "material-access-time.svg",
-            args: {
-              display: "inline-block",
-              height: "30px",
-              margin: "0 14px 0 0",
-              width: "30px",
-              "vertical-align": "text-bottom",
-            },
-          },
-          {
-            type: "text",
-            style: "strong",
-            children: "It may take up to 30 minutes to order your transcripts",
-          },
-        ],
+        type: "text",
+        children: "Use this service to:",
       },
     ],
-  },
-  {
-    type: "br",
-  },
-  {
-    type: "h2",
-    id: "you-will-need",
-    children: "You'll need",
   },
   {
     type: "ul",
@@ -92,16 +66,7 @@ const content = [
             children: [
               {
                 type: "text",
-                children: "a ",
-              },
-              {
-                type: "a-internal",
-                href: "/under-construction",
-                children: "Basic BCeID",
-              },
-              {
-                type: "text",
-                children: " to login",
+                children: "View or order your grade 10 to 12 course transcript",
               },
             ],
           },
@@ -115,16 +80,8 @@ const content = [
             children: [
               {
                 type: "text",
-                children: "your ",
-              },
-              {
-                type: "a-internal",
-                href: "/under-construction",
-                children: "Personal Education Number",
-              },
-              {
-                type: "text",
-                children: " (PEN)",
+                children:
+                  "Send your high school transcript to post-secondary institutions",
               },
             ],
           },
@@ -138,35 +95,8 @@ const content = [
             children: [
               {
                 type: "text",
-                children: "a valid email address",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "li",
-        children: [
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "your date of birth",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "li",
-        children: [
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "your legal first and last name",
+                children:
+                  "Send your high school transcript to a third-party (another person or group)",
               },
             ],
           },
@@ -175,17 +105,13 @@ const content = [
     ],
   },
   {
-    type: "br",
-  },
-  {
     type: "back-forward-button-pair",
     args: {
-      backHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
-      backLabel: "Eligibility",
+      backHref: "",
+      backLabel: "",
       forwardHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
-      forwardLabel: "Costs",
+        "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+      forwardLabel: "Eligibility",
     },
   },
   {

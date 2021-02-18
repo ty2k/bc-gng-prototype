@@ -9,32 +9,32 @@ const content = [
       {
         label: "Overview",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts",
       },
       {
         label: "Eligibility",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
       },
       {
         label: "Before You Start",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
       },
       {
         label: "Costs",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
       },
       {
         label: "How to Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
       },
       {
         label: "After You Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
+          "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
       },
     ],
   },
@@ -42,109 +42,150 @@ const content = [
     type: "br",
   },
   {
-    type: "wizard",
-    title: "Check if you are eligible",
-    first: "intro",
-    steps: {
-      intro: {
-        text:
-          "Not all transcripts are available online through the StudentTranscript Service.",
-        controls: {
-          forward: {
-            label: "Check Now",
-            step: "grade1012bc",
-            primary: true,
-          },
-        },
-      },
-      grade1012bc: {
-        question_text: "Did you take any grade 10 to 12 courses in B.C.?",
-        options: [
+    type: "h2",
+    id: "before-you-start",
+    children: "Before You Start",
+  },
+  {
+    type: "callout",
+    className: "info",
+    children: [
+      {
+        type: "p",
+        children: [
           {
-            label: "Yes",
-            id: "yes",
-            next_step: "gradAfter1986",
+            type: "svg",
+            id: "material-access-time.svg",
+            args: {
+              display: "inline-block",
+              height: "30px",
+              margin: "0 14px 0 0",
+              width: "30px",
+              "vertical-align": "text-bottom",
+            },
           },
           {
-            label: "No",
-            id: "no",
-            next_step: "notAvailable",
+            type: "text",
+            style: "strong",
+            children: "It may take up to 30 minutes to order your transcripts",
           },
         ],
-        controls: {
-          back: {
-            label: "Back",
-            step: "intro",
-          },
-          forward: {
-            label: "Next",
-            primary: true,
-          },
-        },
       },
-      gradAfter1986: {
-        question_text: "Did you graduate high school after 1986?",
-        options: [
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "you-will-need",
+    children: "You'll need",
+  },
+  {
+    type: "ul",
+    children: [
+      {
+        type: "li",
+        children: [
           {
-            label: "Yes",
-            id: "yes",
-            next_step: "available",
-          },
-          {
-            label: "No",
-            id: "no",
-            next_step: "notAvailable",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "a ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Basic BCeID",
+              },
+              {
+                type: "text",
+                children: " to login",
+              },
+            ],
           },
         ],
-        controls: {
-          back: {
-            label: "Back",
-            step: "grade1012bc",
-          },
-          forward: {
-            label: "Next",
-            primary: true,
-          },
-        },
       },
-      available: {
-        text:
-          "<p><strong>Results</strong></p><p>Based on your answers, your transcripts and certificates are available online through the StudentTranscript Service.</p>",
-        controls: {
-          back: {
-            label: "Back",
-            step: "gradAfter1986",
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "your ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Personal Education Number",
+              },
+              {
+                type: "text",
+                children: " (PEN)",
+              },
+            ],
           },
-          restart: {
-            label: "Restart",
-            primary: true,
-          },
-        },
+        ],
       },
-      notAvailable: {
-        text:
-          "<p><strong>Results</strong></p><p>Based on your answers you will need to obtain your school record from the <a href='/under-construction'>school district office</a> or contact <a href='/under-construction'>your school of graduation</a>.</p>",
-        controls: {
-          back: {
-            label: "Back",
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "a valid email address",
+              },
+            ],
           },
-          restart: {
-            label: "Restart",
-            primary: true,
-          },
-        },
+        ],
       },
-    },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "your date of birth",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "your legal first and last name",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "br",
   },
   {
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts",
-      backLabel: "Overview",
+        "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+      backLabel: "Eligibility",
       forwardHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
-      forwardLabel: "Before You Start",
+        "/themes/education-and-training/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
+      forwardLabel: "Costs",
     },
   },
   {
