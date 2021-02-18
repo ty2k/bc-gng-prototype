@@ -41,7 +41,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "postinstall": "cd .. && husky install react-app/.husky"
+    "postinstall": "[ \"$NODE_ENV\" != production ] && cd .. && husky install react-app/.husky"
   },
   "engines": {
     "node": ">=14.0.0",
