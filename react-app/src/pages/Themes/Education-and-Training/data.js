@@ -81,7 +81,7 @@ const content = [
           {
             title: "Kindergarten to Grade 12",
             cardLink: {
-              href: "/under-construction",
+              href: "/themes/education-and-training/k-12",
               external: false,
             },
             description: [
