@@ -9,32 +9,32 @@ const content = [
       {
         label: "Overview",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts",
       },
       {
         label: "Eligibility",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/eligibility",
       },
       {
         label: "Before You Start",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
       },
       {
         label: "Costs",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/costs",
       },
       {
         label: "How to Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
       },
       {
         label: "After You Order",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
       },
     ],
   },
@@ -43,237 +43,130 @@ const content = [
   },
   {
     type: "h2",
-    id: "costs",
-    children: "Costs",
+    id: "before-you-start",
+    children: "Before You Start",
   },
   {
-    type: "h3",
-    id: "are-you-a-current-student",
-    children: "Are you a current student?",
-  },
-  {
-    type: "p",
+    type: "callout",
+    className: "info",
     children: [
       {
-        type: "text",
-        children:
-          "You are a current student if you are enrolled in a secondary school or have completed a course within the last six months",
-      },
-    ],
-  },
-  {
-    type: "radio-button-group",
-    id: "current-student-radio-group",
-    title: "",
-    defaultContent: [
-      {
-        type: "h3",
-        id: "default-current-students",
-        children: "Current students",
-      },
-      {
         type: "p",
         children: [
           {
-            type: "text",
-            children: "As a current student, you get for free",
-          },
-        ],
-      },
-      {
-        type: "ul",
-        children: [
-          {
-            type: "li",
-            children: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "up to 25 transcripts sent to post-secondary institutions on your behalf",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            children: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "one printed, mailed transcript sent to a third party (e.g. to yourself or an employer)",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            children: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "one graduation certificate from your school (once you have met graduation requirements)",
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children: "Any additional transcripts are $10 each.",
-          },
-        ],
-      },
-      {
-        type: "br",
-      },
-      {
-        type: "h3",
-        id: "default-former-students",
-        children: "Former students",
-      },
-      {
-        type: "p",
-        children: [
-          {
-            type: "text",
-            children:
-              "For former students, ordering transcripts and certificates are ",
+            type: "svg",
+            id: "material-access-time.svg",
+            args: {
+              display: "inline-block",
+              height: "30px",
+              margin: "0 14px 0 0",
+              width: "30px",
+              "vertical-align": "text-bottom",
+            },
           },
           {
             type: "text",
             style: "strong",
-            children: "$10 each",
-          },
-          {
-            type: "text",
-            children:
-              ". Once your request is received, you will be sent a confirmation e-mail.",
+            children: "It may take up to 30 minutes to order your transcripts",
           },
         ],
       },
     ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "you-will-need",
+    children: "You'll need",
+  },
+  {
+    type: "ul",
     children: [
       {
-        id: "yes",
-        label: "Yes",
-        body: [
-          {
-            type: "h3",
-            id: "current-students",
-            children: "Current students",
-          },
+        type: "li",
+        children: [
           {
             type: "p",
             children: [
               {
                 type: "text",
-                children: "As a current student, you get for free",
-              },
-            ],
-          },
-          {
-            type: "ul",
-            children: [
-              {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "up to 25 transcripts sent to post-secondary institutions on your behalf",
-                      },
-                    ],
-                  },
-                ],
+                children: "a ",
               },
               {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "one printed, mailed transcript sent to a third party (e.g. to yourself or an employer)",
-                      },
-                    ],
-                  },
-                ],
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Basic BCeID",
               },
-              {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "one graduation certificate from your school (once you have met graduation requirements)",
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "p",
-            children: [
               {
                 type: "text",
-                children: "Any additional transcripts are $10 each.",
+                children: " to login",
               },
             ],
           },
         ],
       },
       {
-        id: "no",
-        label: "No",
-        body: [
-          {
-            type: "h3",
-            id: "former-students",
-            children: "Former students",
-          },
+        type: "li",
+        children: [
           {
             type: "p",
             children: [
               {
                 type: "text",
-                children:
-                  "For former students, ordering transcripts and certificates are ",
+                children: "your ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Personal Education Number",
               },
               {
                 type: "text",
-                style: "strong",
-                children: "$10 each",
+                children: " (PEN)",
               },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
               {
                 type: "text",
-                children:
-                  ". Once your request is received, you will be sent a confirmation e-mail.",
+                children: "a valid email address",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "your date of birth",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "your legal first and last name",
               },
             ],
           },
@@ -288,11 +181,11 @@ const content = [
     type: "back-forward-button-pair",
     args: {
       backHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
-      backLabel: "Before You Start",
+        "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+      backLabel: "Eligibility",
       forwardHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
-      forwardLabel: "How to Order",
+        "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts/costs",
+      forwardLabel: "Costs",
     },
   },
   {

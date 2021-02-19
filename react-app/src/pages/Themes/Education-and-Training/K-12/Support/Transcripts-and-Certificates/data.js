@@ -1,75 +1,63 @@
+import KindergartenToGrade12 from "../..";
+
 const content = [
   {
-    type: "stepped-guide",
-    callToAction: {
-      label: "Order Now",
-      href: "/under-construction",
-    },
+    type: "tabbed-page-nav",
     children: [
       {
         label: "Overview",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates",
       },
       {
-        label: "Eligibility",
+        label: "Order your student transcript",
         href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts",
       },
       {
-        label: "Before You Start",
-        href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/before-you-start",
+        label: "Order your graduation certificate",
+        href: "/under-construction",
       },
       {
-        label: "Costs",
-        href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
-      },
-      {
-        label: "How to Order",
-        href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/how-to-order",
-      },
-      {
-        label: "After You Order",
-        href:
-          "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/after-you-order",
+        label: "Send an electronic transcript",
+        href: "/under-construction",
       },
     ],
   },
   {
-    type: "br",
-  },
-  {
-    type: "h2",
-    id: "before-you-start",
-    children: "Before You Start",
-  },
-  {
-    type: "callout",
-    className: "info",
+    type: "p",
+    className: "p--last-updated",
     children: [
       {
-        type: "p",
-        children: [
-          {
-            type: "svg",
-            id: "material-access-time.svg",
-            args: {
-              display: "inline-block",
-              height: "30px",
-              margin: "0 14px 0 0",
-              width: "30px",
-              "vertical-align": "text-bottom",
-            },
-          },
-          {
-            type: "text",
-            style: "strong",
-            children: "It may take up to 30 minutes to order your transcripts",
-          },
-        ],
+        type: "text",
+        style: "normal",
+        children: "Last Updated: December 12, 2020",
+      },
+    ],
+  },
+  {
+    type: "on-this-page",
+    title: "On this Page",
+    children: [
+      {
+        id: "transcripts",
+        label: "Transcripts",
+      },
+      {
+        id: "certificates",
+        label: "Certificates",
+      },
+      {
+        id: "order-transcripts-and-certificates",
+        label: "Order Transcripts & Certificates",
+      },
+      {
+        id: "related-links",
+        label: "Related Link",
+      },
+      {
+        id: "contact-us",
+        label: "Contact Us",
       },
     ],
   },
@@ -78,8 +66,73 @@ const content = [
   },
   {
     type: "h2",
-    id: "you-will-need",
-    children: "You'll need",
+    id: "transcripts",
+    children: "Transcripts",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "Transcripts A transcript is an official listing of your secondary school (high school) marks and credits received specific to a British Columbia Graduation Program.",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "A graduation certificate, sometimes referred to as a diploma or “Dogwood”, is your official graduation document.",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "certificates",
+    children: "Certificates",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "A school completion certificate sometimes referred to as an “Evergreen” may be ordered online if you left school in British Columbia after 1993.",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h2",
+    id: "order-transcripts-and-certificates",
+    children: "Order Transcripts & Certificates",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Transcripts Available for Online Ordering",
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "We have your transcript if you attended secondary school in British Columbia or the Yukon Territory, and you:",
+      },
+    ],
   },
   {
     type: "ul",
@@ -92,16 +145,7 @@ const content = [
             children: [
               {
                 type: "text",
-                children: "a ",
-              },
-              {
-                type: "a-internal",
-                href: "/under-construction",
-                children: "Basic BCeID",
-              },
-              {
-                type: "text",
-                children: " to login",
+                children: "Completed a grade 12 course after 1986, or",
               },
             ],
           },
@@ -115,58 +159,8 @@ const content = [
             children: [
               {
                 type: "text",
-                children: "your ",
-              },
-              {
-                type: "a-internal",
-                href: "/under-construction",
-                children: "Personal Education Number",
-              },
-              {
-                type: "text",
-                children: " (PEN)",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "li",
-        children: [
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "a valid email address",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "li",
-        children: [
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "your date of birth",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        type: "li",
-        children: [
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "your legal first and last name",
+                children:
+                  "Attended Grade 12 prior to 1974 in the University Entrance or Academic-Technical Program",
               },
             ],
           },
@@ -175,67 +169,170 @@ const content = [
     ],
   },
   {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Your Transcript Includes:",
+      },
+    ],
+  },
+  {
+    type: "ul",
+    children: [
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "A record of the courses you have successfully completed in a British Columbia Graduation Program",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Honours received",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Participation in one or more special programs",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "Graduation status",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Current marks and credits for grades 10-12 for your Graduation Program",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "If you are on the current Graduation Program (named the 2004 Graduation Program), grades 10 through 12 will be reported.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "If you are on another Graduation Program (e.g. the Adult Graduation Program, or other graduation programs prior to 2004), grades 11 and 12 will be reported.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children: "Certificates",
+      },
+    ],
+  },
+  {
+    type: "ul",
+    children: [
+      {
+        type: "li",
+        children: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Your B.C. Graduation Program certificate can be ordered online if you graduated in British Columbia after 1985.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    type: "button-link",
+    href:
+      "/themes/education-and-training/k-12/support/transcripts-and-certificates/order-your-student-transcripts",
+    external: false,
+    children: "Order your student transcript",
+  },
+  {
     type: "br",
   },
   {
-    type: "back-forward-button-pair",
-    args: {
-      backHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/eligibility",
-      backLabel: "Eligibility",
-      forwardHref:
-        "/themes/education/k-12/transcripts-and-certificates/order-your-student-transcripts/costs",
-      forwardLabel: "Costs",
-    },
-  },
-  {
-    type: "br",
+    type: "h2",
+    id: "related-links",
+    children: "Related Links",
   },
   {
     type: "navigation",
     children: [
       {
-        title: "Related Links",
         cards: [
-          {
-            title:
-              "Order a General Educational Development (GED®) transcript or certificate",
-            cardLink: {
-              href: "/under-construction",
-              external: false,
-            },
-            description: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "Available if you completed the GED® tests from 1973 to 2014",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            title: "Get your Personal Educations Number (PEN)",
-            cardLink: {
-              href: "/under-construction",
-              external: false,
-            },
-            description: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "Not sure if you have a PEN? Find out if you have a PEN and the ways to find it",
-                  },
-                ],
-              },
-            ],
-          },
           {
             title: "Contact your school of record or district office",
             cardLink: {
@@ -255,12 +352,28 @@ const content = [
               },
             ],
           },
+          {
+            title: "Find your Personal Education Number (PEN)",
+            cardLink: {
+              href: "/under-construction",
+              external: false,
+            },
+            description: [
+              {
+                type: "p",
+                children: [
+                  {
+                    type: "text",
+                    children:
+                      "Not sure if you have a PEN? Find out if you have a PEN and the ways to find it",
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
     ],
-  },
-  {
-    type: "br",
   },
   {
     type: "full-width-block",
@@ -268,7 +381,7 @@ const content = [
       {
         type: "h2",
         children: "Contact Us",
-        id: "contact-the-rtb",
+        id: "contact-us",
       },
       {
         type: "p",
@@ -421,9 +534,6 @@ const content = [
         ],
       },
     ],
-  },
-  {
-    type: "br",
   },
 ];
 

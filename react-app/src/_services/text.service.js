@@ -40,6 +40,7 @@ function sanitize(input) {
  *                           like `p`, `span`, or React components
  *   - @param {object} data - JSON object data for React components
  *   - @param {object} args - arbitrary arguments for React components
+ *   - @param {object} search - search bar configuration for Reach components
  *   - @param {string} title - title for React components
  *   - @param {string} first - ID of the first step in stepped component
  *   - @param {object} steps - JSON representation of steps in stepped component
@@ -61,6 +62,7 @@ function buildHtmlElement(
     children,
     data,
     args,
+    search,
     title,
     first,
     steps,
@@ -308,6 +310,7 @@ function buildHtmlElement(
         <Navigation
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
           sections={children}
+          search={search}
         />
       );
     case "on-this-page":

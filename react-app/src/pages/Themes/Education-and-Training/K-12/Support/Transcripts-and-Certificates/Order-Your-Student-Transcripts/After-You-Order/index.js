@@ -1,6 +1,6 @@
 import React from "react";
 
-import Content from "../../../../../../../components/Content";
+import Content from "../../../../../../../../components/Content";
 import { content } from "./data";
 
 function AfterYouOrder() {
