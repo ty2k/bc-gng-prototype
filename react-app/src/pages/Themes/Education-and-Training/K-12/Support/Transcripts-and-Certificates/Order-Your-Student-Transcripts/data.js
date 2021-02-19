@@ -194,7 +194,7 @@ const content = [
       {
         type: "h2",
         children: "Contact Us",
-        id: "contact-the-rtb",
+        id: "contact-us",
       },
       {
         type: "p",
