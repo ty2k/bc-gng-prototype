@@ -275,7 +275,8 @@ const content = [
           {
             title: "StudentTranscripts Service",
             cardLink: {
-              href: "/under-construction",
+              href:
+                "/themes/education-and-training/k-12/support/transcripts-and-certificates",
               external: false,
             },
             description: [
