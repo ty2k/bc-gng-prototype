@@ -145,7 +145,8 @@ const sections = [
         },
         links: [
           {
-            href: "/under-construction",
+            href:
+              "/themes/education-and-training/k-12/support/transcripts-and-certificates",
             label: "Transcripts and Certificates",
           },
           {
