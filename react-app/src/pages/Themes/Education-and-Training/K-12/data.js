@@ -1,8 +1,5 @@
 const content = [
   {
-    type: "br",
-  },
-  {
     type: "navigation",
     id: "education-and-training-navigation",
     children: [
@@ -30,7 +27,7 @@ const content = [
           {
             title: "Support",
             cardLink: {
-              href: "/under-construction",
+              href: "/themes/education-and-training/k-12/support",
               external: false,
             },
             description: [
