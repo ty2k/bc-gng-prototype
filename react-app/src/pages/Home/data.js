@@ -20,7 +20,7 @@ const personalization = {
     {
       id: "education",
       title: "Education",
-      href: "/under-construction",
+      href: "/themes/education-and-training",
       children: [
         {
           label: "Going back to school",
@@ -246,7 +246,8 @@ const topics = [
     },
     links: [
       {
-        href: "/under-construction",
+        href:
+          "/themes/education-and-training/k-12/support/transcripts-and-certificates",
         label: "Transcripts and Certificates",
       },
       {
