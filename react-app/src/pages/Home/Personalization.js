@@ -1,20 +1,18 @@
 import React from "react";
+import Highlighter from "react-highlight-words";
 import MediaQuery from "react-responsive";
 import { Link } from "react-router-dom";
-import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
-
-import Icon from "../../components/Icon";
-import constructionMessage from "../Under-Construction/message";
 
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
+  min-height: 272px;
   width: 100%;
 
   div.div--interior {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin: 0 auto;
     padding: 20px 0;
 
@@ -68,6 +66,10 @@ const PersonalizationBlock = styled.div`
       padding: 0;
       width: 200px;
     }
+  }
+
+  .text--highlighted {
+    background-color: #fcba19;
   }
 `;
 
@@ -145,8 +147,20 @@ const Spacer = styled.div`
   height: 420px;
 `;
 
-function Personalization({ personalization }) {
+function Personalization({ personalization, parentCallback, searchTerm }) {
   const { id, intro, verticals } = personalization;
+
+  // If there are matches in a vertical's children for a given search term,
+  // include that vertical in filteredVerticals
+  const filteredVerticals = verticals.filter((vertical) => {
+    const filteredChildren = vertical?.children?.filter((child) => {
+      return child?.label?.toLowerCase().includes(searchTerm.toLowerCase())
+        ? true
+        : false;
+    });
+
+    return filteredChildren.length > 0 ? true : false;
+  });
 
   return (
     <>
@@ -157,17 +171,21 @@ function Personalization({ personalization }) {
             <Column className={"personalization-search-column"}>
               {intro && <h2 className={"h2--intro-text"}>{intro}</h2>}
               <label for="personalization-input">looking for</label>
-              <ReactTooltip />
               <input
                 type="text"
+                autoComplete="off"
                 className="input--personalization"
                 id="personalization-input"
                 name="personalization-input"
-                data-tip={constructionMessage}
+                onChange={(e) => {
+                  parentCallback(e.target.value);
+                }}
               />
             </Column>
-            {verticals?.length > 0 &&
-              verticals.map(({ id, href, title, children }, index) => {
+
+            {/* Show only the verticals that have been filtered */}
+            {filteredVerticals?.length > 0 &&
+              filteredVerticals.map(({ id, href, title, children }, index) => {
                 return (
                   <Column key={`personalization-column-${id ? id : index}`}>
                     {title && href && (
@@ -175,13 +193,23 @@ function Personalization({ personalization }) {
                         <h3>{title}</h3>
                       </Link>
                     )}
+
+                    {/* Display all child links for a vertical and
+                    highlight those that match searchTerm */}
                     {children?.length > 0 && (
                       <ul>
                         {children.map(
                           ({ href: childHref, label }, childIndex) => {
                             return (
                               <li key={`column-${id}-li-${childIndex}`}>
-                                <Link to={childHref}>{label}</Link>
+                                <Link to={childHref}>
+                                  <Highlighter
+                                    highlightClassName="text--highlighted"
+                                    searchWords={[searchTerm]}
+                                    autoEscape={true}
+                                    textToHighlight={label}
+                                  />
+                                </Link>
                               </li>
                             );
                           }
@@ -204,14 +232,18 @@ function Personalization({ personalization }) {
             <label for="personalization-input">looking for</label>
             <input
               type="text"
+              autoComplete="off"
               className="input--personalization"
               id="personalization-input"
               name="personalization-input"
+              onChange={(e) => {
+                parentCallback(e.target.value);
+              }}
             />
           </div>
           <div className={"div--interior div--interior-mobile"}>
-            {verticals?.length > 0 &&
-              verticals.map(({ id, href, title, children }, index) => {
+            {filteredVerticals?.length > 0 &&
+              filteredVerticals.map(({ id, href, title, children }, index) => {
                 return (
                   <Column key={`personalization-column-${id ? id : index}`}>
                     {title && href && (
@@ -225,7 +257,14 @@ function Personalization({ personalization }) {
                           ({ href: childHref, label }, childIndex) => {
                             return (
                               <li key={`column-${id}-li-${childIndex}`}>
-                                <Link to={childHref}>{label}</Link>
+                                <Link to={childHref}>
+                                  <Highlighter
+                                    highlightClassName="text--highlighted"
+                                    searchWords={[searchTerm]}
+                                    autoEscape={true}
+                                    textToHighlight={label}
+                                  />
+                                </Link>
                               </li>
                             );
                           }

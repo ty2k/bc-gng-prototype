@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import Personalization from "./Personalization";
@@ -13,10 +13,20 @@ const Section = styled.section`
 `;
 
 function Home() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  function handleSearchInput(inputValue) {
+    setSearchTerm(inputValue);
+  }
+
   return (
     <>
       {/* Full width block personalization block */}
-      <Personalization personalization={personalization} />
+      <Personalization
+        parentCallback={handleSearchInput}
+        personalization={personalization}
+        searchTerm={searchTerm}
+      />
 
       {/* 4 highlight tiles with larger icons */}
       <Highlights highlights={highlights} />
