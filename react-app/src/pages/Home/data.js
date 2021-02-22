@@ -20,7 +20,7 @@ const personalization = {
     {
       id: "education",
       title: "Education",
-      href: "/under-construction",
+      href: "/themes/education-and-training",
       children: [
         {
           label: "Going back to school",
