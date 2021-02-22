@@ -72,7 +72,9 @@ function SearchBar({ parentCallback, placeHolder }) {
           value={inputValue}
           placeholder={placeHolder}
         />
-        <SearchButton>
+        <SearchButton
+          disabled={true} // For now, all search buttons are just decorative
+        >
           <SearchIcon />
         </SearchButton>
       </form>
