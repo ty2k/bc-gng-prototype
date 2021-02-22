@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
 import { Redirect } from "react-router-dom";
+import styled from "styled-components";
 
 import { userService } from "../../_services/user.service";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
 import { AlertBanner } from "../../components/AlertBanner";
+
+const StyledMain = styled.main`
+  padding: 0 10px;
+`;
 
 function Login(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -38,7 +43,7 @@ function Login(props) {
   }
 
   return (
-    <main>
+    <StyledMain>
       <h1>Login</h1>
       <form
         id="form--login"
@@ -78,7 +83,7 @@ function Login(props) {
           Incorrect username or password.
         </AlertBanner>
       )}
-    </main>
+    </StyledMain>
   );
 }
 

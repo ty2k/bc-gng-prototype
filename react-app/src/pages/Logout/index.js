@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
+import styled from "styled-components";
 
 import { userService } from "../../_services/user.service";
 import { Button } from "../../components/Button";
 import { AlertBanner } from "../../components/AlertBanner";
+
+const StyledMain = styled.main`
+  padding: 0 10px;
+`;
 
 function Login(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,7 +27,7 @@ function Login(props) {
   }
 
   return (
-    <main>
+    <StyledMain>
       <h1>Logout</h1>
       <form
         id="form--login"
@@ -40,7 +45,7 @@ function Login(props) {
           Thanks for your help! You've successfully logged out.
         </AlertBanner>
       )}
-    </main>
+    </StyledMain>
   );
 }
 
