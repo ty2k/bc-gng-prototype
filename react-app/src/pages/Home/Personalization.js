@@ -3,6 +3,15 @@ import Highlighter from "react-highlight-words";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+const FullWidth = styled.div`
+  min-height: 300px;
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+`;
+
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
   min-height: 300px;
@@ -144,12 +153,6 @@ const Column = styled.div`
   }
 `;
 
-// If a full width block with position: absolute is used for full screen
-// width, a Spacer div should be used to push the rest of the content down
-const Spacer = styled.div`
-  height: 420px;
-`;
-
 function Personalization({ personalization, parentCallback, searchTerm }) {
   const { id, intro, verticals } = personalization;
 
@@ -166,71 +169,73 @@ function Personalization({ personalization, parentCallback, searchTerm }) {
   });
 
   return (
-    <PersonalizationBlock id={id}>
-      {/* Desktop: SearchBlock appears as a left column
-      Mobile: SearchBlock appears as a full width row above the columns */}
-      <SearchBlock>
-        <div>
-          {intro && <h2>{intro}</h2>}
-          <label for="personalization-input">looking for</label>
-          <input
-            type="text"
-            autoComplete="off"
-            id="personalization-input"
-            name="personalization-input"
-            onChange={(e) => {
-              parentCallback(e.target.value);
-            }}
-          />
+    <FullWidth id={"full-width"}>
+      <PersonalizationBlock id={id}>
+        {/* Desktop: SearchBlock appears as a left column
+        Mobile: SearchBlock appears as a full width row above the columns */}
+        <SearchBlock>
+          <div>
+            {intro && <h2>{intro}</h2>}
+            <label for="personalization-input">looking for</label>
+            <input
+              type="text"
+              autoComplete="off"
+              id="personalization-input"
+              name="personalization-input"
+              onChange={(e) => {
+                parentCallback(e.target.value);
+              }}
+            />
+          </div>
+        </SearchBlock>
+
+        <div className={"div--container"}>
+          <div className={"div--flex"}>
+            {/* Show only the verticals that have been filtered */}
+            {filteredVerticals?.length > 0 &&
+              filteredVerticals.map(({ id, href, title, children }, index) => {
+                return (
+                  <Column key={`personalization-column-${id ? id : index}`}>
+                    {title && href && (
+                      <Link to={href}>
+                        <h3>{title}</h3>
+                      </Link>
+                    )}
+
+                    {/* Display all child links for a vertical and
+                    highlight those that match searchTerm */}
+                    {children?.length > 0 && (
+                      <ul>
+                        {children.map(
+                          ({ href: childHref, label }, childIndex) => {
+                            return (
+                              <li key={`column-${id}-li-${childIndex}`}>
+                                <Link to={childHref}>
+                                  <Highlighter
+                                    highlightClassName="text--highlighted"
+                                    searchWords={[searchTerm]}
+                                    autoEscape={true}
+                                    textToHighlight={label}
+                                  />
+                                </Link>
+                              </li>
+                            );
+                          }
+                        )}
+                      </ul>
+                    )}
+                  </Column>
+                );
+              })}
+
+            {/* Right arrow to display more columns */}
+            {/* <Column>
+              <Icon id={"homepage-right-arrow.svg"} />
+            </Column> */}
+          </div>
         </div>
-      </SearchBlock>
-
-      <div className={"div--container"}>
-        <div className={"div--flex"}>
-          {/* Show only the verticals that have been filtered */}
-          {filteredVerticals?.length > 0 &&
-            filteredVerticals.map(({ id, href, title, children }, index) => {
-              return (
-                <Column key={`personalization-column-${id ? id : index}`}>
-                  {title && href && (
-                    <Link to={href}>
-                      <h3>{title}</h3>
-                    </Link>
-                  )}
-
-                  {/* Display all child links for a vertical and
-                  highlight those that match searchTerm */}
-                  {children?.length > 0 && (
-                    <ul>
-                      {children.map(
-                        ({ href: childHref, label }, childIndex) => {
-                          return (
-                            <li key={`column-${id}-li-${childIndex}`}>
-                              <Link to={childHref}>
-                                <Highlighter
-                                  highlightClassName="text--highlighted"
-                                  searchWords={[searchTerm]}
-                                  autoEscape={true}
-                                  textToHighlight={label}
-                                />
-                              </Link>
-                            </li>
-                          );
-                        }
-                      )}
-                    </ul>
-                  )}
-                </Column>
-              );
-            })}
-
-          {/* Right arrow to display more columns */}
-          {/* <Column>
-            <Icon id={"homepage-right-arrow.svg"} />
-          </Column> */}
-        </div>
-      </div>
-    </PersonalizationBlock>
+      </PersonalizationBlock>
+    </FullWidth>
   );
 }
 
