@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const PersonalizationBlock = styled.div`
   background-color: #f2f2f2;
-  min-height: 272px;
+  min-height: 300px;
   width: 100%;
 
   div.div--container {
