@@ -47,6 +47,9 @@ const content = [
     children: "Costs",
   },
   {
+    type: "br",
+  },
+  {
     type: "h3",
     id: "are-you-a-current-student",
     children: "Are you a current student?",
@@ -62,222 +65,106 @@ const content = [
     ],
   },
   {
-    type: "radio-button-group",
-    id: "current-student-radio-group",
-    title: "",
-    defaultContent: [
+    type: "br",
+  },
+  {
+    type: "h3",
+    id: "current-students",
+    children: "Current students",
+  },
+  {
+    type: "p",
+    children: [
       {
-        type: "h3",
-        id: "default-current-students",
-        children: "Current students",
+        type: "text",
+        children: "As a current student, you get for free",
       },
+    ],
+  },
+  {
+    type: "ul",
+    children: [
       {
-        type: "p",
+        type: "li",
         children: [
           {
-            type: "text",
-            children: "As a current student, you get for free",
-          },
-        ],
-      },
-      {
-        type: "ul",
-        children: [
-          {
-            type: "li",
+            type: "p",
             children: [
               {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "up to 25 transcripts sent to post-secondary institutions on your behalf",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            children: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "one printed, mailed transcript sent to a third party (e.g. to yourself or an employer)",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            children: [
-              {
-                type: "p",
-                children: [
-                  {
-                    type: "text",
-                    children:
-                      "one graduation certificate from your school (once you have met graduation requirements)",
-                  },
-                ],
+                type: "text",
+                children:
+                  "up to 25 transcripts sent to post-secondary institutions on your behalf",
               },
             ],
           },
         ],
       },
       {
-        type: "p",
+        type: "li",
         children: [
           {
-            type: "text",
-            children: "Any additional transcripts are $10 each.",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "one printed, mailed transcript sent to a third party (e.g. to yourself or an employer)",
+              },
+            ],
           },
         ],
       },
       {
-        type: "br",
-      },
-      {
-        type: "h3",
-        id: "default-former-students",
-        children: "Former students",
-      },
-      {
-        type: "p",
+        type: "li",
         children: [
           {
-            type: "text",
-            children:
-              "For former students, ordering transcripts and certificates are ",
-          },
-          {
-            type: "text",
-            style: "strong",
-            children: "$10 each",
-          },
-          {
-            type: "text",
-            children:
-              ". Once your request is received, you will be sent a confirmation e-mail.",
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "one graduation certificate from your school (once you have met graduation requirements)",
+              },
+            ],
           },
         ],
       },
     ],
+  },
+  {
+    type: "p",
     children: [
       {
-        id: "yes",
-        label: "Yes",
-        body: [
-          {
-            type: "h3",
-            id: "current-students",
-            children: "Current students",
-          },
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "As a current student, you get for free",
-              },
-            ],
-          },
-          {
-            type: "ul",
-            children: [
-              {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "up to 25 transcripts sent to post-secondary institutions on your behalf",
-                      },
-                    ],
-                  },
-                ],
-              },
-              {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "one printed, mailed transcript sent to a third party (e.g. to yourself or an employer)",
-                      },
-                    ],
-                  },
-                ],
-              },
-              {
-                type: "li",
-                children: [
-                  {
-                    type: "p",
-                    children: [
-                      {
-                        type: "text",
-                        children:
-                          "one graduation certificate from your school (once you have met graduation requirements)",
-                      },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children: "Any additional transcripts are $10 each.",
-              },
-            ],
-          },
-        ],
+        type: "text",
+        children: "Any additional transcripts are $10 each.",
+      },
+    ],
+  },
+  {
+    type: "br",
+  },
+  {
+    type: "h3",
+    id: "former-students",
+    children: "Former students",
+  },
+  {
+    type: "p",
+    children: [
+      {
+        type: "text",
+        children:
+          "For former students, ordering transcripts and certificates are ",
       },
       {
-        id: "no",
-        label: "No",
-        body: [
-          {
-            type: "h3",
-            id: "former-students",
-            children: "Former students",
-          },
-          {
-            type: "p",
-            children: [
-              {
-                type: "text",
-                children:
-                  "For former students, ordering transcripts and certificates are ",
-              },
-              {
-                type: "text",
-                style: "strong",
-                children: "$10 each",
-              },
-              {
-                type: "text",
-                children:
-                  ". Once your request is received, you will be sent a confirmation e-mail.",
-              },
-            ],
-          },
-        ],
+        type: "text",
+        style: "strong",
+        children: "$10 each",
+      },
+      {
+        type: "text",
+        children:
+          ". Once your request is received, you will be sent a confirmation e-mail.",
       },
     ],
   },
