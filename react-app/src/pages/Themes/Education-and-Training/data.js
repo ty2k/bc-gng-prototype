@@ -33,7 +33,8 @@ const content = [
           {
             title: "Transcripts and Certificates",
             cardLink: {
-              href: "/under-construction",
+              href:
+                "/themes/education-and-training/k-12/support/transcripts-and-certificates",
               external: false,
             },
             description: [
@@ -106,7 +107,8 @@ const content = [
                 label: "COVID-19 safe schools",
               },
               {
-                href: "/under-construction",
+                href:
+                  "/themes/education-and-training/k-12/support/transcripts-and-certificates",
                 label: "StudentTranscripts Service",
               },
             ],

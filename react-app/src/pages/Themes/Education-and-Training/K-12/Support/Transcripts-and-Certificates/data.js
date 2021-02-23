@@ -75,7 +75,7 @@ const content = [
       {
         type: "text",
         children:
-          "Transcripts A transcript is an official listing of your secondary school (high school) marks and credits received specific to a British Columbia Graduation Program.",
+          "A transcript is an official listing of your secondary school (high school) marks and credits received specific to a British Columbia Graduation Program.",
       },
     ],
   },
