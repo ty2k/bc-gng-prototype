@@ -2,6 +2,9 @@ const content = [
   {
     type: "navigation",
     id: "education-and-training-navigation",
+    search: {
+      label: "Search Support",
+    },
     children: [
       {
         cards: [
