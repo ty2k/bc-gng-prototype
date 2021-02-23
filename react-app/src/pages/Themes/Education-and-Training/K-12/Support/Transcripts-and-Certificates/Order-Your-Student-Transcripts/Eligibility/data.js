@@ -58,7 +58,8 @@ const content = [
         },
       },
       grade1012bc: {
-        question_text: "Did you take any grade 10 to 12 courses in B.C.?",
+        question_text:
+          "Did you take any grade 10 to 12 courses in B.C. or Yukon?",
         options: [
           {
             label: "Yes",
