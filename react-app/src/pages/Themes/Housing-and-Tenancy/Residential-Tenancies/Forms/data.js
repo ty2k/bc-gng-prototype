@@ -3,6 +3,9 @@ const content = [
     type: "table-group",
     id: "forms-table",
     data: {
+      search: {
+        placeHolder: "Search Forms",
+      },
       sortConfig: {
         id: "form-number",
         direction: "ascending",
@@ -87,6 +90,8 @@ const content = [
                 },
                 tbody: [
                   {
+                    plaintext:
+                      "Residential Tenancy Agreement for Internet Explorer, RTB-1",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                     },
@@ -163,6 +168,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Residential Tenancy Agreement for other browsers, RTB-1C",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -237,6 +244,7 @@ const content = [
                     ],
                   },
                   {
+                    plaintext: "Application for Review Consideration, RTB-2",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -310,6 +318,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Manufactured Home Site Tenancy Agreement, RTB-5",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -383,6 +393,7 @@ const content = [
                     ],
                   },
                   {
+                    plaintext: "Request for Correction, RTB-6",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -455,6 +466,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Notice of Rent Increase - Residential Rental Units, RTB-7",
                     filter: {
                       "sort-forms-for": ["all", "landlords"],
                       "view-forms-by": ["list"],
@@ -543,6 +556,7 @@ const content = [
                     ],
                   },
                   {
+                    plaintext: "Mutual Agreement to End a Tenancy, RTB-8",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -615,6 +629,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Proof of Service Notice of Expedited Hearing, RTB-9",
                     filter: {
                       "sort-forms-for": ["all", "landlords", "tenants"],
                       "view-forms-by": ["list"],
@@ -687,6 +703,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement, RTB-10",
                     filter: {
                       "sort-forms-for": ["all", "tenants"],
                       "view-forms-by": ["list"],
@@ -760,6 +778,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version), RTB-11A",
                     filter: {
                       "sort-forms-for": ["all", "landlords"],
                       "view-forms-by": ["list"],
@@ -889,6 +909,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Landlord Application for Dispute Resolution - Current Tenancy, RTB-12L-CT",
                     filter: {
                       "sort-forms-for": ["all", "landlords"],
                       "view-forms-by": ["list"],
@@ -963,6 +985,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Landlord Application for Dispute Resolution - Past Tenancy, RTB-12L-PT",
                     filter: {
                       "sort-forms-for": ["all", "landlords"],
                       "view-forms-by": ["list"],
@@ -1037,6 +1061,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Tenant Application for Dispute Resolution - Current Tenancy, RTB-12T-CT",
                     filter: {
                       "sort-forms-for": ["all", "tenants"],
                       "view-forms-by": ["list"],
@@ -1111,6 +1137,8 @@ const content = [
                     ],
                   },
                   {
+                    plaintext:
+                      "Tenant Application for Dispute Resolution - Past Tenancy, RTB-12T-PT",
                     filter: {
                       "sort-forms-for": ["all", "tenants"],
                       "view-forms-by": ["list"],
@@ -1231,6 +1259,8 @@ const content = [
                   },
                   tbody: [
                     {
+                      plaintext:
+                        "Proof of Service Notice of Expedited Hearing, RTB-9",
                       filter: {
                         "sort-forms-for": ["all", "landlords", "tenants"],
                       },
@@ -1306,6 +1336,8 @@ const content = [
                       ],
                     },
                     {
+                      plaintext:
+                        "Landlord Application for Dispute Resolution - Current Tenancy, RTB-12L-CT",
                       filter: {
                         "sort-forms-for": ["all", "landlords"],
                         "view-forms-by": ["type"],
@@ -1380,6 +1412,8 @@ const content = [
                       ],
                     },
                     {
+                      plaintext:
+                        "Landlord Application for Dispute Resolution - Past Tenancy, RTB-12L-PT",
                       filter: {
                         "sort-forms-for": ["all", "landlords"],
                         "view-forms-by": ["type"],
@@ -1454,6 +1488,8 @@ const content = [
                       ],
                     },
                     {
+                      plaintext:
+                        "Tenant Application for Dispute Resolution - Current Tenancy, RTB-12T-CT",
                       filter: {
                         "sort-forms-for": ["all", "tenants"],
                         "view-forms-by": ["type"],
@@ -1528,6 +1564,8 @@ const content = [
                       ],
                     },
                     {
+                      plaintext:
+                        "Tenant Application for Dispute Resolution - Past Tenancy, RTB-12T-PT",
                       filter: {
                         "sort-forms-for": ["all", "tenants"],
                         "view-forms-by": ["type"],

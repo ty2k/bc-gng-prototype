@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { textService } from "../_services/text.service";
 import Icon from "./Icon";
+import SearchBar from "./SearchBar";
 
 const StyledTable = styled.table`
   border-collapse: collapse;
@@ -55,6 +56,7 @@ const StyledFilters = styled.div`
 `;
 
 function TableGroup({ context = {}, data, id }) {
+  const [searchTerm, setSearchTerm] = useState("");
   const [sortConfig, setSortConfig] = useState(data?.sortConfig || {});
   const [filterConfig, setFilterConfig] = useState(
     data?.filter?.initial || context?.filterConfig || {}
@@ -62,6 +64,11 @@ function TableGroup({ context = {}, data, id }) {
   const [viewConfig, setViewConfig] = useState(
     data?.view?.initial || context?.viewConfig || {}
   );
+
+  // Set the searchTerm state
+  function handleSearchInput(input) {
+    setSearchTerm(input);
+  }
 
   // Set the filterConfig state
   function handleFilter(id, value) {
@@ -96,11 +103,12 @@ function TableGroup({ context = {}, data, id }) {
     }
   }
 
-  // Check if the given table row should be displayed based on filterConfig
+  // Check if table row should be shown based on filterConfig and searchTerm
   function checkFilter(row) {
     const keys = Object.keys(filterConfig);
     let pass = [];
 
+    // Check row's filter data against filterConfig state
     for (const key in keys) {
       if (row.filter && keys[key] in row.filter) {
         if (row.filter[keys[key]].indexOf(filterConfig[keys[key]]) !== -1) {
@@ -108,6 +116,15 @@ function TableGroup({ context = {}, data, id }) {
         } else {
           pass.push(false);
         }
+      } else {
+        pass.push(false);
+      }
+    }
+
+    // Check row's plaintext data against searchTerm state (if applicable)
+    if (data?.search && searchTerm) {
+      if (row?.plaintext?.toLowerCase().includes(searchTerm.toLowerCase())) {
+        pass.push(true);
       } else {
         pass.push(false);
       }
@@ -236,6 +253,13 @@ function TableGroup({ context = {}, data, id }) {
 
   return (
     <>
+      {data?.search && (
+        <SearchBar
+          parentCallback={handleSearchInput}
+          placeHolder={data?.search?.placeHolder || "Search"}
+        />
+      )}
+
       <StyledFilters>
         {data?.filter?.children?.length > 0 &&
           data.filter.children.map((child, index) => {
@@ -290,7 +314,7 @@ function TableGroup({ context = {}, data, id }) {
 
 const StyledRadioFilterGroup = styled.form`
   display: inline-block;
-  margin: 0 0 40px 0;
+  margin: 40px 0;
 
   @media (max-width: 575px) {
     width: 100%;
