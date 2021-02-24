@@ -188,16 +188,19 @@ function Personalization({ personalization, parentCallback, searchTerm }) {
   // On full width displays, up to 4 columns are visible at a time
   const [visibleVerticals, setVisibleVerticals] = useState([0, 1, 2, 3]);
 
-  // If there are matches in a vertical's children for a given search term,
-  // include that vertical in filteredVerticals
+  // Check for searchTerm matches against vertical's title or child links
   const filteredVerticals = verticals.filter((vertical) => {
+    const titleMatch = vertical?.title
+      ?.toLowerCase()
+      .includes(searchTerm.toLowerCase());
+
     const filteredChildren = vertical?.children?.filter((child) => {
       return child?.label?.toLowerCase().includes(searchTerm.toLowerCase())
         ? true
         : false;
     });
 
-    return filteredChildren.length > 0 ? true : false;
+    return titleMatch || filteredChildren.length > 0 ? true : false;
   });
 
   const filteredIds = [];
@@ -260,7 +263,14 @@ function Personalization({ personalization, parentCallback, searchTerm }) {
                       <Column key={`personalization-column-${id ? id : index}`}>
                         {title && href && (
                           <Link to={href}>
-                            <h3>{title}</h3>
+                            <h3>
+                              <Highlighter
+                                highlightClassName="text--highlighted"
+                                searchWords={[searchTerm]}
+                                autoEscape={true}
+                                textToHighlight={title}
+                              />
+                            </h3>
                           </Link>
                         )}
 
