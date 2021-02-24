@@ -6,12 +6,20 @@ import styled from "styled-components";
 import Icon from "../../components/Icon";
 
 const FullWidth = styled.div`
+  left: 0;
   min-height: 300px;
-  left: 50%;
-  margin-left: -50vw;
-  position: relative;
+  position: absolute;
   text-align: center;
-  width: 100vw;
+  width: 100%;
+`;
+
+const Spacer = styled.div`
+  height: 385px;
+  width: 100%;
+
+  @media (min-width: 992px) {
+    height: 300px;
+  }
 `;
 
 const PersonalizationBlock = styled.div`
@@ -215,87 +223,90 @@ function Personalization({ personalization, parentCallback, searchTerm }) {
   }
 
   return (
-    <FullWidth id={"full-width"}>
-      <PersonalizationBlock id={id}>
-        {/* Desktop: SearchBlock appears as a left column
-        Mobile: SearchBlock appears as a full width row above the columns */}
-        <SearchBlock>
-          <div>
-            {intro && <h2>{intro}</h2>}
-            <label htmlFor="personalization-input">looking for</label>
-            <input
-              type="text"
-              autoComplete="off"
-              id="personalization-input"
-              name="personalization-input"
-              onChange={(e) => {
-                parentCallback(e.target.value);
-              }}
-            />
+    <>
+      <FullWidth id={"full-width"}>
+        <PersonalizationBlock id={id}>
+          {/* Desktop: SearchBlock appears as a left column
+          Mobile: SearchBlock appears as a full width row above the columns */}
+          <SearchBlock>
+            <div>
+              {intro && <h2>{intro}</h2>}
+              <label htmlFor="personalization-input">looking for</label>
+              <input
+                type="text"
+                autoComplete="off"
+                id="personalization-input"
+                name="personalization-input"
+                onChange={(e) => {
+                  parentCallback(e.target.value);
+                }}
+              />
+            </div>
+          </SearchBlock>
+
+          <div className={"div--container"}>
+            <div className={"div--flex"}>
+              {/* Show verticals that are in the visibleVerticals array */}
+              {verticals?.length > 0 &&
+                visibleVerticals.map((index) => {
+                  const { id, href, title, children } = verticals[index];
+
+                  // Only include verticals that are in the filteredIds array
+                  if (
+                    filteredIds.indexOf(id) !== -1 &&
+                    visibleVerticals.indexOf(index) !== -1
+                  ) {
+                    return (
+                      <Column key={`personalization-column-${id ? id : index}`}>
+                        {title && href && (
+                          <Link to={href}>
+                            <h3>{title}</h3>
+                          </Link>
+                        )}
+
+                        {/* Display all child links for a vertical and
+                        highlight those that match searchTerm */}
+                        {children?.length > 0 && (
+                          <ul>
+                            {children.map(
+                              ({ href: childHref, label }, childIndex) => {
+                                return (
+                                  <li key={`column-${id}-li-${childIndex}`}>
+                                    <Link to={childHref}>
+                                      <Highlighter
+                                        highlightClassName="text--highlighted"
+                                        searchWords={[searchTerm]}
+                                        autoEscape={true}
+                                        textToHighlight={label}
+                                      />
+                                    </Link>
+                                  </li>
+                                );
+                              }
+                            )}
+                          </ul>
+                        )}
+                      </Column>
+                    );
+                  }
+
+                  // return null;
+                })}
+
+              {/* Right arrow to display more columns when there are 5 or more */}
+              {filteredVerticals.length > 4 && (
+                <Column className={"vertical-center right-arrow"}>
+                  <button id="button--right-arrow" onClick={handleRightButton}>
+                    <Icon id={"homepage-right-arrow.svg"} />
+                  </button>
+                </Column>
+              )}
+            </div>
           </div>
-        </SearchBlock>
-
-        <div className={"div--container"}>
-          <div className={"div--flex"}>
-            {/* Show verticals that are in the visibleVerticals array */}
-            {verticals?.length > 0 &&
-              visibleVerticals.map((index) => {
-                const { id, href, title, children } = verticals[index];
-
-                // Only include verticals that are in the filteredIds array
-                if (
-                  filteredIds.indexOf(id) !== -1 &&
-                  visibleVerticals.indexOf(index) !== -1
-                ) {
-                  return (
-                    <Column key={`personalization-column-${id ? id : index}`}>
-                      {title && href && (
-                        <Link to={href}>
-                          <h3>{title}</h3>
-                        </Link>
-                      )}
-
-                      {/* Display all child links for a vertical and
-                      highlight those that match searchTerm */}
-                      {children?.length > 0 && (
-                        <ul>
-                          {children.map(
-                            ({ href: childHref, label }, childIndex) => {
-                              return (
-                                <li key={`column-${id}-li-${childIndex}`}>
-                                  <Link to={childHref}>
-                                    <Highlighter
-                                      highlightClassName="text--highlighted"
-                                      searchWords={[searchTerm]}
-                                      autoEscape={true}
-                                      textToHighlight={label}
-                                    />
-                                  </Link>
-                                </li>
-                              );
-                            }
-                          )}
-                        </ul>
-                      )}
-                    </Column>
-                  );
-                }
-
-                // return null;
-              })}
-
-            {/* Right arrow to display more columns when there are 5 or more */}
-            {filteredVerticals.length > 4 && (
-              <Column className={"vertical-center right-arrow"}>
-                <button id="button--right-arrow" onClick={handleRightButton}>
-                  <Icon id={"homepage-right-arrow.svg"} />
-                </button>
-              </Column>
-            )}
-          </div>
-        </div>
-      </PersonalizationBlock>
-    </FullWidth>
+        </PersonalizationBlock>
+      </FullWidth>
+      <Spacer />
+    </>
   );
 }
 
