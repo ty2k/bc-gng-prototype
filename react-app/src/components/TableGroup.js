@@ -25,6 +25,7 @@ const StyledTable = styled.table`
         background: none;
         border: 0;
         color: #313132;
+        cursor: pointer;
         font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
         font-size: 20px;
         font-weight: 700;
@@ -32,11 +33,21 @@ const StyledTable = styled.table`
         margin: 0 0 8px 0;
         padding: 0;
 
+        &:hover {
+          color: blue;
+          text-decoration: underline;
+        }
+
         &.sorted {
           color: #1a5a96;
           text-decoration: underline;
           text-decoration-thickness: 1px;
           text-underline-offset: 2px;
+
+          &:hover {
+            color: blue;
+            text-decoration: none;
+          }
         }
 
         svg {
@@ -361,6 +372,7 @@ const StyledRadioFilterGroup = styled.form`
           align-items: center;
           border: 1px solid transparent;
           border-radius: 10px;
+          cursor: pointer;
           display: flex;
           font-size: 18px;
           justify-content: space-around;
@@ -431,6 +443,7 @@ const AccordionHeader = styled.div`
     align-items: center;
     background: none;
     border: none;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     min-height: 44px;

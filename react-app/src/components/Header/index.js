@@ -113,6 +113,7 @@ const HeaderStyled = styled.header`
     appearance: none;
     background: none;
     border: 0;
+    cursor: pointer;
     padding: 0;
     text-decoration: none;
     width: 44px;
@@ -130,6 +131,7 @@ const HeaderStyled = styled.header`
   div.wrapper > div.div--header-mini-icons > button#menu-icon {
     background-color: #f2f2f2;
     color: #888888;
+    cursor: pointer;
     height: 100%;
     min-height: 44px;
   }
@@ -148,6 +150,7 @@ const HeaderStyled = styled.header`
   button#button--back-to-top {
     background: none;
     border: none;
+    cursor: pointer;
     height: 44px;
     padding: 0;
     position: fixed;

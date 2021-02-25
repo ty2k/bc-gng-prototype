@@ -23,15 +23,12 @@ const StyledAlert = styled.div`
   &.alert-hidden {
     display: block;
     float: right;
-    /* height: 69px; */ // If this is taller than the alert, the header collapse-on-scroll feature will break
     height: 43px;
     margin-right: 36px;
     text-align: center;
-    /* width: 62px; */
     width: 44px;
 
     svg.svg--info {
-      /* padding: 23px 13px 10px 13px; */
       padding: 0;
     }
     div.div--alert {
@@ -73,6 +70,7 @@ const StyledAlert = styled.div`
   button {
     border: none;
     background: none;
+    cursor: pointer;
     min-height: 44px;
     padding: 0;
     min-width: 44px;

@@ -17,6 +17,7 @@ const AccordionHeader = styled.div`
     align-items: center;
     background: none;
     border: none;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     min-height: 44px;
@@ -106,6 +107,8 @@ const MoreInfoHeader = styled.div`
   button.button--more-info {
     background: none;
     border: 0;
+    color: #1a5a96;
+    cursor: pointer;
     display: block;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
@@ -115,14 +118,20 @@ const MoreInfoHeader = styled.div`
     padding: 0;
 
     span {
-      color: #1a5a96;
       text-decoration: underline;
     }
 
     svg {
-      color: #1a5a96;
       margin-left: 7px;
       width: 14px;
+    }
+
+    &:hover {
+      color: blue;
+
+      span {
+        text-decoration: none;
+      }
     }
   }
 `;
