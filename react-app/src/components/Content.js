@@ -39,6 +39,10 @@ const StyledContent = styled.div`
       margin-right: 10px;
     }
   }
+
+  .text--highlighted {
+    background-color: #fcba19;
+  }
 `;
 
 function Content({ content }) {
