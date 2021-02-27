@@ -120,6 +120,58 @@ function buildHtmlElement(
           {(!style || style === "normal") && sanitize(children)}
         </Link>
       );
+    case "a-parent-external":
+      return (
+        <a
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          href={href}
+        >
+          {style && style === "strong" && (
+            <strong>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </strong>
+          )}
+          {style && style === "em" && (
+            <em>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </em>
+          )}
+          {(!style || style === "normal") &&
+            children.map((child, childIndex) => {
+              return buildHtmlElement(child, index, childIndex, highlight);
+            })}
+        </a>
+      );
+    case "a-parent-internal":
+      return (
+        <Link
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          to={href}
+        >
+          {style && style === "strong" && (
+            <strong>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </strong>
+          )}
+          {style && style === "em" && (
+            <em>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </em>
+          )}
+          {(!style || style === "normal") &&
+            children.map((child, childIndex) => {
+              return buildHtmlElement(child, index, childIndex, highlight);
+            })}
+        </Link>
+      );
     case "br":
       return <br key={`${type}-${index}-${childIndex ? childIndex : null}`} />;
     case "hr":
