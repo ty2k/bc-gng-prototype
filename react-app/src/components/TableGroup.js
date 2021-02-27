@@ -204,7 +204,7 @@ function TableGroup({ context = {}, data, id }) {
 
   function getTable(id, data) {
     return (
-      <StyledTable id={id}>
+      <StyledTable key={`table-{id}`} id={id}>
         {/* Column headings are buttons that can be used to sort the table */}
         <thead>
           <tr>
@@ -317,7 +317,11 @@ function TableGroup({ context = {}, data, id }) {
                   // Tables can be nested inside of Accordions
                   if (elem?.type !== "table") {
                     return (
-                      <Accordion id={elem.id} title={elem.title}>
+                      <Accordion
+                        key={`accordion-table-${elem.id}`}
+                        id={elem.id}
+                        title={elem.title}
+                      >
                         {getTable(elem.id, elem?.childTable?.data)}
                       </Accordion>
                     );
