@@ -198,7 +198,7 @@ function buildHtmlElement(
       return (
         <p key={`${type}-${index}-${childIndex}`} className={className}>
           {children.map((child, childIndex) => {
-            return buildHtmlElement(child, index, childIndex);
+            return buildHtmlElement(child, index, childIndex, highlight);
           })}
         </p>
       );
