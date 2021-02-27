@@ -1,4 +1,5 @@
 import DOMPurify from "dompurify";
+import Highlighter from "react-highlight-words";
 import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
@@ -52,6 +53,7 @@ function sanitize(input) {
  *   - @param {Boolean} external - Boolean for indicating external links
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
+ * @param {array} highlight - array of search/filter strings to be highlighted
  */
 function buildHtmlElement(
   {
@@ -74,7 +76,8 @@ function buildHtmlElement(
     external,
   },
   index = null,
-  childIndex = null
+  childIndex = null,
+  highlight = []
 ) {
   switch (type) {
     case "text":
@@ -103,7 +106,7 @@ function buildHtmlElement(
         >
           {style && style === "strong" && <strong>{sanitize(children)}</strong>}
           {style && style === "em" && <em>{sanitize(children)}</em>}
-          {(style && style === "normal") || (!style && sanitize(children))}
+          {(!style || style === "normal") && sanitize(children)}
         </a>
       );
     case "a-internal":
@@ -114,7 +117,59 @@ function buildHtmlElement(
         >
           {style && style === "strong" && <strong>{sanitize(children)}</strong>}
           {style && style === "em" && <em>{sanitize(children)}</em>}
-          {(style && style === "normal") || (!style && sanitize(children))}
+          {(!style || style === "normal") && sanitize(children)}
+        </Link>
+      );
+    case "a-parent-external":
+      return (
+        <a
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          href={href}
+        >
+          {style && style === "strong" && (
+            <strong>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </strong>
+          )}
+          {style && style === "em" && (
+            <em>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </em>
+          )}
+          {(!style || style === "normal") &&
+            children.map((child, childIndex) => {
+              return buildHtmlElement(child, index, childIndex, highlight);
+            })}
+        </a>
+      );
+    case "a-parent-internal":
+      return (
+        <Link
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          to={href}
+        >
+          {style && style === "strong" && (
+            <strong>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </strong>
+          )}
+          {style && style === "em" && (
+            <em>
+              {children.map((child, childIndex) => {
+                return buildHtmlElement(child, index, childIndex, highlight);
+              })}
+            </em>
+          )}
+          {(!style || style === "normal") &&
+            children.map((child, childIndex) => {
+              return buildHtmlElement(child, index, childIndex, highlight);
+            })}
         </Link>
       );
     case "br":
@@ -168,7 +223,10 @@ function buildHtmlElement(
       );
     case "li":
       return (
-        <li key={`${type}-${index}`} className={className}>
+        <li
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          className={className}
+        >
           {children.map((child, childIndex) => {
             return buildHtmlElement(child, index, childIndex);
           })}
@@ -195,7 +253,7 @@ function buildHtmlElement(
       return (
         <p key={`${type}-${index}-${childIndex}`} className={className}>
           {children.map((child, childIndex) => {
-            return buildHtmlElement(child, index, childIndex);
+            return buildHtmlElement(child, index, childIndex, highlight);
           })}
         </p>
       );
@@ -298,6 +356,16 @@ function buildHtmlElement(
         >
           {children}
         </FullWidthBlock>
+      );
+    case "highlighter":
+      return (
+        <Highlighter
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          highlightClassName="text--highlighted"
+          searchWords={highlight}
+          autoEscape={true}
+          textToHighlight={sanitize(children)}
+        />
       );
     case "more-info":
       return (

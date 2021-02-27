@@ -67,7 +67,7 @@ const StyledFilters = styled.div`
 `;
 
 function TableGroup({ context = {}, data, id }) {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerms, setSearchTerms] = useState([]);
   const [sortConfig, setSortConfig] = useState(data?.sortConfig || {});
   const [filterConfig, setFilterConfig] = useState(
     data?.filter?.initial || context?.filterConfig || {}
@@ -76,9 +76,12 @@ function TableGroup({ context = {}, data, id }) {
     data?.view?.initial || context?.viewConfig || {}
   );
 
-  // Set the searchTerm state
+  // Set the searchTerm array state
   function handleSearchInput(input) {
-    setSearchTerm(input);
+    // Match whitespace or commas
+    const regExp = /[\s,]+/;
+
+    setSearchTerms(input.split(regExp));
   }
 
   // Set the filterConfig state
@@ -114,7 +117,7 @@ function TableGroup({ context = {}, data, id }) {
     }
   }
 
-  // Check if table row should be shown based on filterConfig and searchTerm
+  // Check if table row should be shown based on filterConfig and searchTerms
   function checkFilter(row) {
     const keys = Object.keys(filterConfig);
     let pass = [];
@@ -132,14 +135,19 @@ function TableGroup({ context = {}, data, id }) {
       }
     }
 
-    // Check row's plaintext data against searchTerm state (if applicable)
-    if (data?.search && searchTerm) {
-      if (row?.plaintext?.toLowerCase().includes(searchTerm.toLowerCase())) {
-        pass.push(true);
-      } else {
-        pass.push(false);
-      }
-    }
+    // Check row's plaintext data against searchTerms state (if applicable)
+    searchTerms?.length > 0 &&
+      searchTerms.forEach((searchTerm) => {
+        if (data?.search && searchTerm) {
+          if (
+            row?.plaintext?.toLowerCase().includes(searchTerm.toLowerCase())
+          ) {
+            pass.push(true);
+          } else {
+            pass.push(false);
+          }
+        }
+      });
 
     return pass.indexOf(false) === -1;
   }
@@ -196,7 +204,7 @@ function TableGroup({ context = {}, data, id }) {
 
   function getTable(id, data) {
     return (
-      <StyledTable id={id}>
+      <StyledTable key={`table-{id}`} id={id}>
         {/* Column headings are buttons that can be used to sort the table */}
         <thead>
           <tr>
@@ -246,7 +254,8 @@ function TableGroup({ context = {}, data, id }) {
                                 return textService.buildHtmlElement(
                                   cellElem,
                                   rowIndex,
-                                  cellElemIndex
+                                  cellElemIndex,
+                                  searchTerms
                                 );
                               })}
                           </td>
@@ -308,7 +317,11 @@ function TableGroup({ context = {}, data, id }) {
                   // Tables can be nested inside of Accordions
                   if (elem?.type !== "table") {
                     return (
-                      <Accordion id={elem.id} title={elem.title}>
+                      <Accordion
+                        key={`accordion-table-${elem.id}`}
+                        id={elem.id}
+                        title={elem.title}
+                      >
                         {getTable(elem.id, elem?.childTable?.data)}
                       </Accordion>
                     );

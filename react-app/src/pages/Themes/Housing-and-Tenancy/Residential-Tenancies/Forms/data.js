@@ -109,11 +109,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Residential Tenancy Agreement for Internet Explorer",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Residential Tenancy Agreement for Internet Explorer",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -156,10 +161,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-1",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-1",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -185,11 +195,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Residential Tenancy Agreement for other browsers",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Residential Tenancy Agreement for other browsers",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -232,10 +247,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-1C",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-1C",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -259,11 +279,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Application for Review Consideration",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Application for Review Consideration",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -306,10 +331,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-2",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-2",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -334,11 +364,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Manufactured Home Site Tenancy Agreement",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Manufactured Home Site Tenancy Agreement",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -381,10 +416,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-5",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-5",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -408,10 +448,15 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "Request for Correction",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "Request for Correction",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -454,10 +499,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-6",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-6",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -483,11 +533,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Notice of Rent Increase - Residential Rental Units",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Notice of Rent Increase - Residential Rental Units",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -544,10 +599,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-7",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-7",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -571,10 +631,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "Mutual Agreement to End a Tenancy",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Mutual Agreement to End a Tenancy",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -617,10 +683,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-8",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-8",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -645,11 +716,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Proof of Service Notice of Expedited Hearing",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Proof of Service Notice of Expedited Hearing",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -691,10 +767,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-9",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-9",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -720,11 +801,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Request for Consent to Assign a Manufactured Home Site Tenancy Agreement",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -766,10 +852,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-10",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-10",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -795,11 +886,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version)",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Notice of Rent Increase - Manufactured Home Site - (auto-calculating version)",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -897,10 +993,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-11A",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-11A",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -926,11 +1027,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Landlord Application for Dispute Resolution - Current Tenancy",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Landlord Application for Dispute Resolution - Current Tenancy",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -973,10 +1079,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-12L-CT",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-12L-CT",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1002,11 +1113,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Landlord Application for Dispute Resolution - Past Tenancy",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Landlord Application for Dispute Resolution - Past Tenancy",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1049,10 +1165,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-12L-PT",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-12L-PT",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1078,11 +1199,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Tenant Application for Dispute Resolution - Current Tenancy",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Tenant Application for Dispute Resolution - Current Tenancy",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1125,10 +1251,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-12T-CT",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-12T-CT",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1154,11 +1285,16 @@ const content = [
                             type: "p",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children:
-                                  "Tenant Application for Dispute Resolution - Past Tenancy",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children:
+                                      "Tenant Application for Dispute Resolution - Past Tenancy",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1201,10 +1337,15 @@ const content = [
                             style: "strong",
                             children: [
                               {
-                                type: "a-internal",
+                                type: "a-parent-internal",
                                 style: "strong",
                                 href: "/under-construction",
-                                children: "RTB-12T-PT",
+                                children: [
+                                  {
+                                    type: "highlighter",
+                                    children: "RTB-12T-PT",
+                                  },
+                                ],
                               },
                             ],
                           },
@@ -1277,11 +1418,16 @@ const content = [
                               type: "p",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children:
-                                    "Proof of Service Notice of Expedited Hearing",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children:
+                                        "Proof of Service Notice of Expedited Hearing",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1324,10 +1470,15 @@ const content = [
                               style: "strong",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children: "RTB-9",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children: "RTB-9",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1353,11 +1504,16 @@ const content = [
                               type: "p",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children:
-                                    "Landlord Application for Dispute Resolution - Current Tenancy",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children:
+                                        "Landlord Application for Dispute Resolution - Current Tenancy",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1400,10 +1556,15 @@ const content = [
                               style: "strong",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children: "RTB-12L-CT",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children: "RTB-12L-CT",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1429,11 +1590,16 @@ const content = [
                               type: "p",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children:
-                                    "Landlord Application for Dispute Resolution - Past Tenancy",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children:
+                                        "Landlord Application for Dispute Resolution - Past Tenancy",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1476,10 +1642,15 @@ const content = [
                               style: "strong",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children: "RTB-12L-PT",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children: "RTB-12L-PT",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1505,11 +1676,16 @@ const content = [
                               type: "p",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children:
-                                    "Tenant Application for Dispute Resolution - Current Tenancy",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children:
+                                        "Tenant Application for Dispute Resolution - Current Tenancy",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1552,10 +1728,15 @@ const content = [
                               style: "strong",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children: "RTB-12T-CT",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children: "RTB-12T-CT",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1581,11 +1762,16 @@ const content = [
                               type: "p",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children:
-                                    "Tenant Application for Dispute Resolution - Past Tenancy",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children:
+                                        "Tenant Application for Dispute Resolution - Past Tenancy",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1628,10 +1814,15 @@ const content = [
                               style: "strong",
                               children: [
                                 {
-                                  type: "a-internal",
+                                  type: "a-parent-internal",
                                   style: "strong",
                                   href: "/under-construction",
-                                  children: "RTB-12T-PT",
+                                  children: [
+                                    {
+                                      type: "highlighter",
+                                      children: "RTB-12T-PT",
+                                    },
+                                  ],
                                 },
                               ],
                             },
@@ -1645,13 +1836,13 @@ const content = [
             },
             {
               type: "accordion",
-              id: "rtb-forms-accordion-dispute-resolution-forms-standard",
+              id: "rtb-forms-accordion-dispute-resolution-forms-direct-request",
               title: "Dispute Resolution Forms - Direct Request",
               children: [],
             },
             {
               type: "accordion",
-              id: "rtb-forms-accordion-dispute-resolution-forms-standard",
+              id: "rtb-forms-accordion-forms-to-end-tenancy",
               title: "Forms to End Tenancy",
               children: [],
             },
