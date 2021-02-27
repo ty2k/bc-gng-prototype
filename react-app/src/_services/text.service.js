@@ -1,4 +1,5 @@
 import DOMPurify from "dompurify";
+import Highlighter from "react-highlight-words";
 import { Link } from "react-router-dom";
 
 import { imageService } from "./image.service";
@@ -52,6 +53,7 @@ function sanitize(input) {
  *   - @param {Boolean} external - Boolean for indicating external links
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
+ * @param {array} highlight - array of search/filter strings to be highlighted
  */
 function buildHtmlElement(
   {
@@ -74,7 +76,8 @@ function buildHtmlElement(
     external,
   },
   index = null,
-  childIndex = null
+  childIndex = null,
+  highlight = []
 ) {
   switch (type) {
     case "text":
@@ -298,6 +301,16 @@ function buildHtmlElement(
         >
           {children}
         </FullWidthBlock>
+      );
+    case "highlighter":
+      return (
+        <Highlighter
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          highlightClassName="text--highlighted"
+          searchWords={highlight}
+          autoEscape={true}
+          textToHighlight={sanitize(children)}
+        />
       );
     case "more-info":
       return (
