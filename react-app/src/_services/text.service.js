@@ -106,7 +106,7 @@ function buildHtmlElement(
         >
           {style && style === "strong" && <strong>{sanitize(children)}</strong>}
           {style && style === "em" && <em>{sanitize(children)}</em>}
-          {(style && style === "normal") || (!style && sanitize(children))}
+          {(!style || style === "normal") && sanitize(children)}
         </a>
       );
     case "a-internal":
@@ -117,7 +117,7 @@ function buildHtmlElement(
         >
           {style && style === "strong" && <strong>{sanitize(children)}</strong>}
           {style && style === "em" && <em>{sanitize(children)}</em>}
-          {(style && style === "normal") || (!style && sanitize(children))}
+          {(!style || style === "normal") && sanitize(children)}
         </Link>
       );
     case "br":
