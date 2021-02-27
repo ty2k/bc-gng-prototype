@@ -223,7 +223,10 @@ function buildHtmlElement(
       );
     case "li":
       return (
-        <li key={`${type}-${index}`} className={className}>
+        <li
+          key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
+          className={className}
+        >
           {children.map((child, childIndex) => {
             return buildHtmlElement(child, index, childIndex);
           })}
