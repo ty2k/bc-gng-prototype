@@ -22,11 +22,13 @@ function Home() {
   return (
     <>
       {/* Full width block personalization block */}
-      <Personalization
+      {/* TODO: Un-comment this block out pending future Personalization /
+      Life Events design work. */}
+      {/* <Personalization
         parentCallback={handleSearchInput}
         personalization={personalization}
         searchTerm={searchTerm}
-      />
+      /> */}
 
       {/* 4 highlight tiles with larger icons */}
       <Highlights highlights={highlights} />
