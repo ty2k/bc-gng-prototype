@@ -47,8 +47,18 @@ const content = [
     first: "intro",
     steps: {
       intro: {
-        text:
-          "Not all transcripts are available online through the StudentTranscript Service.",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Not all transcripts are available online through the StudentTranscript Service.",
+              },
+            ],
+          },
+        ],
         controls: {
           forward: {
             label: "Check Now",
@@ -58,8 +68,19 @@ const content = [
         },
       },
       grade1012bc: {
-        question_text:
-          "Did you take any grade 10 to 12 courses in B.C. or Yukon?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Did you take any grade 10 to 12 courses in B.C. or Yukon?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -84,7 +105,18 @@ const content = [
         },
       },
       gradAfter1986: {
-        question_text: "Did you graduate high school after 1986?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "Did you graduate high school after 1986?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -109,8 +141,28 @@ const content = [
         },
       },
       available: {
-        text:
-          "<p><strong>Results</strong></p><p>Based on your answers, your transcripts and certificates are available online through the StudentTranscript Service.</p>",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "Results",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Based on your answers, your transcripts and certificates are available online through the StudentTranscript Service.",
+              },
+            ],
+          },
+        ],
         controls: {
           back: {
             label: "Back",
@@ -123,8 +175,46 @@ const content = [
         },
       },
       notAvailable: {
-        text:
-          "<p><strong>Results</strong></p><p>Based on your answers you will need to obtain your school record from the <a href='/under-construction'>school district office</a> or contact <a href='/under-construction'>your school of graduation</a>.</p>",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "Results",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Based on your answers you will need to obtain your school record from the ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "school district office",
+              },
+              {
+                type: "text",
+                children: " or contact ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "your school of graduation",
+              },
+              {
+                type: "text",
+                children: ".",
+              },
+            ],
+          },
+        ],
         controls: {
           back: {
             label: "Back",
