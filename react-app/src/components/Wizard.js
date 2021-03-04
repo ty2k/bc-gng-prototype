@@ -20,18 +20,14 @@ const StyledWizard = styled.div`
   button {
     margin-right: 16px;
     margin-top: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   h2 {
     margin-top: 0;
-  }
-
-  p.p--intro-text {
-    font-weight: normal;
-  }
-
-  p.p--question-text {
-    font-weight: bold;
   }
 
   div.div--wizard-questionnaire {
@@ -95,7 +91,7 @@ const StyledWizard = styled.div`
 function Wizard({ title, first, steps }) {
   const [stepsShown, setStepsShown] = useState([first]);
   const [data, setData] = useState({});
-  const [explanation, setExplanation] = useState("");
+  const [explanation, setExplanation] = useState([]);
 
   const step = steps[stepsShown[0]];
 
@@ -121,7 +117,7 @@ function Wizard({ title, first, steps }) {
       // If the next step is explicitly set by the step control, show it.
     } else if (nextStep) {
       setStepsShown((steps) => [nextStep, ...steps]);
-      setExplanation("");
+      setExplanation([]);
 
       // If no next step is explicitly set, use the state data
       // to see what the radio button option has set for the next step.
@@ -129,7 +125,7 @@ function Wizard({ title, first, steps }) {
       step.options.forEach((option) => {
         if (option["id"] === data[currentStep]) {
           setStepsShown((steps) => [option["next_step"], ...steps]);
-          setExplanation("");
+          setExplanation([]);
         }
       });
 
@@ -137,44 +133,34 @@ function Wizard({ title, first, steps }) {
     } else {
       setStepsShown(() => [first]);
       setData({});
-      setExplanation("");
+      setExplanation([]);
     }
   }
 
   /**
    * @param {string} dataKey - the ID of the step where the choice was made
    * @param {string} dataValue - the ID of the choice made
-   * @param {object} option - the `option` object with `text` string for explanation
+   * @param {object} option - the `option` object with `text` array for explanation
    */
   function onDataChange(dataKey, dataValue, option) {
     setData({ ...data, [dataKey]: dataValue });
-    if (option?.text) {
+    if (option?.text?.length > 0) {
       setExplanation(option.text);
     } else {
-      setExplanation("");
+      setExplanation([]);
     }
-  }
-
-  function sanitize(explanation) {
-    return { __html: textService.sanitize(explanation) };
   }
 
   return (
     <StyledWizard>
       {title && <h2>{title}</h2>}
       <div className="div--wizard-container">
-        {step?.text && (
-          <p
-            className="p--intro-text"
-            dangerouslySetInnerHTML={sanitize(step.text)}
-          />
-        )}
-        {step?.question_text && (
-          <p
-            className="p--question-text"
-            dangerouslySetInnerHTML={sanitize(step.question_text)}
-          />
-        )}
+        {/* Introductory/question text that appears above radio options */}
+        {step?.text?.length > 0 &&
+          step.text.map((object, index) => {
+            return textService.buildHtmlElement(object, index);
+          })}
+
         <div className="div--wizard-questionnaire">
           <div className="div--wizard-question">
             {step?.options?.length > 0 &&
@@ -201,13 +187,18 @@ function Wizard({ title, first, steps }) {
                 );
               })}
           </div>
-          {explanation && (
-            <div
-              className="div--wizard-explanation"
-              dangerouslySetInnerHTML={sanitize(explanation)}
-            />
+
+          {/* Explanatory text that appears either to the right of or below the
+          radio options, depending on screen width */}
+          {explanation?.length > 0 && (
+            <div className="div--wizard-explanation">
+              {explanation.map((object, index) => {
+                return textService.buildHtmlElement(object, index);
+              })}
+            </div>
           )}
         </div>
+
         <div className="div--wizard-controls">
           {step?.controls?.back && (
             <Button
