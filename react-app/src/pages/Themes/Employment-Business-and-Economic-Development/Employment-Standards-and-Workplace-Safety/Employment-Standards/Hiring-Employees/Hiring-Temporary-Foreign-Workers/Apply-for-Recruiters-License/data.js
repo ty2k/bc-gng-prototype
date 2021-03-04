@@ -81,8 +81,18 @@ const content = [
     first: "intro",
     steps: {
       intro: {
-        text:
-          "In some cases, a recruiter’s license is not necessary for you. Go through this simple questionnaire to see whether or not a recruiter’s license is for you.",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "In some cases, a recruiter’s license is not necessary for you. Go through this simple questionnaire to see whether or not a recruiter’s license is for you.",
+              },
+            ],
+          },
+        ],
         controls: {
           forward: {
             label: "Start the questionnaire",
@@ -92,7 +102,18 @@ const content = [
         },
       },
       recruitingForeign: {
-        question_text: "Are you recruiting foreign workers?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "Are you recruiting foreign workers?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -117,8 +138,19 @@ const content = [
         },
       },
       ownBusinessOrEmployer: {
-        question_text:
-          "Are you recruiting foreign workers to work at your own business or with your employer?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Are you recruiting foreign workers to work at your own business or with your employer?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -143,8 +175,19 @@ const content = [
         },
       },
       family: {
-        question_text:
-          "Are you providing recruitment services to a member of your own family?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Are you providing recruitment services to a member of your own family?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -169,8 +212,30 @@ const content = [
         },
       },
       institute: {
-        question_text:
-          "Are you acting on behalf of a college, institution or university as defined in the <a href='/under-construction'>College and Institute Act</a>?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Are you acting on behalf of a college, institution or university as defined in the ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                style: "strong",
+                children: "College and Institute Act",
+              },
+              {
+                type: "text",
+                style: "strong",
+                children: "?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -195,8 +260,19 @@ const content = [
         },
       },
       government: {
-        question_text:
-          "Are you acting on behalf of a government (local, federal, provincial, First Nation, or outside of Canada?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Are you acting on behalf of a government (local, federal, provincial, First Nation, or outside of Canada?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -221,8 +297,132 @@ const content = [
         },
       },
       no: {
-        text:
-          "<p><strong>No</strong>, you will not need a recruiter’s license.</p><p><strong>A Recruiter’s licence is not required if you...</strong></p><p>- Find foreign workers to work at your own business or with your employer</p><p>- Provide recruitment services to a member of your own family</p><p>- Act on behalf of a college, institution or university as defined in the College and Institute Act</p><p>- Act on behalf of a government (local, federal, provincial, First Nation, or outside of Canada)</p><p>You may need different <a href='/under-construction'>employment licences</a> such as:</p><p>- <a href='/under-construction'>Employment Agency Licence</a></p><p>- <a href='/under-construction'>Talent Agency Licence</a></p><p>- <a href='/under-construction'>Farm Labour Contractor Licence</a></p>",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "No",
+              },
+              {
+                type: "text",
+                children: ", you will not need a recruiter’s license.",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "A Recruiter’s licence is not required if you...",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "- Find foreign workers to work at your own business or with your employer",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "- Provide recruitment services to a member of your own family",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "- Act on behalf of a college, institution or university as defined in the College and Institute Act",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "- Act on behalf of a government (local, federal, provincial, First Nation, or outside of Canada)",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "You may need different ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "employment licences",
+              },
+              {
+                type: "text",
+                children: " such as:",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Employment Agency Licence",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Talent Agency Licence",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Farm Labour Contractor Licence",
+              },
+            ],
+          },
+        ],
         controls: {
           back: {
             label: "Back",
@@ -234,8 +434,92 @@ const content = [
         },
       },
       yes: {
-        text:
-          "<p><strong>Yes</strong>, you will need a recruiter’s license.</p><p>Navigate along to learn more about applying for a recruiter's license.</p><p>You may also need different <a href='/under-construction'>employment licences</a> such as:</p><p>- <a href='/under-construction'>Employment Agency Licence</a></p><p>- <a href='/under-construction'>Talent Agency Licence</a></p><p>- <a href='/under-construction'>Farm Labour Contractor Licence</a></p>",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "Yes",
+              },
+              {
+                type: "text",
+                children: ", you will need a recruiter’s license.",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Navigate along to learn more about applying for a recruiter's license.",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "You may also need different ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "employment licences",
+              },
+              {
+                type: "text",
+                children: " such as:",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Employment Agency Licence",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Talent Agency Licence",
+              },
+            ],
+          },
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children: "- ",
+              },
+              {
+                type: "a-internal",
+                href: "/under-construction",
+                children: "Farm Labour Contractor Licence",
+              },
+            ],
+          },
+        ],
         controls: {
           back: {
             label: "Back",
