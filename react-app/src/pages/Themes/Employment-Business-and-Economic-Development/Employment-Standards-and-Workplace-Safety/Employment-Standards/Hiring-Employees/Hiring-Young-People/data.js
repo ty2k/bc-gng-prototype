@@ -5,8 +5,18 @@ const content = [
     first: "intro",
     steps: {
       intro: {
-        text:
-          "Rules are different depending on the situation and the age of the young person being hired. Let us take you through a short questionnaire to show only relevant information for you.",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                children:
+                  "Rules are different depending on the situation and the age of the young person being hired. Let us take you through a short questionnaire to show only relevant information for you.",
+              },
+            ],
+          },
+        ],
         controls: {
           forward: {
             label: "Start the questionnaire",
@@ -16,7 +26,18 @@ const content = [
         },
       },
       age: {
-        question_text: "How old is the child?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children: "How old is the child?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Under 6 years old",
@@ -51,8 +72,19 @@ const content = [
         },
       },
       entertainmentIndustry: {
-        question_text:
-          "Is the young person working in the entertainment industry?",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "Is the young person working in the entertainment industry?",
+              },
+            ],
+          },
+        ],
         options: [
           {
             label: "Yes",
@@ -77,8 +109,19 @@ const content = [
         },
       },
       end: {
-        text:
-          "The information below has been curated to match your selections.",
+        text: [
+          {
+            type: "p",
+            children: [
+              {
+                type: "text",
+                style: "strong",
+                children:
+                  "The information below has been curated to match your selections.",
+              },
+            ],
+          },
+        ],
         controls: {
           restart: {
             label: "Restart",
