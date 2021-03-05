@@ -8,7 +8,7 @@
     "url": "https://github.com/ty2k/bc-gng-prototype.git"
   },
   "scripts": {
-    "build": "cd react-app && npm i && npm run build",
+    "build": "cd react-app && npm i && npm rebuild node-sass && npm run build",
     "dev": "nodemon server.js",
     "start": "node server.js",
     "test": "cd react-app && npm i && npm run test"
