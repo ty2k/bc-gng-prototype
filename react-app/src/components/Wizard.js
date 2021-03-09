@@ -104,12 +104,14 @@ function Wizard({
   defaultContent = [],
   contentBlocks = [],
 }) {
-  const [stepsShown, setStepsShown] = useState([first]);
-  const [data, setData] = useState({});
-  const [explanation, setExplanation] = useState([]);
-  const [content, setContent] = useState(defaultContent || []);
+  const [state, setState] = useState({
+    stepsShown: [first],
+    data: {},
+    explanation: [],
+    content: defaultContent,
+  });
 
-  const step = steps[stepsShown[0]];
+  const step = steps[state.stepsShown[0]];
 
   /**
    * @param {string} currentStep - the ID of the currently rendered step
@@ -119,40 +121,76 @@ function Wizard({
   function handleStep(currentStep, nextStep, back) {
     // On back button click, remove the current step from stepsShown
     if (back === true) {
-      setStepsShown((steps) => {
-        if (stepsShown.length === 2) {
-          return [first];
-        } else {
-          const [, ...rest] = steps;
-          return rest;
-        }
+      const newSteps = [];
+
+      if (state.stepsShown.length === 2) {
+        newSteps.push(first);
+      } else {
+        const [, ...existingSteps] = state.stepsShown;
+        newSteps.push(...existingSteps);
+      }
+
+      setState((currentState) => {
+        return {
+          ...currentState,
+          stepsShown: newSteps,
+        };
       });
-      onDataChange(stepsShown[0], null, null);
+
+      onDataChange(state.stepsShown[0], null, null);
 
       // If the next step is explicitly set by the step control button, show it
     } else if (nextStep) {
-      setStepsShown((steps) => [nextStep, ...steps]);
-      setExplanation([]);
+      setState((currentState) => {
+        return {
+          ...currentState,
+          stepsShown: [nextStep, ...state.stepsShown],
+          explanation: [],
+        };
+      });
 
       // If no next step is explicitly set, use the state data
       // to see what the radio button option has set for the next step.
     } else if (step?.options?.length > 0) {
+      const newContent = [];
+
+      contentBlocks.forEach(({ displayState, contentArray }) => {
+        // If state data object shallow equals contentBlock displayState config,
+        // push the contentBlocks contentArray to the newContent array
+        if (shallowEqual(state.data, displayState)) {
+          newContent.push(...contentArray);
+        }
+      });
+
+      // If there is no newContent, use the defaultContent
+      if (newContent.length === 0) {
+        newContent.push(...defaultContent);
+      }
+
       step.options.forEach((option) => {
-        if (option["id"] === data[currentStep]) {
-          setStepsShown((steps) => [option["next_step"], ...steps]);
-          setExplanation([]);
+        if (option["id"] === state.data[currentStep]) {
+          setState((currentState) => {
+            return {
+              ...currentState,
+              stepsShown: [option["next_step"], ...currentState.stepsShown],
+              explanation: [],
+              content: newContent,
+            };
+          });
         }
       });
 
       // Reset the wizard at first step with no state data or explanation
     } else {
-      setStepsShown(() => [first]);
-      setData({});
-      setExplanation([]);
+      setState(() => {
+        return {
+          stepsShown: [first],
+          data: {},
+          explanation: [],
+          content: defaultContent,
+        };
+      });
     }
-
-    // Update content after each step movement
-    updateContent();
   }
 
   /**
@@ -161,43 +199,42 @@ function Wizard({
    * @param {object} option - the `option` object with `text` array for explanation
    */
   function onDataChange(dataKey, dataValue, option) {
-    const existingData = { ...data };
+    const existingData = { ...state.data };
 
     if (dataValue !== null) {
       // Non-null values indicate a new option has been selected
-      setData({ ...existingData, [dataKey]: dataValue });
+      setState((currentState) => {
+        return {
+          ...currentState,
+          data: {
+            ...existingData,
+            [dataKey]: dataValue,
+          },
+        };
+      });
     } else {
       // Null values indicate the back button has been pressed and
       // we should remove the corresponding key from the state data object
       delete existingData[dataKey];
-      setData({ ...existingData });
+
+      setState((currentState) => {
+        return {
+          ...currentState,
+          data: {
+            ...existingData,
+            [dataKey]: dataValue,
+          },
+        };
+      });
     }
 
     // Set explanation (text that appears visually within Questionnaire)
-    if (option?.text?.length > 0) {
-      setExplanation(option.text);
-    } else {
-      setExplanation([]);
-    }
-  }
-
-  // Update page content that appears visually below grey Questionnaire
-  function updateContent() {
-    let stateMatch = false;
-
-    contentBlocks.forEach(({ displayState, contentArray }) => {
-      // Update content if state data object shallow equals
-      // contentBlock displayState configuration
-      if (shallowEqual(data, displayState)) {
-        stateMatch = true;
-        setContent(() => contentArray);
-      }
+    setState((currentState) => {
+      return {
+        ...currentState,
+        explanation: option?.text?.length > 0 ? option.text : [],
+      };
     });
-
-    // If there are no contentBlock matches, show defaultContent
-    if (!stateMatch) {
-      setContent(() => defaultContent);
-    }
   }
 
   return (
@@ -223,11 +260,17 @@ function Wizard({
                       <input
                         type="radio"
                         id={`wizard-input-${option.id}`}
-                        name={stepsShown[0]}
+                        name={state.stepsShown[0]}
                         value={option.id}
-                        checked={data?.[stepsShown[0]] === option.id}
+                        checked={
+                          state.data?.[state.stepsShown[0]] === option.id
+                        }
                         onChange={(e) => {
-                          onDataChange(stepsShown[0], e.target.value, option);
+                          onDataChange(
+                            state.stepsShown[0],
+                            e.target.value,
+                            option
+                          );
                         }}
                       />
                       <label htmlFor={`wizard-input-${option.id}`}>
@@ -240,9 +283,9 @@ function Wizard({
 
             {/* Explanatory text for a selected option that appears either
             to the right of or below the options depending on screen width */}
-            {explanation?.length > 0 && (
+            {state.explanation?.length > 0 && (
               <div className="div--wizard-explanation">
-                {explanation.map((object, index) => {
+                {state.explanation.map((object, index) => {
                   return textService.buildHtmlElement(object, index);
                 })}
               </div>
@@ -255,7 +298,11 @@ function Wizard({
                 label={step.controls.back.label}
                 primary={step.controls.back.primary}
                 onClick={() => {
-                  handleStep(stepsShown[0], step.controls.back.step, true);
+                  handleStep(
+                    state.stepsShown[0],
+                    step.controls.back.step,
+                    true
+                  );
                 }}
               >
                 {step.controls.back.label}
@@ -264,7 +311,7 @@ function Wizard({
             {step?.controls?.forward && (
               <Button
                 disabled={
-                  data.hasOwnProperty(stepsShown[0]) ||
+                  state.data.hasOwnProperty(state.stepsShown[0]) ||
                   step.controls.forward?.step
                     ? false
                     : true
@@ -272,7 +319,7 @@ function Wizard({
                 label={step.controls.forward.label}
                 primary={step.controls.forward.primary}
                 onClick={() => {
-                  handleStep(stepsShown[0], step.controls.forward.step);
+                  handleStep(state.stepsShown[0], step.controls.forward.step);
                 }}
               >
                 {step.controls.forward.label}
@@ -283,7 +330,7 @@ function Wizard({
                 label={step.controls.restart.label}
                 primary={step.controls.restart.primary}
                 onClick={() => {
-                  handleStep(stepsShown[0], step.controls.restart.step);
+                  handleStep(state.stepsShown[0], step.controls.restart.step);
                 }}
               >
                 {step.controls.restart.label}
@@ -294,9 +341,9 @@ function Wizard({
       </Questionnaire>
 
       {/* Page content that can be swapped based on component state */}
-      {content?.length > 0 && (
+      {state.content?.length > 0 && (
         <Information>
-          {content.map((object, index) => {
+          {state.content.map((object, index) => {
             return textService.buildHtmlElement(object, index);
           })}
         </Information>
