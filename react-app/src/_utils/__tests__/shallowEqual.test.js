@@ -1,7 +1,5 @@
 // Test cases from https://github.com/facebook/fbjs/
 
-jest.unmock("shallowEqual");
-
 import shallowEqual from "../shallowEqual";
 
 describe("shallowEqual", () => {
