@@ -149,8 +149,9 @@ function Wizard({
         };
       });
 
-      // If no next step is explicitly set, use the state data
-      // to see what the radio button option has set for the next step.
+      // If no next step is explicitly set by the step control button,
+      // use the state data to see what the radio button option has set for the
+      // next step.
     } else if (step?.options?.length > 0) {
       const newContent = [];
 
@@ -167,6 +168,8 @@ function Wizard({
         newContent.push(...defaultContent);
       }
 
+      // Add the option's next_step to the top of the
+      // stepsShown stack to go to the next step
       step.options.forEach((option) => {
         if (option["id"] === state.data[currentStep]) {
           setState((currentState) => {
@@ -180,7 +183,9 @@ function Wizard({
         }
       });
 
-      // Reset the wizard at first step with no state data or explanation
+      // With no forward step set explicitly by the forward button or by the
+      // selected option, and no `back` argument, reset the wizard to the
+      // first step with blank data and explanation, and show defaultContent.
     } else {
       setState(() => {
         return {
@@ -246,6 +251,17 @@ function Wizard({
           {step?.text?.length > 0 &&
             step.text.map((object, index) => {
               return textService.buildHtmlElement(object, index);
+            })}
+
+          {/* Text specific to one step which changes based on Wizard state */}
+          {step.conditionalText?.length > 0 &&
+            step.conditionalText.map(({ displayState, contentArray }) => {
+              return (
+                shallowEqual(state.data, displayState) &&
+                contentArray.map((object, index) => {
+                  return textService.buildHtmlElement(object, index);
+                })
+              );
             })}
 
           <div className="div--wizard-questionnaire">
