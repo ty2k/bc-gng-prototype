@@ -39,6 +39,7 @@ function sanitize(input) {
  *   - @param {*} children - a string for primitive elements,
  *                           or an array or for composed elements
  *                           like `p`, `span`, or React components
+ *   - @param {array} contentBlocks - content arrays in stateful components
  *   - @param {object} data - JSON object data for React components
  *   - @param {object} args - arbitrary arguments for React components
  *   - @param {object} search - search bar configuration for Reach components
@@ -46,7 +47,7 @@ function sanitize(input) {
  *   - @param {string} first - ID of the first step in stepped component
  *   - @param {object} steps - JSON representation of steps in stepped component
  *   - @param {object} callToAction - primary action in a stepped component
- *   - @param {object} defaultContent - show before selection in radio component
+ *   - @param {array} defaultContent - content array shown in default/unselected state
  *   - @param {string} placeHolder - placeHolder text for text inputs
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
@@ -62,6 +63,7 @@ function buildHtmlElement(
     style,
     className,
     children,
+    contentBlocks,
     data,
     args,
     search,
@@ -454,6 +456,8 @@ function buildHtmlElement(
       return (
         <Wizard
           key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          contentBlocks={contentBlocks}
+          defaultContent={defaultContent}
           first={first}
           steps={steps}
           title={title}

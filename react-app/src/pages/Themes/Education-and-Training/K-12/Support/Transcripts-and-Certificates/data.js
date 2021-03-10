@@ -1,5 +1,3 @@
-import KindergartenToGrade12 from "../..";
-
 const content = [
   {
     type: "tabbed-page-nav",
