@@ -6,7 +6,6 @@
     "@bcgov/bc-sans": "1.0.1",
     "core-js": "3.9.1",
     "dompurify": "2.2.6",
-    "jsdom": "16.4.0",
     "node-sass": "5.0.0",
     "react": "17.0.1",
     "react-app-polyfill": "2.0.0",
