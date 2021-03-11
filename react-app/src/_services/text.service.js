@@ -52,6 +52,7 @@ function sanitize(input) {
  *   - @param {string} href - the `href` of an `a` tag, the `to` of a Link
  *   - @param {Boolean} primary - primary Boolean for Button components
  *   - @param {Boolean} external - Boolean for indicating external links
+ *   - @param {number} headingLevel - integer for h1-6 section heading level
  * @param {number} index - array index for React keys if applicable
  * @param {number} childIndex - nested array index for React keys if applicable
  * @param {array} highlight - array of search/filter strings to be highlighted
@@ -76,6 +77,7 @@ function buildHtmlElement(
     href,
     primary,
     external,
+    headingLevel,
   },
   index = null,
   childIndex = null,
@@ -280,6 +282,7 @@ function buildHtmlElement(
         <Accordion
           key={`${type}-${index}${childIndex ? `-${childIndex}` : ""}`}
           className={className}
+          headingLevel={headingLevel}
           id={id}
           title={title}
         >

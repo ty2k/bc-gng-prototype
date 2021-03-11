@@ -37,7 +37,12 @@ const AccordionHeader = styled.div`
       background-color: #ededed;
     }
 
-    h3 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: #313132;
       display: inline-block;
       font-size: 20px;
@@ -74,7 +79,7 @@ const AccordionBody = styled.div`
 `;
 
 // Full page-width accordion component which can be linked to on-page
-function Accordion({ expanded = false, id, title, children }) {
+function Accordion({ expanded = false, id, headingLevel, title, children }) {
   const hashFragment = window.location.href.split("#")[1];
   const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
 
@@ -86,6 +91,10 @@ function Accordion({ expanded = false, id, title, children }) {
     setOpen(!open);
   }
 
+  // Set section heading semantic level dynamically with headingLevel prop,
+  // default to <h3> if not specified.
+  const Heading = `h${headingLevel || 3}`;
+
   return (
     <StyledAccordion id={id}>
       <AccordionHeader>
@@ -94,7 +103,7 @@ function Accordion({ expanded = false, id, title, children }) {
           aria-controls={`accordion-body-${id}`}
           aria-expanded={open ? true : false}
         >
-          <h3 id={`accordion-label-${id}`}>{title}</h3>
+          <Heading id={`accordion-label-${id}`}>{title}</Heading>
           {open ? (
             <Icon id={"ionic-ios-arrow-up.svg"} />
           ) : (
