@@ -35,8 +35,8 @@ const StyledButton = styled.button`
   }
 
   &:focus {
+    opacity: 0.8;
     outline: 4px solid #3b99fc;
-    outline-offset: 1px;
   }
 
   &:hover {
@@ -124,6 +124,11 @@ const StyledLink = styled.a`
     margin-right: 10px;
   }
 
+  &:focus {
+    opacity: 0.8;
+    outline: 4px solid #3b99fc;
+  }
+
   &:hover {
     background-color: #003366;
     color: white;
@@ -152,6 +157,11 @@ const StyledRouterLink = styled(Link)`
   @media (max-width: 575px) {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  &:focus {
+    opacity: 0.8;
+    outline: 4px solid #3b99fc;
   }
 
   &:hover {
