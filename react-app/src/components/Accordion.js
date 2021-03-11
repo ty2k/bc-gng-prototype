@@ -24,6 +24,19 @@ const AccordionHeader = styled.div`
     padding: 0;
     width: 100%;
 
+    :focus {
+      background-color: #ededed;
+      outline: 4px solid #3b99fc;
+
+      :hover {
+        background-color: #d1d1d1;
+      }
+    }
+
+    :hover {
+      background-color: #ededed;
+    }
+
     h3 {
       color: #313132;
       display: inline-block;
