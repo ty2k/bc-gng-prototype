@@ -129,6 +129,10 @@ function Accordion({ expanded = false, id, headingLevel, title, children }) {
 const StyledMoreInfo = styled.div`
   display: block;
   margin: 0 0 13px 0;
+
+  @media (max-width: 575px) {
+    margin-left: 10px;
+  }
 `;
 
 const MoreInfoHeader = styled.div`
@@ -155,6 +159,15 @@ const MoreInfoHeader = styled.div`
     svg {
       margin-left: 7px;
       width: 14px;
+    }
+
+    &:focus {
+      color: blue;
+      outline: 4px solid #3b99fc;
+
+      span {
+        text-decoration: none;
+      }
     }
 
     &:hover {
