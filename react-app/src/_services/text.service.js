@@ -374,7 +374,11 @@ function buildHtmlElement(
       );
     case "more-info":
       return (
-        <MoreInfo key={`${type}-${index}-${childIndex ? childIndex : null}`}>
+        <MoreInfo
+          key={`${type}-${index}-${childIndex ? childIndex : null}`}
+          id={id}
+          title={title}
+        >
           {children}
         </MoreInfo>
       );
