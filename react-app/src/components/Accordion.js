@@ -76,8 +76,12 @@ function Accordion({ expanded = false, id, title, children }) {
   return (
     <StyledAccordion id={id}>
       <AccordionHeader>
-        <button onClick={toggleOpen}>
-          <h3>{title}</h3>
+        <button
+          onClick={toggleOpen}
+          aria-controls={`accordion-body-${id}`}
+          aria-expanded={open ? true : false}
+        >
+          <h3 id={`accordion-label-${id}`}>{title}</h3>
           {open ? (
             <Icon id={"ionic-ios-arrow-up.svg"} />
           ) : (
@@ -85,7 +89,12 @@ function Accordion({ expanded = false, id, title, children }) {
           )}
         </button>
       </AccordionHeader>
-      <AccordionBody className={open ? "open" : "closed"}>
+      <AccordionBody
+        className={open ? "open" : "closed"}
+        id={`accordion-body-${id}`}
+        aria-labelledby={`accordion-label-${id}`}
+        role="region"
+      >
         {children &&
           children.map((element, index) => {
             return textService.buildHtmlElement(element, index);
