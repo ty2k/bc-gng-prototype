@@ -117,10 +117,14 @@ function Accordion({ expanded = false, id, headingLevel, title, children }) {
         aria-labelledby={`accordion-label-${id}`}
         role="region"
       >
-        {children &&
-          children.map((element, index) => {
-            return textService.buildHtmlElement(element, index);
-          })}
+        {/* If the children prop is an array, use the text service to build it */}
+        {children?.length > 0
+          ? children.map((element, index) => {
+              return textService.buildHtmlElement(element, index);
+            })
+          : // When the children prop isn't an array, the contents will be
+            // injected by a parent component using an Accordion as a child
+            children}
       </AccordionBody>
     </StyledAccordion>
   );
