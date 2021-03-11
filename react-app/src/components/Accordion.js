@@ -183,7 +183,7 @@ const MoreInfoBody = styled.div`
 `;
 
 // Minimal accordion-style component for use within Table cells
-function MoreInfo({ id, children }) {
+function MoreInfo({ id, children, title = "More info" }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -194,8 +194,10 @@ function MoreInfo({ id, children }) {
           onClick={() => {
             setOpen(!open);
           }}
+          aria-controls={`more-info-body-${id}`}
+          aria-expanded={open ? true : false}
         >
-          <span>More info</span>
+          <span id={`more-info-label-${id}`}>{title}</span>
           {open ? (
             <Icon id={"sort-up-solid.svg"} />
           ) : (
@@ -203,7 +205,12 @@ function MoreInfo({ id, children }) {
           )}
         </button>
       </MoreInfoHeader>
-      <MoreInfoBody className={open ? "open" : "closed"}>
+      <MoreInfoBody
+        className={open ? "open" : "closed"}
+        id={`more-info-body-${id}`}
+        aria-labelledby={`more-info-label-${id}`}
+        role="region"
+      >
         {children &&
           children.map((element, index) => {
             return textService.buildHtmlElement(element, index);
