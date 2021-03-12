@@ -78,8 +78,25 @@ const AccordionBody = styled.div`
   }
 `;
 
-// Full page-width accordion component which can be linked to on-page
-function Accordion({ expanded = false, id, headingLevel, title, children }) {
+/**
+ * Full page-width accordion component which can be linked to on-page
+ * @param {object} props
+ *   - @param {*} children - handles array and non-array values
+ *   - @param {string} className - used by `styled-components` to allow unique
+ *                                 styling by parent components
+ *   - @param {Boolean} expanded - is the Accordion open to start
+ *   - @param {string} id - used for parent <div> id and aria attributes
+ *   - @param {number} headingLevel - integer for specifying heading h1-h6
+ *   - @param {string} title - accordion heading title
+ */
+function Accordion({
+  children,
+  className,
+  expanded = false,
+  id,
+  headingLevel,
+  title,
+}) {
   const hashFragment = window.location.href.split("#")[1];
   const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
 
@@ -96,7 +113,7 @@ function Accordion({ expanded = false, id, headingLevel, title, children }) {
   const Heading = `h${headingLevel || 3}`;
 
   return (
-    <StyledAccordion id={id}>
+    <StyledAccordion id={id} className={className}>
       <AccordionHeader>
         <button
           onClick={toggleOpen}
