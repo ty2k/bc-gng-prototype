@@ -24,7 +24,25 @@ const AccordionHeader = styled.div`
     padding: 0;
     width: 100%;
 
-    h3 {
+    :focus {
+      background-color: #ededed;
+      outline: 4px solid #3b99fc;
+
+      :hover {
+        background-color: #d1d1d1;
+      }
+    }
+
+    :hover {
+      background-color: #ededed;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: #313132;
       display: inline-block;
       font-size: 20px;
@@ -60,8 +78,25 @@ const AccordionBody = styled.div`
   }
 `;
 
-// Full page-width accordion component which can be linked to on-page
-function Accordion({ expanded = false, id, title, children }) {
+/**
+ * Full page-width accordion component which can be linked to on-page
+ * @param {object} props
+ *   - @param {*} children - handles array and non-array values
+ *   - @param {string} className - used by `styled-components` to allow unique
+ *                                 styling by parent components
+ *   - @param {Boolean} expanded - is the Accordion open to start
+ *   - @param {string} id - used for parent <div> id and aria attributes
+ *   - @param {number} headingLevel - integer for specifying heading h1-h6
+ *   - @param {string} title - accordion heading title
+ */
+function Accordion({
+  children,
+  className,
+  expanded = false,
+  id,
+  headingLevel,
+  title,
+}) {
   const hashFragment = window.location.href.split("#")[1];
   const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
 
@@ -73,11 +108,19 @@ function Accordion({ expanded = false, id, title, children }) {
     setOpen(!open);
   }
 
+  // Set section heading semantic level dynamically with headingLevel prop,
+  // default to <h3> if not specified.
+  const Heading = `h${headingLevel || 3}`;
+
   return (
-    <StyledAccordion id={id}>
+    <StyledAccordion id={id} className={className}>
       <AccordionHeader>
-        <button onClick={toggleOpen}>
-          <h3>{title}</h3>
+        <button
+          onClick={toggleOpen}
+          aria-controls={`accordion-body-${id}`}
+          aria-expanded={open ? true : false}
+        >
+          <Heading id={`accordion-label-${id}`}>{title}</Heading>
           {open ? (
             <Icon id={"ionic-ios-arrow-up.svg"} />
           ) : (
@@ -85,11 +128,20 @@ function Accordion({ expanded = false, id, title, children }) {
           )}
         </button>
       </AccordionHeader>
-      <AccordionBody className={open ? "open" : "closed"}>
-        {children &&
-          children.map((element, index) => {
-            return textService.buildHtmlElement(element, index);
-          })}
+      <AccordionBody
+        className={open ? "open" : "closed"}
+        id={`accordion-body-${id}`}
+        aria-labelledby={`accordion-label-${id}`}
+        role="region"
+      >
+        {/* If the children prop is an array, use the text service to build it */}
+        {children?.length > 0
+          ? children.map((element, index) => {
+              return textService.buildHtmlElement(element, index);
+            })
+          : // When the children prop isn't an array, the contents will be
+            // injected by a parent component using an Accordion as a child
+            children}
       </AccordionBody>
     </StyledAccordion>
   );
@@ -98,6 +150,10 @@ function Accordion({ expanded = false, id, title, children }) {
 const StyledMoreInfo = styled.div`
   display: block;
   margin: 0 0 13px 0;
+
+  @media (max-width: 575px) {
+    margin-left: 10px;
+  }
 `;
 
 const MoreInfoHeader = styled.div`
@@ -126,6 +182,15 @@ const MoreInfoHeader = styled.div`
       width: 14px;
     }
 
+    &:focus {
+      color: blue;
+      outline: 4px solid #3b99fc;
+
+      span {
+        text-decoration: none;
+      }
+    }
+
     &:hover {
       color: blue;
 
@@ -152,7 +217,7 @@ const MoreInfoBody = styled.div`
 `;
 
 // Minimal accordion-style component for use within Table cells
-function MoreInfo({ id, children }) {
+function MoreInfo({ id, children, title = "More info" }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -163,8 +228,10 @@ function MoreInfo({ id, children }) {
           onClick={() => {
             setOpen(!open);
           }}
+          aria-controls={`more-info-body-${id}`}
+          aria-expanded={open ? true : false}
         >
-          <span>More info</span>
+          <span id={`more-info-label-${id}`}>{title}</span>
           {open ? (
             <Icon id={"sort-up-solid.svg"} />
           ) : (
@@ -172,7 +239,12 @@ function MoreInfo({ id, children }) {
           )}
         </button>
       </MoreInfoHeader>
-      <MoreInfoBody className={open ? "open" : "closed"}>
+      <MoreInfoBody
+        className={open ? "open" : "closed"}
+        id={`more-info-body-${id}`}
+        aria-labelledby={`more-info-label-${id}`}
+        role="region"
+      >
         {children &&
           children.map((element, index) => {
             return textService.buildHtmlElement(element, index);

@@ -127,6 +127,7 @@ const content = [
       {
         type: "button-link",
         children: "Register for a Basic BCeID",
+        href: "/under-construction",
         primary: true,
       },
     ],
