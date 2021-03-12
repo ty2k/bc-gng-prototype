@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import { textService } from "../_services/text.service";
+import { Accordion } from "./Accordion";
 import Icon from "./Icon";
 import SearchBar from "./SearchBar";
 
@@ -64,6 +65,12 @@ const StyledFilters = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+`;
+
+const StyledAccordion = styled(Accordion)`
+  div.open {
+    margin: 26px 0;
+  }
 `;
 
 function TableGroup({ context = {}, data, id }) {
@@ -317,13 +324,13 @@ function TableGroup({ context = {}, data, id }) {
                   // Tables can be nested inside of Accordions
                   if (elem?.type !== "table") {
                     return (
-                      <Accordion
+                      <StyledAccordion
                         key={`accordion-table-${elem.id}`}
                         id={elem.id}
                         title={elem.title}
                       >
                         {getTable(elem.id, elem?.childTable?.data)}
-                      </Accordion>
+                      </StyledAccordion>
                     );
                   } else {
                     return getTable(elem.id, elem.data);
@@ -440,89 +447,6 @@ function RadioFilterGroup({ id, data, initial, parentCallback }) {
         </div>
       </fieldset>
     </StyledRadioFilterGroup>
-  );
-}
-
-const StyledAccordion = styled.div`
-  display: block;
-  margin-bottom: 5px;
-`;
-
-const AccordionHeader = styled.div`
-  background-color: #d1d1d1;
-  display: block;
-
-  button {
-    align-items: center;
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    min-height: 44px;
-    padding: 0;
-    width: 100%;
-
-    h3 {
-      color: #313132;
-      display: inline-block;
-      font-size: 20px;
-      font-weight: 700;
-      margin: 0 12px;
-      text-align: left;
-    }
-
-    svg {
-      display: inline-block;
-      margin: 4px 18px;
-      min-width: 36px;
-      width: 36px;
-    }
-  }
-`;
-
-const AccordionBody = styled.div`
-  background-color: white;
-  font-size: 18px;
-
-  &.closed {
-    display: none;
-  }
-
-  &.open {
-    display: block;
-  }
-`;
-
-// Full page-width accordion component which can be linked to on-page
-function Accordion({ expanded = false, id, title, children }) {
-  const hashFragment = window.location.href.split("#")[1];
-  const directlyLinked = Boolean(hashFragment && id && hashFragment === id);
-
-  // The accordion should initially render as opened if explicitly set with
-  // `expanded`, or if it has been directly linked to with a hash parameter.
-  const [open, setOpen] = useState(expanded || directlyLinked);
-
-  function toggleOpen() {
-    setOpen(!open);
-  }
-
-  return (
-    <StyledAccordion id={id}>
-      <AccordionHeader>
-        <button onClick={toggleOpen}>
-          <h3>{title}</h3>
-          {open ? (
-            <Icon id={"ionic-ios-arrow-up.svg"} />
-          ) : (
-            <Icon id={"ionic-ios-arrow-down.svg"} />
-          )}
-        </button>
-      </AccordionHeader>
-      <AccordionBody className={open ? "open" : "closed"}>
-        {children}
-      </AccordionBody>
-    </StyledAccordion>
   );
 }
 
