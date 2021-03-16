@@ -15,6 +15,14 @@ const Section = styled.section`
 function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
+  // Feature flag to determine whether to show Personalization block.
+  // Hide the block in production deployment.
+  const FEATURE_SHOW_PERSONALIZATION = window.location.href.includes(
+    "bc-gng-prototype"
+  )
+    ? false
+    : true;
+
   function handleSearchInput(inputValue) {
     setSearchTerm(inputValue);
   }
@@ -22,13 +30,13 @@ function Home() {
   return (
     <>
       {/* Full width block personalization block */}
-      {/* TODO: Un-comment this block out pending future Personalization /
-      Life Events design work. */}
-      {/* <Personalization
-        parentCallback={handleSearchInput}
-        personalization={personalization}
-        searchTerm={searchTerm}
-      /> */}
+      {FEATURE_SHOW_PERSONALIZATION && (
+        <Personalization
+          parentCallback={handleSearchInput}
+          personalization={personalization}
+          searchTerm={searchTerm}
+        />
+      )}
 
       {/* 4 highlight tiles with larger icons */}
       <Highlights highlights={highlights} />
