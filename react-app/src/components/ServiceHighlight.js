@@ -17,7 +17,6 @@ const ServiceHighlightDiv = styled.div`
   }
 
   svg {
-    height: 90px;
     margin: 10px 20px 0 10px;
     max-width: 90px;
   }
