@@ -26,13 +26,13 @@ const HighlightsGrid = styled.div`
   @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
     display: -ms-grid;
 
-    /* With no column- or row-gap support, we must explicitly set the value
+    /* With no column- or row-gap support, we must explicitly set the gap value
     when defining rows and columns. */
-    -ms-grid-columns: 1fr 24px 1fr;
-    -ms-grid-rows: 1fr 24px 1fr;
+    -ms-grid-columns: 1fr 24px 1fr; // 2 columns with gap
+    -ms-grid-rows: 1fr 24px 1fr; // 2 rows with gap
 
     /* These divs refer to HighlightCard divs. Note that even column and
-      row values are avoided because those now refer to our 24px gap. */
+      row values are avoided because those now refer to our gap. */
     div:nth-child(1) {
       -ms-grid-column: 1;
       -ms-grid-row: 1;
@@ -52,8 +52,8 @@ const HighlightsGrid = styled.div`
   }
   @media (min-width: 992px) and (-ms-high-contrast: none),
     (-ms-high-contrast: active) {
-    -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr;
-    -ms-grid-rows: auto; // single row
+    -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr; // 4 columns with gap
+    -ms-grid-rows: auto; // 1 row
 
     div:nth-child(1) {
       -ms-grid-column: 1;
