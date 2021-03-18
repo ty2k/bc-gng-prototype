@@ -100,7 +100,7 @@ const HighlightCard = styled.div`
 
     svg {
       color: #313132;
-      max-height: 125px;
+      height: 125px;
       max-width: 125px;
     }
   }
