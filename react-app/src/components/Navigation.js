@@ -30,6 +30,191 @@ const Section = styled.div`
     max-width: 970px;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  /* Grid fallback for Internet Explorer 10+ - assumes 20 or less children */
+  @media (min-width: 768px) and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+    display: -ms-grid;
+
+    /* With no column- or row-gap support, we must explicitly set the gap value
+    when defining columns. */
+    -ms-grid-columns: 1fr 30px 1fr; // 2 columns with gap
+
+    /* Add a bottom margin to the Card div as a substitute for row-gap, since we
+    don't know how many rows to expect ahead of time. */
+    div {
+      margin-bottom: 24px;
+    }
+
+    /* These divs refer to Card divs. Note that column 2 is avoided because that
+    now refers to our gap column. */
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(4) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(5) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(6) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(7) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(8) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(9) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(10) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(11) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 6;
+    }
+    div:nth-child(12) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 6;
+    }
+    div:nth-child(13) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 7;
+    }
+    div:nth-child(14) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 7;
+    }
+    div:nth-child(15) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 8;
+    }
+    div:nth-child(16) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 8;
+    }
+    div:nth-child(17) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 9;
+    }
+    div:nth-child(18) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 9;
+    }
+    div:nth-child(19) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 10;
+    }
+    div:nth-child(20) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 10;
+    }
+  }
+  @media (min-width: 992px) and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr; // 3 columns with gap
+
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(4) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(5) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(6) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(7) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(8) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(9) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(10) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(11) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(12) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(13) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(14) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(15) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(16) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 6;
+    }
+    div:nth-child(17) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 6;
+    }
+    div:nth-child(18) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 6;
+    }
+    div:nth-child(19) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 7;
+    }
+    div:nth-child(20) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 7;
+    }
+  }
 `;
 
 const StyledCard = styled.div`

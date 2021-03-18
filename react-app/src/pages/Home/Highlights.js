@@ -21,6 +21,57 @@ const HighlightsGrid = styled.div`
     max-width: 1168px;
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* Grid fallback for Internet Explorer 10+ - assumes 4 children */
+  @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: -ms-grid;
+
+    /* With no column- or row-gap support, we must explicitly set the gap value
+    when defining rows and columns. */
+    -ms-grid-columns: 1fr 24px 1fr; // 2 columns with gap
+    -ms-grid-rows: 1fr 24px 1fr; // 2 rows with gap
+
+    /* These divs refer to HighlightCard divs. Note that even column and
+      row values are avoided because those now refer to our gap. */
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(4) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 3;
+    }
+  }
+  @media (min-width: 992px) and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+    -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr; // 4 columns with gap
+    -ms-grid-rows: auto; // 1 row
+
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 5;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(4) {
+      -ms-grid-column: 7;
+      -ms-grid-row: 1;
+    }
+  }
 `;
 
 const HighlightCard = styled.div`
@@ -49,7 +100,7 @@ const HighlightCard = styled.div`
 
     svg {
       color: #313132;
-      max-height: 125px;
+      height: 125px;
       max-width: 125px;
     }
   }
