@@ -12,6 +12,7 @@ import { ReactComponent as HamburgerIcon } from "../../assets/bars-solid.svg";
 const NavStyled = styled.nav`
   background-color: white;
   display: flex;
+  font-display: swap;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   height: 80px;

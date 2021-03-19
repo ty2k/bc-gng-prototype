@@ -99,6 +99,7 @@ const SearchBlock = styled.div`
       border: none;
       border-bottom: 1px solid #313132;
       border-radius: 0;
+      font-display: swap;
       font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
       font-size: 18px;
       padding: 0;

@@ -26,6 +26,7 @@ const SearchForm = styled.div`
     background: none;
     border: 0;
     display: inline-block;
+    font-display: swap;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
     padding: 10px;
