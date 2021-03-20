@@ -27,7 +27,6 @@ const StyledTable = styled.table`
         border: 0;
         color: #313132;
         cursor: pointer;
-        font-display: swap;
         font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
         font-size: 20px;
         font-weight: 700;

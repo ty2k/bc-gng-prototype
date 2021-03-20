@@ -5,7 +5,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import "./index.scss";
-import "@bcgov/bc-sans/css/BCSans.css";
 import App from "./App";
 import ScrollToTop from "./components/ScrollToTop";
 import * as serviceWorker from "./serviceWorker";

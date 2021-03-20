@@ -125,7 +125,6 @@ const SearchBar = styled.div`
     background: none;
     border: 0;
     display: inline-block;
-    font-display: swap;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 20px;
     padding: 10px 16px;

@@ -166,7 +166,6 @@ const MoreInfoHeader = styled.div`
     color: #1a5a96;
     cursor: pointer;
     display: block;
-    font-display: swap;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;

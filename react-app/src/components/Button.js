@@ -11,7 +11,6 @@ const StyledButton = styled.button`
   color: ${(props) => (props.primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
-  font-display: swap;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -111,7 +110,6 @@ const StyledLink = styled.a`
   color: ${(props) => (props.$primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
-  font-display: swap;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -147,7 +145,6 @@ const StyledRouterLink = styled(Link)`
   color: ${(props) => (props.$primary ? "white" : "#003366")};
   cursor: pointer;
   display: inline-block;
-  font-display: swap;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
