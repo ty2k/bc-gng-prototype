@@ -19,7 +19,6 @@ const LanguagePickerStyled = styled.div`
     color: #313132;
     cursor: pointer;
     display: flex;
-    font-display: swap;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     height: 44px;
     padding: 0;

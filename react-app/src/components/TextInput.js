@@ -11,7 +11,6 @@ const StyledTextInput = styled.input`
   border: 2px solid #606060;
   border-radius: 4px;
   display: block;
-  font-display: swap;
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
   font-size: 18px;
   height: 34px;

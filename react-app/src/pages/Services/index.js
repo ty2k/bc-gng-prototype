@@ -29,7 +29,6 @@ const ServicesContentStyled = styled.div`
     border: 0;
     box-sizing: border-box;
     display: inline-block;
-    font-display: swap;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 24px;
     height: 44px;
