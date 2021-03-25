@@ -31,6 +31,10 @@ const SearchForm = styled.div`
     padding: 10px;
     vertical-align: middle;
     width: 872px;
+
+    :focus {
+      outline: 4px solid #3b99fc;
+    }
   }
 `;
 
