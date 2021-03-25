@@ -14,11 +14,16 @@ const SearchButtonStyled = styled.div`
   button.button--search {
     background: none;
     border: 0;
+    cursor: pointer;
     display: inline-block;
     height: 44px;
     margin: 16px 20px;
     padding: 0;
     width: 44px;
+
+    :focus {
+      outline: 4px solid #3b99fc;
+    }
   }
 
   button.button--search svg {
@@ -28,17 +33,28 @@ const SearchButtonStyled = styled.div`
 
   // SearchButton in Nav menu is a special case
   &.div--search-button-nav {
-    background-color: #f2f2f2;
-    height: 80px;
-    width: 70px;
-
     button.button--search {
-      margin: 18px 19px 18px 13px;
+      background-color: #f2f2f2;
+      height: 80px;
+      margin: 0;
+      width: 80px;
+
+      :focus {
+        background-color: #dedede;
+      }
+
+      :hover {
+        background-color: #dedede;
+      }
     }
 
     button.button--search svg {
       color: #313132;
-      margin: 11px;
+      height: 25px;
+    }
+
+    :hover {
+      background-color: #ededed;
     }
   }
 `;
