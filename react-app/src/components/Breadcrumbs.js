@@ -51,6 +51,15 @@ const StyledBreadcrumb = styled.li`
   span {
     color: #313132;
     text-decoration: none;
+
+    :focus {
+      outline: 4px solid #3b99fc;
+      text-decoration: underline;
+    }
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 
   &:first-child {

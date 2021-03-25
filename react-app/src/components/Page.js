@@ -28,6 +28,9 @@ const StyledSkipLink = styled.a`
   display: hidden;
   font-weight: 700;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 
   div {
     display: none;
@@ -75,6 +78,10 @@ const StyledBackArrow = styled(Link)`
     position: relative;
     top: 2px;
     z-index: -1;
+  }
+
+  :focus {
+    color: blue;
   }
 `;
 

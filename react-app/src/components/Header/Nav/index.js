@@ -55,6 +55,15 @@ const NavStyled = styled.nav`
       line-height: 50px;
       margin-bottom: 15px;
     }
+
+    :focus {
+      outline: 4px solid #3b99fc;
+      text-decoration: underline;
+    }
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 
   ul li a.a--current-page {
@@ -76,7 +85,7 @@ const NavStyled = styled.nav`
     background-color: #f2f2f2;
     border: 0;
     box-sizing: border-box;
-    color: #888888;
+    color: #313132;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -84,6 +93,16 @@ const NavStyled = styled.nav`
     padding: 20px 14px 8px 14px;
     text-align: center;
     width: 80px;
+
+    :focus {
+      background-color: #dedede;
+      outline: 4px solid #3b99fc;
+    }
+
+    :hover {
+      background-color: #dedede;
+      text-decoration: underline;
+    }
   }
   button.button--menu-button > svg {
     height: 24px;
