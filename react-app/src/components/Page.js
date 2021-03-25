@@ -28,6 +28,9 @@ const StyledSkipLink = styled.a`
   display: hidden;
   font-weight: 700;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 
   div {
     display: none;
