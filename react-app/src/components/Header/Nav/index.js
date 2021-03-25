@@ -55,6 +55,15 @@ const NavStyled = styled.nav`
       line-height: 50px;
       margin-bottom: 15px;
     }
+
+    :focus {
+      outline: 4px solid #3b99fc;
+      text-decoration: underline;
+    }
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 
   ul li a.a--current-page {
