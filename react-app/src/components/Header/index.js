@@ -57,6 +57,10 @@ const HeaderStyled = styled.header`
     }
   }
 
+  div.wrapper > div.div--title > a:focus {
+    outline: 4px solid #3b99fc;
+  }
+
   div.wrapper > div.div--title > a > svg.logo {
     display: inline-block;
     height: 80px;
