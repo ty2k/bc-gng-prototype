@@ -63,6 +63,15 @@ const StyledAlert = styled.div`
 
       a {
         color: white;
+
+        :focus {
+          outline: 4px solid #3b99fc;
+          text-decoration: none;
+        }
+
+        :hover {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -77,6 +86,15 @@ const StyledAlert = styled.div`
 
     svg {
       color: white;
+    }
+
+    :focus {
+      background-color: #5f9cd8;
+      outline: 4px solid #3b99fc;
+    }
+
+    :hover {
+      background-color: #5f9cd8;
     }
   }
 
