@@ -79,6 +79,10 @@ const StyledBackArrow = styled(Link)`
     top: 2px;
     z-index: -1;
   }
+
+  :focus {
+    color: blue;
+  }
 `;
 
 function BackArrow({ href, ariaLabel }) {
