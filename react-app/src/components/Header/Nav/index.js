@@ -93,6 +93,16 @@ const NavStyled = styled.nav`
     padding: 20px 14px 8px 14px;
     text-align: center;
     width: 80px;
+
+    :focus {
+      background-color: #dedede;
+      outline: 4px solid #3b99fc;
+    }
+
+    :hover {
+      background-color: #dedede;
+      text-decoration: underline;
+    }
   }
   button.button--menu-button > svg {
     height: 24px;
