@@ -34,7 +34,12 @@ const StyledTable = styled.table`
         margin: 0 0 8px 0;
         padding: 0;
 
-        &:hover {
+        :focus {
+          outline: 4px solid #3b99fc;
+          text-decoration: underline;
+        }
+
+        :hover {
           color: blue;
           text-decoration: underline;
         }
@@ -45,7 +50,11 @@ const StyledTable = styled.table`
           text-decoration-thickness: 1px;
           text-underline-offset: 2px;
 
-          &:hover {
+          :focus {
+            text-decoration: none;
+          }
+
+          :hover {
             color: blue;
             text-decoration: none;
           }
