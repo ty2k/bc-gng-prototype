@@ -59,6 +59,10 @@ const Menu = styled.div`
         padding: 10px 16px;
         width: 320px;
 
+        :focus {
+          outline: 4px solid #3b99fc;
+        }
+
         &.slide-out-menu-li-navlink {
           font-weight: 700;
           padding: 0;
@@ -130,6 +134,10 @@ const SearchBar = styled.div`
     padding: 10px 16px;
     vertical-align: middle;
     width: 276px;
+
+    :focus {
+      outline: 4px solid #3b99fc;
+    }
   }
 `;
 
@@ -137,6 +145,7 @@ const SearchButton = styled.button`
   background: none;
   border: none;
   box-sizing: border-box;
+  cursor: pointer;
   display: inline-block;
   height: 44px;
   overflow: hidden;
@@ -145,6 +154,15 @@ const SearchButton = styled.button`
 
   svg {
     color: #888888;
+  }
+
+  :focus {
+    background-color: #dedede;
+    outline: 4px solid #3b99fc;
+  }
+
+  :hover {
+    background-color: #dedede;
   }
 `;
 
