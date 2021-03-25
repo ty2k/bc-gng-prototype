@@ -6,6 +6,9 @@ main {
     color: #1a5a96;
     text-decoration: underline;
   }
+  a:focus {
+    outline: 4px solid #3b99fc;
+  }
   a:hover {
     text-decoration: none;
     color: blue;
