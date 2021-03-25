@@ -394,26 +394,46 @@ const StyledRadioFilterGroup = styled.form`
         }
 
         input[type="radio"] {
-          display: none;
+          cursor: pointer;
+          height: 0px;
+          opacity: 0;
+          position: absolute;
+          width: 0px;
+
+          :focus {
+            + label {
+              outline: 4px solid #3b99fc;
+            }
+            :checked + label {
+              outline: 4px solid #3b99fc;
+            }
+          }
         }
 
         input[type="radio"] ~ label {
           align-items: center;
-          border: 1px solid transparent;
-          border-radius: 10px;
+          border-radius: 9px;
           cursor: pointer;
           display: flex;
           font-size: 18px;
           justify-content: space-around;
           min-height: 44px;
           text-align: center;
+
+          :hover {
+            background-color: #f2f2f2;
+            text-decoration: underline;
+          }
         }
 
         input[type="radio"]:checked ~ label {
-          border-color: #313132;
           background-color: #313132;
           color: white;
           font-weight: 700;
+
+          :hover {
+            background-color: black;
+          }
         }
       }
     }
