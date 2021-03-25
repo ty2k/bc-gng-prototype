@@ -85,7 +85,7 @@ const NavStyled = styled.nav`
     background-color: #f2f2f2;
     border: 0;
     box-sizing: border-box;
-    color: #888888;
+    color: #313132;
     cursor: pointer;
     display: flex;
     flex-direction: column;
