@@ -1,15 +1,10 @@
 import React from "react";
 
-import Navigation from "../../../../components/Navigation";
-import { sections } from "./data";
+import Content from "../../../../components/Content";
+import { content } from "./data";
 
 function ResidentialTenancies() {
-  return (
-    <Navigation
-      search={{ label: "Search Residential Tenancies" }}
-      sections={sections}
-    />
-  );
+  return <Content content={content} />;
 }
 
 export default ResidentialTenancies;
