@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--
+      Meta tags defined below get replaced by react-helmet when the attribute
+      `data-react-helmet` is set to `true`.
+    -->
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="robots" content="noindex">
@@ -9,6 +13,7 @@
     <meta
       name="description"
       content="Prototype BC Gov Next Gen site"
+      data-react-helmet="true"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -25,6 +30,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- Title tag default is overwritten by react-helmet -->
     <title>Province of British Columbia</title>
   </head>
   <body>
