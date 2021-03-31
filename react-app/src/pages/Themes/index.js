@@ -1,10 +1,10 @@
 import React from "react";
 
-import Navigation from "../../components/Navigation";
-import { sections } from "./data";
+import Content from "../../components/Content";
+import { content } from "./data";
 
 function Themes() {
-  return <Navigation search={{ label: "Search Topics" }} sections={sections} />;
+  return <Content content={content} />;
 }
 
 export default Themes;
