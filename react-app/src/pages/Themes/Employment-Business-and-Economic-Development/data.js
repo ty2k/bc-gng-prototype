@@ -165,4 +165,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Employment, Business, and Economic Development",
+  description: "Theme page for Employment, Business and Economic Development",
+};
+
+export { content, metadata };

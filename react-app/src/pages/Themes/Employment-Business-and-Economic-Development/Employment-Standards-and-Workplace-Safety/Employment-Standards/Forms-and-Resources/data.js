@@ -61,4 +61,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Forms and Resources",
+  description:
+    "Printed materials and forms related to employment standards in B.C.",
+};
+
+export { content, metadata };

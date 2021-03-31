@@ -1274,4 +1274,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Hiring Young People",
+  description:
+    "The Employment Standards Branch administers the Employment Standards Act and Regulation, which set minimum standards of wages and working conditions for youth.",
+};
+
+export { content, metadata };

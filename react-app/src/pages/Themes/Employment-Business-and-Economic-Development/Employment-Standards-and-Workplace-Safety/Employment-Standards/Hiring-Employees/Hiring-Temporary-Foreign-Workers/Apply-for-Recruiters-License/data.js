@@ -666,4 +666,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Apply for a Recruiter's License",
+  description: "Recruiters must be licensed with the provincial government.",
+};
+
+export { content, metadata };

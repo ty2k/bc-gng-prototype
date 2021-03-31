@@ -223,4 +223,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Hiring Domestic Workers",
+  description:
+    "Information about the requirements for employing domestic workers in B.C.",
+};
+
+export { content, metadata };

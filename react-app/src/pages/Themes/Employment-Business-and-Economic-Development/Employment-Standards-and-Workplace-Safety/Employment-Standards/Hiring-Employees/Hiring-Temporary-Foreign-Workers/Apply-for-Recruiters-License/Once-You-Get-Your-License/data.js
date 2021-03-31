@@ -482,4 +482,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Once You Get Your License",
+  description: "Responsibilities after getting your recruiter's license",
+};
+
+export { content, metadata };
