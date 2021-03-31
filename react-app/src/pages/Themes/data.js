@@ -364,4 +364,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Topics",
+  description: "Content topics on the BC Government website.",
+};
+
+export { content, metadata };

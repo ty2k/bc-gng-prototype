@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import Personalization from "./Personalization";
@@ -29,6 +30,15 @@ function Home() {
 
   return (
     <>
+      {/* Meta information */}
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="Prototype website for the Government of British Columbia"
+        />
+      </Helmet>
+
       {/* Full width block personalization block */}
       {FEATURE_SHOW_PERSONALIZATION && (
         <Personalization

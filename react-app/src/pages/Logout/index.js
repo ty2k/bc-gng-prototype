@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
@@ -28,6 +29,12 @@ function Login(props) {
 
   return (
     <StyledMain>
+      {/* Meta information */}
+      <Helmet>
+        <title>Logout</title>
+        <meta name="description" content="Logout of prototype" />
+      </Helmet>
+
       <h1>Logout</h1>
       <form
         id="form--login"

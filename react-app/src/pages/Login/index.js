@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
+import { Helmet } from "react-helmet";
 import { Redirect } from "react-router-dom";
 import styled from "styled-components";
 
@@ -44,6 +45,12 @@ function Login(props) {
 
   return (
     <StyledMain>
+      {/* Meta information */}
+      <Helmet>
+        <title>Login</title>
+        <meta name="description" content="Login to prototype" />
+      </Helmet>
+
       <h1>Login</h1>
       <form
         id="form--login"
