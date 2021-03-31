@@ -466,4 +466,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Application Fee",
+  description:
+    "Application fee information for a Tenant's Direct Request application.",
+};
+
+export { content, metadata };

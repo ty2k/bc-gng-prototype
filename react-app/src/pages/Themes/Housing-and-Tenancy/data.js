@@ -171,4 +171,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Housing & Tenancy",
+  description:
+    "In B.C., whether you rent, own or are in need of housing, there are programs and information that can assist you.",
+};
+
+export { content, metadata };

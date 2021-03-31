@@ -317,4 +317,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "How to Apply",
+  description:
+    "How to apply for a dispute resolution through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

@@ -590,4 +590,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Before You Apply",
+  description:
+    "Information to know before applying for a dispute resolution through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

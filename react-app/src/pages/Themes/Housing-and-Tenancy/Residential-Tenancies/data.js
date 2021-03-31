@@ -118,4 +118,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Residential Tenancies",
+  description:
+    "Information about renting in B.C. and dispute resolution services through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

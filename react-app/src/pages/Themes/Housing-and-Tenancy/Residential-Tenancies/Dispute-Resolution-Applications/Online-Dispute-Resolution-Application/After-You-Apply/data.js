@@ -542,4 +542,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "After You Apply",
+  description:
+    "Next steps after applying for a dispute resolution through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

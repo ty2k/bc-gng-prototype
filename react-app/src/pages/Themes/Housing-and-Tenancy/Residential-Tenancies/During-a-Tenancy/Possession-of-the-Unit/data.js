@@ -698,4 +698,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Possession of the Unit",
+  description:
+    "Rights and responsibilities for landlords and tenants regarding possession of a unit.",
+};
+
+export { content, metadata };

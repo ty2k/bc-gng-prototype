@@ -103,4 +103,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "During a Tenancy",
+  description: "Residential tenancy rules and regulations.",
+};
+
+export { content, metadata };

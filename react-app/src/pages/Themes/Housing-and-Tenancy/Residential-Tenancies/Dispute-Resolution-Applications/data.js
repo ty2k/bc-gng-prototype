@@ -108,4 +108,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Dispute Resolution Applications",
+  description:
+    "Information about applying for dispute resolution through the Residential Tenancy Branch in B.C. for landlords and tenants.",
+};
+
+export { content, metadata };

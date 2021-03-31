@@ -274,4 +274,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Standard Rent Increases",
+  description: "Standard rent increase information for residential tenancies.",
+};
+
+export { content, metadata };

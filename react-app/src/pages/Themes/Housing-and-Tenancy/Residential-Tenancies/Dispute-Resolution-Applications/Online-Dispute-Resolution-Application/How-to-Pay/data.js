@@ -557,4 +557,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "How to Pay",
+  description:
+    "How to pay for a dispute resolution through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

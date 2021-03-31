@@ -209,4 +209,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Tenant's Direct Request",
+  description:
+    "Information about tenant's application for an expedited return of deposit, when a landlord has not returned the deposit or applied to keep all or some of the deposit.",
+};
+
+export { content, metadata };
