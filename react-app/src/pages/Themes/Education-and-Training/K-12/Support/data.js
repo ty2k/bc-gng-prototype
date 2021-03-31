@@ -361,4 +361,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Support",
+  description:
+    "Educational support for Kindergarten to Grade 12 students in B.C.",
+};
+
+export { content, metadata };

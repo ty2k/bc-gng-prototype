@@ -535,4 +535,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Transcripts and Certificates",
+  description: "Information about B.C. student transcripts and certificates.",
+};
+
+export { content, metadata };

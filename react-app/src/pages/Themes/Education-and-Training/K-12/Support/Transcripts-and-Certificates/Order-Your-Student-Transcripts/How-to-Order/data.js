@@ -671,4 +671,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "How to Order",
+  description: "How to order a student transcript or certificate",
+};
+
+export { content, metadata };

@@ -427,4 +427,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Before You Start",
+  description:
+    "What you need prior to ordering your student transcript or certificate",
+};
+
+export { content, metadata };
