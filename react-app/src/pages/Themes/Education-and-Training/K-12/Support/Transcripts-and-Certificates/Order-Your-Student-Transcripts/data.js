@@ -353,4 +353,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Order Your Student Transcripts",
+  description:
+    "Order a high school transcript or certificate as a current student",
+};
+
+export { content, metadata };

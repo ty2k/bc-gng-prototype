@@ -326,4 +326,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "After You Order",
+  description:
+    "What happens after you order your student transcript or certificate",
+};
+
+export { content, metadata };

@@ -280,4 +280,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "How to Apply",
+  description: "How to apply for a Tenant's Direct Request application.",
+};
+
+export { content, metadata };

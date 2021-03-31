@@ -368,4 +368,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Online Dispute Resolution Applications",
+  description:
+    "Apply for a dispute resolution online through the Residential Tenancy Branch.",
+};
+
+export { content, metadata };

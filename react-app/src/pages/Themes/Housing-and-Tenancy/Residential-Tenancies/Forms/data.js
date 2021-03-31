@@ -1856,4 +1856,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Tenancy Forms",
+  description: "Residential Tenancy Branch forms for landlords and tenants.",
+};
+
+export { content, metadata };

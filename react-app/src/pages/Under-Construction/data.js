@@ -16,4 +16,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Under Construction",
+  description: "This page isn't finished yet.",
+};
+
+export { content, metadata };

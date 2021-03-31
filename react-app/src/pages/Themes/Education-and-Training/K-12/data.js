@@ -90,4 +90,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Kindergarten to Grade 12",
+  description:
+    "Information about Kindergarten to Grade 12 programs and services in B.C.",
+};
+
+export { content, metadata };

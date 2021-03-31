@@ -477,4 +477,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Eligibility",
+  description:
+    "Find out if you are eligible to order a student transcript or certificate",
+};
+
+export { content, metadata };

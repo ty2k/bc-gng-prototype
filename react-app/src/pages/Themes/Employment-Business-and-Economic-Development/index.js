@@ -1,15 +1,10 @@
 import React from "react";
 
-import Navigation from "../../../components/Navigation";
-import { sections } from "./data";
+import Content from "../../../components/Content";
+import { content, metadata } from "./data";
 
 function EmploymentBusinessAndEconomicDevelopment() {
-  return (
-    <Navigation
-      search={{ label: "Employment, Business & Economic Development" }}
-      sections={sections}
-    />
-  );
+  return <Content content={content} metadata={metadata} />;
 }
 
 export default EmploymentBusinessAndEconomicDevelopment;

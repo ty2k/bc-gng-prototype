@@ -403,4 +403,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Hiring Employees",
+  description:
+    "Employers can decide how they would like to advertise a job and hire employees. Employers must be fair in their selection process.",
+};
+
+export { content, metadata };

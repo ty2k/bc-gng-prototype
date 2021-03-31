@@ -248,4 +248,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Education and Training",
+  description: "Theme page for Education and Training",
+};
+
+export { content, metadata };

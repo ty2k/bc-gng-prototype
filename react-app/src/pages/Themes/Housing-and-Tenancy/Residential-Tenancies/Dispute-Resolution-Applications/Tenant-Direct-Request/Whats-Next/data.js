@@ -448,4 +448,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "What's Next",
+  description:
+    "What to expect after submitting a Tenant's Direct Request application.",
+};
+
+export { content, metadata };

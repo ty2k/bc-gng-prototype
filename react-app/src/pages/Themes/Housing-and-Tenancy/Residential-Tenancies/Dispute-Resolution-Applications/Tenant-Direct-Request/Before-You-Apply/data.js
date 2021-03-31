@@ -449,4 +449,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Before You Apply",
+  description:
+    "Information to know before you apply for a Tenant's Direct Request application.",
+};
+
+export { content, metadata };

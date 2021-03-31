@@ -90,4 +90,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Hiring Temporary Foreign Workers",
+  description:
+    "If you want to hire or recruit a foreign worker in B.C., you must register or be licensed with the provincial government.",
+};
+
+export { content, metadata };

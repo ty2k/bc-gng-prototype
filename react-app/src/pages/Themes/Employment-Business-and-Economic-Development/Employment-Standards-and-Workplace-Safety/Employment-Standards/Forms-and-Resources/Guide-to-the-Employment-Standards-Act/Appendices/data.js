@@ -133,4 +133,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Appendices",
+  description: "Appendices to the Employment Standards Act and Regulations",
+};
+
+export { content, metadata };

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
@@ -167,6 +168,15 @@ function ServicesContent() {
 
   return (
     <ServicesContentStyled>
+      {/* Meta information */}
+      <Helmet>
+        <title>Services</title>
+        <meta
+          name="description"
+          content="B.C. Government search facility for services for its citizens."
+        />
+      </Helmet>
+
       {/* Search bar */}
       <div className="div--search">
         <h2>Find a program or service</h2>

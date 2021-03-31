@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import { textService } from "../_services/text.service";
@@ -45,13 +46,23 @@ const StyledContent = styled.div`
   }
 `;
 
-function Content({ content }) {
+function Content({ content, metadata }) {
   return (
-    <StyledContent>
-      {content.map((object, index) => {
-        return textService.buildHtmlElement(object, index);
-      })}
-    </StyledContent>
+    <>
+      {metadata && (
+        <Helmet>
+          {metadata?.title && <title>{metadata.title}</title>}
+          {metadata?.description && (
+            <meta name={"description"} content={metadata.description} />
+          )}
+        </Helmet>
+      )}
+      <StyledContent>
+        {content.map((object, index) => {
+          return textService.buildHtmlElement(object, index);
+        })}
+      </StyledContent>
+    </>
   );
 }
 

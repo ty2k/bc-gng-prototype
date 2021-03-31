@@ -421,4 +421,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Costs",
+  description:
+    "Costs involved with ordering your student transcript or certificate",
+};
+
+export { content, metadata };

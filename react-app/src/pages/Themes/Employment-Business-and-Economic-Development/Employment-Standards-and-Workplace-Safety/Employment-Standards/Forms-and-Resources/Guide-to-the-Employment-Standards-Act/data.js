@@ -290,4 +290,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Guide to the Employment Standards Act",
+  description:
+    "Information to help workers and employers interpret the legislation found in the B.C. Employment Standards Act and Regulation.",
+};
+
+export { content, metadata };

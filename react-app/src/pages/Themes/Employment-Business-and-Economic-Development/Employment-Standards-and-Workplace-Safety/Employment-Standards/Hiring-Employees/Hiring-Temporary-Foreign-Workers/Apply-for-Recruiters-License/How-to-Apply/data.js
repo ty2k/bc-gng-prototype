@@ -325,4 +325,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "How to Apply",
+  description: "How to apply for a recruiter's license in British Columbia",
+};
+
+export { content, metadata };

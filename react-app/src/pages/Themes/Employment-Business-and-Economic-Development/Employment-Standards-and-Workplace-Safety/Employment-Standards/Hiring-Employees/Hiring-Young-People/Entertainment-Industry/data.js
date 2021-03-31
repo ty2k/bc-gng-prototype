@@ -649,4 +649,10 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Entertainment Industry",
+  description:
+    "Regulations for employing young people in the entertainment industry.",
+};
+
+export { content, metadata };

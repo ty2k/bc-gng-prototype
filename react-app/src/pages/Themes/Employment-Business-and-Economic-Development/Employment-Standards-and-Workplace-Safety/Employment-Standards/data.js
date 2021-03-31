@@ -557,4 +557,9 @@ const content = [
   },
 ];
 
-export { content };
+const metadata = {
+  title: "Employment Standards & Workplace Safety",
+  description: "Links to the various worker protection and safety agencies.",
+};
+
+export { content, metadata };

@@ -1,10 +1,10 @@
 import React from "react";
 
 import Content from "../../../../../components/Content";
-import { content } from "./data";
+import { content, metadata } from "./data";
 
-function KindergartenToGrade12() {
-  return <Content content={content} />;
+function Support() {
+  return <Content content={content} metadata={metadata} />;
 }
 
-export default KindergartenToGrade12;
+export default Support;
