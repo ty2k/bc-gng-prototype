@@ -50,14 +50,14 @@ const SearchButton = styled.button`
   width: 44px;
 
   svg {
-    color: #888888;
+    color: #313132;
     height: 24px;
     width: 24px;
   }
 `;
 
-function SearchBar({ parentCallback, placeHolder }) {
-  const [inputValue, setInputValue] = useState("");
+function SearchBar({ initialInput = "", parentCallback, placeHolder }) {
+  const [inputValue, setInputValue] = useState(initialInput || "");
 
   function onChangeHandler(event) {
     setInputValue(event.target.value);
