@@ -60,6 +60,15 @@ const SearchButton = styled.button`
   [disabled] {
     cursor: not-allowed;
   }
+
+  &:focus {
+    background-color: #f2f2f2;
+    outline: 4px solid #3b99fc;
+  }
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
 `;
 
 function SearchBar({
