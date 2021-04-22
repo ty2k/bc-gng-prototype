@@ -43,13 +43,16 @@ function Search() {
   // Callback provided to SearchBar to conduct a new search
   function submitNewQuery(event) {
     event.preventDefault();
-    history.push(`/search?q=${state.newQuery}`);
-    setState({
-      query: state?.newQuery,
-      isLoading: state?.newQuery ? true : false,
-      results: {},
-      newQuery: state?.newQuery,
-    });
+    // Don't do a new search with the same query
+    if (state?.query !== state?.newQuery) {
+      history.push(`/search?q=${state.newQuery}`);
+      setState({
+        query: state?.newQuery,
+        isLoading: state?.newQuery ? true : false,
+        results: {},
+        newQuery: state?.newQuery,
+      });
+    }
   }
 
   useEffect(() => {
