@@ -14,6 +14,11 @@ const StyledSearchResults = styled.main`
     font-weight: 400;
   }
 
+  p.results-found {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
   ul {
     li {
       margin: 10px 0;
@@ -102,9 +107,9 @@ function Search() {
         />
       </Helmet>
 
+      {/* Page title */}
       {state?.query?.length > 0 ? (
         <h1>
-          {/* Page title */}
           Search results for <strong>{`"${state.query}"`}</strong>
         </h1>
       ) : (
@@ -118,23 +123,36 @@ function Search() {
         parentCallback={updateNewQuery}
       />
 
-      {/* Show a load spinner until the API request is completed */}
+      {/* LoadSpinner until the API request is completed */}
       {state?.isLoading && <LoadSpinner />}
 
-      {/* Show a list of results if applicable */}
+      {/* Count of results found */}
       {!state?.isLoading &&
         state?.query?.length > 0 &&
-        state?.results &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.M && (
+          <p className="results-found">
+            Found{" "}
+            <strong>
+              {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
+            </strong>{" "}
+            results
+          </p>
+        )}
+
+      {/* List of results if applicable */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
         Object.keys(state?.results).length > 0 &&
         state?.results?.GSP?.RES &&
         state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
           return <p key={`result-${index}`}>{result.T}</p>;
         })}
 
-      {/* Show a message indicating no results if applicable */}
+      {/* Message indicating no results if applicable */}
       {!state?.isLoading &&
         state?.query?.length > 0 &&
-        state?.results &&
         Object.keys(state?.results).length > 0 &&
         !state?.results?.GSP?.hasOwnProperty("RES") && (
           <>
