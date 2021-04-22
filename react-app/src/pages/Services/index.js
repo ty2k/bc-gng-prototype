@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import { Service } from "../../components/Service";
 import { ServiceHighlight } from "../../components/ServiceHighlight";
+import LoadSpinner from "../../components/LoadSpinner";
 
 const ServicesContentStyled = styled.div`
   div.div--search {
@@ -149,6 +150,7 @@ const ServicesContentStyled = styled.div`
 function ServicesContent() {
   const [services, setServices] = useState({});
   const [inputValue, setInputValue] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchData() {
     const res = await fetch("/api/services");
@@ -156,6 +158,8 @@ function ServicesContent() {
       .json()
       .then((res) => setServices(res.services))
       .catch((err) => console.log(err));
+
+    setIsLoading(false);
   }
 
   useEffect(() => {
@@ -217,6 +221,7 @@ function ServicesContent() {
       </div>
 
       {/* Services list */}
+      {isLoading && <LoadSpinner />}
       {services &&
         services.length > 0 &&
         services
