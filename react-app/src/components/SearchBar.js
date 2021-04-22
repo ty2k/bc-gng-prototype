@@ -26,11 +26,11 @@ const SearchForm = styled.div`
     background: none;
     border: 0;
     display: inline-block;
+    flex-grow: 1;
     font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
     font-size: 18px;
     padding: 10px;
     vertical-align: middle;
-    width: 872px;
 
     :focus {
       outline: 4px solid #3b99fc;
@@ -42,6 +42,7 @@ const SearchButton = styled.button`
   background: none;
   border: none;
   box-sizing: border-box;
+  cursor: pointer;
   display: inline-block;
   height: 44px;
   min-width: 44px;
@@ -54,9 +55,19 @@ const SearchButton = styled.button`
     height: 24px;
     width: 24px;
   }
+
+  &:disabled,
+  [disabled] {
+    cursor: not-allowed;
+  }
 `;
 
-function SearchBar({ initialInput = "", parentCallback, placeHolder }) {
+function SearchBar({
+  initialInput = "",
+  onButtonClick,
+  parentCallback,
+  placeHolder,
+}) {
   const [inputValue, setInputValue] = useState(initialInput || "");
 
   function onChangeHandler(event) {
@@ -77,7 +88,8 @@ function SearchBar({ initialInput = "", parentCallback, placeHolder }) {
           placeholder={placeHolder}
         />
         <SearchButton
-          disabled={true} // For now, all search buttons are just decorative
+          disabled={onButtonClick ? false : true} // Disable if no onClick is provided
+          onClick={onButtonClick}
         >
           <SearchIcon />
         </SearchButton>
