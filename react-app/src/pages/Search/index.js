@@ -24,10 +24,10 @@ function useQuery() {
 
 function Search() {
   const [state, setState] = useState({
-    query: useQuery().get("q"), // Query parameter is in the form `?q=example`
+    query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
     isLoading: useQuery().get("q") ? true : false,
     results: {},
-    newQuery: useQuery().get("q"),
+    newQuery: useQuery().get("q") || "",
   });
 
   let history = useHistory();
