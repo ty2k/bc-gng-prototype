@@ -13,6 +13,12 @@ const StyledSearchResults = styled.main`
     font-size: 36px;
     font-weight: 400;
   }
+
+  ul {
+    li {
+      margin: 10px 0;
+    }
+  }
 `;
 
 // Use the URLSearchParams API to parse the the query string
@@ -98,6 +104,7 @@ function Search() {
 
       {state?.query?.length > 0 ? (
         <h1>
+          {/* Page title */}
           Search results for <strong>{`"${state.query}"`}</strong>
         </h1>
       ) : (
@@ -114,19 +121,38 @@ function Search() {
       {/* Show a load spinner until the API request is completed */}
       {state?.isLoading && <LoadSpinner />}
 
-      {/* Show a list of results or a message explaining there are no results */}
-      {state?.results &&
-      Object.keys(state?.results).length > 0 &&
-      state?.results?.GSP?.RES ? (
-        state?.results?.GSP?.RES[0]?.R?.map((result) => {
-          return <p>{result.T}</p>;
-        })
-      ) : (
-        <p>
-          Your search - <strong>{state.query}</strong> - did not match any
-          documents.
-        </p>
-      )}
+      {/* Show a list of results if applicable */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
+        state?.results &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
+          return <p key={`result-${index}`}>{result.T}</p>;
+        })}
+
+      {/* Show a message indicating no results if applicable */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
+        state?.results &&
+        Object.keys(state?.results).length > 0 &&
+        !state?.results?.GSP?.hasOwnProperty("RES") && (
+          <>
+            <p>
+              Your search - <strong>{state.query}</strong> - did not match any
+              documents.
+            </p>
+            <p>Suggestions:</p>
+            <ul>
+              <li>Make sure all words are spelled correctly.</li>
+              <li>
+                Try a different keyword like <strong>"MSP"</strong> or{" "}
+                <strong>"jobs"</strong>.
+              </li>
+              <li>Try more generic keywords.</li>
+            </ul>
+          </>
+        )}
     </StyledSearchResults>
   );
 }
