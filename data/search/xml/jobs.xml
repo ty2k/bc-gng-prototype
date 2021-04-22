@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.629000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="0" value="0"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="10" SN="1">
+      <M>35200</M>
+      <FI/>
+      <NB>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=10</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/industry/forestry/supporting-innovation/bio-economy/bioeconomy-jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/supporting-innovation/bio-economy/bioeconomy-jobs</UE>
+         <T>Bioeconomy and Jobs - Province of British Columbia</T>
+         <RK>67.45877412513761</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-10"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1615336241539"/>
+         <MT N="DCSext.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Forestry"/>
+         <MT N="DCTERMS.subject" V="Biomass"/>
+         <MT N="DCTERMS.subject" V="Technological innovation"/>
+         <MT N="DCTERMS.subject" V="Job creation"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="bioeconomy, bioproducts, jobs, employment, biomaterials, biochemicals"/>
+         <MT N="DCSext.current_page" V="Bioeconomy and Jobs"/>
+         <MT N="mes:date" V="1615336241000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Bioeconomy and Jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA59C0AA67DA452486989F5C088CF0C2"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2020-11-23"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/forestry/supporting-innovation/bio-economy/bioeconomy-jobs"/>
+         <MT N="DCTERMS.modified" V="2020-12-07"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="current_page" V="Bioeconomy and Jobs"/>
+         <MT N="DCSext.level3" V="Supporting Innovation"/>
+         <MT N="DCSext.level4" V="Bioeconomy"/>
+         <MT N="DCSext.level5" V="Bioeconomy and Jobs"/>
+         <MT N="DCSext.level1" V="Farming, natural resources and industry"/>
+         <MT N="DCSext.level2" V="Forestry"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="An evaluation of jobs created within each category of advanced forest bioproducts."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="0D9F7A7D9A6545239C7AC36BFBA40100"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107053.0"/>
+         <MT N="level5" V="Bioeconomy and Jobs"/>
+         <MT N="level4" V="Bioeconomy"/>
+         <MT N="current_page_id" V="7A12C52C987343E3A95D03E521F1525E"/>
+         <MT N="level1" V="Farming natural resources and industry"/>
+         <MT N="level3" V="Supporting Innovation"/>
+         <MT N="level2" V="Forestry"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="73E3AA37537B494F9C1FF9600BF2FD48"/>
+         <MT N="navigaton_title" V="Bioeconomy and Jobs"/>
+         <MT N="MBCTERMS.subjectCategory" V="Science and Technology"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="level5_id" V="7A12C52C987343E3A95D03E521F1525E"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Development
+Bioeconomy and &lt;b&gt;Jobs&lt;/b&gt;
+Biomass Technology
+Indigenous...Glossary
+Bioeconomy and &lt;b&gt;Jobs&lt;/b&gt;
+The bioproduct-&lt;b&gt;jobs&lt;/b&gt; pyramid shows all...direct and indirect &lt;b&gt;jobs&lt;/b&gt; supported through manufacturing...manufacturing of bioproducts. &lt;b&gt;Job&lt;/b&gt; creation correlates with...will be. These &lt;b&gt;job&lt;/b&gt; estimates are per...have slightly different &lt;b&gt;job&lt;/b&gt; estimates.  This approach provides &lt;b&gt;job&lt;/b&gt; estimates for a...approximately 0.4 &lt;b&gt;jobs&lt;/b&gt; when looking at</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="104.54k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness</UE>
+         <T>Ministry of Jobs, Economic Recovery and Innovation - Province of British Columbia</T>
+         <RK>65.53527343724016</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-27"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1611774334536"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs, Economic Recovery and Innovation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Ministries"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="DCTERMS.subject" V="Labour"/>
+         <MT N="DCTERMS.subject" V="Skills"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Ministry of Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.current_page" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="mes:date" V="1611774334000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Ministry of Jobs, Economic Recovery and Innovation - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-03-28"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness"/>
+         <MT N="DCTERMS.modified" V="2021-01-27"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs, Economic Recovery and Innovation"/>
+         <MT N="current_page" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The Ministry of Jobs, Economic Recovery and Innovation manages government services that help support and maintain the strong and diverse economy that British Columbians need for long-term prosperity. It supports the growth of BC’s tech sector, champions innovation across the economy, nurtures small businesses, supports economic development throughout the province, and promotes BC internationally as a preferred place to invest and do business."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="116022.0"/>
+         <MT N="Synonyms" V="Ministry of Jobs, Economic Development and Competitiveness"/>
+         <MT N="level5" V="Jobs Economic Recovery and Innovation"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="current_page_id" V="831A1A6B9E0449A1871F8FE1C5AD98D0"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="level5_id" V="831A1A6B9E0449A1871F8FE1C5AD98D0"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="Veterans"/>
+         <MT N="DCTERMS.audience" V="Parents and Guardians"/>
+         <MT N="DCTERMS.audience" V="Women"/>
+         <MT N="DCTERMS.audience" V="Men"/>
+         <MT N="DCTERMS.audience" V="Youth"/>
+         <MT N="DCTERMS.audience" V="Indigenous Peoples"/>
+         <MT N="DCTERMS.audience" V="Employers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Relations and Reconciliation
+&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...tribunals
+Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...The Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...care, create good &lt;b&gt;jobs&lt;/b&gt; and opportunities for...Kahlon
+Minister of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Minister, Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.3k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/featured-careers/living-working-northern-bc/jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/featured-careers/living-working-northern-bc/jobs</UE>
+         <T>Jobs in B.C.'s North - Province of British Columbia</T>
+         <RK>63.59802274442533</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-14"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1607975419681"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Employment opportunities"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="job opportunities, northern B.C."/>
+         <MT N="DCSext.current_page" V="Jobs in B.C.'s North"/>
+         <MT N="mes:date" V="1607975419000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Jobs in B.C.'s North - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="content_group_id" V="CE385D1D7A0F4C6F8CF90895950CF6A4"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="DCTERMS.created" V="2016-02-17"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/featured-careers/living-working-northern-bc/jobs"/>
+         <MT N="DCTERMS.modified" V="2020-12-14"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Job vacancies"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Jobs in B.C.'s North"/>
+         <MT N="DCSext.level3" V="Featured Careers"/>
+         <MT N="DCSext.level4" V="Living &amp; Working in Northern B.C."/>
+         <MT N="DCSext.level5" V="Jobs in B.C.'s North"/>
+         <MT N="DCSext.level1" V="Careers and MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information on the current job opportunities in northern B.C."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="FE00A3AE5AE846EC8DED6B4FCD945CB3"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111851.0"/>
+         <MT N="level5" V="Jobs in B.C.'s North"/>
+         <MT N="level4" V="Living &amp; Working in Northern B.C."/>
+         <MT N="current_page_id" V="2E478E3C14444F16AEBFCA7429D9D55F"/>
+         <MT N="level1" V="Careers and MyHR"/>
+         <MT N="level3" V="Featured Careers"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="content_group" V="CMF_gov_PSA_Analytics"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="DBC0EFFFE4BF46C4928ACDA69384236E"/>
+         <MT N="navigaton_title" V="Jobs in B.C.'s North"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="level5_id" V="2E478E3C14444F16AEBFCA7429D9D55F"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Careers and MyHR &lt;b&gt;Job&lt;/b&gt; Seekers Featured Careers...Northern B.C.
+&lt;b&gt;Jobs&lt;/b&gt; in B.C.'s...Sector Career Opportunities
+&lt;b&gt;Jobs&lt;/b&gt; in B.C.'s...and apply
+Current &lt;b&gt;Job&lt;/b&gt; Opportunities
+BC Public</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.23k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/ministry-contacts</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/ministry-contacts</UE>
+         <T>Ministry of Jobs, Economic Recovery and Innovation - Province of British Columbia</T>
+         <RK>63.29077263454412</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-07"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1607380526407"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs, Economic Recovery and Innovation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Tourism"/>
+         <MT N="DCTERMS.subject" V="Labour"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="contacts"/>
+         <MT N="DCSext.current_page" V="Ministry Contacts"/>
+         <MT N="mes:date" V="1607380526000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Ministry of Jobs, Economic Recovery and Innovation - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-03-28"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/ministry-contacts"/>
+         <MT N="DCTERMS.modified" V="2020-12-07"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs, Economic Recovery and Innovation"/>
+         <MT N="current_page" V="Ministry Contacts"/>
+         <MT N="level6_id" V="1A31C8C161724FA4AA28044C329666B5"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.level6" V="Ministry Contacts"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Ministry of Jobs, Trade and Technology"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="110537.0"/>
+         <MT N="level5" V="Jobs Economic Recovery and Innovation"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level6" V="Ministry Contacts"/>
+         <MT N="current_page_id" V="1A31C8C161724FA4AA28044C329666B5"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Ministry Contacts"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="level5_id" V="831A1A6B9E0449A1871F8FE1C5AD98D0"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="Women"/>
+         <MT N="DCTERMS.audience" V="Men"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS.audience" V="Seniors"/>
+         <MT N="DCTERMS.audience" V="Indigenous Peoples"/>
+         <MT N="DCTERMS.audience" V="Employers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and organizations Ministries &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Relations and Reconciliation
+&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...tribunals
+Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Kahlon
+Minister of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="107.95k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/annual-report</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/annual-report</UE>
+         <T>Ministry of Jobs, Economic Recovery and Innovation Annual Report - Province of British Columbia</T>
+         <RK>63.28977263418649</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-07"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1607379625160"/>
+         <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Strategic management"/>
+         <MT N="DCTERMS.subject" V="Guidelines"/>
+         <MT N="DCTERMS.subject" V="Benchmarks"/>
+         <MT N="DCTERMS.subject" V="Budgets"/>
+         <MT N="DCTERMS.subject" V="Performance indicators"/>
+         <MT N="DCTERMS.subject" V="Strategies"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Annual Reports, Performance Measures, Processes, Milestones, Deliverable, Budget"/>
+         <MT N="DCSext.current_page" V="Annual Report"/>
+         <MT N="mes:date" V="1607379625000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Ministry of Jobs, Economic Recovery and Innovation Annual Report - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-10-30"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/annual-report"/>
+         <MT N="DCTERMS.modified" V="2020-12-07"/>
+         <MT N="DCTERMS.creator" V="Government Communications and Public Engagement"/>
+         <MT N="current_page" V="Annual Report"/>
+         <MT N="level6_id" V="66A0A2600DBD4E74B36829341D0D1953"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.level6" V="Annual Report"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Each ministry is required by the Budget Transparency and Accountability Act (BTAA) to issue an annual report."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="110089.0"/>
+         <MT N="level5" V="Jobs Economic Recovery and Innovation"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level6" V="Annual Report"/>
+         <MT N="current_page_id" V="66A0A2600DBD4E74B36829341D0D1953"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="CMF_ContentType" V="Reports"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Annual Report"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="level5_id" V="831A1A6B9E0449A1871F8FE1C5AD98D0"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and organizations Ministries &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Relations and Reconciliation
+&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...tribunals
+Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="107.51k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/service-plan</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/service-plan</UE>
+         <T>Ministry of Jobs, Economic Recovery and Innovation Service Plan - Province of British Columbia</T>
+         <RK>63.28977263418649</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-07"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1607379627306"/>
+         <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Guidelines"/>
+         <MT N="DCTERMS.subject" V="Benchmarks"/>
+         <MT N="DCTERMS.subject" V="Budgets"/>
+         <MT N="DCTERMS.subject" V="Budget planning"/>
+         <MT N="DCTERMS.subject" V="Performance indicators"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service Plan, Performance Measures, Auditing, Processes, Assessment, Benchmarks"/>
+         <MT N="DCSext.current_page" V="Service Plan"/>
+         <MT N="mes:date" V="1607379627000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Ministry of Jobs, Economic Recovery and Innovation Service Plan - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-10-30"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/jobs-economic-development-and-competitiveness/service-plan"/>
+         <MT N="DCTERMS.modified" V="2020-12-07"/>
+         <MT N="DCTERMS.creator" V="Government Communications and Public Engagement"/>
+         <MT N="current_page" V="Service Plan"/>
+         <MT N="level6_id" V="0B54519D0D0C4ACF905E06936D5FFDE1"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Jobs, Economic Recovery and Innovation"/>
+         <MT N="DCSext.level6" V="Service Plan"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Each ministry is required by the Budget Transparency and Accountability Act (BTAA) to create and publish a service plan annually."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="109781.0"/>
+         <MT N="level5" V="Jobs Economic Recovery and Innovation"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level6" V="Service Plan"/>
+         <MT N="current_page_id" V="0B54519D0D0C4ACF905E06936D5FFDE1"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="CMF_ContentType" V="Reports"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service Plan"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="level5_id" V="831A1A6B9E0449A1871F8FE1C5AD98D0"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and organizations Ministries &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Relations and Reconciliation
+&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...tribunals
+Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="107.21k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/exploration-in-bc/bc-mining-jobs-task-force</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/exploration-in-bc/bc-mining-jobs-task-force</UE>
+         <T>B.C. Mining Jobs Task Force - Province of British Columbia</T>
+         <RK>63.08677256158801</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-02"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1606873591727"/>
+         <MT N="DCSext.creator" V="Ministry of Energy, Mines and Low Carbon Innovation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Mining industry"/>
+         <MT N="DCTERMS.subject" V="Job creation"/>
+         <MT N="DCTERMS.subject" V="Environmental economics"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="Mining jobs task force, mining industry, mineral exploration, mining investment"/>
+         <MT N="DCSext.current_page" V="B.C. Mining Jobs Task Force"/>
+         <MT N="mes:date" V="1606873591000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="B.C. Mining Jobs Task Force - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA22BBB6335F43EE92ECE1FC84F9DA35"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2018-02-23"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/exploration-in-bc/bc-mining-jobs-task-force"/>
+         <MT N="DCTERMS.modified" V="2019-02-07"/>
+         <MT N="DCTERMS.creator" V="Ministry of Energy, Mines and Low Carbon Innovation"/>
+         <MT N="current_page" V="B.C. Mining Jobs Task Force"/>
+         <MT N="DCSext.level3" V="Mineral &amp; Coal Exploration"/>
+         <MT N="DCSext.level4" V="B.C. Mining Jobs Task Force"/>
+         <MT N="DCSext.level1" V="Farming, natural resources and industry"/>
+         <MT N="DCSext.level2" V="Mineral Exploration &amp; Mining"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information on the B.C. Mining Jobs Task Force"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="2FA7C7387A944D0B89ED6C466ACE43D1"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="103511.0"/>
+         <MT N="level4" V="B.C. Mining Jobs Task Force"/>
+         <MT N="current_page_id" V="EBA85CE86746434F8AE7CDD5E6AD2A5C"/>
+         <MT N="level1" V="Farming natural resources and industry"/>
+         <MT N="level3" V="Mineral &amp; Coal Exploration"/>
+         <MT N="level2" V="Mineral Exploration &amp; Mining"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="EBA85CE86746434F8AE7CDD5E6AD2A5C"/>
+         <MT N="navigaton_title" V="B.C. Mining Jobs Task Force"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Indigenous Peoples"/>
+         <MT N="DCTERMS.audience" V="Local Government"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>B.C. Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force
+B.C. Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force
+Minister...B.C. Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force on...B.C. provide &lt;b&gt;jobs&lt;/b&gt; for more than...and create good &lt;b&gt;jobs&lt;/b&gt; for people today...Read the Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force - Final...Reference
+The Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force terms...B.C. Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force Terms</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="101.08k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/lng/lng-projects/lng-canada-39828</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/lng/lng-projects/lng-canada-39828</UE>
+         <T>LNG Canada - Jobs and Skills Training - Province of British Columbia</T>
+         <RK>63.02877254084558</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-02"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1606873317010"/>
+         <MT N="DCSext.creator" V="Ministry of Energy, Mines and Low Carbon Innovation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Job creation"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="DCTERMS.subject" V="Skills"/>
+         <MT N="DCTERMS.subject" V="Fuels"/>
+         <MT N="DCTERMS.subject" V="Natural gas"/>
+         <MT N="DCTERMS.subject" V="Liquefied natural gas"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="Liquefied Natural Gas, LNG, Projects, LNG projects, LNG Canada, Jobs, Skills Training"/>
+         <MT N="DCSext.current_page" V="LNG Canada - Jobs and Skills Training"/>
+         <MT N="mes:date" V="1606873317000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="LNG Canada - Jobs and Skills Training - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="6A5F45A4B8B74D86BDA54AF4DD90F3E8"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2019-06-17"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/lng/lng-projects/lng-canada-39828"/>
+         <MT N="DCTERMS.modified" V="2019-08-29"/>
+         <MT N="DCTERMS.creator" V="Ministry of Energy, Mines and Low Carbon Innovation"/>
+         <MT N="current_page" V="LNG Canada - Jobs and Skills Training"/>
+         <MT N="DCSext.level3" V="Liquefied Natural Gas"/>
+         <MT N="DCSext.level4" V="LNG Projects"/>
+         <MT N="DCSext.level5" V="LNG Canada - Jobs and Skills Training"/>
+         <MT N="DCSext.level1" V="Farming, natural resources and industry"/>
+         <MT N="DCSext.level2" V="Natural Gas &amp; Oil"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information about jobs and skills training as it relates to LNG Canada"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="BC0C37E671F444CB9FD3F69DA139625B"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="108143.0"/>
+         <MT N="level5" V="LNG Canada - Jobs and Skills Training"/>
+         <MT N="level4" V="LNG Projects"/>
+         <MT N="current_page_id" V="AB159E28200144D7BAE250BFE4605F13"/>
+         <MT N="level1" V="Farming natural resources and industry"/>
+         <MT N="level3" V="Liquefied Natural Gas"/>
+         <MT N="level2" V="Natural Gas &amp; Oil"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="E31C23C74C3B49EDB847A266E5F26D32"/>
+         <MT N="navigaton_title" V="LNG Canada - Jobs and Skills Training"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="level5_id" V="AB159E28200144D7BAE250BFE4605F13"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Canada
+LNG Canada - &lt;b&gt;Jobs&lt;/b&gt; and Skills Training...LNG
+LNG Canada - &lt;b&gt;Jobs&lt;/b&gt; and Skills Training...Most of these &lt;b&gt;job&lt;/b&gt; opportunities are created...Canada, to offer &lt;b&gt;jobs&lt;/b&gt; and training for...ultimately find a &lt;b&gt;job&lt;/b&gt;.
+There are WorkBC...and find a &lt;b&gt;job&lt;/b&gt;. Career Compass –...Find details on &lt;b&gt;jobs&lt;/b&gt;, including salary, duties...the skilled trades.
+&lt;b&gt;Job&lt;/b&gt; Search
+WorkBC &lt;b&gt;Job&lt;/b&gt; Search – Access thousands of &lt;b&gt;job&lt;/b&gt; postings throughout the</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="105.61k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/creston-valley-mobile-press</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/creston-valley-mobile-press</UE>
+         <T>Regional Partnership Creates Value-Added Food Products and Local Jobs - Province of British Columbia</T>
+         <RK>62.31402228523098</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-06-24"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1593013007796"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Local governments"/>
+         <MT N="DCTERMS.subject" V="Rural communities"/>
+         <MT N="DCTERMS.subject" V="Community development"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Forestry"/>
+         <MT N="DCTERMS.subject" V="Best practices"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="Economic Development Success Story, Wildwood Ecoforest, Ecoforestry Institute Society, sustainability, old growth ecosystem"/>
+         <MT N="DCSext.current_page" V="Mobile Produce Press"/>
+         <MT N="mes:date" V="1593013007000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Regional Partnership Creates Value-Added Food Products and Local Jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-12-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/creston-valley-mobile-press"/>
+         <MT N="DCTERMS.modified" V="2020-06-01"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Mobile Produce Press"/>
+         <MT N="level6_id" V="CB3451659ECE4C4B9219D34E8099A8D4"/>
+         <MT N="DCSext.level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="DCSext.level4" V="Success Stories"/>
+         <MT N="DCSext.level5" V="Community Economic Development Initiatives"/>
+         <MT N="DCSext.level6" V="Mobile Produce Press"/>
+         <MT N="DCSext.level1" V="Employment, Business &amp; Economic Development"/>
+         <MT N="DCSext.level2" V="Economic Development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Wildwood Ecoforest Success Story"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8BB4103983EB4C7B8A21C2AD2AECB801"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="114884.0"/>
+         <MT N="level5" V="Community Economic Development Initiatives"/>
+         <MT N="level4" V="Success Stories"/>
+         <MT N="level6" V="Mobile Produce Press"/>
+         <MT N="current_page_id" V="CB3451659ECE4C4B9219D34E8099A8D4"/>
+         <MT N="level1" V="Employment Business &amp; Economic Development"/>
+         <MT N="level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="level2" V="Economic Development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8EB2DD2AAE774FCB9D4D715A339904A0"/>
+         <MT N="navigaton_title" V="Mobile Produce Press"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="level5_id" V="3EC2111B72784BCD9EAE419183FEE199"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Products and Local &lt;b&gt;Jobs&lt;/b&gt;
+Creston Valley
+How...of equipment create &lt;b&gt;jobs&lt;/b&gt;, generate economic opportunities...creating meaningful, local &lt;b&gt;jobs&lt;/b&gt; and fulfilling the</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.19k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/community-forest-license</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/community-forest-license</UE>
+         <T>Creating Jobs and New Revenue Streams with a Community Forest License - Province of British Columbia</T>
+         <RK>62.31402228523098</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-06-24"/>
+         <MT N="query_id" V="60150707014856"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1593013009903"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Community development"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Rural communities"/>
+         <MT N="DCTERMS.subject" V="Best practices"/>
+         <MT N="DCTERMS.subject" V="Local governments"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="Economic Development Success Story, Rebuilding Community Health, Village of Burns Lake,  Lakeside Multiplex, major employer, Babine Forest Products explosion, Northern Development Initiative Trust assisted with a grant, rural community"/>
+         <MT N="DCSext.current_page" V="Community Forest License"/>
+         <MT N="mes:date" V="1593013009000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Creating Jobs and New Revenue Streams with a Community Forest License - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-12-06"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/community-economic-development-initiatives/community-forest-license"/>
+         <MT N="DCTERMS.modified" V="2020-06-01"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Community Forest License"/>
+         <MT N="level6_id" V="0E2D73E2E88E47E2B0F60AD3194E9E67"/>
+         <MT N="DCSext.level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="DCSext.level4" V="Success Stories"/>
+         <MT N="DCSext.level5" V="Community Economic Development Initiatives"/>
+         <MT N="DCSext.level6" V="Community Forest License"/>
+         <MT N="DCSext.level1" V="Employment, Business &amp; Economic Development"/>
+         <MT N="DCSext.level2" V="Economic Development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Community Profile Success Story"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8BB4103983EB4C7B8A21C2AD2AECB801"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="109074.0"/>
+         <MT N="level5" V="Community Economic Development Initiatives"/>
+         <MT N="level4" V="Success Stories"/>
+         <MT N="level6" V="Community Forest License"/>
+         <MT N="current_page_id" V="0E2D73E2E88E47E2B0F60AD3194E9E67"/>
+         <MT N="level1" V="Employment Business &amp; Economic Development"/>
+         <MT N="level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="level2" V="Economic Development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8EB2DD2AAE774FCB9D4D715A339904A0"/>
+         <MT N="navigaton_title" V="Community Forest License"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="level5_id" V="3EC2111B72784BCD9EAE419183FEE199"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Webinar Series
+Creating &lt;b&gt;Jobs&lt;/b&gt; and New Revenue Streams...Milling and Carpentry &lt;b&gt;Job&lt;/b&gt; Creation Project, creating</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.52k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Theme" IR="0" NM="level1" T="0"><PV C="434" H="" L="" V="Careers &amp; MyHR"/><PV C="414" H="" L="" V="Data"/><PV C="371" H="" L="" V="Employment Business &amp; Economic Development"/><PV C="265" H="" L="" V="Employment business and economic development"/><PV C="262" H="" L="" V="British Columbians and our governments"/><PV C="140" H="" L="" V="British Columbians &amp; Our Governments"/><PV C="96" H="" L="" V="Careers and MyHR"/><PV C="95" H="" L="" V="Farming natural resources and industry"/><PV C="55" H="" L="" V="Law Crime &amp; Justice"/><PV C="41" H="" L="" V="Birth Adoption Death Marriage &amp; Divorce"/><PV C="31" H="" L="" V="Health"/><PV C="27" H="" L="" V="Education &amp; Training"/><PV C="26" H="" L="" V="Education and training"/><PV C="25" H="" L="" V="Environmental protection and sustainability"/><PV C="22" H="" L="" V="Family and social supports"/><PV C="19" H="" L="" V="Law crime and justice"/><PV C="16" H="" L="" V="Farming Natural Resources &amp; Industry"/><PV C="14" H="" L="" V="Taxes and tax credits"/><PV C="13" H="" L="" V="Family &amp; Social Supports"/><PV C="13" H="" L="" V="Driving &amp; Transportation"/><PV C="12" H="" L="" V="Birth adoption death marriage and divorce"/><PV C="11" H="" L="" V="Tourism &amp; Immigration"/><PV C="10" H="" L="" V="Public safety and emergency services"/><PV C="8" H="" L="" V="Driving and transportation"/><PV C="7" H="" L="" V="Sports Recreation Arts &amp; Culture"/><PV C="7" H="" L="" V="Public Safety &amp; Emergency Services"/><PV C="7" H="" L="" V="Economic recovery"/><PV C="7" H="" L="" V="COVID-19"/><PV C="6" H="" L="" V="Housing and tenancy"/><PV C="5" H="" L="" V="Tourism and immigration"/><PV C="3" H="" L="" V="Sports recreation arts and culture"/><PV C="3" H="" L="" V="Home"/><PV C="3" H="" L="" V="Gender Equity in B.C."/><PV C="3" H="" L="" V="Export Catalogue"/><PV C="1" H="" L="" V="Taxes &amp; Tax Credits"/><PV C="1" H="" L="" V="Revenue Services Transition Project"/><PV C="1" H="" L="" V="Minimum Wage Home"/><PV C="1" H="" L="" V="Kicking Horse Canyon Project"/><PV C="1" H="" L="" V="erase"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

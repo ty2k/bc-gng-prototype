@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GSP VER="3.2">
+   <TM>0</TM>
+   <Q></Q>
+   <PARAM name="site" value="default_collection"/>
+   <PARAM name="client" value="default_frontend"/>
+   <PARAM name="q" value=""/>
+   <PARAM name="partialfields" value=""/>
+   <PARAM name="requiredfields" value=""/>
+</GSP>
