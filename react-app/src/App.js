@@ -7,6 +7,7 @@ import "./App.scss";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
+import Search from "./pages/Search";
 import Services from "./pages/Services";
 import Themes from "./pages/Themes";
 import News from "./pages/News";
@@ -78,6 +79,12 @@ function App() {
         title={""}
         breadcrumbs={[]}
         content={<Home />}
+      />
+      <PrivateRoute
+        path={"/search"}
+        title={""}
+        breadcrumbs={[]}
+        content={<Search />}
       />
       <PrivateRoute
         path={"/services"}
