@@ -9,6 +9,8 @@ import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
 const StyledSearchResults = styled.main`
+  max-width: 767px;
+
   h1 {
     font-size: 36px;
     font-weight: 400;
