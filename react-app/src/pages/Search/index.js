@@ -21,6 +21,41 @@ const StyledSearchResults = styled.main`
     margin-top: 24px;
   }
 
+  div.result {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 50px 0;
+
+    div.text {
+      display: inline-block;
+      padding: 0 32px 0 0;
+      width: 80%;
+
+      a.title {
+        color: #003366;
+        cursor: pointer;
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+
+        &:hover {
+          color: #1a5a96;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    div.image {
+      background-color: #f2f2f2;
+      content: "";
+      display: inline-block;
+      height: 150px;
+      width: 20%;
+    }
+  }
+
   ul {
     li {
       margin: 10px 0;
@@ -149,7 +184,36 @@ function Search() {
         Object.keys(state?.results).length > 0 &&
         state?.results?.GSP?.RES &&
         state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
-          return <p key={`result-${index}`}>{result.T}</p>;
+          return (
+            <div className="result" key={`result-${index}`}>
+              <div className="text">
+                {/* Title (without trailing "- Province of BC") */}
+                <a className="title" href={result?.UE}>
+                  {result?.MT?.length > 0 &&
+                    result?.MT?.map((metaTag) => {
+                      // Note misspelling of "navigation" to match API data
+                      if (metaTag?.$?.N === "navigaton_title") {
+                        return metaTag?.$?.V;
+                      }
+                    })}
+                </a>
+
+                {/* Description */}
+                <p className="description">
+                  {result?.MT?.length > 0 &&
+                    result?.MT?.map((metaTag) => {
+                      // Note misspelling of "navigation" to match API data
+                      if (metaTag?.$?.N === "description") {
+                        return metaTag?.$?.V;
+                      }
+                    })}
+                </p>
+              </div>
+
+              {/* Preview image */}
+              <div className="image"></div>
+            </div>
+          );
         })}
 
       {/* Message indicating no results if applicable */}
