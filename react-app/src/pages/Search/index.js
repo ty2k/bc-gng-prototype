@@ -9,9 +9,57 @@ import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
 const StyledSearchResults = styled.main`
+  max-width: 767px;
+
   h1 {
     font-size: 36px;
     font-weight: 400;
+  }
+
+  p.results-found {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  div.result {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 50px 0;
+
+    div.text {
+      display: inline-block;
+      padding: 0 32px 0 0;
+      width: 80%;
+
+      a.title {
+        color: #003366;
+        cursor: pointer;
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration: none;
+
+        &:hover {
+          color: #1a5a96;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    div.image {
+      background-color: #f2f2f2;
+      content: "";
+      display: inline-block;
+      height: 150px;
+      width: 20%;
+    }
+  }
+
+  ul {
+    li {
+      margin: 10px 0;
+    }
   }
 `;
 
@@ -24,10 +72,10 @@ function useQuery() {
 
 function Search() {
   const [state, setState] = useState({
-    query: useQuery().get("q"), // Query parameter is in the form `?q=example`
+    query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
     isLoading: useQuery().get("q") ? true : false,
     results: {},
-    newQuery: useQuery().get("q"),
+    newQuery: useQuery().get("q") || "",
   });
 
   let history = useHistory();
@@ -43,13 +91,16 @@ function Search() {
   // Callback provided to SearchBar to conduct a new search
   function submitNewQuery(event) {
     event.preventDefault();
-    history.push(`/search?q=${state.newQuery}`);
-    setState({
-      query: state?.newQuery,
-      isLoading: state?.newQuery ? true : false,
-      results: {},
-      newQuery: state?.newQuery,
-    });
+    // Don't do a new search with the same query
+    if (state?.query !== state?.newQuery) {
+      history.push(`/search?q=${state.newQuery}`);
+      setState({
+        query: state?.newQuery,
+        isLoading: state?.newQuery ? true : false,
+        results: {},
+        newQuery: state?.newQuery,
+      });
+    }
   }
 
   useEffect(() => {
@@ -93,6 +144,7 @@ function Search() {
         />
       </Helmet>
 
+      {/* Page title */}
       {state?.query?.length > 0 ? (
         <h1>
           Search results for <strong>{`"${state.query}"`}</strong>
@@ -108,22 +160,83 @@ function Search() {
         parentCallback={updateNewQuery}
       />
 
-      {/* Show a load spinner until the API request is completed */}
+      {/* LoadSpinner until the API request is completed */}
       {state?.isLoading && <LoadSpinner />}
 
-      {/* Show a list of results or a message explaining there are no results */}
-      {state?.results &&
-      Object.keys(state?.results).length > 0 &&
-      state?.results?.GSP?.RES ? (
-        state?.results?.GSP?.RES[0]?.R?.map((result) => {
-          return <p>{result.T}</p>;
-        })
-      ) : (
-        <p>
-          Your search - <strong>{state.query}</strong> - did not match any
-          documents.
-        </p>
-      )}
+      {/* Count of results found */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.M && (
+          <p className="results-found">
+            Found{" "}
+            <strong>
+              {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
+            </strong>{" "}
+            results
+          </p>
+        )}
+
+      {/* List of results if applicable */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
+          return (
+            <div className="result" key={`result-${index}`}>
+              <div className="text">
+                {/* Title (without trailing "- Province of BC") */}
+                <a className="title" href={result?.UE}>
+                  {result?.MT?.length > 0 &&
+                    result?.MT?.map((metaTag) => {
+                      // Note misspelling of "navigation" to match API data
+                      if (metaTag?.$?.N === "navigaton_title") {
+                        return metaTag?.$?.V;
+                      }
+                    })}
+                </a>
+
+                {/* Description */}
+                <p className="description">
+                  {result?.MT?.length > 0 &&
+                    result?.MT?.map((metaTag) => {
+                      // Note misspelling of "navigation" to match API data
+                      if (metaTag?.$?.N === "description") {
+                        return metaTag?.$?.V;
+                      }
+                    })}
+                </p>
+              </div>
+
+              {/* Preview image */}
+              <div className="image"></div>
+            </div>
+          );
+        })}
+
+      {/* Message indicating no results if applicable */}
+      {!state?.isLoading &&
+        state?.query?.length > 0 &&
+        Object.keys(state?.results).length > 0 &&
+        !state?.results?.GSP?.hasOwnProperty("RES") && (
+          <>
+            <p>
+              Your search - <strong>{state.query}</strong> - did not match any
+              documents.
+            </p>
+            <p>Suggestions:</p>
+            <ul>
+              <li>Make sure all words are spelled correctly.</li>
+              <li>
+                Try a different keyword like <strong>"MSP"</strong> or{" "}
+                <strong>"jobs"</strong>.
+              </li>
+              <li>Try more generic keywords.</li>
+            </ul>
+          </>
+        )}
     </StyledSearchResults>
   );
 }
