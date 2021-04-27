@@ -21,6 +21,48 @@ const StyledSearchResults = styled.main`
     margin-top: 24px;
   }
 
+  div.filter-menu {
+    border-bottom: 1px solid #d6d6d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 22px 0 30px 0;
+
+    button {
+      background: none;
+      border: none;
+      border-bottom: 5px solid transparent;
+      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+      font-size: 16px;
+      margin: 0 12px;
+      padding: 5px;
+
+      &.active {
+        border-bottom: 5px solid #fcba19;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      &:focus {
+        outline: 4px solid #3b99fc;
+        text-decoration: underline;
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
   div.result {
     display: flex;
     flex-direction: row;
@@ -176,6 +218,21 @@ function Search() {
             </strong>{" "}
             results
           </p>
+        )}
+
+      {/* Filter menu */}
+      {!state?.isLoading &&
+        state?.query.length > 0 &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.R?.length > 0 && (
+          <div className="filter-menu">
+            <button className="active">All</button>
+            <button>Services</button>
+            <button>News</button>
+            <button>Documents</button>
+            <button>More Filters</button>
+          </div>
         )}
 
       {/* List of results if applicable */}
