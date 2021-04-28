@@ -9,8 +9,10 @@ import Icon from "../../components/Icon";
 import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
-const StyledSearchResults = styled.main`
+const StyledSearchResults = styled.div`
   max-width: 767px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
 
   h1 {
     font-size: 36px;
@@ -108,9 +110,37 @@ const StyledSearchResults = styled.main`
     }
   }
 
-  ul {
-    li {
-      margin: 10px 0;
+  div.load-more {
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      background-color: #f2f2f2;
+      border: none;
+      color: #313132;
+      cursor: pointer;
+      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 10px 56px;
+
+      &:focus {
+        outline: 4px solid #3b99fc;
+        text-decoration: underline;
+      }
+
+      &:hover {
+        background-color: #dedede;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  div.no-results {
+    ul {
+      li {
+        margin: 10px 0;
+      }
     }
   }
 `;
@@ -348,12 +378,25 @@ function Search() {
           );
         })}
 
+      {/* Load more results button */}
+      {!state?.isLoading && state?.lastResultShown < state?.resultsCount && (
+        <div className="load-more">
+          <button
+            onClick={() => {
+              alert("Loading more results");
+            }}
+          >
+            Load more results
+          </button>
+        </div>
+      )}
+
       {/* Message indicating no results if applicable */}
       {!state?.isLoading &&
         state?.query?.length > 0 &&
         Object.keys(state?.results).length > 0 &&
         !state?.results?.GSP?.hasOwnProperty("RES") && (
-          <>
+          <div className="no-results">
             <p>
               Your search - <strong>{state.query}</strong> - did not match any
               documents.
@@ -367,7 +410,7 @@ function Search() {
               </li>
               <li>Try more generic keywords.</li>
             </ul>
-          </>
+          </div>
         )}
     </StyledSearchResults>
   );
