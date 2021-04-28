@@ -18,6 +18,8 @@ import { ReactComponent as commentDotsSolid } from "../components/assets/comment
 import { ReactComponent as dollarSignSolid } from "../components/assets/dollar-sign-solid.svg";
 import { ReactComponent as envelopeSolid } from "../components/assets/envelope-solid.svg";
 import { ReactComponent as externalLinkAltSolid } from "../components/assets/external-link-alt-solid.svg";
+import { ReactComponent as filePdfSolid } from "../components/assets/file-pdf-solid.svg";
+import { ReactComponent as fileWordSolid } from "../components/assets/file-word-solid.svg";
 import { ReactComponent as handHoldingHeartSolid } from "../components/assets/hand-holding-heart-solid.svg";
 import { ReactComponent as handsSolid } from "../components/assets/hands-solid.svg";
 import { ReactComponent as handsUp } from "../components/assets/hands-up.svg";
@@ -76,6 +78,8 @@ const svgIcons = {
   "dollar-sign-solid.svg": dollarSignSolid,
   "envelope-solid.svg": envelopeSolid,
   "external-link-alt-solid.svg": externalLinkAltSolid,
+  "file-pdf-solid.svg": filePdfSolid,
+  "file-word-solid.svg": fileWordSolid,
   "hand-holding-heart-solid.svg": handHoldingHeartSolid,
   "hands-solid.svg": handsSolid,
   "hands-up.svg": handsUp,
