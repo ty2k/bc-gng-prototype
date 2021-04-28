@@ -5,6 +5,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
+import Icon from "../../components/Icon";
 import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
@@ -21,6 +22,48 @@ const StyledSearchResults = styled.main`
     margin-top: 24px;
   }
 
+  div.filter-menu {
+    border-bottom: 1px solid #d6d6d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 22px 0 30px 0;
+
+    button {
+      background: none;
+      border: none;
+      border-bottom: 5px solid transparent;
+      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+      font-size: 16px;
+      margin: 0 12px;
+      padding: 5px;
+
+      &.active {
+        border-bottom: 5px solid #fcba19;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      &:focus {
+        outline: 4px solid #3b99fc;
+        text-decoration: underline;
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
   div.result {
     display: flex;
     flex-direction: row;
@@ -29,13 +72,22 @@ const StyledSearchResults = styled.main`
 
     div.text {
       display: inline-block;
+      overflow-x: hidden;
       padding: 0 32px 0 0;
       width: 80%;
+
+      svg {
+        color: #003366;
+        display: inline;
+        height: 18px;
+        margin-right: 8px;
+        width: 18px;
+      }
 
       a.title {
         color: #003366;
         cursor: pointer;
-        display: block;
+        display: inline;
         font-size: 24px;
         font-weight: 700;
         text-decoration: none;
@@ -101,6 +153,56 @@ function Search() {
         newQuery: state?.newQuery,
       });
     }
+  }
+
+  function getResultFileIcon(mimeType) {
+    if (mimeType === "application/pdf") {
+      return <Icon id={"file-pdf-solid.svg"} />;
+    } else if (
+      mimeType ===
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ) {
+      return <Icon id={"file-word-solid.svg"} />;
+    }
+    return null;
+  }
+
+  function getResultTitle(result) {
+    // Page (non-document) results should have a metatag for "navigaton_title"
+    // and no explicit MIME type set.
+    if (!result?.$?.MIME) {
+      return (
+        <a className="title" href={result?.UE}>
+          {result?.MT?.length > 0 &&
+            result?.MT?.map((metaTag) => {
+              // Note misspelling of "navigation" to match API data
+              if (metaTag?.$?.N === "navigaton_title") {
+                return metaTag?.$?.V;
+              }
+            })}
+        </a>
+      );
+    }
+
+    // Document results should have a title (without suffix) which we prefer,
+    // or a filename that can be used if the title is absent.
+    let title = "";
+    let fileName = "";
+
+    result?.MT?.forEach((metaTag) => {
+      if (metaTag?.$?.N === "title") {
+        title = metaTag?.$?.V;
+      }
+      if (metaTag?.$?.N === "DCTERMS.filename") {
+        fileName = metaTag?.$?.V;
+      }
+    });
+
+    return (
+      <a className="title" href={result?.UE}>
+        {title ? title : fileName}
+      </a>
+    );
   }
 
   useEffect(() => {
@@ -178,6 +280,21 @@ function Search() {
           </p>
         )}
 
+      {/* Filter menu */}
+      {!state?.isLoading &&
+        state?.query.length > 0 &&
+        Object.keys(state?.results).length > 0 &&
+        state?.results?.GSP?.RES &&
+        state?.results?.GSP?.RES[0]?.R?.length > 0 && (
+          <div className="filter-menu">
+            <button className="active">All</button>
+            <button>Services</button>
+            <button>News</button>
+            <button>Documents</button>
+            <button>More Filters</button>
+          </div>
+        )}
+
       {/* List of results if applicable */}
       {!state?.isLoading &&
         state?.query?.length > 0 &&
@@ -187,22 +304,16 @@ function Search() {
           return (
             <div className="result" key={`result-${index}`}>
               <div className="text">
-                {/* Title (without trailing "- Province of BC") */}
-                <a className="title" href={result?.UE}>
-                  {result?.MT?.length > 0 &&
-                    result?.MT?.map((metaTag) => {
-                      // Note misspelling of "navigation" to match API data
-                      if (metaTag?.$?.N === "navigaton_title") {
-                        return metaTag?.$?.V;
-                      }
-                    })}
-                </a>
+                {/* File type icon (if result is a document) */}
+                {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+
+                {/* Title (without trailing "- Province of BC" suffix) */}
+                {getResultTitle(result)}
 
                 {/* Description */}
                 <p className="description">
                   {result?.MT?.length > 0 &&
                     result?.MT?.map((metaTag) => {
-                      // Note misspelling of "navigation" to match API data
                       if (metaTag?.$?.N === "description") {
                         return metaTag?.$?.V;
                       }
