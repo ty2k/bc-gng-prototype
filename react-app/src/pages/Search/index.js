@@ -127,6 +127,9 @@ function Search() {
     query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
     isLoading: useQuery().get("q") ? true : false,
     results: {},
+    resultsCount: 0,
+    firstResultShown: 0,
+    lastResultShown: 0,
     newQuery: useQuery().get("q") || "",
   });
 
@@ -217,10 +220,36 @@ function Search() {
             isLoading: false,
           });
         } else {
+          // Update the resultsCount if the response includes a count
+          let count = state?.resultsCount;
+          if (
+            results?.GSP?.RES &&
+            results?.GSP?.RES.length > 0 &&
+            results?.GSP?.RES[0]?.M[0]
+          ) {
+            count = parseInt(results?.GSP?.RES[0]?.M[0], 10);
+          }
+
+          // Update the first and last result shown
+          let first = state?.firstResultShown;
+          let last = state?.lastResultShown;
+          if (
+            results?.GSP?.RES &&
+            results?.GSP?.RES?.length > 0 &&
+            results?.GSP?.RES[0].$?.SN &&
+            results?.GSP?.RES[0].$?.EN
+          ) {
+            first = 1; // Assumes we are adding results to a growing list
+            last = parseInt(results?.GSP?.RES[0].$?.EN, 10);
+          }
+
           setState({
             ...state,
             isLoading: false,
             results: results,
+            resultsCount: count,
+            firstResultShown: first,
+            lastResultShown: last,
           });
         }
       });
@@ -266,40 +295,32 @@ function Search() {
       {state?.isLoading && <LoadSpinner />}
 
       {/* Count of results found */}
-      {!state?.isLoading &&
-        state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
-        state?.results?.GSP?.RES[0]?.M && (
-          <p className="results-found">
-            Found{" "}
-            <strong>
-              {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
-            </strong>{" "}
-            results
-          </p>
-        )}
+      {!state?.isLoading && state?.resultsCount > 0 && (
+        <p className="results-found">
+          Showing {new Intl.NumberFormat().format(state?.firstResultShown)}-
+          {new Intl.NumberFormat().format(state?.lastResultShown)} of{" "}
+          <strong>
+            {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
+          </strong>{" "}
+          results
+        </p>
+      )}
 
       {/* Filter menu */}
-      {!state?.isLoading &&
-        state?.query.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
-        state?.results?.GSP?.RES[0]?.R?.length > 0 && (
-          <div className="filter-menu">
-            <button className="active">All</button>
-            <button>Services</button>
-            <button>News</button>
-            <button>Documents</button>
-            <button>More Filters</button>
-          </div>
-        )}
+      {!state?.isLoading && state?.resultsCount > 0 && (
+        <div className="filter-menu">
+          <button className="active">All</button>
+          <button>Services</button>
+          <button>News</button>
+          <button>Documents</button>
+          <button>More Filters</button>
+        </div>
+      )}
 
       {/* List of results if applicable */}
       {!state?.isLoading &&
-        state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
+        state?.resultsCount > 0 &&
+        state?.results?.GSP?.RES.length > 0 &&
         state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
           return (
             <div className="result" key={`result-${index}`}>
