@@ -72,6 +72,7 @@ const StyledSearchResults = styled.main`
 
     div.text {
       display: inline-block;
+      overflow-x: hidden;
       padding: 0 32px 0 0;
       width: 80%;
 
@@ -164,6 +165,44 @@ function Search() {
       return <Icon id={"file-word-solid.svg"} />;
     }
     return null;
+  }
+
+  function getResultTitle(result) {
+    // Page (non-document) results should have a metatag for "navigaton_title"
+    // and no explicit MIME type set.
+    if (!result?.$?.MIME) {
+      return (
+        <a className="title" href={result?.UE}>
+          {result?.MT?.length > 0 &&
+            result?.MT?.map((metaTag) => {
+              // Note misspelling of "navigation" to match API data
+              if (metaTag?.$?.N === "navigaton_title") {
+                return metaTag?.$?.V;
+              }
+            })}
+        </a>
+      );
+    }
+
+    // Document results should have a title (without suffix) which we prefer,
+    // or a filename that can be used if the title is absent.
+    let title = "";
+    let fileName = "";
+
+    result?.MT?.forEach((metaTag) => {
+      if (metaTag?.$?.N === "title") {
+        title = metaTag?.$?.V;
+      }
+      if (metaTag?.$?.N === "DCTERMS.filename") {
+        fileName = metaTag?.$?.V;
+      }
+    });
+
+    return (
+      <a className="title" href={result?.UE}>
+        {title ? title : fileName}
+      </a>
+    );
   }
 
   useEffect(() => {
@@ -265,23 +304,16 @@ function Search() {
           return (
             <div className="result" key={`result-${index}`}>
               <div className="text">
-                {/* Title (without trailing "- Province of BC") */}
+                {/* File type icon (if result is a document) */}
                 {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
-                <a className="title" href={result?.UE}>
-                  {result?.MT?.length > 0 &&
-                    result?.MT?.map((metaTag) => {
-                      // Note misspelling of "navigation" to match API data
-                      if (metaTag?.$?.N === "navigaton_title") {
-                        return metaTag?.$?.V;
-                      }
-                    })}
-                </a>
+
+                {/* Title (without trailing "- Province of BC" suffix) */}
+                {getResultTitle(result)}
 
                 {/* Description */}
                 <p className="description">
                   {result?.MT?.length > 0 &&
                     result?.MT?.map((metaTag) => {
-                      // Note misspelling of "navigation" to match API data
                       if (metaTag?.$?.N === "description") {
                         return metaTag?.$?.V;
                       }
