@@ -5,6 +5,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
+import Icon from "../../components/Icon";
 import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
@@ -74,10 +75,18 @@ const StyledSearchResults = styled.main`
       padding: 0 32px 0 0;
       width: 80%;
 
+      svg {
+        color: #003366;
+        display: inline;
+        height: 18px;
+        margin-right: 8px;
+        width: 18px;
+      }
+
       a.title {
         color: #003366;
         cursor: pointer;
-        display: block;
+        display: inline;
         font-size: 24px;
         font-weight: 700;
         text-decoration: none;
@@ -143,6 +152,18 @@ function Search() {
         newQuery: state?.newQuery,
       });
     }
+  }
+
+  function getResultFileIcon(mimeType) {
+    if (mimeType === "application/pdf") {
+      return <Icon id={"file-pdf-solid.svg"} />;
+    } else if (
+      mimeType ===
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ) {
+      return <Icon id={"file-word-solid.svg"} />;
+    }
+    return null;
   }
 
   useEffect(() => {
@@ -245,6 +266,7 @@ function Search() {
             <div className="result" key={`result-${index}`}>
               <div className="text">
                 {/* Title (without trailing "- Province of BC") */}
+                {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
                 <a className="title" href={result?.UE}>
                   {result?.MT?.length > 0 &&
                     result?.MT?.map((metaTag) => {
