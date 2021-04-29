@@ -289,6 +289,9 @@ function Search() {
               if (metaTag?.$?.N === "navigaton_title") {
                 return metaTag?.$?.V;
               }
+              // .map() expects an explicit return value and React will throw
+              // a warning if this is not present
+              return null;
             })}
         </a>
       );
@@ -458,6 +461,9 @@ function Search() {
                       if (metaTag?.$?.N === "description") {
                         return metaTag?.$?.V;
                       }
+                      // .map() expects an explicit return value and React will
+                      // throw a warning if this is not present
+                      return null;
                     })}
                 </p>
               </div>
