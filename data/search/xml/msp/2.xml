@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.976000</TM>
+   <Q>msp</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp" value="msp"/>
+   <RES EN="20" SN="11">
+      <M>597</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;num=10&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;num=10&amp;start=20</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp/physicians/reference-material/msp-tutor</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp/physicians/reference-material/msp-tutor</UE>
+         <T>MSP Tutor - Province of British Columbia</T>
+         <RK>44.93501607001402</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-02-26"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1582744555358"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="MSP Tutor, Learn about Claims Billing"/>
+         <MT N="DCSext.current_page" V="MSP Tutor"/>
+         <MT N="mes:date" V="1582744555000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="MSP Tutor - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="C1DFD386AEA7460887A42B5CFF359584"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="97CA0E9AFC8847058CDA4936FA91E955"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-12"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp/physicians/reference-material/msp-tutor"/>
+         <MT N="DCTERMS.modified" V="2020-02-21"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="MSP Tutor"/>
+         <MT N="level6_id" V="C3F2ECD557D3479FA7926102B2D86776"/>
+         <MT N="DCSext.level3" V="MSP"/>
+         <MT N="DCSext.level4" V="Physicians"/>
+         <MT N="DCSext.level5" V="Reference Material"/>
+         <MT N="DCSext.level6" V="MSP Tutor"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Practitioner &amp; Professional Resources"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="MSP Tutor"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="45D23A7B0BF44CE4A3BD6BBED9500491"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="110729.0"/>
+         <MT N="level5" V="Reference Material"/>
+         <MT N="level4" V="Physicians"/>
+         <MT N="level6" V="MSP Tutor"/>
+         <MT N="current_page_id" V="C3F2ECD557D3479FA7926102B2D86776"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="MSP"/>
+         <MT N="level2" V="Practitioner &amp; Professional Resources"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health_access_health"/>
+         <MT N="level4_id" V="9DC899E8AC47421493938027F651C35C"/>
+         <MT N="navigaton_title" V="MSP Tutor"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="00120AAA382641D99ACAD738A7B03053"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>require assistancewith the &lt;b&gt;MSP&lt;/b&gt; Tutor Tool, please contact &lt;b&gt;Health Insurance&lt;/b&gt; BC:
+Toll Free...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.13k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/system-access/msp-direct</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/system-access/msp-direct</UE>
+         <T>MSP Direct - Province of British Columbia</T>
+         <RK>44.86326604435422</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-01-16"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1579210084000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="MSP Direct, Advantages of Using MSP Direct, MSP Direct for Group Plan Administrators"/>
+         <MT N="DCSext.current_page" V="MSP Direct"/>
+         <MT N="mes:date" V="1579210084000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="MSP Direct - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="C1DFD386AEA7460887A42B5CFF359584"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/system-access/msp-direct"/>
+         <MT N="DCTERMS.modified" V="2020-01-16"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="MSP Direct"/>
+         <MT N="DCSext.level3" V="System Access"/>
+         <MT N="DCSext.level4" V="MSP Direct"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Practitioner &amp; Professional Resources"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="MSP Direct"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="0B89580701B746FA9DE60FC4FC640923"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="108832.0"/>
+         <MT N="level4" V="MSP Direct"/>
+         <MT N="current_page_id" V="6968AE0719FD4CB9938A915CBCAD44AD"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="System Access"/>
+         <MT N="level2" V="Practitioner &amp; Professional Resources"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="WT.cg_s" V="6968AE0719FD4CB9938A915CBCAD44AD"/>
+         <MT N="WT.cg_n" V="Health;Practitioner &amp; Professional Resources"/>
+         <MT N="level4_id" V="6968AE0719FD4CB9938A915CBCAD44AD"/>
+         <MT N="navigaton_title" V="MSP Direct"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>questions about using &lt;b&gt;MSP&lt;/b&gt; Direct, contact &lt;b&gt;Health Insurance&lt;/b&gt; BC. Office:
+(604...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.28k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-covid-19-response</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-covid-19-response</UE>
+         <T>Medical Services Plan Response to COVID-19 - Province of British Columbia</T>
+         <RK>44.351265861248685</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-22"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1611273922624"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="COVID-19, MSP, temporary coverage, away from B.C., MSP work permit"/>
+         <MT N="DCSext.current_page" V="Medical Services Plan Response to COVID-19"/>
+         <MT N="mes:date" V="1611273922000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Medical Services Plan Response to COVID-19 - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="97CA0E9AFC8847058CDA4936FA91E955"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2020-03-21"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-covid-19-response"/>
+         <MT N="DCTERMS.modified" V="2021-01-21"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Medical Services Plan Response to COVID-19"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Medical Services Plan Response to COVID-19"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Temporary coverage for MSP due to COVID-19"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="109211.0"/>
+         <MT N="Synonyms" V="away from B.C., health care coverage, treatment for COVID-19"/>
+         <MT N="level5" V="Medical Services Plan Response to COVID-19"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="current_page_id" V="9854C682DD984FB5ADDD02729980189E"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_health_access_health"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Medical Services Plan Response to COVID-19"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="9854C682DD984FB5ADDD02729980189E"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Residents
+     		Section Navigation
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Identification
+Managing Your &lt;b&gt;MSP&lt;/b&gt; Account
+&lt;b&gt;MSP&lt;/b&gt; Premium Elimination: Jan. 1, 2020
+&lt;b&gt;Medical Services Plan&lt;/b&gt; Response to COVID...resident; and Your &lt;b&gt;MSP&lt;/b&gt; coverage has expired.
+Contact &lt;b&gt;Health Insurance&lt;/b&gt; BC to request</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.65k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</UE>
+         <T>Managing Your MSP Account - Province of British Columbia</T>
+         <RK>42.28151512104814</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-10"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1597089032093"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Managing Your MSP Account"/>
+         <MT N="DCSext.current_page" V="Managing Your MSP Account"/>
+         <MT N="mes:date" V="1597089032000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Managing Your MSP Account - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="97CA0E9AFC8847058CDA4936FA91E955"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account"/>
+         <MT N="DCTERMS.modified" V="2020-08-10"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Managing Your MSP Account"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Managing Your MSP Account"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Managing Your MSP Account"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="112961.0"/>
+         <MT N="level5" V="Managing Your MSP Account"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="current_page_id" V="5FDD0B887BDC4D38925467A7462AADD6"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health_access_health"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Managing Your MSP Account"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="5FDD0B887BDC4D38925467A7462AADD6"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Residents
+     		Section Navigation
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Opting Out of &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) Coverage
+Appealing a Decision
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) Account Change FAQs
+&lt;b&gt;MSP&lt;/b&gt; Premium Elimination: Jan. 1, 2020
+&lt;b&gt;Medical Services Plan&lt;/b&gt; Response to COVID</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.31k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/health-supplements-and-programs/medical-services-plan-and-medical-coverage</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/health-supplements-and-programs/medical-services-plan-and-medical-coverage</UE>
+         <T>Medical Services Plan &amp; Medical Coverage - Province of British Columbia</T>
+         <RK>41.2372647475951</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-05-26"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1590523689000"/>
+         <MT N="DCSext.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Social assistance"/>
+         <MT N="DCTERMS.subject" V="Social policy"/>
+         <MT N="DCTERMS.subject" V="Social development"/>
+         <MT N="DCTERMS.subject" V="Income assistance"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="premium-assisted medical coverage, income assistance, hardship assistance, disability assistance, refugee claimants, Fair PharmaCare, PharmaCare, Ministry of Health criteria, three continuous months,  residency requirements"/>
+         <MT N="DCSext.current_page" V="Medical Services Plan &amp; Medical Coverage"/>
+         <MT N="mes:date" V="1590523689000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Medical Services Plan &amp; Medical Coverage - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="29C2B9349B1A4143852C466A9A244FD9"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-02-21"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/health-supplements-and-programs/medical-services-plan-and-medical-coverage"/>
+         <MT N="DCTERMS.modified" V="2020-05-26"/>
+         <MT N="DCTERMS.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="current_page" V="Medical Services Plan &amp; Medical Coverage"/>
+         <MT N="DCSext.level3" V="BCEA Policy &amp; Procedure Manual"/>
+         <MT N="DCSext.level4" V="Health Supplements &amp; Programs"/>
+         <MT N="DCSext.level5" V="Medical Services Plan &amp; Medical Coverage"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Policies for Government"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The ministry assists eligible recipients and their families to access Ministry of Health premium-assisted medical coverage through the Medical Services Plan (MSP)."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8DDCEBD0AF95460C9AA2D0657C9BDA94"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="128657.0"/>
+         <MT N="level5" V="Medical Services Plan &amp; Medical Coverage"/>
+         <MT N="level4" V="Health Supplements &amp; Programs"/>
+         <MT N="current_page_id" V="A6216ADD94344CDC8BBEE6EDE4C3B021"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="BCEA Policy &amp; Procedure Manual"/>
+         <MT N="level2" V="Policies for Government"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8FD3DC049CCC4104B50786925CEF44D5"/>
+         <MT N="navigaton_title" V="Medical Services Plan &amp; Medical Coverage"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="level5_id" V="A6216ADD94344CDC8BBEE6EDE4C3B021"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS:interactiveResource" V="OLR Policy"/>
+         <S>Medical Services Only
+&lt;b&gt;Medical Services Plan&lt;/b&gt; &amp;amp; Medical Coverage
+Medical...Compliance &amp;amp; Debt Management
+&lt;b&gt;Medical Services Plan&lt;/b&gt; &amp;amp; Medical Coverage
+Overview...coverage through the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;).
+This medical coverage...who meet the &lt;b&gt;MSP&lt;/b&gt; residency criteria. Refugee...coverage through the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;).
+Recipients of income...coverage through the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;).  Refugee claimants or</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="125.64k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/eligibility-and-enrolment/how-to-enrol/canadian-armed-forces-members</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/eligibility-and-enrolment/how-to-enrol/canadian-armed-forces-members</UE>
+         <T>MSP Enrolment for Canadian Armed Forces Family - Province of British Columbia</T>
+         <RK>40.98876465872455</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-06-12"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1591985135043"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health care system"/>
+         <MT N="DCTERMS.subject" V="Health care"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Canadian Armed Forces, Canadian Armed Forces Members, MSP Enrolment for Canadian Armed Forces Family"/>
+         <MT N="DCSext.current_page" V="Canadian Armed Forces Members"/>
+         <MT N="mes:date" V="1591985135000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="MSP Enrolment for Canadian Armed Forces Family - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="97CA0E9AFC8847058CDA4936FA91E955"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2020-06-05"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/eligibility-and-enrolment/how-to-enrol/canadian-armed-forces-members"/>
+         <MT N="DCTERMS.modified" V="2020-06-12"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Canadian Armed Forces Members"/>
+         <MT N="level6_id" V="1A2EB01303A14DB390FF0003CB063BAF"/>
+         <MT N="level7_id" V="05D50A32F39A408FA4D63FDE54368907"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Eligibility and Enrolment"/>
+         <MT N="DCSext.level6" V="How to Apply"/>
+         <MT N="DCSext.level7" V="Canadian Armed Forces Members"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="MSP Enrolment for Canadian Armed Forces Family"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="114464.0"/>
+         <MT N="level5" V="Eligibility and Enrolment"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="level7" V="Canadian Armed Forces Members"/>
+         <MT N="level6" V="How to Apply"/>
+         <MT N="current_page_id" V="05D50A32F39A408FA4D63FDE54368907"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health_access_health"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Canadian Armed Forces Members"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="932115455999437889BF9040E8B2DEB6"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Apply
+     		Section Navigation
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Identification
+Managing Your &lt;b&gt;MSP&lt;/b&gt; Account
+&lt;b&gt;MSP&lt;/b&gt; Premium Elimination: Jan. 1, 2020
+&lt;b&gt;Medical Services Plan&lt;/b&gt; Response to COVID...not eligible for &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) coverage in accordance</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.78k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp</UE>
+         <T>Medical Services Plan - Province of British Columbia</T>
+         <RK>40.38301444209138</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577830125000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Medical Services Plan of B.C."/>
+         <MT N="DCSext.current_page" V="Medical Services Plan"/>
+         <MT N="mes:date" V="1577830125000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Medical Services Plan - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="0B851B2CC5B14EFE8958C45C37BE1CF5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-06"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Medical Services Plan"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Medical Services Plan of B.C."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="100299.0"/>
+         <MT N="current_page_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_sdsi"/>
+         <MT N="WT.cg_s" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="WT.cg_n" V="Health;Health &amp; Drug Coverage"/>
+         <MT N="navigaton_title" V="Medical Services Plan"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>apply for provincial &lt;b&gt;health insurance&lt;/b&gt;.
+In B.C., public &lt;b&gt;health insurance&lt;/b&gt; is called the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;). It covers the...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="97.95k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/partners/health-insurance-bc</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/partners/health-insurance-bc</UE>
+         <T>Health Insurance BC - Province of British Columbia</T>
+         <RK>40.32401442099133</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-10-17"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1508283679000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Vendors, Complaint Review Process, Informal Review, Formal Review, Formal Complaint Escalation, Final Escalation"/>
+         <MT N="DCSext.current_page" V="Health Insurance BC"/>
+         <MT N="mes:date" V="1508283679000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Health Insurance BC - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="32C9177DE01C4AF7AE451C44A12D9B4F"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-06-11"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/partners/health-insurance-bc"/>
+         <MT N="DCTERMS.modified" V="2017-10-17"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Health Insurance BC"/>
+         <MT N="DCSext.level3" V="Partners"/>
+         <MT N="DCSext.level4" V="Health Insurance BC"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="About B.C.'s Health Care System"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="vendor"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="6416F49B5B1247BFB159F865CDDD0E1C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="103970.0"/>
+         <MT N="level4" V="Health Insurance BC"/>
+         <MT N="current_page_id" V="D30FA6D4E8CE45FB908338FDB38A8813"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Partners"/>
+         <MT N="level2" V="About B.C.'s Health Care System"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="level4_id" V="D30FA6D4E8CE45FB908338FDB38A8813"/>
+         <MT N="navigaton_title" V="Health Insurance BC"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Appointee Remuneration
+Vendors
+&lt;b&gt;Health Insurance&lt;/b&gt; BC
+A Picture...Patients as Partners
+&lt;b&gt;Health Insurance&lt;/b&gt; BC
+On behalf...B.C. government, &lt;b&gt;Health Insurance&lt;/b&gt; BC (HIBC) administers...coverage through the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) and drug coverage...improve and modernize &lt;b&gt;MSP&lt;/b&gt; and PharmaCare services...are we doing? &lt;b&gt;Health Insurance&lt;/b&gt; BC’s 10...Contact Us
+For &lt;b&gt;Medical Services Plan&lt;/b&gt; questions, customer service</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="101.53k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp</UE>
+         <T>Services Covered by MSP - Province of British Columbia</T>
+         <RK>40.11826434740937</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-01-23"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1579817788830"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Services Covered by MSP, Medical Benefits, Supplementary Health Care Benefits"/>
+         <MT N="DCSext.current_page" V="Services Covered by MSP"/>
+         <MT N="mes:date" V="1579817788000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Services Covered by MSP - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp"/>
+         <MT N="DCTERMS.modified" V="2020-01-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Services Covered by MSP"/>
+         <MT N="level6_id" V="EEC70CB360694450BB72D8B86A3EE638"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Benefits"/>
+         <MT N="DCSext.level6" V="Services Covered by MSP"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Services Covered by MSP."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107430.0"/>
+         <MT N="level5" V="Benefits"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="level6" V="Services Covered by MSP"/>
+         <MT N="current_page_id" V="EEC70CB360694450BB72D8B86A3EE638"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="WT.cg_s" V="EEC70CB360694450BB72D8B86A3EE638"/>
+         <MT N="WT.cg_n" V="Health;Health &amp; Drug Coverage"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Services Covered by MSP"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="623403A1678342308F8AD154F73FE06A"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Benefits
+     		Section Navigation
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Services Covered by &lt;b&gt;MSP&lt;/b&gt;
+Medical Benefits
+Supplementary...Covered by the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;)
+Additional Fees and...Services Covered by &lt;b&gt;MSP
+MSP&lt;/b&gt; is the provincial...are covered by &lt;b&gt;MSP&lt;/b&gt;, contact &lt;b&gt;Health Insurance&lt;/b&gt; BC for more</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="104.91k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-premium-elimination-jan-1-2020</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-premium-elimination-jan-1-2020</UE>
+         <T>MSP Premium Elimination: Jan. 1, 2020 - Province of British Columbia</T>
+         <RK>40.11401434588945</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="58068486308326"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577831241000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="DCSext.current_page" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="mes:date" V="1577831241000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="MSP Premium Elimination: Jan. 1, 2020 - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2019-06-18"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-premium-elimination-jan-1-2020"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="101702.0"/>
+         <MT N="level5" V="MSP Premium Elimination: Jan. 1 2020"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="current_page_id" V="1DBC3F7AEB76455FBD72851CA17AD0C5"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="WT.cg_s" V="1DBC3F7AEB76455FBD72851CA17AD0C5"/>
+         <MT N="WT.cg_n" V="Health;Health &amp; Drug Coverage"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="MSP Premium Elimination: Jan. 1, 2020"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="1DBC3F7AEB76455FBD72851CA17AD0C5"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Residents
+     		Section Navigation
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Administrators - Contact Us
+&lt;b&gt;MSP&lt;/b&gt; Premium Elimination: Jan. 1, 2020
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums were eliminated...two steps for &lt;b&gt;MSP&lt;/b&gt; enrolment:
+Submit an &lt;b&gt;MSP&lt;/b&gt; Application for Enrolment to &lt;b&gt;Health Insurance&lt;/b&gt; BC (HIBC); and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="99.32k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Theme" IR="0" NM="level1" T="0"><PV C="368" H="" L="" V="Health"/><PV C="131" H="" L="" V="British Columbians and our governments"/><PV C="17" H="" L="" V="Family &amp; Social Supports"/><PV C="10" H="" L="" V="British Columbians &amp; Our Governments"/><PV C="9" H="" L="" V="Farming natural resources and industry"/><PV C="9" H="" L="" V="Careers and MyHR"/><PV C="7" H="" L="" V="Taxes and tax credits"/><PV C="6" H="" L="" V="COVID-19"/><PV C="6" H="" L="" V="Careers &amp; MyHR"/><PV C="5" H="" L="" V="Family and social supports"/><PV C="3" H="" L="" V="Driving and transportation"/><PV C="3" H="" L="" V="Birth adoption death marriage and divorce"/><PV C="2" H="" L="" V="Tourism &amp; Immigration"/><PV C="2" H="" L="" V="Taxes &amp; Tax Credits"/><PV C="2" H="" L="" V="Revenue Services Transition Project"/><PV C="2" H="" L="" V="Mental Health and Substance Use Supports in BC"/><PV C="2" H="" L="" V="Law Crime &amp; Justice"/><PV C="2" H="" L="" V="Home"/><PV C="2" H="" L="" V="Data"/><PV C="2" H="" L="" V="Birth Adoption Death Marriage &amp; Divorce"/><PV C="1" H="" L="" V="Housing and tenancy"/><PV C="1" H="" L="" V="Gender Equity in B.C."/><PV C="1" H="" L="" V="Environmental protection and sustainability"/><PV C="1" H="" L="" V="Employment business and economic development"/><PV C="1" H="" L="" V="Employment Business &amp; Economic Development"/><PV C="1" H="" L="" V="Education &amp; Training"/><PV C="1" H="" L="" V="Economic recovery"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

@@ -9,8 +9,10 @@ import Icon from "../../components/Icon";
 import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
-const StyledSearchResults = styled.main`
+const StyledSearchResults = styled.div`
   max-width: 767px;
+  margin: 0 auto;
+  padding: 0 0 120px 0;
 
   h1 {
     font-size: 36px;
@@ -108,9 +110,43 @@ const StyledSearchResults = styled.main`
     }
   }
 
-  ul {
-    li {
-      margin: 10px 0;
+  div.load-more {
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+      background-color: #f2f2f2;
+      border: none;
+      color: #313132;
+      cursor: pointer;
+      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 10px 56px;
+
+      &:focus {
+        outline: 4px solid #3b99fc;
+        text-decoration: underline;
+      }
+
+      &:hover {
+        background-color: #dedede;
+        text-decoration: underline;
+      }
+
+      &:disabled,
+      &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  div.no-results {
+    ul {
+      li {
+        margin: 10px 0;
+      }
     }
   }
 `;
@@ -125,8 +161,13 @@ function useQuery() {
 function Search() {
   const [state, setState] = useState({
     query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
+    page: parseInt(useQuery().get("page"), 10) || 0, // Page parameter is in the form `?page=2`
     isLoading: useQuery().get("q") ? true : false,
-    results: {},
+    resultsObj: {},
+    resultsArr: [],
+    resultsCount: 0,
+    firstResultShown: 0,
+    lastResultShown: 0,
     newQuery: useQuery().get("q") || "",
   });
 
@@ -147,12 +188,81 @@ function Search() {
     if (state?.query !== state?.newQuery) {
       history.push(`/search?q=${state.newQuery}`);
       setState({
+        ...state,
         query: state?.newQuery,
+        page: 0,
         isLoading: state?.newQuery ? true : false,
-        results: {},
+        resultsObj: {},
+        resultsArr: [],
+        resultsCount: 0,
+        firstResultShown: 0,
+        lastResultShown: 0,
         newQuery: state?.newQuery,
       });
     }
+  }
+
+  // API call to get additional results for the same query
+  function getMoreResults(event) {
+    event.preventDefault();
+
+    setState({ ...state, isLoading: true });
+
+    const params = {
+      q: state?.query,
+      page: state?.page + 1,
+    };
+
+    // GET request to the search API with same query and new page number
+    axios.get("/api/search", { params }).then((res) => {
+      // Parse XML response into JSON object
+      let parser = new xml2js.Parser();
+      parser.parseString(res?.data, (err, res) => {
+        if (err) {
+          setState({ ...state, isLoading: false });
+        } else {
+          // Push new results to the results array
+          let newResultsArr = [...state?.resultsArr];
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES.length > 0 &&
+            res?.GSP?.RES[0]?.R?.length > 0
+          ) {
+            newResultsArr = [...newResultsArr, ...res?.GSP?.RES[0]?.R];
+          }
+
+          // Update the last result shown
+          let last = state?.lastResultShown;
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES?.length > 0 &&
+            res?.GSP?.RES[0]?.$?.SN &&
+            res?.GSP?.RES[0]?.$?.EN
+          ) {
+            last = parseInt(res?.GSP?.RES[0].$?.EN, 10);
+          }
+
+          // Update the page number
+          let page = state?.page;
+
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES.length > 0 &&
+            res?.GSP?.RES[0]?.R?.length > 0
+          ) {
+            page = parseInt(state?.page + 1, 10);
+          }
+
+          setState({
+            ...state,
+            isLoading: false,
+            resultsArr: newResultsArr,
+            lastResultShown: last,
+            page: page,
+          });
+        }
+      });
+    });
   }
 
   function getResultFileIcon(mimeType) {
@@ -206,25 +316,70 @@ function Search() {
   }
 
   useEffect(() => {
-    // GET request to the search API using the query
-    axios.get(`/api/search?q=${state?.query}`).then((res) => {
-      // Parse XML response into JSON object
-      let parser = new xml2js.Parser();
-      parser.parseString(res?.data, (err, results) => {
-        if (err) {
-          setState({
-            ...state,
-            isLoading: false,
-          });
-        } else {
-          setState({
-            ...state,
-            isLoading: false,
-            results: results,
-          });
-        }
+    if (state?.query) {
+      const params = {
+        q: state?.query,
+        page: state?.page === 0 ? 1 : state?.page,
+      };
+
+      // GET request to the search API using the query
+      axios.get("/api/search", { params }).then((res) => {
+        // Parse XML response into JSON object
+        let parser = new xml2js.Parser();
+        parser.parseString(res?.data, (err, res) => {
+          if (err) {
+            setState({
+              ...state,
+              isLoading: false,
+            });
+          } else {
+            // Push results into an array for display
+            let newResultsArr = [...(state?.resultsArr || [])];
+            if (
+              res?.GSP?.RES &&
+              res?.GSP?.RES.length > 0 &&
+              res?.GSP?.RES[0]?.R?.length > 0
+            ) {
+              newResultsArr = [...newResultsArr, ...res?.GSP?.RES[0]?.R];
+            }
+
+            // Update the resultsCount if the response includes a count
+            let count = state?.resultsCount;
+            if (
+              res?.GSP?.RES &&
+              res?.GSP?.RES.length > 0 &&
+              res?.GSP?.RES[0]?.M[0]
+            ) {
+              count = parseInt(res?.GSP?.RES[0]?.M[0], 10);
+            }
+
+            // Update the first and last result shown
+            let first = state?.firstResultShown;
+            let last = state?.lastResultShown;
+            if (
+              res?.GSP?.RES &&
+              res?.GSP?.RES?.length > 0 &&
+              res?.GSP?.RES[0]?.$?.SN &&
+              res?.GSP?.RES[0]?.$?.EN
+            ) {
+              first = 1; // Assumes we are adding results to a growing list
+              last = parseInt(res?.GSP?.RES[0].$?.EN, 10);
+            }
+
+            setState({
+              ...state,
+              isLoading: false,
+              resultsObj: res,
+              resultsArr: newResultsArr,
+              resultsCount: count,
+              firstResultShown: first,
+              lastResultShown: last,
+              page: state?.page + 1, // Assumes we are not navigating straight to a page of results
+            });
+          }
+        });
       });
-    });
+    }
   }, [state.query]);
 
   return (
@@ -262,45 +417,31 @@ function Search() {
         parentCallback={updateNewQuery}
       />
 
-      {/* LoadSpinner until the API request is completed */}
-      {state?.isLoading && <LoadSpinner />}
-
       {/* Count of results found */}
-      {!state?.isLoading &&
-        state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
-        state?.results?.GSP?.RES[0]?.M && (
-          <p className="results-found">
-            Found{" "}
-            <strong>
-              {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
-            </strong>{" "}
-            results
-          </p>
-        )}
+      {state?.resultsCount > 0 && (
+        <p className="results-found">
+          Showing {new Intl.NumberFormat().format(state?.firstResultShown)}-
+          {new Intl.NumberFormat().format(state?.lastResultShown)} of{" "}
+          <strong>{new Intl.NumberFormat().format(state?.resultsCount)}</strong>{" "}
+          results
+        </p>
+      )}
 
       {/* Filter menu */}
-      {!state?.isLoading &&
-        state?.query.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
-        state?.results?.GSP?.RES[0]?.R?.length > 0 && (
-          <div className="filter-menu">
-            <button className="active">All</button>
-            <button>Services</button>
-            <button>News</button>
-            <button>Documents</button>
-            <button>More Filters</button>
-          </div>
-        )}
+      {state?.resultsCount > 0 && (
+        <div className="filter-menu">
+          <button className="active">All</button>
+          <button>Services</button>
+          <button>News</button>
+          <button>Documents</button>
+          <button>More Filters</button>
+        </div>
+      )}
 
       {/* List of results if applicable */}
-      {!state?.isLoading &&
-        state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        state?.results?.GSP?.RES &&
-        state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
+      {state?.resultsCount > 0 &&
+        state?.resultsArr?.length > 0 &&
+        state?.resultsArr.map((result, index) => {
           return (
             <div className="result" key={`result-${index}`}>
               <div className="text">
@@ -327,12 +468,26 @@ function Search() {
           );
         })}
 
+      {/* Load more results button */}
+      {state?.lastResultShown < state?.resultsCount && (
+        <div className="load-more">
+          <button
+            disabled={state?.isLoading}
+            onClick={(e) => {
+              getMoreResults(e);
+            }}
+          >
+            Load more results
+          </button>
+        </div>
+      )}
+
       {/* Message indicating no results if applicable */}
-      {!state?.isLoading &&
+      {state?.resultsArr?.length === 0 &&
         state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        !state?.results?.GSP?.hasOwnProperty("RES") && (
-          <>
+        Object.keys(state?.resultsObj).length > 0 &&
+        !state?.resultsObj?.GSP?.hasOwnProperty("RES") && (
+          <div className="no-results">
             <p>
               Your search - <strong>{state.query}</strong> - did not match any
               documents.
@@ -346,8 +501,11 @@ function Search() {
               </li>
               <li>Try more generic keywords.</li>
             </ul>
-          </>
+          </div>
         )}
+
+      {/* LoadSpinner until the API request is completed */}
+      {state?.isLoading && <LoadSpinner />}
     </StyledSearchResults>
   );
 }
