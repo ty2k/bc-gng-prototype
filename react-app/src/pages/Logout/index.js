@@ -11,14 +11,9 @@ const StyledMain = styled.main`
   padding: 0 10px;
 `;
 
-function Login(props) {
+function Logout(props) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoggedOut, setIsLoggedOut] = useState(false);
-
-  const referer =
-    props.location && props.location.state && props.location.state.referer
-      ? props.location.state.referer
-      : "/";
 
   function postLogout(event) {
     event.preventDefault();
@@ -37,7 +32,7 @@ function Login(props) {
 
       <h1>Logout</h1>
       <form
-        id="form--login"
+        id="form--logout"
         method="post"
         onSubmit={(e) => {
           postLogout(e);
@@ -56,11 +51,11 @@ function Login(props) {
   );
 }
 
-Login.propTypes = {
+Logout.propTypes = {
   title: propTypes.string,
   breadcrumbs: propTypes.array,
 };
 
-Login.defaultProps = {};
+Logout.defaultProps = {};
 
-export default Login;
+export default Logout;
