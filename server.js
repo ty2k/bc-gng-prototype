@@ -30,6 +30,7 @@ app.get('/api/services', function(req, res) {
 // API route to serve Search data to React client
 app.get('/api/search', function(req, res) {
   const userQuery = req.query.q;
+  const pageRequested = req.query.page || 1;
 
   // Check for poison null byte in query
   if (userQuery.indexOf('\0') !== -1) {
@@ -38,25 +39,37 @@ app.get('/api/search', function(req, res) {
   } else {
     // Avoid path traversal by removing unescaped traversal characters
     const safeQuery = path.normalize(userQuery).replace(/^(\.\.(\/|\\|$))+/, '');
-    const safePath = path.join(__dirname, 'data', 'search', 'xml', safeQuery + '.xml');
+    const safePath = path.join(
+      __dirname,
+      'data',
+      'search',
+      'xml',
+      safeQuery,
+      pageRequested + '.xml'
+    );
 
-    // Check if we have data for the query by
-    // attempting to open XML file in read mode
-    fs.open(safePath, 'r')
-      .then((xmlFileHandle) => {
-        res.sendFile(safePath);
+    if (safeQuery) {
+      // Check if we have data for the query by
+      // attempting to open XML file in read mode
+      fs.open(safePath, 'r')
+        .then((xmlFileHandle) => {
+          res.sendFile(safePath);
 
-        // FileHandle must be closed manually
-        xmlFileHandle.close();
-      })
-      .catch((err) => {
-        if (err.code === 'ENOENT') {
-          // No data file exists for the query, return no results
-          res.sendFile(path.join(__dirname, 'data', 'search', 'xml', 'default-no-results.xml'));
-        } else {
-          console.log(err);
-        }
-      });
+          // FileHandle must be closed manually
+          xmlFileHandle.close();
+        })
+        .catch((err) => {
+          if (err.code === 'ENOENT') {
+            // No data file exists for the query, return no results
+            res.sendFile(path.join(__dirname, 'data', 'search', 'xml', 'default-no-results.xml'));
+          } else {
+            console.log(err);
+          }
+        });
+    } else {
+      // No query, return no results
+      res.sendFile(path.join(__dirname, 'data', 'search', 'xml', 'default-no-results.xml'));
+    }
   }
 });
 
