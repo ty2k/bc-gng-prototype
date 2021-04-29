@@ -215,6 +215,9 @@ function TableGroup({ context = {}, data, id }) {
           }
         }
       }
+      // .sort() expects a return value and will cause a React warning if
+      // this isn't explicitly set here
+      return 0;
     });
   }
 
