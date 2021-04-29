@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.802000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="30" SN="21">
+      <M>11300</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=10</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=30</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings</UE>
+         <T>Current BC Government Job Postings - Province of British Columbia</T>
+         <RK>47.10651684660322</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-24"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1598311226536"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Employment opportunities"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="public service careers, bc public service, careers, jobs, government jobs, applicant waiting lists, applicant inventory"/>
+         <MT N="DCSext.current_page" V="Current Job Postings"/>
+         <MT N="mes:date" V="1598311226000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Current BC Government Job Postings - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="CE385D1D7A0F4C6F8CF90895950CF6A4"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="DCTERMS.created" V="2015-07-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings"/>
+         <MT N="DCTERMS.modified" V="2020-08-24"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Job vacancies"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Current Job Postings"/>
+         <MT N="DCSext.level3" V="Current Job Postings"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information about current job vacancies in the BC public service."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="C83F5C6FD99E4C47A743D51A624D6018"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="106104.0"/>
+         <MT N="current_page_id" V="C83F5C6FD99E4C47A743D51A624D6018"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Current Job Postings"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_PSA_Analytics"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Current Job Postings"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>search to find &lt;b&gt;jobs&lt;/b&gt; you're interested in.
+Your &lt;b&gt;Job&lt;/b&gt; Application
+Learn how...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="103.62k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement</UE>
+         <T>Forestry Worker Job Placement - Province of British Columbia</T>
+         <RK>47.07151683408624</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-02"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1606871549883"/>
+         <MT N="DCSext.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Forestry"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="forest, forest industry, forestry, curtailments, closures, mills, forest workers, forestry sector, mill closures, interior, retirement, retirement bridging program, forestry worker job placement, forestry worker help, forestry worker support"/>
+         <MT N="DCSext.current_page" V="Forestry Worker Job Placement"/>
+         <MT N="mes:date" V="1606871549000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Forestry Worker Job Placement - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA59C0AA67DA452486989F5C088CF0C2"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2019-10-17"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement"/>
+         <MT N="DCTERMS.modified" V="2020-01-15"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="current_page" V="Forestry Worker Job Placement"/>
+         <MT N="DCSext.level3" V="Supports for Interior Forestry Workers"/>
+         <MT N="DCSext.level4" V="Forestry Worker Job Placement"/>
+         <MT N="DCSext.level1" V="Farming, natural resources and industry"/>
+         <MT N="DCSext.level2" V="Forestry"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Programs are now in place to support forest workers in communities impacted by mill closures and shift reductions in B.C.’s interior regions. This website will be updated with resources and supports as they are established in 2019-2020."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="DD835B82A3F14D1CB1538263FC5A716C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="102702.0"/>
+         <MT N="level4" V="Forestry Worker Job Placement"/>
+         <MT N="current_page_id" V="9F60BD41B62F4A02A0ABA7ADD71BDAD5"/>
+         <MT N="level1" V="Farming natural resources and industry"/>
+         <MT N="level3" V="Supports for Interior Forestry Workers"/>
+         <MT N="level2" V="Forestry"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="9F60BD41B62F4A02A0ABA7ADD71BDAD5"/>
+         <MT N="navigaton_title" V="Forestry Worker Job Placement"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Program
+Forestry Worker &lt;b&gt;Job&lt;/b&gt; Placement
+Community Support...Program
+Forestry Worker &lt;b&gt;Job&lt;/b&gt; Placement
+&lt;b&gt;Job&lt;/b&gt; placement coordination offices...their communities.
+The &lt;b&gt;job&lt;/b&gt; placement coordination program...matching them with &lt;b&gt;jobs&lt;/b&gt;, and engaging employers...fill out a &lt;b&gt;Job&lt;/b&gt; Matching Form online.
+Apply for &lt;b&gt;Job&lt;/b&gt; Placement
+&lt;b&gt;Job&lt;/b&gt; Placement Office Contact</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="100.29k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/managers-supervisors/job-evaluation-process</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/managers-supervisors/job-evaluation-process</UE>
+         <T>Managing the Job Evaluation Process - Province of British Columbia</T>
+         <RK>46.8952667710543</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-10-22"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1603397124388"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Assessment"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="job classification, classification process, job evaluation, manager dashboard"/>
+         <MT N="DCSext.current_page" V="Managing the Job Evaluation Process"/>
+         <MT N="mes:date" V="1603397124000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Managing the Job Evaluation Process - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="EEC7F3879E814E98B816A962E7964798"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="content_group_id" V="CE385D1D7A0F4C6F8CF90895950CF6A4"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Supervisors"/>
+         <MT N="bcpsa_audiences" V="Hiring managers"/>
+         <MT N="DCTERMS.created" V="2016-01-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/managers-supervisors/job-evaluation-process"/>
+         <MT N="DCTERMS.modified" V="2020-10-22"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Job evaluation"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Managing the Job Evaluation Process"/>
+         <MT N="DCSext.level3" V="Managing the Job Evaluation Process"/>
+         <MT N="DCSext.level1" V="Careers and MyHR"/>
+         <MT N="DCSext.level2" V="Managers &amp; Supervisors"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information for hiring managers on the job evaluation process."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="AD17D4D374D74D5C997DE49588310E65"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111350.0"/>
+         <MT N="current_page_id" V="AD17D4D374D74D5C997DE49588310E65"/>
+         <MT N="level1" V="Careers and MyHR"/>
+         <MT N="level3" V="Managing the Job Evaluation Process"/>
+         <MT N="level2" V="Managers &amp; Supervisors"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="content_group" V="CMF_gov_PSA_Analytics"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Managing the Job Evaluation Process"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and LSO2 classified &lt;b&gt;jobs&lt;/b&gt; OA6 and OA9 classified &lt;b&gt;jobs&lt;/b&gt;
+If the &lt;b&gt;job&lt;/b&gt; doesn't meet...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.74k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees</UE>
+         <T>Job seekers &amp; employees - Province of British Columbia</T>
+         <RK>46.82401674557331</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-09-10"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1599759342221"/>
+         <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Occupations"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="DCTERMS.subject" V="Labour standards"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="careers;"/>
+         <MT N="DCSext.current_page" V="Job seekers &amp; employees"/>
+         <MT N="mes:date" V="1599759342000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Job seekers &amp; employees - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="B3752C36297F2A17229B69D2A8DF5C92"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="463269C5A8A04034AB3DDCEEEC5733B5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2012-04-25"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees"/>
+         <MT N="DCTERMS.modified" V="2020-09-10"/>
+         <MT N="DCTERMS.creator" V="Government Communications and Public Engagement"/>
+         <MT N="current_page" V="Job seekers &amp; employees"/>
+         <MT N="DCSext.level1" V="Employment, business and economic development"/>
+         <MT N="DCSext.level2" V="Job seekers &amp; employees"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information and links for employees or for people looking for a job."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="102208.0"/>
+         <MT N="current_page_id" V="B3752C36297F2A17229B69D2A8DF5C92"/>
+         <MT N="level1" V="Employment business and economic development"/>
+         <MT N="level2" V="Job seekers &amp; employees"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_cscd"/>
+         <MT N="navigaton_title" V="Job seekers &amp; employees"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS.audience" V="Immigrants to British Columbia"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS:interactiveResource" V="BC Gov Theme"/>
+         <S>and economic development
+&lt;b&gt;Job&lt;/b&gt; seekers &amp;amp; employees
+Use...find a great &lt;b&gt;job&lt;/b&gt; and access work...advice.
+Find a &lt;b&gt;job&lt;/b&gt;
+Explore resources for &lt;b&gt;job&lt;/b&gt; seekers and employees such as &lt;b&gt;job&lt;/b&gt; boards, apprentice &lt;b&gt;job&lt;/b&gt; match, &lt;b&gt;job&lt;/b&gt; search tips, labour...tools
+Search different &lt;b&gt;job&lt;/b&gt; profiles and get...standards on the &lt;b&gt;job&lt;/b&gt; and what to...B.C. Government &lt;b&gt;jobs&lt;/b&gt;
+Search for &lt;b&gt;jobs&lt;/b&gt; and learn about</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="99.81k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees/find-a-job</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees/find-a-job</UE>
+         <T>Find a job - Province of British Columbia</T>
+         <RK>46.82401674557331</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-09-10"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1599759345919"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="jobs, careers, employment, resources, postings"/>
+         <MT N="DCSext.current_page" V="Find a job"/>
+         <MT N="mes:date" V="1599759345000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Find a job - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="B3752C36297F2A17229B69D2A8DF5C92"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="463269C5A8A04034AB3DDCEEEC5733B5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-08-18"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees/find-a-job"/>
+         <MT N="DCTERMS.modified" V="2020-09-10"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Find a job"/>
+         <MT N="DCSext.level3" V="Find a job"/>
+         <MT N="DCSext.level1" V="Employment, business and economic development"/>
+         <MT N="DCSext.level2" V="Job seekers &amp; employees"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Resources for job seekers and employees, from searching to knowing your rights"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="C05A2817B53444DBBF1CE28B611FB74A"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="104010.0"/>
+         <MT N="current_page_id" V="C05A2817B53444DBBF1CE28B611FB74A"/>
+         <MT N="level1" V="Employment business and economic development"/>
+         <MT N="level3" V="Find a job"/>
+         <MT N="level2" V="Job seekers &amp; employees"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_cscd"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Find a job"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="DCTERMS.audience" V="Employees, Job Seekers, Career Development"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and economic development &lt;b&gt;Job&lt;/b&gt; seekers &amp;amp; employees
+Find a &lt;b&gt;job&lt;/b&gt;
+Explore resources for &lt;b&gt;job&lt;/b&gt; seekers and employees such as &lt;b&gt;job&lt;/b&gt; boards, apprentice &lt;b&gt;job&lt;/b&gt; match, &lt;b&gt;job&lt;/b&gt; search tips, labour...Columbia, features many &lt;b&gt;job&lt;/b&gt; seeker resources.
+Find...B.C.
+WorkBC &lt;b&gt;Job&lt;/b&gt; Board– search, sign...or find a &lt;b&gt;job&lt;/b&gt;. Take the Career...career exploration and &lt;b&gt;job&lt;/b&gt; experience.
+Find a &lt;b&gt;job&lt;/b&gt;
+WorkBC.ca helps &lt;b&gt;jobs&lt;/b&gt;eekers, employers and others</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="101.57k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers</UE>
+         <T>Job Seekers - Province of British Columbia</T>
+         <RK>46.81926674387458</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-16"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1597611948233"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Job skills"/>
+         <MT N="DCTERMS.subject" V="Job shadowing"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="DCTERMS.subject" V="Job promotion"/>
+         <MT N="DCTERMS.subject" V="Employers"/>
+         <MT N="DCTERMS.subject" V="Employment"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="job seekers, bc public service, public sector jobs, work"/>
+         <MT N="DCSext.current_page" V="Job Seekers"/>
+         <MT N="mes:date" V="1597611948000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Job Seekers - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-07-17"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers"/>
+         <MT N="DCTERMS.modified" V="2019-04-03"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="DCTERMS.creator" V="Government Communications and Public Engagement"/>
+         <MT N="current_page" V="Job Seekers"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Find opportunities and advice to help you begin or advance your career in the BC Public Service. At the same time, learn why we have been selected as one of Canada’s Top 100 Employers (2016) and BC’s Top Employers (2016)."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="110520.0"/>
+         <MT N="current_page_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Job Seekers"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="DCTERMS:interactiveResource" V="BC Gov Theme"/>
+         <S>Home Careers &amp;amp; MyHR
+&lt;b&gt;Job&lt;/b&gt; Seekers
+Search Careers...collectionmyhr_frontend
+Current &lt;b&gt;Job&lt;/b&gt; Postings
+We're...for Opportunities Your &lt;b&gt;Job&lt;/b&gt; Application Executive Opportunities...when doing your &lt;b&gt;job&lt;/b&gt;. Find out how...apply for a &lt;b&gt;job&lt;/b&gt; in the BC...You Got the &lt;b&gt;Job&lt;/b&gt;
+Indigenous Applicant Advisory</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="107.93k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/animal-and-crops/crop-production/bcjobsplanspecialreportgreenhousesector2011.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/animal-and-crops/crop-production/bcjobsplanspecialreportgreenhousesector2011.pdf</UE>
+         <T>bcjobsplanspecialreportgreenhousesector2011.pdf</T>
+         <RK>71.06252541393951</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-09-24"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1443125008000"/>
+         <MT N="document:created" V="Fri Feb 03 14:46:27 PST 2012"/>
+         <MT N="DCSext.creator" V="Ministry of Agriculture"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Microsoft Word - GH_Report_FINAL_24Jan2012"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1443125008000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bcjobsplanspecialreportgreenhousesector2011.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="AC1BF15F555A4E30B5AA9C4FF54B8445"/>
+         <MT N="content_group_id" V="EF2D5E79C4BC49E1B3A1D3D8E519AE77"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bcjobsplanspecialreportgreenhousesector2011.pdf"/>
+         <MT N="DCTERMS.created" V="2015-08-17"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/animal-and-crops/crop-production/bcjobsplanspecialreportgreenhousesector2011.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-09-24"/>
+         <MT N="DCTERMS.creator" V="Ministry of Agriculture"/>
+         <MT N="document:modified" V="1328310070000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1328310070000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="341531.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_agriculture_seafood_maintainer"/>
+         <MT N="content_group" V="CMF_gov_agriculture_seafood_author"/>
+         <S>2011 
+
+BC &lt;b&gt;Jobs&lt;/b&gt; Plan Special Report...Starts Here: BC &lt;b&gt;Jobs&lt;/b&gt; Plan commitment to...Mines, Environment, Finance, &lt;b&gt;Jobs&lt;/b&gt; Tourism and Innovation</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="333.53k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/bcjobsplan_14june2012_final.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/bcjobsplan_14june2012_final.pdf</UE>
+         <T>bcjobsplan_14june2012_final.pdf</T>
+         <RK>71.06252541393951</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-09-29"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1412004559000"/>
+         <MT N="document:created" V="Mon Jun 18 03:29:30 PDT 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Becoming Carbon Neutral"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1412004559000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bcjobsplan_14june2012_final.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bcjobsplan_14june2012_final.pdf"/>
+         <MT N="DCTERMS.created" V="2014-09-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/bcjobsplan_14june2012_final.pdf"/>
+         <MT N="DCTERMS.modified" V="2014-09-29"/>
+         <MT N="document:modified" V="1340015370000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1340015370000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="2666323.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <S>Here:  The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+
+Progress &amp;amp; Engagement...Branch, Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Tourism and Innovation...Here: The BC &lt;b&gt;Jobs&lt;/b&gt;
+Plan—6 Month Progress...on the BC &lt;b&gt;Jobs&lt;/b&gt;
+Plan Citizen Engagement...Here:
+The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+
+
+
+
+
+
+Greg Goodwin...Division
+
+Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Tourism and Innovation...industry
+
+
+
+10
+
+BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+
+
+3 Pillars...of the BC &lt;b&gt;Jobs&lt;/b&gt; Plan:
+1. Working</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="2.54 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf</UE>
+         <T>webinarpromotion_jobsplan_14june2012.pdf</T>
+         <RK>69.08952470833947</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-09-29"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1412004561000"/>
+         <MT N="document:created" V="Thu May 24 14:52:06 PDT 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="webinar28_3.indd"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1412004561000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="webinarpromotion_jobsplan_14june2012.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="webinarpromotion_jobsplan_14june2012.pdf"/>
+         <MT N="DCTERMS.created" V="2014-09-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf"/>
+         <MT N="DCTERMS.modified" V="2014-09-29"/>
+         <MT N="document:modified" V="1337896326000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1337896326000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="114663.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <S>Here: The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+Progress &amp;amp; Engagement...the Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Tourism and Innovation...Here: The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+Progress &amp;amp; Engagement...Here: The BC
+&lt;b&gt;Jobs&lt;/b&gt; Plan, which will...made
+since the &lt;b&gt;Jobs&lt;/b&gt; Plan was launched...under the BC &lt;b&gt;Jobs&lt;/b&gt; Plan, with presenta...the Ministry of &lt;b&gt;Jobs&lt;/b&gt;,
+Tourism, and Innovation...protect and
+create &lt;b&gt;jobs&lt;/b&gt; in BC communities...• The BC &lt;b&gt;Jobs&lt;/b&gt; plan citizen engagement...in the BC &lt;b&gt;Jobs&lt;/b&gt; Plan website.
+
+It</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.98k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx</UE>
+         <T>SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-excluded</T>
+         <RK>67.53402415204911</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-17"/>
+         <MT N="query_id" V="9228243408392"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1615995531000"/>
+         <MT N="meta:paragraph-count" V="9"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="41"/>
+         <MT N="document:ParagraphCount" V="9"/>
+         <MT N="document:cp:revision" V="6"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-03-16T23:02:00Z"/>
+         <MT N="document:dc:publisher" V="PSERC"/>
+         <MT N="document:dc:title" V="LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="document:LineCount" V="32"/>
+         <MT N="DCTERMS.subject" V="Benefits"/>
+         <MT N="DCTERMS.subject" V="Leave of absence"/>
+         <MT N="document:TotalTime" V="41"/>
+         <MT N="meta:last-author" V="Arkell, Angela PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="3"/>
+         <MT N="dc:publisher" V="PSERC"/>
+         <MT N="document:Character Count" V="3850"/>
+         <MT N="keywords" V="letter, STIIP, LTD, ST02, benefits, return-to-work, short term illness, long term disability, corporate advisor, disability case specialist"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1615995531000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="6"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2019-11-29T00:17:00Z"/>
+         <MT N="dcterms:modified" V="2021-03-16T23:02:00Z"/>
+         <MT N="title" V="SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-excluded"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="9"/>
+         <MT N="extended-properties:TotalTime" V="41"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="32"/>
+         <MT N="dc:title" V="LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="meta:creation-date" V="2019-11-29T00:17:00Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="PSERC"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="modified" V="2021-03-16T23:02:00Z"/>
+         <MT N="document:PageCount" V="3"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="ltr_19_part_time_or_lower_position_excluded.docx"/>
+         <MT N="DCTERMS.created" V="2020-08-17"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2021-03-16T23:02:00Z"/>
+         <MT N="document:meta:linecount" V="32"/>
+         <MT N="document:LastAuthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx"/>
+         <MT N="DCTERMS.modified" V="2021-03-17"/>
+         <MT N="Total-Time" V="41"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="Creation-Date" V="2019-11-29T00:17:00Z"/>
+         <MT N="Last-Author" V="Arkell, Angela PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="document:meta:charactercountwithspaces" V="4516"/>
+         <MT N="document:modified" V="1615935720000"/>
+         <MT N="document:CharacterCountWithSpaces" V="4516"/>
+         <MT N="document:WordCount" V="675"/>
+         <MT N="meta:character-count-with-spaces" V="4516"/>
+         <MT N="document:meta:charactercount" V="3850"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="675"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="PSERC"/>
+         <MT N="description" V="This letter is used when an employee is being offered a part-time or lower paying job and advises them of the subsequent  impacts to their future benefits."/>
+         <MT N="meta:character-count" V="3850"/>
+         <MT N="document:date" V="1615935720000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="PSERC"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="23740.0"/>
+         <MT N="Synonyms" V="return to work, disability, sample letter, sick leave, manager, supervisor"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="6"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2021-03-16T23:02:00Z"/>
+         <MT N="CMF_ContentType" V="Template"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="3"/>
+         <MT N="meta:word-count" V="675"/>
+         <MT N="document:meta:pagecount" V="3"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="meta:save-date" V="2021-03-16T23:02:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="PSERC"/>
+         <MT N="Revision-Number" V="6"/>
+         <MT N="Page-Count" V="3"/>
+         <MT N="Paragraph-Count" V="9"/>
+         <MT N="Line-Count" V="32"/>
+         <MT N="Word-Count" V="675"/>
+         <MT N="Character Count" V="3850"/>
+         <MT N="Character-Count-With-Spaces" V="4516"/>
+         <S>OR LOWER PAYING &lt;b&gt;JOB&lt;/b&gt;
+This letter is...or lower paying &lt;b&gt;job&lt;/b&gt; and advises them...request for a &lt;b&gt;job&lt;/b&gt; share&amp;gt; &amp;lt;part time</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="23.18k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Theme" IR="0" NM="level1" T="0"><PV C="434" H="" L="" V="Careers &amp; MyHR"/><PV C="414" H="" L="" V="Data"/><PV C="371" H="" L="" V="Employment Business &amp; Economic Development"/><PV C="265" H="" L="" V="Employment business and economic development"/><PV C="262" H="" L="" V="British Columbians and our governments"/><PV C="140" H="" L="" V="British Columbians &amp; Our Governments"/><PV C="96" H="" L="" V="Careers and MyHR"/><PV C="95" H="" L="" V="Farming natural resources and industry"/><PV C="55" H="" L="" V="Law Crime &amp; Justice"/><PV C="41" H="" L="" V="Birth Adoption Death Marriage &amp; Divorce"/><PV C="31" H="" L="" V="Health"/><PV C="27" H="" L="" V="Education &amp; Training"/><PV C="26" H="" L="" V="Education and training"/><PV C="25" H="" L="" V="Environmental protection and sustainability"/><PV C="22" H="" L="" V="Family and social supports"/><PV C="19" H="" L="" V="Law crime and justice"/><PV C="16" H="" L="" V="Farming Natural Resources &amp; Industry"/><PV C="14" H="" L="" V="Taxes and tax credits"/><PV C="13" H="" L="" V="Family &amp; Social Supports"/><PV C="13" H="" L="" V="Driving &amp; Transportation"/><PV C="12" H="" L="" V="Birth adoption death marriage and divorce"/><PV C="11" H="" L="" V="Tourism &amp; Immigration"/><PV C="10" H="" L="" V="Public safety and emergency services"/><PV C="8" H="" L="" V="Driving and transportation"/><PV C="7" H="" L="" V="Sports Recreation Arts &amp; Culture"/><PV C="7" H="" L="" V="Public Safety &amp; Emergency Services"/><PV C="7" H="" L="" V="Economic recovery"/><PV C="7" H="" L="" V="COVID-19"/><PV C="6" H="" L="" V="Housing and tenancy"/><PV C="5" H="" L="" V="Tourism and immigration"/><PV C="3" H="" L="" V="Sports recreation arts and culture"/><PV C="3" H="" L="" V="Home"/><PV C="3" H="" L="" V="Gender Equity in B.C."/><PV C="3" H="" L="" V="Export Catalogue"/><PV C="1" H="" L="" V="Taxes &amp; Tax Credits"/><PV C="1" H="" L="" V="Revenue Services Transition Project"/><PV C="1" H="" L="" V="Minimum Wage Home"/><PV C="1" H="" L="" V="Kicking Horse Canyon Project"/><PV C="1" H="" L="" V="erase"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

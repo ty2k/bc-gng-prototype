@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.965000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="20" SN="11">
+      <M>2480</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=20</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/first-nations-collaboration</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/first-nations-collaboration</UE>
+         <T>Government-to-Government Partnerships Create Industrial Development, Tax Revenue, and Jobs - Province of British Columbia</T>
+         <RK>59.84827140340975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-05-22"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1590189603000"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Local governments"/>
+         <MT N="DCTERMS.subject" V="Aboriginal governments"/>
+         <MT N="DCTERMS.subject" V="Aboriginal peoples"/>
+         <MT N="DCTERMS.subject" V="Community development"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Rural communities"/>
+         <MT N="DCTERMS.subject" V="Best practices"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="Economic Development Success Story, First Nations, Accord of Recognition and Respect and Framework for Cooperation, Kitselas, Kitsumkalum, City of Terrace"/>
+         <MT N="DCSext.current_page" V="Government-to-government agreements"/>
+         <MT N="mes:date" V="1590189603000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Government-to-Government Partnerships Create Industrial Development, Tax Revenue, and Jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-03-16"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/first-nations-collaboration"/>
+         <MT N="DCTERMS.modified" V="2020-05-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Government-to-government agreements"/>
+         <MT N="level6_id" V="9AADFE9BB4D74B1CA92DF2EA1A198A91"/>
+         <MT N="DCSext.level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="DCSext.level4" V="Success Stories"/>
+         <MT N="DCSext.level5" V="Developing Lands and Community Amenities"/>
+         <MT N="DCSext.level6" V="Government-to-government agreements"/>
+         <MT N="DCSext.level1" V="Employment, Business &amp; Economic Development"/>
+         <MT N="DCSext.level2" V="Economic Development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="City Terrace, Kitselas &amp; Kitsumkalum Success Story"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8BB4103983EB4C7B8A21C2AD2AECB801"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="108674.0"/>
+         <MT N="level5" V="Developing Lands and Community Amenities"/>
+         <MT N="level4" V="Success Stories"/>
+         <MT N="level6" V="Government-to-government agreements"/>
+         <MT N="current_page_id" V="9AADFE9BB4D74B1CA92DF2EA1A198A91"/>
+         <MT N="level1" V="Employment Business &amp; Economic Development"/>
+         <MT N="level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="level2" V="Economic Development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8EB2DD2AAE774FCB9D4D715A339904A0"/>
+         <MT N="navigaton_title" V="Government-to-government agreements"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="level5_id" V="35A7731E59D846A48344DE3C68FE43CB"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Development, Tax Revenue, and &lt;b&gt;Jobs&lt;/b&gt;
+Terrace
+The Challenge
+Economic development progress...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.13k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/elk-falls-bridge</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/elk-falls-bridge</UE>
+         <T>Community-Led Park Development Project Creates Jobs and Attracts Visitors to Elk Falls - Province of British Columbia</T>
+         <RK>59.84827140340975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-05-22"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1590189624000"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Rural communities"/>
+         <MT N="DCTERMS.subject" V="Local governments"/>
+         <MT N="DCTERMS.subject" V="Best practices"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Tourism"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="Elk Falls Suspension Bridge, Campbell River, economic development, Rotary Club of Campbell River, Elk Falls Provincial Park, BC Parks"/>
+         <MT N="DCSext.current_page" V="Elk Falls Suspension Bridge"/>
+         <MT N="mes:date" V="1590189624000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Community-Led Park Development Project Creates Jobs and Attracts Visitors to Elk Falls - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-09-30"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/elk-falls-bridge"/>
+         <MT N="DCTERMS.modified" V="2020-05-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Elk Falls Suspension Bridge"/>
+         <MT N="level6_id" V="380406092EAC4D4C9287402089BC4783"/>
+         <MT N="DCSext.level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="DCSext.level4" V="Success Stories"/>
+         <MT N="DCSext.level5" V="Developing Lands and Community Amenities"/>
+         <MT N="DCSext.level6" V="Elk Falls Suspension Bridge"/>
+         <MT N="DCSext.level1" V="Employment, Business &amp; Economic Development"/>
+         <MT N="DCSext.level2" V="Economic Development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Elk Falls Suspension Bridge Success Story"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8BB4103983EB4C7B8A21C2AD2AECB801"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111250.0"/>
+         <MT N="level5" V="Developing Lands and Community Amenities"/>
+         <MT N="level4" V="Success Stories"/>
+         <MT N="level6" V="Elk Falls Suspension Bridge"/>
+         <MT N="current_page_id" V="380406092EAC4D4C9287402089BC4783"/>
+         <MT N="level1" V="Employment Business &amp; Economic Development"/>
+         <MT N="level3" V="BC Ideas Exchange: Learn From Experts"/>
+         <MT N="level2" V="Economic Development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8EB2DD2AAE774FCB9D4D715A339904A0"/>
+         <MT N="navigaton_title" V="Elk Falls Suspension Bridge"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="level5_id" V="35A7731E59D846A48344DE3C68FE43CB"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Led Park Development Project Creates &lt;b&gt;Jobs&lt;/b&gt; and Attracts Visitors to Elk Falls
+Campbell...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.64k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/columbia-lake-technology-centre</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/columbia-lake-technology-centre</UE>
+         <T>A High-Tech Factory Brings Back Jobs to a Community on the Site of a Former Mill - Province of British Columbia</T>
+         <RK>59.84827140340975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-05-22"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1590189531000"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Trade and Technology"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Clean technology"/>
+         <MT N="DCTERMS.subject" V="Manufacturing industries"/>
+         <MT N="DCTERMS.subject" V="Data processing"/>
+         <MT N="DCTERMS.subject" V="Business development"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Community infrastructures"/>
+         <MT N="DCTERMS.subject" V="Business attraction"/>
+         <MT N="DCTERMS.subject" V="Investments"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="Canal Flats, data Centres, sawmill, technology, manufacturing"/>
+         <MT N="DCSext.current_page" V="Columbia Lake Technology Centre"/>
+         <MT N="mes:date" V="1590189531000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="A High-Tech Factory Brings Back Jobs to a Community on the Site of a Former Mill - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2019-08-07"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/columbia-lake-technology-centre"/>
+         <MT N="DCTERMS.modified" V="2020-05-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Trade and Technology"/>
+         <MT N="current_page" V="Columbia Lake Technology Centre"/>
+         <MT N="level6_id" V="13866B2971264009AC4AB27EBF37AB42"/>
+         <MT N="DCSext.level3" V="BC Ideas Exchange: Webinars and Success Stories"/>
+         <MT N="DCSext.level4" V="Success Stories"/>
+         <MT N="DCSext.level5" V="Developing Lands and Community Amenities"/>
+         <MT N="DCSext.level6" V="Columbia Lake Technology Centre"/>
+         <MT N="DCSext.level1" V="Employment, business and economic development"/>
+         <MT N="DCSext.level2" V="Economic development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="With the closure of the town’s largest employer, many Canal Flats residents were forced to leave to find work. Now, a partnership between the Village and two innovative companies has seen the former sawmill site revamped and high-paying jobs brought back to the community."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8BB4103983EB4C7B8A21C2AD2AECB801"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="113565.0"/>
+         <MT N="level5" V="Developing Lands and Community Amenities"/>
+         <MT N="level4" V="Success Stories"/>
+         <MT N="level6" V="Columbia Lake Technology Centre"/>
+         <MT N="current_page_id" V="13866B2971264009AC4AB27EBF37AB42"/>
+         <MT N="level1" V="Employment business and economic development"/>
+         <MT N="level3" V="BC Ideas Exchange: Webinars and Success Stories"/>
+         <MT N="level2" V="Economic development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="8EB2DD2AAE774FCB9D4D715A339904A0"/>
+         <MT N="navigaton_title" V="Columbia Lake Technology Centre"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="level5_id" V="35A7731E59D846A48344DE3C68FE43CB"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Factory Brings Back &lt;b&gt;Jobs&lt;/b&gt; to a Community on...comes down to &lt;b&gt;job&lt;/b&gt; creation. The need...providing high-paying &lt;b&gt;jobs&lt;/b&gt; in a growing sector</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.9k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/changing-jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/changing-jobs</UE>
+         <T>Changing Jobs - Province of British Columbia</T>
+         <RK>59.3575212279038</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577830296000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Changing Jobs, Starting a Job with Group Plan Administration of MSP, Leaving a Job with Group Plan Administration of MSP"/>
+         <MT N="DCSext.current_page" V="Changing Jobs"/>
+         <MT N="mes:date" V="1577830296000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Changing Jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/changing-jobs"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Changing Jobs"/>
+         <MT N="level6_id" V="45A5683A6FC64D7299E4FA17CAF5B625"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Managing Your MSP Account"/>
+         <MT N="DCSext.level6" V="Changing Jobs"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Changing Jobs"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="105107.0"/>
+         <MT N="level5" V="Managing Your MSP Account"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="level6" V="Changing Jobs"/>
+         <MT N="current_page_id" V="45A5683A6FC64D7299E4FA17CAF5B625"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="WT.cg_s" V="45A5683A6FC64D7299E4FA17CAF5B625"/>
+         <MT N="WT.cg_n" V="Health;Health &amp; Drug Coverage"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Changing Jobs"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="5FDD0B887BDC4D38925467A7462AADD6"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>or Children
+Changing &lt;b&gt;Jobs&lt;/b&gt;
+Updating or Confirming...Contact Us
+Changing &lt;b&gt;Jobs&lt;/b&gt;
+A company may...assistance.
+Starting a &lt;b&gt;Job&lt;/b&gt; with Group Plan...start a new &lt;b&gt;job&lt;/b&gt; that includes MSP...plan.
+Leaving a &lt;b&gt;Job&lt;/b&gt; with Group Plan</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="102.64k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/tourism-immigration/tourism-resources/training-finding-jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/tourism-immigration/tourism-resources/training-finding-jobs</UE>
+         <T>Training &amp; Finding Jobs in B.C.'s Tourism Sector - Province of British Columbia</T>
+         <RK>59.27627119884653</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-07-29"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1564432074000"/>
+         <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="DCTERMS.subject" V="Economic development"/>
+         <MT N="DCTERMS.subject" V="Tourism"/>
+         <MT N="level1_id" V="D6E183CFBFED46B282F80342BA3F69D0"/>
+         <MT N="keywords" V="BC's Tourism Sector,  tourism wages and salaries, tourism jobs, tourism careers, Tourism HR Canada, tourism workforce"/>
+         <MT N="DCSext.current_page" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector"/>
+         <MT N="mes:date" V="1564432074000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="C23ACCF34CB946A59C2BCCC7096BBCEA"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/tourism-immigration/tourism-resources/training-finding-jobs"/>
+         <MT N="DCTERMS.modified" V="2019-07-29"/>
+         <MT N="DCTERMS.creator" V="Ministry of Jobs Tourism and Skills Training"/>
+         <MT N="current_page" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector"/>
+         <MT N="DCSext.level3" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector"/>
+         <MT N="DCSext.level1" V="Tourism &amp; Immigration"/>
+         <MT N="DCSext.level2" V="Tourism Resources"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Use these resources to find tourism jobs and access job-related advice."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="FAC2278BEDD640D48B3D85AF5DFF39E2"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="97763.0"/>
+         <MT N="current_page_id" V="FAC2278BEDD640D48B3D85AF5DFF39E2"/>
+         <MT N="level1" V="Tourism &amp; Immigration"/>
+         <MT N="level3" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector"/>
+         <MT N="level2" V="Tourism Resources"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Training &amp; Finding Jobs in B.C.'s Tourism Sector"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>to find tourism &lt;b&gt;jobs&lt;/b&gt; and access &lt;b&gt;job&lt;/b&gt;-related advice.
+Explore...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="95.47k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/pea-jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/pea-jobs</UE>
+         <T>PEA Jobs - Province of British Columbia</T>
+         <RK>58.60827095995103</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-05-29"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1527612105000"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_salaries_enhancedSearch" V="myhrSalaries"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Occupations"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="activity workers, ayip, aboriginal, ayip salary, aboriginal youth internship program"/>
+         <MT N="DCSext.current_page" V="PEA Jobs"/>
+         <MT N="mes:date" V="1527612105000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="PEA Jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="015013A6A838410593D05F257E80CDCF"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-01-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/pea-jobs"/>
+         <MT N="DCTERMS.modified" V="2018-05-29"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="current_page" V="PEA Jobs"/>
+         <MT N="level6_id" V="F01C7EFA60BA47429EC470B48274A840"/>
+         <MT N="DCSext.level3" V="Pay &amp; Benefits"/>
+         <MT N="DCSext.level4" V="Salaries, Overtime &amp; Other Wages"/>
+         <MT N="DCSext.level5" V="Salary Look-up Tool"/>
+         <MT N="DCSext.level6" V="PEA Jobs"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="All Employees"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Responsible for performing duties in a specific skilled handicraft established under the Apprenticeship Act and requiring certification and vocational/apprenticeship training."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="1B7D1F2DB611456C8A475583D93CD94C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="101690.0"/>
+         <MT N="level5" V="Salary Look-up Tool"/>
+         <MT N="level4" V="Salaries Overtime &amp; Other Wages"/>
+         <MT N="level6" V="PEA Jobs"/>
+         <MT N="current_page_id" V="F01C7EFA60BA47429EC470B48274A840"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Pay &amp; Benefits"/>
+         <MT N="level2" V="All Employees"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="993CC7CB4EA1407E83238B040DB4B533"/>
+         <MT N="navigaton_title" V="PEA Jobs"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="level5_id" V="984B290B90FD447F99985C546E743CE2"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Personal Information
+PEA &lt;b&gt;Jobs&lt;/b&gt;
+Search test
+Search default...page for PEA &lt;b&gt;jobs&lt;/b&gt;</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="99.31k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/legal-judiciary</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/legal-judiciary</UE>
+         <T>Legal / Judiciary jobs - Province of British Columbia</T>
+         <RK>58.60827095995103</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-05-29"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1527612164000"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_salaries_enhancedSearch" V="myhrSalaries"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Occupations"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="Legal and judiciary jobs"/>
+         <MT N="DCSext.current_page" V="Legal / Judiciary jobs"/>
+         <MT N="mes:date" V="1527612164000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Legal / Judiciary jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="015013A6A838410593D05F257E80CDCF"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-01-13"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/legal-judiciary"/>
+         <MT N="DCTERMS.modified" V="2018-05-29"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="current_page" V="Legal / Judiciary jobs"/>
+         <MT N="level6_id" V="0A9E7483B3C34B028E72A8FB9CBF8BD3"/>
+         <MT N="DCSext.level3" V="Pay &amp; Benefits"/>
+         <MT N="DCSext.level4" V="Salaries, Overtime &amp; Other Wages"/>
+         <MT N="DCSext.level5" V="Salary Look-up Tool"/>
+         <MT N="DCSext.level6" V="Legal / Judiciary jobs"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="All Employees"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Legal and judiciary jobs"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="1B7D1F2DB611456C8A475583D93CD94C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="101622.0"/>
+         <MT N="level5" V="Salary Look-up Tool"/>
+         <MT N="level4" V="Salaries Overtime &amp; Other Wages"/>
+         <MT N="level6" V="Legal / Judiciary jobs"/>
+         <MT N="current_page_id" V="0A9E7483B3C34B028E72A8FB9CBF8BD3"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Pay &amp; Benefits"/>
+         <MT N="level2" V="All Employees"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="993CC7CB4EA1407E83238B040DB4B533"/>
+         <MT N="navigaton_title" V="Legal / Judiciary jobs"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="level5_id" V="984B290B90FD447F99985C546E743CE2"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Information
+Legal / Judiciary &lt;b&gt;jobs&lt;/b&gt;
+Search test
+Search default...for legal / judiciary &lt;b&gt;jobs&lt;/b&gt;</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="99.24k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/bcgeu-jobs</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/bcgeu-jobs</UE>
+         <T>BCGEU jobs - Province of British Columbia</T>
+         <RK>58.60827095995103</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-05-29"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1527609438000"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_salaries_enhancedSearch" V="myhrSalaries"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Occupations"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="bcgeu"/>
+         <MT N="DCSext.current_page" V="BCGEU jobs"/>
+         <MT N="mes:date" V="1527609438000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="BCGEU jobs - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="015013A6A838410593D05F257E80CDCF"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-02-21"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/salaries/salarylookuptool/bcgeu-jobs"/>
+         <MT N="DCTERMS.modified" V="2018-05-29"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="current_page" V="BCGEU jobs"/>
+         <MT N="level6_id" V="26A8EA8182C246BB8A21EE743E3CD0D3"/>
+         <MT N="DCSext.level3" V="Pay &amp; Benefits"/>
+         <MT N="DCSext.level4" V="Salaries, Overtime &amp; Other Wages"/>
+         <MT N="DCSext.level5" V="Salary Look-up Tool"/>
+         <MT N="DCSext.level6" V="BCGEU jobs"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="All Employees"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="bcgeu jobs"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="1B7D1F2DB611456C8A475583D93CD94C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="101371.0"/>
+         <MT N="level5" V="Salary Look-up Tool"/>
+         <MT N="level4" V="Salaries Overtime &amp; Other Wages"/>
+         <MT N="level6" V="BCGEU jobs"/>
+         <MT N="current_page_id" V="26A8EA8182C246BB8A21EE743E3CD0D3"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Pay &amp; Benefits"/>
+         <MT N="level2" V="All Employees"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="993CC7CB4EA1407E83238B040DB4B533"/>
+         <MT N="navigaton_title" V="BCGEU jobs"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="level5_id" V="984B290B90FD447F99985C546E743CE2"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Personal Information
+BCGEU &lt;b&gt;jobs&lt;/b&gt;
+Search test
+Search default...page for BCGEU &lt;b&gt;jobs&lt;/b&gt;</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="99k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://www2.gov.bc.ca/gov/content/data/statistics/government/employee-research/new-job-survey</U>
+         <UE>https://www2.gov.bc.ca/gov/content/data/statistics/government/employee-research/new-job-survey</UE>
+         <T>The New Job Survey - Province of British Columbia</T>
+         <RK>49.3667676549319</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-02-09"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1612893023165"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Surveys"/>
+         <MT N="DCTERMS.subject" V="Employees"/>
+         <MT N="DCTERMS.subject" V="Public service"/>
+         <MT N="DCTERMS.subject" V="Human resources"/>
+         <MT N="level1_id" V="1AE507FCE6A943199E9D2F8A7748B2B5"/>
+         <MT N="keywords" V="BC Stats, survey, research, employee research, public service"/>
+         <MT N="DCSext.current_page" V="About the New Job Survey"/>
+         <MT N="mes:date" V="1612893023000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="The New Job Survey - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="38F05F29D17349919D47C5FEFE3EC0E3"/>
+         <MT N="enhanced_search_enhancedSearch" V="statisticsEnhancedSearch"/>
+         <MT N="content_group_id" V="504338B55C8049FFB90623C13F744002"/>
+         <MT N="content_group_id" V="60B1D811D16746E1AFB4C9B019938537"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2017-09-13"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/data/statistics/government/employee-research/new-job-survey"/>
+         <MT N="DCTERMS.modified" V="2021-02-09"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="About the New Job Survey"/>
+         <MT N="DCSext.level3" V="Government"/>
+         <MT N="DCSext.level4" V="Employee Research"/>
+         <MT N="DCSext.level5" V="About the New Job Survey"/>
+         <MT N="DCSext.level1" V="Data"/>
+         <MT N="DCSext.level2" V="Statistics"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information about the BC Public Service New Job Survey"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="4DBCB3F757144B6AB57A4604A734171C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107044.0"/>
+         <MT N="level5" V="About the New Job Survey"/>
+         <MT N="level4" V="Employee Research"/>
+         <MT N="current_page_id" V="75F09873746941A392EDA956CE07FA15"/>
+         <MT N="level1" V="Data"/>
+         <MT N="level3" V="Government"/>
+         <MT N="level2" V="Statistics"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_data"/>
+         <MT N="content_group" V="CMF_gov_data_maintainer"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="CMF_ContentType" V="Statistics"/>
+         <MT N="level4_id" V="62547AD814584C54AFECA1BA90572AD1"/>
+         <MT N="navigaton_title" V="About the New Job Survey"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="MBCTERMS.subjectCategory" V="Society and Culture"/>
+         <MT N="level5_id" V="75F09873746941A392EDA956CE07FA15"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS.audience" V="Employers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>About the New &lt;b&gt;Job&lt;/b&gt; Survey
+About the...Profiles
+The New &lt;b&gt;Job&lt;/b&gt; Survey
+The New &lt;b&gt;Job&lt;/b&gt; Survey targets two...who have changed &lt;b&gt;jobs&lt;/b&gt;. Both groups provide...started a new &lt;b&gt;job&lt;/b&gt; in the B...into their new &lt;b&gt;job&lt;/b&gt; (and work environment...motivations for making &lt;b&gt;job&lt;/b&gt; changes? How do &lt;b&gt;job&lt;/b&gt; changes impact employees</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="104.54k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings/job-application</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings/job-application</UE>
+         <T>Your Job Application - Province of British Columbia</T>
+         <RK>48.46626733288789</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-12"/>
+         <MT N="query_id" V="50345488047958"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610474729645"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Job applications"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="search agent, job profile, resume, application for employment, CV"/>
+         <MT N="DCSext.current_page" V="Your Job Application"/>
+         <MT N="mes:date" V="1610474729000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Your Job Application - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="content_group_id" V="CE385D1D7A0F4C6F8CF90895950CF6A4"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="DCTERMS.created" V="2016-01-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings/job-application"/>
+         <MT N="DCTERMS.modified" V="2020-04-08"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Employment resumes"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Your Job Application"/>
+         <MT N="bcpsa_contentTypes" V="Guides"/>
+         <MT N="DCSext.level3" V="Current Job Postings"/>
+         <MT N="DCSext.level4" V="Your Job Application"/>
+         <MT N="DCSext.level1" V="Careers and MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information on how to create a personal profile which is used as a resume when you apply for a position in the BC Public Service."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="C83F5C6FD99E4C47A743D51A624D6018"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="118402.0"/>
+         <MT N="level4" V="Your Job Application"/>
+         <MT N="current_page_id" V="292C37CB046741CDBF00F7B12791F42B"/>
+         <MT N="level1" V="Careers and MyHR"/>
+         <MT N="level3" V="Current Job Postings"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="content_group" V="CMF_gov_PSA_Analytics"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="CMF_ContentType" V="Handbooks Standards and Guides"/>
+         <MT N="level4_id" V="292C37CB046741CDBF00F7B12791F42B"/>
+         <MT N="navigaton_title" V="Your Job Application"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Careers and MyHR &lt;b&gt;Job&lt;/b&gt; Seekers Current &lt;b&gt;Job&lt;/b&gt; Postings
+     		Section Navigation...for Opportunities
+Your &lt;b&gt;Job&lt;/b&gt; Application
+Executive Opportunities...a Position
+Your &lt;b&gt;Job&lt;/b&gt; Application
+To apply...BC Public Service &lt;b&gt;job&lt;/b&gt;, you must have...applying for a &lt;b&gt;job&lt;/b&gt;. We recommend that...you view the &lt;b&gt;job&lt;/b&gt; posting details first...to understand the &lt;b&gt;job&lt;/b&gt; requirements and what...with your application.
+&lt;b&gt;Job&lt;/b&gt; postings will indicate</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.63k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Theme" IR="0" NM="level1" T="0"><PV C="434" H="" L="" V="Careers &amp; MyHR"/><PV C="414" H="" L="" V="Data"/><PV C="371" H="" L="" V="Employment Business &amp; Economic Development"/><PV C="265" H="" L="" V="Employment business and economic development"/><PV C="262" H="" L="" V="British Columbians and our governments"/><PV C="140" H="" L="" V="British Columbians &amp; Our Governments"/><PV C="96" H="" L="" V="Careers and MyHR"/><PV C="95" H="" L="" V="Farming natural resources and industry"/><PV C="55" H="" L="" V="Law Crime &amp; Justice"/><PV C="41" H="" L="" V="Birth Adoption Death Marriage &amp; Divorce"/><PV C="31" H="" L="" V="Health"/><PV C="27" H="" L="" V="Education &amp; Training"/><PV C="26" H="" L="" V="Education and training"/><PV C="25" H="" L="" V="Environmental protection and sustainability"/><PV C="22" H="" L="" V="Family and social supports"/><PV C="19" H="" L="" V="Law crime and justice"/><PV C="16" H="" L="" V="Farming Natural Resources &amp; Industry"/><PV C="14" H="" L="" V="Taxes and tax credits"/><PV C="13" H="" L="" V="Family &amp; Social Supports"/><PV C="13" H="" L="" V="Driving &amp; Transportation"/><PV C="12" H="" L="" V="Birth adoption death marriage and divorce"/><PV C="11" H="" L="" V="Tourism &amp; Immigration"/><PV C="10" H="" L="" V="Public safety and emergency services"/><PV C="8" H="" L="" V="Driving and transportation"/><PV C="7" H="" L="" V="Sports Recreation Arts &amp; Culture"/><PV C="7" H="" L="" V="Public Safety &amp; Emergency Services"/><PV C="7" H="" L="" V="Economic recovery"/><PV C="7" H="" L="" V="COVID-19"/><PV C="6" H="" L="" V="Housing and tenancy"/><PV C="5" H="" L="" V="Tourism and immigration"/><PV C="3" H="" L="" V="Sports recreation arts and culture"/><PV C="3" H="" L="" V="Home"/><PV C="3" H="" L="" V="Gender Equity in B.C."/><PV C="3" H="" L="" V="Export Catalogue"/><PV C="1" H="" L="" V="Taxes &amp; Tax Credits"/><PV C="1" H="" L="" V="Revenue Services Transition Project"/><PV C="1" H="" L="" V="Minimum Wage Home"/><PV C="1" H="" L="" V="Kicking Horse Canyon Project"/><PV C="1" H="" L="" V="erase"/></PMT>
+      </PARM>
+   </RES>
+</GSP>
