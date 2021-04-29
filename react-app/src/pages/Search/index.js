@@ -155,8 +155,10 @@ function useQuery() {
 function Search() {
   const [state, setState] = useState({
     query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
+    page: parseInt(useQuery().get("page"), 10) || 0, // Page parameter is in the form `?page=2`
     isLoading: useQuery().get("q") ? true : false,
-    results: {},
+    resultsObj: {},
+    resultsArr: [],
     resultsCount: 0,
     firstResultShown: 0,
     lastResultShown: 0,
@@ -180,12 +182,76 @@ function Search() {
     if (state?.query !== state?.newQuery) {
       history.push(`/search?q=${state.newQuery}`);
       setState({
+        ...state,
         query: state?.newQuery,
+        page: 0,
         isLoading: state?.newQuery ? true : false,
-        results: {},
+        resultsObj: {},
+        resultsArr: [],
+        resultsCount: 0,
+        firstResultShown: 0,
+        lastResultShown: 0,
         newQuery: state?.newQuery,
       });
     }
+  }
+
+  // API call to get additional results for the same query
+  function getMoreResults(event) {
+    event.preventDefault();
+
+    const params = {
+      q: state?.query,
+      page: state?.page + 1,
+    };
+
+    // GET request to the search API with same query and new page number
+    axios.get("/api/search", { params }).then((res) => {
+      // Parse XML response into JSON object
+      let parser = new xml2js.Parser();
+      parser.parseString(res?.data, (err, results) => {
+        if (!err) {
+          // Push new results to the results array
+          let newResultsArr = [...state?.resultsArr];
+          if (
+            results?.GSP?.RES &&
+            results?.GSP?.RES.length > 0 &&
+            results?.GSP?.RES[0]?.R?.length > 0
+          ) {
+            newResultsArr = [...newResultsArr, ...results?.GSP?.RES[0]?.R];
+          }
+
+          // Update the last result shown
+          let last = state?.lastResultShown;
+          if (
+            results?.GSP?.RES &&
+            results?.GSP?.RES?.length > 0 &&
+            results?.GSP?.RES[0]?.$?.SN &&
+            results?.GSP?.RES[0]?.$?.EN
+          ) {
+            last = parseInt(results?.GSP?.RES[0].$?.EN, 10);
+          }
+
+          // Update the page number
+          let page = state?.page;
+
+          if (
+            results?.GSP?.RES &&
+            results?.GSP?.RES.length > 0 &&
+            results?.GSP?.RES[0]?.R?.length > 0
+          ) {
+            page = parseInt(state?.page + 1, 10);
+          }
+
+          setState({
+            ...state,
+            resultsArr: newResultsArr,
+            lastResultShown: last,
+            page: page,
+          });
+        }
+      });
+    });
   }
 
   function getResultFileIcon(mimeType) {
@@ -239,51 +305,70 @@ function Search() {
   }
 
   useEffect(() => {
-    // GET request to the search API using the query
-    axios.get(`/api/search?q=${state?.query}`).then((res) => {
-      // Parse XML response into JSON object
-      let parser = new xml2js.Parser();
-      parser.parseString(res?.data, (err, results) => {
-        if (err) {
-          setState({
-            ...state,
-            isLoading: false,
-          });
-        } else {
-          // Update the resultsCount if the response includes a count
-          let count = state?.resultsCount;
-          if (
-            results?.GSP?.RES &&
-            results?.GSP?.RES.length > 0 &&
-            results?.GSP?.RES[0]?.M[0]
-          ) {
-            count = parseInt(results?.GSP?.RES[0]?.M[0], 10);
-          }
+    if (state?.query) {
+      const params = {
+        q: state?.query,
+        page: state?.page === 0 ? 1 : state?.page,
+      };
 
-          // Update the first and last result shown
-          let first = state?.firstResultShown;
-          let last = state?.lastResultShown;
-          if (
-            results?.GSP?.RES &&
-            results?.GSP?.RES?.length > 0 &&
-            results?.GSP?.RES[0].$?.SN &&
-            results?.GSP?.RES[0].$?.EN
-          ) {
-            first = 1; // Assumes we are adding results to a growing list
-            last = parseInt(results?.GSP?.RES[0].$?.EN, 10);
-          }
+      // GET request to the search API using the query
+      axios.get("/api/search", { params }).then((res) => {
+        // Parse XML response into JSON object
+        let parser = new xml2js.Parser();
+        parser.parseString(res?.data, (err, results) => {
+          if (err) {
+            setState({
+              ...state,
+              isLoading: false,
+            });
+          } else {
+            // Push results into an array for display
+            let newResultsArr = [...(state?.resultsArr || [])];
+            if (
+              results?.GSP?.RES &&
+              results?.GSP?.RES.length > 0 &&
+              results?.GSP?.RES[0]?.R?.length > 0
+            ) {
+              newResultsArr = [...newResultsArr, ...results?.GSP?.RES[0]?.R];
+            }
 
-          setState({
-            ...state,
-            isLoading: false,
-            results: results,
-            resultsCount: count,
-            firstResultShown: first,
-            lastResultShown: last,
-          });
-        }
+            // Update the resultsCount if the response includes a count
+            let count = state?.resultsCount;
+            if (
+              results?.GSP?.RES &&
+              results?.GSP?.RES.length > 0 &&
+              results?.GSP?.RES[0]?.M[0]
+            ) {
+              count = parseInt(results?.GSP?.RES[0]?.M[0], 10);
+            }
+
+            // Update the first and last result shown
+            let first = state?.firstResultShown;
+            let last = state?.lastResultShown;
+            if (
+              results?.GSP?.RES &&
+              results?.GSP?.RES?.length > 0 &&
+              results?.GSP?.RES[0]?.$?.SN &&
+              results?.GSP?.RES[0]?.$?.EN
+            ) {
+              first = 1; // Assumes we are adding results to a growing list
+              last = parseInt(results?.GSP?.RES[0].$?.EN, 10);
+            }
+
+            setState({
+              ...state,
+              isLoading: false,
+              resultsObj: results,
+              resultsArr: newResultsArr,
+              resultsCount: count,
+              firstResultShown: first,
+              lastResultShown: last,
+              page: state?.page + 1, // Assumes we are not navigating straight to a page of results
+            });
+          }
+        });
       });
-    });
+    }
   }, [state.query]);
 
   return (
@@ -329,9 +414,7 @@ function Search() {
         <p className="results-found">
           Showing {new Intl.NumberFormat().format(state?.firstResultShown)}-
           {new Intl.NumberFormat().format(state?.lastResultShown)} of{" "}
-          <strong>
-            {new Intl.NumberFormat().format(state?.results?.GSP?.RES[0]?.M)}
-          </strong>{" "}
+          <strong>{new Intl.NumberFormat().format(state?.resultsCount)}</strong>{" "}
           results
         </p>
       )}
@@ -350,8 +433,8 @@ function Search() {
       {/* List of results if applicable */}
       {!state?.isLoading &&
         state?.resultsCount > 0 &&
-        state?.results?.GSP?.RES.length > 0 &&
-        state?.results?.GSP?.RES[0]?.R?.map((result, index) => {
+        state?.resultsObj?.GSP?.RES.length > 0 &&
+        state?.resultsObj?.GSP?.RES[0]?.R?.map((result, index) => {
           return (
             <div className="result" key={`result-${index}`}>
               <div className="text">
@@ -382,8 +465,8 @@ function Search() {
       {!state?.isLoading && state?.lastResultShown < state?.resultsCount && (
         <div className="load-more">
           <button
-            onClick={() => {
-              alert("Loading more results");
+            onClick={(e) => {
+              getMoreResults(e);
             }}
           >
             Load more results
@@ -394,8 +477,8 @@ function Search() {
       {/* Message indicating no results if applicable */}
       {!state?.isLoading &&
         state?.query?.length > 0 &&
-        Object.keys(state?.results).length > 0 &&
-        !state?.results?.GSP?.hasOwnProperty("RES") && (
+        Object.keys(state?.resultsObj).length > 0 &&
+        !state?.resultsObj?.GSP?.hasOwnProperty("RES") && (
           <div className="no-results">
             <p>
               Your search - <strong>{state.query}</strong> - did not match any
