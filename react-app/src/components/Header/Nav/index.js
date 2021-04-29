@@ -5,8 +5,8 @@ import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import SearchButton from "./SearchButton";
-import UserPanel from "./UserPanel";
-import LanguagePicker from "./LanguagePicker";
+// import UserPanel from "./UserPanel";
+// import LanguagePicker from "./LanguagePicker";
 import { ReactComponent as HamburgerIcon } from "../../assets/bars-solid.svg";
 
 const NavStyled = styled.nav`
