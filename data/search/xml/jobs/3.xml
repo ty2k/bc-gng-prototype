@@ -8,7 +8,7 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="jobs" value="jobs"/>
    <RES EN="30" SN="21">
-      <M>11300</M>
+      <M>30</M>
       <FI/>
       <NB>
          <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=10</PU>
