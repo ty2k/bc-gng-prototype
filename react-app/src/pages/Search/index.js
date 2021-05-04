@@ -159,107 +159,109 @@ function useQuery() {
 }
 
 function Search() {
-  const [state, setState] = useState({
-    query: useQuery().get("q") || "", // Query parameter is in the form `?q=example`
-    page: parseInt(useQuery().get("page"), 10) || 0, // Page parameter is in the form `?page=2`
-    isLoading: useQuery().get("q") ? true : false,
-    resultsObj: {},
-    resultsArr: [],
-    resultsCount: 0,
-    firstResultShown: 0,
-    lastResultShown: 0,
-    newQuery: useQuery().get("q") || "",
-  });
+  // Query parameter is in the form `?q=example`
+  const [query, setQuery] = useState(useQuery().get("q") || "");
+
+  // `newQuery` represents a potential new search set by the state of the
+  // on-page SearchBar component
+  const [newQuery, setNewQuery] = useState("");
+
+  const [page, setPage] = useState(0);
+  const [isLoading, setIsLoading] = useState(
+    useQuery().get("q") ? true : false
+  );
+  const [isNoResultsFound, setIsNoResultsFound] = useState(false);
+  const [results, setResults] = useState([]);
+  const [resultsCount, setResultsCount] = useState(0);
+  const [lastResultShown, setLastResultShown] = useState(null);
 
   let history = useHistory();
 
   // Callback provided to SearchBar to update state with text field input
   function updateNewQuery(input) {
-    setState({
-      ...state,
-      newQuery: input,
-    });
+    setNewQuery(input);
   }
 
-  // Callback provided to SearchBar to conduct a new search
+  // Callback provided to SearchBar to conduct a new search, reseting our state
   function submitNewQuery(event) {
     event.preventDefault();
     // Don't do a new search with the same query
-    if (state?.query !== state?.newQuery) {
-      history.push(`/search?q=${state.newQuery}`);
-      setState({
-        ...state,
-        query: state?.newQuery,
-        page: 0,
-        isLoading: state?.newQuery ? true : false,
-        resultsObj: {},
-        resultsArr: [],
-        resultsCount: 0,
-        firstResultShown: 0,
-        lastResultShown: 0,
-        newQuery: state?.newQuery,
-      });
+    if (newQuery && newQuery !== query) {
+      history.push(`/search?q=${newQuery}`);
+      setQuery(newQuery);
+      setPage(0);
+      setIsLoading(true);
+      setIsNoResultsFound(false);
+      setResults([]);
+      setResultsCount(0);
+      setLastResultShown(null);
     }
   }
 
-  // API call to get additional results for the same query
-  function getMoreResults(event) {
-    event.preventDefault();
-
-    setState({ ...state, isLoading: true });
+  // Make Search API call and store results in state
+  function getResults() {
+    setIsLoading(true);
 
     const params = {
-      q: state?.query,
-      page: state?.page + 1,
+      q: query,
+      page: page + 1,
     };
 
-    // GET request to the search API with same query and new page number
+    // GET request to the search API
     axios.get("/api/search", { params }).then((res) => {
       // Parse XML response into JSON object
       let parser = new xml2js.Parser();
       parser.parseString(res?.data, (err, res) => {
         if (err) {
-          setState({ ...state, isLoading: false });
+          setIsLoading(false);
+          // TODO: Error handling for UI
         } else {
           // Push new results to the results array
-          let newResultsArr = [...state?.resultsArr];
+          let newResults = [...results];
           if (
             res?.GSP?.RES &&
             res?.GSP?.RES.length > 0 &&
             res?.GSP?.RES[0]?.R?.length > 0
           ) {
-            newResultsArr = [...newResultsArr, ...res?.GSP?.RES[0]?.R];
+            newResults = [...newResults, ...res?.GSP?.RES[0]?.R];
+          }
+
+          // Update the resultsCount
+          let count = resultsCount;
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES.length > 0 &&
+            res?.GSP?.RES[0]?.M[0]
+          ) {
+            count = parseInt(res?.GSP?.RES[0]?.M[0], 10);
           }
 
           // Update the last result shown
-          let last = state?.lastResultShown;
+          let newLast = lastResultShown;
           if (
             res?.GSP?.RES &&
             res?.GSP?.RES?.length > 0 &&
-            res?.GSP?.RES[0]?.$?.SN &&
             res?.GSP?.RES[0]?.$?.EN
           ) {
-            last = parseInt(res?.GSP?.RES[0].$?.EN, 10);
+            newLast = parseInt(res?.GSP?.RES[0].$?.EN, 10);
           }
 
           // Update the page number
-          let page = state?.page;
-
+          let newPage = page;
           if (
             res?.GSP?.RES &&
             res?.GSP?.RES.length > 0 &&
             res?.GSP?.RES[0]?.R?.length > 0
           ) {
-            page = parseInt(state?.page + 1, 10);
+            newPage = parseInt(page + 1, 10);
           }
 
-          setState({
-            ...state,
-            isLoading: false,
-            resultsArr: newResultsArr,
-            lastResultShown: last,
-            page: page,
-          });
+          setIsLoading(false);
+          setIsNoResultsFound(newResults.length > 0 ? false : true);
+          setResults(newResults);
+          setResultsCount(count);
+          setLastResultShown(newLast);
+          setPage(newPage);
         }
       });
     });
@@ -318,102 +320,44 @@ function Search() {
     );
   }
 
+  // Run on first render and each time `query` changes
   useEffect(() => {
-    if (state?.query) {
-      const params = {
-        q: state?.query,
-        page: state?.page === 0 ? 1 : state?.page,
-      };
-
-      // GET request to the search API using the query
-      axios.get("/api/search", { params }).then((res) => {
-        // Parse XML response into JSON object
-        let parser = new xml2js.Parser();
-        parser.parseString(res?.data, (err, res) => {
-          if (err) {
-            setState({
-              ...state,
-              isLoading: false,
-            });
-          } else {
-            // Push results into an array for display
-            let newResultsArr = [...(state?.resultsArr || [])];
-            if (
-              res?.GSP?.RES &&
-              res?.GSP?.RES.length > 0 &&
-              res?.GSP?.RES[0]?.R?.length > 0
-            ) {
-              newResultsArr = [...newResultsArr, ...res?.GSP?.RES[0]?.R];
-            }
-
-            // Update the resultsCount if the response includes a count
-            let count = state?.resultsCount;
-            if (
-              res?.GSP?.RES &&
-              res?.GSP?.RES.length > 0 &&
-              res?.GSP?.RES[0]?.M[0]
-            ) {
-              count = parseInt(res?.GSP?.RES[0]?.M[0], 10);
-            }
-
-            // Update the first and last result shown
-            let first = state?.firstResultShown;
-            let last = state?.lastResultShown;
-            if (
-              res?.GSP?.RES &&
-              res?.GSP?.RES?.length > 0 &&
-              res?.GSP?.RES[0]?.$?.SN &&
-              res?.GSP?.RES[0]?.$?.EN
-            ) {
-              first = 1; // Assumes we are adding results to a growing list
-              last = parseInt(res?.GSP?.RES[0].$?.EN, 10);
-            }
-
-            setState({
-              ...state,
-              isLoading: false,
-              resultsObj: res,
-              resultsArr: newResultsArr,
-              resultsCount: count,
-              firstResultShown: first,
-              lastResultShown: last,
-              page: state?.page + 1, // Assumes we are not navigating straight to a page of results
-            });
-          }
-        });
-      });
+    if (query) {
+      getResults();
     }
-  }, [state.query]);
+    // TODO: Leaving getResults out of the dependencies array below will throw
+    // an ESLint warning. Including it will cause an infinite loop because of
+    // all the dependencies on stateful variables in getResults(). Come back
+    // to this after more experience with this hook.
+  }, [query]);
 
   return (
     <StyledSearchResults>
       {/* Page metadata */}
       <Helmet>
         <title>
-          {state?.query?.length > 0
-            ? `Search results for "${state?.query}"`
-            : "Search"}
+          {query?.length > 0 ? `Search results for "${query}"` : "Search"}
         </title>
         <meta
           name={"description"}
           content={
-            state?.query?.length > 0
-              ? `Search results for "${state?.query}"`
+            query?.length > 0
+              ? `Search results for "${query}"`
               : `Search gov.bc.ca`
           }
         />
       </Helmet>
 
       {/* Page title */}
-      {state?.query?.length > 0 ? (
+      {query?.length > 0 ? (
         <h1>
-          Search results for <strong>{`"${state.query}"`}</strong>
+          Search results for <strong>{`"${query}"`}</strong>
         </h1>
       ) : (
         <h1>Search</h1>
       )}
       <SearchBar
-        initialInput={state?.query}
+        initialInput={query}
         onButtonClick={(event) => {
           submitNewQuery(event);
         }}
@@ -421,17 +365,16 @@ function Search() {
       />
 
       {/* Count of results found */}
-      {state?.resultsCount > 0 && (
+      {resultsCount > 0 && (
         <p className="results-found">
-          Showing {new Intl.NumberFormat().format(state?.firstResultShown)}-
-          {new Intl.NumberFormat().format(state?.lastResultShown)} of{" "}
-          <strong>{new Intl.NumberFormat().format(state?.resultsCount)}</strong>{" "}
+          Showing 1-{new Intl.NumberFormat().format(lastResultShown)} of{" "}
+          <strong>{new Intl.NumberFormat().format(resultsCount)}</strong>{" "}
           results
         </p>
       )}
 
       {/* Filter menu */}
-      {state?.resultsCount > 0 && (
+      {resultsCount > 0 && (
         <div className="filter-menu">
           <button className="active">All</button>
           <button>Services</button>
@@ -442,9 +385,9 @@ function Search() {
       )}
 
       {/* List of results if applicable */}
-      {state?.resultsCount > 0 &&
-        state?.resultsArr?.length > 0 &&
-        state?.resultsArr.map((result, index) => {
+      {resultsCount > 0 &&
+        results?.length > 0 &&
+        results.map((result, index) => {
           return (
             <div className="result" key={`result-${index}`}>
               <div className="text">
@@ -475,12 +418,12 @@ function Search() {
         })}
 
       {/* Load more results button */}
-      {state?.lastResultShown < state?.resultsCount && (
+      {lastResultShown < resultsCount && (
         <div className="load-more">
           <button
-            disabled={state?.isLoading}
-            onClick={(e) => {
-              getMoreResults(e);
+            disabled={isLoading}
+            onClick={() => {
+              getResults();
             }}
           >
             Load more results
@@ -489,29 +432,26 @@ function Search() {
       )}
 
       {/* Message indicating no results if applicable */}
-      {state?.resultsArr?.length === 0 &&
-        state?.query?.length > 0 &&
-        Object.keys(state?.resultsObj).length > 0 &&
-        !state?.resultsObj?.GSP?.hasOwnProperty("RES") && (
-          <div className="no-results">
-            <p>
-              Your search - <strong>{state.query}</strong> - did not match any
-              documents.
-            </p>
-            <p>Suggestions:</p>
-            <ul>
-              <li>Make sure all words are spelled correctly.</li>
-              <li>
-                Try a different keyword like <strong>"MSP"</strong> or{" "}
-                <strong>"jobs"</strong>.
-              </li>
-              <li>Try more generic keywords.</li>
-            </ul>
-          </div>
-        )}
+      {isNoResultsFound && (
+        <div className="no-results">
+          <p>
+            Your search - <strong>{query}</strong> - did not match any
+            documents.
+          </p>
+          <p>Suggestions:</p>
+          <ul>
+            <li>Make sure all words are spelled correctly.</li>
+            <li>
+              Try a different keyword like <strong>"MSP"</strong> or{" "}
+              <strong>"jobs"</strong>.
+            </li>
+            <li>Try more generic keywords.</li>
+          </ul>
+        </div>
+      )}
 
       {/* LoadSpinner until the API request is completed */}
-      {state?.isLoading && <LoadSpinner />}
+      {isLoading && <LoadSpinner />}
     </StyledSearchResults>
   );
 }
