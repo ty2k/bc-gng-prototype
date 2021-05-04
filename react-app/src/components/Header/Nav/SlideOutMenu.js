@@ -6,9 +6,9 @@ import styled from "styled-components";
 import constructionMessage from "../../../pages/Under-Construction/message";
 import Alert from "../Alert";
 
-import { ReactComponent as PersonIcon } from "../../assets/ionic-md-person.svg";
+// import { ReactComponent as PersonIcon } from "../../assets/ionic-md-person.svg";
 import { ReactComponent as SearchIcon } from "../../assets/search-solid.svg";
-import { ReactComponent as LanguageIcon } from "../../assets/language-solid.svg";
+// import { ReactComponent as LanguageIcon } from "../../assets/language-solid.svg";
 
 const Cover = styled.div`
   background: rgba(0, 0, 0, 0.7);

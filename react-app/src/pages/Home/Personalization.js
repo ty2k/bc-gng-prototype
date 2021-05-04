@@ -300,7 +300,9 @@ function Personalization({ personalization, parentCallback, searchTerm }) {
                     );
                   }
 
-                  // return null;
+                  // .map() expects an explicit return value, and React will
+                  // throw a warning if this is not present
+                  return null;
                 })}
 
               {/* Right arrow to display more columns when there are 5 or more */}

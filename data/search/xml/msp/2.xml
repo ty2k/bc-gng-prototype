@@ -8,7 +8,7 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="msp" value="msp"/>
    <RES EN="20" SN="11">
-      <M>597</M>
+      <M>20</M>
       <FI/>
       <NB>
          <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;num=10&amp;start=0</PU>
