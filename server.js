@@ -30,7 +30,7 @@ app.get('/api/services', function(req, res) {
 // API route to serve Search data to React client
 app.get('/api/search', function(req, res) {
   const userQuery = req.query.q;
-  const pageRequested = req.query.page || 1;
+  const pageRequested = req.query.page > 1 ? req.query.page : 1;
 
   // Check for poison null byte in query
   if (userQuery.indexOf('\0') !== -1) {
