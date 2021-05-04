@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import MediaQuery from "react-responsive";
 import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
@@ -10,9 +11,14 @@ import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
 
 const StyledSearchResults = styled.div`
-  max-width: 767px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 0 120px 0;
+
+  @media (max-width: 768px) {
+    margin-left: min(16px, 50%);
+    margin-right: min(16px, 50%);
+  }
 
   h1 {
     font-size: 36px;
@@ -62,6 +68,33 @@ const StyledSearchResults = styled.div`
       &:hover {
         cursor: pointer;
         text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        margin: 0 7px;
+
+        /* On mobile, the More Filters button becomes a funnel icon */
+        &#more-filters {
+          border-bottom: none;
+          height: 44px;
+          width: 44px;
+
+          svg {
+            color: #313132;
+            display: inline;
+            height: 24px;
+            margin: auto;
+          }
+
+          &:hover {
+            background-color: #dedede;
+          }
+        }
+      }
+
+      @media (max-width: 576px) {
+        margin: 0 3px;
+        padding: 5px 2px;
       }
     }
   }
@@ -380,7 +413,12 @@ function Search() {
           <button>Services</button>
           <button>News</button>
           <button>Documents</button>
-          <button>More Filters</button>
+          <button id="more-filters" aria-label="More Filters">
+            <MediaQuery maxWidth={"575px"}>
+              <Icon id={"filter-solid.svg"} />
+            </MediaQuery>
+            <MediaQuery minWidth={"576px"}>More Filters</MediaQuery>
+          </button>
         </div>
       )}
 
