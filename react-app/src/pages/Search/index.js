@@ -414,10 +414,10 @@ function Search() {
           <button>News</button>
           <button>Documents</button>
           <button id="more-filters" aria-label="More Filters">
-            <MediaQuery maxWidth={"575px"}>
+            <MediaQuery maxWidth={"768px"}>
               <Icon id={"filter-solid.svg"} />
             </MediaQuery>
-            <MediaQuery minWidth={"576px"}>More Filters</MediaQuery>
+            <MediaQuery minWidth={"769px"}>More Filters</MediaQuery>
           </button>
         </div>
       )}
