@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>5.323000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="20" SN="11">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=0</PU>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=20</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2013JTST0011-000142</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0011-000142</UE>
+         <T>'BC Jobs Start Here' job fair coming to Delta | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-01-29"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835156000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1359446400000"/>
+         <MT N="title" V="'BC Jobs Start Here' job fair coming to Delta | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064954"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0011-000142"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The 'BC Jobs Start Here' job fair will be in Delta on Thursday, Jan. 31 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112595.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>
+The 'BC Jobs Start Here' job fair will be in Delta on Thursday, Jan. 31 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, i...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.96k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2013JTST0031-000267</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0031-000267</UE>
+         <T>BC Jobs Start Here job fair coming to Kimberley | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-16"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835292000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1361001600000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Kimberley | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064836"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0031-000267"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Kimberley on Tuesday, Feb. 19 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112335.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Kimberley on Tuesday, Feb. 19 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, i...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.7k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2013JTST0028-000242</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0028-000242</UE>
+         <T>BC Jobs Start Here job fair coming to Osoyoos | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-12"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835316000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1360656000000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Osoyoos | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065124"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0028-000242"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Osoyoos on Thursday, Feb. 14 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112418.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Osoyoos on Thursday, Feb. 14 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, in...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.78k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2013JTST0057-000514</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0057-000514</UE>
+         <T>BC Jobs Start Here job fair coming to Smithers | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-03-16"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835325000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1363417200000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Smithers | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065124"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0057-000514"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Smithers on Monday, March 18 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112534.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Smithers on Monday, March 18 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, in...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.9k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2013JTST0058-000518</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0058-000518</UE>
+         <T>BC Jobs Start Here job fair coming to Terrace | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-03-18"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835597000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1363590000000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Terrace | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065552"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0058-000518"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Terrace on Wednesday, March 20, 2013, to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112476.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Terrace on Wednesday, March 20, 2013, to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institu...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.84k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2015SDSI0015-000495</U>
+         <UE>https://news.gov.bc.ca/releases/2015SDSI0015-000495</UE>
+         <T>Chilliwack jobs training program gives trainees a lift | BC Gov News</T>
+         <RK>71.12102543486074</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-04-10"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835397000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Community and Employer Partnerships, WorkBC, eployment services centres, industrial manufacturing, job training, skills development, "/>
+         <MT N="mes:date" V="1428649200000"/>
+         <MT N="title" V="Chilliwack jobs training program gives trainees a lift | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065320"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015SDSI0015-000495"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Future heavy industrial manufacturing workers will soon be hard at work in the classroom and on the jobsite, thanks to a new employment training program at Chilliwack`s Mussell Crane Manufacturing."/>
+         <MT N="mes:size" V="116756.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Future heavy industrial manufacturing workers will soon be hard at work in the classroom and on the jobsite, thanks to a new employment training program at Chilliwack`s Mussell Crane Manufacturing.
+The project is supported by more than $360,000 in provincial funding. As part of government`s Communi...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="114.02k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2014SDSI0078-001750</U>
+         <UE>https://news.gov.bc.ca/releases/2014SDSI0078-001750</UE>
+         <T>Lake Babine Nation benefits from biomass jobs partnership | BC Gov News</T>
+         <RK>71.12102543486074</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-11-20"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835616000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="jobs, job creation partnership, Burns Lake, Tachet, Fort Babine, Employment Program of BC, Community and Employer Partnerships"/>
+         <MT N="mes:date" V="1416470400000"/>
+         <MT N="title" V="Lake Babine Nation benefits from biomass jobs partnership | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065520"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014SDSI0078-001750"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Eight local people are getting work experience in forestry practices and the Lake Babine Nation is taking another step toward energy self-sufficiency, thanks to a partnership with the Government of B.C. worth more than $110,000 in funding."/>
+         <MT N="mes:size" V="116529.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>BURNS LAKE - Eight local people are getting work experience in forestry practices and the Lake Babine Nation is taking another step toward energy self-sufficiency, thanks to a partnership with the Government of B.C. worth more than $110,000 in funding.
+Over the course of a 47-week Job Creation partn...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.8k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2017JTST0005-000049</U>
+         <UE>https://news.gov.bc.ca/releases/2017JTST0005-000049</UE>
+         <T>BC Jobs Plan sets the stage for job and economic growth in 2017 | BC Gov News</T>
+         <RK>70.7410252989621</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-01-12"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834886000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="BC Jobs Plan, job creation, economy, employment, skills training, education, Skills for Jobs Blueprint, Climate Leadership Plan, #BCTech Strategy, "/>
+         <MT N="mes:date" V="1484208000000"/>
+         <MT N="title" V="BC Jobs Plan sets the stage for job and economic growth in 2017 | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064211"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017JTST0005-000049"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Province of British Columbia finished 2016 with a record number of jobs created, the lowest unemployment rate in Canada, expanded economic activity and increased exports in key market sectors."/>
+         <MT N="mes:size" V="115501.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The Province of British Columbia finished 2016 with a record number of jobs created, the lowest unemployment rate in Canada, expanded economic activity and increased exports in key market sectors.
+With the start of a new year, British Columbia will continue to focus on the long-term goals set out in...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.79k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/releases/2014JTST0020-000398</U>
+         <UE>https://news.gov.bc.ca/releases/2014JTST0020-000398</UE>
+         <T>Governments of Canada and British Columbia take action to create jobs | BC Gov News</T>
+         <RK>70.56802523709246</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-03-31"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834994000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="jobs, job plan, employment, skills training, MOU"/>
+         <MT N="mes:date" V="1396249200000"/>
+         <MT N="title" V="Governments of Canada and British Columbia take action to create jobs | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064438"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014JTST0020-000398"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Honourable Jason Kenney, Minister of Employment and Social Development, and the Honourable Shirley Bond, British Columbia Minister of Jobs, Tourism and Skills Training and Minister Responsible for Labour, today signed several agreements to help connect Canadians with available jobs, including one to implement the Canada Job Grant in British Columbia."/>
+         <MT N="mes:size" V="124054.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The Honourable Jason Kenney, Minister of Employment and Social Development, and the Honourable Shirley Bond, British Columbia Minister of Jobs, Tourism and Skills Training and Minister Responsible for Labour, today signed several agreements to help connect Canadians with available jobs, including on...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="121.15k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2014AVED0024-000762</U>
+         <UE>https://news.gov.bc.ca/releases/2014AVED0024-000762</UE>
+         <T>Province provides jobs training support for sawmill workers in Houston | BC Gov News</T>
+         <RK>70.5230252209992</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-06-04"/>
+         <MT N="query_id" V="72329313574712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834495000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Northwest Community College, NWCC, Jobs Blueprint, skills training, retraining, West Fraser sawmill"/>
+         <MT N="mes:date" V="1401865200000"/>
+         <MT N="title" V="Province provides jobs training support for sawmill workers in Houston | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063544"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014AVED0024-000762"/>
+         <MT N="DCTERMS.creator" V="Advanced Education and Skills Training"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Government of British Columbia is providing $150,000 to Northwest Community College (NWCC) under B.C.'s Skills for Jobs Blueprint to provide job skills training and retraining opportunities for workers impacted by the closure of the West Fraser sawmill in Houston."/>
+         <MT N="mes:size" V="113624.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The Government of British Columbia is providing $150,000 to Northwest Community College (NWCC) under B.C.’s Skills for Jobs Blueprint to provide job skills training and retraining opportunities for workers impacted by the closure of the West Fraser sawmill in Houston.
+“Northwest Community Colleg...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.96k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="1363" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="639" H="" L="" V="Advanced Education and Skills Training"/><PV C="561" H="" L="" V="Office of the Premier"/><PV C="361" H="" L="" V="Forests  Lands  Natural Resource Operations and Rural Development"/><PV C="360" H="" L="" V="Transportation and Infrastructure"/><PV C="337" H="" L="" V="Social Development and Poverty Reduction"/><PV C="293" H="" L="" V="Education"/><PV C="253" H="" L="" V="Agriculture  Food and Fisheries"/><PV C="238" H="" L="" V="Energy  Mines and Low Carbon Innovation"/><PV C="234" H="" L="" V="Tourism  Arts  Culture and Sport"/><PV C="210" H="" L="" V="Indigenous Relations and Reconciliation"/><PV C="143" H="" L="" V="Environment and Climate Change Strategy"/><PV C="138" H="" L="" V="Citizens' Services"/><PV C="128" H="" L="" V="Health"/><PV C="127" H="" L="" V="Finance"/><PV C="109" H="" L="" V="Minister of State for Trade"/><PV C="91" H="" L="" V="Attorney General"/><PV C="91" H="" L="" V="ARCHIVED: Natural Gas Development"/><PV C="81" H="" L="" V="Children and Family Development"/><PV C="60" H="" L="" V="Municipal Affairs"/><PV C="55" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="52" H="" L="" V="Intergovernmental Relations Secretariat"/><PV C="41" H="" L="" V="Labour"/><PV C="28" H="" L="" V="Public Safety and Solicitor General"/><PV C="19" H="" L="" V="ARCHIVED: Minister of State for Rural Economic Development"/><PV C="13" H="" L="" V="Mental Health and Addictions"/><PV C="11" H="" L="" V="Emergency Preparedness"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

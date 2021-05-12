@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.213000</TM>
+   <Q>msp</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="0" value="0"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp" value="msp"/>
+   <RES EN="10" SN="1">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=msp&amp;start=10</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2019HLTH0114-001555</U>
+         <UE>https://news.gov.bc.ca/releases/2019HLTH0114-001555</UE>
+         <T>International students continue to contribute to B.C. health care as MSP premiums eliminated | BC Gov News</T>
+         <RK>80.11602865172458</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-08-01"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835166000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1564642800000"/>
+         <MT N="title" V="International students continue to contribute to B.C. health care as MSP premiums eliminated | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064855"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019HLTH0114-001555"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="As the Province eliminates Medical Service Plan (MSP) premiums for British Columbians, an updated payment method will ensure international students continue to contribute to, and benefit from, B.C.‘s health-care coverage."/>
+         <MT N="mes:size" V="113796.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Medical Service Plan (&lt;b&gt;MSP&lt;/b&gt;) premiums for British...Under the old &lt;b&gt;MSP&lt;/b&gt; system, international students...Jan. 1, 2020, &lt;b&gt;MSP&lt;/b&gt; premiums will be...the elimination of &lt;b&gt;MSP&lt;/b&gt; premiums, the health...legislation to end &lt;b&gt;MSP&lt;/b&gt; premiums on Jan...Dix. “In eliminating &lt;b&gt;MSP&lt;/b&gt; premiums for British...B.C.’s &lt;b&gt;MSP&lt;/b&gt; premiums earlier this...per month in &lt;b&gt;MSP&lt;/b&gt; premiums. On Sept...to contribute to &lt;b&gt;MSP&lt;/b&gt; premiums was removed...1, 2020, when &lt;b&gt;MSP&lt;/b&gt; premiums will be</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.13k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2018FIN0074-002013</U>
+         <UE>https://news.gov.bc.ca/releases/2018FIN0074-002013</UE>
+         <T>Government moves forward on MSP premium elimination, tax cut for people | BC Gov News</T>
+         <RK>79.01002825618801</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-10-16"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835531000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1539673200000"/>
+         <MT N="title" V="Government moves forward on MSP premium elimination, tax cut for people | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065532"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018FIN0074-002013"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Government of British Columbia is moving forward with its plan to eliminate Medical Service Plan (MSP) premiums and introduce the employer health tax (EHT)."/>
+         <MT N="mes:size" V="114477.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Medical Service Plan (&lt;b&gt;MSP&lt;/b&gt;) premiums and introduce...chose to double &lt;b&gt;MSP&lt;/b&gt; fees, costing families...re eliminating regressive &lt;b&gt;MSP&lt;/b&gt; premiums,” said Carole...government will eliminate &lt;b&gt;MSP&lt;/b&gt; premiums by Jan...the administration of &lt;b&gt;MSP&lt;/b&gt; premiums is costly</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.79k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/factsheets/eliminating-msp-fees-and-helping-people-afford-the-prescription-medications-they-need</U>
+         <UE>https://news.gov.bc.ca/factsheets/eliminating-msp-fees-and-helping-people-afford-the-prescription-medications-they-need</UE>
+         <T>Eliminating MSP fees and helping people afford the prescription medications they need | BC Gov News</T>
+         <RK>79.01002825618801</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-01-10"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835593000"/>
+         <MT N="path" V="factsheets"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1547107200000"/>
+         <MT N="title" V="Eliminating MSP fees and helping people afford the prescription medications they need | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065544"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/factsheets/eliminating-msp-fees-and-helping-people-afford-the-prescription-medications-they-need"/>
+         <MT N="DCTERMS.creator" V="Office of the Premier"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Our government welcomed 2019 by announcing that 240,000 lower-income families will get the help they need with prescription medication costs. It’s part of our work to make life more affordable, and make health care more accessible for people in B.C."/>
+         <MT N="mes:size" V="112684.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Medical Service Plan (&lt;b&gt;MSP&lt;/b&gt;) fees by half...by January 2020 &lt;b&gt;MSP&lt;/b&gt; fees will be...make people pay &lt;b&gt;MSP&lt;/b&gt; fees. The previous...taxes and cancelling &lt;b&gt;MSP&lt;/b&gt; premiums once and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.04k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2017FIN0039-002105</U>
+         <UE>https://news.gov.bc.ca/releases/2017FIN0039-002105</UE>
+         <T>Medical Services Plan premium cut starts Jan. 1, 2018 | BC Gov News</T>
+         <RK>56.357020154841</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-12-27"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834616000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1514361600000"/>
+         <MT N="title" V="Medical Services Plan premium cut starts Jan. 1, 2018 | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063737"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017FIN0039-002105"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Medical Services Plan (MSP) premiums will be cut by 50% on Jan. 1, 2018, marking an important step toward improving fairness for all British Columbians, Finance Minister Carole James said today."/>
+         <MT N="mes:size" V="112615.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums will be...James said today.
+“&lt;b&gt;MSP&lt;/b&gt; premiums are unfair...system by eliminating &lt;b&gt;MSP&lt;/b&gt; premiums entirely within...full exemption from &lt;b&gt;MSP&lt;/b&gt; premiums under the...revenue from eliminating &lt;b&gt;MSP&lt;/b&gt; premiums. The task...path to eliminating &lt;b&gt;MSP&lt;/b&gt; premiums. Government will...more about the &lt;b&gt;MSP&lt;/b&gt; Task Force and...gov.bc.ca/&lt;b&gt;msp&lt;/b&gt;taskforce/
+Find out if...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.98k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2017FIN0029-001848</U>
+         <UE>https://news.gov.bc.ca/releases/2017FIN0029-001848</UE>
+         <T>MSP Task Force to advise on eliminating premiums | BC Gov News</T>
+         <RK>55.521019855864</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-11-02"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834627000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1509606000000"/>
+         <MT N="title" V="MSP Task Force to advise on eliminating premiums | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063730"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017FIN0029-001848"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Province has established a task force of experts to advise the government on eliminating Medical Services Plan (MSP) premiums within four years, Finance Minister Carole James announced today."/>
+         <MT N="mes:size" V="121134.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>government on eliminating &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums within four...People know that &lt;b&gt;MSP&lt;/b&gt; premiums are unfair...evidence-based.”
+The &lt;b&gt;MSP&lt;/b&gt; Task Force will...revenue from eliminating &lt;b&gt;MSP&lt;/b&gt; premiums. Its final...gov.bc.ca/&lt;b&gt;msp&lt;/b&gt;taskforce/
+Prof. Lindsay Tedds...plans to cut &lt;b&gt;MSP&lt;/b&gt; premiums by 50...fully exempt from &lt;b&gt;MSP&lt;/b&gt; premiums by $2...more about the &lt;b&gt;MSP&lt;/b&gt; Task Force and...committed to eliminating &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums within four</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="118.29k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2018FIN0025-001200</U>
+         <UE>https://news.gov.bc.ca/releases/2018FIN0025-001200</UE>
+         <T>Government thanks MSP Task Force for its report | BC Gov News</T>
+         <RK>53.860019261843895</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-06-14"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835528000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1528959600000"/>
+         <MT N="title" V="Government thanks MSP Task Force for its report | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065438"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018FIN0025-001200"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Government of British Columbia has reviewed the MSP Task Force’s final report on improving tax fairness in B.C."/>
+         <MT N="mes:size" V="112577.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>has reviewed the &lt;b&gt;MSP&lt;/b&gt; Task Force’s...to thank the &lt;b&gt;MSP&lt;/b&gt; Task Force members...Budget 2018 eliminated &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums, effective Jan...and businesses. The &lt;b&gt;MSP&lt;/b&gt; Task Force’s...Quick Facts:
+The &lt;b&gt;MSP&lt;/b&gt; Task Force was...More:
+Read the &lt;b&gt;MSP&lt;/b&gt; Task Force’s...gov.bc.ca/&lt;b&gt;msp&lt;/b&gt;taskforce/ </S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.94k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2016HLTH0011-000244</U>
+         <UE>https://news.gov.bc.ca/releases/2016HLTH0011-000244</UE>
+         <T>Medical Services Plan premium assistance: Do you qualify? | BC Gov News</T>
+         <RK>53.4530191162893</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-02-18"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834465000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="MSP, health care, seniors, assistance, seniors advocate, Isobel Mackenzie, BC Seniors' Guide, "/>
+         <MT N="mes:date" V="1455782400000"/>
+         <MT N="title" V="Medical Services Plan premium assistance: Do you qualify? | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063540"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2016HLTH0011-000244"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="With more people than ever to qualify for assistance with Medical Services Plan premiums next year, B.C. seniors advocate Isobel Mackenzie joined Health Minister Terry Lake to remind seniors to check if they are eligible."/>
+         <MT N="mes:size" V="122799.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>for assistance with &lt;b&gt;Medical Services Plan&lt;/b&gt; premiums next year...seniors knew about &lt;b&gt;MSP&lt;/b&gt; premium assistance and...and grandparents – &lt;b&gt;MSP&lt;/b&gt; premium assistance can...announced changes to &lt;b&gt;MSP&lt;/b&gt; and premium assistance...the subsidy for &lt;b&gt;MSP&lt;/b&gt; that is available...a single senior.
+“&lt;b&gt;MSP&lt;/b&gt; premium assistance can...forms/gov/health/&lt;b&gt;msp&lt;/b&gt;pa.html
+&lt;b&gt;MSP&lt;/b&gt; premium assistance is</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.92k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2020FIN0001-000004</U>
+         <UE>https://news.gov.bc.ca/releases/2020FIN0001-000004</UE>
+         <T>MSP premiums eliminated; important reminders for British Columbians | BC Gov News</T>
+         <RK>48.55401736426975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-01-02"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834933000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1577952000000"/>
+         <MT N="title" V="MSP premiums eliminated; important reminders for British Columbians | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064257"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2020FIN0001-000004"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The new year marks the end of Medical Services Plan (MSP) premiums, saving B.C. families up to $1,800 a year and individuals up to $900 a year."/>
+         <MT N="mes:size" V="114314.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>the end of &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums, saving B...a year.
+While &lt;b&gt;MSP&lt;/b&gt; premiums are a...2020, elimination of &lt;b&gt;MSP&lt;/b&gt; premiums does not...remain enrolled in &lt;b&gt;MSP&lt;/b&gt;. The plan will...to update a &lt;b&gt;MSP&lt;/b&gt; account, contact &lt;b&gt;Health Insurance&lt;/b&gt; BC, Monday to...the elimination of &lt;b&gt;MSP&lt;/b&gt; premiums in B...health-drug-coverage/&lt;b&gt;msp&lt;/b&gt;/bc-residents/premiums...follows.
+Facts about &lt;b&gt;MSP&lt;/b&gt; premiums in B.C.
+&lt;b&gt;MSP&lt;/b&gt; premiums were introduced</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.63k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/releases/2019HLTH0029-000510</U>
+         <UE>https://news.gov.bc.ca/releases/2019HLTH0029-000510</UE>
+         <T>Legislation introduced to eliminate MSP premiums | BC Gov News</T>
+         <RK>48.55401736426975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-03-28"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835164000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1553756400000"/>
+         <MT N="title" V="Legislation introduced to eliminate MSP premiums | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064844"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019HLTH0029-000510"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Government has introduced legislation that sets the stage for the elimination of Medical Services Plan (MSP) premiums on Jan. 1, 2020, making life more affordable for British Columbians."/>
+         <MT N="mes:size" V="113661.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>the elimination of &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums on Jan...After years of &lt;b&gt;MSP&lt;/b&gt; premium increases, our...government will eliminate &lt;b&gt;MSP&lt;/b&gt; premiums in January...British Columbians. Eliminating &lt;b&gt;MSP&lt;/b&gt; premiums will save...800 a year.”
+&lt;b&gt;MSP&lt;/b&gt; is the provincial &lt;b&gt;health insurance&lt;/b&gt; program that eligible...sections related to &lt;b&gt;MSP&lt;/b&gt; premiums and premium...Act, ensuring that &lt;b&gt;MSP&lt;/b&gt; beneficiaries are not...board that manages &lt;b&gt;MSP&lt;/b&gt; on behalf of</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2021CITZ0006-000173</U>
+         <UE>https://news.gov.bc.ca/releases/2021CITZ0006-000173</UE>
+         <T>Service BC welcomes Health Insurance BC to provincial contact centre | BC Gov News</T>
+         <RK>48.45701732957983</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-02-01"/>
+         <MT N="query_id" V="52908052052410"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835515000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1612166400000"/>
+         <MT N="title" V="Service BC welcomes Health Insurance BC to provincial contact centre | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065440"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2021CITZ0006-000173"/>
+         <MT N="DCTERMS.creator" V="Citizens' Services"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="As part of government’s commitment to improving services for British Columbians, contact centre support for Health Insurance BC (HIBC) benefits and pharmaceutical programs and services is now provided at the Service BC provincial contact centre."/>
+         <MT N="mes:size" V="115003.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>centre support for &lt;b&gt;Health Insurance&lt;/b&gt; BC (HIBC) benefits...their benefits for &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;), Pharmacare and Fair...need help with &lt;b&gt;MSP&lt;/b&gt; and Pharmacare benefits...flexibility. Shifting the &lt;b&gt;Health Insurance&lt;/b&gt; BC contact centre...or questions about &lt;b&gt;MSP&lt;/b&gt; benefit services, Service...general information about &lt;b&gt;MSP&lt;/b&gt; benefits and services...BC centres have &lt;b&gt;MSP&lt;/b&gt; pamphlets and forms...the status of &lt;b&gt;MSP&lt;/b&gt; accounts. They also</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.31k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="40" H="" L="" V="Health"/><PV C="26" H="" L="" V="Finance"/><PV C="21" H="" L="" V="Office of the Premier"/><PV C="14" H="" L="" V="Citizens' Services"/><PV C="13" H="" L="" V="Social Development and Poverty Reduction"/><PV C="6" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="5" H="" L="" V="Emergency Preparedness"/><PV C="5" H="" L="" V="Children and Family Development"/><PV C="5" H="" L="" V="Attorney General"/><PV C="4" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="4" H="" L="" V="Advanced Education and Skills Training"/><PV C="1" H="" L="" V="Public Safety and Solicitor General"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

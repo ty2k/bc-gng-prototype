@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.290000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="0" value="0"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="10" SN="1">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=10</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2012JTI0093-001104</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTI0093-001104</UE>
+         <T>On the road again: JobFest tour hits southern B.C. | BC Gov News</T>
+         <RK>74.0270264741277</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-08-03"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834622000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1343977200000"/>
+         <MT N="title" V="On the road again: JobFest tour hits southern B.C. | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063745"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTI0093-001104"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="An innovative, engaging travelling exhibition for youth is refuelling and heading back on the road for another round of connecting with young people and their families, educating them on labour market trends and the multitude of career opportunities in B.C."/>
+         <MT N="mes:size" V="116187.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>An innovative, engaging travelling exhibition for youth is refuelling and heading back on the road for another round of connecting with young people and their families, educating them on labour market trends and the multitude of career opportunities in B.C.
+JobFest is a rock-concert themed mobile ev...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.46k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2014SDSI0090-001952</U>
+         <UE>https://news.gov.bc.ca/releases/2014SDSI0090-001952</UE>
+         <T>Partnerships lead to jobs, benefit communities | BC Gov News</T>
+         <RK>72.49302592552635</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-12-29"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835388000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Anna Majkowski, WorkBC, jobs, Employment Services Centre,  Job Creation Partnership"/>
+         <MT N="mes:date" V="1419840000000"/>
+         <MT N="title" V="Partnerships lead to jobs, benefit communities | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065208"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014SDSI0090-001952"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Anna Majkowski went from jobless to being groomed to take over a local history non-profit society that has given her a new lease on life, thanks to her local WorkBC Employment..."/>
+         <MT N="mes:size" V="118159.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Anna Majkowski went from jobless to being groomed to take over a local history non-profit society that has given her a new lease on life, thanks to her local WorkBC Employment Services Centre.
+“I was unemployed and I couldn’t find any work,” Anna says.
+She had lost her job at a local sign comp...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.39k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2013JTST0034-000291</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0034-000291</UE>
+         <T>BC Jobs Start Here job fair coming to Castlegar | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-18"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834564000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1361174400000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Castlegar | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063638"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0034-000291"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Castlegar on Thursday, Feb. 21 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. &#xA;"/>
+         <MT N="mes:size" V="112417.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Castlegar on Thursday, Feb. 21 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.78k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2012JTST0087-002111</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTST0087-002111</UE>
+         <T>Extended 'BC Jobs Start Here' job fairs to include Skills4BC booth | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-12-28"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834618000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1356681600000"/>
+         <MT N="title" V="Extended 'BC Jobs Start Here' job fairs to include Skills4BC booth | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063737"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTST0087-002111"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Back by British Columbian demand, a new series of 'BC Jobs Start Here' job fairs will come to 22 communities beginning in January to promote current job opportunities, career trends and skills training - with the addition of a new Skills4BC booth. "/>
+         <MT N="mes:size" V="113405.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Back by British Columbian demand, a new series of 'BC Jobs Start Here' job fairs will come to 22 communities beginning in January to promote current job opportunities, career trends and skills training - with the addition of a new Skills4BC booth.
+The new fairs will begin in Pitt Meadows on Jan. 22...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.75k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2013JTST0063-000554</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0063-000554</UE>
+         <T>BC Jobs Start Here job fair coming to Prince Rupert | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-03-20"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834724000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1363762800000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Prince Rupert | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063933"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0063-000554"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Prince Rupert on Friday, March 22, 2013, to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112531.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Prince Rupert on Friday, March 22, 2013, to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary inst...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.89k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2012JTST0066-001937</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTST0066-001937</UE>
+         <T>'BC Jobs Start Here'; job fairs attract thousands of job seekers | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-11-30"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834741000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1354262400000"/>
+         <MT N="title" V="'BC Jobs Start Here'; job fairs attract thousands of job seekers | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063950"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTST0066-001937"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Job seekers in Vancouver will connect with local employers and be able to get information on skills training and career development during the largest and last 'BC Jobs Start Here' job fair."/>
+         <MT N="mes:size" V="113583.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Job seekers in Vancouver will connect with local employers and be able to get information on skills training and career development during the largest and last 'BC Jobs Start Here' job fair.
+Since Sept. 18, the 'BC Jobs Start Here' job fairs have taken place in 24 communities throughout the province...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.92k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2013JTST0024-000223</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0024-000223</UE>
+         <T>BC Jobs Start Here job fair coming to Hope | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-09"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834831000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1360396800000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Hope | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064106"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0024-000223"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Hope on Tuesday, Feb. 12 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112429.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Hope on Tuesday, Feb. 12 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, indust...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.79k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2013JTST0022-000200</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0022-000200</UE>
+         <T>BC Jobs Start Here job fair coming to Campbell River | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-06"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834889000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1360137600000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Campbell River | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064203"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0022-000200"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Campbell River on Friday, Feb. 8 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112414.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Campbell River on Friday, Feb. 8 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.78k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/releases/2013JTST0050-000445</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0050-000445</UE>
+         <T>BC Jobs Start Here job fair coming to Quesnel | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-03-09"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834941000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1362816000000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Quesnel | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064307"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0050-000445"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Quesnel on Tuesday, March 12 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112430.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Quesnel on Tuesday, March 12 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, in...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.79k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2013JTST0036-000330</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0036-000330</UE>
+         <T>BC Jobs Start Here job fair coming to Revelstoke | BC Gov News</T>
+         <RK>71.48802556611021</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-23"/>
+         <MT N="query_id" V="22119747788202"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835064000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1361606400000"/>
+         <MT N="title" V="BC Jobs Start Here job fair coming to Revelstoke | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064641"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0036-000330"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The BC Jobs Start Here job fair will be in Revelstoke on Monday, Feb. 25 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more. "/>
+         <MT N="mes:size" V="112495.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>The BC Jobs Start Here job fair will be in Revelstoke on Monday, Feb. 25 to connect job seekers with employers and share information on job opportunities, career trends, skills training and more.
+Exhibitors at the fair will include employers from a variety of sectors, post-secondary institutions, i...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.86k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="1363" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="639" H="" L="" V="Advanced Education and Skills Training"/><PV C="561" H="" L="" V="Office of the Premier"/><PV C="361" H="" L="" V="Forests  Lands  Natural Resource Operations and Rural Development"/><PV C="360" H="" L="" V="Transportation and Infrastructure"/><PV C="337" H="" L="" V="Social Development and Poverty Reduction"/><PV C="293" H="" L="" V="Education"/><PV C="253" H="" L="" V="Agriculture  Food and Fisheries"/><PV C="238" H="" L="" V="Energy  Mines and Low Carbon Innovation"/><PV C="234" H="" L="" V="Tourism  Arts  Culture and Sport"/><PV C="210" H="" L="" V="Indigenous Relations and Reconciliation"/><PV C="143" H="" L="" V="Environment and Climate Change Strategy"/><PV C="138" H="" L="" V="Citizens' Services"/><PV C="128" H="" L="" V="Health"/><PV C="127" H="" L="" V="Finance"/><PV C="109" H="" L="" V="Minister of State for Trade"/><PV C="91" H="" L="" V="Attorney General"/><PV C="91" H="" L="" V="ARCHIVED: Natural Gas Development"/><PV C="81" H="" L="" V="Children and Family Development"/><PV C="60" H="" L="" V="Municipal Affairs"/><PV C="55" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="52" H="" L="" V="Intergovernmental Relations Secretariat"/><PV C="41" H="" L="" V="Labour"/><PV C="28" H="" L="" V="Public Safety and Solicitor General"/><PV C="19" H="" L="" V="ARCHIVED: Minister of State for Rural Economic Development"/><PV C="13" H="" L="" V="Mental Health and Addictions"/><PV C="11" H="" L="" V="Emergency Preparedness"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

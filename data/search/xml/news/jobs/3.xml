@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>3.277000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="30" SN="21">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=10</PU>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=30</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2015JTST0170-001848</U>
+         <UE>https://news.gov.bc.ca/releases/2015JTST0170-001848</UE>
+         <T>WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Burns Lake | BC Gov News</T>
+         <RK>70.42902518738217</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-11-05"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835691000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="WorkBC, Find Your Fit, Lake District Secondary, careers, jobs, Jobs Blueprint, Jobs Plan"/>
+         <MT N="mes:date" V="1446710400000"/>
+         <MT N="title" V="WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Burns Lake | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065745"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015JTST0170-001848"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Young people considering what skills they will need for tomorrow’s in-demand occupations will have an opportunity for interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at Lake District Secondary on Friday, Nov. 6, 2015."/>
+         <MT N="mes:size" V="114297.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Young people considering what skills they will need for tomorrow’s in-demand occupations will have an opportunity for interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at Lake District Secondary, tomorrow, Friday, Nov. 6, 2015.
+Find Your Fit is an interactive event where indiv...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.62k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2014MNGD0033-000657</U>
+         <UE>https://news.gov.bc.ca/releases/2014MNGD0033-000657</UE>
+         <T>A Blueprint for LNG Jobs | BC Gov News</T>
+         <RK>70.20102510584299</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-05-15"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835203000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="trades, LNG, jobs, employment, BC Jobs Plan, Skills for Jobs Blueprint "/>
+         <MT N="mes:date" V="1400137200000"/>
+         <MT N="title" V="A Blueprint for LNG Jobs | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064848"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014MNGD0033-000657"/>
+         <MT N="DCTERMS.creator" V="ARCHIVED: Natural Gas Development"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="If there is one thing I'd tell young people today, it's this: The future is in trades.&#xA;&#xA;"/>
+         <MT N="mes:size" V="111473.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>
+By Rich Coleman
+Minister of Natural Gas Development
+VICTORIA - If there is one thing I’d tell young people today, it’s this: The future is in trades.
+The growing liquefied natural gas sector will bring thousands of new jobs to our province and we want British Columbians to be first in line to f...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.86k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2015JTST0015-000080</U>
+         <UE>https://news.gov.bc.ca/releases/2015JTST0015-000080</UE>
+         <T>WorkBC's Find Your Fit joins TeenFest to showcase B.C.'s in-demand jobs | BC Gov News</T>
+         <RK>70.18102509869043</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-01-30"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834775000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Find your fit, WorkBC, Teenfest, trades, jobs blueprint, jobs training, workforce, economy, "/>
+         <MT N="mes:date" V="1422604800000"/>
+         <MT N="title" V="WorkBC's Find Your Fit joins TeenFest to showcase B.C.'s in-demand jobs | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064019"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015JTST0015-000080"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Young people considering what skills they will need for tomorrow's in-demand occupations will have an interactive, hands-on experience at WorkBC's Find Your Fit tour stop at the Surrey Coast Capital Savings TeenFest in Surrey on Saturday, Jan. 31, 2015. "/>
+         <MT N="mes:size" V="114700.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Young people considering what skills they will need for tomorrow’s in-demand occupations will have an interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at the Surrey Coast Capital Savings TeenFest in Surrey on Saturday, Jan. 31, 2015.
+Find Your Fit features a variety of inter...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.01k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2015JTST0023-000171</U>
+         <UE>https://news.gov.bc.ca/releases/2015JTST0023-000171</UE>
+         <T>WorkBC's Find Your Fit to showcase B.C.'s in-demand jobs in Cranbrook | BC Gov News</T>
+         <RK>70.18102509869043</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-02-12"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835552000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Find Your Fit, WorkBC, trades, skills training, Jobs Blueprint, jobs, LNG"/>
+         <MT N="mes:date" V="1423728000000"/>
+         <MT N="title" V="WorkBC's Find Your Fit to showcase B.C.'s in-demand jobs in Cranbrook | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065605"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015JTST0023-000171"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Young people considering what skills they will need for tomorrow's in-demand occupations will have an interactive, hands-on experience at WorkBC's Find Your Fit tour stop at Laurie Middle school on Friday, Feb. 13."/>
+         <MT N="mes:size" V="113823.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Young people considering what skills they will need for tomorrow’s in-demand occupations will have an interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at Laurie Middle school on Friday, Feb. 13.
+Find Your Fit is an interactive event where individuals of all ages can find o...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.16k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2013JTST0112-001394</U>
+         <UE>https://news.gov.bc.ca/releases/2013JTST0112-001394</UE>
+         <T>BC Jobs Plan 24-month progress report outlines achievements and looks to future growth | BC Gov News</T>
+         <RK>70.12502507866326</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-09-17"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834969000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="BC Jobs Plan, jobs, 24-Month, Progress Report, economy, Premier Christy Clark"/>
+         <MT N="mes:date" V="1379401200000"/>
+         <MT N="title" V="BC Jobs Plan 24-month progress report outlines achievements and looks to future growth | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064327"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013JTST0112-001394"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Significant headway has been made in meeting the B.C. government's economic goals as laid out in The BC Jobs Plan 24-Month Progress Report."/>
+         <MT N="mes:size" V="118737.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>VANCOUVER - Significant headway has been made in meeting the B.C. government's economic goals as laid out in The BC Jobs Plan 24-Month Progress Report, released today.
+"I'm tremendously proud of the progress B.C. has made over the past two years," said Premier Christy Clark. "Today, we stand on the...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.95k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2014MNGD0032-000656</U>
+         <UE>https://news.gov.bc.ca/releases/2014MNGD0032-000656</UE>
+         <T>A Blueprint for LNG jobs | BC Gov News</T>
+         <RK>70.0300250446886</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-05-15"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834594000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="trades, jobs, LNG, employment, BC Jobs Plan "/>
+         <MT N="mes:date" V="1400137200000"/>
+         <MT N="title" V="A Blueprint for LNG jobs | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063708"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014MNGD0032-000656"/>
+         <MT N="DCTERMS.creator" V="ARCHIVED: Natural Gas Development"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="If there is one thing I’d tell young people today, it’s this: The future is in trades."/>
+         <MT N="mes:size" V="111404.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>By Rich Coleman
+Minister of Natural Gas Development
+If there is one thing I’d tell young people today, it’s this: The future is in trades.
+The growing liquefied natural gas sector will bring thousands of new jobs to our province and we want British Columbians to be first in line to fill these op...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.79k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2015SDSI0021-000677</U>
+         <UE>https://news.gov.bc.ca/releases/2015SDSI0021-000677</UE>
+         <T>Aboriginal workers training for in-demand jobs in the Okanagan | BC Gov News</T>
+         <RK>70.0300250446886</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-05-15"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834764000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Community and Employer Partnerships, Souther Interior Construction Association, WorkBC, employment services, job training, in-demand jobs,  "/>
+         <MT N="mes:date" V="1431673200000"/>
+         <MT N="title" V="Aboriginal workers training for in-demand jobs in the Okanagan | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064027"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015SDSI0021-000677"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="More than 50 Aboriginal workers will train for careers as heavy equipment operators through a Community and Employer Partnership between the B.C. government and the Southern Interior Construction Association, worth nearly $1.4 million."/>
+         <MT N="mes:size" V="117805.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>More than 50 Aboriginal workers will train for careers as heavy equipment operators through a Community and Employer Partnership between the B.C. government and the Southern Interior Construction Association, worth nearly $1.4 million.
+In three different sessions of 18 people, the trainees will get ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.04k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2015JTST0156-001748</U>
+         <UE>https://news.gov.bc.ca/releases/2015JTST0156-001748</UE>
+         <T>WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Mackenzie | BC Gov News</T>
+         <RK>69.99202503109873</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-10-20"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834603000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Find Your Fit, WorkBC, Mackenzie, skills, careers, Jobs Blueprint, Jobs Plan"/>
+         <MT N="mes:date" V="1445324400000"/>
+         <MT N="title" V="WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Mackenzie | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063707"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015JTST0156-001748"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Young people considering what skills they will need for tomorrow’s in-demand occupations will have an opportunity for interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at Mackenzie Secondary school tomorrow, Oct. 21, 2015."/>
+         <MT N="mes:size" V="114140.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Young people considering what skills they will need for tomorrow’s in-demand occupations will have an opportunity for interactive, hands-on experience at WorkBC’s Find Your Fit tour stop at Mackenzie Secondary school tomorrow, Oct. 21, 2015.
+Find Your Fit is an interactive event where individual...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.46k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/releases/2016JTST0129-001557</U>
+         <UE>https://news.gov.bc.ca/releases/2016JTST0129-001557</UE>
+         <T>The BC Jobs Plan puts British Columbians first | BC Gov News</T>
+         <RK>69.99202503109873</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-08-30"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834796000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="BC Jobs Plan, job creation, economy, employment, skills training, education, training, Skills for Jobs Blueprint"/>
+         <MT N="mes:date" V="1472540400000"/>
+         <MT N="title" V="The BC Jobs Plan puts British Columbians first | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064027"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2016JTST0129-001557"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Minister of Jobs, Tourism and Skills Training and Minister Responsible for Labour Shirley Bond and Parliamentary Secretary Greg Kyllo gave an update on British Columbia’s economic progress since the BC Jobs Plan release in 2011 and a preview of where the jobs plan is headed in the five-year update later this fall."/>
+         <MT N="mes:size" V="124286.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>
+Minister of Jobs, Tourism and Skills Training and Minister Responsible for Labour Shirley Bond and Parliamentary Secretary Greg Kyllo today gave an update on British Columbia’s economic progress since the BC Jobs Plan release in 2011 and a preview of where the jobs plan is headed in the five-year...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="121.37k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2016JTST0240-002524</U>
+         <UE>https://news.gov.bc.ca/releases/2016JTST0240-002524</UE>
+         <T>WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Abbotsford | BC Gov News</T>
+         <RK>69.99202503109873</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-11-28"/>
+         <MT N="query_id" V="43751512925405"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834851000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Find Your Fit, Abbotsford, BC Jobs Plan, Jobs Blueprint, skills training, Tradex, "/>
+         <MT N="mes:date" V="1480320000000"/>
+         <MT N="title" V="WorkBC’s Find Your Fit to showcase B.C.’s in-demand jobs in Abbotsford | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064137"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2016JTST0240-002524"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Young people of Abbotsford will have an opportunity to learn the skills they will need for tomorrow’s in-demand occupations."/>
+         <MT N="mes:size" V="114661.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Young people of Abbotsford will have an opportunity to learn the skills they will need for tomorrow’s in-demand occupations.
+WorkBC’s Find Your Fit tour will be making its next stop at Tradex, 1190 Cornell Street, on Nov. 29, 2016.
+Find Your Fit is an interactive event where individuals of all a...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.97k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="1363" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="639" H="" L="" V="Advanced Education and Skills Training"/><PV C="561" H="" L="" V="Office of the Premier"/><PV C="361" H="" L="" V="Forests  Lands  Natural Resource Operations and Rural Development"/><PV C="360" H="" L="" V="Transportation and Infrastructure"/><PV C="337" H="" L="" V="Social Development and Poverty Reduction"/><PV C="293" H="" L="" V="Education"/><PV C="253" H="" L="" V="Agriculture  Food and Fisheries"/><PV C="238" H="" L="" V="Energy  Mines and Low Carbon Innovation"/><PV C="234" H="" L="" V="Tourism  Arts  Culture and Sport"/><PV C="210" H="" L="" V="Indigenous Relations and Reconciliation"/><PV C="143" H="" L="" V="Environment and Climate Change Strategy"/><PV C="138" H="" L="" V="Citizens' Services"/><PV C="128" H="" L="" V="Health"/><PV C="127" H="" L="" V="Finance"/><PV C="109" H="" L="" V="Minister of State for Trade"/><PV C="91" H="" L="" V="Attorney General"/><PV C="91" H="" L="" V="ARCHIVED: Natural Gas Development"/><PV C="81" H="" L="" V="Children and Family Development"/><PV C="60" H="" L="" V="Municipal Affairs"/><PV C="55" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="52" H="" L="" V="Intergovernmental Relations Secretariat"/><PV C="41" H="" L="" V="Labour"/><PV C="28" H="" L="" V="Public Safety and Solicitor General"/><PV C="19" H="" L="" V="ARCHIVED: Minister of State for Rural Economic Development"/><PV C="13" H="" L="" V="Mental Health and Addictions"/><PV C="11" H="" L="" V="Emergency Preparedness"/></PMT>
+      </PARM>
+   </RES>
+</GSP>
