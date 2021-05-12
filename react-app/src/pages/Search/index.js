@@ -6,6 +6,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
+import tabMap from "./tabMap";
 import Icon from "../../components/Icon";
 import LoadSpinner from "../../components/LoadSpinner";
 import SearchBar from "../../components/SearchBar";
@@ -195,9 +196,12 @@ function Search() {
   // Query parameter is in the form `?q=example`
   const [query, setQuery] = useState(useQuery().get("q") || "");
 
+  // Tab parameter defaults to 1 for "All" results
+  const [tab, setTab] = useState(parseInt(useQuery().get("tab")) || 1);
+
   // `newQuery` represents a potential new search set by the state of the
-  // on-page SearchBar component
-  const [newQuery, setNewQuery] = useState("");
+  // on-page SearchBar component. Set to same value as `query` initially.
+  const [newQuery, setNewQuery] = useState(useQuery().get("q") || "");
 
   const [page, setPage] = useState(0);
   const [isLoading, setIsLoading] = useState(
@@ -215,13 +219,16 @@ function Search() {
     setNewQuery(input);
   }
 
-  // Callback provided to SearchBar to conduct a new search, reseting our state
-  function submitNewQuery(event) {
+  // Callback provided to SearchBar and filter buttons to conduct a new search.
+  // Default to tabIndex 1 ("All" results) if not specified explicitly.
+  function submitNewQuery(event, tabIndex = 1) {
     event.preventDefault();
-    // Don't do a new search with the same query
-    if (newQuery && newQuery !== query) {
-      history.push(`/search?q=${newQuery}`);
+
+    // Only do a new search if the query or tab is changing from current state
+    if ((newQuery && newQuery !== query) || tabIndex !== tab) {
+      history.push(`/search?q=${newQuery}&tab=${tabIndex}`);
       setQuery(newQuery);
+      setTab(tabIndex);
       setPage(0);
       setIsLoading(true);
       setIsNoResultsFound(false);
@@ -238,6 +245,7 @@ function Search() {
     const params = {
       q: query,
       page: page + 1,
+      tab: tab,
     };
 
     // GET request to the search API
@@ -353,7 +361,7 @@ function Search() {
     );
   }
 
-  // Run on first render and each time `query` changes
+  // Run on first render and each time `query` or `tab` change
   useEffect(() => {
     if (query) {
       getResults();
@@ -362,7 +370,7 @@ function Search() {
     // an ESLint warning. Including it will cause an infinite loop because of
     // all the dependencies on stateful variables in getResults(). Come back
     // to this after more experience with this hook.
-  }, [query]);
+  }, [query, tab]);
 
   return (
     <StyledSearchResults>
@@ -392,7 +400,7 @@ function Search() {
       <SearchBar
         initialInput={query}
         onButtonClick={(event) => {
-          submitNewQuery(event);
+          submitNewQuery(event, tab);
         }}
         parentCallback={updateNewQuery}
       />
@@ -407,12 +415,20 @@ function Search() {
       )}
 
       {/* Filter menu */}
-      {resultsCount > 0 && (
+      {query && (
         <div className="filter-menu">
-          <button className="active">All</button>
-          <button>Services</button>
-          <button>News</button>
-          <button>Documents</button>
+          {tabMap.map((tabButton, index) => {
+            return (
+              <button
+                key={`filter-menu-button-${index}`}
+                id={`filter-button-${tabButton.id}`}
+                className={tab === tabButton.index ? "active" : null}
+                onClick={(e) => submitNewQuery(e, tabButton.index)}
+              >
+                {tabButton.label}
+              </button>
+            );
+          })}
           <button id="more-filters" aria-label="More Filters">
             <MediaQuery maxWidth={"768px"}>
               <Icon id={"filter-solid.svg"} />
