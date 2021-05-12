@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>2.233000</TM>
+   <Q>msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="0" value="0"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="10" SN="1">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=10</NU>
+      </NB>
+      <R MIME="application/pdf" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-service-locations-codes.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-service-locations-codes.pdf</UE>
+         <T>msp-service-locations-codes.pdf</T>
+         <RK>34.091512192074845</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-24"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1616614256000"/>
+         <MT N="document:created" V="1616536098000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1616614256000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-service-locations-codes.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-service-locations-codes.pdf"/>
+         <MT N="DCTERMS.created" V="2021-03-23"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-service-locations-codes.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-03-24"/>
+         <MT N="document:modified" V="1616536098000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1616536098000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="123183.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>&lt;b&gt;MSP&lt;/b&gt; Service Locations Codes...1, 2021, the &lt;b&gt;MSP&lt;/b&gt; Service Locations Codes...where publicly funded &lt;b&gt;MSP&lt;/b&gt; services are provided...or tracked through
+&lt;b&gt;MSP&lt;/b&gt;.
+
+(Q) Specialist Physician</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="120.3k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp_preamble_podiatry.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp_preamble_podiatry.pdf</UE>
+         <T>msp_preamble_podiatry.pdf</T>
+         <RK>32.56151164490401</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-17"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1608166143000"/>
+         <MT N="document:created" V="1608073391000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1608166143000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp_preamble_podiatry.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp_preamble_podiatry.pdf"/>
+         <MT N="DCTERMS.created" V="2015-07-06"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp_preamble_podiatry.pdf"/>
+         <MT N="DCTERMS.modified" V="2020-12-16"/>
+         <MT N="document:modified" V="1608073391000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1608073391000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="201866.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>for beneficiaries with &lt;b&gt;Medical
+
+Services Plan (MSP&lt;/b&gt;) supplementary benefits status...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="197.13k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-explanatory-codes.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-explanatory-codes.pdf</UE>
+         <T>msp-explanatory-codes.pdf</T>
+         <RK>32.558511643831125</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-18"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610995201000"/>
+         <MT N="document:created" V="1610726747000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="MEDICAL SERVICES PLAN.pdf"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1610995201000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-explanatory-codes.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-explanatory-codes.pdf"/>
+         <MT N="DCTERMS.created" V="2018-05-09"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-explanatory-codes.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-01-18"/>
+         <MT N="document:modified" V="1610995083000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1610995083000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="389615.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>Medical Services Commission
+
+&lt;b&gt;MSP Medical Services Plan&lt;/b&gt;
+
+MVA Motor Vehicle...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="380.48k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/about-the-bc-government/strategic-partnerships/revenue-services-of-british-columbia/rsbc-152-msp-pay-direct-pad-form.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/about-the-bc-government/strategic-partnerships/revenue-services-of-british-columbia/rsbc-152-msp-pay-direct-pad-form.pdf</UE>
+         <T>RSBC 152, Application for Personal Medical Services Plan Pre-Authorized Debit (PAD) Plan</T>
+         <RK>32.496011621479376</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-04"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1614886038000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:cc595100-7bad-1d41-bb9d-d1242fc7a70e"/>
+         <MT N="document:created" V="1607451300000"/>
+         <MT N="DCSext.creator" V="Ministry of Finance"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Forms"/>
+         <MT N="keywords" V="Revenue Services of British Columbia, RSBC, PAD, Application for Personal Medical Services Plan, Pre-Authorized Debit Plan, RSBC 152"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1614886038000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="RSBC 152, Application for Personal Medical Services Plan Pre-Authorized Debit (PAD) Plan"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="3FAB9E8D1FDE411E9AA3C1CE675E7631"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="rsbc-152-msp-pay-direct-pad-form.pdf"/>
+         <MT N="DCTERMS.created" V="2018-11-14"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/about-the-bc-government/strategic-partnerships/revenue-services-of-british-columbia/rsbc-152-msp-pay-direct-pad-form.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-03-04"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="DCTERMS.creator" V="Ministry of Finance"/>
+         <MT N="document:modified" V="1607987379000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:cc595100-7bad-1d41-bb9d-d1242fc7a70e"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Complete this form to apply for pre-authorized debit (PAD) for Medical Services Plan"/>
+         <MT N="document:date" V="1607987379000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="187506.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_spo"/>
+         <MT N="CMF_ContentType" V="Forms"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <S>due on the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) account number identified...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="183.11k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/health/forms/mspdirecttermsandconditions.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/forms/mspdirecttermsandconditions.pdf</UE>
+         <T>mspdirecttermsandconditions.pdf</T>
+         <RK>31.29451119178934</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-04-30"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1430433631000"/>
+         <MT N="document:created" V="Fri Jul 18 07:28:29 PDT 2014"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1430433631000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="mspdirecttermsandconditions.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="mspdirecttermsandconditions.pdf"/>
+         <MT N="DCTERMS.created" V="2015-04-30"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/forms/mspdirecttermsandconditions.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-04-30"/>
+         <MT N="document:modified" V="1405693709000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1405693709000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="170091.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>meaning:
+
+
+
+(a) “Administer &lt;b&gt;MSP&lt;/b&gt;” means to administer &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premium
+arrangements, and “&lt;b&gt;MSP&lt;/b&gt; Administration” will have...organizations responsible for &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;)
+
+coverage administration;
+
+(h</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="166.1k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/msp-brochure.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/msp-brochure.pdf</UE>
+         <T>msp-brochure.pdf</T>
+         <RK>30.996511085216195</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-17"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1616017532000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:2b797e12-df35-2443-9cd6-9d716f11e9a4"/>
+         <MT N="document:created" V="1615568260000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Medical Services Plan"/>
+         <MT N="document:cp:subject" V="The Medical Services Plan pays for medically required services of physicians and surgeons and for dental or oral surgery when medically required to be performed in a hospital. MSP also provides coverage for other health benefits. MSP is administered by Health Insurance BC (HIBC)."/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1616017532000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-brochure.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="The Medical Services Plan pays for medically required services of physicians and surgeons and for dental or oral surgery when medically required to be performed in a hospital. MSP also provides coverage for other health benefits. MSP is administered by Health Insurance BC (HIBC)."/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-brochure.pdf"/>
+         <MT N="DCTERMS.created" V="2015-01-09"/>
+         <MT N="document:dc:description" V="The Medical Services Plan pays for medically required services of physicians and surgeons and for dental or oral surgery when medically required to be performed in a hospital. MSP also provides coverage for other health benefits. MSP is administered by Health Insurance BC (HIBC)."/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/msp-brochure.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-03-17"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1615568263000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:b5bfb649-e3a7-fc49-8b1d-8a189ee0d717"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1615568263000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="132422.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>are enrolled with &lt;b&gt;MSP&lt;/b&gt;. For information contact...administration of the &lt;b&gt;Medical Services
+Plan&lt;/b&gt;. Information may be...information, please contact:
+
+&lt;b&gt;Health Insurance&lt;/b&gt; BC
+Chief Privacy...provide you with
+&lt;b&gt;MSP&lt;/b&gt; forms, help you...questions about your &lt;b&gt;MSP&lt;/b&gt; account.
+Visit www</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="129.32k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/group-plan-administration/msp-direct-group-administrator-guide.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/group-plan-administration/msp-direct-group-administrator-guide.pdf</UE>
+         <T>msp-direct-group-administrator-guide.pdf</T>
+         <RK>30.985511081282286</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-09"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1618009090000"/>
+         <MT N="document:created" V="1616189471000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Style Aid"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1618009090000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-direct-group-administrator-guide.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-direct-group-administrator-guide.pdf"/>
+         <MT N="DCTERMS.created" V="2020-12-04"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/group-plan-administration/msp-direct-group-administrator-guide.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-09"/>
+         <MT N="document:modified" V="1616189471000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1616189471000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="254135.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>in in the &lt;b&gt;Medical
+
+Services Plan (MSP&lt;/b&gt;).
+
+• Regular &lt;b&gt;MSP&lt;/b&gt; Direct Registered Groups...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="248.18k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-physiotherapy.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-physiotherapy.pdf</UE>
+         <T>msp-preamble-physiotherapy.pdf</T>
+         <RK>30.72851098937189</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577833582000"/>
+         <MT N="document:created" V="Fri Dec 20 08:53:56 PST 2019"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1577833582000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-preamble-physiotherapy.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-preamble-physiotherapy.pdf"/>
+         <MT N="DCTERMS.created" V="2015-06-01"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-physiotherapy.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="document:modified" V="1576860836000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1576860836000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="184634.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>for beneficiaries with &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) supplementary
+benefits status...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="180.31k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-chiropractic.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-chiropractic.pdf</UE>
+         <T>msp-preamble-chiropractic.pdf</T>
+         <RK>30.72851098937189</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577833512000"/>
+         <MT N="document:created" V="Fri Dec 20 08:51:30 PST 2019"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1577833512000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-preamble-chiropractic.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-preamble-chiropractic.pdf"/>
+         <MT N="DCTERMS.created" V="2015-06-01"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-chiropractic.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="document:modified" V="1576860690000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1576860690000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="149955.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>for beneficiaries with &lt;b&gt;Medical
+Services Plan (MSP&lt;/b&gt;) supplementary benefits status...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="146.44k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-massage.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-massage.pdf</UE>
+         <T>msp-preamble-massage.pdf</T>
+         <RK>30.72851098937189</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-31"/>
+         <MT N="query_id" V="40030264553952"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1577833482000"/>
+         <MT N="document:created" V="Fri Dec 20 08:52:14 PST 2019"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1577833482000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-preamble-massage.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-preamble-massage.pdf"/>
+         <MT N="DCTERMS.created" V="2015-06-01"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-preamble-massage.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-12-31"/>
+         <MT N="document:modified" V="1576860734000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1576860734000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="171330.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>for beneficiaries with
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) supplementary benefits status...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="167.31k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>

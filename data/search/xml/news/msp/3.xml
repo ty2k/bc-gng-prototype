@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>5.663000</TM>
+   <Q>msp</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp" value="msp"/>
+   <RES EN="30" SN="21">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=bcnews&amp;client=news_fe&amp;q=msp&amp;start=10</PU>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=msp&amp;start=30</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/factsheets/small-business-in-british-columbia</U>
+         <UE>https://news.gov.bc.ca/factsheets/small-business-in-british-columbia</UE>
+         <T>FACTSHEET: Small business in British Columbia | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-04-04"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834620000"/>
+         <MT N="path" V="factsheets"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="business, BizPal, GDP, exports, technology, tax "/>
+         <MT N="mes:date" V="1491289200000"/>
+         <MT N="title" V="FACTSHEET: Small business in British Columbia | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063711"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/factsheets/small-business-in-british-columbia"/>
+         <MT N="DCTERMS.creator" V="ARCHIVED: Small Business and Red Tape Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Small businesses make up 98% of all business in B.C. and employ over one million people."/>
+         <MT N="mes:size" V="113690.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>50 million per year; cutting &lt;b&gt;MSP&lt;/b&gt; premiums in half for B.C. households with...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.03k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2019FIN0071-001480</U>
+         <UE>https://news.gov.bc.ca/releases/2019FIN0071-001480</UE>
+         <T>Public Accounts confirm investing in people pays dividends | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-07-18"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834633000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1563433200000"/>
+         <MT N="title" V="Public Accounts confirm investing in people pays dividends | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063753"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019FIN0071-001480"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The B.C. government is reporting higher income and stronger economic growth in 2018-19 that is helping make life more affordable, improving the services people count on and supporting a strong economy in British Columbia."/>
+         <MT N="mes:size" V="126131.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>s pockets by eliminating unfair &lt;b&gt;MSP&lt;/b&gt; premiums, removing interest on student loans...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="123.17k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2015SDSI0011-000305</U>
+         <UE>https://news.gov.bc.ca/releases/2015SDSI0011-000305</UE>
+         <T>More help for families with children on assistance | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-03-10"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834645000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="income assistance, income exemption, BC Employment and Income Assistance program, "/>
+         <MT N="mes:date" V="1425970800000"/>
+         <MT N="title" V="More help for families with children on assistance | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063724"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015SDSI0011-000305"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The B.C. government is making the transition to employment easier for families with children who receive income assistance by doubling their monthly income exemption from $200 to $400 a month and increasing it from $300 to $500 a month for families who have a child with a disability."/>
+         <MT N="mes:size" V="115538.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>optical and Ministry of Health &lt;b&gt;MSP&lt;/b&gt; and Pharmacare programs.
+Over the last...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.83k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2018HLTH0027-000559</U>
+         <UE>https://news.gov.bc.ca/releases/2018HLTH0027-000559</UE>
+         <T>Fair access to public health care for all British Columbians | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-04-04"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834651000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1522825200000"/>
+         <MT N="title" V="Fair access to public health care for all British Columbians | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063826"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018HLTH0027-000559"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="In addition to increasing access to surgeries and MRIs, the Government of British Columbia is bringing into force outstanding sections of the Medicare Protection Amendment Act, 2003, to further support patients and strengthen B.C.’s public health-care system, Adrian Dix, Minister of Health, announced today."/>
+         <MT N="mes:size" V="118276.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>covered under the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;), or publicly funded...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.5k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2014HLTH0119-001650</U>
+         <UE>https://news.gov.bc.ca/releases/2014HLTH0119-001650</UE>
+         <T>Programs and services for transgender community to be strengthened | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-10-30"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834670000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="transgender, LGBT, gender reassignment, gender dysphoria, "/>
+         <MT N="mes:date" V="1414652400000"/>
+         <MT N="title" V="Programs and services for transgender community to be strengthened | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063837"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014HLTH0119-001650"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Ministry of Health, Provincial Health Services Authority and Vancouver Coastal Health are working together to ensure members of the transgender community have access to a new provincial program that will offer expanded and sustainable services. "/>
+         <MT N="mes:size" V="113368.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>dysphoria through the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;). Since 2008, the...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.71k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2011LCITZ0025-001640</U>
+         <UE>https://news.gov.bc.ca/releases/2011LCITZ0025-001640</UE>
+         <T>Making Progress: Open Data | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2011-12-31"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834697000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1325318400000"/>
+         <MT N="title" V="Making Progress: Open Data | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063901"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2011LCITZ0025-001640"/>
+         <MT N="DCTERMS.creator" V="Citizens' Services"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Since its inception in July, B.C.'s Open Data initiative has successfully connected and engaged British Columbians in new and more meaningful ways."/>
+         <MT N="mes:size" V="112445.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>B.C. health practitioner and &lt;b&gt;MSP&lt;/b&gt; expenditures. Post-secondary graduate unemployment...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.81k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2019PREM0079-001110</U>
+         <UE>https://news.gov.bc.ca/releases/2019PREM0079-001110</UE>
+         <T>Spring session focused on affordability, strengthening economy | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-05-30"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834697000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1559199600000"/>
+         <MT N="title" V="Spring session focused on affordability, strengthening economy | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063912"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019PREM0079-001110"/>
+         <MT N="DCTERMS.creator" V="Office of the Premier"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Making life better and more affordable for British Columbians, while building a strong economy, was at the core of government work inside and outside the Parliament Buildings this spring."/>
+         <MT N="mes:size" V="117080.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>the final steps in eliminating &lt;b&gt;MSP&lt;/b&gt; fees, eliminated interest on B.C. student loans...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="114.34k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2015SDSI0038-001163</U>
+         <UE>https://news.gov.bc.ca/releases/2015SDSI0038-001163</UE>
+         <T>Regulation changes support families on income assistance | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-07-24"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834707000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="income assistance, disability, single parent, employment, child support, "/>
+         <MT N="mes:date" V="1437721200000"/>
+         <MT N="title" V="Regulation changes support families on income assistance | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063935"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2015SDSI0038-001163"/>
+         <MT N="DCTERMS.creator" V="Social Development and Poverty Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Amendments to the employment and assistance and the employment and assistance for persons with disabilities regulations pave the way for significant changes to the income and disability assistance program in British Columbia. "/>
+         <MT N="mes:size" V="120740.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>optical and Ministry of Health &lt;b&gt;MSP&lt;/b&gt; and PharmaCare programs.
+Social Development and...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="117.91k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/releases/2020HLTH0111-000574</U>
+         <UE>https://news.gov.bc.ca/releases/2020HLTH0111-000574</UE>
+         <T>Joint statement on Province of B.C.’s COVID-19 response, latest updates | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-03-26"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834722000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1585206000000"/>
+         <MT N="title" V="Joint statement on Province of B.C.’s COVID-19 response, latest updates | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063932"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2020HLTH0111-000574"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Adrian Dix, Minister of Health, and Dr. Bonnie Henry, B.C.'s provincial health officer, have issued the following joint statement regarding updates on the novel coronavirus (COVID-19) response in British Columbia:"/>
+         <MT N="mes:size" V="116166.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>to providing immediate &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) coverage to those...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.44k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2018FIN0030-001334</U>
+         <UE>https://news.gov.bc.ca/releases/2018FIN0030-001334</UE>
+         <T>Province releases Employer Health Tax implementation details | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-07-04"/>
+         <MT N="query_id" V="49774908269712"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834731000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1530687600000"/>
+         <MT N="title" V="Province releases Employer Health Tax implementation details | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063937"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018FIN0030-001334"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Ministry of Finance has released an Employer Health Tax (EHT) tax notice, as part of the next steps toward the elimination of Medical Services Plan (MSP) premiums and transition to the EHT."/>
+         <MT N="mes:size" V="119405.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>the elimination of &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums and transition...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="116.61k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="40" H="" L="" V="Health"/><PV C="26" H="" L="" V="Finance"/><PV C="21" H="" L="" V="Office of the Premier"/><PV C="14" H="" L="" V="Citizens' Services"/><PV C="13" H="" L="" V="Social Development and Poverty Reduction"/><PV C="6" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="5" H="" L="" V="Emergency Preparedness"/><PV C="5" H="" L="" V="Children and Family Development"/><PV C="5" H="" L="" V="Attorney General"/><PV C="4" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="4" H="" L="" V="Advanced Education and Skills Training"/><PV C="1" H="" L="" V="Public Safety and Solicitor General"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
-   <TM>0.802000</TM>
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.814000</TM>
    <Q>jobs</Q>
    <PARAM name="site" original_value="default_collection" value="default_collection"/>
    <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
@@ -8,20 +7,20 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="jobs" value="jobs"/>
    <RES EN="30" SN="21">
-      <M>30</M>
+      <M>40</M>
       <FI/>
       <NB>
-         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=10</PU>
-         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=30</NU>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=10</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=30</NU>
       </NB>
       <R N="1">
          <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings</U>
          <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings</UE>
          <T>Current BC Government Job Postings - Province of British Columbia</T>
-         <RK>47.10651684660322</RK>
+         <RK>47.093766842043465</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-08-24"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1598311226536"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -88,10 +87,10 @@ Learn how...</S>
          <U>https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement</U>
          <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/supports-for-forestry-workers/forestry-worker-job-placement</UE>
          <T>Forestry Worker Job Placement - Province of British Columbia</T>
-         <RK>47.07151683408624</RK>
+         <RK>46.9127667773128</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-12-02"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1606871549883"/>
          <MT N="DCSext.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
@@ -154,10 +153,10 @@ Apply for &lt;b&gt;Job&lt;/b&gt; Placement
          <U>https://www2.gov.bc.ca/gov/content/careers-myhr/managers-supervisors/job-evaluation-process</U>
          <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/managers-supervisors/job-evaluation-process</UE>
          <T>Managing the Job Evaluation Process - Province of British Columbia</T>
-         <RK>46.8952667710543</RK>
+         <RK>46.88226676640514</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-10-22"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1603397124388"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -224,10 +223,10 @@ If the &lt;b&gt;job&lt;/b&gt; doesn't meet...</S>
          <U>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees</U>
          <UE>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees</UE>
          <T>Job seekers &amp; employees - Province of British Columbia</T>
-         <RK>46.82401674557331</RK>
+         <RK>46.811266741013554</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-09-10"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1599759342221"/>
          <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
@@ -292,10 +291,10 @@ Search for &lt;b&gt;jobs&lt;/b&gt; and learn about</S>
          <U>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees/find-a-job</U>
          <UE>https://www2.gov.bc.ca/gov/content/employment-business/job-seekers-employees/find-a-job</UE>
          <T>Find a job - Province of British Columbia</T>
-         <RK>46.82401674557331</RK>
+         <RK>46.811266741013554</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-09-10"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1599759345919"/>
          <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
@@ -359,10 +358,10 @@ WorkBC.ca helps &lt;b&gt;jobs&lt;/b&gt;eekers, employers and others</S>
          <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers</U>
          <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers</UE>
          <T>Job Seekers - Province of British Columbia</T>
-         <RK>46.81926674387458</RK>
+         <RK>46.806266739225414</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-08-16"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1597611948233"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -434,7 +433,7 @@ Indigenous Applicant Advisory</S>
          <RK>71.06252541393951</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2015-09-24"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1443125008000"/>
          <MT N="document:created" V="Fri Feb 03 14:46:27 PST 2012"/>
@@ -479,7 +478,7 @@ BC &lt;b&gt;Jobs&lt;/b&gt; Plan Special Report...Starts Here: BC &lt;b&gt;Jo
          <RK>71.06252541393951</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2014-09-29"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1412004559000"/>
          <MT N="document:created" V="Mon Jun 18 03:29:30 PDT 2012"/>
@@ -544,7 +543,7 @@ BC &lt;b&gt;Jobs&lt;/b&gt; Plan
          <RK>69.08952470833947</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2014-09-29"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1412004561000"/>
          <MT N="document:created" V="Thu May 24 14:52:06 PDT 2012"/>
@@ -590,10 +589,10 @@ It</S>
          <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx</U>
          <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx</UE>
          <T>SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-excluded</T>
-         <RK>67.53402415204911</RK>
+         <RK>67.06752398521566</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2021-03-17"/>
-         <MT N="query_id" V="9228243408392"/>
+         <MT N="query_id" V="11254658830932"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1615995531000"/>
          <MT N="meta:paragraph-count" V="9"/>

@@ -95,6 +95,7 @@ function SearchBar({
           onChange={onChangeHandler}
           value={inputValue}
           placeholder={placeHolder}
+          spellCheck={false}
         />
         <SearchButton
           disabled={onButtonClick ? false : true} // Disable if no onClick is provided

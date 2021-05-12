@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>3.085000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="30" value="30"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="40" SN="31">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=20</PU>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=jobs&amp;start=40</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2017JTST0056-000551</U>
+         <UE>https://news.gov.bc.ca/releases/2017JTST0056-000551</UE>
+         <T>Northwest job seekers training for local jobs with government support | BC Gov News</T>
+         <RK>69.92902500856816</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-03-10"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835183000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="College of New Caledonia, skills training, Targeted Initiatives for Older Workers, Employment Services and Supports, Canada-B.C. Job Fund, BC Jobs Plan, Labour Market Outlook 2025, Rural Economic Development Strategy"/>
+         <MT N="mes:date" V="1489132800000"/>
+         <MT N="title" V="Northwest job seekers training for local jobs with government support | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064915"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017JTST0056-000551"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Up to 192 residents in the northwest and Nechako regions are receiving the training they need for jobs in their communities, thanks to support from the provincial and federal governments for various skills training projects."/>
+         <MT N="mes:size" V="120360.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>they need for &lt;b&gt;jobs&lt;/b&gt; in their communities...Bond, Minister of &lt;b&gt;Jobs&lt;/b&gt;, Tourism and Skills...help participants pursue &lt;b&gt;jobs&lt;/b&gt; in the future...Canada-B.C. &lt;b&gt;Job&lt;/b&gt; Fund.
+The remaining...Canada-B.C. &lt;b&gt;Job&lt;/b&gt; Fund Employment Services...Canada-B.C. &lt;b&gt;Job&lt;/b&gt; Fund Agreement in</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="117.54k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/stories/bcs-skills-for-jobs-blueprint-to-train-a-new-generation-of-workers</U>
+         <UE>https://news.gov.bc.ca/stories/bcs-skills-for-jobs-blueprint-to-train-a-new-generation-of-workers</UE>
+         <T>B.C.'s Skills for Jobs Blueprint to help a new generation of workers | BC Gov News</T>
+         <RK>69.8760249896139</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-07-07"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835196000"/>
+         <MT N="path" V="stories"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="jobs, job plan, employment, skills training, blueprint, Skills for Jobs Blueprint, education, training"/>
+         <MT N="mes:date" V="1404716400000"/>
+         <MT N="title" V="B.C.'s Skills for Jobs Blueprint to help a new generation of workers | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064925"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/stories/bcs-skills-for-jobs-blueprint-to-train-a-new-generation-of-workers"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Over the next two years British Columbians could see a dramatic change in the landscape of B.C.'s work force as older workers retire and less younger workers are available to replace them."/>
+         <MT N="mes:size" V="112495.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>s Skills for &lt;b&gt;Jobs&lt;/b&gt; Blueprint will aid...halt this possible &lt;b&gt;jobs&lt;/b&gt; crisis but also...s Skills for &lt;b&gt;Jobs&lt;/b&gt; Blueprint: Re-engineering</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.86k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2017JTST0093-000755</U>
+         <UE>https://news.gov.bc.ca/releases/2017JTST0093-000755</UE>
+         <T>Central Okanagan residents receiving training for local jobs with government support | BC Gov News</T>
+         <RK>69.80902496565281</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-03-21"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835504000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Central Okanagan, Kelowna Community Resources, Rural Economic Development Strategy, Canada-B.C. Job Fund, BC Jobs Plan, "/>
+         <MT N="mes:date" V="1490079600000"/>
+         <MT N="title" V="Central Okanagan residents receiving training for local jobs with government support | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065406"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017JTST0093-000755"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Up to 322 job seekers are receiving training for jobs in the Central Okanagan, thanks to support from the federal and provincial governments."/>
+         <MT N="mes:size" V="117514.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>Up to 322 &lt;b&gt;job&lt;/b&gt; seekers are receiving training for &lt;b&gt;jobs&lt;/b&gt; in the Central...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="114.76k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2017JTT0147-001741</U>
+         <UE>https://news.gov.bc.ca/releases/2017JTT0147-001741</UE>
+         <T>B.C.’s Trade Envoy to the United States advocates for B.C. forestry jobs in Oregon | BC Gov News</T>
+         <RK>69.80802496529519</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-10-13"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834529000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1507878000000"/>
+         <MT N="title" V="B.C.’s Trade Envoy to the United States advocates for B.C. forestry jobs in Oregon | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063551"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017JTT0147-001741"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="British Columbia Trade Envoy to the United States David Emerson was in Portland, Ore. yesterday advancing B.C.’s interests in the ongoing softwood lumber dispute."/>
+         <MT N="mes:size" V="113941.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>and costs construction &lt;b&gt;jobs&lt;/b&gt;.
+The meetings were...B.C. forestry &lt;b&gt;jobs&lt;/b&gt; in the U...Quotes:
+Minister of &lt;b&gt;Jobs&lt;/b&gt;, Trade and Technology...family-supporting Canadian &lt;b&gt;jobs&lt;/b&gt;, also threatens &lt;b&gt;jobs&lt;/b&gt; in the U</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.27k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2017ARR0002-000055</U>
+         <UE>https://news.gov.bc.ca/releases/2017ARR0002-000055</UE>
+         <T>First Nation members get training for natural gas pipeline jobs and wildlife monitoring | BC Gov News</T>
+         <RK>69.80802496529519</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-01-12"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834818000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Doig River First Nation, pipeline, construction, skills training, natural gas, Skills for Jobs Blueprint, BC Jobs Plan, "/>
+         <MT N="mes:date" V="1484208000000"/>
+         <MT N="title" V="First Nation members get training for natural gas pipeline jobs and wildlife monitoring | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064111"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017ARR0002-000055"/>
+         <MT N="DCTERMS.creator" V="Indigenous Relations and Reconciliation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Ensuring more Aboriginal people have access to skills training opportunities and jobs related to the liquefied natural gas sector is a key goal of new skills training projects developed with the Doig River First Nation."/>
+         <MT N="mes:size" V="116446.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>training opportunities and &lt;b&gt;jobs&lt;/b&gt; related to the...to land a &lt;b&gt;job&lt;/b&gt; and maximize employment...good, well-paying &lt;b&gt;jobs&lt;/b&gt; that will benefit...Bond, Minister of &lt;b&gt;Jobs&lt;/b&gt;, Tourism and Skills...members to good &lt;b&gt;jobs&lt;/b&gt; in the resource</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.72k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2012JTI0048-000489</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTI0048-000489</UE>
+         <T>Forestry training program means jobs for the North | BC Gov News</T>
+         <RK>69.78402495671212</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-04-17"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834691000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1334646000000"/>
+         <MT N="title" V="Forestry training program means jobs for the North | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063908"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTI0048-000489"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Thirty people in Northern British Columbia have begun a five-week training program to learn the skills necessary to work as log or chip truck drivers and heavy equipment operators (HEO) in the forestry industry."/>
+         <MT N="mes:size" V="114429.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>over one million &lt;b&gt;job&lt;/b&gt; openings. The BC &lt;b&gt;Jobs&lt;/b&gt; Plan will ensure...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.75k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2014JTST0073-001444</U>
+         <UE>https://news.gov.bc.ca/releases/2014JTST0073-001444</UE>
+         <T>Renewed focus to drive the B.C. economy in BC Jobs Plan 3-year Progress Update | BC Gov News</T>
+         <RK>69.78402495671212</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-09-30"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834915000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="BC Jobs Plan, Skills for Jobs Blueprint, Saltworks technologies "/>
+         <MT N="mes:date" V="1412060400000"/>
+         <MT N="title" V="Renewed focus to drive the B.C. economy in BC Jobs Plan 3-year Progress Update | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064236"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2014JTST0073-001444"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Government of British Columbia released the BC Jobs Plan 3-Year Progress Update with a renewed focus on strategic priorities to grow the economy and create long-term, well-paying jobs that strengthen families and communities. "/>
+         <MT N="mes:size" V="119445.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>economy and enable &lt;b&gt;job&lt;/b&gt; creation.
+The complete BC &lt;b&gt;Jobs&lt;/b&gt; Plan 3-Year...economy and support &lt;b&gt;job&lt;/b&gt; creation. The BC &lt;b&gt;Jobs&lt;/b&gt; Plan is working</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="116.65k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2012JTI0072-000859</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTI0072-000859</UE>
+         <T>Aquaculture training means jobs for the Island | BC Gov News</T>
+         <RK>69.78402495671212</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-06-14"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835028000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1339657200000"/>
+         <MT N="title" V="Aquaculture training means jobs for the Island | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064523"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTI0072-000859"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Sixty people on northern Vancouver Island are beginning a 25-week training program to learn the skills necessary to work as aquaculture technicians in the aquaculture industry."/>
+         <MT N="mes:size" V="114370.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>over one million &lt;b&gt;job&lt;/b&gt; openings. The BC &lt;b&gt;Jobs&lt;/b&gt; Plan will ensure...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="111.69k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/stories/governments-of-canada-and-british-columbia-continue-work-to-create-jobs</U>
+         <UE>https://news.gov.bc.ca/stories/governments-of-canada-and-british-columbia-continue-work-to-create-jobs</UE>
+         <T>Governments of Canada and British Columbia continue work to create jobs  | BC Gov News</T>
+         <RK>69.67602491808829</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-01-26"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835642000"/>
+         <MT N="path" V="stories"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="Employment, social development, economy, job skills, "/>
+         <MT N="mes:date" V="1422259200000"/>
+         <MT N="title" V="Governments of Canada and British Columbia continue work to create jobs  | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430065557"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/stories/governments-of-canada-and-british-columbia-continue-work-to-create-jobs"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="The Honourable Jason Kenney, Minister of Employment and Social Development, together with the Honourable Chris Alexander, Minister of Citizenship and Immigration, met with the Honourable Shirley Bond, British Columbia Minister of Jobs, Tourism and Skills Training and Minister Responsible for Labour, to discuss continued joint efforts to ensure British Columbia and Canada have the skilled and productive workforce needed in the natural resource sector. &#xA;"/>
+         <MT N="mes:size" V="121515.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>action to create &lt;b&gt;jobs&lt;/b&gt;
+Canada &lt;b&gt;Job&lt;/b&gt; Grant
+Canada &lt;b&gt;Job&lt;/b&gt; Grant (British Columbia...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="118.67k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2012JTST0036-001697</U>
+         <UE>https://news.gov.bc.ca/releases/2012JTST0036-001697</UE>
+         <T>B.C.'s Jobs Plan still on track for job growth | BC Gov News</T>
+         <RK>69.66002491236624</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2012-11-02"/>
+         <MT N="query_id" V="53855285955373"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619835002000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1351839600000"/>
+         <MT N="title" V="B.C.'s Jobs Plan still on track for job growth | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430064444"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2012JTST0036-001697"/>
+         <MT N="DCTERMS.creator" V="Jobs  Economic Recovery and Innovation"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Even with the loss of 10,900 jobs in October, the province remains on track to meet its BC Jobs Plan targets. B.C.'s job numbers declined for the month but kept pace with the overall job figures across the country."/>
+         <MT N="mes:size" V="113139.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>meet its BC &lt;b&gt;Jobs&lt;/b&gt; Plan targets. B.C.'s &lt;b&gt;job&lt;/b&gt; numbers declined for...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.49k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="1363" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="639" H="" L="" V="Advanced Education and Skills Training"/><PV C="561" H="" L="" V="Office of the Premier"/><PV C="361" H="" L="" V="Forests  Lands  Natural Resource Operations and Rural Development"/><PV C="360" H="" L="" V="Transportation and Infrastructure"/><PV C="337" H="" L="" V="Social Development and Poverty Reduction"/><PV C="293" H="" L="" V="Education"/><PV C="253" H="" L="" V="Agriculture  Food and Fisheries"/><PV C="238" H="" L="" V="Energy  Mines and Low Carbon Innovation"/><PV C="234" H="" L="" V="Tourism  Arts  Culture and Sport"/><PV C="210" H="" L="" V="Indigenous Relations and Reconciliation"/><PV C="143" H="" L="" V="Environment and Climate Change Strategy"/><PV C="138" H="" L="" V="Citizens' Services"/><PV C="128" H="" L="" V="Health"/><PV C="127" H="" L="" V="Finance"/><PV C="109" H="" L="" V="Minister of State for Trade"/><PV C="91" H="" L="" V="Attorney General"/><PV C="91" H="" L="" V="ARCHIVED: Natural Gas Development"/><PV C="81" H="" L="" V="Children and Family Development"/><PV C="60" H="" L="" V="Municipal Affairs"/><PV C="55" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="52" H="" L="" V="Intergovernmental Relations Secretariat"/><PV C="41" H="" L="" V="Labour"/><PV C="28" H="" L="" V="Public Safety and Solicitor General"/><PV C="19" H="" L="" V="ARCHIVED: Minister of State for Rural Economic Development"/><PV C="13" H="" L="" V="Mental Health and Addictions"/><PV C="11" H="" L="" V="Emergency Preparedness"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

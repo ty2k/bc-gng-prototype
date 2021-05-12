@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.890000</TM>
+   <Q>msp inmeta:ese_enhancedSearch=services</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="services_a_z_new" value="services_a_z_new"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp inmeta:ese_enhancedSearch=services" value="msp inmeta:ese_enhancedSearch=services"/>
+   <RES EN="30" SN="21">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=services_a_z_new&amp;q=msp+inmeta:ese_enhancedSearch=services&amp;start=10</PU>
+         <NU>/search?site=default_collection&amp;client=services_a_z_new&amp;q=msp+inmeta:ese_enhancedSearch=services&amp;start=30</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-williams-lake</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-williams-lake</UE>
+         <T>Service BC Location: Williams Lake - Province of British Columbia</T>
+         <RK>18.256756529124925</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-29"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1611962361749"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Williams Lake"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Williams Lake"/>
+         <MT N="mes:date" V="1611962361000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Williams Lake - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-williams-lake"/>
+         <MT N="DCTERMS.modified" V="2021-01-29"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Williams Lake"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="56C7F897B9E2410E9DB9227D74E22B64"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Williams Lake"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers ICBC Driver Licencing Services."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="121877.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Williams Lake"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="56C7F897B9E2410E9DB9227D74E22B64"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Williams Lake"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.02k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/pwd-designation-and-application/designation-application</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/pwd-designation-and-application/designation-application</UE>
+         <T>Designation Application - Province of British Columbia</T>
+         <RK>18.23150652009482</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-27"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1611770669376"/>
+         <MT N="DCSext.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Social assistance"/>
+         <MT N="DCTERMS.subject" V="Social policy"/>
+         <MT N="DCTERMS.subject" V="Income assistance"/>
+         <MT N="DCTERMS.subject" V="Social development"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="disability assistance, designated, mental disorder, physical impairment, medical practitioner, assistive device, PWD designation, physician report, assessor report, registered disability savings plan, RDSP, trust, assets, 17 year old applicants,  at home program,  intellectual disability, youth transition, pyschologoical assessments, Ministry of Children and Family Development,  employment obligations, moving on reserve, moving off reserve, designation rescinded"/>
+         <MT N="DCSext.current_page" V="Designation Application"/>
+         <MT N="mes:date" V="1611770669000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Designation Application - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="29C2B9349B1A4143852C466A9A244FD9"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="0D1841556042451B91592E675588DFA5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-02-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/pwd-designation-and-application/designation-application"/>
+         <MT N="DCTERMS.modified" V="2021-01-27"/>
+         <MT N="DCTERMS.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="current_page" V="Designation Application"/>
+         <MT N="DCSext.level3" V="BCEA Policy &amp; Procedure Manual"/>
+         <MT N="DCSext.level4" V="PWD Designation &amp; Application"/>
+         <MT N="DCSext.level5" V="Designation Application"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Policies for Government"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The BC Employment and Assistance Program for Persons with Disabilities provides disability assistance and supplements to provide greater independence for people with disabilities, including security of income, enhanced well-being, and participation in the community."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8DDCEBD0AF95460C9AA2D0657C9BDA94"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="177955.0"/>
+         <MT N="level5" V="Designation Application"/>
+         <MT N="level4" V="PWD Designation &amp; Application"/>
+         <MT N="current_page_id" V="0B5CDA8E0D3E4435B9C81ADA2DCB2525"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="BCEA Policy &amp; Procedure Manual"/>
+         <MT N="level2" V="Policies for Government"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_sdsi_olr"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="CMF_ContentType" V="Application"/>
+         <MT N="level4_id" V="8089E679250B47408BBD27A2718BF92A"/>
+         <MT N="navigaton_title" V="Designation Application"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="level5_id" V="0B5CDA8E0D3E4435B9C81ADA2DCB2525"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS:interactiveResource" V="OLR Policy"/>
+         <S>provided through the &lt;b&gt;Medical Services Plan&lt;/b&gt; not the Employment and...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="173.78k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-valemount</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-valemount</UE>
+         <T>Service BC Location: Valemount - Province of British Columbia</T>
+         <RK>18.08900646913283</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-14"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610664619729"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Valemount"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Valemount"/>
+         <MT N="mes:date" V="1610664619000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Valemount - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-valemount"/>
+         <MT N="DCTERMS.modified" V="2021-01-14"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Valemount"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="55D7C4F7E88F48F09BD88B67200ACC0E"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Valemount"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="122077.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Valemount"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="55D7C4F7E88F48F09BD88B67200ACC0E"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Valemount"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.22k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-nakusp</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-nakusp</UE>
+         <T>Service BC Location: Nakusp - Province of British Columbia</T>
+         <RK>18.077506465020107</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-13"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610575515037"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Nakusp"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Nakusp"/>
+         <MT N="mes:date" V="1610575515000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Nakusp - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-nakusp"/>
+         <MT N="DCTERMS.modified" V="2021-01-13"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Nakusp"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="C28C8951234945E3AE0A8E0710C21355"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Nakusp"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="123120.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Nakusp"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="C28C8951234945E3AE0A8E0710C21355"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Nakusp"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="120.23k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-fernie</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-fernie</UE>
+         <T>Service BC Location: Fernie - Province of British Columbia</T>
+         <RK>18.077506465020107</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-13"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610576413518"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC, ServiceBC, Enquiry BC, service, centre, locations, Fernie"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Fernie"/>
+         <MT N="mes:date" V="1610576413000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Fernie - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-fernie"/>
+         <MT N="DCTERMS.modified" V="2021-01-13"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Fernie"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="BAFE8FE5AB1641F7BE12137B1C2349C1"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Fernie"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="122626.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Fernie"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="BAFE8FE5AB1641F7BE12137B1C2349C1"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Fernie"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.75k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-squamish</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-squamish</UE>
+         <T>Service BC Location:  Squamish - Province of British Columbia</T>
+         <RK>18.065256460639166</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-12"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610482813412"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Squamish"/>
+         <MT N="DCSext.current_page" V="Service BC Location:  Squamish"/>
+         <MT N="mes:date" V="1610482813000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location:  Squamish - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-squamish"/>
+         <MT N="DCTERMS.modified" V="2021-01-12"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location:  Squamish"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="141BB0CF19C14C46B315C061B88704AD"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location:  Squamish"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="122195.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location:  Squamish"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="141BB0CF19C14C46B315C061B88704AD"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location:  Squamish"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.33k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-ganges</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-ganges</UE>
+         <T>Service BC Location: Ganges - Province of British Columbia</T>
+         <RK>18.056006457331105</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-12"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610409918662"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC, ServiceBC, Enquiry BC, service, centre, locations, Ganges, Salt Spring Island"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Ganges"/>
+         <MT N="mes:date" V="1610409918000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Ganges - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-ganges"/>
+         <MT N="DCTERMS.modified" V="2021-01-11"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Ganges"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="A82B9A9D61944C4A80F131A381A38FD3"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Ganges"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="122770.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Ganges"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="A82B9A9D61944C4A80F131A381A38FD3"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Ganges"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.89k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-bella-coola</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-bella-coola</UE>
+         <T>Service BC Location: Bella Coola - Province of British Columbia</T>
+         <RK>18.053506456437034</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-11"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1610391018453"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC, ServiceBC, Enquiry BC, service, centre, locations, Bella Coola"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Bella Coola"/>
+         <MT N="mes:date" V="1610391018000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Bella Coola - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-bella-coola"/>
+         <MT N="DCTERMS.modified" V="2021-01-11"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Bella Coola"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="D864E52D69EB4D4B85F0C22E69664298"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Bella Coola"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="124560.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Bella Coola"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="D864E52D69EB4D4B85F0C22E69664298"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Bella Coola"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="121.64k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-port-hardy</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-port-hardy</UE>
+         <T>Service BC Location: Port Hardy - Province of British Columbia</T>
+         <RK>17.976256428810274</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-01-04"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1609792533239"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Port hardy"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Port Hardy"/>
+         <MT N="mes:date" V="1609792533000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Port Hardy - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-port-hardy"/>
+         <MT N="DCTERMS.modified" V="2021-01-04"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Port Hardy"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="22CF750A64544F7DBAC331C83A5AAE8D"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Port Hardy"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="122236.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Port Hardy"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="22CF750A64544F7DBAC331C83A5AAE8D"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Port Hardy"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="119.37k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-masset</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-masset</UE>
+         <T>Service BC Location: Masset - Province of British Columbia</T>
+         <RK>17.82625637516607</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-12-21"/>
+         <MT N="query_id" V="75881932081283"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1608582983158"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Organizations"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Service BC ServiceBC Enquiry BC service centre locations Masset"/>
+         <MT N="DCSext.current_page" V="Service BC Location: Masset"/>
+         <MT N="mes:date" V="1608582983000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Service BC Location: Masset - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="259D3A1F1BCB8D601B13742603415970"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-09-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/citizens-services/servicebc/service-bc-location-masset"/>
+         <MT N="DCTERMS.modified" V="2020-12-21"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="current_page" V="Service BC Location: Masset"/>
+         <MT N="level6_id" V="FD6DB5BA2A5248038EEF54D9F9F37C4D"/>
+         <MT N="level7_id" V="95C77EC62298471F830F3CA5C19DD257"/>
+         <MT N="DCSext.level3" V="Ministries and organizations"/>
+         <MT N="DCSext.level4" V="Ministries"/>
+         <MT N="DCSext.level5" V="Citizens' Services"/>
+         <MT N="DCSext.level6" V="Service BC"/>
+         <MT N="DCSext.level7" V="Service BC Location: Masset"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Organizational structure"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Service BC helps citizens and businesses access over 600 provincial government services. This location offers Income and Disability Assistance Services through the Ministry of Social Development and Poverty Reduction."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F024503C72F64D8380441972977188D6"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="121429.0"/>
+         <MT N="level5" V="Citizens' Services"/>
+         <MT N="level4" V="Ministries"/>
+         <MT N="level7" V="Service BC Location: Masset"/>
+         <MT N="level6" V="Service BC"/>
+         <MT N="current_page_id" V="95C77EC62298471F830F3CA5C19DD257"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="Ministries and organizations"/>
+         <MT N="level2" V="Organizational structure"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="level4_id" V="70177F69BACC46A2B57ED1510B87EF1A"/>
+         <MT N="navigaton_title" V="Service BC Location: Masset"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="level5_id" V="EAD0DA87CFBA4CA0B020773C97AF86FB"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Initial Registrations - Online &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC – Online...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="118.58k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Subject Category" IR="0" NM="MBCTERMS.subjectCategory" T="0"><PV C="1" H="" L="" V="Economics and Industry"/><PV C="10" H="" L="" V="Health and Safety"/><PV C="64" H="" L="" V="Information and Communications"/><PV C="1" H="" L="" V="Law and Legislation"/><PV C="2" H="" L="" V="Processes"/></PMT>
+         <PMT DN="Subjects" IR="0" NM="DCTERMS.subject" T="0"><PV C="2" H="" L="" V="Access to information"/><PV C="1" H="" L="" V="Birth certificates"/><PV C="1" H="" L="" V="Child development"/><PV C="1" H="" L="" V="Children's health"/><PV C="1" H="" L="" V="Driving permits"/><PV C="1" H="" L="" V="Drug insurance"/><PV C="1" H="" L="" V="Grants"/><PV C="6" H="" L="" V="Health"/><PV C="2" H="" L="" V="Health care"/><PV C="3" H="" L="" V="Health insurance"/><PV C="1" H="" L="" V="Immigration"/><PV C="1" H="" L="" V="Income assistance"/><PV C="62" H="" L="" V="Organizations"/><PV C="1" H="" L="" V="Persons with disabilities"/><PV C="1" H="" L="" V="Prescription drugs"/><PV C="1" H="" L="" V="Property tax"/><PV C="1" H="" L="" V="Provincial government"/><PV C="1" H="" L="" V="Provincial programs"/><PV C="1" H="" L="" V="Provincial taxes"/><PV C="1" H="" L="" V="Social assistance"/><PV C="1" H="" L="" V="Social development"/><PV C="1" H="" L="" V="Social policy"/><PV C="1" H="" L="" V="Taxes"/><PV C="2" H="" L="" V="Vital statistics"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

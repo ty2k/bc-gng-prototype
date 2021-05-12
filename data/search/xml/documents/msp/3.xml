@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.072000</TM>
+   <Q>msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="30" SN="21">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=10</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=30</NU>
+      </NB>
+      <R MIME="application/pdf" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/health/conducting-health-research/data-access/medical-services-plan-data-dictionary.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/conducting-health-research/data-access/medical-services-plan-data-dictionary.pdf</UE>
+         <T>medical-services-plan-data-dictionary.pdf</T>
+         <RK>22.894508187714166</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-03-18"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1426716971000"/>
+         <MT N="document:created" V="Fri Mar 13 13:27:07 PDT 2015"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="MSP Payment Information (1985/86 onward)"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1426716971000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="medical-services-plan-data-dictionary.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="medical-services-plan-data-dictionary.pdf"/>
+         <MT N="DCTERMS.created" V="2015-03-18"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/conducting-health-research/data-access/medical-services-plan-data-dictionary.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-03-18"/>
+         <MT N="document:modified" V="1426278427000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1426278427000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="67953.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>1 of 2
+
+  &lt;b&gt;Medical Services Plan&lt;/b&gt; payment information –...The data includes &lt;b&gt;MSP&lt;/b&gt; insured medical fee...It also includes &lt;b&gt;MSP&lt;/b&gt; insured services provided...is treated.  The &lt;b&gt;MSP&lt;/b&gt; diagnosis codes are...services paid by &lt;b&gt;MSP&lt;/b&gt; to the practitioner...amount from
+a &lt;b&gt;Medical Services Plan&lt;/b&gt; expenditure perspective.
+
+Encounter...sub-system of &lt;b&gt;MSP&lt;/b&gt; Claims. It represents...Claim is the &lt;b&gt;MSP&lt;/b&gt; practitioner
+number of</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="66.36k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2016-insert.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2016-insert.pdf</UE>
+         <T>msp-oct2016-insert.pdf</T>
+         <RK>21.669007749441057</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-11-01"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1478035242000"/>
+         <MT N="document:xmpMM:History:When" V="1471875097000"/>
+         <MT N="document:xmpMM:History:When" V="1471877070000"/>
+         <MT N="document:xmpMM:History:When" V="1471877070000"/>
+         <MT N="document:xmpMM:History:When" V="1471879317000"/>
+         <MT N="document:xmpMM:History:When" V="1471879400000"/>
+         <MT N="document:xmpMM:History:When" V="1471879478000"/>
+         <MT N="document:xmpMM:History:When" V="1471879614000"/>
+         <MT N="document:xmpMM:History:When" V="1471879653000"/>
+         <MT N="document:xmpMM:History:When" V="1471879653000"/>
+         <MT N="document:xmpMM:History:When" V="1471880011000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:B8F9BED6CF79E611995FC3C04653389C"/>
+         <MT N="document:created" V="Fri Oct 07 13:10:25 PDT 2016"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.5"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1478035242000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-oct2016-insert.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:xmpMM:History:Action" V="created"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-oct2016-insert.pdf"/>
+         <MT N="DCTERMS.created" V="2016-11-01"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2016-insert.pdf"/>
+         <MT N="DCTERMS.modified" V="2016-11-01"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1478033338000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:F494B7FF5069E6119CB2C059E769041E"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1478033338000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="117209.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <S>Changes to &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) Premiums and Enhancements...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="114.46k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf</UE>
+         <T>2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf</T>
+         <RK>21.669007749441057</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-06-12"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1497306579000"/>
+         <MT N="document:created" V="Mon Jun 12 12:20:54 PDT 2017"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1497306579000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf"/>
+         <MT N="DCTERMS.created" V="2017-06-07"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2017.pdf"/>
+         <MT N="DCTERMS.modified" V="2017-06-12"/>
+         <MT N="document:modified" V="1497295254000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1497295254000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="192508.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>ENROLLMENT IN THE
+&lt;b&gt;MEDICAL SERVICES PLAN /HEALTH INSURANCE&lt;/b&gt; BC
+
+&lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC and Nurse...directly by the &lt;b&gt;Medical Services Plan/ Health
+
+Insurance&lt;/b&gt; BC for services...services to the
+
+&lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC. For this...familiarizing
+
+themselves with &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC policies and...register with the &lt;b&gt;Medical Services Plan/Health Insurance&lt;/b&gt; BC and obtain</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="188k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/37005-msp-invoices-insert-proof-dec-2016.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/37005-msp-invoices-insert-proof-dec-2016.pdf</UE>
+         <T>37005-msp-invoices-insert-proof-dec-2016.pdf</T>
+         <RK>21.669007749441057</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-12-02"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1480697606000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:546d4a87-da6d-45e1-9739-2e7f13bd478c"/>
+         <MT N="document:created" V="Thu Dec 01 09:29:09 PST 2016"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1480697606000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="37005-msp-invoices-insert-proof-dec-2016.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="37005-msp-invoices-insert-proof-dec-2016.pdf"/>
+         <MT N="DCTERMS.created" V="2016-12-02"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/37005-msp-invoices-insert-proof-dec-2016.pdf"/>
+         <MT N="DCTERMS.modified" V="2016-12-02"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1480613349000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:262e680c-7a6d-4fd1-a4b7-5f5388e0b316"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1480613349000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="138033.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <S>the changes to &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums and
+premium...assist you.
+
+3. &lt;b&gt;MSP&lt;/b&gt; Premium Rates Transition...Available:
+The complete &lt;b&gt;MSP&lt;/b&gt; Premium Rates Transition...section
+of the &lt;b&gt;MSP&lt;/b&gt; website: gov.bc...groupplanadministrators and click “&lt;b&gt;MSP&lt;/b&gt; Premium Changes”. This...format on the &lt;b&gt;MSP&lt;/b&gt; website. This new...be mailed to &lt;b&gt;Health Insurance&lt;/b&gt; BC as soon...not currently administer &lt;b&gt;MSP&lt;/b&gt; Regular Premium Assistance...contact information to:
+
+&lt;b&gt;Health Insurance&lt;/b&gt; BC
+PO BOX</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="134.8k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp_premium_changes_2017_qas.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp_premium_changes_2017_qas.pdf</UE>
+         <T>msp_premium_changes_2017_qas.pdf</T>
+         <RK>21.669007749441057</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-12-08"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1481229432000"/>
+         <MT N="document:created" V="Thu Dec 08 11:53:08 PST 2016"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1481229432000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp_premium_changes_2017_qas.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp_premium_changes_2017_qas.pdf"/>
+         <MT N="DCTERMS.created" V="2016-07-13"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp_premium_changes_2017_qas.pdf"/>
+         <MT N="DCTERMS.modified" V="2016-12-08"/>
+         <MT N="document:modified" V="1481226788000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1481226788000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="277597.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <S>Changes to &lt;b&gt;Medical Services Plan&lt;/b&gt; Premiums &amp;amp; Premium Assistance...the calculation
+of &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums and Regular...deductions allowed by &lt;b&gt;MSP&lt;/b&gt;:
+
+ $3,000 for...to apply for &lt;b&gt;MSP&lt;/b&gt; premium assistance to...of consent for &lt;b&gt;Health Insurance&lt;/b&gt; BC to verify...to re-apply. &lt;b&gt;Health Insurance&lt;/b&gt; BC will assess...who currently receive &lt;b&gt;MSP&lt;/b&gt; premium assistance or</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="271.09k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2017-insert.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2017-insert.pdf</UE>
+         <T>msp-oct2017-insert.pdf</T>
+         <RK>21.669007749441057</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-10-25"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1508951627000"/>
+         <MT N="document:created" V="Thu Oct 12 15:50:23 PDT 2017"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1508951627000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp-oct2017-insert.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp-oct2017-insert.pdf"/>
+         <MT N="DCTERMS.created" V="2017-10-25"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/msp-oct2017-insert.pdf"/>
+         <MT N="DCTERMS.modified" V="2017-10-25"/>
+         <MT N="document:modified" V="1507848623000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1507848623000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="425030.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <S>organization who administer
+
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) coverage and need...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="415.07k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/managing-your-msp-account/adding-and-removing-dependents/enrolling-your-newborn-msp.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/managing-your-msp-account/adding-and-removing-dependents/enrolling-your-newborn-msp.pdf</UE>
+         <T>enrolling-your-newborn-msp.pdf</T>
+         <RK>21.604007726195235</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-01-08"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1420758875000"/>
+         <MT N="document:created" V="Fri Jun 22 09:05:06 PDT 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Enrolling your Newborn in the Medical Services Plan (MSP)"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1420758875000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="enrolling-your-newborn-msp.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="enrolling-your-newborn-msp.pdf"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/medical-services-plan/bc-residents/managing-your-msp-account/adding-and-removing-dependents/enrolling-your-newborn-msp.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-01-08"/>
+         <MT N="document:modified" V="1364328502000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1364328502000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="164710.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <S>Newborn in the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;)
+
+
+How does this...my baby for &lt;b&gt;MSP&lt;/b&gt; coverage?
+When you...s
+information to &lt;b&gt;Health Insurance&lt;/b&gt; BC (HIBC) through...s eligibility for &lt;b&gt;Medical Services
+Plan (MSP&lt;/b&gt;) coverage.
+
+Why must...mother complete the &lt;b&gt;MSP&lt;/b&gt; enrolment?
+Coverage for...under the same &lt;b&gt;MSP&lt;/b&gt; account as the...mother and have &lt;b&gt;MSP&lt;/b&gt; coverage, the easiest...your newborn in &lt;b&gt;MSP&lt;/b&gt; is by
+providing...to apply for &lt;b&gt;MSP&lt;/b&gt; coverage for your</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="160.85k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf</UE>
+         <T>2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf</T>
+         <RK>21.408507656278964</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-04-16"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1429223769000"/>
+         <MT N="document:created" V="Thu Apr 16 15:26:23 PDT 2015"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1429223769000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf"/>
+         <MT N="DCTERMS.created" V="2015-04-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2_nurse_practitioner_enrollment_in_msp_hibc_april_2015.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-04-16"/>
+         <MT N="document:modified" V="1429223183000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1429223183000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="74158.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>ENROLLMENT IN THE
+
+&lt;b&gt;MEDICAL SERVICES PLAN /HEALTH INSURANCE&lt;/b&gt; BC
+
+
+
+&lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC and Nurse...directly by the &lt;b&gt;Medical Services Plan/
+
+Health Insurance&lt;/b&gt; BC for services...services to the &lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC. For this...familiarizing themselves with &lt;b&gt;Medical
+
+Services Plan/ Health Insurance&lt;/b&gt; BC policies and...enrol with the &lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt;
+
+BC and obtain</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="72.42k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2-nurse-practitioner-enrollment-in-msp-hibc.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2-nurse-practitioner-enrollment-in-msp-hibc.pdf</UE>
+         <T>2-nurse-practitioner-enrollment-in-msp-hibc.pdf</T>
+         <RK>21.285007612111905</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-02-10"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1423605167000"/>
+         <MT N="document:created" V="Wed Sep 10 12:54:48 PDT 2014"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="2 nurse practitioner enrollment in msp hibc"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1423605167000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="2-nurse-practitioner-enrollment-in-msp-hibc.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="2-nurse-practitioner-enrollment-in-msp-hibc.pdf"/>
+         <MT N="DCTERMS.created" V="2015-02-10"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/2-nurse-practitioner-enrollment-in-msp-hibc.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-02-10"/>
+         <MT N="document:modified" V="1410969515000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1410969515000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="77781.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <S>ENROLLMENT IN THE
+
+&lt;b&gt;MEDICAL SERVICES PLAN /HEALTH INSURANCE&lt;/b&gt; BC
+
+
+
+&lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC and Nurse...directly by the &lt;b&gt;Medical Services Plan/
+
+Health Insurance&lt;/b&gt; BC for services...services to the &lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt; BC. For this...familiarizing themselves with &lt;b&gt;Medical
+
+Services Plan/ Health Insurance&lt;/b&gt; BC policies and...enrol with the &lt;b&gt;Medical Services Plan/ Health Insurance&lt;/b&gt;
+
+BC and obtain</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="75.96k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/records-management/orcs/msp.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/records-management/orcs/msp.pdf</UE>
+         <T>Medical Services Plan ORCS</T>
+         <RK>21.13000755667957</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-02-20"/>
+         <MT N="query_id" V="41358319183006"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1519149181000"/>
+         <MT N="document:created" V="Fri Jun 13 09:46:10 PDT 2014"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Medical Services Plan ORCS"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1519149181000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Medical Services Plan ORCS"/>
+         <MT N="content" V=""/>
+         <MT N="spgrmORCS_enhancedSearch" V="spgrmORCS"/>
+         <MT N="content_group_id" V="525D9B81D31B4D208B27821335D097FA"/>
+         <MT N="content_group_id" V="3924A3B916D747AEB7B4E78625FDC289"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7AB6EBBDE57F4A53A1B8585068CFFB1B"/>
+         <MT N="content_group_id" V="4DC00E0CA6794A3FAA05B1B1FCC23499"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp.pdf"/>
+         <MT N="DCTERMS.created" V="2018-01-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/records-management/orcs/msp.pdf"/>
+         <MT N="DCTERMS.modified" V="2018-02-20"/>
+         <MT N="document:modified" V="1516054422000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1516054422000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="3733063.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_govservices"/>
+         <MT N="content_group" V="CMF_gov_citz_imb"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_CIRMO_GRS"/>
+         <MT N="content_group" V="CMF_gov_ocio"/>
+         <MT N="spgrmORCS_approvalDate" V="2014-05-14"/>
+         <MT N="scheduleNumber" V="142798"/>
+         <S>&lt;b&gt;MEDICAL SERVICES PLAN&lt;/b&gt; 
+ 
+
+OPERATIONAL RECORDS 
+CLASSIFICATION...14 Schedule 142798 &lt;b&gt;MSP&lt;/b&gt; ORCS AMEND - 1...made to the &lt;b&gt;Medical Services Plan&lt;/b&gt; ORCS and approved...amended the note.
+
+
+
+
+
+
+
+
+&lt;b&gt;MEDICAL SERVICES PLAN&lt;/b&gt;
+
+
+OPERATIONAL RECORDS
+CLASSIFICATION...applicable): 158558
+
+Title: &lt;b&gt;Medical Services Plan&lt;/b&gt; Operational Records Classification...5 of the &lt;b&gt;Medical Services Plan&lt;/b&gt; ORCS. This amendment</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="3.56 MB"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>

@@ -30,7 +30,14 @@ app.get('/api/services', function(req, res) {
 // API route to serve Search data to React client
 app.get('/api/search', function(req, res) {
   const userQuery = req.query.q;
-  const pageRequested = req.query.page > 1 ? req.query.page : 1;
+  const page = parseInt(req.query?.page > 1 ? req.query.page : 1);
+  const tab = parseInt(req.query?.tab || 1);
+  const tabMap = {
+    1: "all",
+    2: "news",
+    3: "documents",
+    4: "services",
+  };
 
   // Check for poison null byte in query
   if (userQuery.indexOf('\0') !== -1) {
@@ -44,8 +51,9 @@ app.get('/api/search', function(req, res) {
       'data',
       'search',
       'xml',
+      tabMap[tab],
       safeQuery,
-      pageRequested + '.xml'
+      page + '.xml'
     );
 
     if (safeQuery) {

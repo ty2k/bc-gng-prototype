@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.137000</TM>
+   <Q>jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="30" value="30"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="40" SN="31">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=20</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=40</NU>
+      </NB>
+      <R MIME="application/pdf" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-spanish.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-spanish.pdf</UE>
+         <T>circuit-breaker-business-relief-grant-final-spanish.pdf</T>
+         <RK>11.937504269184208</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619805366000"/>
+         <MT N="document:created" V="1619722216000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619805366000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="circuit-breaker-business-relief-grant-final-spanish.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="circuit-breaker-business-relief-grant-final-spanish.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-spanish.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="document:modified" V="1619722216000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619722216000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="563329.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>Innovación (Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic
+
+Recovery and...Innovación (Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic
+
+Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="550.13k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/develop-economic-sectors/mpi/mpi-2020/mpi-report-2020q4.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/develop-economic-sectors/mpi/mpi-2020/mpi-report-2020q4.pdf</UE>
+         <T>mpi-report-2020q4.pdf</T>
+         <RK>11.936004268647766</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-26"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1616786128000"/>
+         <MT N="document:created" V="1616622202000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="BRITISH COLUMBIA &#xA;MAJOR PROJECTS INVENTORY"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1616786128000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="mpi-report-2020q4.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="mpi-report-2020q4.pdf"/>
+         <MT N="DCTERMS.created" V="2021-03-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/develop-economic-sectors/mpi/mpi-2020/mpi-report-2020q4.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-03-26"/>
+         <MT N="document:modified" V="1616781891000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1616781891000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1070211.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>number of construction &lt;b&gt;jobs&lt;/b&gt; and operating &lt;b&gt;jobs&lt;/b&gt;.
+
+
+
+While every effort...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.02 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-investor-tour-april-2021.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-investor-tour-april-2021.pdf</UE>
+         <T>bc-investor-tour-april-2021.pdf</T>
+         <RK>11.931004266859627</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-29"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619732782000"/>
+         <MT N="document:created" V="1619720212000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Minister Investor Presentation April 30, 2021"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619732782000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc-investor-tour-april-2021.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc-investor-tour-april-2021.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-investor-tour-april-2021.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-29"/>
+         <MT N="document:modified" V="1619732754000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619732754000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1333171.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <S>with new investments in training and &lt;b&gt;job&lt;/b&gt; creation,
+CleanBC, and community infrastructure ($1...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.27 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/employment-standards-workplace-safety/employment-standards/employment-agencies/employment_agency_licence_list.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/employment-standards-workplace-safety/employment-standards/employment-agencies/employment_agency_licence_list.pdf</UE>
+         <T>employment_agency_licence_list.pdf</T>
+         <RK>11.92900426614437</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-29"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619708862000"/>
+         <MT N="document:created" V="1619708658000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Active EA and TA Licences Report"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619708862000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="employment_agency_licence_list.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="12C20A5AF7424213846770066F66E1ED"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="employment_agency_licence_list.pdf"/>
+         <MT N="DCTERMS.created" V="2019-06-21"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/employment-standards-workplace-safety/employment-standards/employment-agencies/employment_agency_licence_list.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-29"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="344168.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_workers_advisory"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>
+Active Licences as of 2021/04/29
+
+City Licence Legal Name Operating Name Street Address Phone / Fax Issued Date Expiry Date
+
+Abbotsford 836933 BD Immigration Inc. BD Immigration Inc. 205-2350 Westerly Street
+Abbotsford, BC V2T 6T7
+
+P: 778-986-5394
+F: 844-216-8364
+
+2020/11/08 2021/11/07
+
+A...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="336.1k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/all-employees/career-development/myperformance/ministry_myperformance_cycles.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/all-employees/career-development/myperformance/ministry_myperformance_cycles.pdf</UE>
+         <T>Ministry MyPerformance Cycles</T>
+         <RK>11.924004264356231</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-28"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619649785000"/>
+         <MT N="document:created" V="1619645054000"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="20201/2022: Ministry MyPerformance Cycles"/>
+         <MT N="DCTERMS.subject" V="Performance assessment"/>
+         <MT N="keywords" V="myperformance, employee performance, goals, assessments, profile, sign-off, cycle,"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619649785000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Ministry MyPerformance Cycles"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="bcpsa_audiences" V="Supervisors"/>
+         <MT N="bcpsa_audiences" V="Regular employees"/>
+         <MT N="bcpsa_audiences" V="Auxiliary employees"/>
+         <MT N="DCTERMS.filename" V="ministry_myperformance_cycles.pdf"/>
+         <MT N="DCTERMS.created" V="2016-03-23"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/all-employees/career-development/myperformance/ministry_myperformance_cycles.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-28"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Assessment"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="bcpsa_contentTypes" V="Guides"/>
+         <MT N="document:modified" V="1619649702000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="MyPerformance sign-off due dates, for each ministry."/>
+         <MT N="document:date" V="1619649702000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="111789.0"/>
+         <MT N="Synonyms" V="sign off, close, end, performance"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="Handbooks Standards and Guides"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <S>Year May 31 2021/22 Profile
+
+&lt;b&gt;Jobs&lt;/b&gt;, Trade, and Technology Fiscal Year May...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.17k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/environment/climate-change/advisory-council/letter_bccsc_allgovtapproach_202100413.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/environment/climate-change/advisory-council/letter_bccsc_allgovtapproach_202100413.pdf</UE>
+         <T>letter_bccsc_allgovtapproach_202100413.pdf</T>
+         <RK>11.922004263640975</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-28"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619624992000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Letter_BCCSC_AllGovtApproach_202100413"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619624992000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="letter_bccsc_allgovtapproach_202100413.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="content_group_id" V="BA7AEE90731D442894D7D18B51A9B9DC"/>
+         <MT N="content_group_id" V="45233A58A75D44DFAA565C81894C4FC6"/>
+         <MT N="content_group_id" V="BAF60765CFDE4B818499917E471490BC"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="letter_bccsc_allgovtapproach_202100413.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-28"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/environment/climate-change/advisory-council/letter_bccsc_allgovtapproach_202100413.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-28"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="191342.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <MT N="content_group" V="CMF_gov_env_cc_approver"/>
+         <MT N="content_group" V="CMF_gov_env_cc_author"/>
+         <MT N="content_group" V="CMF_gov_env_cc_maintainer"/>
+         <S>Mines and Low Carbon Innovation and &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and Innovation have no...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="186.86k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/small-business/covid-19_small_business_supports.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/small-business/covid-19_small_business_supports.pdf</UE>
+         <T>covid-19_small_business_supports.pdf</T>
+         <RK>11.916004261495207</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-27"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619557469000"/>
+         <MT N="document:created" V="1619557217000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="COVID-19 Supports for Businesses in B.C."/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619557469000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="covid-19_small_business_supports.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="content_group_id" V="FB4CFB9EB97A41738093C3102D813780"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="covid-19_small_business_supports.pdf"/>
+         <MT N="DCTERMS.created" V="2020-03-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/small-business/covid-19_small_business_supports.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-27"/>
+         <MT N="document:modified" V="1619557247000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619557247000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="661552.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="content_group" V="CMF_gov_smallbusiness"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>
+Supports for Businesses in B.C.
+Last updated: April 27, 2021
+
+
+
+
+
+
+
+This listing of supports may not be comprehensive and is subject to change.               Page 1 of 10
+Please contact support providers directly for eligibility and application details.
+
+Support for Businesses
+Gov...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="646.05k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/family-and-social-supports/child-care/covid-19/newsletter/covid-19_provider_newsletter_vol15_april23_final.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/family-and-social-supports/child-care/covid-19/newsletter/covid-19_provider_newsletter_vol15_april23_final.pdf</UE>
+         <T>covid-19_provider_newsletter_vol15_april23_final.pdf</T>
+         <RK>11.88750425130281</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-23"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619217244000"/>
+         <MT N="document:created" V="1619217146000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="COVID-19 Childcare BC Provider Newsletter - April 23, 2021"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619217244000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="covid-19_provider_newsletter_vol15_april23_final.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="5F403B2DDF884BCB9FB73719D4FCDE64"/>
+         <MT N="content_group_id" V="9063CA149A8443CEA8929BF95619B2F9"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="covid-19_provider_newsletter_vol15_april23_final.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-23"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/family-and-social-supports/child-care/covid-19/newsletter/covid-19_provider_newsletter_vol15_april23_final.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-23"/>
+         <MT N="document:modified" V="1619217187000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619217187000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="268645.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_cfd"/>
+         <MT N="content_group" V="CMF_gov_jb_services_manager"/>
+         <S>
+
+
+Ministry of Children and Family Development          Child Care Division          gov.bc.ca/ChildCareCOVID-19Response
+
+COVID-19 Update
+Child Care Operators/Providers/Partners
+April 23, 2021
+Edition 15
+
+Priority Vaccine Distribution Slower Than Expected
+
+The Province’s roll...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="262.35k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2019-07/ruraldividendwebinar2_ppt_presentation.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2019-07/ruraldividendwebinar2_ppt_presentation.pptx</UE>
+         <T>ruraldividendwebinar2_ppt_presentation.pptx</T>
+         <RK>11.88250424951467</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-07-19"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1563570075000"/>
+         <MT N="meta:paragraph-count" V="377"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="2407"/>
+         <MT N="document:ParagraphCount" V="377"/>
+         <MT N="document:LastPrinted" V="1558999631000"/>
+         <MT N="document:cp:revision" V="205"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2019-07-15T16:10:10Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="PowerPoint Presentation"/>
+         <MT N="document:TotalTime" V="2407"/>
+         <MT N="meta:last-author" V="Kennedy, Ben JTT:EX"/>
+         <MT N="xmpTPg:NPages" V="22"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1563570075000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="205"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2019-05-27T20:04:34Z"/>
+         <MT N="dcterms:modified" V="2019-07-15T16:10:10Z"/>
+         <MT N="title" V="ruraldividendwebinar2_ppt_presentation.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="377"/>
+         <MT N="extended-properties:TotalTime" V="2407"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="PowerPoint Presentation"/>
+         <MT N="meta:creation-date" V="2019-05-27T20:04:34Z"/>
+         <MT N="dc:creator" V="Phipps, Amy FLNR:EX"/>
+         <MT N="document:meta:lastauthor" V="Kennedy, Ben JTT:EX"/>
+         <MT N="creator" V="Phipps, Amy FLNR:EX"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2019-07-15T16:10:10Z"/>
+         <MT N="Last-Printed" V="2019-05-27T23:27:11Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="ruraldividendwebinar2_ppt_presentation.pptx"/>
+         <MT N="DCTERMS.created" V="2019-07-19"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="Last-Save-Date" V="2019-07-15T16:10:10Z"/>
+         <MT N="document:LastAuthor" V="Kennedy, Ben JTT:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2019-07/ruraldividendwebinar2_ppt_presentation.pptx"/>
+         <MT N="DCTERMS.modified" V="2019-07-19"/>
+         <MT N="Total-Time" V="2407"/>
+         <MT N="Creation-Date" V="2019-05-27T20:04:34Z"/>
+         <MT N="Last-Author" V="Kennedy, Ben JTT:EX"/>
+         <MT N="document:modified" V="1563207010000"/>
+         <MT N="document:WordCount" V="4415"/>
+         <MT N="meta:print-date" V="2019-05-27T23:27:11Z"/>
+         <MT N="meta:author" V="Phipps, Amy FLNR:EX"/>
+         <MT N="document:meta:wordcount" V="4415"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="document:date" V="1563207010000"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="9743353.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="205"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="date" V="2019-07-15T16:10:10Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="4415"/>
+         <MT N="document:meta:printdate" V="1558999631000"/>
+         <MT N="meta:save-date" V="2019-07-15T16:10:10Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="PowerPoint Presentation"/>
+         <MT N="Author" V="Phipps, Amy FLNR:EX"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="Revision-Number" V="205"/>
+         <MT N="Paragraph-Count" V="377"/>
+         <MT N="Word-Count" V="4415"/>
+         <S>and diversification, such as &lt;b&gt;job&lt;/b&gt; creation, business attraction and retention, investment...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="9.29 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.ms-excel" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/buy-goods-services-and-construction/goods-and-services-catalogue/csa-assets/commercial-card-program/card_coordinators.xls</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/buy-goods-services-and-construction/goods-and-services-catalogue/csa-assets/commercial-card-program/card_coordinators.xls</UE>
+         <T>card_coordinators.xls</T>
+         <RK>11.8800042486206</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-22"/>
+         <MT N="query_id" V="74152715372827"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619127345000"/>
+         <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
+         <MT N="document:LastPrinted" V="1564084156000"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-04-22T21:30:25Z"/>
+         <MT N="meta:last-author" V="Juszko, Cheryl L CITZ:EX"/>
+         <MT N="keywords" V="Commercial Card Program, ministry card coordinators"/>
+         <MT N="document:ContentType" V="application/vnd.ms-excel"/>
+         <MT N="mes:date" V="1619127345000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Excel"/>
+         <MT N="dcterms:created" V="2007-03-15T16:58:44Z"/>
+         <MT N="dcterms:modified" V="2021-04-22T21:30:25Z"/>
+         <MT N="title" V="card_coordinators.xls"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="application/vnd.ms-excel"/>
+         <MT N="meta:creation-date" V="2007-03-15T16:58:44Z"/>
+         <MT N="dc:creator" V="Shirley  Boon"/>
+         <MT N="document:meta:lastauthor" V="Juszko, Cheryl L CITZ:EX"/>
+         <MT N="creator" V="Shirley  Boon"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="525D9B81D31B4D208B27821335D097FA"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2021-04-22T21:30:25Z"/>
+         <MT N="Last-Printed" V="2019-07-25T19:49:16Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Excel"/>
+         <MT N="DCTERMS.filename" V="card_coordinators.xls"/>
+         <MT N="DCTERMS.created" V="2016-08-30"/>
+         <MT N="Last-Save-Date" V="2021-04-22T21:30:25Z"/>
+         <MT N="document:LastAuthor" V="Juszko, Cheryl L CITZ:EX"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/buy-goods-services-and-construction/goods-and-services-catalogue/csa-assets/commercial-card-program/card_coordinators.xls"/>
+         <MT N="DCTERMS.modified" V="2021-04-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Citizens' Services"/>
+         <MT N="Creation-Date" V="2007-03-15T16:58:44Z"/>
+         <MT N="Last-Author" V="Juszko, Cheryl L CITZ:EX"/>
+         <MT N="document:modified" V="1619127025000"/>
+         <MT N="meta:print-date" V="2019-07-25T19:49:16Z"/>
+         <MT N="procurement_goods and services subjects" V="User Information"/>
+         <MT N="meta:author" V="Shirley  Boon"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="This is the listing of ministry card coordinators for the Province of B.C. Commercial Card Program"/>
+         <MT N="document:date" V="1619127025000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="58880.0"/>
+         <MT N="extension" V="xls"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_govservices"/>
+         <MT N="date" V="2021-04-22T21:30:25Z"/>
+         <MT N="Company" V="Province of British Columbia"/>
+         <MT N="CMF_ContentType" V="Directories"/>
+         <MT N="document:ApplicationName" V="Microsoft Excel"/>
+         <MT N="document:meta:printdate" V="1564084156000"/>
+         <MT N="procurement_goods and services audience" V="B.C. Government Employees"/>
+         <MT N="procurement_goods and services audience" V="B.C. Government Ministries"/>
+         <MT N="meta:save-date" V="2021-04-22T21:30:25Z"/>
+         <MT N="Application-Name" V="Microsoft Excel"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="Author" V="Shirley  Boon"/>
+         <S>gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...gov.bc.ca
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...Innovation 	Denise 	Ewing
+	&lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="57.5k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>2.662000</TM>
+   <Q>msp</Q>
+   <PARAM name="site" original_value="bcnews" value="bcnews"/>
+   <PARAM name="client" original_value="news_fe" value="news_fe"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp" value="msp"/>
+   <RES EN="20" SN="11">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=bcnews&amp;client=news_fe&amp;q=msp&amp;start=0</PU>
+         <NU>/search?site=bcnews&amp;client=news_fe&amp;q=msp&amp;start=20</NU>
+      </NB>
+      <R N="1">
+         <U>https://news.gov.bc.ca/releases/2019PREM0126-002326</U>
+         <UE>https://news.gov.bc.ca/releases/2019PREM0126-002326</UE>
+         <T>Last bills mark end of MSP premiums in B.C. | BC Gov News</T>
+         <RK>47.95101714862007</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-05"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834689000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1575532800000"/>
+         <MT N="title" V="Last bills mark end of MSP premiums in B.C. | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063837"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019PREM0126-002326"/>
+         <MT N="DCTERMS.creator" V="Office of the Premier"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="People in B.C. will receive their last bill for Medical Services Plan (MSP) premiums in December 2019, putting more money back into the pockets of British Columbians, as the B.C. government works to make life more affordable for all."/>
+         <MT N="mes:size" V="115597.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>last bill for &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums in December...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="112.89k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://news.gov.bc.ca/releases/2018FIN0005-000238</U>
+         <UE>https://news.gov.bc.ca/releases/2018FIN0005-000238</UE>
+         <T>Budget 2018 puts people first, makes life more affordable for British Columbians | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-02-20"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834490000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1519113600000"/>
+         <MT N="title" V="Budget 2018 puts people first, makes life more affordable for British Columbians | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063536"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018FIN0005-000238"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Budget 2018 carves a new path to shared prosperity for everyone in the province with a made-in-B.C. child-care plan, a comprehensive housing plan and record levels of capital investment in every corner of the province, Finance Minister Carole James announced today."/>
+         <MT N="mes:size" V="129474.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>through partnerships. Eliminating &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums by Jan...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="126.44k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://news.gov.bc.ca/releases/2011PSSG0100-001069</U>
+         <UE>https://news.gov.bc.ca/releases/2011PSSG0100-001069</UE>
+         <T>Government releases public-sector compensation reports | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2011-08-30"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834496000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1314687600000"/>
+         <MT N="title" V="Government releases public-sector compensation reports | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063544"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2011PSSG0100-001069"/>
+         <MT N="DCTERMS.creator" V="Attorney General"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="For the fourth consecutive year, the Province has released reports detailing the major elements of compensation for public-sector executives in British Columbia."/>
+         <MT N="mes:size" V="117464.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>EI &amp;amp; WCB), non-statutory benefits (&lt;b&gt;MSP&lt;/b&gt;, EHB, dental, life Insurance &amp;amp; AD&amp;amp;D), car...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="114.71k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://news.gov.bc.ca/releases/2016CFD0061-002762</U>
+         <UE>https://news.gov.bc.ca/releases/2016CFD0061-002762</UE>
+         <T>More former youth in care get expanded supports than ever before | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2016-12-16"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834507000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="government care, Agreements with Young Adults, AYA program, former youth in care"/>
+         <MT N="mes:date" V="1481875200000"/>
+         <MT N="title" V="More former youth in care get expanded supports than ever before | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063545"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2016CFD0061-002762"/>
+         <MT N="DCTERMS.creator" V="Children and Family Development"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="More than 70 B.C. young people who were in government care have applied for extended supports since the expansion of the Agreements with Young Adults (AYA) program mid-October."/>
+         <MT N="mes:size" V="116162.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>per month, with extra support for &lt;b&gt;MSP&lt;/b&gt; and extended health benefits like dental and...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.44k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://news.gov.bc.ca/releases/2013HLTH0026-000271</U>
+         <UE>https://news.gov.bc.ca/releases/2013HLTH0026-000271</UE>
+         <T>Care coverage extension for long-term vacationers | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2013-02-20"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834520000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1361347200000"/>
+         <MT N="title" V="Care coverage extension for long-term vacationers | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063550"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2013HLTH0026-000271"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Amendments introduced today to the Medicare Protection Act will create authority to set regulations that would allow British Columbians who take longer-term vacations out of the province, such as &#34;snow birds&#34;, to stay on holidays for an extra period of time."/>
+         <MT N="mes:size" V="112538.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>province without losing &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) coverage is six...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.9k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://news.gov.bc.ca/releases/2021AEST0034-000762</U>
+         <UE>https://news.gov.bc.ca/releases/2021AEST0034-000762</UE>
+         <T>Supporting post-secondary students affected by India, Pakistan travel restrictions | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-23"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834553000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1619161200000"/>
+         <MT N="title" V="Supporting post-secondary students affected by India, Pakistan travel restrictions | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063630"/>
+         <MT N="referer" V="https://news.gov.bc.ca/releases/2013FLNR0161-001335"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2021AEST0034-000762"/>
+         <MT N="DCTERMS.creator" V="Advanced Education and Skills Training"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Mental health supports are available to B.C. post-secondary international students who are affected by the new federal flight restrictions between India, Pakistan and Canada."/>
+         <MT N="mes:size" V="118450.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>eligible for continued &lt;b&gt;MSP&lt;/b&gt; coverage: https://www2...health-drug-coverage/&lt;b&gt;msp&lt;/b&gt;/bc-residents/&lt;b&gt;msp&lt;/b&gt;-covid-19-response
+To</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="115.67k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://news.gov.bc.ca/releases/2019FIN0019-000248</U>
+         <UE>https://news.gov.bc.ca/releases/2019FIN0019-000248</UE>
+         <T>Budget 2019 creates opportunities, makes life better for people | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-02-19"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834584000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1550563200000"/>
+         <MT N="title" V="Budget 2019 creates opportunities, makes life better for people | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063703"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2019FIN0019-000248"/>
+         <MT N="DCTERMS.creator" V="Finance"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Budget 2019 is creating opportunities for all British Columbians by delivering a new B.C. Child Opportunity Benefit for kids up to the age of 18, removing interest from B.C. student loans, reducing taxes for businesses and investing in clean energy and climate solutions."/>
+         <MT N="mes:size" V="163461.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>child care, eliminating &lt;b&gt;Medical Services Plan&lt;/b&gt; premiums and making...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="159.63k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://news.gov.bc.ca/releases/2018HLTH0013-000319</U>
+         <UE>https://news.gov.bc.ca/releases/2018HLTH0013-000319</UE>
+         <T>Ability to get a non-photo BC Services card extended | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-03-02"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834606000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1519977600000"/>
+         <MT N="title" V="Ability to get a non-photo BC Services card extended | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063730"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2018HLTH0013-000319"/>
+         <MT N="DCTERMS.creator" V="Health"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="British Columbians enrolled in the Medical Services Plan (MSP) who have adopted a hyphenated surname, or a name other than their legal name, can continue to obtain a non-photo BC Services card."/>
+         <MT N="mes:size" V="111642.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>enrolled in the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) who have adopted...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.03k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://news.gov.bc.ca/factsheets/making-life-more-affordable-for-you-and-your-family</U>
+         <UE>https://news.gov.bc.ca/factsheets/making-life-more-affordable-for-you-and-your-family</UE>
+         <T>Making life more affordable for you and your family | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-12-12"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834607000"/>
+         <MT N="path" V="factsheets"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="mes:date" V="1544601600000"/>
+         <MT N="title" V="Making life more affordable for you and your family | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063727"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/factsheets/making-life-more-affordable-for-you-and-your-family"/>
+         <MT N="DCTERMS.creator" V="Office of the Premier"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="Too many people in B.C. have struggled to make ends meet and find a home they can afford. The holiday season often adds the financial strain of travel and entertaining, and combined with the high costs of rent, child care and other expenses, it can be overwhelming."/>
+         <MT N="mes:size" V="112532.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>we’ve reduced &lt;b&gt;MSP&lt;/b&gt; fees by 50% and will...by 2020. Eliminating &lt;b&gt;MSP&lt;/b&gt; premiums is one of</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="109.89k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://news.gov.bc.ca/releases/2017SBRT0016-000940</U>
+         <UE>https://news.gov.bc.ca/releases/2017SBRT0016-000940</UE>
+         <T>Cutting red tape for small businesses in Northeast B.C. | BC Gov News</T>
+         <RK>19.33700691545257</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-03-30"/>
+         <MT N="query_id" V="43316426012482"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619834615000"/>
+         <MT N="path" V="releases"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="keywords" V="small business, red tape, Mobile Business Licence, "/>
+         <MT N="mes:date" V="1490857200000"/>
+         <MT N="title" V="Cutting red tape for small businesses in Northeast B.C. | BC Gov News"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20210430063737"/>
+         <MT N="referer" V="https://news.gov.bc.ca/sitemap/html"/>
+         <MT N="datasource/fqcategory" V="Web:News gov BC"/>
+         <MT N="datasource/mes:key" V="https://news.gov.bc.ca/releases/2017SBRT0016-000940"/>
+         <MT N="DCTERMS.creator" V="ARCHIVED: Small Business and Red Tape Reduction"/>
+         <MT N="datasource/categoryinstance" V="News gov BC"/>
+         <MT N="description" V="A new agreement involving six local governments in the northeast allows small businesses to operate in multiple jurisdictions — cutting red tape and freeing up time and money."/>
+         <MT N="mes:size" V="116364.0"/>
+         <MT N="extension" V="html"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>over two years and reducing &lt;b&gt;MSP&lt;/b&gt; premiums by half. There are over 1,200...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.64k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Ministry" IR="0" NM="DCTERMS.creator" T="0"><PV C="40" H="" L="" V="Health"/><PV C="26" H="" L="" V="Finance"/><PV C="21" H="" L="" V="Office of the Premier"/><PV C="14" H="" L="" V="Citizens' Services"/><PV C="13" H="" L="" V="Social Development and Poverty Reduction"/><PV C="6" H="" L="" V="Jobs  Economic Recovery and Innovation"/><PV C="5" H="" L="" V="Emergency Preparedness"/><PV C="5" H="" L="" V="Children and Family Development"/><PV C="5" H="" L="" V="Attorney General"/><PV C="4" H="" L="" V="ARCHIVED: Small Business and Red Tape Reduction"/><PV C="4" H="" L="" V="Advanced Education and Skills Training"/><PV C="1" H="" L="" V="Public Safety and Solicitor General"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

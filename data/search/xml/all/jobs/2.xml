@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
-   <TM>0.965000</TM>
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.806000</TM>
    <Q>jobs</Q>
    <PARAM name="site" original_value="default_collection" value="default_collection"/>
    <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
@@ -8,20 +7,20 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="jobs" value="jobs"/>
    <RES EN="20" SN="11">
-      <M>30</M>
+      <M>40</M>
       <FI/>
       <NB>
-         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=0</PU>
-         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;num=10&amp;start=20</NU>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=20</NU>
       </NB>
       <R N="1">
          <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/first-nations-collaboration</U>
          <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/first-nations-collaboration</UE>
          <T>Government-to-Government Partnerships Create Industrial Development, Tax Revenue, and Jobs - Province of British Columbia</T>
-         <RK>59.84827140340975</RK>
+         <RK>59.785771381058</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-05-22"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1590189603000"/>
          <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
@@ -98,10 +97,10 @@ Economic development progress...</S>
          <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/elk-falls-bridge</U>
          <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/elk-falls-bridge</UE>
          <T>Community-Led Park Development Project Creates Jobs and Attracts Visitors to Elk Falls - Province of British Columbia</T>
-         <RK>59.84827140340975</RK>
+         <RK>59.785771381058</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-05-22"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1590189624000"/>
          <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
@@ -174,10 +173,10 @@ Campbell...</S>
          <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/columbia-lake-technology-centre</U>
          <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/bc-ideas-exchange/success-stories/developing-lands-and-community-amenities/columbia-lake-technology-centre</UE>
          <T>A High-Tech Factory Brings Back Jobs to a Community on the Site of a Former Mill - Province of British Columbia</T>
-         <RK>59.84827140340975</RK>
+         <RK>59.785771381058</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-05-22"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1590189531000"/>
          <MT N="DCSext.creator" V="Ministry of Jobs Trade and Technology"/>
@@ -246,10 +245,10 @@ Campbell...</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/changing-jobs</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/changing-jobs</UE>
          <T>Changing Jobs - Province of British Columbia</T>
-         <RK>59.3575212279038</RK>
+         <RK>59.34152122218176</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-12-31"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1577830296000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -324,10 +323,10 @@ Leaving a &lt;b&gt;Job&lt;/b&gt; with Group Plan</S>
          <U>https://www2.gov.bc.ca/gov/content/tourism-immigration/tourism-resources/training-finding-jobs</U>
          <UE>https://www2.gov.bc.ca/gov/content/tourism-immigration/tourism-resources/training-finding-jobs</UE>
          <T>Training &amp; Finding Jobs in B.C.'s Tourism Sector - Province of British Columbia</T>
-         <RK>59.27627119884653</RK>
+         <RK>59.26002119303507</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-07-29"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1564432074000"/>
          <MT N="DCSext.creator" V="Ministry of Jobs Tourism and Skills Training"/>
@@ -386,7 +385,7 @@ Explore...</S>
          <RK>58.60827095995103</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2018-05-29"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1527612105000"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -456,7 +455,7 @@ Search default...page for PEA &lt;b&gt;jobs&lt;/b&gt;</S>
          <RK>58.60827095995103</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2018-05-29"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1527612164000"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -526,7 +525,7 @@ Search default...for legal / judiciary &lt;b&gt;jobs&lt;/b&gt;</S>
          <RK>58.60827095995103</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2018-05-29"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1527609438000"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -593,10 +592,10 @@ Search default...page for BCGEU &lt;b&gt;jobs&lt;/b&gt;</S>
          <U>https://www2.gov.bc.ca/gov/content/data/statistics/government/employee-research/new-job-survey</U>
          <UE>https://www2.gov.bc.ca/gov/content/data/statistics/government/employee-research/new-job-survey</UE>
          <T>The New Job Survey - Province of British Columbia</T>
-         <RK>49.3667676549319</RK>
+         <RK>49.01701752985151</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2021-02-09"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1612893023165"/>
          <MT N="DCSext.creator" V="Ministry of Citizens' Services"/>
@@ -671,10 +670,10 @@ The New &lt;b&gt;Job&lt;/b&gt; Survey targets two...who have changed &lt;b&gt;jo
          <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings/job-application</U>
          <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings/job-application</UE>
          <T>Your Job Application - Province of British Columbia</T>
-         <RK>48.46626733288789</RK>
+         <RK>48.11626720771809</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2021-01-12"/>
-         <MT N="query_id" V="50345488047958"/>
+         <MT N="query_id" V="5799034742634"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1610474729645"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>

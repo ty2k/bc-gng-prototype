@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.036000</TM>
+   <Q>jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="20" SN="11">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=20</NU>
+      </NB>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx</UE>
+         <T>Job Seeker Quick Reference Guide</T>
+         <RK>25.46350910646049</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-05-08"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1525810693000"/>
+         <MT N="meta:paragraph-count" V="17"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="117"/>
+         <MT N="document:ParagraphCount" V="17"/>
+         <MT N="document:LastPrinted" V="1524156300000"/>
+         <MT N="document:cp:revision" V="7"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="Hiring and Service Operations one pager"/>
+         <MT N="document:LineCount" V="61"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="document:TotalTime" V="117"/>
+         <MT N="meta:last-author" V="Borysowich, Irene PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="1"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:Character Count" V="7400"/>
+         <MT N="keywords" V="job, apply"/>
+         <MT N="document:ApplicationVersion" V="14.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="14.0000"/>
+         <MT N="mes:date" V="1525810693000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="7"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2018-05-02T16:16:00Z"/>
+         <MT N="dcterms:modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="title" V="Job Seeker Quick Reference Guide"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="17"/>
+         <MT N="extended-properties:TotalTime" V="117"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="61"/>
+         <MT N="dc:title" V="Hiring and Service Operations one pager"/>
+         <MT N="meta:creation-date" V="2018-05-02T16:16:00Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Borysowich, Irene PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:PageCount" V="1"/>
+         <MT N="Last-Printed" V="2018-04-19T16:45:00Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="job_seeker_quick_reference_rms_accessible.docx"/>
+         <MT N="DCTERMS.created" V="2018-03-21"/>
+         <MT N="document:extendedproperties:AppVersion" V="14.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:meta:linecount" V="61"/>
+         <MT N="document:LastAuthor" V="Borysowich, Irene PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx"/>
+         <MT N="DCTERMS.modified" V="2018-05-08"/>
+         <MT N="Total-Time" V="117"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Job searching"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2018-05-02T16:16:00Z"/>
+         <MT N="Last-Author" V="Borysowich, Irene PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100E0E09030E7CCF5439FB8CB0B9C90AA7C"/>
+         <MT N="bcpsa_contentTypes" V="Guides"/>
+         <MT N="document:meta:charactercountwithspaces" V="8681"/>
+         <MT N="document:modified" V="1525371540000"/>
+         <MT N="document:CharacterCountWithSpaces" V="8681"/>
+         <MT N="document:WordCount" V="1298"/>
+         <MT N="meta:print-date" V="2018-04-19T16:45:00Z"/>
+         <MT N="meta:character-count-with-spaces" V="8681"/>
+         <MT N="document:meta:charactercount" V="7400"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="1298"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="A short guide to assist job seekers applying for jobs with the BC Public Service."/>
+         <MT N="meta:character-count" V="7400"/>
+         <MT N="document:date" V="1525371540000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="14.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1465120.0"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="7"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100E0E09030E7CCF5439FB8CB0B9C90AA7C"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2018-05-03T18:19:00Z"/>
+         <MT N="CMF_ContentType" V="Handbooks Standards and Guides"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="1"/>
+         <MT N="meta:word-count" V="1298"/>
+         <MT N="document:meta:pagecount" V="1"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="document:meta:printdate" V="1524156300000"/>
+         <MT N="meta:save-date" V="2018-05-03T18:19:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="documenttitle" V="Hiring and Service Operations one pager"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="Revision-Number" V="7"/>
+         <MT N="Page-Count" V="1"/>
+         <MT N="Paragraph-Count" V="17"/>
+         <MT N="Line-Count" V="61"/>
+         <MT N="Word-Count" V="1298"/>
+         <MT N="Character Count" V="7400"/>
+         <MT N="Character-Count-With-Spaces" V="8681"/>
+         <S>be notified when &lt;b&gt;jobs&lt;/b&gt; are posted
+
+ 	&lt;b&gt;Job&lt;/b&gt; Search Agents
+1...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.4 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf</UE>
+         <T>celp_bc-jobs-plan.pdf</T>
+         <RK>23.903508548560815</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-10-15"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1444929588000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:0D32C629132068118083B7193CAB80E3"/>
+         <MT N="document:created" V="Thu Nov 29 15:48:12 PST 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1444929588000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="celp_bc-jobs-plan.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="58514A877D2E41B3A0E45E74FE2A1C29"/>
+         <MT N="content_group_id" V="D8445943FE8A40FBB2216F24FC717561"/>
+         <MT N="content_group_id" V="F5659376C46F400C876FBDC91C37CDF4"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc-jobs-plan.pdf"/>
+         <MT N="DCTERMS.created" V="2015-10-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-10-16"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1444929547000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:BD9121D4122068118083B7193CAB80E3"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1444929547000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="1902122.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_maintainer"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <S>Here:
+The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+Enabling &lt;b&gt;Job&lt;/b&gt; Creation
+1. Establish...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.81 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf</UE>
+         <T>bc_mining_jobs_task_force_terms_of_reference.pdf</T>
+         <RK>23.73050848669117</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-02-26"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1519661822000"/>
+         <MT N="document:created" V="Mon Feb 26 08:15:29 PST 2018"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1519661822000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="7CC29382796B47A781998AA4FF5EE87A"/>
+         <MT N="content_group_id" V="4BBC8C707F7847919ABEDAFF1E0D0254"/>
+         <MT N="content_group_id" V="8CC748A0620D40A4ACD037CFD9BBAA33"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="DCTERMS.created" V="2018-02-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="DCTERMS.modified" V="2018-02-26"/>
+         <MT N="document:pdf:docinfo:custom:Company" V="Province of British Columbia"/>
+         <MT N="document:modified" V="1519661732000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1519661732000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="23602.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_maintainer"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <S>2
+
+BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force
+
+Terms...create good-paying &lt;b&gt;jobs&lt;/b&gt; in every corner...a BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force (Task...and sustain good &lt;b&gt;jobs&lt;/b&gt; in this important...putting projects
+and &lt;b&gt;job&lt;/b&gt; creation on hold...The BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force mandate...communities to make &lt;b&gt;jobs&lt;/b&gt; secure and mines...existing mines and &lt;b&gt;job&lt;/b&gt;
+
+protection during commodity...practices in mining &lt;b&gt;jobs&lt;/b&gt;ite health and safety</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="23.05k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf</UE>
+         <T>careerzone_mining_jobs_in_bc.pdf</T>
+         <RK>23.73050848669117</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-10-15"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1444941131000"/>
+         <MT N="document:xmpMM:History:When" V="1427392216000"/>
+         <MT N="document:xmpMM:History:When" V="1427745916000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="uuid:de5ee383-7a6c-0d41-8ed7-f9de4ac027c2"/>
+         <MT N="document:created" V="Mon Mar 30 16:05:26 PDT 2015"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="CareerZone_Spread_B 02"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe Illustrator CS5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe Illustrator CS5"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1444941131000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="content_group_id" V="75AF66C265C943EDABE83D2373664626"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="DCTERMS.created" V="2015-10-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-10-15"/>
+         <MT N="document:modified" V="1428623806000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:897F1174072068118A6DB4F34362D20F"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1428623806000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="287747.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_education"/>
+         <S>Some of the &lt;b&gt;jobs&lt;/b&gt; with the biggest...WIDE
+RANGE OF &lt;b&gt;JOBS&lt;/b&gt; AVAILABLE
+FOR ALL...THE OCCUPATION GAP
+
+&lt;b&gt;JOBS&lt;/b&gt; MOST NEEDED
+LEADING...HIRING FOR:
+
+MINING &lt;b&gt;JOBS&lt;/b&gt; IN BC
+
+375</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="281k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf</UE>
+         <T>wcb-284-jobs-trade-technology.pdf</T>
+         <RK>23.73050848669117</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-10-10"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1507658275000"/>
+         <MT N="document:created" V="Mon Jul 11 09:51:27 PDT 2016"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Form 7 test.xps"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1507658275000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="DCTERMS.created" V="2017-10-10"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="DCTERMS.modified" V="2017-10-10"/>
+         <MT N="document:modified" V="1503522048000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1503522048000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1220296.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <S>
+7  (R15/03)  Page 1 of 3
+
+Employer’s Report of Injury
+or Occupational Disease
+
+As an employer, the Workers Compensation Act requires you to submit this report within three days of an injury to one of your workers, even if you disagree with the
+claim. By submitting your report promptly, ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.16 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf</UE>
+         <T>bc_jobs_plan_technology_webinar_slides.pdf</T>
+         <RK>23.73050848669117</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-11-18"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1416327059000"/>
+         <MT N="document:created" V="Mon Nov 17 16:48:02 PST 2014"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="BCIC"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1416327059000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="DCTERMS.created" V="2014-11-18"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="DCTERMS.modified" V="2014-11-18"/>
+         <MT N="document:modified" V="1416271682000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1416271682000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="5089538.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <S>fastest private sector &lt;b&gt;job&lt;/b&gt; creator over the...B.C.
+
+•BC &lt;b&gt;Jobs&lt;/b&gt; plan progress made...the availability of &lt;b&gt;job&lt;/b&gt;-ready graduates
+•...the Growing Green &lt;b&gt;Jobs&lt;/b&gt; plan
+
+
+
+
+Technology in</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="4.85 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/diversity-inclusion-respect/slides_inclusion_conversation.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/diversity-inclusion-respect/slides_inclusion_conversation.pptx</UE>
+         <T>slides_inclusion_conversation.pptx</T>
+         <RK>14.174005069019223</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-02-24"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1614205166000"/>
+         <MT N="meta:paragraph-count" V="294"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="1790"/>
+         <MT N="document:ParagraphCount" V="294"/>
+         <MT N="document:cp:revision" V="146"/>
+         <MT N="extended-properties:Template" V="Badge"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-02-24T22:00:51Z"/>
+         <MT N="document:dc:title" V="SLIDES: Inclusion Conversation"/>
+         <MT N="document:TotalTime" V="1790"/>
+         <MT N="meta:last-author" V="Yearley, Lee-Ann PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="19"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1614205166000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="146"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2020-07-02T16:08:33Z"/>
+         <MT N="dcterms:modified" V="2021-02-24T22:00:51Z"/>
+         <MT N="title" V="slides_inclusion_conversation.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="294"/>
+         <MT N="extended-properties:TotalTime" V="1790"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="SLIDES: Inclusion Conversation"/>
+         <MT N="meta:creation-date" V="2020-07-02T16:08:33Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Yearley, Lee-Ann PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Badge"/>
+         <MT N="modified" V="2021-02-24T22:00:51Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="slides_inclusion_conversation.pptx"/>
+         <MT N="DCTERMS.created" V="2021-02-24"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="document:Template" V="Badge"/>
+         <MT N="Last-Save-Date" V="2021-02-24T22:00:51Z"/>
+         <MT N="document:LastAuthor" V="Yearley, Lee-Ann PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/diversity-inclusion-respect/slides_inclusion_conversation.pptx"/>
+         <MT N="DCTERMS.modified" V="2021-02-24"/>
+         <MT N="Total-Time" V="1790"/>
+         <MT N="Creation-Date" V="2020-07-02T16:08:33Z"/>
+         <MT N="Last-Author" V="Yearley, Lee-Ann PSA:EX"/>
+         <MT N="document:modified" V="1614204051000"/>
+         <MT N="document:WordCount" V="2834"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="2834"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1614204051000"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="236841.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="146"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2021-02-24T22:00:51Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="2834"/>
+         <MT N="document:extendedproperties:Template" V="Badge"/>
+         <MT N="meta:save-date" V="2021-02-24T22:00:51Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="SLIDES: Inclusion Conversation"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="Revision-Number" V="146"/>
+         <MT N="Paragraph-Count" V="294"/>
+         <MT N="Word-Count" V="2834"/>
+         <S>restrictions are removed from all &lt;b&gt;job&lt;/b&gt; opportunities where they are not mandatory
+Remove...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="231.29k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-employee-labour-relations/collective_agreements_guide.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-employee-labour-relations/collective_agreements_guide.pptx</UE>
+         <T>collective_agreements_guide.pptx</T>
+         <RK>12.940504627885089</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-06-15"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1592246060000"/>
+         <MT N="meta:paragraph-count" V="425"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="3750"/>
+         <MT N="document:ParagraphCount" V="425"/>
+         <MT N="document:cp:revision" V="202"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2017-07-07T18:47:49Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="Slide 1"/>
+         <MT N="DCTERMS.subject" V="Agreements"/>
+         <MT N="DCTERMS.subject" V="Collective agreements"/>
+         <MT N="document:TotalTime" V="3750"/>
+         <MT N="meta:last-author" V="Ramezani, Sandra PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="28"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="keywords" V="BCGEU, pea, agreements, guide"/>
+         <MT N="document:ApplicationVersion" V="14.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="14.0000"/>
+         <MT N="mes:date" V="1592246060000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="202"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2008-03-10T16:36:59Z"/>
+         <MT N="dcterms:modified" V="2017-07-07T18:47:49Z"/>
+         <MT N="title" V="collective_agreements_guide.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="425"/>
+         <MT N="extended-properties:TotalTime" V="3750"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="Slide 1"/>
+         <MT N="meta:creation-date" V="2008-03-10T16:36:59Z"/>
+         <MT N="dc:creator" V="Rueben  Bronee"/>
+         <MT N="document:meta:lastauthor" V="Ramezani, Sandra PSA:EX"/>
+         <MT N="creator" V="Rueben  Bronee"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2017-07-07T18:47:49Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="collective_agreements_guide.pptx"/>
+         <MT N="DCTERMS.created" V="2017-07-07"/>
+         <MT N="document:extendedproperties:AppVersion" V="14.0000"/>
+         <MT N="Last-Save-Date" V="2017-07-07T18:47:49Z"/>
+         <MT N="document:LastAuthor" V="Ramezani, Sandra PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-employee-labour-relations/collective_agreements_guide.pptx"/>
+         <MT N="DCTERMS.modified" V="2020-06-15"/>
+         <MT N="Total-Time" V="3750"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Labour relations"/>
+         <MT N="bcpsa_subjects" V="Employee relations"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2008-03-10T16:36:59Z"/>
+         <MT N="Last-Author" V="Ramezani, Sandra PSA:EX"/>
+         <MT N="document:modified" V="1499453269000"/>
+         <MT N="document:WordCount" V="1922"/>
+         <MT N="meta:author" V="Rueben  Bronee"/>
+         <MT N="document:meta:wordcount" V="1922"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="An overview of changes to the BCGEU and PEA Agreements"/>
+         <MT N="document:date" V="1499453269000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="14.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="213107.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="202"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2017-07-07T18:47:49Z"/>
+         <MT N="CMF_ContentType" V="Presentation"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="1922"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="meta:save-date" V="2017-07-07T18:47:49Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="Slide 1"/>
+         <MT N="Author" V="Rueben  Bronee"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="Revision-Number" V="202"/>
+         <MT N="Paragraph-Count" V="425"/>
+         <MT N="Word-Count" V="1922"/>
+         <S>12.03)
+The new appeal procedure for &lt;b&gt;job&lt;/b&gt; appointments to the PEA bargaining unit...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="208.11k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides.pptx</UE>
+         <T>social_media_guidelines_for_personal_use_slides.pptx</T>
+         <RK>12.764504564942563</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-09"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1575924971000"/>
+         <MT N="meta:paragraph-count" V="209"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="2329"/>
+         <MT N="document:ParagraphCount" V="209"/>
+         <MT N="document:LastPrinted" V="1557253197000"/>
+         <MT N="document:cp:revision" V="276"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2019-07-19T22:09:17Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="Social Media Guidelines"/>
+         <MT N="DCTERMS.subject" V="Ethics"/>
+         <MT N="DCTERMS.subject" V="Online social networks"/>
+         <MT N="document:TotalTime" V="2329"/>
+         <MT N="meta:last-author" V="Matei, Christopher PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="18"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="keywords" V="Social Media, guidelines, slides, personal use"/>
+         <MT N="document:Keywords" V="Social Media"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1575924971000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="276"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2016-11-01T21:42:42Z"/>
+         <MT N="dcterms:modified" V="2019-07-19T22:09:17Z"/>
+         <MT N="title" V="social_media_guidelines_for_personal_use_slides.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="209"/>
+         <MT N="extended-properties:TotalTime" V="2329"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="Social Media Guidelines"/>
+         <MT N="meta:creation-date" V="2016-11-01T21:42:42Z"/>
+         <MT N="document:meta:keyword" V="Social Media"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Matei, Christopher PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2019-07-19T22:09:17Z"/>
+         <MT N="Last-Printed" V="2019-05-07T18:19:57Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="social_media_guidelines_for_personal_use_slides.pptx"/>
+         <MT N="DCTERMS.created" V="2019-06-14"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="Last-Save-Date" V="2019-07-19T22:09:17Z"/>
+         <MT N="document:LastAuthor" V="Matei, Christopher PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="dc:subject" V="Social Media"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides.pptx"/>
+         <MT N="DCTERMS.modified" V="2019-12-09"/>
+         <MT N="meta:keyword" V="Social Media"/>
+         <MT N="Total-Time" V="2329"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Public service ethics"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2016-11-01T21:42:42Z"/>
+         <MT N="Last-Author" V="Matei, Christopher PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100204F3AF31C9F9E47A5C8D101BA47FCD8"/>
+         <MT N="bcpsa_contentTypes" V="Guides"/>
+         <MT N="document:modified" V="1563574157000"/>
+         <MT N="document:WordCount" V="1794"/>
+         <MT N="meta:print-date" V="2019-05-07T18:19:57Z"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="1794"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="Guidelines for the Personal Use of Social Media in the Workplace"/>
+         <MT N="document:date" V="1563574157000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="2335601.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="276"/>
+         <MT N="security_label" V="Low Sensitivity"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100204F3AF31C9F9E47A5C8D101BA47FCD8"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="Social Media"/>
+         <MT N="date" V="2019-07-19T22:09:17Z"/>
+         <MT N="CMF_ContentType" V="Images and Graphics"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="1794"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:meta:printdate" V="1557253197000"/>
+         <MT N="meta:save-date" V="2019-07-19T22:09:17Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="Social Media Guidelines"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="subject" V="Social Media"/>
+         <MT N="Revision-Number" V="276"/>
+         <MT N="Keywords" V="Social Media"/>
+         <MT N="Paragraph-Count" V="209"/>
+         <MT N="Word-Count" V="1794"/>
+         <S>activity.
+
+If you list your &lt;b&gt;job&lt;/b&gt; title or place of work or have photos of...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="2.23 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides_plain.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides_plain.pptx</UE>
+         <T>social_media_guidelines_for_personal_use_slides_plain.pptx</T>
+         <RK>12.764504564942563</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-09"/>
+         <MT N="query_id" V="69357547134211"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1575924787000"/>
+         <MT N="meta:paragraph-count" V="203"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="1722"/>
+         <MT N="document:ParagraphCount" V="203"/>
+         <MT N="document:cp:revision" V="140"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2019-07-19T22:05:59Z"/>
+         <MT N="document:dc:title" V="Social Media Guidelines for BC Public Service Employees"/>
+         <MT N="DCTERMS.subject" V="Online social networks"/>
+         <MT N="DCTERMS.subject" V="Ethics"/>
+         <MT N="document:TotalTime" V="1722"/>
+         <MT N="meta:last-author" V="Matei, Christopher PSA:EX"/>
+         <MT N="document:cp:subject" V="Social Media"/>
+         <MT N="xmpTPg:NPages" V="17"/>
+         <MT N="keywords" V="Social media, personal use, guidelines, slideshow"/>
+         <MT N="document:Keywords" V="Social Media"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1575924787000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="140"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2019-01-10T17:18:43Z"/>
+         <MT N="dcterms:modified" V="2019-07-19T22:05:59Z"/>
+         <MT N="title" V="social_media_guidelines_for_personal_use_slides_plain.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="203"/>
+         <MT N="extended-properties:TotalTime" V="1722"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="Social Media Guidelines for BC Public Service Employees"/>
+         <MT N="meta:creation-date" V="2019-01-10T17:18:43Z"/>
+         <MT N="document:meta:keyword" V="Social Media"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Matei, Christopher PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2019-07-19T22:05:59Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="social_media_guidelines_for_personal_use_slides_plain.pptx"/>
+         <MT N="DCTERMS.created" V="2019-06-14"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="Last-Save-Date" V="2019-07-19T22:05:59Z"/>
+         <MT N="document:LastAuthor" V="Matei, Christopher PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="dc:subject" V="Social Media"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/ethics/social_media_guidelines_for_personal_use_slides_plain.pptx"/>
+         <MT N="DCTERMS.modified" V="2019-12-09"/>
+         <MT N="meta:keyword" V="Social Media"/>
+         <MT N="Total-Time" V="1722"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Public service ethics"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2019-01-10T17:18:43Z"/>
+         <MT N="Last-Author" V="Matei, Christopher PSA:EX"/>
+         <MT N="bcpsa_contentTypes" V="Instructional materials"/>
+         <MT N="document:modified" V="1563573959000"/>
+         <MT N="document:WordCount" V="2040"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="2040"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Guidelines for the Personal Use of Social Media"/>
+         <MT N="document:date" V="1563573959000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:Category" V="Ethics"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="109471.0"/>
+         <MT N="cp:subject" V="Social Media"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="140"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="Social Media"/>
+         <MT N="date" V="2019-07-19T22:05:59Z"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="CMF_ContentType" V="Images and Graphics"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="2040"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="meta:save-date" V="2019-07-19T22:05:59Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="Social Media Guidelines for BC Public Service Employees"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="Category" V="Ethics"/>
+         <MT N="subject" V="Social Media"/>
+         <MT N="Revision-Number" V="140"/>
+         <MT N="Keywords" V="Social Media"/>
+         <MT N="Paragraph-Count" V="203"/>
+         <MT N="Word-Count" V="2040"/>
+         <S>activity.
+
+If you list your &lt;b&gt;job&lt;/b&gt; title or place of work or have photos of...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.91k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>
