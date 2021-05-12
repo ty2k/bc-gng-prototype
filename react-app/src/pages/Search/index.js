@@ -335,12 +335,40 @@ function Search() {
           {result?.T?.toString().split(" | BC Gov News", 1)[0]}
         </a>
       );
-      // Documents tab (3) and default
+      // Documents (3) tab and default
     } else {
       return (
         <a className="title" href={result?.UE}>
           {result?.T}
         </a>
+      );
+    }
+  }
+
+  function getResultDescription(result) {
+    // Documents (3) tab
+    if (tab === 3) {
+      return (
+        <p
+          className="description"
+          dangerouslySetInnerHTML={{ __html: result?.S?.toString() }}
+        />
+      );
+
+      // All (1), Services (4), News (2) tabs and default
+    } else {
+      return (
+        <p className="description">
+          {result?.MT?.length > 0 &&
+            result?.MT?.map((metaTag) => {
+              if (metaTag?.$?.N === "description") {
+                return metaTag?.$?.V;
+              }
+              // .map() expects an explicit return value and React will
+              // throw a warning if this is not present
+              return null;
+            })}
+        </p>
       );
     }
   }
@@ -436,17 +464,7 @@ function Search() {
                 {getResultTitle(result)}
 
                 {/* Description */}
-                <p className="description">
-                  {result?.MT?.length > 0 &&
-                    result?.MT?.map((metaTag) => {
-                      if (metaTag?.$?.N === "description") {
-                        return metaTag?.$?.V;
-                      }
-                      // .map() expects an explicit return value and React will
-                      // throw a warning if this is not present
-                      return null;
-                    })}
-                </p>
+                {getResultDescription(result)}
               </div>
 
               {/* Preview image */}
