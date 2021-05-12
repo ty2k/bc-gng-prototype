@@ -321,44 +321,28 @@ function Search() {
   }
 
   function getResultTitle(result) {
-    // Page (non-document) results should have a metatag for "navigaton_title"
-    // and no explicit MIME type set.
-    if (!result?.$?.MIME) {
+    // All (1) or Services (4) tabs
+    if (tab === 1 || tab === 4) {
       return (
         <a className="title" href={result?.UE}>
-          {result?.MT?.length > 0 &&
-            result?.MT?.map((metaTag) => {
-              // Note misspelling of "navigation" to match API data
-              if (metaTag?.$?.N === "navigaton_title") {
-                return metaTag?.$?.V;
-              }
-              // .map() expects an explicit return value and React will throw
-              // a warning if this is not present
-              return null;
-            })}
+          {result?.T?.toString().split(" - Province of British Columbia", 1)[0]}
+        </a>
+      );
+      // News (2) tab
+    } else if (tab === 2) {
+      return (
+        <a className="title" href={result?.UE}>
+          {result?.T?.toString().split(" | BC Gov News", 1)[0]}
+        </a>
+      );
+      // Documents tab (3) and default
+    } else {
+      return (
+        <a className="title" href={result?.UE}>
+          {result?.T}
         </a>
       );
     }
-
-    // Document results should have a title (without suffix) which we prefer,
-    // or a filename that can be used if the title is absent.
-    let title = "";
-    let fileName = "";
-
-    result?.MT?.forEach((metaTag) => {
-      if (metaTag?.$?.N === "title") {
-        title = metaTag?.$?.V;
-      }
-      if (metaTag?.$?.N === "DCTERMS.filename") {
-        fileName = metaTag?.$?.V;
-      }
-    });
-
-    return (
-      <a className="title" href={result?.UE}>
-        {title ? title : fileName}
-      </a>
-    );
   }
 
   // Run on first render and each time `query` or `tab` change
