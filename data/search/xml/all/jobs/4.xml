@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.905000</TM>
+   <Q>jobs</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="30" value="30"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs" value="jobs"/>
+   <RES EN="40" SN="31">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=20</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs&amp;start=40</NU>
+      </NB>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_pea_bcnu_unifor.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_pea_bcnu_unifor.docx</UE>
+         <T>SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-PEA/BCNU/Unifor</T>
+         <RK>67.06752398521566</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-17"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1615995531000"/>
+         <MT N="meta:paragraph-count" V="10"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="43"/>
+         <MT N="document:ParagraphCount" V="10"/>
+         <MT N="document:cp:revision" V="6"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-03-16T23:00:00Z"/>
+         <MT N="document:dc:publisher" V="PSERC"/>
+         <MT N="document:dc:title" V="LETTER 19 (PEA, BCNU, Unifor) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="document:LineCount" V="37"/>
+         <MT N="DCTERMS.subject" V="Benefits"/>
+         <MT N="DCTERMS.subject" V="Leave of absence"/>
+         <MT N="document:TotalTime" V="43"/>
+         <MT N="meta:last-author" V="Arkell, Angela PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="3"/>
+         <MT N="dc:publisher" V="PSERC"/>
+         <MT N="document:Character Count" V="4446"/>
+         <MT N="keywords" V="letter, STIIP, LTD, ST02, benefits, return-to-work, short term illness, long term disability, corporate advisor, disability case specialist"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1615995531000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="6"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2019-11-29T00:19:00Z"/>
+         <MT N="dcterms:modified" V="2021-03-16T23:00:00Z"/>
+         <MT N="title" V="SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-PEA/BCNU/Unifor"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="10"/>
+         <MT N="extended-properties:TotalTime" V="43"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="37"/>
+         <MT N="dc:title" V="LETTER 19 (PEA, BCNU, Unifor) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="meta:creation-date" V="2019-11-29T00:19:00Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="PSERC"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Employees on leave"/>
+         <MT N="modified" V="2021-03-16T23:00:00Z"/>
+         <MT N="document:PageCount" V="3"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="ltr_19_part_time_or_lower_position_pea_bcnu_unifor.docx"/>
+         <MT N="DCTERMS.created" V="2020-08-17"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2021-03-16T23:00:00Z"/>
+         <MT N="document:meta:linecount" V="37"/>
+         <MT N="document:LastAuthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_pea_bcnu_unifor.docx"/>
+         <MT N="DCTERMS.modified" V="2021-03-17"/>
+         <MT N="Total-Time" V="43"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Leaves of absence"/>
+         <MT N="bcpsa_subjects" V="Employee benefits"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2019-11-29T00:19:00Z"/>
+         <MT N="Last-Author" V="Arkell, Angela PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="bcpsa_contentTypes" V="Letter templates"/>
+         <MT N="document:meta:charactercountwithspaces" V="5216"/>
+         <MT N="document:modified" V="1615935600000"/>
+         <MT N="document:CharacterCountWithSpaces" V="5216"/>
+         <MT N="document:WordCount" V="780"/>
+         <MT N="meta:character-count-with-spaces" V="5216"/>
+         <MT N="document:meta:charactercount" V="4446"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="780"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="PSERC"/>
+         <MT N="description" V="This letter is used when an employee is being offered a part-time or lower paying job and advises them of the subsequent  impacts to their future benefits."/>
+         <MT N="meta:character-count" V="4446"/>
+         <MT N="bcpsa_workLifeEvents" V="Illness or Disability"/>
+         <MT N="document:date" V="1615935600000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="PSERC"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="22789.0"/>
+         <MT N="Synonyms" V="return to work, disability, sample letter, sick leave, manager, supervisor"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="6"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2021-03-16T23:00:00Z"/>
+         <MT N="CMF_ContentType" V="Template"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="3"/>
+         <MT N="meta:word-count" V="780"/>
+         <MT N="document:meta:pagecount" V="3"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="meta:save-date" V="2021-03-16T23:00:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="LETTER 19 (PEA, BCNU, Unifor) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="PSERC"/>
+         <MT N="Revision-Number" V="6"/>
+         <MT N="Page-Count" V="3"/>
+         <MT N="Paragraph-Count" V="10"/>
+         <MT N="Line-Count" V="37"/>
+         <MT N="Word-Count" V="780"/>
+         <MT N="Character Count" V="4446"/>
+         <MT N="Character-Count-With-Spaces" V="5216"/>
+         <S>OR LOWER PAYING &lt;b&gt;JOB&lt;/b&gt;
+This letter is...or lower paying &lt;b&gt;job&lt;/b&gt; and advises them...request for a &lt;b&gt;job&lt;/b&gt; share&amp;gt; &amp;lt;part time</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="22.25k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_bcgeu.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_bcgeu.docx</UE>
+         <T>SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-BCGEU</T>
+         <RK>67.06752398521566</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-17"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1615995530000"/>
+         <MT N="meta:paragraph-count" V="10"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="102"/>
+         <MT N="document:ParagraphCount" V="10"/>
+         <MT N="document:cp:revision" V="9"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-03-16T22:59:00Z"/>
+         <MT N="document:dc:publisher" V="PSERC"/>
+         <MT N="document:dc:title" V="LETTER 19 (BCGEU) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="document:LineCount" V="36"/>
+         <MT N="DCTERMS.subject" V="Benefits"/>
+         <MT N="DCTERMS.subject" V="Leave of absence"/>
+         <MT N="document:TotalTime" V="102"/>
+         <MT N="meta:last-author" V="Arkell, Angela PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="3"/>
+         <MT N="dc:publisher" V="PSERC"/>
+         <MT N="document:Character Count" V="4321"/>
+         <MT N="keywords" V="letter, STIIP, LTD, ST02, benefits, return-to-work, short term illness, long term disability, corporate advisor, disability case specialist"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1615995530000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="9"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2019-11-29T00:18:00Z"/>
+         <MT N="dcterms:modified" V="2021-03-16T22:59:00Z"/>
+         <MT N="title" V="SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-BCGEU"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="10"/>
+         <MT N="extended-properties:TotalTime" V="102"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="36"/>
+         <MT N="dc:title" V="LETTER 19 (BCGEU) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="meta:creation-date" V="2019-11-29T00:18:00Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="PSERC"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Employees on leave"/>
+         <MT N="modified" V="2021-03-16T22:59:00Z"/>
+         <MT N="document:PageCount" V="3"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="ltr_19_part_time_or_lower_position_bcgeu.docx"/>
+         <MT N="DCTERMS.created" V="2020-08-17"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2021-03-16T22:59:00Z"/>
+         <MT N="document:meta:linecount" V="36"/>
+         <MT N="document:LastAuthor" V="Arkell, Angela PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_bcgeu.docx"/>
+         <MT N="DCTERMS.modified" V="2021-03-17"/>
+         <MT N="Total-Time" V="102"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Employee benefits"/>
+         <MT N="bcpsa_subjects" V="Leaves of absence"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2019-11-29T00:18:00Z"/>
+         <MT N="Last-Author" V="Arkell, Angela PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="bcpsa_contentTypes" V="Letter templates"/>
+         <MT N="document:meta:charactercountwithspaces" V="5069"/>
+         <MT N="document:modified" V="1615935540000"/>
+         <MT N="document:CharacterCountWithSpaces" V="5069"/>
+         <MT N="document:WordCount" V="758"/>
+         <MT N="meta:character-count-with-spaces" V="5069"/>
+         <MT N="document:meta:charactercount" V="4321"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="758"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="PSERC"/>
+         <MT N="description" V="This letter is used when an employee is being offered a part-time or lower paying job and advises them of the subsequent  impacts to their future benefits."/>
+         <MT N="meta:character-count" V="4321"/>
+         <MT N="bcpsa_workLifeEvents" V="Illness or Disability"/>
+         <MT N="document:date" V="1615935540000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="PSERC"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="22664.0"/>
+         <MT N="Synonyms" V="return to work, disability, sample letter, sick leave, manager, supervisor"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="9"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100181FB01EE21A7C419870835FBA4D0A13"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2021-03-16T22:59:00Z"/>
+         <MT N="CMF_ContentType" V="Template"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="3"/>
+         <MT N="meta:word-count" V="758"/>
+         <MT N="document:meta:pagecount" V="3"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="meta:save-date" V="2021-03-16T22:59:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="LETTER 19 (BCGEU) – PART-TIME OR LOWER POSITION PLACEMENT"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="PSERC"/>
+         <MT N="Revision-Number" V="9"/>
+         <MT N="Page-Count" V="3"/>
+         <MT N="Paragraph-Count" V="10"/>
+         <MT N="Line-Count" V="36"/>
+         <MT N="Word-Count" V="758"/>
+         <MT N="Character Count" V="4321"/>
+         <MT N="Character-Count-With-Spaces" V="5069"/>
+         <S>OR LOWER PAYING &lt;b&gt;JOB&lt;/b&gt;
+This letter is...or lower paying &lt;b&gt;job&lt;/b&gt; and advises them...request for a &lt;b&gt;job&lt;/b&gt; share&amp;gt; &amp;lt;part time</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="22.13k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf</UE>
+         <T>celp_bc-jobs-plan.pdf</T>
+         <RK>59.11602114153664</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-10-15"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1444929588000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:0D32C629132068118083B7193CAB80E3"/>
+         <MT N="document:created" V="Thu Nov 29 15:48:12 PST 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1444929588000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="celp_bc-jobs-plan.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="58514A877D2E41B3A0E45E74FE2A1C29"/>
+         <MT N="content_group_id" V="D8445943FE8A40FBB2216F24FC717561"/>
+         <MT N="content_group_id" V="F5659376C46F400C876FBDC91C37CDF4"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc-jobs-plan.pdf"/>
+         <MT N="DCTERMS.created" V="2015-10-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/electricity-alternative-energy/bc-jobs-plan.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-10-16"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1444929547000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:BD9121D4122068118083B7193CAB80E3"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1444929547000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="1902122.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_eae_maintainer"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <S>Here:
+The BC &lt;b&gt;Jobs&lt;/b&gt; Plan
+Enabling &lt;b&gt;Job&lt;/b&gt; Creation
+1. Establish...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.81 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf</UE>
+         <T>bc_mining_jobs_task_force_terms_of_reference.pdf</T>
+         <RK>58.608020959861626</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-02-26"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1519661822000"/>
+         <MT N="document:created" V="Mon Feb 26 08:15:29 PST 2018"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1519661822000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="7CC29382796B47A781998AA4FF5EE87A"/>
+         <MT N="content_group_id" V="4BBC8C707F7847919ABEDAFF1E0D0254"/>
+         <MT N="content_group_id" V="8CC748A0620D40A4ACD037CFD9BBAA33"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="DCTERMS.created" V="2018-02-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/mineral-exploration-mining/documents/exploration/bc_mining_jobs_task_force_terms_of_reference.pdf"/>
+         <MT N="DCTERMS.modified" V="2018-02-26"/>
+         <MT N="document:pdf:docinfo:custom:Company" V="Province of British Columbia"/>
+         <MT N="document:modified" V="1519661732000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1519661732000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="23602.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_mem_maintainer"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <S>2
+
+BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force
+
+Terms...create good-paying &lt;b&gt;jobs&lt;/b&gt; in every corner...a BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force (Task...and sustain good &lt;b&gt;jobs&lt;/b&gt; in this important...putting projects
+and &lt;b&gt;job&lt;/b&gt; creation on hold...The BC Mining &lt;b&gt;Jobs&lt;/b&gt; Task Force mandate...communities to make &lt;b&gt;jobs&lt;/b&gt; secure and mines...existing mines and &lt;b&gt;job&lt;/b&gt;
+
+protection during commodity...practices in mining &lt;b&gt;jobs&lt;/b&gt;ite health and safety</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="23.05k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf</UE>
+         <T>careerzone_mining_jobs_in_bc.pdf</T>
+         <RK>58.608020959861626</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-10-15"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1444941131000"/>
+         <MT N="document:xmpMM:History:When" V="1427392216000"/>
+         <MT N="document:xmpMM:History:When" V="1427745916000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="uuid:de5ee383-7a6c-0d41-8ed7-f9de4ac027c2"/>
+         <MT N="document:created" V="Mon Mar 30 16:05:26 PDT 2015"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="CareerZone_Spread_B 02"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe Illustrator CS5"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe Illustrator CS5"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1444941131000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="content_group_id" V="75AF66C265C943EDABE83D2373664626"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="DCTERMS.created" V="2015-10-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/careerzones/careerzone_mining_jobs_in_bc.pdf"/>
+         <MT N="DCTERMS.modified" V="2015-10-15"/>
+         <MT N="document:modified" V="1428623806000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:897F1174072068118A6DB4F34362D20F"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1428623806000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="287747.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_education"/>
+         <S>Some of the &lt;b&gt;jobs&lt;/b&gt; with the biggest...WIDE
+RANGE OF &lt;b&gt;JOBS&lt;/b&gt; AVAILABLE
+FOR ALL...THE OCCUPATION GAP
+
+&lt;b&gt;JOBS&lt;/b&gt; MOST NEEDED
+LEADING...HIRING FOR:
+
+MINING &lt;b&gt;JOBS&lt;/b&gt; IN BC
+
+375</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="281k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf</UE>
+         <T>wcb-284-jobs-trade-technology.pdf</T>
+         <RK>58.608020959861626</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-10-10"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1507658275000"/>
+         <MT N="document:created" V="Mon Jul 11 09:51:27 PDT 2016"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Form 7 test.xps"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1507658275000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="DCTERMS.created" V="2017-10-10"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/wcb-284-jobs-trade-technology.pdf"/>
+         <MT N="DCTERMS.modified" V="2017-10-10"/>
+         <MT N="document:modified" V="1503522048000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1503522048000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1220296.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <S>
+7  (R15/03)  Page 1 of 3
+
+Employer’s Report of Injury
+or Occupational Disease
+
+As an employer, the Workers Compensation Act requires you to submit this report within three days of an injury to one of your workers, even if you disagree with the
+claim. By submitting your report promptly, ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.16 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf</UE>
+         <T>bc_jobs_plan_technology_webinar_slides.pdf</T>
+         <RK>58.608020959861626</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2014-11-18"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1416327059000"/>
+         <MT N="document:created" V="Mon Nov 17 16:48:02 PST 2014"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="BCIC"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1416327059000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="DCTERMS.created" V="2014-11-18"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2014-11-13/bc_jobs_plan_technology_webinar_slides.pdf"/>
+         <MT N="DCTERMS.modified" V="2014-11-18"/>
+         <MT N="document:modified" V="1416271682000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1416271682000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="5089538.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <S>fastest private sector &lt;b&gt;job&lt;/b&gt; creator over the...B.C.
+
+•BC &lt;b&gt;Jobs&lt;/b&gt; plan progress made...the availability of &lt;b&gt;job&lt;/b&gt;-ready graduates
+•...the Growing Green &lt;b&gt;Jobs&lt;/b&gt; plan
+
+
+
+
+Technology in</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="4.85 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description.pdf</UE>
+         <T>deputy_sheriff_job_description.pdf</T>
+         <RK>44.28651583809227</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-06"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1575592766000"/>
+         <MT N="document:created" V="Wed Oct 25 13:44:40 PDT 2017"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Deputy Sheriff Position Description"/>
+         <MT N="document:cp:subject" V="Law Enforcement"/>
+         <MT N="document:Keywords" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1575592766000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="deputy_sheriff_job_description.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="Law Enforcement"/>
+         <MT N="document:meta:keyword" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="deputy_sheriff_job_description.pdf"/>
+         <MT N="DCTERMS.created" V="2019-12-05"/>
+         <MT N="document:dc:description" V="Law Enforcement"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-12-05"/>
+         <MT N="document:pdf:docinfo:custom:Company" V="PSERC"/>
+         <MT N="document:modified" V="1575487558000"/>
+         <MT N="document:pdf:docinfo:keywords" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1575487558000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="908287.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <S>
+deputy_sheriff_jd Page 1 of 8
+
+POSITION DESCRIPTION
+Ministry of Attorney General
+
+POSITION TITLE: Deputy Sheriff POSITION NUMBER(S): Various
+DIVISION:
+(e.g., Division, Region, Department) Sheriff Service Division
+UNIT:
+(e.g., Branch, Area, District) Court Services Branch
+
+LOCATION: ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="887k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx</UE>
+         <T>Job Seeker Quick Reference Guide</T>
+         <RK>44.13651578444807</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-05-08"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1525810693000"/>
+         <MT N="meta:paragraph-count" V="17"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="117"/>
+         <MT N="document:ParagraphCount" V="17"/>
+         <MT N="document:LastPrinted" V="1524156300000"/>
+         <MT N="document:cp:revision" V="7"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="Hiring and Service Operations one pager"/>
+         <MT N="document:LineCount" V="61"/>
+         <MT N="DCTERMS.subject" V="Job search"/>
+         <MT N="document:TotalTime" V="117"/>
+         <MT N="meta:last-author" V="Borysowich, Irene PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="1"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:Character Count" V="7400"/>
+         <MT N="keywords" V="job, apply"/>
+         <MT N="document:ApplicationVersion" V="14.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="14.0000"/>
+         <MT N="mes:date" V="1525810693000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="7"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2018-05-02T16:16:00Z"/>
+         <MT N="dcterms:modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="title" V="Job Seeker Quick Reference Guide"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="17"/>
+         <MT N="extended-properties:TotalTime" V="117"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="61"/>
+         <MT N="dc:title" V="Hiring and Service Operations one pager"/>
+         <MT N="meta:creation-date" V="2018-05-02T16:16:00Z"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Borysowich, Irene PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="modified" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:PageCount" V="1"/>
+         <MT N="Last-Printed" V="2018-04-19T16:45:00Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="job_seeker_quick_reference_rms_accessible.docx"/>
+         <MT N="DCTERMS.created" V="2018-03-21"/>
+         <MT N="document:extendedproperties:AppVersion" V="14.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2018-05-03T18:19:00Z"/>
+         <MT N="document:meta:linecount" V="61"/>
+         <MT N="document:LastAuthor" V="Borysowich, Irene PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/application-process/job_seeker_quick_reference_rms_accessible.docx"/>
+         <MT N="DCTERMS.modified" V="2018-05-08"/>
+         <MT N="Total-Time" V="117"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Job searching"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2018-05-02T16:16:00Z"/>
+         <MT N="Last-Author" V="Borysowich, Irene PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x010100E0E09030E7CCF5439FB8CB0B9C90AA7C"/>
+         <MT N="bcpsa_contentTypes" V="Guides"/>
+         <MT N="document:meta:charactercountwithspaces" V="8681"/>
+         <MT N="document:modified" V="1525371540000"/>
+         <MT N="document:CharacterCountWithSpaces" V="8681"/>
+         <MT N="document:WordCount" V="1298"/>
+         <MT N="meta:print-date" V="2018-04-19T16:45:00Z"/>
+         <MT N="meta:character-count-with-spaces" V="8681"/>
+         <MT N="document:meta:charactercount" V="7400"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="1298"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="A short guide to assist job seekers applying for jobs with the BC Public Service."/>
+         <MT N="meta:character-count" V="7400"/>
+         <MT N="document:date" V="1525371540000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="14.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="1465120.0"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="7"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x010100E0E09030E7CCF5439FB8CB0B9C90AA7C"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2018-05-03T18:19:00Z"/>
+         <MT N="CMF_ContentType" V="Handbooks Standards and Guides"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="1"/>
+         <MT N="meta:word-count" V="1298"/>
+         <MT N="document:meta:pagecount" V="1"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="document:meta:printdate" V="1524156300000"/>
+         <MT N="meta:save-date" V="2018-05-03T18:19:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="documenttitle" V="Hiring and Service Operations one pager"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="Revision-Number" V="7"/>
+         <MT N="Page-Count" V="1"/>
+         <MT N="Paragraph-Count" V="17"/>
+         <MT N="Line-Count" V="61"/>
+         <MT N="Word-Count" V="1298"/>
+         <MT N="Character Count" V="7400"/>
+         <MT N="Character-Count-With-Spaces" V="8681"/>
+         <S>be notified when &lt;b&gt;jobs&lt;/b&gt; are posted
+
+ 	&lt;b&gt;Job&lt;/b&gt; Search Agents
+1...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.4 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description_2019.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description_2019.pdf</UE>
+         <T>deputy_sheriff_job_description_2019.pdf</T>
+         <RK>44.11151577550737</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-07-04"/>
+         <MT N="query_id" V="68528511389548"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1562277332000"/>
+         <MT N="document:created" V="Wed Oct 25 13:44:40 PDT 2017"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Deputy Sheriff Position Description"/>
+         <MT N="document:cp:subject" V="Law Enforcement"/>
+         <MT N="document:Keywords" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1562277332000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="deputy_sheriff_job_description_2019.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="Law Enforcement"/>
+         <MT N="document:meta:keyword" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="deputy_sheriff_job_description_2019.pdf"/>
+         <MT N="DCTERMS.created" V="2019-03-15"/>
+         <MT N="document:dc:description" V="Law Enforcement"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/featured-careers/deputy_sheriff_job_description_2019.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-07-04"/>
+         <MT N="document:pdf:docinfo:custom:Company" V="PSERC"/>
+         <MT N="document:modified" V="1562276911000"/>
+         <MT N="document:pdf:docinfo:keywords" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1562276911000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="805120.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="deputy, sheriff, law, enforcement, hiring, jobs, guide, PSA"/>
+         <S>
+deputy_sheriff_jd Page 1 of 8
+
+POSITION DESCRIPTION
+Ministry of Attorney General
+
+POSITION TITLE: Deputy Sheriff POSITION NUMBER(S): Various
+DIVISION:
+(e.g., Division, Region, Department) Sheriff Service Division
+
+UNIT:
+(e.g., Branch, Area, District) Court Services Branch
+
+LOCATION...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="786.25k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>

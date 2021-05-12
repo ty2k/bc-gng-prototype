@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
-   <TM>0.976000</TM>
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.030000</TM>
    <Q>msp</Q>
    <PARAM name="site" original_value="default_collection" value="default_collection"/>
    <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
@@ -8,20 +7,20 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="msp" value="msp"/>
    <RES EN="20" SN="11">
-      <M>20</M>
+      <M>40</M>
       <FI/>
       <NB>
-         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;num=10&amp;start=0</PU>
-         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;num=10&amp;start=20</NU>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;start=20</NU>
       </NB>
       <R N="1">
          <U>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp/physicians/reference-material/msp-tutor</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp/physicians/reference-material/msp-tutor</UE>
          <T>MSP Tutor - Province of British Columbia</T>
-         <RK>44.93501607001402</RK>
+         <RK>44.887266052937285</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-02-26"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1582744555358"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -89,10 +88,10 @@ Toll Free...</S>
          <U>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/system-access/msp-direct</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/system-access/msp-direct</UE>
          <T>MSP Direct - Province of British Columbia</T>
-         <RK>44.86326604435422</RK>
+         <RK>44.85126604006268</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-01-16"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1579210084000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -154,10 +153,10 @@ Toll Free...</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-covid-19-response</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-covid-19-response</UE>
          <T>Medical Services Plan Response to COVID-19 - Province of British Columbia</T>
-         <RK>44.351265861248685</RK>
+         <RK>44.03826574931112</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2021-01-22"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1611273922624"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -231,10 +230,10 @@ Contact &lt;b&gt;Health Insurance&lt;/b&gt; BC to request</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</UE>
          <T>Managing Your MSP Account - Province of British Columbia</T>
-         <RK>42.28151512104814</RK>
+         <RK>42.26926511666719</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-08-10"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1597089032093"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -308,10 +307,10 @@ Appealing a Decision
          <U>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/health-supplements-and-programs/medical-services-plan-and-medical-coverage</U>
          <UE>https://www2.gov.bc.ca/gov/content/governments/policies-for-government/bcea-policy-and-procedure-manual/health-supplements-and-programs/medical-services-plan-and-medical-coverage</UE>
          <T>Medical Services Plan &amp; Medical Coverage - Province of British Columbia</T>
-         <RK>41.2372647475951</RK>
+         <RK>41.19501473248532</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-05-26"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1590523689000"/>
          <MT N="DCSext.creator" V="Ministry of Social Development and Poverty Reduction"/>
@@ -381,10 +380,10 @@ Recipients of income...coverage through the &lt;b&gt;Medical Services Plan (MSP&
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/eligibility-and-enrolment/how-to-enrol/canadian-armed-forces-members</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/eligibility-and-enrolment/how-to-enrol/canadian-armed-forces-members</UE>
          <T>MSP Enrolment for Canadian Armed Forces Family - Province of British Columbia</T>
-         <RK>40.98876465872455</RK>
+         <RK>40.94651464361476</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-06-12"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1591985135043"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -466,10 +465,10 @@ Managing Your &lt;b&gt;MSP&lt;/b&gt; Account
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp</UE>
          <T>Medical Services Plan - Province of British Columbia</T>
-         <RK>40.38301444209138</RK>
+         <RK>40.37226443824688</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-12-31"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1577830125000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -535,7 +534,7 @@ In B.C., public &lt;b&gt;health insurance&lt;/b&gt; is called the &lt;b&gt;Medic
          <RK>40.32401442099133</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2017-10-17"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1508283679000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -596,10 +595,10 @@ For &lt;b&gt;Medical Services Plan&lt;/b&gt; questions, customer service</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp</UE>
          <T>Services Covered by MSP - Province of British Columbia</T>
-         <RK>40.11826434740937</RK>
+         <RK>40.107264343475464</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-01-23"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1579817788830"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -657,8 +656,8 @@ For &lt;b&gt;Medical Services Plan&lt;/b&gt; questions, customer service</S>
          <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
          <MT N="level5_id" V="623403A1678342308F8AD154F73FE06A"/>
          <MT N="DCTERMS:interactiveResource" V="Topic"/>
-         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Benefits
-     		Section Navigation
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Benefits &#xD;
+     		Section Navigation&#xD;
 
 &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Services Covered by &lt;b&gt;MSP&lt;/b&gt;
 Medical Benefits
@@ -675,10 +674,10 @@ MSP&lt;/b&gt; is the provincial...are covered by &lt;b&gt;MSP&lt;/b&gt;, contact
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-premium-elimination-jan-1-2020</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/msp-premium-elimination-jan-1-2020</UE>
          <T>MSP Premium Elimination: Jan. 1, 2020 - Province of British Columbia</T>
-         <RK>40.11401434588945</RK>
+         <RK>40.10326434204495</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-12-31"/>
-         <MT N="query_id" V="58068486308326"/>
+         <MT N="query_id" V="47814046414576"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1577831241000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>

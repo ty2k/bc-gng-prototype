@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
-   <TM>0.519000</TM>
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.783000</TM>
    <Q>msp</Q>
    <PARAM name="site" original_value="default_collection" value="default_collection"/>
    <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
@@ -8,7 +7,7 @@
    <PARAM name="getfields" original_value="*" value="*"/>
    <PARAM name="q" original_value="msp" value="msp"/>
    <RES EN="10" SN="1">
-      <M>20</M>
+      <M>40</M>
       <FI/>
       <NB>
          <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp&amp;start=10</NU>
@@ -20,7 +19,7 @@
          <RK>67.60177417627843</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2015-07-17"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1437150455000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -86,7 +85,7 @@ E45 - &lt;b&gt;MSP&lt;/b&gt; Coverage Status Check...also checks the &lt;b&gt;MS
          <RK>65.25052333540559</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2018-12-18"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1545166174000"/>
          <MT N="DCSext.creator" V="BC Public Service Agency"/>
@@ -152,10 +151,10 @@ For &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) information for BC</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-forms/msp</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-forms/msp</UE>
          <T>Medical Services Plan (MSP) Forms - Province of British Columbia</T>
-         <RK>62.488272347547664</RK>
+         <RK>62.4507723341366</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-10-29"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1572369145000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -209,10 +208,10 @@ Some web...</S>
          <U>https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/service-design/case-studies/transforming-the-medical-services-plan</U>
          <UE>https://www2.gov.bc.ca/gov/content/governments/services-for-government/service-experience-digital-delivery/service-design/case-studies/transforming-the-medical-services-plan</UE>
          <T>Making it easier to sign up for health insurance: Transforming the Medical Services Plan - Province of British Columbia</T>
-         <RK>56.44102018488175</RK>
+         <RK>55.52326985666866</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2021-01-06"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1609909518949"/>
          <MT N="DCSext.creator" V="Government Communications and Public Engagement"/>
@@ -283,13 +282,86 @@ The &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) is British Columbia’s publi
          </HAS>
       </R>
       <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp</U>
+         <UE>https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp</UE>
+         <T>Medical Services Plan (MSP) - Province of British Columbia</T>
+         <RK>52.32251871199085</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-01-27"/>
+         <MT N="query_id" V="20971215157526"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1580148795000"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Seniors"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="DCTERMS.subject" V="Health care"/>
+         <MT N="level1_id" V="FD488413D1B74C5B931B2F6B0E00C61D"/>
+         <MT N="keywords" V="Medical Services Plan, MSP, Medical Services Plan (MSP), MSP Premiums, MSP Premium Assistance, MSP forms, premiums"/>
+         <MT N="DCSext.current_page" V="Medical Services Plan (MSP)"/>
+         <MT N="mes:date" V="1580148795000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Medical Services Plan (MSP) - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="9671EB5EBAC740A496EC12DBE67B4426"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="680D837E9E5A400FAA29F888AF71AE00"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2012-09-12"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp"/>
+         <MT N="DCTERMS.modified" V="2020-01-27"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Medical Services Plan (MSP)"/>
+         <MT N="DCSext.level3" V="Health &amp; Safety"/>
+         <MT N="DCSext.level4" V="Health Care Programs and Services"/>
+         <MT N="DCSext.level5" V="Medical Services Plan (MSP)"/>
+         <MT N="DCSext.level1" V="Family &amp; Social Supports"/>
+         <MT N="DCSext.level2" V="Seniors"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Medical Services Plan (MSP)"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="C163331A938A48E386AF450BE8E283FF"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107695.0"/>
+         <MT N="level5" V="Medical Services Plan (MSP)"/>
+         <MT N="level4" V="Health Care Programs and Services"/>
+         <MT N="current_page_id" V="19F39621B1324977813579CE82F3D08F"/>
+         <MT N="level1" V="Family &amp; Social Supports"/>
+         <MT N="level3" V="Health &amp; Safety"/>
+         <MT N="level2" V="Seniors"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_seniorsbc"/>
+         <MT N="WT.cg_s" V="19F39621B1324977813579CE82F3D08F"/>
+         <MT N="WT.cg_n" V="Family &amp; Social Supports;Seniors"/>
+         <MT N="level4_id" V="BA3DC5FDEC874BBABD2C6C354BEFA7A7"/>
+         <MT N="navigaton_title" V="Medical Services Plan (MSP)"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="19F39621B1324977813579CE82F3D08F"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Seniors"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and Disaster Preparedness
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;)
+British Columbia's &lt;b&gt;Medical Services Plan&lt;/b&gt; is a &lt;b&gt;health insurance&lt;/b&gt; plan that pays...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="105.17k"/>
+         </HAS>
+      </R>
+      <R N="6">
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/msp-account-change-faqs</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/msp-account-change-faqs</UE>
          <T>Medical Services Plan (MSP) Account Change FAQs - Province of British Columbia</T>
-         <RK>53.762769227064574</RK>
+         <RK>51.85201854372688</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-07-06"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1594060524123"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -358,87 +430,14 @@ The &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) is British Columbia’s publi
             <C CID="" ENC="" SZ="119.56k"/>
          </HAS>
       </R>
-      <R N="6">
-         <U>https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp</U>
-         <UE>https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp</UE>
-         <T>Medical Services Plan (MSP) - Province of British Columbia</T>
-         <RK>52.40676874212101</RK>
-         <ENT_SOURCE/>
-         <FS NAME="date" VALUE="2020-01-27"/>
-         <MT N="query_id" V="79708305376441"/>
-         <MT N="prev_query_id" V=""/>
-         <MT N="datasource/modificationDate" V="1580148795000"/>
-         <MT N="DCSext.creator" V="Ministry of Health"/>
-         <MT N="security_classification" V="Low"/>
-         <MT N="datasource/category" V="Web"/>
-         <MT N="DCTERMS.subject" V="Seniors"/>
-         <MT N="DCTERMS.subject" V="Health"/>
-         <MT N="DCTERMS.subject" V="Health care"/>
-         <MT N="level1_id" V="FD488413D1B74C5B931B2F6B0E00C61D"/>
-         <MT N="keywords" V="Medical Services Plan, MSP, Medical Services Plan (MSP), MSP Premiums, MSP Premium Assistance, MSP forms, premiums"/>
-         <MT N="DCSext.current_page" V="Medical Services Plan (MSP)"/>
-         <MT N="mes:date" V="1580148795000"/>
-         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
-         <MT N="title" V="Medical Services Plan (MSP) - Province of British Columbia"/>
-         <MT N="content" V=""/>
-         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
-         <MT N="level2_id" V="9671EB5EBAC740A496EC12DBE67B4426"/>
-         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
-         <MT N="content_group_id" V="680D837E9E5A400FAA29F888AF71AE00"/>
-         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
-         <MT N="DCTERMS.created" V="2012-09-12"/>
-         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/health-safety/health-care-programs-and-services/medical-services-plan-msp"/>
-         <MT N="DCTERMS.modified" V="2020-01-27"/>
-         <MT N="DCTERMS.creator" V="Ministry of Health"/>
-         <MT N="current_page" V="Medical Services Plan (MSP)"/>
-         <MT N="DCSext.level3" V="Health &amp; Safety"/>
-         <MT N="DCSext.level4" V="Health Care Programs and Services"/>
-         <MT N="DCSext.level5" V="Medical Services Plan (MSP)"/>
-         <MT N="DCSext.level1" V="Family &amp; Social Supports"/>
-         <MT N="DCSext.level2" V="Seniors"/>
-         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
-         <MT N="description" V="Medical Services Plan (MSP)"/>
-         <MT N="DCTERMS.language" V="eng"/>
-         <MT N="level3_id" V="C163331A938A48E386AF450BE8E283FF"/>
-         <MT N="collections" V="mb_gov_feed"/>
-         <MT N="mes:size" V="107695.0"/>
-         <MT N="level5" V="Medical Services Plan (MSP)"/>
-         <MT N="level4" V="Health Care Programs and Services"/>
-         <MT N="current_page_id" V="19F39621B1324977813579CE82F3D08F"/>
-         <MT N="level1" V="Family &amp; Social Supports"/>
-         <MT N="level3" V="Health &amp; Safety"/>
-         <MT N="level2" V="Seniors"/>
-         <MT N="extension" V="html"/>
-         <MT N="security_label" V="Public "/>
-         <MT N="categoryclass" V="default"/>
-         <MT N="content_group" V="CMF_gov_digital_services"/>
-         <MT N="content_group" V="CMF_gov_seniorsbc"/>
-         <MT N="WT.cg_s" V="19F39621B1324977813579CE82F3D08F"/>
-         <MT N="WT.cg_n" V="Family &amp; Social Supports;Seniors"/>
-         <MT N="level4_id" V="BA3DC5FDEC874BBABD2C6C354BEFA7A7"/>
-         <MT N="navigaton_title" V="Medical Services Plan (MSP)"/>
-         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
-         <MT N="level5_id" V="19F39621B1324977813579CE82F3D08F"/>
-         <MT N="DCTERMS.audience" V="General Public"/>
-         <MT N="DCTERMS.audience" V="Seniors"/>
-         <MT N="DCTERMS:interactiveResource" V="Topic"/>
-         <S>and Disaster Preparedness
-&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;)
-British Columbia's &lt;b&gt;Medical Services Plan&lt;/b&gt; is a &lt;b&gt;health insurance&lt;/b&gt; plan that pays...</S>
-         <LANG/>
-         <HAS>
-            <L/>
-            <C CID="" ENC="" SZ="105.17k"/>
-         </HAS>
-      </R>
       <R N="7">
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents</UE>
          <T>Medical Services Plan (MSP) for British Columbia (B.C.) Residents - Province of British Columbia</T>
-         <RK>51.5882684494025</RK>
+         <RK>51.46376840487781</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-03-31"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1585669825884"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -494,8 +493,8 @@ British Columbia's &lt;b&gt;Medical Services Plan&lt;/b&gt; is a &lt;b&gt;health
          <MT N="navigaton_title" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
          <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
          <MT N="DCTERMS:interactiveResource" V="Topic"/>
-         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan&lt;/b&gt;
-     		Section Navigation
+         <S>Health &amp;amp; Drug Coverage &lt;b&gt;Medical Services Plan&lt;/b&gt; &#xD;
+     		Section Navigation&#xD;
 
 &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) for British Columbia...Identification
 Managing Your &lt;b&gt;MSP&lt;/b&gt; Account
@@ -513,10 +512,10 @@ Contact Us</S>
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-not-covered-by-msp</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-not-covered-by-msp</UE>
          <T>Services Not Covered by the Medical Services Plan (MSP) - Province of British Columbia</T>
-         <RK>51.25926833174288</RK>
+         <RK>51.19401830840766</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-01-22"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1579718933000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -591,10 +590,10 @@ MSP&lt;/b&gt; does not provide...are covered by &lt;b&gt;MSP&lt;/b&gt;, contact 
          <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/opting-out-of-msp-coverage</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/opting-out-of-msp-coverage</UE>
          <T>Opting Out of Medical Services Plan (MSP) Coverage - Province of British Columbia</T>
-         <RK>50.984018233305775</RK>
+         <RK>50.952518222040496</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2019-12-31"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1577830838000"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
@@ -669,10 +668,10 @@ Appealing a Decision
          <U>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp</U>
          <UE>https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/msp</UE>
          <T>Medical Services Plan - Province of British Columbia</T>
-         <RK>49.7417677890424</RK>
+         <RK>48.915517493552265</RK>
          <ENT_SOURCE/>
          <FS NAME="date" VALUE="2020-12-31"/>
-         <MT N="query_id" V="79708305376441"/>
+         <MT N="query_id" V="20971215157526"/>
          <MT N="prev_query_id" V=""/>
          <MT N="datasource/modificationDate" V="1609401927301"/>
          <MT N="DCSext.creator" V="Ministry of Health"/>
