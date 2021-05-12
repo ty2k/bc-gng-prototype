@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.670000</TM>
+   <Q>jobs inmeta:ese_enhancedSearch=services</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="services_a_z_new" value="services_a_z_new"/>
+   <PARAM name="start" original_value="0" value="0"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs inmeta:ese_enhancedSearch=services" value="jobs inmeta:ese_enhancedSearch=services"/>
+   <RES EN="10" SN="1">
+      <M>18</M>
+      <FI/>
+      <NB>
+         <NU>/search?site=default_collection&amp;client=services_a_z_new&amp;q=jobs+inmeta:ese_enhancedSearch=services&amp;start=10</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales</UE>
+         <T>BC Timber Sales - Province of British Columbia</T>
+         <RK>16.43275587681146</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-02-22"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1614025101070"/>
+         <MT N="DCSext.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Sales"/>
+         <MT N="DCTERMS.subject" V="Forestry industry"/>
+         <MT N="DCTERMS.subject" V="Wood"/>
+         <MT N="DCTERMS.subject" V="Pricing"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="auction of Crown timber, reforestation strategies, log pricing and sales, timber pricing, old growth"/>
+         <MT N="DCSext.current_page" V="BC Timber Sales"/>
+         <MT N="mes:date" V="1614025101000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="BC Timber Sales - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA59C0AA67DA452486989F5C088CF0C2"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="1AC2F71EE731435CBF850211FFDBCA4F"/>
+         <MT N="content_group_id" V="FB722A0304EB4ABCA3C3F7B6FBA15272"/>
+         <MT N="content_group_id" V="B643677399D84C8C9FA0C9A2CA6D73AC"/>
+         <MT N="content_group_id" V="C23A44CF800D4E6D9217DE940961224E"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-11-13"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales"/>
+         <MT N="DCTERMS.modified" V="2021-02-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests, Lands, Natural Resource Operations and Rural Development"/>
+         <MT N="current_page" V="BC Timber Sales"/>
+         <MT N="DCSext.level3" V="BC Timber Sales"/>
+         <MT N="DCSext.level1" V="Farming, natural resources and industry"/>
+         <MT N="DCSext.level2" V="Forestry"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information about timber pricing and sales in B.C."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="7898CA996ADB437ABB36B6071E8164C9"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="116353.0"/>
+         <MT N="Synonyms" V="BCTS"/>
+         <MT N="current_page_id" V="7898CA996ADB437ABB36B6071E8164C9"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Farming natural resources and industry"/>
+         <MT N="level3" V="BC Timber Sales"/>
+         <MT N="level2" V="Forestry"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_env_pae_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_maintainer"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="BC Timber Sales"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and directly supports over 8,000 &lt;b&gt;jobs&lt;/b&gt; across B.C.
+Data from our operations are...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="113.63k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</U>
+         <UE>https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account</UE>
+         <T>Managing Your MSP Account - Province of British Columbia</T>
+         <RK>15.589005575062838</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-10"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1597088949721"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Health"/>
+         <MT N="level1_id" V="EC75FD2ECA044D2C9CCB32361905348A"/>
+         <MT N="keywords" V="Managing Your MSP Account"/>
+         <MT N="DCSext.current_page" V="Managing Your MSP Account"/>
+         <MT N="mes:date" V="1597088949000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Managing Your MSP Account - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="7A3AF3683BCA48BEB6717B3B93EE6A0A"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="5061105D82B44312BB31780BA6F12984"/>
+         <MT N="content_group_id" V="97CA0E9AFC8847058CDA4936FA91E955"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-01-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account"/>
+         <MT N="DCTERMS.modified" V="2020-08-10"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Managing Your MSP Account"/>
+         <MT N="DCSext.level3" V="Medical Services Plan"/>
+         <MT N="DCSext.level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="DCSext.level5" V="Managing Your MSP Account"/>
+         <MT N="DCSext.level1" V="Health"/>
+         <MT N="DCSext.level2" V="Health &amp; Drug Coverage"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Managing Your MSP Account"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="91C51D566CF941BAA404E4C5657399EA"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="112961.0"/>
+         <MT N="level5" V="Managing Your MSP Account"/>
+         <MT N="level4" V="Medical Services Plan (MSP) for British Columbia (B.C.) Residents"/>
+         <MT N="current_page_id" V="5FDD0B887BDC4D38925467A7462AADD6"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Health"/>
+         <MT N="level3" V="Medical Services Plan"/>
+         <MT N="level2" V="Health &amp; Drug Coverage"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_finance"/>
+         <MT N="content_group" V="CMF_gov_health_access_health"/>
+         <MT N="level4_id" V="239FC60D45274CA59FCDF001A2F89899"/>
+         <MT N="navigaton_title" V="Managing Your MSP Account"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="level5_id" V="5FDD0B887BDC4D38925467A7462AADD6"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>Common-law) or Child(ren) Changing &lt;b&gt;Jobs&lt;/b&gt; Updating or ConfirmingStatus in Canada Leaving...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="110.31k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/support-organizations-community-partners/rural-economic-development</U>
+         <UE>https://www2.gov.bc.ca/gov/content/employment-business/economic-development/support-organizations-community-partners/rural-economic-development</UE>
+         <T>Rural Economic Development - Province of British Columbia</T>
+         <RK>15.58725557443699</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-05"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1596660629418"/>
+         <MT N="DCSext.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Rural development"/>
+         <MT N="DCTERMS.subject" V="Rural communities"/>
+         <MT N="DCTERMS.subject" V="Economic impact"/>
+         <MT N="level1_id" V="820A75B4A1AF426C9450E4ADF0D1D783"/>
+         <MT N="keywords" V="RuralBC;  Rural economic development"/>
+         <MT N="DCSext.current_page" V="Rural Economic Development"/>
+         <MT N="mes:date" V="1596660629000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Rural Economic Development - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="5D55B284D4A34B58B5DC1341CF976083"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="E4CBBE6DBC0444209B01CC94CEAF93EC"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2014-12-08"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/employment-business/economic-development/support-organizations-community-partners/rural-economic-development"/>
+         <MT N="DCTERMS.modified" V="2020-08-05"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="current_page" V="Rural Economic Development"/>
+         <MT N="DCSext.level3" V="Find Support and Make Connections"/>
+         <MT N="DCSext.level4" V="Rural Economic Development"/>
+         <MT N="DCSext.level1" V="Employment, Business &amp; Economic Development"/>
+         <MT N="DCSext.level2" V="Economic Development"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The Government of British Columbia is committed to working with our rural communities to strengthen their resilience, create jobs and build unmatched economic opportunities while enriching the unique lifestyle advantages that rural B.C. has to offer. Government is taking action to address the near-term needs of workers, contractors and communities through $69 million in programming"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="9CBF8412FCAF469E81F9A47A01308487"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="106120.0"/>
+         <MT N="Synonyms" V="Rural Funding, rural grants, RuralBC"/>
+         <MT N="level4" V="Rural Economic Development"/>
+         <MT N="current_page_id" V="53BE23E840F84C3D8B46E7E05862D661"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Employment Business &amp; Economic Development"/>
+         <MT N="level3" V="Find Support and Make Connections"/>
+         <MT N="level2" V="Economic Development"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_rural_advisory_council"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="level4_id" V="53BE23E840F84C3D8B46E7E05862D661"/>
+         <MT N="navigaton_title" V="Rural Economic Development"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>their resilience, create &lt;b&gt;jobs&lt;/b&gt; and build unmatched...for training; A &lt;b&gt;job&lt;/b&gt; placement co-ordination...Program 
+Forestry Worker &lt;b&gt;Job&lt;/b&gt; Placement 
+Skills Training</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="103.63k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/careers</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/careers</UE>
+         <T>BC Timber Sales Careers - Province of British Columbia</T>
+         <RK>15.011005368353857</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-07-09"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1594315200036"/>
+         <MT N="DCSext.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Wood"/>
+         <MT N="DCTERMS.subject" V="Forestry industry"/>
+         <MT N="DCTERMS.subject" V="Sales"/>
+         <MT N="DCTERMS.subject" V="Pricing"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="auction of Crown timber, reforestation strategies, log pricing and sales, timber pricing"/>
+         <MT N="DCSext.current_page" V="Careers"/>
+         <MT N="mes:date" V="1594315200000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="BC Timber Sales Careers - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA59C0AA67DA452486989F5C088CF0C2"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="B643677399D84C8C9FA0C9A2CA6D73AC"/>
+         <MT N="content_group_id" V="1AC2F71EE731435CBF850211FFDBCA4F"/>
+         <MT N="content_group_id" V="C23A44CF800D4E6D9217DE940961224E"/>
+         <MT N="content_group_id" V="FB722A0304EB4ABCA3C3F7B6FBA15272"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2018-02-28"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/careers"/>
+         <MT N="DCTERMS.modified" V="2020-07-09"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="current_page" V="Careers"/>
+         <MT N="DCSext.level3" V="BC Timber Sales"/>
+         <MT N="DCSext.level4" V="Careers"/>
+         <MT N="DCSext.level1" V="Farming, Natural Resources &amp; Industry"/>
+         <MT N="DCSext.level2" V="Forestry"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Information about timber pricing and sales in B.C."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="7898CA996ADB437ABB36B6071E8164C9"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="128512.0"/>
+         <MT N="Synonyms" V="BCTS"/>
+         <MT N="level4" V="Careers"/>
+         <MT N="current_page_id" V="239F0B6B222E4168A0B6999CF137165E"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Farming Natural Resources &amp; Industry"/>
+         <MT N="level3" V="BC Timber Sales"/>
+         <MT N="level2" V="Forestry"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_author"/>
+         <MT N="content_group" V="CMF_gov_env_pae_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_maintainer"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_approver"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="239F0B6B222E4168A0B6999CF137165E"/>
+         <MT N="navigaton_title" V="Careers"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>
+BC Timber Sales Careers
+BCTS supports the market pricing system by planning, developing and auctioning off a portion of B.C.’s annual timber volume. At BCTS, people are the foundation of everything we do. BCTS employees work in an environment where finding new solutions to complex problems, c...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="125.5k"/>
+         </HAS>
+      </R>
+      <R N="5">
+         <U>https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/programs/youth-development-program</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/programs/youth-development-program</UE>
+         <T>Youth Development - Agriculture - Province of British Columbia</T>
+         <RK>14.651755239876</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-03-21"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1521671497000"/>
+         <MT N="DCSext.creator" V="Ministry of Agriculture"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Skills"/>
+         <MT N="DCTERMS.subject" V="Community services"/>
+         <MT N="DCTERMS.subject" V="Education"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="education, career development, leadership, youth development, community, 4H, agriculture"/>
+         <MT N="DCSext.current_page" V="Youth Development"/>
+         <MT N="mes:date" V="1521671497000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Youth Development - Agriculture - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="C89E440D70E243D98D67769EFABAEB84"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="AC1BF15F555A4E30B5AA9C4FF54B8445"/>
+         <MT N="content_group_id" V="EF2D5E79C4BC49E1B3A1D3D8E519AE77"/>
+         <MT N="content_group_id" V="6B0A6ABB36D84D439F97439AF60DAEDC"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-08-06"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/agriculture-seafood/programs/youth-development-program"/>
+         <MT N="DCTERMS.modified" V="2018-03-21"/>
+         <MT N="DCTERMS.creator" V="Ministry of Agriculture"/>
+         <MT N="current_page" V="Youth Development"/>
+         <MT N="DCSext.level3" V="Programs"/>
+         <MT N="DCSext.level4" V="Youth Development"/>
+         <MT N="DCSext.level1" V="Farming, Natural Resources &amp; Industry"/>
+         <MT N="DCSext.level2" V="Agriculture &amp; Seafood"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The Youth Development program works in conjunction with 4-H British Columbia to deliver agriculture education and training to the youth of British Columbia."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="agri_Activity" V="Training and education"/>
+         <MT N="agri_Activity" V="Food safety and traceability"/>
+         <MT N="agri_Activity" V="Youth development and leadership"/>
+         <MT N="agri_Activity" V="Environmental stewardship"/>
+         <MT N="level3_id" V="3C28DC66E79B4A26BE1F1DD99263D6EC"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="110244.0"/>
+         <MT N="level4" V="Youth Development"/>
+         <MT N="current_page_id" V="0EED31D6E84F4CD2B11E06F7344CEF6A"/>
+         <MT N="agri_ProgramEligibility" V="4-H members &amp; youth"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Farming Natural Resources &amp; Industry"/>
+         <MT N="level3" V="Programs"/>
+         <MT N="level2" V="Agriculture &amp; Seafood"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_agriculture_seafood_maintainer"/>
+         <MT N="content_group" V="CMF_gov_agriculture_seafood_author"/>
+         <MT N="content_group" V="CMF_gov_agriculture_seafood_approver"/>
+         <MT N="WT.cg_s" V="0EED31D6E84F4CD2B11E06F7344CEF6A"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="CMF_ContentType" V="Programs"/>
+         <MT N="WT.cg_n" V="Farming, Natural Resources &amp; Industry;Agriculture &amp; Seafood"/>
+         <MT N="agri_enhancedSearch" V="agriSeaPrograms"/>
+         <MT N="level4_id" V="0EED31D6E84F4CD2B11E06F7344CEF6A"/>
+         <MT N="navigaton_title" V="Youth Development"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="MBCTERMS.subjectCategory" V="Agriculture"/>
+         <MT N="DCTERMS.audience" V="Educators"/>
+         <MT N="DCTERMS.audience" V="Youth"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>and programing knowledge in &lt;b&gt;jobs&lt;/b&gt; that are closely connected to the agriculture sector...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="107.66k"/>
+         </HAS>
+      </R>
+      <R N="6">
+         <U>https://www2.gov.bc.ca/gov/content/governments/indigenous-people/covid19</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/indigenous-people/covid19</UE>
+         <T>COVID-19 information for First Nations and Indigenous Peoples - Province of British Columbia</T>
+         <RK>6.446002305270066</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-02-23"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1614043090854"/>
+         <MT N="DCSext.creator" V="Ministry of Indigenous Relations and Reconciliation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Aboriginal reserves"/>
+         <MT N="DCTERMS.subject" V="Aboriginal affairs"/>
+         <MT N="DCTERMS.subject" V="Aboriginal rights"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="covid, indigenous, first nations, coronavirus, covid-19, government, response"/>
+         <MT N="DCSext.current_page" V="COVID-19 information for First Nations and Indigenous Peoples"/>
+         <MT N="mes:date" V="1614043090000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="COVID-19 information for First Nations and Indigenous Peoples - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="E5F00486FC054E78B68A996B30DAC89C"/>
+         <MT N="content_group_id" V="FD5CA70442DB40D4A37EEF452CC26EF6"/>
+         <MT N="content_group_id" V="D59F58F5D4CC49D59229DAE6E58F4126"/>
+         <MT N="content_group_id" V="1BF77493A13D4B54B68C377A7DF384A1"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="06BD3E700C5F4768BF600B360FE33E20"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2020-03-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/indigenous-people/covid19"/>
+         <MT N="DCTERMS.modified" V="2021-02-22"/>
+         <MT N="DCTERMS.creator" V="Ministry of Indigenous Relations and Reconciliation"/>
+         <MT N="current_page" V="COVID-19 information for First Nations and Indigenous Peoples"/>
+         <MT N="DCSext.level3" V="COVID-19 information for First Nations and Indigenous Peoples"/>
+         <MT N="DCSext.level1" V="British Columbians and our governments"/>
+         <MT N="DCSext.level2" V="Indigenous People"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="COVID-19 Information for First Nations and Indigenous Peoples in B.C."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="5E63D935B71446BB95DC4065B386A509"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111316.0"/>
+         <MT N="current_page_id" V="5E63D935B71446BB95DC4065B386A509"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians and our governments"/>
+         <MT N="level3" V="COVID-19 information for First Nations and Indigenous Peoples"/>
+         <MT N="level2" V="Indigenous People"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_approver"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_author"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_maintainer"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_indigenous_theme_approver"/>
+         <MT N="navigaton_title" V="COVID-19 information for First Nations and Indigenous Peoples"/>
+         <MT N="MBCTERMS.subjectCategory" V="Arts and History"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="MBCTERMS.subjectCategory" V="Science and Technology"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="MBCTERMS.subjectCategory" V="Languages"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="MBCTERMS.subjectCategory" V="Information and Communications"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="Veterans"/>
+         <MT N="DCTERMS.audience" V="Parents and Guardians"/>
+         <MT N="DCTERMS.audience" V="Funding Applicants"/>
+         <MT N="DCTERMS.audience" V="Rural Community"/>
+         <MT N="DCTERMS.audience" V="Children"/>
+         <MT N="DCTERMS.audience" V="Women"/>
+         <MT N="DCTERMS.audience" V="Men"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>
+COVID-19 information for First Nations and Indigenous Peoples
+Indigenous communities, particularly in remote areas, face unique circumstances and have specific needs in managing through the pandemic. Supporting Indigenous communities to respond to COVID-19 is a key priority.
+Last updated: Novem...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.71k"/>
+         </HAS>
+      </R>
+      <R N="7">
+         <U>https://www2.gov.bc.ca/gov/content/family-social-supports/services-for-people-with-disabilities/disability-assistance</U>
+         <UE>https://www2.gov.bc.ca/gov/content/family-social-supports/services-for-people-with-disabilities/disability-assistance</UE>
+         <T>Disability assistance - Province of British Columbia</T>
+         <RK>6.167252205581262</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-11-30"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1606766848059"/>
+         <MT N="DCSext.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="bcgov_fundingSource" V="Provincial"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Income assistance"/>
+         <MT N="DCTERMS.subject" V="Disability assistance"/>
+         <MT N="DCTERMS.subject" V="Intellectual disabilities"/>
+         <MT N="DCTERMS.subject" V="Persons with disabilities"/>
+         <MT N="DCTERMS.subject" V="Financial assistance"/>
+         <MT N="level1_id" V="FD488413D1B74C5B931B2F6B0E00C61D"/>
+         <MT N="keywords" V="PWD, disabilities, disability pensions, DB2, welfare"/>
+         <MT N="DCSext.current_page" V="Disability assistance"/>
+         <MT N="bcgov_fundingSubject" V="People with Disabilities"/>
+         <MT N="mes:date" V="1606766848000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Disability assistance - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="CBD8D48F126A462FBF1DE597318DE5AE"/>
+         <MT N="mhsuSpecificTerms_mentalHealthSpecificTopics" V="BC Gov Information"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="0B851B2CC5B14EFE8958C45C37BE1CF5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-02-05"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/family-social-supports/services-for-people-with-disabilities/disability-assistance"/>
+         <MT N="DCTERMS.modified" V="2020-09-29"/>
+         <MT N="DCTERMS.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="bcgov_DCTERMS.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="current_page" V="Disability assistance"/>
+         <MT N="DCSext.level3" V="Disability assistance"/>
+         <MT N="DCSext.level1" V="Family and social supports"/>
+         <MT N="DCSext.level2" V="Services for people with disabilities"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Disability assistance can help you if you need financial or health support. You must be designated as a person with a disability to receive this type of assistance."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="F0457B051B5346D284B1C586374CF2E1"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111315.0"/>
+         <MT N="current_page_id" V="F0457B051B5346D284B1C586374CF2E1"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="bcgov_enhancedSearch" V="fundingGrants"/>
+         <MT N="level1" V="Family and social supports"/>
+         <MT N="level3" V="Disability assistance"/>
+         <MT N="mhsuSpecificTerms_enhancedSearch" V="mentalHealth2"/>
+         <MT N="level2" V="Services for people with disabilities"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="bcgov_fundingType" V="Assistance Programs"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_sdsi"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="navigaton_title" V="Disability assistance"/>
+         <MT N="MBCTERMS.subjectCategory" V="Society and Culture"/>
+         <MT N="DCTERMS.audience" V="Funding Applicants"/>
+         <MT N="DCTERMS.audience" V="Parents and Guardians"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS.audience" V="Nongovernmental Organizations"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>monthly rates, supplements and &lt;b&gt;job&lt;/b&gt; support while on disability assistance. 
+Eligibility...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.71k"/>
+         </HAS>
+      </R>
+      <R N="8">
+         <U>https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance</U>
+         <UE>https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance</UE>
+         <T>Apply for assistance - Province of British Columbia</T>
+         <RK>6.167252205581262</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-11-30"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1606766850516"/>
+         <MT N="DCSext.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Approval processes"/>
+         <MT N="DCTERMS.subject" V="Application"/>
+         <MT N="DCTERMS.subject" V="Social assistance"/>
+         <MT N="DCTERMS.subject" V="Assets"/>
+         <MT N="DCTERMS.subject" V="Unemployment"/>
+         <MT N="DCTERMS.subject" V="Income assistance"/>
+         <MT N="DCTERMS.subject" V="Benefits"/>
+         <MT N="DCTERMS.subject" V="Fiscal assistance"/>
+         <MT N="DCTERMS.subject" V="Financial assistance"/>
+         <MT N="level1_id" V="FD488413D1B74C5B931B2F6B0E00C61D"/>
+         <MT N="keywords" V="Social services, apply for welfare, apply online, out of money, poor, homeless, emergency, need help, need money, eligibility, qualifications, qualify"/>
+         <MT N="DCSext.current_page" V="Apply for assistance"/>
+         <MT N="mes:date" V="1606766850000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Apply for assistance - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="618B0DF0FFF4468AA591F48F27E86D10"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="0B851B2CC5B14EFE8958C45C37BE1CF5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2016-02-05"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance"/>
+         <MT N="DCTERMS.modified" V="2020-11-30"/>
+         <MT N="DCTERMS.creator" V="Ministry of Social Development and Poverty Reduction"/>
+         <MT N="current_page" V="Apply for assistance"/>
+         <MT N="DCSext.level3" V="Apply for assistance"/>
+         <MT N="DCSext.level1" V="Family and social supports"/>
+         <MT N="DCSext.level2" V="Income assistance"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="If you are in need and have no other resources, you may be eligible for income assistance. This can help support your transition to employment."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="497AEDC6381C4AC79E5781BBBFF86F49"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="109337.0"/>
+         <MT N="current_page_id" V="497AEDC6381C4AC79E5781BBBFF86F49"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Family and social supports"/>
+         <MT N="level3" V="Apply for assistance"/>
+         <MT N="level2" V="Income assistance"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_sdsi"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="navigaton_title" V="Apply for assistance"/>
+         <MT N="MBCTERMS.subjectCategory" V="Society and Culture"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Parents and Guardians"/>
+         <MT N="DCTERMS.audience" V="Funding Applicants"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>assessment
+If you don’t find a &lt;b&gt;job&lt;/b&gt; during your work search, you will need to...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="106.77k"/>
+         </HAS>
+      </R>
+      <R N="9">
+         <U>https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance</U>
+         <UE>https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance</UE>
+         <T>Income assistance - Province of British Columbia</T>
+         <RK>6.156752201826167</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-09-18"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1600446776205"/>
+         <MT N="DCSext.creator" V="Ministry of Social Development and Social Innovation"/>
+         <MT N="bcgov_fundingSource" V="Provincial"/>
+         <MT N="mhsuSpecificTerms_mentalHealthSpecificAudiences" V="Adults"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Social assistance"/>
+         <MT N="DCTERMS.subject" V="Financial assistance"/>
+         <MT N="DCTERMS.subject" V="Fiscal assistance"/>
+         <MT N="DCTERMS.subject" V="Income assistance"/>
+         <MT N="DCTERMS.subject" V="Income loss"/>
+         <MT N="DCTERMS.subject" V="Income assistance worker"/>
+         <MT N="DCTERMS.subject" V="Employment programs"/>
+         <MT N="DCTERMS.subject" V="Employment"/>
+         <MT N="level1_id" V="FD488413D1B74C5B931B2F6B0E00C61D"/>
+         <MT N="keywords" V="BC Employment and Assistance, Employment and Assistance, BCEA,"/>
+         <MT N="DCSext.current_page" V="Income assistance"/>
+         <MT N="bcgov_fundingSubject" V="Income Assistance"/>
+         <MT N="mes:date" V="1600446776000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Income assistance - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="618B0DF0FFF4468AA591F48F27E86D10"/>
+         <MT N="mhsuSpecificTerms_mentalHealthSpecificTopics" V="BC Gov Information"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="0B851B2CC5B14EFE8958C45C37BE1CF5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2015-06-19"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance"/>
+         <MT N="DCTERMS.modified" V="2020-09-18"/>
+         <MT N="DCTERMS.creator" V="Ministry of Social Development and Social Innovation"/>
+         <MT N="bcgov_DCTERMS.creator" V="Ministry of Social Development and Social Innovation"/>
+         <MT N="current_page" V="Income assistance"/>
+         <MT N="DCSext.level1" V="Family and social supports"/>
+         <MT N="DCSext.level2" V="Income assistance"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The BC Employment and Assistance program helps you move from income assistance to sustainable employment, and provides income assistance if you are unable to fully participate in the workforce."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107886.0"/>
+         <MT N="Synonyms" V="welfare,Income Assistance, financial assistance, financial help, social assistance, welfare, dole, money, help"/>
+         <MT N="current_page_id" V="618B0DF0FFF4468AA591F48F27E86D10"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="bcgov_enhancedSearch" V="fundingGrants"/>
+         <MT N="level1" V="Family and social supports"/>
+         <MT N="mhsuSpecificTerms_enhancedSearch" V="mentalHealth2"/>
+         <MT N="level2" V="Income assistance"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="bcgov_fundingType" V="Assistance Programs"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_sdsi"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="navigaton_title" V="Income assistance"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="MBCTERMS.subjectCategory" V="Society and Culture"/>
+         <MT N="DCTERMS:interactiveResource" V="BC Gov Theme"/>
+         <S>Income assistance
+Call 1-866-866-0800 or use My Self Serve instead of coming into an office if you have:
+COVID-19 symptoms like cough, shortness of breath or fever Been around someone sick, like a family member Not completed 14-day isolation after travel abroad 
+If you are in need and have no ot...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="105.36k"/>
+         </HAS>
+      </R>
+      <R N="10">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/work-able</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/work-able</UE>
+         <T>Work-Able - Province of British Columbia</T>
+         <RK>6.154502201021505</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-09-02"/>
+         <MT N="query_id" V="48764672216636"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1599070697890"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Disabilities"/>
+         <MT N="DCTERMS.subject" V="Internships"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="work-able, internship, accessibility, disabilities, job, work experience, post-secondary, education, learning, coaching, mentoring, employment"/>
+         <MT N="DCSext.current_page" V="Work-Able"/>
+         <MT N="mes:date" V="1599070697000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Work-Able - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="content_group_id" V="CE385D1D7A0F4C6F8CF90895950CF6A4"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Interns"/>
+         <MT N="bcpsa_audiences" V="Persons with disabilities"/>
+         <MT N="DCTERMS.created" V="2016-02-26"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/work-able"/>
+         <MT N="DCTERMS.modified" V="2020-09-02"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Internships"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Work-Able"/>
+         <MT N="bcpsa_agencyPrograms" V="Work-Able Internship Program"/>
+         <MT N="DCSext.level3" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="DCSext.level4" V="Work-Able"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Work-Able is a 12 month BC Public Service work experience program for recent post-secondary graduates with disabilities."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8CF9A7E58E2B4B16907641331742C07C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107562.0"/>
+         <MT N="level4" V="Work-Able"/>
+         <MT N="current_page_id" V="1F62F1DCB2DF4A6C986EF2CF9EDCB555"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="content_group" V="CMF_gov_PSA_Analytics"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="level4_id" V="1F62F1DCB2DF4A6C986EF2CF9EDCB555"/>
+         <MT N="navigaton_title" V="Work-Able"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="DCTERMS.audience" V="Persons with Disabilities"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>experiences Full-service hiring – &lt;b&gt;job&lt;/b&gt; profile and assessments including interviews Funding...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="105.04k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Subject Category" IR="0" NM="MBCTERMS.subjectCategory" T="0"><PV C="1" H="" L="" V="Agriculture"/><PV C="2" H="" L="" V="Arts and History"/><PV C="8" H="" L="" V="Economics and Industry"/><PV C="5" H="" L="" V="Education and Training"/><PV C="2" H="" L="" V="Government and Politics"/><PV C="7" H="" L="" V="Health and Safety"/><PV C="2" H="" L="" V="Information and Communications"/><PV C="3" H="" L="" V="Labour"/><PV C="2" H="" L="" V="Languages"/><PV C="2" H="" L="" V="Law and Legislation"/><PV C="3" H="" L="" V="Nature and Environment"/><PV C="3" H="" L="" V="Processes"/><PV C="2" H="" L="" V="Science and Technology"/><PV C="5" H="" L="" V="Society and Culture"/><PV C="2" H="" L="" V="Transport"/></PMT>
+         <PMT DN="Subjects" IR="0" NM="DCTERMS.subject" T="0"><PV C="2" H="" L="" V="Aboriginal affairs"/><PV C="2" H="" L="" V="Aboriginal reserves"/><PV C="2" H="" L="" V="Aboriginal rights"/><PV C="1" H="" L="" V="Application"/><PV C="1" H="" L="" V="Approval processes"/><PV C="1" H="" L="" V="Assets"/><PV C="1" H="" L="" V="Benefits"/><PV C="1" H="" L="" V="Climate change"/><PV C="1" H="" L="" V="Community services"/><PV C="1" H="" L="" V="Disabilities"/><PV C="1" H="" L="" V="Disability assistance"/><PV C="1" H="" L="" V="Economic impact"/><PV C="1" H="" L="" V="Education"/><PV C="1" H="" L="" V="Employment"/><PV C="1" H="" L="" V="Employment programs"/><PV C="3" H="" L="" V="Financial assistance"/><PV C="2" H="" L="" V="Fiscal assistance"/><PV C="3" H="" L="" V="Forestry industry"/><PV C="1" H="" L="" V="Health"/><PV C="1" H="" L="" V="Immigration"/><PV C="3" H="" L="" V="Income assistance"/><PV C="1" H="" L="" V="Income assistance worker"/><PV C="1" H="" L="" V="Income loss"/><PV C="1" H="" L="" V="Intellectual disabilities"/><PV C="2" H="" L="" V="Internships"/><PV C="1" H="" L="" V="Persons with disabilities"/><PV C="2" H="" L="" V="Pricing"/><PV C="1" H="" L="" V="Rural communities"/><PV C="1" H="" L="" V="Rural development"/><PV C="2" H="" L="" V="Sales"/><PV C="1" H="" L="" V="Skills"/><PV C="2" H="" L="" V="Social assistance"/><PV C="1" H="" L="" V="Unemployment"/><PV C="2" H="" L="" V="Wood"/></PMT>
+      </PARM>
+   </RES>
+</GSP>

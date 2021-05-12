@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>0.749000</TM>
+   <Q>jobs inmeta:ese_enhancedSearch=services</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="services_a_z_new" value="services_a_z_new"/>
+   <PARAM name="start" original_value="10" value="10"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs inmeta:ese_enhancedSearch=services" value="jobs inmeta:ese_enhancedSearch=services"/>
+   <RES EN="18" SN="11">
+      <M>18</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=services_a_z_new&amp;q=jobs+inmeta:ese_enhancedSearch=services&amp;start=0</PU>
+         <NU>/search?site=default_collection&amp;client=services_a_z_new&amp;q=jobs+inmeta:ese_enhancedSearch=services&amp;start=20</NU>
+      </NB>
+      <R N="1">
+         <U>https://www2.gov.bc.ca/gov/content/tourism-immigration/immigrating-to-bc/moving-bc-b</U>
+         <UE>https://www2.gov.bc.ca/gov/content/tourism-immigration/immigrating-to-bc/moving-bc-b</UE>
+         <T>Moving to British Columbia from within Canada - Province of British Columbia</T>
+         <RK>5.964752133161592</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-12-13"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1576271109000"/>
+         <MT N="DCSext.creator" V="Residential Tenancy Branch"/>
+         <MT N="DCSext.creator" V="Ministry of Health"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Immigration"/>
+         <MT N="level1_id" V="D6E183CFBFED46B282F80342BA3F69D0"/>
+         <MT N="keywords" V="moving to BC, moving to B.C., moving to British Columbia from within Canada, new resident,"/>
+         <MT N="DCSext.current_page" V="Moving to B.C. from within Canada"/>
+         <MT N="mes:date" V="1576271109000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Moving to British Columbia from within Canada - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="0339B87162CF4D379BE87E7DE5E72656"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2019-02-20"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/tourism-immigration/immigrating-to-bc/moving-bc-b"/>
+         <MT N="DCTERMS.modified" V="2019-12-13"/>
+         <MT N="DCTERMS.creator" V="Residential Tenancy Branch"/>
+         <MT N="DCTERMS.creator" V="Ministry of Health"/>
+         <MT N="current_page" V="Moving to B.C. from within Canada"/>
+         <MT N="DCSext.level3" V="Moving to B.C. from within Canada"/>
+         <MT N="DCSext.level1" V="Tourism &amp; Immigration"/>
+         <MT N="DCSext.level2" V="Immigrating to B.C."/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Services to help you relocate in B.C. and getting settled into your new life"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="E7693D12D9EE4FE793E8CD6854C135CE"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="111484.0"/>
+         <MT N="Synonyms" V="Settle in B.C., Move to B.C."/>
+         <MT N="current_page_id" V="E7693D12D9EE4FE793E8CD6854C135CE"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Tourism &amp; Immigration"/>
+         <MT N="level3" V="Moving to B.C. from within Canada"/>
+         <MT N="level2" V="Immigrating to B.C."/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="WT.cg_s" V="E7693D12D9EE4FE793E8CD6854C135CE"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="WT.cg_n" V="Tourism &amp; Immigration;Immigrating to B.C."/>
+         <MT N="navigaton_title" V="Moving to B.C. from within Canada"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="DCTERMS:interactiveResource" V="Service"/>
+         <S>window &#xD;
+						Find a &lt;b&gt;job&lt;/b&gt; in B.C., , , opens...new window
+Browse &lt;b&gt;job&lt;/b&gt; opportunities right where...window &#xD;
+						Find a &lt;b&gt;job&lt;/b&gt; with the B.C</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="108.87k"/>
+         </HAS>
+      </R>
+      <R N="2">
+         <U>https://www2.gov.bc.ca/gov/content/governments/indigenous-people/aboriginal-organizations-services</U>
+         <UE>https://www2.gov.bc.ca/gov/content/governments/indigenous-people/aboriginal-organizations-services</UE>
+         <T>Guide to Indigenous Organizations &amp; Services - Province of British Columbia</T>
+         <RK>5.9585021309264175</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-10-28"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1572295235000"/>
+         <MT N="DCSext.creator" V="Ministry of Aboriginal Relations and Reconciliation"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Aboriginal rights"/>
+         <MT N="DCTERMS.subject" V="Aboriginal reserves"/>
+         <MT N="DCTERMS.subject" V="Aboriginal affairs"/>
+         <MT N="level1_id" V="1BCDDAA9ED30487784F29ADC800E5DCB"/>
+         <MT N="keywords" V="Aboriginal businesses and services guide, Aboriginal, health, justice, housing, economic, organizations, services, First Nations, Metis, family, Band, education, youth, child, women, men, violence"/>
+         <MT N="DCSext.current_page" V="Guide to Indigenous Organizations &amp; Services"/>
+         <MT N="mes:date" V="1572295235000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Guide to Indigenous Organizations &amp; Services - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="E5F00486FC054E78B68A996B30DAC89C"/>
+         <MT N="content_group_id" V="FD5CA70442DB40D4A37EEF452CC26EF6"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="06BD3E700C5F4768BF600B360FE33E20"/>
+         <MT N="content_group_id" V="D59F58F5D4CC49D59229DAE6E58F4126"/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="content_group_id" V="1BF77493A13D4B54B68C377A7DF384A1"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2014-06-03"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/governments/indigenous-people/aboriginal-organizations-services"/>
+         <MT N="DCTERMS.modified" V="2019-10-28"/>
+         <MT N="DCTERMS.creator" V="Ministry of Aboriginal Relations and Reconciliation"/>
+         <MT N="current_page" V="Guide to Indigenous Organizations &amp; Services"/>
+         <MT N="DCSext.level3" V="Guide to Indigenous Organizations &amp; Services"/>
+         <MT N="DCSext.level1" V="British Columbians &amp; Our Governments"/>
+         <MT N="DCSext.level2" V="Indigenous People"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Aboriginal businesses and services, community and individual support in health, employment, education, justice."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="81317D590523458781D8474FF658C47B"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="100819.0"/>
+         <MT N="current_page_id" V="81317D590523458781D8474FF658C47B"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="British Columbians &amp; Our Governments"/>
+         <MT N="level3" V="Guide to Indigenous Organizations &amp; Services"/>
+         <MT N="level2" V="Indigenous People"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_approver"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_indigenous_theme_approver"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_author"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <MT N="content_group" V="CMF_gov_bcog_abp_maintainer"/>
+         <MT N="WT.cg_s" V="81317D590523458781D8474FF658C47B"/>
+         <MT N="WT.cg_n" V="British Columbians &amp; Our Governments;Indigenous People"/>
+         <MT N="navigaton_title" V="Guide to Indigenous Organizations &amp; Services"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="MBCTERMS.subjectCategory" V="Nature and Environment"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="MBCTERMS.subjectCategory" V="Arts and History"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="MBCTERMS.subjectCategory" V="Government and Politics"/>
+         <MT N="MBCTERMS.subjectCategory" V="Processes"/>
+         <MT N="MBCTERMS.subjectCategory" V="Science and Technology"/>
+         <MT N="DCTERMS.audience" V="Employers"/>
+         <MT N="DCTERMS.audience" V="Funding Applicants"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS.audience" V="Men"/>
+         <MT N="DCTERMS.audience" V="Nongovernmental Organizations"/>
+         <MT N="DCTERMS.audience" V="Indigenous Peoples"/>
+         <MT N="DCTERMS.audience" V="Veterans"/>
+         <MT N="DCTERMS.audience" V="Students"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>
+Guide to Indigenous Organizations &amp;amp; Services
+The Guide to Indigenous Organizations and Services is a resource listing of Indigenous community-based services and organizations. 
+Information within the Guide changes frequently and we rely upon organizations to provide updates as contact informati...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="98.46k"/>
+         </HAS>
+      </R>
+      <R N="3">
+         <U>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/iyip</U>
+         <UE>https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/iyip</UE>
+         <T>Indigenous Youth Internship Program - Province of British Columbia</T>
+         <RK>5.92750211983995</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-05-27"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1590595737000"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Internships"/>
+         <MT N="level1_id" V="C6D1F618844441778AD409A9C99C1CD3"/>
+         <MT N="keywords" V="internship,  youth, ayip, aboriginal youth, indigenous, first nations, indian, aboriginal, native, iyip"/>
+         <MT N="DCSext.current_page" V="Indigenous Youth Internship Program"/>
+         <MT N="mes:date" V="1590595737000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Indigenous Youth Internship Program - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="F081E268A380420D82C9668AE1CEA660"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="3F08B3480E6C400097ECF5D0AB017B70"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="bcpsa_audiences" V="Interns"/>
+         <MT N="bcpsa_audiences" V="Indigenous peoples"/>
+         <MT N="DCTERMS.created" V="2016-01-28"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/internship-co-op-opportunities/iyip"/>
+         <MT N="DCTERMS.modified" V="2020-05-27"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Internships"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="current_page" V="Indigenous Youth Internship Program"/>
+         <MT N="bcpsa_agencyPrograms" V="Indigenous Youth Internship Program"/>
+         <MT N="DCSext.level3" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="DCSext.level4" V="Indigenous Youth Internship Program"/>
+         <MT N="DCSext.level1" V="Careers &amp; MyHR"/>
+         <MT N="DCSext.level2" V="Job Seekers"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="The Indigenous Youth Internship Program is a 12 month paid internship for up to 25 Indigenous British Columbians, ages 19-29."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="8CF9A7E58E2B4B16907641331742C07C"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="107162.0"/>
+         <MT N="Synonyms" V="first nations, inuit, metis, work experience"/>
+         <MT N="level4" V="Indigenous Youth Internship Program"/>
+         <MT N="current_page_id" V="E351B09E95BF41A5B7DDD92FF94199F9"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Careers &amp; MyHR"/>
+         <MT N="level3" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="level2" V="Job Seekers"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_psa_subtheme"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="CMF_ContentType" V="Service"/>
+         <MT N="CMF_ContentType" V="Programs"/>
+         <MT N="CMF_ContentType" V="Application"/>
+         <MT N="level4_id" V="E351B09E95BF41A5B7DDD92FF94199F9"/>
+         <MT N="navigaton_title" V="Indigenous Youth Internship Program"/>
+         <MT N="MBCTERMS.subjectCategory" V="Education and Training"/>
+         <MT N="DCTERMS.audience" V="Indigenous Peoples"/>
+         <MT N="DCTERMS.audience" V="Job Seekers"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>youth applicants: The &lt;b&gt;job&lt;/b&gt; posting closure date...924KB) Intern &lt;b&gt;Job&lt;/b&gt; Profile (DOCX, 400KB</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="104.65k"/>
+         </HAS>
+      </R>
+      <R N="4">
+         <U>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/climate-change-strategy</U>
+         <UE>https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/climate-change-strategy</UE>
+         <T>BC Timber Sales - Climate Change Action - Province of British Columbia</T>
+         <RK>5.925252119035287</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-08-03"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1533324918000"/>
+         <MT N="DCSext.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="DCTERMS.subject" V="Climate change"/>
+         <MT N="DCTERMS.subject" V="Forestry industry"/>
+         <MT N="level1_id" V="A389E49687F74532A306249A234EDF29"/>
+         <MT N="keywords" V="climate change, climate adaptation, climate mitigation"/>
+         <MT N="DCSext.current_page" V="Climate Change Action"/>
+         <MT N="mes:date" V="1533324918000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="BC Timber Sales - Climate Change Action - Province of British Columbia"/>
+         <MT N="content" V=""/>
+         <MT N="Content-Type" V="text/html; charset=UTF-8"/>
+         <MT N="level2_id" V="AA59C0AA67DA452486989F5C088CF0C2"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="B643677399D84C8C9FA0C9A2CA6D73AC"/>
+         <MT N="content_group_id" V="1AC2F71EE731435CBF850211FFDBCA4F"/>
+         <MT N="content_group_id" V="C23A44CF800D4E6D9217DE940961224E"/>
+         <MT N="content_group_id" V="FB722A0304EB4ABCA3C3F7B6FBA15272"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_feed"/>
+         <MT N="DCTERMS.created" V="2018-05-02"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/gov/content/industry/forestry/bc-timber-sales/climate-change-strategy"/>
+         <MT N="DCTERMS.modified" V="2018-08-03"/>
+         <MT N="DCTERMS.creator" V="Ministry of Forests Lands and Natural Resource Operations"/>
+         <MT N="current_page" V="Climate Change Action"/>
+         <MT N="DCSext.level3" V="BC Timber Sales"/>
+         <MT N="DCSext.level4" V="Climate Change Action"/>
+         <MT N="DCSext.level1" V="Farming, Natural Resources &amp; Industry"/>
+         <MT N="DCSext.level2" V="Forestry"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_feed"/>
+         <MT N="description" V="Learn about the climate change mitigation and adaptation actions that BCTS is integrating into its business processes."/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="level3_id" V="7898CA996ADB437ABB36B6071E8164C9"/>
+         <MT N="collections" V="mb_gov_feed"/>
+         <MT N="mes:size" V="104898.0"/>
+         <MT N="Synonyms" V="BCTS"/>
+         <MT N="level4" V="Climate Change Action"/>
+         <MT N="current_page_id" V="27E0C8A4C5674E90ADE9BA79337AF415"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="level1" V="Farming Natural Resources &amp; Industry"/>
+         <MT N="level3" V="BC Timber Sales"/>
+         <MT N="level2" V="Forestry"/>
+         <MT N="extension" V="html"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_author"/>
+         <MT N="content_group" V="CMF_gov_env_pae_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_maintainer"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_approver"/>
+         <MT N="WT.cg_s" V="27E0C8A4C5674E90ADE9BA79337AF415"/>
+         <MT N="CMF_ContentType" V="General Content"/>
+         <MT N="WT.cg_n" V="Farming, Natural Resources &amp; Industry;Forestry"/>
+         <MT N="level4_id" V="27E0C8A4C5674E90ADE9BA79337AF415"/>
+         <MT N="navigaton_title" V="Climate Change Action"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS:interactiveResource" V="Topic"/>
+         <S>this information in their &lt;b&gt;job&lt;/b&gt; functions We place reliance on the professionals...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="102.44k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb023_temporary_change_to_a_liquor_licence.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb023_temporary_change_to_a_liquor_licence.pdf</UE>
+         <T>Apply for a Temporary Change to a Liquor Licence</T>
+         <RK>5.9365021230586015</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-08-12"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1597255792000"/>
+         <MT N="document:created" V="1535139117000"/>
+         <MT N="DCSext.creator" V="Liquor &amp; Cannabis Regulation Branch"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Apply for a Temporary Change to a Liquor Licence"/>
+         <MT N="DCTERMS.subject" V="Forms"/>
+         <MT N="document:cp:subject" V="LCRB liquor form regarding temporary change"/>
+         <MT N="document:pdf:PDFExtensionVersion" V="1.7 Adobe Extension Level 8"/>
+         <MT N="keywords" V="liquor, licence, change, temporary, temp, application, form, bc, apply"/>
+         <MT N="document:Keywords" V="liquor, licence, change, temporary, temp, application, form, bc, apply"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1597255792000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Apply for a Temporary Change to a Liquor Licence"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="LCRB liquor form regarding temporary change"/>
+         <MT N="document:meta:keyword" V="liquor, licence, change, temporary, temp, application, form, bc, apply"/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="DF6E8C22B9624F1ABB95197B7B3D2DE8"/>
+         <MT N="content_group_id" V="903A5CEF5D1F4E0AA4B7AA6833F74A32"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="content_group_id" V="463269C5A8A04034AB3DDCEEEC5733B5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="lcrb023_temporary_change_to_a_liquor_licence.pdf"/>
+         <MT N="DCTERMS.created" V="2017-01-06"/>
+         <MT N="document:dc:description" V="LCRB liquor form regarding temporary change"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb023_temporary_change_to_a_liquor_licence.pdf"/>
+         <MT N="DCTERMS.modified" V="2020-08-12"/>
+         <MT N="DCTERMS.creator" V="Liquor &amp; Cannabis Regulation Branch"/>
+         <MT N="document:modified" V="1596649451000"/>
+         <MT N="document:pdf:docinfo:keywords" V="liquor, licence, change, temporary, temp, application, form, bc, apply"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Use this form to apply for a temporary change to a food primary or liquor primary licence, or to a manufacturing licence with an endorsement."/>
+         <MT N="description" V="Temporary change to a liquor licence food primary, liquor primary, liquor primary clubs and manufacturers endorsements."/>
+         <MT N="document:date" V="1596649451000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_www2_assets_feed_collection"/>
+         <MT N="mes:size" V="872274.0"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_lclb"/>
+         <MT N="content_group" V="CMF_gov_justice_approvers"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="content_group" V="CMF_gov_cscd"/>
+         <MT N="document:dc:subject" V="liquor, licence, change, temporary, temp, application, form, bc, apply"/>
+         <MT N="CMF_ContentType" V="Licenses and Permits"/>
+         <MT N="CMF_ContentType" V="Forms"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <S>Office use only
+ 
+&lt;b&gt;Job&lt;/b&gt; No. (C3-LIC)
+ 
+Licensee Information 
+ 
+Street...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="851.83k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/joint_accident_investigation2.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/joint_accident_investigation2.docx</UE>
+         <T>Preliminary Joint Accident/Incident Investigation Form Part A PSC 38</T>
+         <RK>5.6215020104057825</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-03-16"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1521215153000"/>
+         <MT N="meta:paragraph-count" V="11"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="8"/>
+         <MT N="document:ParagraphCount" V="11"/>
+         <MT N="document:LastPrinted" V="1443335280000"/>
+         <MT N="document:cp:revision" V="3"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2018-03-16T15:44:00Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="BCPSA Joint Accident Investigation Form"/>
+         <MT N="document:LineCount" V="40"/>
+         <MT N="DCTERMS.subject" V="Occupational safety"/>
+         <MT N="document:TotalTime" V="8"/>
+         <MT N="meta:last-author" V="Hills, Lynda PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="4"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:Character Count" V="4822"/>
+         <MT N="keywords" V="PSC, PSC 38, joint accident investigation,"/>
+         <MT N="document:Keywords" V="workplace safety"/>
+         <MT N="document:ApplicationVersion" V="14.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="14.0000"/>
+         <MT N="mes:date" V="1521215153000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="3"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2018-03-16T15:37:00Z"/>
+         <MT N="dcterms:modified" V="2018-03-16T15:44:00Z"/>
+         <MT N="title" V="Preliminary Joint Accident/Incident Investigation Form Part A PSC 38"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="11"/>
+         <MT N="extended-properties:TotalTime" V="8"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="document:description" V="DocumentCreationInfo"/>
+         <MT N="meta:line-count" V="40"/>
+         <MT N="dc:title" V="BCPSA Joint Accident Investigation Form"/>
+         <MT N="meta:creation-date" V="2018-03-16T15:37:00Z"/>
+         <MT N="document:meta:keyword" V="workplace safety"/>
+         <MT N="dc:creator" V="BCPSA - Safety"/>
+         <MT N="document:meta:lastauthor" V="Hills, Lynda PSA:EX"/>
+         <MT N="creator" V="BCPSA - Safety"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Supervisors"/>
+         <MT N="modified" V="2018-03-16T15:44:00Z"/>
+         <MT N="document:PageCount" V="4"/>
+         <MT N="Last-Printed" V="2015-09-27T06:28:00Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="joint_accident_investigation2.docx"/>
+         <MT N="DCTERMS.created" V="2016-04-07"/>
+         <MT N="document:extendedproperties:AppVersion" V="14.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2018-03-16T15:44:00Z"/>
+         <MT N="document:meta:linecount" V="40"/>
+         <MT N="document:LastAuthor" V="Hills, Lynda PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:dc:description" V="DocumentCreationInfo"/>
+         <MT N="dc:subject" V="workplace safety"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/joint_accident_investigation2.docx"/>
+         <MT N="DCTERMS.modified" V="2018-03-16"/>
+         <MT N="meta:keyword" V="workplace safety"/>
+         <MT N="Total-Time" V="8"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Investigations"/>
+         <MT N="bcpsa_subjects" V="Incident investigations"/>
+         <MT N="bcpsa_subjects" V="Occupational safety"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2018-03-16T15:37:00Z"/>
+         <MT N="Last-Author" V="Hills, Lynda PSA:EX"/>
+         <MT N="document:meta:charactercountwithspaces" V="5622"/>
+         <MT N="document:modified" V="1521215040000"/>
+         <MT N="document:CharacterCountWithSpaces" V="5622"/>
+         <MT N="document:WordCount" V="811"/>
+         <MT N="meta:print-date" V="2015-09-27T06:28:00Z"/>
+         <MT N="meta:character-count-with-spaces" V="5622"/>
+         <MT N="document:meta:charactercount" V="4822"/>
+         <MT N="meta:author" V="BCPSA - Safety"/>
+         <MT N="document:meta:wordcount" V="811"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="DocumentCreationInfo"/>
+         <MT N="meta:character-count" V="4822"/>
+         <MT N="document:date" V="1521215040000"/>
+         <MT N="extended-properties:AppVersion" V="14.0000"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_www2_assets_feed_collection"/>
+         <MT N="mes:size" V="151337.0"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="3"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="workplace safety"/>
+         <MT N="date" V="2018-03-16T15:44:00Z"/>
+         <MT N="CMF_ContentType" V="Forms"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="4"/>
+         <MT N="meta:word-count" V="811"/>
+         <MT N="document:meta:pagecount" V="4"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="document:meta:printdate" V="1443335280000"/>
+         <MT N="meta:save-date" V="2018-03-16T15:44:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <MT N="documenttitle" V="BCPSA Joint Accident Investigation Form"/>
+         <MT N="Author" V="BCPSA - Safety"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="subject" V="workplace safety"/>
+         <MT N="Revision-Number" V="3"/>
+         <MT N="Keywords" V="workplace safety"/>
+         <MT N="Page-Count" V="4"/>
+         <MT N="Paragraph-Count" V="11"/>
+         <MT N="Line-Count" V="40"/>
+         <MT N="Word-Count" V="811"/>
+         <MT N="Character Count" V="4822"/>
+         <MT N="Character-Count-With-Spaces" V="5622"/>
+         <S>first name 
+ 	Occupation/&lt;b&gt;Job&lt;/b&gt; Title  
+Click here...the Incident   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+	Names &amp;amp; &lt;b&gt;Job&lt;/b&gt; Titles of Witness...Completed By 
+Name, &lt;b&gt;job&lt;/b&gt; title 
+ 	Date 
+Completed</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="147.79k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb001c_transfer_of_licence_all_types_v2.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb001c_transfer_of_licence_all_types_v2.pdf</UE>
+         <T>Apply to Transfer a Liquor Licence</T>
+         <RK>5.6215020104057825</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-08-24"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1535147962000"/>
+         <MT N="document:created" V="Fri Aug 24 11:52:09 PDT 2018"/>
+         <MT N="DCSext.creator" V="Liquor &amp; Cannabis Regulation Branch"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Apply to Transfer a Liquor Licence "/>
+         <MT N="DCTERMS.subject" V="Liquor permit change"/>
+         <MT N="document:cp:subject" V="LCRB liquor form regarding licence transfer"/>
+         <MT N="document:pdf:PDFExtensionVersion" V="1.7 Adobe Extension Level 8"/>
+         <MT N="keywords" V="liquor, licence, transfer, selling business, new owner, application, form, bc"/>
+         <MT N="document:Keywords" V="liquor, licence, transfer, selling business, new owner, application, form, bc"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1535147962000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Apply to Transfer a Liquor Licence"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="LCRB liquor form regarding licence transfer"/>
+         <MT N="document:meta:keyword" V="liquor, licence, transfer, selling business, new owner, application, form, bc"/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="DF6E8C22B9624F1ABB95197B7B3D2DE8"/>
+         <MT N="content_group_id" V="903A5CEF5D1F4E0AA4B7AA6833F74A32"/>
+         <MT N="content_group_id" V="5E6DAC941FDB4B559C3260F4B9E739B0"/>
+         <MT N="content_group_id" V="463269C5A8A04034AB3DDCEEEC5733B5"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="lcrb001c_transfer_of_licence_all_types_v2.pdf"/>
+         <MT N="DCTERMS.created" V="2017-01-10"/>
+         <MT N="document:dc:description" V="LCRB liquor form regarding licence transfer"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/forms/lcrb001c_transfer_of_licence_all_types_v2.pdf"/>
+         <MT N="DCTERMS.modified" V="2018-08-24"/>
+         <MT N="DCTERMS.creator" V="Liquor &amp; Cannabis Regulation Branch"/>
+         <MT N="document:modified" V="1535136729000"/>
+         <MT N="document:pdf:docinfo:keywords" V="liquor, licence, transfer, selling business, new owner, application, form, bc"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Use this form to transfer a liquor licence when the business changes ownership"/>
+         <MT N="description" V="When a business changes ownership, the liquor license must be transferred."/>
+         <MT N="document:date" V="1535136729000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_www2_assets_feed_collection"/>
+         <MT N="mes:size" V="1172876.0"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_lclb"/>
+         <MT N="content_group" V="CMF_gov_justice_approvers"/>
+         <MT N="content_group" V="CMF_gov_servicebc"/>
+         <MT N="content_group" V="CMF_gov_cscd"/>
+         <MT N="document:dc:subject" V="liquor, licence, transfer, selling business, new owner, application, form, bc"/>
+         <MT N="CMF_ContentType" V="Forms"/>
+         <MT N="CMF_ContentType" V="Licenses and Permits"/>
+         <MT N="MBCTERMS.subjectCategory" V="Economics and Industry"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <S>Information
+ 
+Office Use ONLY
+&lt;b&gt;Job&lt;/b&gt; No. ________________
+ 
+TRANSFER OF LIQUOR...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.12 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/application_compensation_report_injury_occupational_disease_form6.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/application_compensation_report_injury_occupational_disease_form6.pdf</UE>
+         <T>Application for Compensation and Report of Injury or Occupational Disease (Form 6)</T>
+         <RK>5.6215020104057825</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2017-03-17"/>
+         <MT N="query_id" V="61377575959090"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1489776838000"/>
+         <MT N="document:created" V="Wed Sep 15 08:59:48 PDT 2010"/>
+         <MT N="DCSext.creator" V="WorkSafeBC"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Form 6, WorkSafeBC"/>
+         <MT N="DCTERMS.subject" V="Medical"/>
+         <MT N="document:cp:subject" V="Application for compensation and report of injury or occupational disease"/>
+         <MT N="keywords" V="compensation, employee, injury, occupational disease"/>
+         <MT N="document:Keywords" V="form, 6, application, compensation, injury, occupational, disease, report"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1489776838000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Application for Compensation and Report of Injury or Occupational Disease (Form 6)"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="Application for compensation and report of injury or occupational disease"/>
+         <MT N="document:meta:keyword" V="form, 6, application, compensation, injury, occupational, disease, report"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="application_compensation_report_injury_occupational_disease_form6.pdf"/>
+         <MT N="DCTERMS.created" V="2016-03-03"/>
+         <MT N="document:dc:description" V="Application for compensation and report of injury or occupational disease"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-occupational-health-safety/application_compensation_report_injury_occupational_disease_form6.pdf"/>
+         <MT N="DCTERMS.modified" V="2017-03-17"/>
+         <MT N="DCTERMS.creator" V="WorkSafeBC"/>
+         <MT N="document:modified" V="1323281138000"/>
+         <MT N="document:pdf:docinfo:keywords" V="form, 6, application, compensation, injury, occupational, disease, report"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Allows the worker to apply for compensation and is submitted directly to WorkSafeBC."/>
+         <MT N="document:date" V="1323281138000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_www2_assets_feed_collection"/>
+         <MT N="mes:size" V="252305.0"/>
+         <MT N="ese_enhancedSearch" V="services"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="form, 6, application, compensation, injury, occupational, disease, report"/>
+         <MT N="CMF_ContentType" V="Forms"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="MBCTERMS.subjectCategory" V="Health and Safety"/>
+         <MT N="DCTERMS.audience" V="Employees, Job Seekers, Career Development"/>
+         <S> 
+ApplicAtion for compensAtion And 
+report of injury or occupAtionAl diseAse
+ 
+For your convenience, WorkSafeBC offers three options for reporting a work-related  
+injury and filing a claim:
+1. call our teleclaim centre — The fastest and easiest way to report an injury and file 
+ 
+a TIME-LOSS ...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="246.39k"/>
+         </HAS>
+      </R>
+      <PARM>
+         <PC>0</PC>
+         <PMT DN="Subject Category" IR="0" NM="MBCTERMS.subjectCategory" T="0"><PV C="1" H="" L="" V="Agriculture"/><PV C="2" H="" L="" V="Arts and History"/><PV C="8" H="" L="" V="Economics and Industry"/><PV C="5" H="" L="" V="Education and Training"/><PV C="2" H="" L="" V="Government and Politics"/><PV C="7" H="" L="" V="Health and Safety"/><PV C="2" H="" L="" V="Information and Communications"/><PV C="3" H="" L="" V="Labour"/><PV C="2" H="" L="" V="Languages"/><PV C="2" H="" L="" V="Law and Legislation"/><PV C="3" H="" L="" V="Nature and Environment"/><PV C="3" H="" L="" V="Processes"/><PV C="2" H="" L="" V="Science and Technology"/><PV C="5" H="" L="" V="Society and Culture"/><PV C="2" H="" L="" V="Transport"/></PMT>
+         <PMT DN="Subjects" IR="0" NM="DCTERMS.subject" T="0"><PV C="2" H="" L="" V="Aboriginal affairs"/><PV C="2" H="" L="" V="Aboriginal reserves"/><PV C="2" H="" L="" V="Aboriginal rights"/><PV C="1" H="" L="" V="Application"/><PV C="1" H="" L="" V="Approval processes"/><PV C="1" H="" L="" V="Assets"/><PV C="1" H="" L="" V="Benefits"/><PV C="1" H="" L="" V="Climate change"/><PV C="1" H="" L="" V="Community services"/><PV C="1" H="" L="" V="Disabilities"/><PV C="1" H="" L="" V="Disability assistance"/><PV C="1" H="" L="" V="Economic impact"/><PV C="1" H="" L="" V="Education"/><PV C="1" H="" L="" V="Employment"/><PV C="1" H="" L="" V="Employment programs"/><PV C="3" H="" L="" V="Financial assistance"/><PV C="2" H="" L="" V="Fiscal assistance"/><PV C="3" H="" L="" V="Forestry industry"/><PV C="1" H="" L="" V="Health"/><PV C="1" H="" L="" V="Immigration"/><PV C="3" H="" L="" V="Income assistance"/><PV C="1" H="" L="" V="Income assistance worker"/><PV C="1" H="" L="" V="Income loss"/><PV C="1" H="" L="" V="Intellectual disabilities"/><PV C="2" H="" L="" V="Internships"/><PV C="1" H="" L="" V="Persons with disabilities"/><PV C="2" H="" L="" V="Pricing"/><PV C="1" H="" L="" V="Rural communities"/><PV C="1" H="" L="" V="Rural development"/><PV C="2" H="" L="" V="Sales"/><PV C="1" H="" L="" V="Skills"/><PV C="2" H="" L="" V="Social assistance"/><PV C="1" H="" L="" V="Unemployment"/><PV C="2" H="" L="" V="Wood"/></PMT>
+      </PARM>
+   </RES>
+</GSP>
