@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.136000</TM>
+   <Q>msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="30" value="30"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="msp filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="40" SN="31">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=20</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=msp+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=40</NU>
+      </NB>
+      <R MIME="application/pdf" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/forms-tools/all-employees/msp_group_change_request.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/forms-tools/all-employees/msp_group_change_request.pdf</UE>
+         <T>msp_group_change_request.pdf</T>
+         <RK>20.69300740039613</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-07-11"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1531334113000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="eb1522b7-8266-11de-a5b9-a1fb2b1aa71f"/>
+         <MT N="document:created" V="Tue Dec 01 13:31:27 PST 2009"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="MSP Group Change Request"/>
+         <MT N="document:cp:subject" V="MSP Group Change Request"/>
+         <MT N="document:Keywords" V="MSP Group Change Request"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1531334113000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="msp_group_change_request.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="MSP Group Change Request"/>
+         <MT N="document:meta:keyword" V="MSP Group Change Request"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="msp_group_change_request.pdf"/>
+         <MT N="DCTERMS.created" V="2016-02-25"/>
+         <MT N="document:dc:description" V="MSP Group Change Request"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/forms-tools/all-employees/msp_group_change_request.pdf"/>
+         <MT N="DCTERMS.modified" V="2018-07-11"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1523034830000"/>
+         <MT N="document:pdf:docinfo:keywords" V="MSP Group Change Request"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="adobe:docid:indd:019f3b5b-0eb7-11dd-9c4f-a72414637631"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1523034830000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="607993.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="MSP Group Change Request"/>
+         <S>are required for &lt;b&gt;MSP&lt;/b&gt; to confirm a...service(s) under &lt;b&gt;MSP&lt;/b&gt; are required under...those services to &lt;b&gt;MSP&lt;/b&gt; to support claims...Ministry and/or &lt;b&gt;Health Insurance&lt;/b&gt; BC may verify...NAME
+
+Mailing Address: &lt;b&gt;Health Insurance&lt;/b&gt; BC, &lt;b&gt;Medical Services Plan&lt;/b&gt;, PO Box 9691</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="593.74k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/education/post-secondary-education/institution-resources-administration/return-to-campus-primer.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/education/post-secondary-education/institution-resources-administration/return-to-campus-primer.pdf</UE>
+         <T>return-to-campus-primer.pdf</T>
+         <RK>17.395506221117813</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619807251000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:9865f633-45e8-9a47-a8c9-088420d765ea"/>
+         <MT N="document:created" V="1619805741000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="COVID-19 Return-to-Campus Primer"/>
+         <MT N="document:cp:subject" V="The COVID-19 Go-Forward Guidelines for B.C.’s Post-Secondary Sector are expected to be released in the coming weeks with implementation planned for August 1st. In the interim, the COVID-19 Return-to-Campus Primer is a planning tool intended to provide high-level guidance to support planning for the safe return of students, faculty and staff throughout the summer, and the updating of campus safety plans in anticipation of a full return to face-to-face instruction."/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619807251000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="return-to-campus-primer.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="The COVID-19 Go-Forward Guidelines for B.C.’s Post-Secondary Sector are expected to be released in the coming weeks with implementation planned for August 1st. In the interim, the COVID-19 Return-to-Campus Primer is a planning tool intended to provide high-level guidance to support planning for the safe return of students, faculty and staff throughout the summer, and the updating of campus safety plans in anticipation of a full return to face-to-face instruction."/>
+         <MT N="content_group_id" V="5161BCAE7ED24DA29D7800DB3C103E21"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="return-to-campus-primer.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-30"/>
+         <MT N="document:dc:description" V="The COVID-19 Go-Forward Guidelines for B.C.’s Post-Secondary Sector are expected to be released in the coming weeks with implementation planned for August 1st. In the interim, the COVID-19 Return-to-Campus Primer is a planning tool intended to provide high-level guidance to support planning for the safe return of students, faculty and staff throughout the summer, and the updating of campus safety plans in anticipation of a full return to face-to-face instruction."/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/education/post-secondary-education/institution-resources-administration/return-to-campus-primer.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1619805998000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:f1c4e4a1-d719-ef47-b23b-c35490b7a160"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619805998000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="629850.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_aved"/>
+         <S>in B.C.’s &lt;b&gt;Medical Services Plan&lt;/b&gt; to
+get the vaccine...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="615.09k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/group-procedure-guide.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/group-procedure-guide.pdf</UE>
+         <T>group-procedure-guide.pdf</T>
+         <RK>16.42450587386103</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619796458000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:9d89e813-79e2-478c-9c58-34c62f5195ae"/>
+         <MT N="document:created" V="1619795925000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619796458000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="group-procedure-guide.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="group-procedure-guide.pdf"/>
+         <MT N="DCTERMS.created" V="2018-01-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/group-procedure-guide.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1619795926000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:09801174072068118083DBD1E2C01DD7"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619795926000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="268354.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>&lt;b&gt;MEDICAL SERVICES PLAN&lt;/b&gt;
+
+GROUP PROCEDURE GUIDE...CONTENTS
+Elimination of &lt;b&gt;MSP&lt;/b&gt; Premiums   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1
+
+Introduction   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2
+
+&lt;b&gt;MSP&lt;/b&gt; Direct   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+
+Eligibility...29
+
+
+
+
+ELIMINATION OF &lt;b&gt;MSP&lt;/b&gt; PREMIUMS
+&lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums were eliminated...The structure of &lt;b&gt;MSP&lt;/b&gt; accounts remains the...an Application for &lt;b&gt;MSP&lt;/b&gt; Enrolment to &lt;b&gt;Health Insurance&lt;/b&gt; BC (HIBC); and...arm of the &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;), which
+provides basic</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="262.06k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/health/forms/5496fil.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/forms/5496fil.pdf</UE>
+         <T>5496fil.pdf</T>
+         <RK>15.054505383910675</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-03-12"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1552418236000"/>
+         <MT N="document:xmpMM:History:When" V="1307526327000"/>
+         <MT N="document:xmpMM:History:When" V="1307526327000"/>
+         <MT N="document:xmpMM:History:When" V="1307526354000"/>
+         <MT N="document:xmpMM:History:When" V="1307526402000"/>
+         <MT N="document:xmpMM:History:When" V="1330523846000"/>
+         <MT N="document:xmpMM:History:When" V="1330523883000"/>
+         <MT N="document:xmpMM:History:When" V="1330523907000"/>
+         <MT N="document:xmpMM:History:When" V="1330523959000"/>
+         <MT N="document:xmpMM:History:When" V="1330524449000"/>
+         <MT N="document:xmpMM:History:When" V="1330524449000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:058011740720681180839A66A9ABBAB9"/>
+         <MT N="document:created" V="Wed May 16 09:38:41 PDT 2012"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:cp:subject" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:Keywords" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:xmpMM:History:SoftwareAgent" V="Adobe InDesign 7.0"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1552418236000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="5496fil.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:meta:keyword" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="document:xmpMM:History:Action" V="saved"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="5496fil.pdf"/>
+         <MT N="DCTERMS.created" V="2019-03-12"/>
+         <MT N="document:dc:description" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/forms/5496fil.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-03-12"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1552409733000"/>
+         <MT N="document:pdf:docinfo:keywords" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:C62DDB20392068118083E79ADC5C0F9E"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1552409733000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="323429.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="document:dc:subject" V="Special Authority Request Tocilizumab for Giant Cell Arteritis"/>
+         <S>this information, call &lt;b&gt;Health Insurance&lt;/b&gt; BC from Vancouver...Address:
+	College or &lt;b&gt;MSP&lt;/b&gt; Number:
+	Phone Number...Prescriber College or &lt;b&gt;MSP&lt;/b&gt; Number:
+	Fax Number</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="315.85k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/all-employees/pay-and-benefits/benefits-for-bargaining-unit-employees/bargaining_unit_your_choices_glance_april_2019.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/all-employees/pay-and-benefits/benefits-for-bargaining-unit-employees/bargaining_unit_your_choices_glance_april_2019.pdf</UE>
+         <T>bargaining_unit_your_choices_glance_april_2019.pdf</T>
+         <RK>15.054505383910675</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2019-03-29"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1553890658000"/>
+         <MT N="document:created" V="Fri Mar 29 08:34:32 PDT 2019"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1553890658000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bargaining_unit_your_choices_glance_april_2019.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bargaining_unit_your_choices_glance_april_2019.pdf"/>
+         <MT N="DCTERMS.created" V="2019-03-29"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/all-employees/pay-and-benefits/benefits-for-bargaining-unit-employees/bargaining_unit_your_choices_glance_april_2019.pdf"/>
+         <MT N="DCTERMS.modified" V="2019-03-29"/>
+         <MT N="document:modified" V="1553873675000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1553873675000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="162526.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <S>for mailing address).
+
+
+&lt;b&gt;MEDICAL SERVICES PLAN&lt;/b&gt; COVERAGE
+
+Optional. Only...paying unnecessary taxes.
+
+&lt;b&gt;MSP&lt;/b&gt; insures medically-required...health-drug-coverage/&lt;b&gt;msp&lt;/b&gt;/bc-residents/eligibility...health-drug-coverage/&lt;b&gt;msp&lt;/b&gt;/bc-residents/eligibility</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="158.72k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="6">
+         <U>https://engage.gov.bc.ca/app/uploads/sites/121/2018/09/MSP-Task-Force-Interim-Report-Final.pdf</U>
+         <UE>https://engage.gov.bc.ca/app/uploads/sites/121/2018/09/MSP-Task-Force-Interim-Report-Final.pdf</UE>
+         <T>MSP-Task-Force-Interim-Report-Final.pdf</T>
+         <RK>27.808009944919327</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-09-27"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1538090312000"/>
+         <MT N="document:created" V="1518821351000"/>
+         <MT N="path" V="app"/>
+         <MT N="path" V="uploads"/>
+         <MT N="path" V="sites"/>
+         <MT N="path" V="121"/>
+         <MT N="path" V="2018"/>
+         <MT N="path" V="09"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="MSP Task Force Interim Report Final"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1538090312000"/>
+         <MT N="title" V="MSP-Task-Force-Interim-Report-Final.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="mes:existingmodificationdate" V="20180927041832"/>
+         <MT N="referer" V="https://engage.gov.bc.ca/govtogetherbc/impact/msp-task-force-results/"/>
+         <MT N="datasource/fqcategory" V="Web:Agencies-Commissions"/>
+         <MT N="datasource/mes:key" V="https://engage.gov.bc.ca/app/uploads/sites/121/2018/09/MSP-Task-Force-Interim-Report-Final.pdf"/>
+         <MT N="document:modified" V="1518821351000"/>
+         <MT N="datasource/categoryinstance" V="Agencies-Commissions"/>
+         <MT N="document:date" V="1518821351000"/>
+         <MT N="mes:size" V="156026.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>committed to eliminating &lt;b&gt;Medical Services Plan
+(MSP&lt;/b&gt;) premiums within four...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="152.37k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://engage.gov.bc.ca/app/uploads/sites/121/2018/07/MSP_Task_Force_Final_Report_March_2018.pdf</U>
+         <UE>https://engage.gov.bc.ca/app/uploads/sites/121/2018/07/MSP_Task_Force_Final_Report_March_2018.pdf</UE>
+         <T>MSP_Task_Force_Final_Report_March_2018.pdf</T>
+         <RK>27.553009853724188</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2018-07-11"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1531348585000"/>
+         <MT N="document:xmpMM:DerivedFrom:InstanceID" V="xmp.iid:e6f3e1f4-d942-4243-84c5-3f3bf024b63e"/>
+         <MT N="document:created" V="1524154081000"/>
+         <MT N="path" V="app"/>
+         <MT N="path" V="uploads"/>
+         <MT N="path" V="sites"/>
+         <MT N="path" V="121"/>
+         <MT N="path" V="2018"/>
+         <MT N="path" V="07"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="6028DC_MSP_TaskForce_report"/>
+         <MT N="document:cp:subject" V="6028DC_MSP_TaskForce_report"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1531348585000"/>
+         <MT N="title" V="MSP_Task_Force_Final_Report_March_2018.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="6028DC_MSP_TaskForce_report"/>
+         <MT N="mes:existingmodificationdate" V="20180711033625"/>
+         <MT N="referer" V="https://engage.gov.bc.ca/govtogetherbc/impact/msp-task-force-results/"/>
+         <MT N="datasource/fqcategory" V="Web:Agencies-Commissions"/>
+         <MT N="document:dc:description" V="6028DC_MSP_TaskForce_report"/>
+         <MT N="datasource/mes:key" V="https://engage.gov.bc.ca/app/uploads/sites/121/2018/07/MSP_Task_Force_Final_Report_March_2018.pdf"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1524154091000"/>
+         <MT N="document:xmpMM:DerivedFrom:DocumentID" V="xmp.did:034cc27c-8b4d-4c8e-9fcd-2bf3631e8302"/>
+         <MT N="datasource/categoryinstance" V="Agencies-Commissions"/>
+         <MT N="document:date" V="1524154091000"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="1311667.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="webpage"/>
+         <S>committed to eliminating &lt;b&gt;Medical Services Plan (MSP&lt;/b&gt;) premiums
+within four...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="1.25 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/health/forms/5485fil.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/forms/5485fil.pdf</UE>
+         <T>5485fil.pdf</T>
+         <RK>13.516504833878816</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-28"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619629404000"/>
+         <MT N="document:created" V="1183922872000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="document:cp:subject" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="document:Keywords" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619629404000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="5485fil.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="document:description" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="document:meta:keyword" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="5485fil.pdf"/>
+         <MT N="DCTERMS.created" V="2018-03-02"/>
+         <MT N="document:dc:description" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/forms/5485fil.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-28"/>
+         <MT N="document:trapped" V="False"/>
+         <MT N="document:modified" V="1619562942000"/>
+         <MT N="document:pdf:docinfo:keywords" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619562942000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="document:pdf:docinfo:trapped" V="False"/>
+         <MT N="mes:size" V="462321.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <MT N="document:dc:subject" V="Adalimumab for the Treatment of Active Moderate to Severe Hidradenitis Suppurativa"/>
+         <S>this information, call
+&lt;b&gt;Health Insurance&lt;/b&gt; BC from Vancouver at...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="451.49k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf</UE>
+         <T>bc-form-18k-2020-amendment-3.pdf</T>
+         <RK>13.50950483137542</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-27"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619550505000"/>
+         <MT N="document:created" V="1619431415000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619550505000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-27"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-27"/>
+         <MT N="document:modified" V="1619431415000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619431415000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="23710466"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <S>services under the
+&lt;b&gt;Medical Services Plan&lt;/b&gt;. It also provides $495...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="22.61 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/pharmacare/pharmanet_cheat_sheet_covid-19_vaccines.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/pharmacare/pharmanet_cheat_sheet_covid-19_vaccines.pdf</UE>
+         <T>pharmanet_cheat_sheet_covid-19_vaccines.pdf</T>
+         <RK>13.50100482833558</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-26"/>
+         <MT N="query_id" V="50178681912445"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619456713000"/>
+         <MT N="document:created" V="1619456505000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="PowerPoint Presentation"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619456713000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="pharmanet_cheat_sheet_covid-19_vaccines.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="A23A6FFB4CD14778B5737BD4BCBB7656"/>
+         <MT N="content_group_id" V="85A6C31BB51F4DF4932EE92D0533E250"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="pharmanet_cheat_sheet_covid-19_vaccines.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-09"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/pharmacare/pharmanet_cheat_sheet_covid-19_vaccines.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-26"/>
+         <MT N="document:modified" V="1619456506000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619456506000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="569426.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_digital_services"/>
+         <MT N="content_group" V="CMF_gov_health"/>
+         <S>BCCDC
+
+Anyone in B.C. during the pandemic can receive the COVID-19
+vaccine. They do not need to be a B.C. resident or have &lt;b&gt;MSP&lt;/b&gt;
+coverage. They do not need to be a Canadian citizen or
+permanent resident.
+
+Updated April 20, 2021
+
+mailto:Private.Careconnect@phsa.ca
+
+	Slide Number 1
+
+...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="556.08k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>

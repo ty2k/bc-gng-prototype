@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?><GSP xmlns:xs="http://www.w3.org/2001/XMLSchema" VER="3.2">
+   <TM>1.262000</TM>
+   <Q>jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx</Q>
+   <PARAM name="site" original_value="default_collection" value="default_collection"/>
+   <PARAM name="client" original_value="default_frontend" value="default_frontend"/>
+   <PARAM name="start" original_value="20" value="20"/>
+   <PARAM name="getfields" original_value="*" value="*"/>
+   <PARAM name="q" original_value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx" value="jobs filetype:pdf OR filetype:doc OR filetype:rtf OR filetype:ppt OR filetype:xls OR filetype:pptx OR filetype:pps OR filetype:ppsx OR filetype:vsd OR filetype:txt OR filetype:xlsx OR filetype:docx"/>
+   <RES EN="30" SN="21">
+      <M>40</M>
+      <FI/>
+      <NB>
+         <PU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=10</PU>
+         <NU>/search?site=default_collection&amp;client=default_frontend&amp;q=jobs+filetype%3Apdf+OR+filetype%3Adoc+OR+filetype%3Artf+OR+filetype%3Appt+OR+filetype%3Axls+OR+filetype%3Apptx+OR+filetype%3Apps+OR+filetype%3Appsx+OR+filetype%3Avsd+OR+filetype%3Atxt+OR+filetype%3Axlsx+OR+filetype%3Adocx&amp;start=30</NU>
+      </NB>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="1">
+         <U>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/operating-successful-programs/developing_industry_training_programs.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/operating-successful-programs/developing_industry_training_programs.pptx</UE>
+         <T>developing_industry_training_programs.pptx</T>
+         <RK>12.674504532756043</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-05-28"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1432854176000"/>
+         <MT N="meta:paragraph-count" V="345"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="257"/>
+         <MT N="document:ParagraphCount" V="345"/>
+         <MT N="document:cp:revision" V="16"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2015-01-06T21:00:37Z"/>
+         <MT N="document:dc:title" V="PowerPoint Presentation"/>
+         <MT N="document:TotalTime" V="257"/>
+         <MT N="meta:last-author" V="leah zielke"/>
+         <MT N="xmpTPg:NPages" V="35"/>
+         <MT N="document:ApplicationVersion" V="15.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="15.0000"/>
+         <MT N="mes:date" V="1432854176000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="16"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2014-11-21T17:48:54Z"/>
+         <MT N="dcterms:modified" V="2015-01-06T21:00:37Z"/>
+         <MT N="title" V="developing_industry_training_programs.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="345"/>
+         <MT N="extended-properties:TotalTime" V="257"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="PowerPoint Presentation"/>
+         <MT N="meta:creation-date" V="2014-11-21T17:48:54Z"/>
+         <MT N="dc:creator" V="leah zielke"/>
+         <MT N="document:meta:lastauthor" V="leah zielke"/>
+         <MT N="creator" V="leah zielke"/>
+         <MT N="content_group_id" V="75AF66C265C943EDABE83D2373664626"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2015-01-06T21:00:37Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="developing_industry_training_programs.pptx"/>
+         <MT N="DCTERMS.created" V="2015-05-28"/>
+         <MT N="document:extendedproperties:AppVersion" V="15.0000"/>
+         <MT N="Last-Save-Date" V="2015-01-06T21:00:37Z"/>
+         <MT N="document:LastAuthor" V="leah zielke"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/operating-successful-programs/developing_industry_training_programs.pptx"/>
+         <MT N="DCTERMS.modified" V="2015-05-28"/>
+         <MT N="Total-Time" V="257"/>
+         <MT N="Creation-Date" V="2014-11-21T17:48:54Z"/>
+         <MT N="Last-Author" V="leah zielke"/>
+         <MT N="document:modified" V="1420578037000"/>
+         <MT N="document:WordCount" V="2232"/>
+         <MT N="meta:author" V="leah zielke"/>
+         <MT N="document:meta:wordcount" V="2232"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1420578037000"/>
+         <MT N="extended-properties:AppVersion" V="15.0000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="381947.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="16"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_education"/>
+         <MT N="date" V="2015-01-06T21:00:37Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="2232"/>
+         <MT N="meta:save-date" V="2015-01-06T21:00:37Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="PowerPoint Presentation"/>
+         <MT N="Author" V="leah zielke"/>
+         <MT N="Revision-Number" V="16"/>
+         <MT N="Paragraph-Count" V="345"/>
+         <MT N="Word-Count" V="2232"/>
+         <S>components:
+On-the-&lt;b&gt;job&lt;/b&gt; training or work...trainees
+On-the-&lt;b&gt;job&lt;/b&gt; training is provided...combination
+On-the-&lt;b&gt;job&lt;/b&gt; training Option
+Min...skills on the &lt;b&gt;job&lt;/b&gt;
+Earn 16 credits</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="373k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.wordprocessingml.document" N="2">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/internships/indigenous_youth_intern_job_profile.docx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/internships/indigenous_youth_intern_job_profile.docx</UE>
+         <T>indigenous_youth_intern_job_profile.docx</T>
+         <RK>12.61050450986785</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-03-12"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1615593038000"/>
+         <MT N="meta:paragraph-count" V="8"/>
+         <MT N="DCSext.creator" V="BC Public Service Agency"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="11"/>
+         <MT N="document:ParagraphCount" V="8"/>
+         <MT N="document:LastPrinted" V="1259780340000"/>
+         <MT N="document:cp:revision" V="6"/>
+         <MT N="extended-properties:Template" V="Normal"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2021-03-10T21:27:00Z"/>
+         <MT N="document:dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:dc:title" V="IYIP Job Profiles"/>
+         <MT N="document:LineCount" V="29"/>
+         <MT N="DCTERMS.subject" V="Aboriginal"/>
+         <MT N="DCTERMS.subject" V="Accessibility"/>
+         <MT N="DCTERMS.subject" V="Accommodations"/>
+         <MT N="DCTERMS.subject" V="Indigenous"/>
+         <MT N="DCTERMS.subject" V="Internships"/>
+         <MT N="document:TotalTime" V="11"/>
+         <MT N="meta:last-author" V="Henderson, Elyse PSA:EX"/>
+         <MT N="document:cp:subject" V="Indigenous Youth Internship Program"/>
+         <MT N="xmpTPg:NPages" V="2"/>
+         <MT N="dc:publisher" V="Province of British Columbia"/>
+         <MT N="document:Character Count" V="3563"/>
+         <MT N="keywords" V="iyip, government internships, indigenous, first nations, diversity and inclusion"/>
+         <MT N="document:Keywords" V="iyip, job profiles, internship"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1615593038000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="6"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office Word"/>
+         <MT N="dcterms:created" V="2021-02-22T21:42:00Z"/>
+         <MT N="dcterms:modified" V="2021-03-10T21:27:00Z"/>
+         <MT N="title" V="indigenous_youth_intern_job_profile.docx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="8"/>
+         <MT N="extended-properties:TotalTime" V="11"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+         <MT N="meta:line-count" V="29"/>
+         <MT N="dc:title" V="IYIP Job Profiles"/>
+         <MT N="meta:creation-date" V="2021-02-22T21:42:00Z"/>
+         <MT N="document:meta:keyword" V="iyip, job profiles, internship"/>
+         <MT N="dc:creator" V="BC Public Service Agency"/>
+         <MT N="document:meta:lastauthor" V="Henderson, Elyse PSA:EX"/>
+         <MT N="creator" V="BC Public Service Agency"/>
+         <MT N="document:extendedproperties:Company" V="Province of British Columbia"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="Template" V="Normal"/>
+         <MT N="bcpsa_audiences" V="Job seekers and applicants"/>
+         <MT N="bcpsa_audiences" V="Hiring managers"/>
+         <MT N="bcpsa_audiences" V="Supervisors"/>
+         <MT N="modified" V="2021-03-10T21:27:00Z"/>
+         <MT N="document:PageCount" V="2"/>
+         <MT N="Last-Printed" V="2009-12-02T18:59:00Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.filename" V="indigenous_youth_intern_job_profile.docx"/>
+         <MT N="DCTERMS.created" V="2018-03-16"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="document:Template" V="Normal"/>
+         <MT N="Last-Save-Date" V="2021-03-10T21:27:00Z"/>
+         <MT N="document:meta:linecount" V="29"/>
+         <MT N="document:LastAuthor" V="Henderson, Elyse PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="dc:subject" V="iyip, job profiles, internship"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/for-job-seekers/current-bc-government-job-postings/internships/indigenous_youth_intern_job_profile.docx"/>
+         <MT N="DCTERMS.modified" V="2021-03-12"/>
+         <MT N="meta:keyword" V="iyip, job profiles, internship"/>
+         <MT N="Total-Time" V="11"/>
+         <MT N="DCTERMS.creator" V="BC Public Service Agency"/>
+         <MT N="bcpsa_subjects" V="Internships"/>
+         <MT N="bcpsa_enhancedSearch" V="myhr"/>
+         <MT N="Creation-Date" V="2021-02-22T21:42:00Z"/>
+         <MT N="Last-Author" V="Henderson, Elyse PSA:EX"/>
+         <MT N="document:custom:ContentTypeId" V="0x0101007CF547762C5DA44898DC9522B6AAB699"/>
+         <MT N="document:meta:charactercountwithspaces" V="4180"/>
+         <MT N="document:modified" V="1615411620000"/>
+         <MT N="document:CharacterCountWithSpaces" V="4180"/>
+         <MT N="document:WordCount" V="625"/>
+         <MT N="meta:print-date" V="2009-12-02T18:59:00Z"/>
+         <MT N="meta:character-count-with-spaces" V="4180"/>
+         <MT N="document:meta:charactercount" V="3563"/>
+         <MT N="meta:author" V="BC Public Service Agency"/>
+         <MT N="document:meta:wordcount" V="625"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Province of British Columbia"/>
+         <MT N="description" V="An overview of the job profile for an indigenous intern."/>
+         <MT N="meta:character-count" V="3563"/>
+         <MT N="bcpsa_workLifeEvents" V="Joining the Public Service"/>
+         <MT N="document:date" V="1615411620000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:Category" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="document:publisher" V="Province of British Columbia"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="409834.0"/>
+         <MT N="cp:subject" V="Indigenous Youth Internship Program"/>
+         <MT N="extension" V="docx"/>
+         <MT N="document:RevisionNumber" V="6"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="custom:ContentTypeId" V="0x0101007CF547762C5DA44898DC9522B6AAB699"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="document:dc:subject" V="iyip, job profiles, internship"/>
+         <MT N="date" V="2021-03-10T21:27:00Z"/>
+         <MT N="CMF_ContentType" V="Application"/>
+         <MT N="CMF_ContentType" V="Programs"/>
+         <MT N="document:ApplicationName" V="Microsoft Office Word"/>
+         <MT N="meta:page-count" V="2"/>
+         <MT N="meta:word-count" V="625"/>
+         <MT N="document:meta:pagecount" V="2"/>
+         <MT N="MBCTERMS.subjectCategory" V="Labour"/>
+         <MT N="document:extendedproperties:Template" V="Normal"/>
+         <MT N="document:meta:printdate" V="1259780340000"/>
+         <MT N="meta:save-date" V="2021-03-10T21:27:00Z"/>
+         <MT N="Application-Name" V="Microsoft Office Word"/>
+         <MT N="DCTERMS.audience" V="General Public"/>
+         <MT N="documenttitle" V="IYIP Job Profiles"/>
+         <MT N="Author" V="BC Public Service Agency"/>
+         <MT N="publisher" V="Province of British Columbia"/>
+         <MT N="Category" V="Internship &amp; Co-op Opportunities"/>
+         <MT N="subject" V="Indigenous Youth Internship Program"/>
+         <MT N="Revision-Number" V="6"/>
+         <MT N="Keywords" V="iyip, job profiles, internship"/>
+         <MT N="Page-Count" V="2"/>
+         <MT N="Paragraph-Count" V="8"/>
+         <MT N="Line-Count" V="29"/>
+         <MT N="Word-Count" V="625"/>
+         <MT N="Character Count" V="3563"/>
+         <MT N="Character-Count-With-Spaces" V="4180"/>
+         <S>&lt;b&gt;JOB&lt;/b&gt; PROFILE
+
+
+
+
+
+
+
+
+
+TITLE:  Indigenous...in BC. Through &lt;b&gt;job&lt;/b&gt; placements in Ministries...other British Columbians.
+
+&lt;b&gt;JOB&lt;/b&gt; OVERVIEW
+Indigenous youth...· Ministry specific &lt;b&gt;job&lt;/b&gt; assignments and projects</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="400.23k"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="3">
+         <U>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/corporate-giving/pecsf/2020_virtual_toolkit.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/corporate-giving/pecsf/2020_virtual_toolkit.pptx</UE>
+         <T>2020_virtual_toolkit.pptx</T>
+         <RK>12.591504503072919</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-07-30"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1596129579000"/>
+         <MT N="meta:paragraph-count" V="504"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="1392"/>
+         <MT N="document:ParagraphCount" V="504"/>
+         <MT N="document:cp:revision" V="73"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2020-07-29T21:57:19Z"/>
+         <MT N="document:dc:title" V="PowerPoint Presentation"/>
+         <MT N="document:TotalTime" V="1392"/>
+         <MT N="meta:last-author" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="xmpTPg:NPages" V="48"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1596129579000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="73"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2020-07-22T18:53:50Z"/>
+         <MT N="dcterms:modified" V="2020-07-29T21:57:19Z"/>
+         <MT N="title" V="2020_virtual_toolkit.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="504"/>
+         <MT N="extended-properties:TotalTime" V="1392"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="PowerPoint Presentation"/>
+         <MT N="meta:creation-date" V="2020-07-22T18:53:50Z"/>
+         <MT N="dc:creator" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="document:meta:lastauthor" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="creator" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="content_group_id" V="6EACC0EFAF23431F8553E28D171EFDB6"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2020-07-29T21:57:19Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="2020_virtual_toolkit.pptx"/>
+         <MT N="DCTERMS.created" V="2020-07-30"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="Last-Save-Date" V="2020-07-29T21:57:19Z"/>
+         <MT N="document:LastAuthor" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/careers/about-the-bc-public-service/corporate-giving/pecsf/2020_virtual_toolkit.pptx"/>
+         <MT N="DCTERMS.modified" V="2020-07-30"/>
+         <MT N="Total-Time" V="1392"/>
+         <MT N="Creation-Date" V="2020-07-22T18:53:50Z"/>
+         <MT N="Last-Author" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="document:modified" V="1596059839000"/>
+         <MT N="document:WordCount" V="4364"/>
+         <MT N="meta:author" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="document:meta:wordcount" V="4364"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1596059839000"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="6050813.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="73"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_psa"/>
+         <MT N="date" V="2020-07-29T21:57:19Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="4364"/>
+         <MT N="meta:save-date" V="2020-07-29T21:57:19Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="PowerPoint Presentation"/>
+         <MT N="Author" V="Smith, Lori Denise PSA:EX"/>
+         <MT N="Revision-Number" V="73"/>
+         <MT N="Paragraph-Count" V="504"/>
+         <MT N="Word-Count" V="4364"/>
+         <S>
+PECSF CAMPAIGN 2020
+
+
+“Virtual Campaign In a Box”
+
+
+
+Please use this PPT resource tool to adapt and create your unique individual organization’s PECSF 2020 virtual campaign for this year.
+We have provided general PECSF basic slides, updated images and logos to assist you and y...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="5.77 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="4">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/initiatives-plans-strategies/technology-industry/bc-knowledge-development-fund/bckdf_info_session_sept_2018_-_webinar_extract.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/initiatives-plans-strategies/technology-industry/bc-knowledge-development-fund/bckdf_info_session_sept_2018_-_webinar_extract.pptx</UE>
+         <T>bckdf_info_session_sept_2018_-_webinar_extract.pptx</T>
+         <RK>12.127504337133528</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2020-06-05"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1591378501000"/>
+         <MT N="meta:paragraph-count" V="68"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="7308"/>
+         <MT N="document:ParagraphCount" V="68"/>
+         <MT N="document:LastPrinted" V="1536683590000"/>
+         <MT N="document:cp:revision" V="866"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2020-06-05T17:32:53Z"/>
+         <MT N="document:dc:publisher" V="Toshiba"/>
+         <MT N="document:dc:title" V="Ministry of Jobs, Trade and Technology"/>
+         <MT N="document:TotalTime" V="7308"/>
+         <MT N="meta:last-author" V="Dey, Krysta JEDC:EX"/>
+         <MT N="xmpTPg:NPages" V="9"/>
+         <MT N="dc:publisher" V="Toshiba"/>
+         <MT N="document:ApplicationVersion" V="16.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="16.0000"/>
+         <MT N="mes:date" V="1591378501000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="866"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2010-05-23T14:28:12Z"/>
+         <MT N="dcterms:modified" V="2020-06-05T17:32:53Z"/>
+         <MT N="title" V="bckdf_info_session_sept_2018_-_webinar_extract.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="68"/>
+         <MT N="extended-properties:TotalTime" V="7308"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="Ministry of Jobs, Trade and Technology"/>
+         <MT N="meta:creation-date" V="2010-05-23T14:28:12Z"/>
+         <MT N="dc:creator" V="Kevin Watt"/>
+         <MT N="document:meta:lastauthor" V="Dey, Krysta JEDC:EX"/>
+         <MT N="creator" V="Kevin Watt"/>
+         <MT N="document:extendedproperties:Company" V="Toshiba"/>
+         <MT N="content_group_id" V="1EED8E1F79B148FF97F0E9F6073EFE02"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2020-06-05T17:32:53Z"/>
+         <MT N="Last-Printed" V="2018-09-11T16:33:10Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="bckdf_info_session_sept_2018_-_webinar_extract.pptx"/>
+         <MT N="DCTERMS.created" V="2020-06-05"/>
+         <MT N="document:extendedproperties:AppVersion" V="16.0000"/>
+         <MT N="Last-Save-Date" V="2020-06-05T17:32:53Z"/>
+         <MT N="document:LastAuthor" V="Dey, Krysta JEDC:EX"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/initiatives-plans-strategies/technology-industry/bc-knowledge-development-fund/bckdf_info_session_sept_2018_-_webinar_extract.pptx"/>
+         <MT N="DCTERMS.modified" V="2020-06-05"/>
+         <MT N="Total-Time" V="7308"/>
+         <MT N="Creation-Date" V="2010-05-23T14:28:12Z"/>
+         <MT N="Last-Author" V="Dey, Krysta JEDC:EX"/>
+         <MT N="document:modified" V="1591378373000"/>
+         <MT N="document:WordCount" V="360"/>
+         <MT N="meta:print-date" V="2018-09-11T16:33:10Z"/>
+         <MT N="meta:author" V="Kevin Watt"/>
+         <MT N="document:meta:wordcount" V="360"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="extended-properties:Company" V="Toshiba"/>
+         <MT N="document:date" V="1591378373000"/>
+         <MT N="extended-properties:AppVersion" V="16.0000"/>
+         <MT N="document:publisher" V="Toshiba"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="4290536.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="866"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_mtic"/>
+         <MT N="date" V="2020-06-05T17:32:53Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="360"/>
+         <MT N="document:meta:printdate" V="1536683590000"/>
+         <MT N="meta:save-date" V="2020-06-05T17:32:53Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="Ministry of Jobs, Trade and Technology"/>
+         <MT N="Author" V="Kevin Watt"/>
+         <MT N="publisher" V="Toshiba"/>
+         <MT N="Revision-Number" V="866"/>
+         <MT N="Paragraph-Count" V="68"/>
+         <MT N="Word-Count" V="360"/>
+         <S>recruitment of researchers
+&lt;b&gt;Jobs&lt;/b&gt;:
+Expected creation of...and short-term &lt;b&gt;jobs&lt;/b&gt;
+Expected number of student &lt;b&gt;jobs&lt;/b&gt;, indirect and long-term &lt;b&gt;jobs&lt;/b&gt;
+
+
+
+6
+
+BCKDF Webinar</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="4.09 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="5">
+         <U>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf</UE>
+         <T>bc-form-18k-2020-amendment-3.pdf</T>
+         <RK>12.007504294218169</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-27"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619550505000"/>
+         <MT N="document:created" V="1619431415000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619550505000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-27"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/government-finances/debt-management/bc-form-18k-2020-amendment-3.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-27"/>
+         <MT N="document:modified" V="1619431415000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619431415000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="23710466"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <S>businesses, training and &lt;b&gt;job&lt;/b&gt; creation initiatives including new &lt;b&gt;jobs&lt;/b&gt;
+to help people enter...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="22.61 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/vnd.openxmlformats-officedocument.presentationml.presentation" N="6">
+         <U>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/career-development/background/ces_change_is_constant.pptx</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/career-development/background/ces_change_is_constant.pptx</UE>
+         <T>ces_change_is_constant.pptx</T>
+         <RK>11.949504273475744</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2015-06-08"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1433802553000"/>
+         <MT N="meta:paragraph-count" V="498"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="document:XParsedBy" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="document:extendedproperties:TotalTime" V="3029"/>
+         <MT N="document:ParagraphCount" V="498"/>
+         <MT N="document:cp:revision" V="58"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="Last-Modified" V="2015-06-05T17:17:08Z"/>
+         <MT N="document:dc:title" V="PowerPoint Presentation"/>
+         <MT N="document:TotalTime" V="3029"/>
+         <MT N="meta:last-author" V="leah zielke"/>
+         <MT N="xmpTPg:NPages" V="37"/>
+         <MT N="document:ApplicationVersion" V="15.0000"/>
+         <MT N="document:ContentType" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="Application-Version" V="15.0000"/>
+         <MT N="mes:date" V="1433802553000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="cp:revision" V="58"/>
+         <MT N="document:extendedproperties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="dcterms:created" V="2014-11-21T17:48:54Z"/>
+         <MT N="dcterms:modified" V="2015-06-05T17:17:08Z"/>
+         <MT N="title" V="ces_change_is_constant.pptx"/>
+         <MT N="content" V=""/>
+         <MT N="document:meta:paragraphcount" V="498"/>
+         <MT N="extended-properties:TotalTime" V="3029"/>
+         <MT N="Content-Type" V="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+         <MT N="dc:title" V="PowerPoint Presentation"/>
+         <MT N="meta:creation-date" V="2014-11-21T17:48:54Z"/>
+         <MT N="dc:creator" V="leah zielke"/>
+         <MT N="document:meta:lastauthor" V="leah zielke"/>
+         <MT N="creator" V="leah zielke"/>
+         <MT N="content_group_id" V="75AF66C265C943EDABE83D2373664626"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="modified" V="2015-06-05T17:17:08Z"/>
+         <MT N="extended-properties:Application" V="Microsoft Office PowerPoint"/>
+         <MT N="DCTERMS.filename" V="ces_change_is_constant.pptx"/>
+         <MT N="DCTERMS.created" V="2015-06-08"/>
+         <MT N="document:extendedproperties:AppVersion" V="15.0000"/>
+         <MT N="Last-Save-Date" V="2015-06-05T17:17:08Z"/>
+         <MT N="document:LastAuthor" V="leah zielke"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.DefaultParser"/>
+         <MT N="X-Parsed-By" V="org.apache.tika.parser.microsoft.ooxml.OOXMLParser"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/education/administration/kindergarten-to-grade-12/career-and-skills/toolkit/facilitators-guide/career-development/background/ces_change_is_constant.pptx"/>
+         <MT N="DCTERMS.modified" V="2015-06-08"/>
+         <MT N="Total-Time" V="3029"/>
+         <MT N="Creation-Date" V="2014-11-21T17:48:54Z"/>
+         <MT N="Last-Author" V="leah zielke"/>
+         <MT N="document:modified" V="1433524628000"/>
+         <MT N="document:WordCount" V="4245"/>
+         <MT N="meta:author" V="leah zielke"/>
+         <MT N="document:meta:wordcount" V="4245"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1433524628000"/>
+         <MT N="extended-properties:AppVersion" V="15.0000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="5404740.0"/>
+         <MT N="extension" V="pptx"/>
+         <MT N="document:RevisionNumber" V="58"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_education"/>
+         <MT N="date" V="2015-06-05T17:17:08Z"/>
+         <MT N="document:ApplicationName" V="Microsoft Office PowerPoint"/>
+         <MT N="meta:word-count" V="4245"/>
+         <MT N="meta:save-date" V="2015-06-05T17:17:08Z"/>
+         <MT N="Application-Name" V="Microsoft Office PowerPoint"/>
+         <MT N="documenttitle" V="PowerPoint Presentation"/>
+         <MT N="Author" V="leah zielke"/>
+         <MT N="Revision-Number" V="58"/>
+         <MT N="Paragraph-Count" V="498"/>
+         <MT N="Word-Count" V="4245"/>
+         <S>graduated without a &lt;b&gt;job&lt;/b&gt; this spring (2014)
+
+The &lt;b&gt;jobs&lt;/b&gt; they get are...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="5.15 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="7">
+         <U>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/bc-timber-sales/business-plans-performance-reports/bcts-business-plan_2021-22-to-2023-24.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/bc-timber-sales/business-plans-performance-reports/bcts-business-plan_2021-22-to-2023-24.pdf</UE>
+         <T>bcts-business-plan_2021-22-to-2023-24.pdf</T>
+         <RK>11.94250427097235</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-22"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619129171000"/>
+         <MT N="document:created" V="1619126604000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619129171000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="bcts-business-plan_2021-22-to-2023-24.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="0825B09A8E5A4A9AA3AFD5941B31884B"/>
+         <MT N="content_group_id" V="FB722A0304EB4ABCA3C3F7B6FBA15272"/>
+         <MT N="content_group_id" V="B643677399D84C8C9FA0C9A2CA6D73AC"/>
+         <MT N="content_group_id" V="C23A44CF800D4E6D9217DE940961224E"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="bcts-business-plan_2021-22-to-2023-24.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-22"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/bc-timber-sales/business-plans-performance-reports/bcts-business-plan_2021-22-to-2023-24.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-22"/>
+         <MT N="document:pdf:docinfo:custom:Company" V="Province of British Columbia"/>
+         <MT N="document:modified" V="1619126618000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619126618000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="9084866.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_csnr_approvers"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_approver"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_author"/>
+         <MT N="content_group" V="CMF_gov_fnri_for_maintainer"/>
+         <S>7,500 well-paying &lt;b&gt;jobs&lt;/b&gt; and another
+
+10,000 indirect &lt;b&gt;jobs&lt;/b&gt; within B.C.
+
+
+
+
+
+
+BC...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="8.66 MB"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="8">
+         <U>https://www2.gov.bc.ca/assets/gov/law-crime-and-justice/about-bc-justice-system/legislation-policy/lsb/legislativechanges010818.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/law-crime-and-justice/about-bc-justice-system/legislation-policy/lsb/legislativechanges010818.pdf</UE>
+         <T>Table of Legislative Changes (3rd Edition) since consolidation of the 1998 Revised Statutes</T>
+         <RK>11.938004269363022</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619814809000"/>
+         <MT N="document:created" V="1619804030000"/>
+         <MT N="DCSext.creator" V="Ministry of Attorney General"/>
+         <MT N="security_classification" V="Low"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:dc:title" V="Microsoft Word - TLC (Endnotes)_2021-04-28"/>
+         <MT N="DCTERMS.subject" V="Legislation"/>
+         <MT N="DCTERMS.subject" V="Provincial legislation"/>
+         <MT N="keywords" V="Legislation, Table Legislative Changes, 3rd edition"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619814809000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="Table of Legislative Changes (3rd Edition) since consolidation of the 1998 Revised Statutes"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="903A5CEF5D1F4E0AA4B7AA6833F74A32"/>
+         <MT N="content_group_id" V="0CE07E38312E438390DCBBE545280F2C"/>
+         <MT N="content_group_id" V="473E7BF5849A4F8E92C7CF7EDE8B6E2E"/>
+         <MT N="content_group_id" V="E117E2C146E0498E9113406F245CEE8C"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="legislativechanges010818.pdf"/>
+         <MT N="DCTERMS.created" V="2018-09-07"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/law-crime-and-justice/about-bc-justice-system/legislation-policy/lsb/legislativechanges010818.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="DCTERMS.creator" V="Ministry of Attorney General"/>
+         <MT N="document:modified" V="1619814522000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="description" V="Table of Legislative Changes - January 1, 2014 - October 31, 2018"/>
+         <MT N="document:date" V="1619814522000"/>
+         <MT N="DCTERMS.language" V="eng"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="952121.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="security_label" V="Public "/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_justice_approvers"/>
+         <MT N="content_group" V="CMF_gov_justice_jsb"/>
+         <MT N="content_group" V="CMF_gov_justice_jsb_approvers"/>
+         <MT N="content_group" V="CMF_gov_justice_lsb_approvers"/>
+         <MT N="CMF_ContentType" V="Legislation"/>
+         <MT N="MBCTERMS.subjectCategory" V="Law and Legislation"/>
+         <MT N="DCTERMS.audience" V="Business Owners"/>
+         <MT N="DCTERMS.audience" V="Lawyers and Notaries"/>
+         <MT N="DCTERMS.audience" V="Provincial Government"/>
+         <S>
+TABLE OF LEGISLATIVE CHANGES  —  JANUARY 1, 2014 TO APRIL 28, 2021
+
+
+
+
+
+
+28 Apr 2021  1
+
+TABLE OF LEGISLATIVE CHANGES
+(3rd Edition)
+
+since consolidation of the 1996 Revised Statutes
+
+
+CURRENT
+
+
+
+January 1, 2014 – April 28, 2021
+[including entries from the TLC (1st and 2...</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="929.81k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="9">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-punjabi.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-punjabi.pdf</UE>
+         <T>circuit-breaker-business-relief-grant-final-punjabi.pdf</T>
+         <RK>11.937504269184208</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619805225000"/>
+         <MT N="document:created" V="1619714063000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619805225000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="circuit-breaker-business-relief-grant-final-punjabi.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="circuit-breaker-business-relief-grant-final-punjabi.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-punjabi.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="document:modified" V="1619714063000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619714063000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="182217.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>1
+
+minstrI AOP &lt;b&gt;jOb&lt;/b&gt;z, ieknOimk irkvrI AYNf...ienovySn
+
+(Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...2
+
+minstrI AOP &lt;b&gt;jOb&lt;/b&gt;z, ieknOimk irkvrI AYNf...ienovySn
+
+(Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="177.95k"/>
+         </HAS>
+      </R>
+      <R MIME="application/pdf" N="10">
+         <U>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-vietnamese.pdf</U>
+         <UE>https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-vietnamese.pdf</UE>
+         <T>circuit-breaker-business-relief-grant-final-vietnamese.pdf</T>
+         <RK>11.937504269184208</RK>
+         <ENT_SOURCE/>
+         <FS NAME="date" VALUE="2021-04-30"/>
+         <MT N="query_id" V="18016139285393"/>
+         <MT N="prev_query_id" V=""/>
+         <MT N="datasource/modificationDate" V="1619805708000"/>
+         <MT N="document:created" V="1619715005000"/>
+         <MT N="datasource/category" V="Web"/>
+         <MT N="document:ContentType" V="application/pdf"/>
+         <MT N="mes:date" V="1619805708000"/>
+         <MT N="DCTERMS.publisher" V="Province of British Columbia"/>
+         <MT N="title" V="circuit-breaker-business-relief-grant-final-vietnamese.pdf"/>
+         <MT N="content" V=""/>
+         <MT N="content_group_id" V="605F1295601F4DD5B1842581FD6F291E"/>
+         <MT N="content_group_id" V="7958EA9A19784188A8A726CD8E8A6533"/>
+         <MT N="content_group_id" V="C9ECEF9A59E244C88A7BA3FFA40CF968"/>
+         <MT N="content_group_id" V="DC9290B79E8B4CBCBB68F638088DF7C7"/>
+         <MT N="datasource/fqcategory" V="Web:mb_gov_assets_feed"/>
+         <MT N="DCTERMS.filename" V="circuit-breaker-business-relief-grant-final-vietnamese.pdf"/>
+         <MT N="DCTERMS.created" V="2021-04-15"/>
+         <MT N="datasource/mes:key" V="https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/circuit-breaker/circuit-breaker-business-relief-grant-final-vietnamese.pdf"/>
+         <MT N="DCTERMS.modified" V="2021-04-30"/>
+         <MT N="document:modified" V="1619715005000"/>
+         <MT N="datasource/categoryinstance" V="mb_gov_assets_feed"/>
+         <MT N="document:date" V="1619715005000"/>
+         <MT N="collections" V="mb_gov_assets_feed"/>
+         <MT N="mes:size" V="224401.0"/>
+         <MT N="extension" V="pdf"/>
+         <MT N="categoryclass" V="default"/>
+         <MT N="content_group" V="CMF_gov_finance_imb"/>
+         <MT N="content_group" V="CMF_gov_jtst"/>
+         <MT N="content_group" V="CMF_gov_jtst_maintainer"/>
+         <MT N="content_group" V="pvt_cmstest3"/>
+         <S>mới (Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and...mới (Ministry of &lt;b&gt;Jobs&lt;/b&gt;, Economic Recovery and</S>
+         <LANG/>
+         <HAS>
+            <L/>
+            <C CID="" ENC="" SZ="219.14k"/>
+         </HAS>
+      </R>
+   </RES>
+</GSP>
