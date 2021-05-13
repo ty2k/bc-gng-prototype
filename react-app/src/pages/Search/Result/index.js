@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import Icon from "../../../components/Icon";
@@ -130,5 +131,10 @@ function Result({ result, tab }) {
     </StyledResult>
   );
 }
+
+Result.propTypes = {
+  result: PropTypes.object.isRequired, // GSA XML <R> object: https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/results_format.html#1079005
+  tab: PropTypes.number,
+};
 
 export default Result;
