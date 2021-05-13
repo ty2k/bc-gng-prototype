@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
 import Icon from "../../../components/Icon";
@@ -38,12 +39,25 @@ const StyledResult = styled.div`
     }
   }
 
-  div.image {
+  div.thumbnail {
     background-color: #f2f2f2;
     content: "";
     display: inline-block;
     height: 150px;
     width: 20%;
+  }
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+
+    div.text {
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    div.thumbnail {
+      width: 100%;
+    }
   }
 `;
 
@@ -115,19 +129,29 @@ function Result({ result, tab }) {
 
   return (
     <StyledResult>
-      <div className="text">
-        {/* File type icon (if result is a document) */}
-        {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+      {/*
+      On mobile, thumbnails are placed on top of results.
+      Use media queries instead of flipping flex-direction for accessibility:
+      https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction#accessibility_concerns
+      */}
 
-        {/* Title (without trailing "- Province of BC" suffix) */}
-        {getResultTitle(result)}
+      <MediaQuery maxWidth={"575px"}>
+        <div className="thumbnail"></div>
+        <div className="text">
+          {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+          {getResultTitle(result)}
+          {getResultDescription(result)}
+        </div>
+      </MediaQuery>
 
-        {/* Description */}
-        {getResultDescription(result)}
-      </div>
-
-      {/* Preview image */}
-      <div className="image"></div>
+      <MediaQuery minWidth={"576px"}>
+        <div className="text">
+          {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+          {getResultTitle(result)}
+          {getResultDescription(result)}
+        </div>
+        <div className="thumbnail"></div>
+      </MediaQuery>
     </StyledResult>
   );
 }
