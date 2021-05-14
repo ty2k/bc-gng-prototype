@@ -90,6 +90,7 @@ function Search() {
   const [newQuery, setNewQuery] = useState(useQuery().get("q") || "");
 
   const [page, setPage] = useState(0);
+  const [facets, setFacets] = useState([]);
   const [isLoading, setIsLoading] = useState(
     useQuery().get("q") ? true : false
   );
@@ -183,12 +184,30 @@ function Search() {
             newPage = parseInt(page + 1, 10);
           }
 
+          // Update the facets available
+          let newFacets = [];
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES.length > 0 &&
+            res?.GSP?.RES[0]?.PARM?.length > 0 &&
+            res?.GSP?.RES[0]?.PARM[0]?.PMT?.length > 0 &&
+            res?.GSP?.RES[0]?.PARM[0]?.PMT[0]?.PV?.length > 0
+          ) {
+            res.GSP.RES[0].PARM[0].PMT[0].PV.forEach((facet) => {
+              newFacets.push({
+                name: facet?.$?.V,
+                count: facet?.$?.C,
+              });
+            });
+          }
+
           setIsLoading(false);
           setIsNoResultsFound(newResults.length > 0 ? false : true);
           setResults(newResults);
           setResultsCount(count);
           setLastResultShown(newLast);
           setPage(newPage);
+          setFacets(newFacets);
         }
       });
     });
@@ -248,7 +267,9 @@ function Search() {
       )}
 
       {/* Filter menu */}
-      {query && <FilterMenu parentCallback={submitNewQuery} tab={tab} />}
+      {query && (
+        <FilterMenu facets={facets} parentCallback={submitNewQuery} tab={tab} />
+      )}
 
       {/* List of results if applicable */}
       {resultsCount > 0 &&
