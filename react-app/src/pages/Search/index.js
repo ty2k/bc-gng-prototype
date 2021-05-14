@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-import MediaQuery from "react-responsive";
 import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
-import tabMap from "./tabMap";
-import Icon from "../../components/Icon";
+import FilterMenu from "./FilterMenu";
 import LoadSpinner from "../../components/LoadSpinner";
 import Result from "./Result";
 import SearchBar from "../../components/SearchBar";
@@ -30,75 +28,6 @@ const StyledSearchResults = styled.div`
   p.results-found {
     font-size: 16px;
     margin-top: 24px;
-  }
-
-  div.filter-menu {
-    border-bottom: 1px solid #d6d6d6;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin: 22px 0 30px 0;
-
-    button {
-      background: none;
-      border: none;
-      border-bottom: 5px solid transparent;
-      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-      font-size: 16px;
-      margin: 0 12px;
-      padding: 5px;
-
-      &.active {
-        border-bottom: 5px solid #fcba19;
-      }
-
-      &:first-child {
-        margin-left: 0;
-      }
-
-      &:last-child {
-        font-size: 18px;
-        margin-left: auto;
-        margin-right: 0;
-      }
-
-      &:focus {
-        outline: 4px solid #3b99fc;
-        text-decoration: underline;
-      }
-
-      &:hover {
-        cursor: pointer;
-        text-decoration: underline;
-      }
-
-      @media (max-width: 768px) {
-        margin: 0 7px;
-
-        /* On mobile, the More Filters button becomes a funnel icon */
-        &#more-filters {
-          border-bottom: none;
-          height: 44px;
-          width: 44px;
-
-          svg {
-            color: #313132;
-            display: inline;
-            height: 24px;
-            margin: auto;
-          }
-
-          &:hover {
-            background-color: #dedede;
-          }
-        }
-      }
-
-      @media (max-width: 576px) {
-        margin: 0 3px;
-        padding: 5px 2px;
-      }
-    }
   }
 
   div.load-more {
@@ -319,28 +248,7 @@ function Search() {
       )}
 
       {/* Filter menu */}
-      {query && (
-        <div className="filter-menu">
-          {tabMap.map((tabButton, index) => {
-            return (
-              <button
-                key={`filter-menu-button-${index}`}
-                id={`filter-button-${tabButton.id}`}
-                className={tab === tabButton.index ? "active" : null}
-                onClick={(e) => submitNewQuery(e, tabButton.index)}
-              >
-                {tabButton.label}
-              </button>
-            );
-          })}
-          <button id="more-filters" aria-label="More Filters">
-            <MediaQuery maxWidth={"768px"}>
-              <Icon id={"filter-solid.svg"} />
-            </MediaQuery>
-            <MediaQuery minWidth={"769px"}>More Filters</MediaQuery>
-          </button>
-        </div>
-      )}
+      {query && <FilterMenu parentCallback={submitNewQuery} tab={tab} />}
 
       {/* List of results if applicable */}
       {resultsCount > 0 &&
