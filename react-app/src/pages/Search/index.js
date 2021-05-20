@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-import MediaQuery from "react-responsive";
 import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
-import tabMap from "./tabMap";
-import Icon from "../../components/Icon";
+import FilterMenu from "./FilterMenu";
 import LoadSpinner from "../../components/LoadSpinner";
+import Result from "./Result";
 import SearchBar from "../../components/SearchBar";
 
 const StyledSearchResults = styled.div`
@@ -27,121 +26,8 @@ const StyledSearchResults = styled.div`
   }
 
   p.results-found {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 24px;
-  }
-
-  div.filter-menu {
-    border-bottom: 1px solid #d6d6d6;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin: 22px 0 30px 0;
-
-    button {
-      background: none;
-      border: none;
-      border-bottom: 5px solid transparent;
-      font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-      font-size: 16px;
-      margin: 0 12px;
-      padding: 5px;
-
-      &.active {
-        border-bottom: 5px solid #fcba19;
-      }
-
-      &:first-child {
-        margin-left: 0;
-      }
-
-      &:last-child {
-        font-size: 18px;
-        margin-left: auto;
-        margin-right: 0;
-      }
-
-      &:focus {
-        outline: 4px solid #3b99fc;
-        text-decoration: underline;
-      }
-
-      &:hover {
-        cursor: pointer;
-        text-decoration: underline;
-      }
-
-      @media (max-width: 768px) {
-        margin: 0 7px;
-
-        /* On mobile, the More Filters button becomes a funnel icon */
-        &#more-filters {
-          border-bottom: none;
-          height: 44px;
-          width: 44px;
-
-          svg {
-            color: #313132;
-            display: inline;
-            height: 24px;
-            margin: auto;
-          }
-
-          &:hover {
-            background-color: #dedede;
-          }
-        }
-      }
-
-      @media (max-width: 576px) {
-        margin: 0 3px;
-        padding: 5px 2px;
-      }
-    }
-  }
-
-  div.result {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    margin: 50px 0;
-
-    div.text {
-      display: inline-block;
-      overflow-x: hidden;
-      padding: 0 32px 0 0;
-      width: 80%;
-
-      svg {
-        color: #003366;
-        display: inline;
-        height: 18px;
-        margin-right: 8px;
-        width: 18px;
-      }
-
-      a.title {
-        color: #003366;
-        cursor: pointer;
-        display: inline;
-        font-size: 24px;
-        font-weight: 700;
-        text-decoration: none;
-
-        &:hover {
-          color: #1a5a96;
-          text-decoration: underline;
-        }
-      }
-    }
-
-    div.image {
-      background-color: #f2f2f2;
-      content: "";
-      display: inline-block;
-      height: 150px;
-      width: 20%;
-    }
   }
 
   div.load-more {
@@ -204,6 +90,7 @@ function Search() {
   const [newQuery, setNewQuery] = useState(useQuery().get("q") || "");
 
   const [page, setPage] = useState(0);
+  const [facets, setFacets] = useState([]);
   const [isLoading, setIsLoading] = useState(
     useQuery().get("q") ? true : false
   );
@@ -297,80 +184,33 @@ function Search() {
             newPage = parseInt(page + 1, 10);
           }
 
+          // Update the facets available
+          let newFacets = [];
+          if (
+            res?.GSP?.RES &&
+            res?.GSP?.RES.length > 0 &&
+            res?.GSP?.RES[0]?.PARM?.length > 0 &&
+            res?.GSP?.RES[0]?.PARM[0]?.PMT?.length > 0 &&
+            res?.GSP?.RES[0]?.PARM[0]?.PMT[0]?.PV?.length > 0
+          ) {
+            res.GSP.RES[0].PARM[0].PMT[0].PV.forEach((facet) => {
+              newFacets.push({
+                name: facet?.$?.V,
+                count: facet?.$?.C,
+              });
+            });
+          }
+
           setIsLoading(false);
           setIsNoResultsFound(newResults.length > 0 ? false : true);
           setResults(newResults);
           setResultsCount(count);
           setLastResultShown(newLast);
           setPage(newPage);
+          setFacets(newFacets);
         }
       });
     });
-  }
-
-  function getResultFileIcon(mimeType) {
-    if (mimeType === "application/pdf") {
-      return <Icon id={"file-pdf-solid.svg"} />;
-    } else if (
-      mimeType ===
-      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    ) {
-      return <Icon id={"file-word-solid.svg"} />;
-    }
-    return null;
-  }
-
-  function getResultTitle(result) {
-    // All (1) or Services (4) tabs
-    if (tab === 1 || tab === 4) {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T?.toString().split(" - Province of British Columbia", 1)[0]}
-        </a>
-      );
-      // News (2) tab
-    } else if (tab === 2) {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T?.toString().split(" | BC Gov News", 1)[0]}
-        </a>
-      );
-      // Documents (3) tab and default
-    } else {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T}
-        </a>
-      );
-    }
-  }
-
-  function getResultDescription(result) {
-    // Documents (3) tab
-    if (tab === 3) {
-      return (
-        <p
-          className="description"
-          dangerouslySetInnerHTML={{ __html: result?.S?.toString() }}
-        />
-      );
-
-      // All (1), Services (4), News (2) tabs and default
-    } else {
-      return (
-        <p className="description">
-          {result?.MT?.length > 0 &&
-            result?.MT?.map((metaTag) => {
-              if (metaTag?.$?.N === "description") {
-                return metaTag?.$?.V;
-              }
-              // .map() expects an explicit return value and React will
-              // throw a warning if this is not present
-              return null;
-            })}
-        </p>
-      );
-    }
   }
 
   // Run on first render and each time `query` or `tab` change
@@ -428,49 +268,14 @@ function Search() {
 
       {/* Filter menu */}
       {query && (
-        <div className="filter-menu">
-          {tabMap.map((tabButton, index) => {
-            return (
-              <button
-                key={`filter-menu-button-${index}`}
-                id={`filter-button-${tabButton.id}`}
-                className={tab === tabButton.index ? "active" : null}
-                onClick={(e) => submitNewQuery(e, tabButton.index)}
-              >
-                {tabButton.label}
-              </button>
-            );
-          })}
-          <button id="more-filters" aria-label="More Filters">
-            <MediaQuery maxWidth={"768px"}>
-              <Icon id={"filter-solid.svg"} />
-            </MediaQuery>
-            <MediaQuery minWidth={"769px"}>More Filters</MediaQuery>
-          </button>
-        </div>
+        <FilterMenu facets={facets} parentCallback={submitNewQuery} tab={tab} />
       )}
 
       {/* List of results if applicable */}
       {resultsCount > 0 &&
         results?.length > 0 &&
         results.map((result, index) => {
-          return (
-            <div className="result" key={`result-${index}`}>
-              <div className="text">
-                {/* File type icon (if result is a document) */}
-                {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
-
-                {/* Title (without trailing "- Province of BC" suffix) */}
-                {getResultTitle(result)}
-
-                {/* Description */}
-                {getResultDescription(result)}
-              </div>
-
-              {/* Preview image */}
-              <div className="image"></div>
-            </div>
-          );
+          return <Result key={`result-${index}`} result={result} tab={tab} />;
         })}
 
       {/* Load more results button */}
