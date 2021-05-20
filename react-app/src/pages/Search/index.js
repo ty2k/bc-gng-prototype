@@ -26,7 +26,7 @@ const StyledSearchResults = styled.div`
   }
 
   p.results-found {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 24px;
   }
 
