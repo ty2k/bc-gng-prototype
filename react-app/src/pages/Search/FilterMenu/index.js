@@ -108,65 +108,73 @@ const StyledFilterMenu = styled.div`
 
     div.facets-container {
       fieldset {
-        align-items: top;
         border: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 0;
+        margin: 0 0 12px 0;
+        padding: 12px 0;
         width: 100%;
+
+        legend {
+          font-size: 18px;
+          font-weight: 700;
+        }
 
         div.facet {
           align-items: top;
           display: flex;
           flex-direction: row;
-          vertical-align: top;
-          width: calc(100% / 3);
+          flex-wrap: wrap;
 
-          @media (max-width: 576px) {
-            width: 100%;
-          }
-          @media (max-width: 768px) {
-            width: 50%;
-          }
-
-          /* Checkbox box aspect */
-          input[type="checkbox"]:not(:checked):before,
-          input[type="checkbox"]:checked:before {
-            background: white;
-            border: 1px solid #606060;
-            content: "";
-            display: inline-block;
-            height: 20px;
-            width: 20px;
-          }
-
-          /* Checkbox checkmark aspect */
-          input[type="checkbox"]:checked:before {
-            color: #313132;
-            content: "";
-            background-color: #606060;
-            background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check' class='svg-inline--fa fa-check fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFFFFF' d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'%3E%3C/path%3E%3C/svg%3E%0A"); // FontAwesome check-solid in white
-            background-position-x: 1px;
-            background-position-y: 1px;
-            background-repeat: no-repeat;
-            background-size: 16px 16px;
-          }
-
-          label {
-            color: #313132;
-            cursor: pointer;
+          div.facet-category {
+            align-items: top;
             display: flex;
-            font-size: 18px;
-            padding: 8px 30px 8px 0;
+            flex-direction: row;
+            vertical-align: top;
+            width: calc(100% / 3);
 
-            span {
-              margin-left: 30px;
+            @media (max-width: 768px) {
+              width: 50%;
+            }
+            @media (max-width: 576px) {
+              width: 100%;
             }
 
-            &:focus-within {
-              outline: 4px solid #3b99fc;
+            /* Checkbox box aspect */
+            input[type="checkbox"]:not(:checked):before,
+            input[type="checkbox"]:checked:before {
+              background: white;
+              border: 1px solid #606060;
+              content: "";
+              display: inline-block;
+              height: 20px;
+              width: 20px;
+            }
+
+            /* Checkbox checkmark aspect */
+            input[type="checkbox"]:checked:before {
+              color: #313132;
+              content: "";
+              background-color: #606060;
+              background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check' class='svg-inline--fa fa-check fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFFFFF' d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'%3E%3C/path%3E%3C/svg%3E%0A"); // FontAwesome check-solid in white
+              background-position-x: 1px;
+              background-position-y: 1px;
+              background-repeat: no-repeat;
+              background-size: 16px 16px;
+            }
+
+            label {
+              color: #313132;
+              cursor: pointer;
+              display: flex;
+              font-size: 18px;
+              padding: 8px 30px 8px 0;
+
+              span {
+                margin-left: 30px;
+              }
+
+              &:focus-within {
+                outline: 4px solid #3b99fc;
+              }
             }
           }
         }
@@ -252,25 +260,37 @@ function FilterMenu({ facets, parentCallback, tab }) {
           {/* Facets checkboxes */}
           {facets?.length > 0 && (
             <div className="facets-container">
-              <fieldset>
-                {facets.map((facet, index) => {
-                  return (
-                    <div key={`facet-${index}`} className="facet">
-                      <label htmlFor={`facet-checkbox-${index}`}>
-                        <input
-                          type="checkbox"
-                          id={`facet-checkbox-${index}`}
-                          name={`facet-checkbox-${index}`}
-                          value={index}
-                        />
-                        <span>
-                          {facet?.name} ({facet?.count})
-                        </span>
-                      </label>
-                    </div>
-                  );
-                })}
-              </fieldset>
+              {facets.map((facet, index) => {
+                return (
+                  <fieldset key={`facet-${index}`}>
+                    {facet?.facet && <legend>{facet.facet}</legend>}
+                    {facet?.categories?.length > 0 && (
+                      <div className="facet">
+                        {facet.categories.map((category, cIndex) => {
+                          return (
+                            <div
+                              key={`facet-${index}-category-${cIndex}`}
+                              className="facet-category"
+                            >
+                              <label htmlFor={`facet-checkbox-${cIndex}`}>
+                                <input
+                                  type="checkbox"
+                                  id={`facet-checkbox-${cIndex}`}
+                                  name={`facet-checkbox-${cIndex}`}
+                                  value={`${index}-${cIndex}`}
+                                />
+                                <span>
+                                  {category?.name} ({category?.count})
+                                </span>
+                              </label>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </fieldset>
+                );
+              })}
             </div>
           )}
         </div>

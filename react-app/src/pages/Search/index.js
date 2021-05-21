@@ -190,13 +190,24 @@ function Search() {
             res?.GSP?.RES &&
             res?.GSP?.RES.length > 0 &&
             res?.GSP?.RES[0]?.PARM?.length > 0 &&
-            res?.GSP?.RES[0]?.PARM[0]?.PMT?.length > 0 &&
-            res?.GSP?.RES[0]?.PARM[0]?.PMT[0]?.PV?.length > 0
+            res?.GSP?.RES[0]?.PARM[0]?.PMT?.length > 0
           ) {
-            res.GSP.RES[0].PARM[0].PMT[0].PV.forEach((facet) => {
+            res.GSP.RES[0].PARM[0].PMT.forEach((facet) => {
+              const facetName = facet?.$?.DN;
+              let categories = [];
+
+              if (facet?.PV?.length > 0) {
+                facet.PV.forEach((category) => {
+                  categories.push({
+                    name: category?.$?.V,
+                    count: category?.$?.C,
+                  });
+                });
+              }
+
               newFacets.push({
-                name: facet?.$?.V,
-                count: facet?.$?.C,
+                facet: facetName,
+                categories: categories,
               });
             });
           }
