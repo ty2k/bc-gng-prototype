@@ -123,16 +123,17 @@ const StyledFilterMenu = styled.div`
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
+          gap: 10px;
 
           div.facet-category {
             align-items: top;
             display: flex;
             flex-direction: row;
             vertical-align: top;
-            width: calc(100% / 3);
+            width: calc((100% / 3) - (20px / 3)); // One third of total with gap
 
             @media (max-width: 768px) {
-              width: 50%;
+              width: calc(50% - 5px); // Half of total with gap
             }
             @media (max-width: 576px) {
               width: 100%;
@@ -166,7 +167,7 @@ const StyledFilterMenu = styled.div`
               cursor: pointer;
               display: flex;
               font-size: 18px;
-              padding: 8px 30px 8px 0;
+              padding: 8px 8px 8px 0;
 
               span {
                 margin-left: 30px;
