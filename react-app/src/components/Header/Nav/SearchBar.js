@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
-import ReactTooltip from "react-tooltip";
 import styled from "styled-components";
 
-import constructionMessage from "../../../pages/Under-Construction/message";
 import SearchButton from "./SearchButton";
 
 const SearchForm = styled.div`
@@ -45,24 +44,38 @@ const SearchForm = styled.div`
   }
 `;
 
-function SearchBar({ placeHolder }) {
+function SearchBar({ placeHolder, toggleSearchBar }) {
+  const [query, setQuery] = useState("");
   const searchInput = useRef(null);
+  let history = useHistory();
 
+  // On opening the SearchBar, focus moves to the text input field
   useEffect(() => {
     searchInput.current.focus();
   }, []);
 
+  function handleClick(event) {
+    event.preventDefault();
+
+    history.push(`/search?q=${query}`);
+
+    // Hide the SearchBar from the parent component
+    toggleSearchBar();
+  }
+
   return (
     <SearchForm>
       <form>
-        <ReactTooltip />
         <input
           type="search"
+          onChange={(event) => setQuery(event.target.value)}
           placeholder={placeHolder}
           ref={searchInput}
-          data-tip={constructionMessage}
         />
-        <SearchButton data-tip={constructionMessage} />
+        <SearchButton
+          disabled={query.length < 1}
+          onButtonClick={(event) => handleClick(event)}
+        />
       </form>
     </SearchForm>
   );
@@ -70,10 +83,10 @@ function SearchBar({ placeHolder }) {
 
 SearchBar.propTypes = {
   placeHolder: PropTypes.string,
+  toggleSearchBar: PropTypes.func.isRequired,
 };
 
 SearchBar.defaultProps = {
-  header: false,
   placeHolder: "Search gov.bc.ca",
 };
 
