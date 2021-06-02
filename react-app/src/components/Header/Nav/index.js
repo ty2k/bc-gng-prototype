@@ -163,7 +163,7 @@ function Nav({ hidden, navLinks, toggleSearch, toggleSlideOutMenu }) {
         </ul>
       </MediaQuery>
       <MediaQuery minWidth={1538}>
-        <SearchButton navButton={true} onButtonClick={toggleSearch} />
+        <SearchButton onButtonClick={toggleSearch} />
         {/* <UserPanel /> */}
         {/* <LanguagePicker /> */}
       </MediaQuery>
