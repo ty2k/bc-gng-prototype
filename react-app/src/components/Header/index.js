@@ -303,7 +303,10 @@ function Header({ alertMessages, navLinks, satellite, title }) {
         )}
       </div>
       {!navHidden && !searchHidden && (
-        <SearchBar header={true} placeholder={"Search gov.bc.ca"} />
+        <SearchBar
+          toggleSearchBar={toggleSearch}
+          placeholder={"Search gov.bc.ca"}
+        />
       )}
       {slideOutMenuHidden &&
         alertMessages?.length > 0 &&
