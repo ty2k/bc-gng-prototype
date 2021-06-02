@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from "react";
-import { NavLink } from "react-router-dom";
-import ReactTooltip from "react-tooltip";
+import React, { useEffect, useRef, useState } from "react";
+import PropTypes from "prop-types";
+import { NavLink, useHistory } from "react-router-dom";
 import styled from "styled-components";
 
-import constructionMessage from "../../../pages/Under-Construction/message";
 import Alert from "../Alert";
 
 // import { ReactComponent as PersonIcon } from "../../assets/ionic-md-person.svg";
@@ -168,11 +167,22 @@ const SearchButton = styled.button`
 
 function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
   const inputRef = useRef(null);
+  const [query, setQuery] = useState("");
+  let history = useHistory();
 
   // When SlideOutMenu opens, transfer focus to the SearchBar input
   useEffect(() => {
     inputRef.current.focus();
   }, []);
+
+  function handleSearchClick(event) {
+    event.preventDefault();
+
+    history.push(`/search?q=${query}`);
+
+    // Hide the SlideOutMenu from the parent component
+    toggleSlideOutMenu();
+  }
 
   return (
     <Cover>
@@ -180,43 +190,42 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
       <Menu tabIndex="0">
         <SearchBar>
           <form>
-            <ReactTooltip />
             <input
               type="search"
+              onChange={(event) => setQuery(event.target.value)}
               placeholder={"Search gov.bc.ca"}
               ref={inputRef}
-              data-tip={constructionMessage}
             />
-            <SearchButton
-              onClick={(e) => {
-                e.preventDefault();
-              }}
-            >
+            <SearchButton onClick={(event) => handleSearchClick(event)}>
               <SearchIcon />
             </SearchButton>
           </form>
         </SearchBar>
         <ul>
-          {navLinks.map(({ external, href, text }, index) => {
-            return (
-              <li key={`slide-out-menu-li-${index}`}>
-                {external ? (
-                  <a href={href} onClick={toggleSlideOutMenu}>
-                    {text}
-                  </a>
-                ) : (
-                  <NavLink
-                    to={href}
-                    activeClassName="slide-out-menu-li-navlink"
-                    onClick={toggleSlideOutMenu}
-                  >
-                    <div className="slide-out-menu-li-navlink-arrow-head"></div>
-                    <div className="slide-out-menu-li-navlink-text">{text}</div>
-                  </NavLink>
-                )}
-              </li>
-            );
-          })}
+          {navLinks?.length > 0 &&
+            navLinks.map(({ external, href, text }, index) => {
+              return (
+                <li key={`slide-out-menu-li-${index}`}>
+                  {external ? (
+                    <a href={href} onClick={toggleSlideOutMenu}>
+                      {text}
+                    </a>
+                  ) : (
+                    <NavLink
+                      to={href}
+                      activeClassName="slide-out-menu-li-navlink"
+                      onClick={toggleSlideOutMenu}
+                    >
+                      <div className="slide-out-menu-li-navlink-arrow-head"></div>
+                      <div className="slide-out-menu-li-navlink-text">
+                        {text}
+                      </div>
+                    </NavLink>
+                  )}
+                </li>
+              );
+            })}
+          {/* Hide the login/register/language selector temporarily */}
           {/* <li className="li--slide-out-menu-user-action">
             <PersonIcon />
             Login
@@ -246,5 +255,11 @@ function SlideOutMenu({ alertMessages, navLinks, toggleSlideOutMenu }) {
     </Cover>
   );
 }
+
+SlideOutMenu.propTypes = {
+  alertMessages: PropTypes.array,
+  navLinks: PropTypes.array,
+  toggleSlideOutMenu: PropTypes.func.isRequired,
+};
 
 export default SlideOutMenu;
