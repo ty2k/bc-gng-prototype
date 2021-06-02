@@ -4,82 +4,54 @@ import styled from "styled-components";
 
 import { ReactComponent as SearchIcon } from "../../assets/search-solid.svg";
 
-const SearchButtonStyled = styled.div`
+const SearchButtonStyled = styled.button`
   background: none;
+  border: none;
   box-sizing: border-box;
+  cursor: pointer;
   display: inline-block;
-  height: 76px;
+  height: 80px;
   width: 80px;
 
-  button.button--search {
-    background: none;
-    border: 0;
-    cursor: pointer;
-    display: inline-block;
-    height: 44px;
-    margin: 16px 20px;
-    padding: 0;
-    width: 44px;
-
-    :focus {
-      outline: 4px solid #3b99fc;
-    }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
   }
 
-  button.button--search svg {
-    color: #888888;
+  &:focus {
+    background-color: #ededed;
+    outline: 4px solid #3b99fc;
+  }
+
+  &:hover {
+    background-color: #ededed;
+  }
+
+  svg {
+    color: #313132;
+    height: 25px;
     margin: 2px;
-  }
-
-  // SearchButton in Nav menu is a special case
-  &.div--search-button-nav {
-    button.button--search {
-      background-color: #f2f2f2;
-      height: 80px;
-      margin: 0;
-      width: 80px;
-
-      :focus {
-        background-color: #dedede;
-      }
-
-      :hover {
-        background-color: #dedede;
-      }
-    }
-
-    button.button--search svg {
-      color: #313132;
-      height: 25px;
-    }
-
-    :hover {
-      background-color: #ededed;
-    }
   }
 `;
 
-function SearchButton({ navButton, onButtonClick }) {
+function SearchButton({ disabled, onButtonClick }) {
   return (
-    <SearchButtonStyled className={navButton ? "div--search-button-nav" : null}>
-      <button
-        aria-label={navButton ? "Open search menu" : "Search"}
-        className="button--search"
-        onClick={onButtonClick}
-      >
-        <SearchIcon />
-      </button>
+    <SearchButtonStyled
+      aria-label={"Search"}
+      disabled={disabled}
+      onClick={onButtonClick}
+    >
+      <SearchIcon />
     </SearchButtonStyled>
   );
 }
 
 SearchButton.propTypes = {
-  navButton: PropTypes.bool.isRequired,
+  disabled: PropTypes.bool,
   onButtonClick: PropTypes.func.isRequired,
 };
 
 SearchButton.defaultProps = {
-  navButton: false,
   onButtonClick: function (event) {
     event.preventDefault();
   },
