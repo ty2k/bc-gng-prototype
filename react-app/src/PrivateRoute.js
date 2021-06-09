@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Route, Redirect } from "react-router-dom";
+import { Route, Redirect, useLocation } from "react-router-dom";
 
 import Page from "./components/Page";
 
@@ -13,6 +13,10 @@ function PrivateRoute({
   parentTitle,
   ...rest
 }) {
+  const location = useLocation();
+  const referer = location?.pathname || "/";
+  const params = location?.search || "";
+
   return localStorage.getItem("user") ? (
     <Route {...rest}>
       {/* By defining the Helmet defaults here, we can keep the BC branding out
@@ -32,7 +36,15 @@ function PrivateRoute({
       />
     </Route>
   ) : (
-    <Redirect to={{ pathname: "/login", state: { referer: "/" } }} />
+    <Redirect
+      to={{
+        pathname: "/login",
+        state: {
+          referer: referer,
+          params: params,
+        },
+      }}
+    />
   );
 }
 
