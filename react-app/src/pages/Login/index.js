@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
 import { Helmet } from "react-helmet";
-import { Redirect } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 import styled from "styled-components";
 
 import { userService } from "../../_services/user.service";
@@ -13,16 +13,19 @@ const StyledMain = styled.main`
   padding: 0 10px;
 `;
 
-function Login(props) {
+function Login() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  const [isLoggedIn, setLoggedIn] = useState(
+    Boolean(localStorage.getItem("user"))
+  );
   const [isError, setIsError] = useState(false);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  const referer =
-    props.location && props.location.state && props.location.state.referer
-      ? props.location.state.referer
-      : "/";
+  const history = useHistory();
+
+  // history object state items are set in PrivateRoute
+  const referer = history?.location?.state?.referer || document.referrer || "/";
+  const params = history?.location?.state?.params || "";
 
   function postLogin(event) {
     event.preventDefault();
@@ -40,7 +43,7 @@ function Login(props) {
   }
 
   if (isLoggedIn) {
-    return <Redirect to={referer} />;
+    return <Redirect to={`${referer}${params}`} />;
   }
 
   return (
