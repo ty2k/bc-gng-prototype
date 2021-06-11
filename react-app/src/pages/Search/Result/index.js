@@ -2,7 +2,9 @@ import PropTypes from "prop-types";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
 
-import Icon from "../../../components/Icon";
+import getResultFileIcon from "./getResultFileIcon";
+import getResultTitle from "./getResultTitle";
+import getResultDescription from "./getResultDescription";
 
 const StyledResult = styled.div`
   display: flex;
@@ -62,71 +64,6 @@ const StyledResult = styled.div`
 `;
 
 function Result({ result, tab }) {
-  function getResultFileIcon(mimeType) {
-    if (mimeType === "application/pdf") {
-      return <Icon id={"file-pdf-solid.svg"} />;
-    } else if (
-      mimeType ===
-      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    ) {
-      return <Icon id={"file-word-solid.svg"} />;
-    }
-    return null;
-  }
-
-  function getResultTitle(result) {
-    // All (1) or Services (4) tabs
-    if (tab === 1 || tab === 4) {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T?.toString().split(" - Province of British Columbia", 1)[0]}
-        </a>
-      );
-      // News (2) tab
-    } else if (tab === 2) {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T?.toString().split(" | BC Gov News", 1)[0]}
-        </a>
-      );
-      // Documents (3) tab and default
-    } else {
-      return (
-        <a className="title" href={result?.UE}>
-          {result?.T}
-        </a>
-      );
-    }
-  }
-
-  function getResultDescription(result) {
-    // Documents (3) tab
-    if (tab === 3) {
-      return (
-        <p
-          className="description"
-          dangerouslySetInnerHTML={{ __html: result?.S?.toString() }}
-        />
-      );
-
-      // All (1), Services (4), News (2) tabs and default
-    } else {
-      return (
-        <p className="description">
-          {result?.MT?.length > 0 &&
-            result?.MT?.map((metaTag) => {
-              if (metaTag?.$?.N === "description") {
-                return metaTag?.$?.V;
-              }
-              // .map() expects an explicit return value and React will
-              // throw a warning if this is not present
-              return null;
-            })}
-        </p>
-      );
-    }
-  }
-
   return (
     <StyledResult>
       {/*
@@ -139,16 +76,16 @@ function Result({ result, tab }) {
         <div className="thumbnail"></div>
         <div className="text">
           {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
-          {getResultTitle(result)}
-          {getResultDescription(result)}
+          {getResultTitle(result, tab)}
+          {getResultDescription(result, tab)}
         </div>
       </MediaQuery>
 
       <MediaQuery minWidth={"576px"}>
         <div className="text">
           {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
-          {getResultTitle(result)}
-          {getResultDescription(result)}
+          {getResultTitle(result, tab)}
+          {getResultDescription(result, tab)}
         </div>
         <div className="thumbnail"></div>
       </MediaQuery>
