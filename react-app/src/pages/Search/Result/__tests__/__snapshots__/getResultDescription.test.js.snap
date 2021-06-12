@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getResultDescription renders a Tab 1 (All) description correctly 1`] = `
+<p
+  className="description"
+>
+  Information on both included and excluded benefits eligibility.
+</p>
+`;
+
+exports[`getResultDescription renders a Tab 2 (News) description correctly 1`] = `
+<p
+  className="description"
+>
+  As the Province eliminates Medical Service Plan (MSP) premiums for British Columbians, an updated payment method will ensure international students continue to contribute to, and benefit from, B.C.‘s health-care coverage.
+</p>
+`;
+
+exports[`getResultDescription renders a Tab 3 (Documents) description correctly 1`] = `
+<p
+  className="description"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<b>MSP</b> Service Locations Codes...1, 2021, the <b>MSP</b> Service Locations Codes...where publicly funded <b>MSP</b> services are provided...or tracked through
+<b>MSP</b>.
+
+(Q) Specialist Physician",
+    }
+  }
+/>
+`;
+
+exports[`getResultDescription renders a Tab 4 (Services) description correctly 1`] = `
+<p
+  className="description"
+>
+  Medical Services Plan for B.C. Residents
+</p>
+`;
