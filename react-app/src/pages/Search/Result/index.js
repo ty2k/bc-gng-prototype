@@ -75,7 +75,7 @@ function Result({ result, tab }) {
       <MediaQuery maxWidth={"575px"}>
         <div className="thumbnail"></div>
         <div className="text">
-          {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+          {result?.$?.MIME && getResultFileIcon(result)}
           {getResultTitle(result, tab)}
           {getResultDescription(result, tab)}
         </div>
@@ -83,7 +83,7 @@ function Result({ result, tab }) {
 
       <MediaQuery minWidth={"576px"}>
         <div className="text">
-          {result?.$?.MIME && getResultFileIcon(result?.$?.MIME)}
+          {result?.$?.MIME && getResultFileIcon(result)}
           {getResultTitle(result, tab)}
           {getResultDescription(result, tab)}
         </div>
