@@ -1,6 +1,8 @@
 import Icon from "../../../components/Icon";
 
-export default function getResultFileIcon(mimeType) {
+export default function getResultFileIcon(result) {
+  const mimeType = result?.$?.MIME;
+
   if (mimeType === "application/pdf") {
     return <Icon id={"file-pdf-solid.svg"} />;
   } else if (
