@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getResultFileIcon renders a PDF icon correctly 1`] = `
+<svg>
+  file-pdf-solid.svg
+</svg>
+`;
+
+exports[`getResultFileIcon renders a Word icon correctly 1`] = `
+<svg>
+  file-word-solid.svg
+</svg>
+`;
