@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getResultTitle renders a Tab 1 (All) title correctly 1`] = `
+<a
+  className="title"
+  href={
+    Array [
+      "https://www2.gov.bc.ca/gov/content/careers-myhr/all-employees/pay-benefits/benefits/msp",
+    ]
+  }
+>
+  Medical Services Plan (MSP)
+</a>
+`;
+
+exports[`getResultTitle renders a Tab 2 (All) title correctly 1`] = `
+<a
+  className="title"
+  href={
+    Array [
+      "https://news.gov.bc.ca/releases/2019HLTH0114-001555",
+    ]
+  }
+>
+  International students continue to contribute to B.C. health care as MSP premiums eliminated
+</a>
+`;
+
+exports[`getResultTitle renders a Tab 3 (All) title correctly 1`] = `
+<a
+  className="title"
+  href={
+    Array [
+      "https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/medical-services-plan/msp-service-locations-codes.pdf",
+    ]
+  }
+>
+  msp-service-locations-codes.pdf
+</a>
+`;
+
+exports[`getResultTitle renders a Tab 4 (All) title correctly 1`] = `
+<a
+  className="title"
+  href={
+    Array [
+      "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents",
+    ]
+  }
+>
+  Medical Services Plan (MSP) for British Columbia (B.C.) Residents
+</a>
+`;
