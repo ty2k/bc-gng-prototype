@@ -1094,4 +1094,958 @@ const mockResultTab4 = {
   ],
 };
 
-export { mockResultTab1, mockResultTab2, mockResultTab3, mockResultTab4 };
+// PDF result
+const mockResultPdf = {
+  $: {
+    MIME: "application/pdf",
+    N: "4",
+  },
+  U: [
+    "https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf",
+  ],
+  UE: [
+    "https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf",
+  ],
+  T: ["webinarpromotion_jobsplan_14june2012.pdf"],
+  RK: ["34.98351251107902"],
+  ENT_SOURCE: [""],
+  FS: [
+    {
+      $: {
+        NAME: "date",
+        VALUE: "2014-09-29",
+      },
+    },
+  ],
+  MT: [
+    {
+      $: {
+        N: "query_id",
+        V: "63979333650868",
+      },
+    },
+    {
+      $: {
+        N: "prev_query_id",
+        V: "",
+      },
+    },
+    {
+      $: {
+        N: "datasource/modificationDate",
+        V: "1412004561000",
+      },
+    },
+    {
+      $: {
+        N: "document:created",
+        V: "Thu May 24 14:52:06 PDT 2012",
+      },
+    },
+    {
+      $: {
+        N: "datasource/category",
+        V: "Web",
+      },
+    },
+    {
+      $: {
+        N: "document:dc:title",
+        V: "webinar28_3.indd",
+      },
+    },
+    {
+      $: {
+        N: "document:ContentType",
+        V: "application/pdf",
+      },
+    },
+    {
+      $: {
+        N: "mes:date",
+        V: "1412004561000",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.publisher",
+        V: "Province of British Columbia",
+      },
+    },
+    {
+      $: {
+        N: "title",
+        V: "webinarpromotion_jobsplan_14june2012.pdf",
+      },
+    },
+    {
+      $: {
+        N: "content",
+        V: "",
+      },
+    },
+    {
+      $: {
+        N: "content_group_id",
+        V: "605F1295601F4DD5B1842581FD6F291E",
+      },
+    },
+    {
+      $: {
+        N: "content_group_id",
+        V: "7958EA9A19784188A8A726CD8E8A6533",
+      },
+    },
+    {
+      $: {
+        N: "datasource/fqcategory",
+        V: "Web:mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.filename",
+        V: "webinarpromotion_jobsplan_14june2012.pdf",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.created",
+        V: "2014-09-29",
+      },
+    },
+    {
+      $: {
+        N: "datasource/mes:key",
+        V:
+          "https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/economic-development/resources/webinars/2012-06-11/webinarpromotion_jobsplan_14june2012.pdf",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.modified",
+        V: "2014-09-29",
+      },
+    },
+    {
+      $: {
+        N: "document:modified",
+        V: "1337896326000",
+      },
+    },
+    {
+      $: {
+        N: "datasource/categoryinstance",
+        V: "mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "document:date",
+        V: "1337896326000",
+      },
+    },
+    {
+      $: {
+        N: "collections",
+        V: "mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "mes:size",
+        V: "114663.0",
+      },
+    },
+    {
+      $: {
+        N: "extension",
+        V: "pdf",
+      },
+    },
+    {
+      $: {
+        N: "categoryclass",
+        V: "default",
+      },
+    },
+    {
+      $: {
+        N: "content_group",
+        V: "CMF_gov_finance_imb",
+      },
+    },
+    {
+      $: {
+        N: "content_group",
+        V: "CMF_gov_jtst",
+      },
+    },
+  ],
+  S: [
+    "Here: The BC <b>Jobs</b> Plan\nProgress &amp; Engagement...the Ministry of <b>Jobs</b>, Tourism and Innovation...Here: The BC <b>Jobs</b> Plan\nProgress &amp; Engagement...Here: The BC\n<b>Jobs</b> Plan, which will...made\nsince the <b>Jobs</b> Plan was launched...under the BC <b>Jobs</b> Plan, with presenta...the Ministry of <b>Jobs</b>,\nTourism, and Innovation...protect and\ncreate <b>jobs</b> in BC communities...• The BC <b>Jobs</b> plan citizen engagement...in the BC <b>Jobs</b> Plan website.\n\nIt",
+  ],
+  LANG: [""],
+  HAS: [
+    {
+      L: [""],
+      C: [
+        {
+          $: {
+            CID: "",
+            ENC: "",
+            SZ: "111.98k",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+// Word result
+const mockResultWord = {
+  $: {
+    MIME:
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    N: "1",
+  },
+  U: [
+    "https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx",
+  ],
+  UE: [
+    "https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx",
+  ],
+  T: [
+    "SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-excluded",
+  ],
+  RK: ["36.170012935404635"],
+  ENT_SOURCE: [""],
+  FS: [
+    {
+      $: {
+        NAME: "date",
+        VALUE: "2021-03-17",
+      },
+    },
+  ],
+  MT: [
+    {
+      $: {
+        N: "query_id",
+        V: "63979333650868",
+      },
+    },
+    {
+      $: {
+        N: "prev_query_id",
+        V: "",
+      },
+    },
+    {
+      $: {
+        N: "datasource/modificationDate",
+        V: "1615995531000",
+      },
+    },
+    {
+      $: {
+        N: "meta:paragraph-count",
+        V: "9",
+      },
+    },
+    {
+      $: {
+        N: "DCSext.creator",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "document:XParsedBy",
+        V: "org.apache.tika.parser.DefaultParser",
+      },
+    },
+    {
+      $: {
+        N: "document:XParsedBy",
+        V: "org.apache.tika.parser.microsoft.ooxml.OOXMLParser",
+      },
+    },
+    {
+      $: {
+        N: "document:extendedproperties:TotalTime",
+        V: "41",
+      },
+    },
+    {
+      $: {
+        N: "document:ParagraphCount",
+        V: "9",
+      },
+    },
+    {
+      $: {
+        N: "document:cp:revision",
+        V: "6",
+      },
+    },
+    {
+      $: {
+        N: "extended-properties:Template",
+        V: "Normal",
+      },
+    },
+    {
+      $: {
+        N: "security_classification",
+        V: "Low",
+      },
+    },
+    {
+      $: {
+        N: "datasource/category",
+        V: "Web",
+      },
+    },
+    {
+      $: {
+        N: "Last-Modified",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "document:dc:publisher",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "document:dc:title",
+        V: "LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT",
+      },
+    },
+    {
+      $: {
+        N: "document:LineCount",
+        V: "32",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.subject",
+        V: "Benefits",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.subject",
+        V: "Leave of absence",
+      },
+    },
+    {
+      $: {
+        N: "document:TotalTime",
+        V: "41",
+      },
+    },
+    {
+      $: {
+        N: "meta:last-author",
+        V: "Arkell, Angela PSA:EX",
+      },
+    },
+    {
+      $: {
+        N: "xmpTPg:NPages",
+        V: "3",
+      },
+    },
+    {
+      $: {
+        N: "dc:publisher",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "document:Character Count",
+        V: "3850",
+      },
+    },
+    {
+      $: {
+        N: "keywords",
+        V:
+          "letter, STIIP, LTD, ST02, benefits, return-to-work, short term illness, long term disability, corporate advisor, disability case specialist",
+      },
+    },
+    {
+      $: {
+        N: "document:ApplicationVersion",
+        V: "16.0000",
+      },
+    },
+    {
+      $: {
+        N: "document:ContentType",
+        V:
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      },
+    },
+    {
+      $: {
+        N: "Application-Version",
+        V: "16.0000",
+      },
+    },
+    {
+      $: {
+        N: "mes:date",
+        V: "1615995531000",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.publisher",
+        V: "Province of British Columbia",
+      },
+    },
+    {
+      $: {
+        N: "cp:revision",
+        V: "6",
+      },
+    },
+    {
+      $: {
+        N: "document:extendedproperties:Application",
+        V: "Microsoft Office Word",
+      },
+    },
+    {
+      $: {
+        N: "dcterms:created",
+        V: "2019-11-29T00:17:00Z",
+      },
+    },
+    {
+      $: {
+        N: "dcterms:modified",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "title",
+        V:
+          "SAMPLE LETTER 19: Placement into Part-time or Lower Paying Jobs-excluded",
+      },
+    },
+    {
+      $: {
+        N: "content",
+        V: "",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:paragraphcount",
+        V: "9",
+      },
+    },
+    {
+      $: {
+        N: "extended-properties:TotalTime",
+        V: "41",
+      },
+    },
+    {
+      $: {
+        N: "Content-Type",
+        V:
+          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      },
+    },
+    {
+      $: {
+        N: "meta:line-count",
+        V: "32",
+      },
+    },
+    {
+      $: {
+        N: "dc:title",
+        V: "LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT",
+      },
+    },
+    {
+      $: {
+        N: "meta:creation-date",
+        V: "2019-11-29T00:17:00Z",
+      },
+    },
+    {
+      $: {
+        N: "dc:creator",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:lastauthor",
+        V: "Arkell, Angela PSA:EX",
+      },
+    },
+    {
+      $: {
+        N: "creator",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "document:extendedproperties:Company",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "content_group_id",
+        V: "6EACC0EFAF23431F8553E28D171EFDB6",
+      },
+    },
+    {
+      $: {
+        N: "datasource/fqcategory",
+        V: "Web:mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "Template",
+        V: "Normal",
+      },
+    },
+    {
+      $: {
+        N: "modified",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "document:PageCount",
+        V: "3",
+      },
+    },
+    {
+      $: {
+        N: "extended-properties:Application",
+        V: "Microsoft Office Word",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.filename",
+        V: "ltr_19_part_time_or_lower_position_excluded.docx",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.created",
+        V: "2020-08-17",
+      },
+    },
+    {
+      $: {
+        N: "document:extendedproperties:AppVersion",
+        V: "16.0000",
+      },
+    },
+    {
+      $: {
+        N: "document:Template",
+        V: "Normal",
+      },
+    },
+    {
+      $: {
+        N: "Last-Save-Date",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:linecount",
+        V: "32",
+      },
+    },
+    {
+      $: {
+        N: "document:LastAuthor",
+        V: "Arkell, Angela PSA:EX",
+      },
+    },
+    {
+      $: {
+        N: "X-Parsed-By",
+        V: "org.apache.tika.parser.DefaultParser",
+      },
+    },
+    {
+      $: {
+        N: "X-Parsed-By",
+        V: "org.apache.tika.parser.microsoft.ooxml.OOXMLParser",
+      },
+    },
+    {
+      $: {
+        N: "datasource/mes:key",
+        V:
+          "https://www2.gov.bc.ca/assets/gov/careers/managers-supervisors/managing-leaves-absences/ltr_19_part_time_or_lower_position_excluded.docx",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.modified",
+        V: "2021-03-17",
+      },
+    },
+    {
+      $: {
+        N: "Total-Time",
+        V: "41",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.creator",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "Creation-Date",
+        V: "2019-11-29T00:17:00Z",
+      },
+    },
+    {
+      $: {
+        N: "Last-Author",
+        V: "Arkell, Angela PSA:EX",
+      },
+    },
+    {
+      $: {
+        N: "document:custom:ContentTypeId",
+        V: "0x010100181FB01EE21A7C419870835FBA4D0A13",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:charactercountwithspaces",
+        V: "4516",
+      },
+    },
+    {
+      $: {
+        N: "document:modified",
+        V: "1615935720000",
+      },
+    },
+    {
+      $: {
+        N: "document:CharacterCountWithSpaces",
+        V: "4516",
+      },
+    },
+    {
+      $: {
+        N: "document:WordCount",
+        V: "675",
+      },
+    },
+    {
+      $: {
+        N: "meta:character-count-with-spaces",
+        V: "4516",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:charactercount",
+        V: "3850",
+      },
+    },
+    {
+      $: {
+        N: "meta:author",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:wordcount",
+        V: "675",
+      },
+    },
+    {
+      $: {
+        N: "datasource/categoryinstance",
+        V: "mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "extended-properties:Company",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "description",
+        V:
+          "This letter is used when an employee is being offered a part-time or lower paying job and advises them of the subsequent  impacts to their future benefits.",
+      },
+    },
+    {
+      $: {
+        N: "meta:character-count",
+        V: "3850",
+      },
+    },
+    {
+      $: {
+        N: "document:date",
+        V: "1615935720000",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.language",
+        V: "eng",
+      },
+    },
+    {
+      $: {
+        N: "extended-properties:AppVersion",
+        V: "16.0000",
+      },
+    },
+    {
+      $: {
+        N: "document:publisher",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "collections",
+        V: "mb_gov_assets_feed",
+      },
+    },
+    {
+      $: {
+        N: "mes:size",
+        V: "23740.0",
+      },
+    },
+    {
+      $: {
+        N: "Synonyms",
+        V:
+          "return to work, disability, sample letter, sick leave, manager, supervisor",
+      },
+    },
+    {
+      $: {
+        N: "extension",
+        V: "docx",
+      },
+    },
+    {
+      $: {
+        N: "document:RevisionNumber",
+        V: "6",
+      },
+    },
+    {
+      $: {
+        N: "security_label",
+        V: "Public ",
+      },
+    },
+    {
+      $: {
+        N: "categoryclass",
+        V: "default",
+      },
+    },
+    {
+      $: {
+        N: "custom:ContentTypeId",
+        V: "0x010100181FB01EE21A7C419870835FBA4D0A13",
+      },
+    },
+    {
+      $: {
+        N: "content_group",
+        V: "CMF_gov_psa",
+      },
+    },
+    {
+      $: {
+        N: "date",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "CMF_ContentType",
+        V: "Template",
+      },
+    },
+    {
+      $: {
+        N: "document:ApplicationName",
+        V: "Microsoft Office Word",
+      },
+    },
+    {
+      $: {
+        N: "meta:page-count",
+        V: "3",
+      },
+    },
+    {
+      $: {
+        N: "meta:word-count",
+        V: "675",
+      },
+    },
+    {
+      $: {
+        N: "document:meta:pagecount",
+        V: "3",
+      },
+    },
+    {
+      $: {
+        N: "MBCTERMS.subjectCategory",
+        V: "Labour",
+      },
+    },
+    {
+      $: {
+        N: "document:extendedproperties:Template",
+        V: "Normal",
+      },
+    },
+    {
+      $: {
+        N: "meta:save-date",
+        V: "2021-03-16T23:02:00Z",
+      },
+    },
+    {
+      $: {
+        N: "Application-Name",
+        V: "Microsoft Office Word",
+      },
+    },
+    {
+      $: {
+        N: "DCTERMS.audience",
+        V: "Provincial Government",
+      },
+    },
+    {
+      $: {
+        N: "documenttitle",
+        V: "LETTER 19 (excluded) – PART-TIME OR LOWER POSITION PLACEMENT",
+      },
+    },
+    {
+      $: {
+        N: "Author",
+        V: "BC Public Service Agency",
+      },
+    },
+    {
+      $: {
+        N: "publisher",
+        V: "PSERC",
+      },
+    },
+    {
+      $: {
+        N: "Revision-Number",
+        V: "6",
+      },
+    },
+    {
+      $: {
+        N: "Page-Count",
+        V: "3",
+      },
+    },
+    {
+      $: {
+        N: "Paragraph-Count",
+        V: "9",
+      },
+    },
+    {
+      $: {
+        N: "Line-Count",
+        V: "32",
+      },
+    },
+    {
+      $: {
+        N: "Word-Count",
+        V: "675",
+      },
+    },
+    {
+      $: {
+        N: "Character Count",
+        V: "3850",
+      },
+    },
+    {
+      $: {
+        N: "Character-Count-With-Spaces",
+        V: "4516",
+      },
+    },
+  ],
+  S: [
+    "OR LOWER PAYING <b>JOB</b>\nThis letter is...or lower paying <b>job</b> and advises them...request for a <b>job</b> share&gt; &lt;part time",
+  ],
+  LANG: [""],
+  HAS: [
+    {
+      L: [""],
+      C: [
+        {
+          $: {
+            CID: "",
+            ENC: "",
+            SZ: "23.18k",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+export {
+  mockResultTab1,
+  mockResultTab2,
+  mockResultTab3,
+  mockResultTab4,
+  mockResultPdf,
+  mockResultWord,
+};
