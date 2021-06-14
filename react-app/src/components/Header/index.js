@@ -20,6 +20,7 @@ const HeaderStyled = styled.header`
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 100vw;
   z-index: 1;
 
   /* The left-collapsed header on desktop sizes at least 1271px wide */
