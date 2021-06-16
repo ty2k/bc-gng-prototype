@@ -8,7 +8,7 @@ import Dropdown from "../../../components/Dropdown";
 import Icon from "../../../components/Icon";
 
 const StyledFilterMenu = styled.div`
-    position: relative;
+  position: relative;
 
   button {
     background: none;
@@ -34,11 +34,28 @@ const StyledFilterMenu = styled.div`
       text-decoration: underline;
     }
 
+    &#filter-button-filters {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      svg {
+        color: #313132;
+        height: 32px;
+        margin: 5px 5px 0 5px;
+        width: 32px;
+      }
+
+      &.active {
+        border-color: transparent;
+      }
+    }
+
     @media (max-width: 768px) {
       margin: 0 7px;
 
       /* On mobile, the Filters button becomes a funnel icon */
-      &#filters {
+      &#filter-button-filters {
         border-bottom: 5px solid transparent;
         height: 44px;
         width: 44px;
@@ -219,7 +236,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
           );
         })}
         <button
-          id="filters"
+          id="filter-button-filters"
           aria-label="Filters"
           className={filtersShown ? "active" : null}
           onClick={() => setFiltersShown(!filtersShown)}
@@ -227,7 +244,10 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
           <MediaQuery maxWidth={"768px"}>
             <Icon id={"filter-solid.svg"} />
           </MediaQuery>
-          <MediaQuery minWidth={"769px"}>Filters</MediaQuery>
+          <MediaQuery minWidth={"769px"}>
+            {filtersShown && <Icon id={"material-close.svg"} />}
+            <span>Filters</span>
+          </MediaQuery>
         </button>
       </div>
 
