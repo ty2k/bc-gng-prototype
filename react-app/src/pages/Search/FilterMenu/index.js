@@ -8,6 +8,8 @@ import Dropdown from "../../../components/Dropdown";
 import Icon from "../../../components/Icon";
 
 const StyledFilterMenu = styled.div`
+    position: relative;
+
   button {
     background: none;
     border: none;
@@ -85,6 +87,18 @@ const StyledFilterMenu = styled.div`
 
   div.filters-menu {
     border-bottom: 1px solid #d6d6d6;
+    left: 100%;
+    margin-left: 40px;
+    max-width: 320px;
+    position: absolute;
+    top: 0;
+
+    p.filter-menu-label {
+      color: #003366;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 0;
+    }
 
     div.controls {
       align-items: flex-start;
@@ -219,6 +233,9 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
 
       {filtersShown && (
         <div className="filters-menu">
+          {/* Filter menu label text */}
+          <p className="filter-menu-label">Refine by</p>
+
           {/* Control buttons/dropdowns */}
           <div className="controls">
             <Dropdown
