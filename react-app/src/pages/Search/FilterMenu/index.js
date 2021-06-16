@@ -35,8 +35,8 @@ const StyledFilterMenu = styled.div`
     @media (max-width: 768px) {
       margin: 0 7px;
 
-      /* On mobile, the More Filters button becomes a funnel icon */
-      &#more-filters {
+      /* On mobile, the Filters button becomes a funnel icon */
+      &#filters {
         border-bottom: 5px solid transparent;
         height: 44px;
         width: 44px;
@@ -83,7 +83,7 @@ const StyledFilterMenu = styled.div`
     }
   }
 
-  div.more-filters-menu {
+  div.filters-menu {
     border-bottom: 1px solid #d6d6d6;
 
     div.controls {
@@ -184,8 +184,10 @@ const StyledFilterMenu = styled.div`
   }
 `;
 
-function FilterMenu({ facets, parentCallback, tab }) {
-  const [moreFiltersShown, setMoreFiltersShown] = useState(false);
+function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
+  const [filtersShown, setFiltersShown] = useState(
+    initialFiltersShown || false
+  );
 
   return (
     <StyledFilterMenu>
@@ -203,20 +205,20 @@ function FilterMenu({ facets, parentCallback, tab }) {
           );
         })}
         <button
-          id="more-filters"
-          aria-label="More Filters"
-          className={moreFiltersShown ? "active" : null}
-          onClick={() => setMoreFiltersShown(!moreFiltersShown)}
+          id="filters"
+          aria-label="Filters"
+          className={filtersShown ? "active" : null}
+          onClick={() => setFiltersShown(!filtersShown)}
         >
           <MediaQuery maxWidth={"768px"}>
             <Icon id={"filter-solid.svg"} />
           </MediaQuery>
-          <MediaQuery minWidth={"769px"}>More Filters</MediaQuery>
+          <MediaQuery minWidth={"769px"}>Filters</MediaQuery>
         </button>
       </div>
 
-      {moreFiltersShown && (
-        <div className="more-filters-menu">
+      {filtersShown && (
+        <div className="filters-menu">
           {/* Control buttons/dropdowns */}
           <div className="controls">
             <Dropdown
@@ -302,6 +304,7 @@ function FilterMenu({ facets, parentCallback, tab }) {
 
 FilterMenu.propTypes = {
   facets: PropTypes.array,
+  initialFiltersShown: PropTypes.bool,
   parentCallback: PropTypes.func.isRequired,
   tab: PropTypes.number.isRequired,
 };
