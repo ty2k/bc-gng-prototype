@@ -10,7 +10,7 @@ import Icon from "../../../components/Icon";
 const StyledFilterMenu = styled.div`
   position: relative;
 
-  button {
+  button.tab {
     background: none;
     border: none;
     border-bottom: 5px solid transparent;
@@ -110,12 +110,39 @@ const StyledFilterMenu = styled.div`
     position: absolute;
     top: 0;
 
-    p.filter-menu-label {
-      color: #003366;
-      font-size: 24px;
-      font-weight: 700;
-      margin-top: 0;
+    div.refinements {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+
+      p {
+        color: #003366;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      button#filter-button-reset {
+        background: none;
+        border: none;
+        color: #003366;
+        cursor: pointer;
+        font-size: 18px;
+        height: 44px;
+        margin: 0;
+        padding: 0;
+
+        :focus {
+          outline: 4px solid #3b99fc;
+        }
+
+        :hover {
+          text-decoration: underline;
+        }
+      }
     }
+
 
     div.controls {
       align-items: flex-start;
@@ -228,7 +255,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
             <button
               key={`filter-menu-button-${index}`}
               id={`filter-button-${tabButton.id}`}
-              className={tab === tabButton.index ? "active" : null}
+              className={tab === tabButton.index ? "tab active" : "tab"}
               onClick={(e) => parentCallback(e, tabButton.index)}
             >
               {tabButton.label}
@@ -238,7 +265,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
         <button
           id="filter-button-filters"
           aria-label="Filters"
-          className={filtersShown ? "active" : null}
+          className={filtersShown ? "tab active" : "tab"}
           onClick={() => setFiltersShown(!filtersShown)}
         >
           <MediaQuery maxWidth={"768px"}>
@@ -253,8 +280,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
 
       {filtersShown && (
         <div className="filters-menu">
-          {/* Filter menu label text */}
-          <p className="filter-menu-label">Refine by</p>
+          {/* Refinements control */}
+          <div className="refinements">
+            <p>Refine by</p>
+            <button id="filter-button-reset">Reset</button>
+          </div>
 
           {/* Control buttons/dropdowns */}
           <div className="controls">
