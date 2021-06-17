@@ -110,7 +110,7 @@ const StyledFilterMenu = styled.div`
     position: absolute;
     top: 0;
 
-    div.refinements {
+    div.filter-top-controls {
       display: flex;
       flex-direction: row;
       align-items: baseline;
@@ -147,7 +147,7 @@ const StyledFilterMenu = styled.div`
     div.controls {
       align-items: flex-start;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin: 0 0 12px 0;
 
       button,
@@ -160,6 +160,53 @@ const StyledFilterMenu = styled.div`
 
         &:last-child {
           margin-right: 0;
+        }
+      }
+
+      div.filter-selection-group {
+        button.head {
+          display: flex;
+          flex-direction: row;
+          width: 320px;
+
+          span.title {
+            margin-right: auto;
+          }
+
+          svg {
+            width: 20px;
+          }
+
+          :focus {
+            outline: 4px solid #3b99fc;
+          }
+        }
+        div.body {
+          fieldset {
+            border: none;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            max-width: 320px;
+            padding: 0;
+
+            :focus-within {
+              outline: 4px solid #3b99fc;
+            }
+
+            legend {
+              display: none;
+            }
+
+            input[type=radio] {
+              /* display: none;
+              opacity: 0.01; */
+            }
+
+            input[type=radio]:checked+label {
+              font-weight: 700;
+            }
+          }
         }
       }
     }
@@ -246,6 +293,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
   const [filtersShown, setFiltersShown] = useState(
     initialFiltersShown || false
   );
+  const [timeSelectOpen, setTimeSelectOpen] = useState(false);
 
   return (
     <StyledFilterMenu>
@@ -280,38 +328,119 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
 
       {filtersShown && (
         <div className="filters-menu">
-          {/* Refinements control */}
-          <div className="refinements">
+          {/* Label and reset button */}
+          <div className="filter-top-controls">
             <p>Refine by</p>
+
+            {/* TODO: Hide reset button if no filters are selected */}
             <button id="filter-button-reset">Reset</button>
           </div>
 
           {/* Control buttons/dropdowns */}
           <div className="controls">
-            <Dropdown
-              id={"search-time-range"}
-              label={"Time range"}
-              options={[
-                {
-                  label: "Anytime",
-                },
-                {
-                  label: "Today",
-                },
-                {
-                  label: "Past 7 days",
-                },
-                {
-                  label: "Past 30 days",
-                },
-                {
-                  label: "Past 90 days",
-                },
-                {
-                  label: "Custom range",
-                },
-              ]}
-            />
+
+            {/* Time period filter */}
+            <div className="filter-selection-group">
+              <button
+                className="head"
+                aria-label="Date: Anytime"
+                onClick={() => setTimeSelectOpen(!timeSelectOpen)}
+              >
+                <span className="title">Date:</span>
+                <span className="current-selection">Anytime</span>
+                {timeSelectOpen ? (
+                  <Icon id={"ionic-ios-arrow-up.svg"} />
+                ) : (
+                  <Icon id={"ionic-ios-arrow-down.svg"} />
+                )}
+              </button>
+              {timeSelectOpen && <div className="body">
+                <fieldset aria-labelledby="legend-time-select">
+                  <legend id="legend-time-select">Select a time range</legend>
+
+                  {/* Anytime */}
+                  <input
+                    type="radio"
+                    id="time-select-anytime"
+                    name="time-select"
+                    value="anytime"
+                    checked={true}
+                  />
+                  <label
+                    htmlFor="time-select-anytime"
+                  >
+                    Anytime
+                  </label>
+
+                  {/* Today */}
+                  <input
+                    type="radio"
+                    id="time-select-today"
+                    name="time-select"
+                    value="today"
+                  />
+                  <label
+                    htmlFor="time-select-today"
+                  >
+                    Today
+                  </label>
+
+                  {/* Past 7 Days */}
+                  <input
+                    type="radio"
+                    id="time-select-past-7-days"
+                    name="time-select"
+                    value="past-7-days"
+                  />
+                  <label
+                    htmlFor="time-select-past-7-days"
+                  >
+                    Past 7 days
+                  </label>
+
+                  {/* Past 30 Days */}
+                  <input
+                    type="radio"
+                    id="time-select-past-30-days"
+                    name="time-select"
+                    value="past-30-days"
+                  />
+                  <label
+                    htmlFor="time-select-past-30-days"
+                  >
+                    Past 30 days
+                  </label>
+
+                  {/* Past 90 Days */}
+                  <input
+                    type="radio"
+                    id="time-select-past-90-days"
+                    name="time-select"
+                    value="past-90-days"
+                  />
+                  <label
+                    htmlFor="time-select-past-90-days"
+                  >
+                    Past 90 days
+                  </label>
+
+                  {/* Past 90 Days */}
+                  <input
+                    type="radio"
+                    id="time-select-custom-range"
+                    name="time-select"
+                    value="custom-range"
+                  />
+                  <label
+                    htmlFor="time-select-custom-range"
+                  >
+                    Custom Range
+                  </label>
+
+                </fieldset>
+              </div>}
+            </div>
+
             <Dropdown
               id={"search-sort"}
               label={"Sort by"}
