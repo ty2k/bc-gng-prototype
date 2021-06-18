@@ -10,6 +10,10 @@ import Icon from "../../../components/Icon";
 const StyledFilterMenu = styled.div`
   position: relative;
 
+  * {
+    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+  }
+
   button.tab {
     background: none;
     border: none;
@@ -103,7 +107,6 @@ const StyledFilterMenu = styled.div`
   }
 
   div.filters-menu {
-    border-bottom: 1px solid #d6d6d6;
     left: 100%;
     margin-left: 40px;
     max-width: 320px;
@@ -143,7 +146,6 @@ const StyledFilterMenu = styled.div`
       }
     }
 
-
     div.controls {
       align-items: flex-start;
       display: flex;
@@ -164,16 +166,32 @@ const StyledFilterMenu = styled.div`
       }
 
       div.filter-selection-group {
+        border-bottom: 1px solid #d6d6d6;
+
         button.head {
+          align-items: center;
+          background: none;
+          border: none;
+          cursor: pointer;
           display: flex;
           flex-direction: row;
+          min-height: 44px;
+          padding: 0;
           width: 320px;
 
+          :hover {
+            span.current-selection {
+              text-decoration: underline;
+            }
+          }
+
           span.title {
+            font-weight: 700;
             margin-right: auto;
           }
 
           svg {
+            margin-left: 8px;
             width: 20px;
           }
 
@@ -198,13 +216,31 @@ const StyledFilterMenu = styled.div`
               display: none;
             }
 
-            input[type=radio] {
-              /* display: none;
-              opacity: 0.01; */
-            }
+            div.input-container {
+              align-items: center;
+              display: flex;
 
-            input[type=radio]:checked+label {
-              font-weight: 700;
+              input[type=radio] {
+                cursor: pointer;
+                height: 1px;
+                opacity: 0.01;
+                width: 1px;
+              }
+
+              input[type=radio] + label {
+                cursor: pointer;
+                line-height: 44px;
+                min-height: 44px;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              input[type=radio]:checked + label {
+                color: #1a5a96;
+                font-weight: 700;
+              }
             }
           }
         }
@@ -294,6 +330,24 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
     initialFiltersShown || false
   );
   const [timeSelectOpen, setTimeSelectOpen] = useState(false);
+  const [timeSelectValue, setTimeSelectValue] = useState("anytime");
+
+  function getTimeSelectLabel(key) {
+    const map = {
+      "anytime": "Anytime",
+      "today": "Today",
+      "past-7-days": "Past 7 days",
+      "past-30-days": "Past 30 days",
+      "past-90-days": "Past 90 days",
+      "custom-range": "Custom Range",
+    }
+
+    return map[key];
+  }
+
+  function resetFilters() {
+    setTimeSelectValue("anytime");
+  }
 
   return (
     <StyledFilterMenu>
@@ -333,7 +387,12 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
             <p>Refine by</p>
 
             {/* TODO: Hide reset button if no filters are selected */}
-            <button id="filter-button-reset">Reset</button>
+            <button
+              id="filter-button-reset"
+              onClick={resetFilters}
+            >
+              Reset
+            </button>
           </div>
 
           {/* Control buttons/dropdowns */}
@@ -347,7 +406,9 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                 onClick={() => setTimeSelectOpen(!timeSelectOpen)}
               >
                 <span className="title">Date:</span>
-                <span className="current-selection">Anytime</span>
+                <span className="current-selection">
+                  {getTimeSelectLabel(timeSelectValue)}
+                </span>
                 {timeSelectOpen ? (
                   <Icon id={"ionic-ios-arrow-up.svg"} />
                 ) : (
@@ -359,89 +420,112 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                   <legend id="legend-time-select">Select a time range</legend>
 
                   {/* Anytime */}
-                  <input
-                    type="radio"
-                    id="time-select-anytime"
-                    name="time-select"
-                    value="anytime"
-                    checked={true}
-                  />
-                  <label
-                    htmlFor="time-select-anytime"
-                  >
-                    Anytime
-                  </label>
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-anytime"
+                      name="time-select"
+                      value="anytime"
+                      checked={timeSelectValue === "anytime"}
+                      onChange={() => setTimeSelectValue("anytime")}
+                    />
+                    <label
+                      htmlFor="time-select-anytime"
+                    >
+                      {getTimeSelectLabel("anytime")}
+                    </label>
+                  </div>
 
                   {/* Today */}
-                  <input
-                    type="radio"
-                    id="time-select-today"
-                    name="time-select"
-                    value="today"
-                  />
-                  <label
-                    htmlFor="time-select-today"
-                  >
-                    Today
-                  </label>
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-today"
+                      name="time-select"
+                      value="today"
+                      checked={timeSelectValue === "today"}
+                      onChange={() => setTimeSelectValue("today")}
+                    />
+                    <label
+                      htmlFor="time-select-today"
+                    >
+                      {getTimeSelectLabel("today")}
+                    </label>
+                  </div>
 
                   {/* Past 7 Days */}
-                  <input
-                    type="radio"
-                    id="time-select-past-7-days"
-                    name="time-select"
-                    value="past-7-days"
-                  />
-                  <label
-                    htmlFor="time-select-past-7-days"
-                  >
-                    Past 7 days
-                  </label>
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-past-7-days"
+                      name="time-select"
+                      value="past-7-days"
+                      checked={timeSelectValue === "past-7-days"}
+                      onChange={() => setTimeSelectValue("past-7-days")}
+                    />
+                    <label
+                      htmlFor="time-select-past-7-days"
+                    >
+                      {getTimeSelectLabel("past-7-days")}
+                    </label>
+                  </div>
 
                   {/* Past 30 Days */}
-                  <input
-                    type="radio"
-                    id="time-select-past-30-days"
-                    name="time-select"
-                    value="past-30-days"
-                  />
-                  <label
-                    htmlFor="time-select-past-30-days"
-                  >
-                    Past 30 days
-                  </label>
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-past-30-days"
+                      name="time-select"
+                      value="past-30-days"
+                      checked={timeSelectValue === "past-30-days"}
+                      onChange={() => setTimeSelectValue("past-30-days")}
+                    />
+                    <label
+                      htmlFor="time-select-past-30-days"
+                    >
+                      {getTimeSelectLabel("past-30-days")}
+                    </label>
+                  </div>
 
                   {/* Past 90 Days */}
-                  <input
-                    type="radio"
-                    id="time-select-past-90-days"
-                    name="time-select"
-                    value="past-90-days"
-                  />
-                  <label
-                    htmlFor="time-select-past-90-days"
-                  >
-                    Past 90 days
-                  </label>
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-past-90-days"
+                      name="time-select"
+                      value="past-90-days"
+                      checked={timeSelectValue === "past-90-days"}
+                      onChange={() => setTimeSelectValue("past-90-days")}
+                    />
+                    <label
+                      htmlFor="time-select-past-90-days"
+                    >
+                      {getTimeSelectLabel("past-90-days")}
+                    </label>
+                  </div>
 
-                  {/* Past 90 Days */}
-                  <input
-                    type="radio"
-                    id="time-select-custom-range"
-                    name="time-select"
-                    value="custom-range"
-                  />
-                  <label
-                    htmlFor="time-select-custom-range"
-                  >
-                    Custom Range
-                  </label>
+                  {/* Custom Range */}
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="time-select-custom-range"
+                      name="time-select"
+                      value="custom-range"
+                      checked={timeSelectValue === "custom-range"}
+                      onChange={() => setTimeSelectValue("custom-range")}
+                    />
+                    <label
+                      htmlFor="time-select-custom-range"
+                    >
+                      {getTimeSelectLabel("custom-range")}
+                    </label>
+                  </div>
 
                 </fieldset>
               </div>}
             </div>
 
-            <Dropdown
+            {/* <Dropdown
               id={"search-sort"}
               label={"Sort by"}
               options={[
@@ -453,11 +537,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                 },
               ]}
             />
-            <button id="reset-filters">Reset filters</button>
+            <button id="reset-filters">Reset filters</button> */}
           </div>
 
           {/* Facets checkboxes */}
-          {facets?.length > 0 && (
+          {/* {facets?.length > 0 && (
             <div className="facets-container">
               {facets.map((facet, index) => {
                 return (
@@ -491,7 +575,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                 );
               })}
             </div>
-          )}
+          )} */}
         </div>
       )}
     </StyledFilterMenu>
