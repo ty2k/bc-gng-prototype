@@ -331,6 +331,8 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
   );
   const [timeSelectOpen, setTimeSelectOpen] = useState(false);
   const [timeSelectValue, setTimeSelectValue] = useState("anytime");
+  const [sortSelectOpen, setSortSelectOpen] = useState(false);
+  const [sortSelectValue, setSortSelectValue] = useState("best-match");
 
   function getTimeSelectLabel(key) {
     const map = {
@@ -345,8 +347,18 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
     return map[key];
   }
 
+  function getSortSelectLabel(key) {
+    const map = {
+      "best-match": "Best Match",
+      "most-recent": "Most Recent",
+    }
+
+    return map[key];
+  }
+
   function resetFilters() {
     setTimeSelectValue("anytime");
+    setSortSelectValue("best-match");
   }
 
   return (
@@ -402,7 +414,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
             <div className="filter-selection-group">
               <button
                 className="head"
-                aria-label="Date: Anytime"
+                aria-label={`Date: ${getTimeSelectLabel(timeSelectValue)}`}
                 onClick={() => setTimeSelectOpen(!timeSelectOpen)}
               >
                 <span className="title">Date:</span>
@@ -525,19 +537,64 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
               </div>}
             </div>
 
-            {/* <Dropdown
-              id={"search-sort"}
-              label={"Sort by"}
-              options={[
-                {
-                  label: "Sort by best match",
-                },
-                {
-                  label: "Sort by most recent",
-                },
-              ]}
-            />
-            <button id="reset-filters">Reset filters</button> */}
+            {/* Sort by filter */}
+            <div className="filter-selection-group">
+              <button
+                className="head"
+                aria-label={`Sort by: ${getSortSelectLabel(sortSelectValue)}`}
+                onClick={() => setSortSelectOpen(!sortSelectOpen)}
+              >
+                <span className="title">Sort by:</span>
+                <span className="current-selection">
+                  {getSortSelectLabel(sortSelectValue)}
+                </span>
+                {sortSelectOpen ? (
+                  <Icon id={"ionic-ios-arrow-up.svg"} />
+                ) : (
+                  <Icon id={"ionic-ios-arrow-down.svg"} />
+                )}
+              </button>
+              {sortSelectOpen && <div className="body">
+                <fieldset aria-labelledby="legend-sort-select">
+                  <legend id="legend-sort-select">Select how to search results</legend>
+
+                  {/* Best match */}
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="sort-select-best-match"
+                      name="sort-select"
+                      value="best-match"
+                      checked={sortSelectValue === "best-match"}
+                      onChange={() => setSortSelectValue("best-match")}
+                    />
+                    <label
+                      htmlFor="sort-select-best-match"
+                    >
+                      {getSortSelectLabel("best-match")}
+                    </label>
+                  </div>
+
+                  {/* Most recent */}
+                  <div className="input-container">
+                    <input
+                      type="radio"
+                      id="sort-select-most-recent"
+                      name="sort-select"
+                      value="most-recent"
+                      checked={sortSelectValue === "most-recent"}
+                      onChange={() => setSortSelectValue("most-recent")}
+                    />
+                    <label
+                      htmlFor="sort-select-most-recent"
+                    >
+                      {getSortSelectLabel("most-recent")}
+                    </label>
+                  </div>
+
+                </fieldset>
+              </div>}
+            </div>
           </div>
 
           {/* Facets checkboxes */}
