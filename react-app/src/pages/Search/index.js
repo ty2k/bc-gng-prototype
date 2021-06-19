@@ -268,6 +268,11 @@ function Search() {
         parentCallback={updateNewQuery}
       />
 
+      {/* Filter menu */}
+      {query && (
+        <FilterMenu facets={facets} parentCallback={submitNewQuery} tab={tab} />
+      )}
+
       {/* Count of results found */}
       {resultsCount > 0 && (
         <p className="results-found">
@@ -275,11 +280,6 @@ function Search() {
           <strong>{new Intl.NumberFormat().format(resultsCount)}</strong>{" "}
           results
         </p>
-      )}
-
-      {/* Filter menu */}
-      {query && (
-        <FilterMenu facets={facets} parentCallback={submitNewQuery} tab={tab} />
       )}
 
       {/* List of results if applicable */}
