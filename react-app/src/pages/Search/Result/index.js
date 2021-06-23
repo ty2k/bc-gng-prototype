@@ -65,6 +65,17 @@ const StyledResult = styled.div`
 `;
 
 function Result({ isDateShown, result, tab }) {
+  function getResultText() {
+    return (
+      <div className="text">
+        {result?.$?.MIME && getResultFileIcon(result)}
+        {getResultTitle(result, tab)}
+        {isDateShown && getResultDate(result)}
+        {getResultDescription(result, tab)}
+      </div>
+    );
+  }
+
   return (
     <StyledResult>
       {/*
@@ -75,21 +86,11 @@ function Result({ isDateShown, result, tab }) {
 
       <MediaQuery maxWidth={"575px"}>
         <div className="thumbnail"></div>
-        <div className="text">
-          {result?.$?.MIME && getResultFileIcon(result)}
-          {getResultTitle(result, tab)}
-          {isDateShown && getResultDate(result)}
-          {getResultDescription(result, tab)}
-        </div>
+        {getResultText()}
       </MediaQuery>
 
       <MediaQuery minWidth={"576px"}>
-        <div className="text">
-          {result?.$?.MIME && getResultFileIcon(result)}
-          {getResultTitle(result, tab)}
-          {isDateShown && getResultDate(result)}
-          {getResultDescription(result, tab)}
-        </div>
+        {getResultText()}
         <div className="thumbnail"></div>
       </MediaQuery>
     </StyledResult>
