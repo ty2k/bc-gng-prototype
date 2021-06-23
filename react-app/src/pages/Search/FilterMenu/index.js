@@ -153,6 +153,14 @@ const StyledFilterMenu = styled.div`
       flex-direction: column;
       margin: 0 0 12px 0;
 
+      div.filter-radio-group {
+        button.head:hover {
+          span.title {
+            text-decoration: underline;
+          }
+        }
+      }
+
       div.filter-selection-group {
         border-bottom: 1px solid #d6d6d6;
 
@@ -196,10 +204,6 @@ const StyledFilterMenu = styled.div`
             max-width: 320px;
             padding: 0;
 
-            :focus-within {
-              outline: 4px solid #3b99fc;
-            }
-
             &.fieldset--facet {
               &:focus-within {
                 outline: none;
@@ -235,6 +239,10 @@ const StyledFilterMenu = styled.div`
               input[type="radio"]:checked + label {
                 color: #1a5a96;
                 font-weight: 700;
+              }
+
+              &:focus-within {
+                outline: 4px solid #3b99fc;
               }
             }
 
@@ -352,8 +360,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
 
   function resetFilters() {
     setTimeSelectValue("anytime");
+    setTimeSelectOpen(false);
     setSortSelectValue("best-match");
+    setSortSelectOpen(false);
     setFacetCategoriesSelected([]);
+    setFacetsOpen([]);
   }
 
   return (
@@ -590,7 +601,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                 return (
                   <div
                     key={`filter-selection-group-facet-${index}`}
-                    className="filter-selection-group"
+                    className="filter-selection-group filter-radio-group"
                   >
                     <button
                       className="head"
