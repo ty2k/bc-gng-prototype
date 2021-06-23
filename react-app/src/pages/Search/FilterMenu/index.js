@@ -352,8 +352,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
 
   function resetFilters() {
     setTimeSelectValue("anytime");
+    setTimeSelectOpen(false);
     setSortSelectValue("best-match");
+    setSortSelectOpen(false);
     setFacetCategoriesSelected([]);
+    setFacetsOpen([]);
   }
 
   return (
