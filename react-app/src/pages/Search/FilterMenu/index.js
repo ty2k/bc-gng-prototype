@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import MediaQuery from "react-responsive";
 
-import tabMap from "../tabMap";
 import Icon from "../../../components/Icon";
+
+import tabMap from "../tabMap";
+import DateRangePicker from "./DateRangePicker";
 
 const StyledFilterMenu = styled.div`
   position: relative;
@@ -93,7 +95,7 @@ const StyledFilterMenu = styled.div`
     justify-content: left;
     margin: 22px 0 12px 0;
 
-    button {
+    button.tab {
       &:first-child {
         margin-left: 0;
       }
@@ -150,19 +152,6 @@ const StyledFilterMenu = styled.div`
       display: flex;
       flex-direction: column;
       margin: 0 0 12px 0;
-
-      button,
-      select {
-        margin: 0 12px;
-
-        &:first-child {
-          margin-left: 0;
-        }
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
 
       div.filter-selection-group {
         border-bottom: 1px solid #d6d6d6;
@@ -225,15 +214,16 @@ const StyledFilterMenu = styled.div`
               align-items: center;
               display: flex;
 
-              input[type=radio] {
+              input[type="radio"] {
                 cursor: pointer;
                 height: 1px;
                 opacity: 0.01;
                 width: 1px;
               }
 
-              input[type=radio] + label {
+              input[type="radio"] + label {
                 cursor: pointer;
+                font-size: 18px;
                 line-height: 44px;
                 min-height: 44px;
 
@@ -242,7 +232,7 @@ const StyledFilterMenu = styled.div`
                 }
               }
 
-              input[type=radio]:checked + label {
+              input[type="radio"]:checked + label {
                 color: #1a5a96;
                 font-weight: 700;
               }
@@ -306,6 +296,10 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
   );
   const [timeSelectOpen, setTimeSelectOpen] = useState(false);
   const [timeSelectValue, setTimeSelectValue] = useState("anytime");
+  const [customDateRange, setCustomDateRange] = useState([
+    new Date(),
+    new Date(),
+  ]);
   const [sortSelectOpen, setSortSelectOpen] = useState(false);
   const [sortSelectValue, setSortSelectValue] = useState("best-match");
   const [facetsOpen, setFacetsOpen] = useState([]);
@@ -400,17 +394,13 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
             <p>Refine by</p>
 
             {/* TODO: Hide reset button if no filters are selected */}
-            <button
-              id="filter-button-reset"
-              onClick={resetFilters}
-            >
+            <button id="filter-button-reset" onClick={resetFilters}>
               Reset
             </button>
           </div>
 
           {/* Control buttons/dropdowns */}
           <div className="controls">
-
             {/* Time period filter */}
             <div className="filter-selection-group">
               <button
@@ -428,114 +418,112 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                   <Icon id={"ionic-ios-arrow-down.svg"} />
                 )}
               </button>
-              {timeSelectOpen && <div className="body">
-                <fieldset aria-labelledby="legend-time-select">
-                  <legend id="legend-time-select">Select a time range</legend>
+              {timeSelectOpen && (
+                <div className="body">
+                  <fieldset aria-labelledby="legend-time-select">
+                    <legend id="legend-time-select">Select a time range</legend>
 
-                  {/* Anytime */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-anytime"
-                      name="time-select"
-                      value="anytime"
-                      checked={timeSelectValue === "anytime"}
-                      onChange={() => setTimeSelectValue("anytime")}
-                    />
-                    <label
-                      htmlFor="time-select-anytime"
-                    >
-                      {getTimeSelectLabel("anytime")}
-                    </label>
-                  </div>
+                    {/* Anytime */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-anytime"
+                        name="time-select"
+                        value="anytime"
+                        checked={timeSelectValue === "anytime"}
+                        onChange={() => setTimeSelectValue("anytime")}
+                      />
+                      <label htmlFor="time-select-anytime">
+                        {getTimeSelectLabel("anytime")}
+                      </label>
+                    </div>
 
-                  {/* Today */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-today"
-                      name="time-select"
-                      value="today"
-                      checked={timeSelectValue === "today"}
-                      onChange={() => setTimeSelectValue("today")}
-                    />
-                    <label
-                      htmlFor="time-select-today"
-                    >
-                      {getTimeSelectLabel("today")}
-                    </label>
-                  </div>
+                    {/* Today */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-today"
+                        name="time-select"
+                        value="today"
+                        checked={timeSelectValue === "today"}
+                        onChange={() => setTimeSelectValue("today")}
+                      />
+                      <label htmlFor="time-select-today">
+                        {getTimeSelectLabel("today")}
+                      </label>
+                    </div>
 
-                  {/* Past 7 Days */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-past-7-days"
-                      name="time-select"
-                      value="past-7-days"
-                      checked={timeSelectValue === "past-7-days"}
-                      onChange={() => setTimeSelectValue("past-7-days")}
-                    />
-                    <label
-                      htmlFor="time-select-past-7-days"
-                    >
-                      {getTimeSelectLabel("past-7-days")}
-                    </label>
-                  </div>
+                    {/* Past 7 Days */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-past-7-days"
+                        name="time-select"
+                        value="past-7-days"
+                        checked={timeSelectValue === "past-7-days"}
+                        onChange={() => setTimeSelectValue("past-7-days")}
+                      />
+                      <label htmlFor="time-select-past-7-days">
+                        {getTimeSelectLabel("past-7-days")}
+                      </label>
+                    </div>
 
-                  {/* Past 30 Days */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-past-30-days"
-                      name="time-select"
-                      value="past-30-days"
-                      checked={timeSelectValue === "past-30-days"}
-                      onChange={() => setTimeSelectValue("past-30-days")}
-                    />
-                    <label
-                      htmlFor="time-select-past-30-days"
-                    >
-                      {getTimeSelectLabel("past-30-days")}
-                    </label>
-                  </div>
+                    {/* Past 30 Days */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-past-30-days"
+                        name="time-select"
+                        value="past-30-days"
+                        checked={timeSelectValue === "past-30-days"}
+                        onChange={() => setTimeSelectValue("past-30-days")}
+                      />
+                      <label htmlFor="time-select-past-30-days">
+                        {getTimeSelectLabel("past-30-days")}
+                      </label>
+                    </div>
 
-                  {/* Past 90 Days */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-past-90-days"
-                      name="time-select"
-                      value="past-90-days"
-                      checked={timeSelectValue === "past-90-days"}
-                      onChange={() => setTimeSelectValue("past-90-days")}
-                    />
-                    <label
-                      htmlFor="time-select-past-90-days"
-                    >
-                      {getTimeSelectLabel("past-90-days")}
-                    </label>
-                  </div>
+                    {/* Past 90 Days */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-past-90-days"
+                        name="time-select"
+                        value="past-90-days"
+                        checked={timeSelectValue === "past-90-days"}
+                        onChange={() => setTimeSelectValue("past-90-days")}
+                      />
+                      <label htmlFor="time-select-past-90-days">
+                        {getTimeSelectLabel("past-90-days")}
+                      </label>
+                    </div>
 
-                  {/* Custom Range */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="time-select-custom-range"
-                      name="time-select"
-                      value="custom-range"
-                      checked={timeSelectValue === "custom-range"}
-                      onChange={() => setTimeSelectValue("custom-range")}
-                    />
-                    <label
-                      htmlFor="time-select-custom-range"
-                    >
-                      {getTimeSelectLabel("custom-range")}
-                    </label>
-                  </div>
-
-                </fieldset>
-              </div>}
+                    {/* Custom Range */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="time-select-custom-range"
+                        name="time-select"
+                        value="custom-range"
+                        checked={timeSelectValue === "custom-range"}
+                        onChange={() => setTimeSelectValue("custom-range")}
+                      />
+                      <label htmlFor="time-select-custom-range">
+                        {getTimeSelectLabel("custom-range")}
+                      </label>
+                    </div>
+                    {timeSelectOpen && timeSelectValue === "custom-range" && (
+                      <DateRangePicker
+                        id={"time-select"}
+                        initialStartDate={new Date()}
+                        initialEndDate={new Date()}
+                        label={"Filter by date range"}
+                        reportDates={setCustomDateRange}
+                      />
+                    )}
+                  </fieldset>
+                </div>
+              )}
             </div>
 
             {/* Sort by filter */}
@@ -555,46 +543,45 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                   <Icon id={"ionic-ios-arrow-down.svg"} />
                 )}
               </button>
-              {sortSelectOpen && <div className="body">
-                <fieldset aria-labelledby="legend-sort-select">
-                  <legend id="legend-sort-select">Select how to search results</legend>
+              {sortSelectOpen && (
+                <div className="body">
+                  <fieldset aria-labelledby="legend-sort-select">
+                    <legend id="legend-sort-select">
+                      Select how to search results
+                    </legend>
 
-                  {/* Best match */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="sort-select-best-match"
-                      name="sort-select"
-                      value="best-match"
-                      checked={sortSelectValue === "best-match"}
-                      onChange={() => setSortSelectValue("best-match")}
-                    />
-                    <label
-                      htmlFor="sort-select-best-match"
-                    >
-                      {getSortSelectLabel("best-match")}
-                    </label>
-                  </div>
+                    {/* Best match */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="sort-select-best-match"
+                        name="sort-select"
+                        value="best-match"
+                        checked={sortSelectValue === "best-match"}
+                        onChange={() => setSortSelectValue("best-match")}
+                      />
+                      <label htmlFor="sort-select-best-match">
+                        {getSortSelectLabel("best-match")}
+                      </label>
+                    </div>
 
-                  {/* Most recent */}
-                  <div className="input-container">
-                    <input
-                      type="radio"
-                      id="sort-select-most-recent"
-                      name="sort-select"
-                      value="most-recent"
-                      checked={sortSelectValue === "most-recent"}
-                      onChange={() => setSortSelectValue("most-recent")}
-                    />
-                    <label
-                      htmlFor="sort-select-most-recent"
-                    >
-                      {getSortSelectLabel("most-recent")}
-                    </label>
-                  </div>
-
-                </fieldset>
-              </div>}
+                    {/* Most recent */}
+                    <div className="input-container">
+                      <input
+                        type="radio"
+                        id="sort-select-most-recent"
+                        name="sort-select"
+                        value="most-recent"
+                        checked={sortSelectValue === "most-recent"}
+                        onChange={() => setSortSelectValue("most-recent")}
+                      />
+                      <label htmlFor="sort-select-most-recent">
+                        {getSortSelectLabel("most-recent")}
+                      </label>
+                    </div>
+                  </fieldset>
+                </div>
+              )}
             </div>
 
             {/* Facet group filters */}
@@ -617,43 +604,52 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                         <Icon id={"ionic-ios-arrow-down.svg"} />
                       )}
                     </button>
-                    {facetsOpen.includes(index) && <div className="body">
-                      <fieldset className="fieldset--facet">
-                        {facet?.facet && <legend>{facet.facet}</legend>}
-                        {facet?.categories?.length > 0 && (
-                          <div className="facet">
-                            {facet.categories.map((category, cIndex) => {
-                              return (
-                                <div
-                                  key={`facet-${index}-category-${cIndex}`}
-                                  className="facet-category"
-                                >
-                                  <label htmlFor={`facet-checkbox-${index}-${cIndex}`}>
-                                    <input
-                                      type="checkbox"
-                                      id={`facet-checkbox-${index}-${cIndex}`}
-                                      name={`facet-checkbox-${index}-${cIndex}`}
-                                      value={`${index}-${cIndex}`}
-                                      checked={facetCategoriesSelected.includes(`${index}-${cIndex}`)}
-                                      onChange={(e) => {
-                                        handleFacetCategorySelection(index, cIndex, e);
-                                      }}
-                                    />
-                                    <span>
-                                      {category?.name} ({category?.count})
-                                    </span>
-                                  </label>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        )}
-                      </fieldset>
-                    </div>}
+                    {facetsOpen.includes(index) && (
+                      <div className="body">
+                        <fieldset className="fieldset--facet">
+                          {facet?.facet && <legend>{facet.facet}</legend>}
+                          {facet?.categories?.length > 0 && (
+                            <div className="facet">
+                              {facet.categories.map((category, cIndex) => {
+                                return (
+                                  <div
+                                    key={`facet-${index}-category-${cIndex}`}
+                                    className="facet-category"
+                                  >
+                                    <label
+                                      htmlFor={`facet-checkbox-${index}-${cIndex}`}
+                                    >
+                                      <input
+                                        type="checkbox"
+                                        id={`facet-checkbox-${index}-${cIndex}`}
+                                        name={`facet-checkbox-${index}-${cIndex}`}
+                                        value={`${index}-${cIndex}`}
+                                        checked={facetCategoriesSelected.includes(
+                                          `${index}-${cIndex}`
+                                        )}
+                                        onChange={(e) => {
+                                          handleFacetCategorySelection(
+                                            index,
+                                            cIndex,
+                                            e
+                                          );
+                                        }}
+                                      />
+                                      <span>
+                                        {category?.name} ({category?.count})
+                                      </span>
+                                    </label>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </fieldset>
+                      </div>
+                    )}
                   </div>
                 );
-              })
-            }
+              })}
           </div>
         </div>
       )}
