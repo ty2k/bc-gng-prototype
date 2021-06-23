@@ -20,6 +20,10 @@ const StyledDateRangePicker = styled.div`
 
     input {
       font-size: 18px;
+
+      &:focus {
+        outline: 4px solid #3b99fc;
+      }
     }
 
     div.react-datepicker-wrapper {
