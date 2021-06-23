@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import getResultFileIcon from "./getResultFileIcon";
 import getResultTitle from "./getResultTitle";
+import getResultDate from "./getResultDate";
 import getResultDescription from "./getResultDescription";
 
 const StyledResult = styled.div`
@@ -63,7 +64,7 @@ const StyledResult = styled.div`
   }
 `;
 
-function Result({ result, tab }) {
+function Result({ isDateShown, result, tab }) {
   return (
     <StyledResult>
       {/*
@@ -77,6 +78,7 @@ function Result({ result, tab }) {
         <div className="text">
           {result?.$?.MIME && getResultFileIcon(result)}
           {getResultTitle(result, tab)}
+          {isDateShown && getResultDate(result)}
           {getResultDescription(result, tab)}
         </div>
       </MediaQuery>
@@ -85,6 +87,7 @@ function Result({ result, tab }) {
         <div className="text">
           {result?.$?.MIME && getResultFileIcon(result)}
           {getResultTitle(result, tab)}
+          {isDateShown && getResultDate(result)}
           {getResultDescription(result, tab)}
         </div>
         <div className="thumbnail"></div>
@@ -94,8 +97,14 @@ function Result({ result, tab }) {
 }
 
 Result.propTypes = {
+  isDateShown: PropTypes.bool,
   result: PropTypes.object.isRequired, // GSA XML <R> object: https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/results_format.html#1079005
   tab: PropTypes.number,
 };
+
+Result.defaultProps = {
+  isDateShown: false,
+  tab: 1,
+}
 
 export default Result;
