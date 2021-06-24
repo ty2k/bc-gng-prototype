@@ -294,11 +294,33 @@ const StyledFilterMenu = styled.div`
           }
         }
       }
+
+      button.show-results {
+        background-color: #003366;
+        border: none;
+        bottom: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+        height: 60px;
+        position: sticky;
+        right: 0;
+        width: 100%;
+
+        &:focus {
+          outline: 4px solid #3b99fc;
+        }
+
+        &:hover {
+          background-color: #395d85;
+        }
+      }
     }
   }
 `;
 
-function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
+function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount, tab }) {
   const [filtersShown, setFiltersShown] = useState(
     initialFiltersShown || false
   );
@@ -661,6 +683,16 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, tab }) {
                   </div>
                 );
               })}
+            {/* When menu is in "slide out" mode, show the results count button
+            which hides the filters when pressed */}
+            <MediaQuery maxWidth={1537}>
+              <button
+                className="show-results"
+                onClick={() => {setFiltersShown(false)}}
+              >
+                View {resultsCount} results
+              </button>
+            </MediaQuery>
           </div>
         </div>
       )}
@@ -672,7 +704,13 @@ FilterMenu.propTypes = {
   facets: PropTypes.array,
   initialFiltersShown: PropTypes.bool,
   parentCallback: PropTypes.func.isRequired,
+  resultsCount: PropTypes.number.isRequired,
   tab: PropTypes.number.isRequired,
 };
+
+FilterMenu.defaultProps = {
+  facets: [],
+  initialFiltersShown: false,
+}
 
 export default FilterMenu;
