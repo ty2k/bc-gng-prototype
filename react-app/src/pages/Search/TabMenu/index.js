@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import MediaQuery from "react-responsive";
@@ -6,7 +5,6 @@ import MediaQuery from "react-responsive";
 import Icon from "../../../components/Icon";
 
 import tabMap from "../tabMap";
-import FilterMenu from "../FilterMenu";
 
 const StyledTabMenu = styled.div`
   position: relative;
@@ -113,11 +111,7 @@ const StyledTabMenu = styled.div`
   }
 `;
 
-function TabMenu({ facets, initialFiltersShown, parentCallback, resultsCount, tab }) {
-  const [filtersShown, setFiltersShown] = useState(
-    initialFiltersShown || false
-  );
-
+function TabMenu({ isFilterMenuShown, setIsFilterMenuShown, tab, setTab }) {
   return (
     <StyledTabMenu>
       <div className="tabs-menu">
@@ -127,7 +121,7 @@ function TabMenu({ facets, initialFiltersShown, parentCallback, resultsCount, ta
               key={`filter-menu-button-${index}`}
               id={`filter-button-${tabButton.id}`}
               className={tab === tabButton.index ? "tab active" : "tab"}
-              onClick={(e) => parentCallback(e, tabButton.index)}
+              onClick={(e) => setTab(e, tabButton.index)}
             >
               {tabButton.label}
             </button>
@@ -136,41 +130,27 @@ function TabMenu({ facets, initialFiltersShown, parentCallback, resultsCount, ta
         <button
           id="filter-button-filters"
           aria-label="Filters"
-          className={filtersShown ? "tab active" : "tab"}
-          onClick={() => setFiltersShown(!filtersShown)}
+          className={isFilterMenuShown ? "tab active" : "tab"}
+          onClick={() => setIsFilterMenuShown(!isFilterMenuShown)}
         >
           <MediaQuery maxWidth={"768px"}>
             <Icon id={"filter-solid.svg"} />
           </MediaQuery>
           <MediaQuery minWidth={"769px"}>
-            {filtersShown && <Icon id={"material-close.svg"} />}
+            {isFilterMenuShown && <Icon id={"material-close.svg"} />}
             <span>Filters</span>
           </MediaQuery>
         </button>
       </div>
-
-      {filtersShown && (
-        <FilterMenu
-          facets={facets}
-          resultsCount={resultsCount}
-          setFiltersShown={setFiltersShown}
-        />
-      )}
     </StyledTabMenu>
   );
 }
 
 TabMenu.propTypes = {
-  facets: PropTypes.array,
-  initialFiltersShown: PropTypes.bool,
-  parentCallback: PropTypes.func.isRequired,
-  resultsCount: PropTypes.number.isRequired,
+  isFilterMenuShown: PropTypes.bool.isRequired,
+  setIsFilterMenuShown: PropTypes.func.isRequired,
   tab: PropTypes.number.isRequired,
+  setTab: PropTypes.func.isRequired,
 };
-
-TabMenu.defaultProps = {
-  facets: [],
-  initialFiltersShown: false,
-}
 
 export default TabMenu;
