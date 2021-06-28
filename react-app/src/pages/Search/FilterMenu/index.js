@@ -142,13 +142,34 @@ const StyledFilterMenu = styled.div`
       display: flex;
       flex-direction: row;
       align-items: baseline;
-      justify-content: space-between;
+      justify-content: flex-start;
 
       p {
         color: #003366;
         font-size: 24px;
         font-weight: 700;
         margin: 0;
+      }
+
+      button#filter-button-close-filters {
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 44px;
+        margin: 0 16px 0 0;
+        padding: 0;
+        width: 44px;
+
+        svg {
+          color: #313132;
+          height: 32px;
+          margin: auto;
+          width: 32px;
+        }
+
+        &:hover {
+          background-color: #dedede;
+        }
       }
 
       button#filter-button-reset {
@@ -158,7 +179,7 @@ const StyledFilterMenu = styled.div`
         cursor: pointer;
         font-size: 18px;
         height: 44px;
-        margin: 0;
+        margin: 0 0 0 auto;
         padding: 0;
 
         :focus {
@@ -451,6 +472,15 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
           <div className="scrollable">
             {/* Label and reset button */}
             <div className="filter-top-controls">
+              <MediaQuery maxWidth={1537}>
+                <button
+                  aria-label="Close filter menu"
+                  id="filter-button-close-filters"
+                  onClick={() => { setFiltersShown(false) }}
+                >
+                  <Icon id={"material-close.svg"} />
+                </button>
+              </MediaQuery>
               <p>Refine by</p>
 
               {/* TODO: Hide reset button if no filters are selected */}
