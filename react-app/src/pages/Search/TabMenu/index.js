@@ -8,7 +8,7 @@ import Icon from "../../../components/Icon";
 import tabMap from "../tabMap";
 import DateRangePicker from "./DateRangePicker";
 
-const StyledFilterMenu = styled.div`
+const StyledTabMenu = styled.div`
   position: relative;
 
   * {
@@ -367,7 +367,7 @@ const StyledFilterMenu = styled.div`
   }
 `;
 
-function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount, tab }) {
+function TabMenu({ facets, initialFiltersShown, parentCallback, resultsCount, tab }) {
   const [filtersShown, setFiltersShown] = useState(
     initialFiltersShown || false
   );
@@ -437,7 +437,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
   }
 
   return (
-    <StyledFilterMenu>
+    <StyledTabMenu>
       <div className="tabs-menu">
         {tabMap.map((tabButton, index) => {
           return (
@@ -754,11 +754,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
             </MediaQuery>
         </div>
       )}
-    </StyledFilterMenu>
+    </StyledTabMenu>
   );
 }
 
-FilterMenu.propTypes = {
+TabMenu.propTypes = {
   facets: PropTypes.array,
   initialFiltersShown: PropTypes.bool,
   parentCallback: PropTypes.func.isRequired,
@@ -766,9 +766,9 @@ FilterMenu.propTypes = {
   tab: PropTypes.number.isRequired,
 };
 
-FilterMenu.defaultProps = {
+TabMenu.defaultProps = {
   facets: [],
   initialFiltersShown: false,
 }
 
-export default FilterMenu;
+export default TabMenu;

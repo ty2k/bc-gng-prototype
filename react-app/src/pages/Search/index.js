@@ -5,7 +5,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
-import FilterMenu from "./FilterMenu";
+import TabMenu from "./TabMenu";
 import LoadSpinner from "../../components/LoadSpinner";
 import Result from "./Result";
 import SearchBar from "../../components/SearchBar";
@@ -270,7 +270,7 @@ function Search() {
 
       {/* Filter menu */}
       {query && (
-        <FilterMenu facets={facets} parentCallback={submitNewQuery} resultsCount={resultsCount} tab={tab} />
+        <TabMenu facets={facets} parentCallback={submitNewQuery} resultsCount={resultsCount} tab={tab} />
       )}
 
       {/* Count of results found */}
