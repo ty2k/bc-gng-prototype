@@ -8,13 +8,15 @@ import Icon from "../../../components/Icon";
 import DateRangePicker from "./DateRangePicker";
 
 const StyledFilterMenu = styled.div`
+  position: relative;
+
   div.filters-menu {
     background-color: white;
     left: 100%;
     margin-left: 24px;
     max-width: 320px;
     position: absolute;
-    top: 0;
+    top: -57px;
 
     @media (max-width: 1537px) {
       display: block;
