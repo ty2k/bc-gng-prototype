@@ -270,7 +270,7 @@ function Search() {
 
       {/* Filter menu */}
       {query && (
-        <FilterMenu facets={facets} parentCallback={submitNewQuery} tab={tab} />
+        <FilterMenu facets={facets} parentCallback={submitNewQuery} resultsCount={resultsCount} tab={tab} />
       )}
 
       {/* Count of results found */}
