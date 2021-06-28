@@ -6,6 +6,7 @@ import styled from "styled-components";
 import xml2js from "xml2js";
 
 import TabMenu from "./TabMenu";
+import FilterMenu from "./FilterMenu";
 import LoadSpinner from "../../components/LoadSpinner";
 import Result from "./Result";
 import SearchBar from "../../components/SearchBar";
@@ -95,6 +96,22 @@ function Search() {
     useQuery().get("q") ? true : false
   );
   const [isNoResultsFound, setIsNoResultsFound] = useState(false);
+
+  // Filter variables
+  // TODO: Add handling for URL parameter filter menu display, filter config
+  const [isFilterMenuShown, setIsFilterMenuShown] = useState(false);
+  const [timeSelectOpen, setTimeSelectOpen] = useState(false);
+  const [timeSelectValue, setTimeSelectValue] = useState("anytime");
+  const [customDateRange, setCustomDateRange] = useState([
+    new Date(),
+    new Date(),
+  ]);
+  const [sortedBySelectOpen, setSortedBySelectOpen] = useState(false);
+  const [sortedBySelectValue, setSortedBySelectValue] = useState("best-match");
+  const [facetsOpen, setFacetsOpen] = useState([]);
+  const [facetCategoriesSelected, setFacetCategoriesSelected] = useState([]);
+
+  // Results variables
   const [results, setResults] = useState([]);
   const [resultsCount, setResultsCount] = useState(0);
   const [lastResultShown, setLastResultShown] = useState(null);
@@ -268,9 +285,37 @@ function Search() {
         parentCallback={updateNewQuery}
       />
 
-      {/* Filter menu */}
+      {/* Tab menu and Filter menu */}
       {query && (
-        <TabMenu facets={facets} parentCallback={submitNewQuery} resultsCount={resultsCount} tab={tab} />
+        <>
+          <TabMenu
+            isFilterMenuShown={isFilterMenuShown}
+            setTab={submitNewQuery}
+            tab={tab}
+            setIsFilterMenuShown={setIsFilterMenuShown}
+          />
+          {isFilterMenuShown && (
+            <FilterMenu
+              facets={facets}
+              resultsCount={results?.length || 0}
+              setIsFilterMenuShown={setIsFilterMenuShown}
+              timeSelectOpen={timeSelectOpen}
+              setTimeSelectOpen={setTimeSelectOpen}
+              timeSelectValue={timeSelectValue}
+              setTimeSelectValue={setTimeSelectValue}
+              customDateRange={customDateRange}
+              setCustomDateRange={setCustomDateRange}
+              sortedBySelectOpen={sortedBySelectOpen}
+              setSortedBySelectOpen={setSortedBySelectOpen}
+              sortedBySelectValue={sortedBySelectValue}
+              setSortedBySelectValue={setSortedBySelectValue}
+              facetsOpen={facetsOpen}
+              setFacetsOpen={setFacetsOpen}
+              facetCategoriesSelected={facetCategoriesSelected}
+              setFacetCategoriesSelected={setFacetCategoriesSelected}
+            />
+          )}
+        </>
       )}
 
       {/* Count of results found */}

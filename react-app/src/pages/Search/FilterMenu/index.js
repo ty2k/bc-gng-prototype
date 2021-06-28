@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import MediaQuery from "react-responsive";
@@ -263,18 +263,25 @@ const StyledFilterMenu = styled.div`
   }
 `;
 
-function FilterMenu({ facets, resultsCount, setFiltersShown }) {
-  const [timeSelectOpen, setTimeSelectOpen] = useState(false);
-  const [timeSelectValue, setTimeSelectValue] = useState("anytime");
-  const [customDateRange, setCustomDateRange] = useState([
-    new Date(),
-    new Date(),
-  ]);
-  const [sortSelectOpen, setSortSelectOpen] = useState(false);
-  const [sortSelectValue, setSortSelectValue] = useState("best-match");
-  const [facetsOpen, setFacetsOpen] = useState([]);
-  const [facetCategoriesSelected, setFacetCategoriesSelected] = useState([]);
-
+function FilterMenu({
+  facets,
+  resultsCount,
+  setIsFilterMenuShown,
+  timeSelectOpen,
+  setTimeSelectOpen,
+  timeSelectValue,
+  setTimeSelectValue,
+  customDateRange,
+  setCustomDateRange,
+  sortedBySelectOpen,
+  setSortedBySelectOpen,
+  sortedBySelectValue,
+  setSortedBySelectValue,
+  facetsOpen,
+  setFacetsOpen,
+  facetCategoriesSelected,
+  setFacetCategoriesSelected,
+}) {
   function getTimeSelectLabel(key) {
     const map = {
       "anytime": "Anytime",
@@ -288,7 +295,7 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
     return map[key];
   }
 
-  function getSortSelectLabel(key) {
+  function getSortedBySelectLabel(key) {
     const map = {
       "best-match": "Best Match",
       "most-recent": "Most Recent",
@@ -323,8 +330,8 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
   function resetFilters() {
     setTimeSelectValue("anytime");
     setTimeSelectOpen(false);
-    setSortSelectValue("best-match");
-    setSortSelectOpen(false);
+    setSortedBySelectValue("best-match");
+    setSortedBySelectOpen(false);
     setFacetCategoriesSelected([]);
     setFacetsOpen([]);
   }
@@ -339,7 +346,7 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
                 <button
                   aria-label="Close filter menu"
                   id="filter-button-close-filters"
-                  onClick={() => { setFiltersShown(false) }}
+                  onClick={() => { setIsFilterMenuShown(false) }}
                 >
                   <Icon id={"material-close.svg"} />
                 </button>
@@ -483,20 +490,20 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
               <div className="filter-selection-group">
                 <button
                   className="head"
-                  aria-label={`Sort by: ${getSortSelectLabel(sortSelectValue)}`}
-                  onClick={() => setSortSelectOpen(!sortSelectOpen)}
+                  aria-label={`Sort by: ${getSortedBySelectLabel(sortedBySelectValue)}`}
+                  onClick={() => setSortedBySelectOpen(!sortedBySelectOpen)}
                 >
                   <span className="title">Sort by:</span>
                   <span className="current-selection">
-                    {getSortSelectLabel(sortSelectValue)}
+                    {getSortedBySelectLabel(sortedBySelectValue)}
                   </span>
-                  {sortSelectOpen ? (
+                  {sortedBySelectOpen ? (
                     <Icon id={"ionic-ios-arrow-up.svg"} />
                   ) : (
                     <Icon id={"ionic-ios-arrow-down.svg"} />
                   )}
                 </button>
-                {sortSelectOpen && (
+                {sortedBySelectOpen && (
                   <div className="body">
                     <fieldset aria-labelledby="legend-sort-select">
                       <legend id="legend-sort-select">
@@ -510,11 +517,11 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
                           id="sort-select-best-match"
                           name="sort-select"
                           value="best-match"
-                          checked={sortSelectValue === "best-match"}
-                          onChange={() => setSortSelectValue("best-match")}
+                          checked={sortedBySelectValue === "best-match"}
+                          onChange={() => setSortedBySelectValue("best-match")}
                         />
                         <label htmlFor="sort-select-best-match">
-                          {getSortSelectLabel("best-match")}
+                          {getSortedBySelectLabel("best-match")}
                         </label>
                       </div>
 
@@ -525,11 +532,11 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
                           id="sort-select-most-recent"
                           name="sort-select"
                           value="most-recent"
-                          checked={sortSelectValue === "most-recent"}
-                          onChange={() => setSortSelectValue("most-recent")}
+                          checked={sortedBySelectValue === "most-recent"}
+                          onChange={() => setSortedBySelectValue("most-recent")}
                         />
                         <label htmlFor="sort-select-most-recent">
-                          {getSortSelectLabel("most-recent")}
+                          {getSortedBySelectLabel("most-recent")}
                         </label>
                       </div>
                     </fieldset>
@@ -611,7 +618,7 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
             <MediaQuery maxWidth={1537}>
               <button
                 className="show-results"
-                onClick={() => {setFiltersShown(false)}}
+                onClick={() => {setIsFilterMenuShown(false)}}
               >
                 View {resultsCount} results
               </button>
@@ -624,7 +631,7 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
 FilterMenu.propTypes = {
   facets: PropTypes.array,
   resultsCount: PropTypes.number.isRequired,
-  setFiltersShown: PropTypes.func.isRequired,
+  setIsFilterMenuShown: PropTypes.func.isRequired,
 }
 
 FilterMenu.defaultProps = {
