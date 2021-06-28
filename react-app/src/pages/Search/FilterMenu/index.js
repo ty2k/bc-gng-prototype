@@ -1,117 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import MediaQuery from "react-responsive";
 
 import Icon from "../../../components/Icon";
 
-import tabMap from "../tabMap";
 import DateRangePicker from "./DateRangePicker";
 
 const StyledFilterMenu = styled.div`
-  position: relative;
-
-  * {
-    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-  }
-
-  button.tab {
-    background: none;
-    border: none;
-    border-bottom: 5px solid transparent;
-    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-    font-size: 18px;
-    height: 44px;
-    margin: 0 12px;
-    padding: 5px;
-
-    &.active {
-      border-bottom: 5px solid #fcba19;
-    }
-
-    &:focus {
-      outline: 4px solid #3b99fc;
-      text-decoration: underline;
-    }
-
-    &:hover {
-      cursor: pointer;
-      text-decoration: underline;
-    }
-
-    &#filter-button-filters {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-
-      svg {
-        color: #313132;
-        height: 32px;
-        margin: 5px 5px 0 5px;
-        width: 32px;
-      }
-
-      &.active {
-        border-color: transparent;
-      }
-    }
-
-    @media (max-width: 768px) {
-      margin: 0 7px;
-
-      /* On mobile, the Filters button becomes a funnel icon */
-      &#filter-button-filters {
-        border-bottom: 5px solid transparent;
-        height: 44px;
-        width: 44px;
-
-        svg {
-          color: #313132;
-          display: inline;
-          height: 24px;
-          margin: auto;
-        }
-
-        &.active {
-          border-bottom: 5px solid #fcba19;
-        }
-
-        &:hover {
-          background-color: #dedede;
-        }
-      }
-    }
-
-    @media (max-width: 576px) {
-      margin: 0 3px;
-      padding: 5px 2px;
-    }
-  }
-
-  div.tabs-menu {
-    border-bottom: 1px solid #d6d6d6;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin: 22px 0 12px 0;
-
-    button.tab {
-      // Smaller text for tab buttons on very small devices
-      @media (max-width: 575px) {
-        font-size: 16px;
-      }
-
-      &:first-child {
-        margin-left: 0;
-      }
-
-      &:last-child {
-        margin-left: auto;
-        margin-right: 0;
-      }
-    }
-  }
-
   div.filters-menu {
     background-color: white;
     left: 100%;
@@ -367,21 +263,25 @@ const StyledFilterMenu = styled.div`
   }
 `;
 
-function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount, tab }) {
-  const [filtersShown, setFiltersShown] = useState(
-    initialFiltersShown || false
-  );
-  const [timeSelectOpen, setTimeSelectOpen] = useState(false);
-  const [timeSelectValue, setTimeSelectValue] = useState("anytime");
-  const [customDateRange, setCustomDateRange] = useState([
-    new Date(),
-    new Date(),
-  ]);
-  const [sortSelectOpen, setSortSelectOpen] = useState(false);
-  const [sortSelectValue, setSortSelectValue] = useState("best-match");
-  const [facetsOpen, setFacetsOpen] = useState([]);
-  const [facetCategoriesSelected, setFacetCategoriesSelected] = useState([]);
-
+function FilterMenu({
+  facets,
+  resultsCount,
+  setIsFilterMenuShown,
+  timeSelectOpen,
+  setTimeSelectOpen,
+  timeSelectValue,
+  setTimeSelectValue,
+  customDateRange,
+  setCustomDateRange,
+  sortedBySelectOpen,
+  setSortedBySelectOpen,
+  sortedBySelectValue,
+  setSortedBySelectValue,
+  facetsOpen,
+  setFacetsOpen,
+  facetCategoriesSelected,
+  setFacetCategoriesSelected,
+}) {
   function getTimeSelectLabel(key) {
     const map = {
       "anytime": "Anytime",
@@ -395,7 +295,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
     return map[key];
   }
 
-  function getSortSelectLabel(key) {
+  function getSortedBySelectLabel(key) {
     const map = {
       "best-match": "Best Match",
       "most-recent": "Most Recent",
@@ -430,45 +330,15 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
   function resetFilters() {
     setTimeSelectValue("anytime");
     setTimeSelectOpen(false);
-    setSortSelectValue("best-match");
-    setSortSelectOpen(false);
+    setSortedBySelectValue("best-match");
+    setSortedBySelectOpen(false);
     setFacetCategoriesSelected([]);
     setFacetsOpen([]);
   }
 
   return (
     <StyledFilterMenu>
-      <div className="tabs-menu">
-        {tabMap.map((tabButton, index) => {
-          return (
-            <button
-              key={`filter-menu-button-${index}`}
-              id={`filter-button-${tabButton.id}`}
-              className={tab === tabButton.index ? "tab active" : "tab"}
-              onClick={(e) => parentCallback(e, tabButton.index)}
-            >
-              {tabButton.label}
-            </button>
-          );
-        })}
-        <button
-          id="filter-button-filters"
-          aria-label="Filters"
-          className={filtersShown ? "tab active" : "tab"}
-          onClick={() => setFiltersShown(!filtersShown)}
-        >
-          <MediaQuery maxWidth={"768px"}>
-            <Icon id={"filter-solid.svg"} />
-          </MediaQuery>
-          <MediaQuery minWidth={"769px"}>
-            {filtersShown && <Icon id={"material-close.svg"} />}
-            <span>Filters</span>
-          </MediaQuery>
-        </button>
-      </div>
-
-      {filtersShown && (
-        <div className="filters-menu">
+      <div className="filters-menu">
           <div className="scrollable">
             {/* Label and reset button */}
             <div className="filter-top-controls">
@@ -476,7 +346,7 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
                 <button
                   aria-label="Close filter menu"
                   id="filter-button-close-filters"
-                  onClick={() => { setFiltersShown(false) }}
+                  onClick={() => { setIsFilterMenuShown(false) }}
                 >
                   <Icon id={"material-close.svg"} />
                 </button>
@@ -605,8 +475,8 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
                       {timeSelectOpen && timeSelectValue === "custom-range" && (
                         <DateRangePicker
                           id={"time-select"}
-                          initialStartDate={new Date()}
-                          initialEndDate={new Date()}
+                          initialStartDate={customDateRange[0]}
+                          initialEndDate={customDateRange[1]}
                           label={"Filter by date range"}
                           reportDates={setCustomDateRange}
                         />
@@ -620,20 +490,20 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
               <div className="filter-selection-group">
                 <button
                   className="head"
-                  aria-label={`Sort by: ${getSortSelectLabel(sortSelectValue)}`}
-                  onClick={() => setSortSelectOpen(!sortSelectOpen)}
+                  aria-label={`Sort by: ${getSortedBySelectLabel(sortedBySelectValue)}`}
+                  onClick={() => setSortedBySelectOpen(!sortedBySelectOpen)}
                 >
                   <span className="title">Sort by:</span>
                   <span className="current-selection">
-                    {getSortSelectLabel(sortSelectValue)}
+                    {getSortedBySelectLabel(sortedBySelectValue)}
                   </span>
-                  {sortSelectOpen ? (
+                  {sortedBySelectOpen ? (
                     <Icon id={"ionic-ios-arrow-up.svg"} />
                   ) : (
                     <Icon id={"ionic-ios-arrow-down.svg"} />
                   )}
                 </button>
-                {sortSelectOpen && (
+                {sortedBySelectOpen && (
                   <div className="body">
                     <fieldset aria-labelledby="legend-sort-select">
                       <legend id="legend-sort-select">
@@ -647,11 +517,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
                           id="sort-select-best-match"
                           name="sort-select"
                           value="best-match"
-                          checked={sortSelectValue === "best-match"}
-                          onChange={() => setSortSelectValue("best-match")}
+                          checked={sortedBySelectValue === "best-match"}
+                          onChange={() => setSortedBySelectValue("best-match")}
                         />
                         <label htmlFor="sort-select-best-match">
-                          {getSortSelectLabel("best-match")}
+                          {getSortedBySelectLabel("best-match")}
                         </label>
                       </div>
 
@@ -662,11 +532,11 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
                           id="sort-select-most-recent"
                           name="sort-select"
                           value="most-recent"
-                          checked={sortSelectValue === "most-recent"}
-                          onChange={() => setSortSelectValue("most-recent")}
+                          checked={sortedBySelectValue === "most-recent"}
+                          onChange={() => setSortedBySelectValue("most-recent")}
                         />
                         <label htmlFor="sort-select-most-recent">
-                          {getSortSelectLabel("most-recent")}
+                          {getSortedBySelectLabel("most-recent")}
                         </label>
                       </div>
                     </fieldset>
@@ -742,33 +612,30 @@ function FilterMenu({ facets, initialFiltersShown, parentCallback, resultsCount,
                 })}
             </div>
           </div>
+
           {/* When menu is in "slide out" mode, show the results count button
             which hides the filters when pressed */}
             <MediaQuery maxWidth={1537}>
               <button
                 className="show-results"
-                onClick={() => {setFiltersShown(false)}}
+                onClick={() => {setIsFilterMenuShown(false)}}
               >
                 View {resultsCount} results
               </button>
             </MediaQuery>
         </div>
-      )}
     </StyledFilterMenu>
   );
 }
 
 FilterMenu.propTypes = {
   facets: PropTypes.array,
-  initialFiltersShown: PropTypes.bool,
-  parentCallback: PropTypes.func.isRequired,
   resultsCount: PropTypes.number.isRequired,
-  tab: PropTypes.number.isRequired,
-};
+  setIsFilterMenuShown: PropTypes.func.isRequired,
+}
 
 FilterMenu.defaultProps = {
   facets: [],
-  initialFiltersShown: false,
 }
 
 export default FilterMenu;
