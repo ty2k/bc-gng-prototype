@@ -468,8 +468,8 @@ function FilterMenu({ facets, resultsCount, setFiltersShown }) {
                       {timeSelectOpen && timeSelectValue === "custom-range" && (
                         <DateRangePicker
                           id={"time-select"}
-                          initialStartDate={new Date()}
-                          initialEndDate={new Date()}
+                          initialStartDate={customDateRange[0]}
+                          initialEndDate={customDateRange[1]}
                           label={"Filter by date range"}
                           reportDates={setCustomDateRange}
                         />
