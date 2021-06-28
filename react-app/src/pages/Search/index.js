@@ -16,6 +16,10 @@ const StyledSearchResults = styled.div`
   margin: 0 auto;
   padding: 0 0 120px 0;
 
+  * {
+    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
+  }
+
   @media (max-width: 768px) {
     margin-left: min(16px, 50%);
     margin-right: min(16px, 50%);
