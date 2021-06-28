@@ -79,6 +79,11 @@ const StyledFilterMenu = styled.div`
         &:hover {
           background-color: #dedede;
         }
+
+        &:focus {
+          background-color: #dedede;
+          outline: 4px solid #3b99fc;
+        }
       }
 
       button#filter-button-reset {
