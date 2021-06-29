@@ -9,10 +9,6 @@ import tabMap from "../tabMap";
 const StyledTabMenu = styled.div`
   position: relative;
 
-  * {
-    font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
-  }
-
   button.tab {
     background: none;
     border: none;
