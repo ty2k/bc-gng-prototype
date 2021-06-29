@@ -335,7 +335,17 @@ function Search() {
       {resultsCount > 0 &&
         results?.length > 0 &&
         results.map((result, index) => {
-          return <Result key={`result-${index}`} result={result} tab={tab} />;
+          return (
+            <Result
+              key={`result-${index}`}
+              isDateShown={
+                sortedBySelectValue === "most-recent" ||
+                timeSelectValue !== "anytime"
+              }
+              result={result}
+              tab={tab}
+            />
+          );
         })}
 
       {/* Load more results button */}
