@@ -113,7 +113,7 @@ function Search() {
   const [sortedBySelectOpen, setSortedBySelectOpen] = useState(false);
   const [sortedBySelectValue, setSortedBySelectValue] = useState("best-match");
   const [facetsOpen, setFacetsOpen] = useState([]);
-  const [facetCategoriesSelected, setFacetCategoriesSelected] = useState([]);
+  const [facetSelectValue, setFacetSelectValue] = useState({});
 
   // Results variables
   const [results, setResults] = useState([]);
@@ -143,6 +143,7 @@ function Search() {
       setResults([]);
       setResultsCount(0);
       setLastResultShown(null);
+      // TODO: Need to reset all the FilterMenu stuff here too
     }
   }
 
@@ -227,7 +228,7 @@ function Search() {
               }
 
               newFacets.push({
-                facet: facetName,
+                name: facetName,
                 categories: categories,
               });
             });
@@ -315,8 +316,8 @@ function Search() {
               setSortedBySelectValue={setSortedBySelectValue}
               facetsOpen={facetsOpen}
               setFacetsOpen={setFacetsOpen}
-              facetCategoriesSelected={facetCategoriesSelected}
-              setFacetCategoriesSelected={setFacetCategoriesSelected}
+              facetSelectValue={facetSelectValue}
+              setFacetSelectValue={setFacetSelectValue}
             />
           )}
         </>
@@ -335,7 +336,17 @@ function Search() {
       {resultsCount > 0 &&
         results?.length > 0 &&
         results.map((result, index) => {
-          return <Result key={`result-${index}`} result={result} tab={tab} />;
+          return (
+            <Result
+              key={`result-${index}`}
+              isDateShown={
+                sortedBySelectValue === "most-recent" ||
+                timeSelectValue !== "anytime"
+              }
+              result={result}
+              tab={tab}
+            />
+          );
         })}
 
       {/* Load more results button */}

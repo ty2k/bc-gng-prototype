@@ -4,7 +4,7 @@ import MediaQuery from "react-responsive";
 
 import Icon from "../../../components/Icon";
 
-import tabMap from "../tabMap";
+import tabMap from "./tabMap";
 
 const StyledTabMenu = styled.div`
   position: relative;
