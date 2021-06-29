@@ -145,6 +145,14 @@ const StyledFilterMenu = styled.div`
             margin-right: auto;
           }
 
+          span.selected-indicator {
+            background-color: #003366;
+            border-radius: 50%;
+            content: "";
+            height: 10px;
+            width: 10px;
+          }
+
           svg {
             margin-left: 8px;
             width: 20px;
@@ -558,10 +566,19 @@ function FilterMenu({
                   >
                     <button
                       className="head"
-                      aria-label={facet.name}
                       onClick={() => handleFacetButtonToggle(index)}
                     >
                       <span className="title">{facet.name}</span>
+
+                      {/* If a given body contains the selected item, show
+                      a visual indicator dot with spoken label so users know
+                      an item has been selected even if the body is hidden */}
+                      {facetSelectValue.facet === facet.name && (
+                        <span
+                          className="selected-indicator"
+                          title="Contains selected filter item"
+                        />
+                      )}
                       {facetsOpen.includes(index) ? (
                         <Icon id={"ionic-ios-arrow-up.svg"} />
                       ) : (
