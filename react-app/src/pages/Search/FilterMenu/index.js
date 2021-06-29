@@ -163,12 +163,6 @@ const StyledFilterMenu = styled.div`
             max-width: 320px;
             padding: 0;
 
-            &.fieldset--facet {
-              &:focus-within {
-                outline: none;
-              }
-            }
-
             legend {
               display: none;
             }
@@ -182,13 +176,23 @@ const StyledFilterMenu = styled.div`
                 height: 1px;
                 opacity: 0.01;
                 width: 1px;
+
+                &:focus {
+                  + label {
+                    outline: 4px solid #3b99fc;
+                  }
+                }
               }
 
               input[type="radio"] + label {
+                align-items: center;
                 cursor: pointer;
+                display: flex;
+                flex-direction: row;
                 font-size: 18px;
-                line-height: 44px;
+                line-height: 1;
                 min-height: 44px;
+                padding: 8px 0;
 
                 &:hover {
                   text-decoration: underline;
@@ -200,52 +204,28 @@ const StyledFilterMenu = styled.div`
                 font-weight: 700;
               }
 
-              &:focus-within {
-                outline: 4px solid #3b99fc;
-              }
-            }
-
-            div.facet-category {
-              align-items: top;
-              display: flex;
-              flex-direction: row;
-              vertical-align: top;
-
-              /* Checkbox box aspect */
-              input[type="checkbox"]:not(:checked):before,
-              input[type="checkbox"]:checked:before {
-                background: white;
-                border: 1px solid #606060;
-                content: "";
-                display: inline-block;
-                height: 20px;
-                width: 20px;
-              }
-
-              /* Checkbox checkmark aspect */
-              input[type="checkbox"]:checked:before {
-                color: #313132;
-                content: "";
-                background-color: #606060;
-                background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check' class='svg-inline--fa fa-check fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFFFFF' d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'%3E%3C/path%3E%3C/svg%3E%0A"); // FontAwesome check-solid in white
-                background-position-x: 1px;
-                background-position-y: 1px;
-                background-repeat: no-repeat;
-                background-size: 16px 16px;
-              }
-
-              label {
-                color: #313132;
+              button.clear-facet-selection {
+                background: none;
+                border: none;
                 cursor: pointer;
-                display: flex;
-                font-size: 18px;
-                padding: 8px 8px 8px 0;
+                height: 44px;
+                margin-left: auto;
+                padding: 0;
+                width: 44px;
 
-                span {
-                  margin-left: 30px;
+                svg {
+                  color: #313132;
+                  height: 32px;
+                  margin: auto;
+                  width: 32px;
                 }
 
-                &:focus-within {
+                &:hover {
+                  background-color: #dedede;
+                }
+
+                &:focus {
+                  background-color: #dedede;
                   outline: 4px solid #3b99fc;
                 }
               }
@@ -297,8 +277,8 @@ function FilterMenu({
   setSortedBySelectValue,
   facetsOpen,
   setFacetsOpen,
-  facetCategoriesSelected,
-  setFacetCategoriesSelected,
+  facetSelectValue,
+  setFacetSelectValue,
 }) {
   // On small screens, the FilterMenu is a slide out modal that takes up the
   // entire vertical height of the screen over top a dark background (Cover).
@@ -350,24 +330,12 @@ function FilterMenu({
     }
   }
 
-  function handleFacetCategorySelection(index, cIndex, event) {
-    const currentFacetCategoriesSelected = [...facetCategoriesSelected]
-
-    if (event.target.checked) {
-      setFacetCategoriesSelected([`${index}-${cIndex}`, ...currentFacetCategoriesSelected]);
-    } else {
-      setFacetCategoriesSelected(
-        currentFacetCategoriesSelected.filter(fc => fc !== `${index}-${cIndex}`)
-      );
-    }
-  }
-
   function resetFilters() {
     setTimeSelectValue("anytime");
     setTimeSelectOpen(false);
     setSortedBySelectValue("best-match");
     setSortedBySelectOpen(false);
-    setFacetCategoriesSelected([]);
+    setFacetSelectValue({});
     setFacetsOpen([]);
   }
 
@@ -543,7 +511,7 @@ function FilterMenu({
                 <div className="body">
                   <fieldset aria-labelledby="legend-sort-select">
                     <legend id="legend-sort-select">
-                      Select how to search results
+                      Select how to sort results
                     </legend>
 
                     {/* Best match */}
@@ -586,14 +554,14 @@ function FilterMenu({
                 return (
                   <div
                     key={`filter-selection-group-facet-${index}`}
-                    className="filter-selection-group filter-radio-group"
+                    className="filter-selection-group"
                   >
                     <button
                       className="head"
-                      aria-label={facet.facet}
+                      aria-label={facet.name}
                       onClick={() => handleFacetButtonToggle(index)}
                     >
-                      <span className="title">{facet.facet}</span>
+                      <span className="title">{facet.name}</span>
                       {facetsOpen.includes(index) ? (
                         <Icon id={"ionic-ios-arrow-up.svg"} />
                       ) : (
@@ -603,38 +571,48 @@ function FilterMenu({
                     {facetsOpen.includes(index) && (
                       <div className="body">
                         <fieldset className="fieldset--facet">
-                          {facet?.facet && <legend>{facet.facet}</legend>}
+                          {facet?.name && <legend>{facet.name}</legend>}
                           {facet?.categories?.length > 0 && (
                             <div className="facet">
                               {facet.categories.map((category, cIndex) => {
                                 return (
                                   <div
                                     key={`facet-${index}-category-${cIndex}`}
-                                    className="facet-category"
+                                    className="input-container"
                                   >
+                                    <input
+                                      type="radio"
+                                      id={`facet-${index}-${cIndex}`}
+                                      name={`facet-${index}`}
+                                      value={`${index}-${cIndex}`}
+                                      checked={
+                                        facetSelectValue?.facet === facet.name &&
+                                        facetSelectValue?.category === category.name
+                                      }
+                                      onChange={() => {
+                                        setFacetSelectValue({
+                                          facet: facet?.name,
+                                          category: category?.name,
+                                        });
+                                      }}
+                                    />
                                     <label
-                                      htmlFor={`facet-checkbox-${index}-${cIndex}`}
+                                      htmlFor={`facet-${index}-${cIndex}`}
                                     >
-                                      <input
-                                        type="checkbox"
-                                        id={`facet-checkbox-${index}-${cIndex}`}
-                                        name={`facet-checkbox-${index}-${cIndex}`}
-                                        value={`${index}-${cIndex}`}
-                                        checked={facetCategoriesSelected.includes(
-                                          `${index}-${cIndex}`
-                                        )}
-                                        onChange={(e) => {
-                                          handleFacetCategorySelection(
-                                            index,
-                                            cIndex,
-                                            e
-                                          );
-                                        }}
-                                      />
-                                      <span>
-                                        {category?.name} ({category?.count})
-                                      </span>
+                                      {category?.name} ({category?.count})
                                     </label>
+
+                                    {/* If a radio facet option is selected,
+                                    show an "X" button that clears selection */}
+                                    {facetSelectValue?.facet === facet.name &&
+                                      facetSelectValue?.category === category.name && (
+                                        <button
+                                          className="clear-facet-selection"
+                                          onClick={() => setFacetSelectValue({})}
+                                        >
+                                          <Icon id={"material-close.svg"} />
+                                        </button>
+                                    )}
                                   </div>
                                 );
                               })}
