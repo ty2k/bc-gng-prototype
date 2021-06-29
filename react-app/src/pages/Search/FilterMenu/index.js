@@ -374,7 +374,7 @@ function FilterMenu({
   return (
     <StyledFilterMenu>
 
-      {isSmallScreen && <Cover /> }
+      {isSmallScreen && <Cover onClick={() => setIsFilterMenuShown(false)} /> }
 
       <div className="filters-menu">
         <div className="scrollable">
