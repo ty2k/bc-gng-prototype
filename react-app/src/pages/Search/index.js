@@ -110,8 +110,8 @@ function Search() {
   const [timeSelectOpen, setTimeSelectOpen] = useState(false);
   const [timeSelectValue, setTimeSelectValue] = useState("anytime");
   const [customDateRange, setCustomDateRange] = useState([
-    new Date().getTime() - 24 * 60 * 60 * 1000,
-    new Date().getTime(),
+    parseInt(new Date().getTime() - 24 * 60 * 60 * 1000),
+    parseInt(new Date().getTime()),
   ]);
   const [sortedBySelectOpen, setSortedBySelectOpen] = useState(false);
   const [sortedBySelectValue, setSortedBySelectValue] = useState("best-match");

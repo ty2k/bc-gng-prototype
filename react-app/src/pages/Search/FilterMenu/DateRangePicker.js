@@ -96,8 +96,11 @@ function DateRangePicker({
 }
 
 DateRangePicker.propTypes = {
+  id: PropTypes.string.isRequired,
   initialStartDate: PropTypes.number.isRequired,
   initialEndDate: PropTypes.number.isRequired,
+  label: PropTypes.string.isRequired,
+  reportDates: PropTypes.func.isRequired,
 };
 
 export default DateRangePicker;
