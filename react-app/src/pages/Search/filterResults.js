@@ -18,13 +18,81 @@ function filterResults (
   sortedBySelectValue,
   facetSelectValue,
 ) {
-  const trimmedByDate = trimByDate(results, timeSelectValue, customDateRange);
+  const filteredByFacet = filterByFacet(results, tab, facetSelectValue);
+  const trimmedByDate = trimByDate(
+    filteredByFacet,
+    timeSelectValue,
+    customDateRange
+  );
 
   if (sortedBySelectValue === "most-recent") {
     return sortByMostRecent(trimmedByDate);
   }
 
   return sortByBestMatch(trimmedByDate);
+}
+
+function filterByFacet(results, tab, facetSelectValue) {
+  // If no facet has been selected, return all results without filtering
+  if (!facetSelectValue?.facet) {
+    return results;
+  }
+
+  // Tab 3 (Documents) has no facet filtering, return all results
+  if (tab === 3) {
+    return results;
+  }
+
+  // If tab = 1, compare `inmeta:level1=` in URL to <MT N="level1" V=""/>
+  if (tab === 1) {
+    console.log("facetSelectValue: ", facetSelectValue);
+
+    return results.filter((result) => {
+      const resultCategory = result?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "level1"
+      )?.$?.V;
+
+      return resultCategory === facetSelectValue?.category;
+    });
+  }
+
+  // If tab = 2, compare `inmeta:DCTERMS.creator=` to <MT N="DCTERMS.creator" V=""/>
+  if (tab === 2) {
+    return results.filter((result) => {
+      const resultCategory = result?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "DCTERMS.creator"
+      )?.$?.V;
+
+      return resultCategory === facetSelectValue?.category;
+    });
+  }
+
+  // If tab = 4, there are two groups of facets, Subject Category and Subjects.
+  // Compare `inmeta:MBCTERMS.subjectCategory` to <MT N="MBCTERMS.subjectCategory" V=""/>
+  // Compare `inmeta:DCTERMS.subject` to <MT N="DCTERMS.subject" V=""/>
+  if (tab === 4) {
+    return results.filter((result) => {
+      const subjectCategory = result?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "MBCTERMS.subjectCategory"
+      )?.$?.V;
+      const subject = result?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "DCTERMS.subject"
+      )?.$?.V;
+
+      if (facetSelectValue?.facet === "Subject Category") {
+        return subjectCategory === facetSelectValue?.category;
+      }
+
+      if (facetSelectValue?.facet === "Subjects") {
+        return subject === facetSelectValue?.category;
+      }
+
+      return false;
+    });
+  }
+
+  // Default case, return results without filtering
+  return results;
 }
 
 // Order results based on the `bestMatchPosition` attribute that we assign in
@@ -44,6 +112,7 @@ function sortByMostRecent(results) {
   });
 }
 
+// Return a subset of results if a date range has been selected
 function trimByDate(results, timeSelectValue, customDateRange) {
   if (timeSelectValue === "anytime") {
     return results;
