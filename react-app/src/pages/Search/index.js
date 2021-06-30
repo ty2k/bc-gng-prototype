@@ -110,8 +110,8 @@ function Search() {
   const [timeSelectOpen, setTimeSelectOpen] = useState(false);
   const [timeSelectValue, setTimeSelectValue] = useState("anytime");
   const [customDateRange, setCustomDateRange] = useState([
-    new Date(),
-    new Date(),
+    new Date().getTime() - 24 * 60 * 60 * 1000,
+    new Date().getTime(),
   ]);
   const [sortedBySelectOpen, setSortedBySelectOpen] = useState(false);
   const [sortedBySelectValue, setSortedBySelectValue] = useState("best-match");
@@ -335,6 +335,7 @@ function Search() {
       )}
 
       {/* Count of results found */}
+      {/* TODO: Change verbage when results are being filtered. */}
       {resultsCount > 0 && (
         <p className="results-found">
           Showing 1-{new Intl.NumberFormat().format(lastResultShown)} of{" "}
@@ -352,7 +353,7 @@ function Search() {
           timeSelectValue,
           customDateRange,
           sortedBySelectValue,
-          facetSelectValue,
+          facetSelectValue
         ).map((result, index) => {
           return (
             <Result

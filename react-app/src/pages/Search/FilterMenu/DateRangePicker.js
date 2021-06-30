@@ -44,8 +44,12 @@ function DateRangePicker({
   label,
   reportDates,
 }) {
-  const [startDate, setStartDate] = useState(initialStartDate || new Date());
-  const [endDate, setEndDate] = useState(initialEndDate || new Date());
+  const [startDate, setStartDate] = useState(
+    new Date(initialStartDate) || new Date()
+  );
+  const [endDate, setEndDate] = useState(
+    new Date(initialEndDate) || new Date()
+  );
 
   return (
     <StyledDateRangePicker>
@@ -92,8 +96,8 @@ function DateRangePicker({
 }
 
 DateRangePicker.propTypes = {
-  initialStartDate: PropTypes.instanceOf(Date),
-  initialEndDate: PropTypes.instanceOf(Date),
+  initialStartDate: PropTypes.number.isRequired,
+  initialEndDate: PropTypes.number.isRequired,
 };
 
 export default DateRangePicker;
