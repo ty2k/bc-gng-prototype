@@ -10,28 +10,34 @@
  * @param {string} facetSelectValue
  * @returns {array}
  */
-function filterResults (
+function filterResults(
   results,
   tab,
   timeSelectValue,
   customDateRange,
   sortedBySelectValue,
-  facetSelectValue,
+  facetSelectValue
 ) {
+  // Order of filtering/sorting operations doesn't matter here,
+  // except in terms of time to complete based on current result load.
   const filteredByFacet = filterByFacet(results, tab, facetSelectValue);
   const trimmedByDate = trimByDate(
     filteredByFacet,
     timeSelectValue,
     customDateRange
   );
-
-  if (sortedBySelectValue === "most-recent") {
-    return sortByMostRecent(trimmedByDate);
-  }
-
-  return sortByBestMatch(trimmedByDate);
+  return sortResults(trimmedByDate, sortedBySelectValue);
 }
 
+/**
+ * Returns a subset of results trimmed based on the selected facet/category.
+ * Tab number is used to determine which result attribute is used for filtering.
+ * `facetSelectValue` is an object with `facet` and `category` key-value pairs.
+ * @param {array} results
+ * @param {number} tab
+ * @param {object} facetSelectValue
+ * @returns
+ */
 function filterByFacet(results, tab, facetSelectValue) {
   // If no facet has been selected, return all results without filtering
   if (!facetSelectValue?.facet) {
@@ -95,24 +101,46 @@ function filterByFacet(results, tab, facetSelectValue) {
   return results;
 }
 
-// Order results based on the `bestMatchPosition` attribute that we assign in
-// Search based on their initial order
-function sortByBestMatch(results) {
-  return results.sort((a, b) => {
-    return a?.bestMatchPosition - b?.bestMatchPosition;
-  });
+/**
+ * Return a sorted array given an array of results and a sort preference string.
+ * "best-match" sorts based on the  `bestMatchPosition` attribute that
+ * we assign in the Search page based on initial result list from the API.
+ * "most-recent" sorts based on the metatag "datasource/modificationDate",
+ * a Unix millisecond timestamp indicating when a result was last modified.
+ * @param {array} results
+ * @param {string} sortedBySelectValue
+ * @returns {array}
+ */
+function sortResults(results, sortedBySelectValue) {
+  if (sortedBySelectValue === "best-match") {
+    return results.sort((a, b) => {
+      return a?.bestMatchPosition - b?.bestMatchPosition;
+    });
+  }
+
+  if (sortedBySelectValue === "most-recent") {
+    return results.sort((a, b) => {
+      const unixMsA = a?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+      const unixMsB = b?.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+      return unixMsB - unixMsA;
+    });
+  }
+
+  return results;
 }
 
-// Order results based on their Unix millisecond modification date timestamp
-function sortByMostRecent(results) {
-  return results.sort((a, b) => {
-    const unixMsA = a?.MT?.find(metaTag => metaTag?.$?.N === "datasource/modificationDate")?.$?.V;
-    const unixMsB = b?.MT?.find(metaTag => metaTag?.$?.N === "datasource/modificationDate")?.$?.V;
-    return unixMsB - unixMsA;
-  });
-}
-
-// Return a subset of results if a date range has been selected
+/**
+ * Returns a subset of results trimmed based on their last modified date using
+ * the desired date range.
+ * @param {array} results
+ * @param {string} timeSelectValue
+ * @param {array} customDateRange - pair of Unix millisecond timestamps
+ * @returns {array}
+ */
 function trimByDate(results, timeSelectValue, customDateRange) {
   if (timeSelectValue === "anytime") {
     return results;
@@ -167,14 +195,8 @@ function trimByDate(results, timeSelectValue, customDateRange) {
   }
 
   if (timeSelectValue === "custom-range") {
-    console.log("customDateRange[0]: ", customDateRange[0]);
-    console.log("customDateRange[1]: ", customDateRange[1]);
-
     const targetStart = new Date(customDateRange[0]).getTime();
     const targetEnd = new Date(customDateRange[1]).getTime();
-
-    console.log("targetStart: ", targetStart);
-    console.log("targetEnd: ", targetEnd);
 
     return results.filter((result) => {
       const resultDate = result.MT?.find(
