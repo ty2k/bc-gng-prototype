@@ -5,11 +5,14 @@ import { useHistory, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import xml2js from "xml2js";
 
-import TabMenu from "./TabMenu";
-import FilterMenu from "./FilterMenu";
 import LoadSpinner from "../../components/LoadSpinner";
-import Result from "./Result";
 import SearchBar from "../../components/SearchBar";
+
+import FilterMenu from "./FilterMenu";
+import Result from "./Result";
+import TabMenu from "./TabMenu";
+
+import filterResults from "./filterResults";
 
 const StyledSearchResults = styled.div`
   max-width: 768px;
@@ -173,7 +176,15 @@ function Search() {
             res?.GSP?.RES.length > 0 &&
             res?.GSP?.RES[0]?.R?.length > 0
           ) {
-            newResults = [...newResults, ...res?.GSP?.RES[0]?.R];
+            let incoming = res?.GSP?.RES[0]?.R;
+
+            incoming.forEach((result, index) => {
+              result.bestMatchPosition = parseInt(
+                newResults.length + index
+              );
+            });
+
+            newResults = [...newResults, ...incoming];
           }
 
           // Update the resultsCount
@@ -335,7 +346,14 @@ function Search() {
       {/* List of results if applicable */}
       {resultsCount > 0 &&
         results?.length > 0 &&
-        results.map((result, index) => {
+        filterResults(
+          results,
+          tab,
+          timeSelectValue,
+          customDateRange,
+          sortedBySelectValue,
+          facetSelectValue,
+        ).map((result, index) => {
           return (
             <Result
               key={`result-${index}`}
