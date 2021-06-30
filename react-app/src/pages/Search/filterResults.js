@@ -18,11 +18,13 @@ function filterResults (
   sortedBySelectValue,
   facetSelectValue,
 ) {
+  const trimmedByDate = trimByDate(results, timeSelectValue, customDateRange);
+
   if (sortedBySelectValue === "most-recent") {
-    return sortByMostRecent(results)
+    return sortByMostRecent(trimmedByDate);
   }
 
-  return sortByBestMatch(results);
+  return sortByBestMatch(trimmedByDate);
 }
 
 // Order results based on the `bestMatchPosition` attribute that we assign in
@@ -40,6 +42,79 @@ function sortByMostRecent(results) {
     const unixMsB = b?.MT?.find(metaTag => metaTag?.$?.N === "datasource/modificationDate")?.$?.V;
     return unixMsB - unixMsA;
   });
+}
+
+function trimByDate(results, timeSelectValue, customDateRange) {
+  if (timeSelectValue === "anytime") {
+    return results;
+  }
+
+  if (timeSelectValue === "today") {
+    const twentyFourHoursAgo = new Date().getTime() - 24 * 60 * 60 * 1000;
+
+    return results.filter((result) => {
+      const resultDate = result.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+
+      return resultDate >= twentyFourHoursAgo;
+    });
+  }
+
+  if (timeSelectValue === "past-7-days") {
+    const sevenDaysAgo = new Date().getTime() - 7 * 24 * 60 * 60 * 1000;
+
+    return results.filter((result) => {
+      const resultDate = result.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+
+      return resultDate >= sevenDaysAgo;
+    });
+  }
+
+  if (timeSelectValue === "past-30-days") {
+    const thirtyDaysAgo = new Date().getTime() - 30 * 24 * 60 * 60 * 1000;
+
+    return results.filter((result) => {
+      const resultDate = result.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+
+      return resultDate >= thirtyDaysAgo;
+    });
+  }
+
+  if (timeSelectValue === "past-90-days") {
+    const ninetyDaysAgo = new Date().getTime() - 90 * 24 * 60 * 60 * 1000;
+
+    return results.filter((result) => {
+      const resultDate = result.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+
+      return resultDate >= ninetyDaysAgo;
+    });
+  }
+
+  if (timeSelectValue === "custom-range") {
+    console.log("customDateRange[0]: ", customDateRange[0]);
+    console.log("customDateRange[1]: ", customDateRange[1]);
+
+    const targetStart = new Date(customDateRange[0]).getTime();
+    const targetEnd = new Date(customDateRange[1]).getTime();
+
+    console.log("targetStart: ", targetStart);
+    console.log("targetEnd: ", targetEnd);
+
+    return results.filter((result) => {
+      const resultDate = result.MT?.find(
+        (metaTag) => metaTag?.$?.N === "datasource/modificationDate"
+      )?.$?.V;
+
+      return resultDate >= targetStart && resultDate <= targetEnd;
+    });
+  }
 }
 
 export default filterResults;
